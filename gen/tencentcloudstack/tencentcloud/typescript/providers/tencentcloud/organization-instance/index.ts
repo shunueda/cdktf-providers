@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/organization_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/organization_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface OrganizationInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/organization_instance#id OrganizationInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/organization_instance#id OrganizationInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface OrganizationInstanceConfig extends cdktf.TerraformMetaArguments
   /**
   * Root node name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/organization_instance#root_node_name OrganizationInstance#root_node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/organization_instance#root_node_name OrganizationInstance#root_node_name}
   */
   readonly rootNodeName?: string;
 }
@@ -103,7 +103,7 @@ export class OrganizationInstanceOrgPermissionList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/organization_instance tencentcloud_organization_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/organization_instance tencentcloud_organization_instance}
 */
 export class OrganizationInstance extends cdktf.TerraformResource {
 
@@ -119,7 +119,7 @@ export class OrganizationInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationInstance to import
-  * @param importFromId The id of the existing OrganizationInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/organization_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/organization_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -131,7 +131,7 @@ export class OrganizationInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/organization_instance tencentcloud_organization_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/organization_instance tencentcloud_organization_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -142,8 +142,8 @@ export class OrganizationInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_organization_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs
+// https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface KeyhubProviderConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs#clientid KeyhubProvider#clientid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs#clientid KeyhubProvider#clientid}
   */
   readonly clientid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs#clientsecret KeyhubProvider#clientsecret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs#clientsecret KeyhubProvider#clientsecret}
   */
   readonly clientsecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs#issuer KeyhubProvider#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs#issuer KeyhubProvider#issuer}
   */
   readonly issuer?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs#alias KeyhubProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs#alias KeyhubProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs keyhub}
+* Represents a {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs keyhub}
 */
 export class KeyhubProvider extends cdktf.TerraformProvider {
 
@@ -44,7 +44,7 @@ export class KeyhubProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a KeyhubProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KeyhubProvider to import
-  * @param importFromId The id of the existing KeyhubProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KeyhubProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KeyhubProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class KeyhubProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs keyhub} Resource
+  * Create a new {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs keyhub} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class KeyhubProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'keyhub',
       terraformGeneratorMetadata: {
         providerName: 'keyhub',
-        providerVersion: '2.44.0',
-        providerVersionConstraint: '2.44.0'
+        providerVersion: '2.45.0',
+        providerVersionConstraint: '2.45.0'
       },
       terraformProviderSource: 'topicuskeyhub/keyhub'
     });

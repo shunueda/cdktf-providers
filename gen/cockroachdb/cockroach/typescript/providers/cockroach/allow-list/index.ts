@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/allow_list
+// https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/allow_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface AllowListConfig extends cdktf.TerraformMetaArguments {
   /**
   * IP address component of the [CIDR](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation) range for this entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/allow_list#cidr_ip AllowList#cidr_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/allow_list#cidr_ip AllowList#cidr_ip}
   */
   readonly cidrIp: string;
   /**
   * The [CIDR](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation) notation prefix length. A number ranging from 0 to 32 indicating the size of the network. Use 32 to allow a single IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/allow_list#cidr_mask AllowList#cidr_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/allow_list#cidr_mask AllowList#cidr_mask}
   */
   readonly cidrMask: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/allow_list#cluster_id AllowList#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/allow_list#cluster_id AllowList#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Name of this allowlist entry. If left unset, it will inherit a server-side default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/allow_list#name AllowList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/allow_list#name AllowList#name}
   */
   readonly name?: string;
   /**
   * Set to 'true' to allow SQL connections from this CIDR range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/allow_list#sql AllowList#sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/allow_list#sql AllowList#sql}
   */
   readonly sql: boolean | cdktf.IResolvable;
   /**
   * Set to 'true' to allow access to the management console from this CIDR range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/allow_list#ui AllowList#ui}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/allow_list#ui AllowList#ui}
   */
   readonly ui: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/allow_list cockroach_allow_list}
+* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/allow_list cockroach_allow_list}
 */
 export class AllowList extends cdktf.TerraformResource {
 
@@ -60,7 +60,7 @@ export class AllowList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AllowList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AllowList to import
-  * @param importFromId The id of the existing AllowList that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/allow_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AllowList that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/allow_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AllowList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -72,7 +72,7 @@ export class AllowList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/allow_list cockroach_allow_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/allow_list cockroach_allow_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -83,8 +83,8 @@ export class AllowList extends cdktf.TerraformResource {
       terraformResourceType: 'cockroach_allow_list',
       terraformGeneratorMetadata: {
         providerName: 'cockroach',
-        providerVersion: '1.16.0',
-        providerVersionConstraint: '1.16.0'
+        providerVersion: '1.17.0',
+        providerVersionConstraint: '1.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

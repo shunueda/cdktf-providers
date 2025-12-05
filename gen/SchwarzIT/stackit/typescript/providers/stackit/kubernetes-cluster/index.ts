@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster
+// https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface KubernetesClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Should containers be allowed to run in privileged mode? Default is `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#allow_privileged_containers KubernetesCluster#allow_privileged_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#allow_privileged_containers KubernetesCluster#allow_privileged_containers}
   */
   readonly allowPrivilegedContainers?: boolean | cdktf.IResolvable;
   /**
   * A single extensions block as defined below
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#extensions KubernetesCluster#extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#extensions KubernetesCluster#extensions}
   */
   readonly extensions?: KubernetesClusterExtensions;
   /**
   * One or more hibernation block as defined below
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#hibernations KubernetesCluster#hibernations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#hibernations KubernetesCluster#hibernations}
   */
   readonly hibernations?: KubernetesClusterHibernations[] | cdktf.IResolvable;
   /**
   * The ID of a `stackit_kubernetes_project` resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#kubernetes_project_id KubernetesCluster#kubernetes_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#kubernetes_project_id KubernetesCluster#kubernetes_project_id}
   */
   readonly kubernetesProjectId?: string;
   /**
   * Kubernetes version. Allowed Options are: `1.25`, `1.26`, or a full version including patch (not recommended).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#kubernetes_version KubernetesCluster#kubernetes_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#kubernetes_version KubernetesCluster#kubernetes_version}
   */
   readonly kubernetesVersion?: string;
   /**
   * A single maintenance block as defined below
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#maintenance KubernetesCluster#maintenance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#maintenance KubernetesCluster#maintenance}
   */
   readonly maintenance?: KubernetesClusterMaintenance;
   /**
   * Specifies the cluster name (lower case, alphanumeric, hypens allowed, up to 11 chars)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#name KubernetesCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#name KubernetesCluster#name}
   */
   readonly name: string;
   /**
   * Specifies the ID of the Network the SKE-Nodes should be created in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#network_id KubernetesCluster#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#network_id KubernetesCluster#network_id}
   */
   readonly networkId?: string;
   /**
   * One or more `node_pool` block as defined below
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#node_pools KubernetesCluster#node_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#node_pools KubernetesCluster#node_pools}
   */
   readonly nodePools?: KubernetesClusterNodePools[] | cdktf.IResolvable;
   /**
   * The project UUID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#project_id KubernetesCluster#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#project_id KubernetesCluster#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#timeouts KubernetesCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#timeouts KubernetesCluster#timeouts}
   */
   readonly timeouts?: KubernetesClusterTimeouts;
 }
@@ -76,13 +76,13 @@ export interface KubernetesClusterExtensionsAcl {
   /**
   * Specify a list of CIDRs to whitelist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#allowed_cidrs KubernetesCluster#allowed_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#allowed_cidrs KubernetesCluster#allowed_cidrs}
   */
   readonly allowedCidrs?: string[];
   /**
   * Is ACL enabled? Defaults to `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#enabled KubernetesCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#enabled KubernetesCluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -207,13 +207,13 @@ export interface KubernetesClusterExtensionsArgus {
   /**
   * Instance ID of argus, Required when enabled is set to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#argus_instance_id KubernetesCluster#argus_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#argus_instance_id KubernetesCluster#argus_instance_id}
   */
   readonly argusInstanceId?: string;
   /**
   * Flag to enable/disable argus extensions. Defaults to `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#enabled KubernetesCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#enabled KubernetesCluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -338,13 +338,13 @@ export interface KubernetesClusterExtensions {
   /**
   * Cluster access control configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#acl KubernetesCluster#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#acl KubernetesCluster#acl}
   */
   readonly acl?: KubernetesClusterExtensionsAcl;
   /**
   * A single argus block as defined below
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#argus KubernetesCluster#argus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#argus KubernetesCluster#argus}
   */
   readonly argus?: KubernetesClusterExtensionsArgus;
 }
@@ -469,19 +469,19 @@ export interface KubernetesClusterHibernations {
   /**
   * End time of hibernation, in crontab syntax, i.e. `0 8 * * *` for waking up the cluster at 8am
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#end KubernetesCluster#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#end KubernetesCluster#end}
   */
   readonly end: string;
   /**
   * Start time of cluster hibernation, in crontab syntax, i.e. `0 18 * * *` for starting everyday at 6pm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#start KubernetesCluster#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#start KubernetesCluster#start}
   */
   readonly start: string;
   /**
   * Timezone name corresponding to a file in the IANA Time Zone database. i.e. `Europe/Berlin`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#timezone KubernetesCluster#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#timezone KubernetesCluster#timezone}
   */
   readonly timezone?: string;
 }
@@ -651,25 +651,25 @@ export interface KubernetesClusterMaintenance {
   /**
   * Flag to enable/disable auto-updates of the Kubernetes version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#enable_kubernetes_version_updates KubernetesCluster#enable_kubernetes_version_updates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#enable_kubernetes_version_updates KubernetesCluster#enable_kubernetes_version_updates}
   */
   readonly enableKubernetesVersionUpdates: boolean | cdktf.IResolvable;
   /**
   * Flag to enable/disable auto-updates of the OS image version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#enable_machine_image_version_updates KubernetesCluster#enable_machine_image_version_updates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#enable_machine_image_version_updates KubernetesCluster#enable_machine_image_version_updates}
   */
   readonly enableMachineImageVersionUpdates: boolean | cdktf.IResolvable;
   /**
   * RFC3339 Date time for maintenance window end. i.e. `0000-01-01T23:30:00Z`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#end KubernetesCluster#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#end KubernetesCluster#end}
   */
   readonly end: string;
   /**
   * RFC3339 Date time for maintenance window start. i.e. `0000-01-01T23:00:00Z`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#start KubernetesCluster#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#start KubernetesCluster#start}
   */
   readonly start: string;
 }
@@ -840,19 +840,19 @@ export interface KubernetesClusterNodePoolsTaints {
   /**
   * The taint effect. Only `PreferNoSchedule` is supported at the moment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#effect KubernetesCluster#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#effect KubernetesCluster#effect}
   */
   readonly effect: string;
   /**
   * Taint key to be applied to a node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#key KubernetesCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#key KubernetesCluster#key}
   */
   readonly key: string;
   /**
   * Taint value corresponding to the taint key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#value KubernetesCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#value KubernetesCluster#value}
   */
   readonly value?: string;
 }
@@ -1022,85 +1022,85 @@ export interface KubernetesClusterNodePools {
   /**
   * Specifies the container runtime. Defaults to `containerd`. Allowed options are `docker`, `containerd`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#container_runtime KubernetesCluster#container_runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#container_runtime KubernetesCluster#container_runtime}
   */
   readonly containerRuntime?: string;
   /**
   * Labels to add to each node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#labels KubernetesCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#labels KubernetesCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The machine type. Accepted options are: `c1.2`, `c1.3`, `c1.4`, `c1.5`, `g1.2`, `g1.3`, `g1.4`, `g1.5`, `m1.2`, `m1.3`, `m1.4`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#machine_type KubernetesCluster#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#machine_type KubernetesCluster#machine_type}
   */
   readonly machineType: string;
   /**
   * The maximum number of nodes upgraded simultaneously. Defaults to 1. (Value must be between 1-10)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#max_surge KubernetesCluster#max_surge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#max_surge KubernetesCluster#max_surge}
   */
   readonly maxSurge?: number;
   /**
   * The maximum number of nodes unavailable during upgraded. Defaults to 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#max_unavailable KubernetesCluster#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#max_unavailable KubernetesCluster#max_unavailable}
   */
   readonly maxUnavailable?: number;
   /**
   * Maximum nodes in the pool. Defaults to 2. (Value must be between 1-100)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#maximum KubernetesCluster#maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#maximum KubernetesCluster#maximum}
   */
   readonly maximum?: number;
   /**
   * Minimum nodes in the pool. Defaults to 1. (Value must be between 1-100)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#minimum KubernetesCluster#minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#minimum KubernetesCluster#minimum}
   */
   readonly minimum?: number;
   /**
   * Specifies the name of the node pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#name KubernetesCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#name KubernetesCluster#name}
   */
   readonly name: string;
   /**
   * The name of the OS image. Only `flatcar` is supported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#os_name KubernetesCluster#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#os_name KubernetesCluster#os_name}
   */
   readonly osName?: string;
   /**
   * The OS image version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#os_version KubernetesCluster#os_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#os_version KubernetesCluster#os_version}
   */
   readonly osVersion?: string;
   /**
   * Specifies a taint list as defined below
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#taints KubernetesCluster#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#taints KubernetesCluster#taints}
   */
   readonly taints?: KubernetesClusterNodePoolsTaints[] | cdktf.IResolvable;
   /**
   * The volume size in GB. Default is set to `20`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#volume_size_gb KubernetesCluster#volume_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#volume_size_gb KubernetesCluster#volume_size_gb}
   */
   readonly volumeSizeGb?: number;
   /**
   * Specifies the volume type. Defaults to `storage_premium_perf1`. Available options are `storage_premium_perf0`, `storage_premium_perf1`, `storage_premium_perf2`, `storage_premium_perf4`, `storage_premium_perf6`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#volume_type KubernetesCluster#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#volume_type KubernetesCluster#volume_type}
   */
   readonly volumeType?: string;
   /**
   * Specify a list of availability zones. Accepted options are `eu01-m` for metro, or `eu01-1`, `eu01-2`, `eu01-3`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#zones KubernetesCluster#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#zones KubernetesCluster#zones}
   */
   readonly zones?: string[];
 }
@@ -1587,15 +1587,15 @@ export class KubernetesClusterNodePoolsList extends cdktf.ComplexList {
 }
 export interface KubernetesClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#create KubernetesCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#create KubernetesCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#delete KubernetesCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#delete KubernetesCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#update KubernetesCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#update KubernetesCluster#update}
   */
   readonly update?: string;
 }
@@ -1747,7 +1747,7 @@ export class KubernetesClusterTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster stackit_kubernetes_cluster}
+* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster stackit_kubernetes_cluster}
 */
 export class KubernetesCluster extends cdktf.TerraformResource {
 
@@ -1763,7 +1763,7 @@ export class KubernetesCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesCluster to import
-  * @param importFromId The id of the existing KubernetesCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1775,7 +1775,7 @@ export class KubernetesCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/kubernetes_cluster stackit_kubernetes_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/kubernetes_cluster stackit_kubernetes_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1786,8 +1786,8 @@ export class KubernetesCluster extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_kubernetes_cluster',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '1.34.3',
-        providerVersionConstraint: '1.34.3'
+        providerVersion: '1.34.4',
+        providerVersionConstraint: '1.34.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

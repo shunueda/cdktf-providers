@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/sql_user
+// https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/sql_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,25 +8,25 @@ import * as cdktf from 'cdktf';
 
 export interface SqlUserConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/sql_user#cluster_id SqlUser#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/sql_user#cluster_id SqlUser#cluster_id}
   */
   readonly clusterId: string;
   /**
   * SQL user name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/sql_user#name SqlUser#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/sql_user#name SqlUser#name}
   */
   readonly name: string;
   /**
   * If provided, this field sets the password of the SQL user when created. If omitted, a random password is generated, but not saved to Terraform state. The password must be changed via the CockroachDB cloud console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/sql_user#password SqlUser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/sql_user#password SqlUser#password}
   */
   readonly password?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/sql_user cockroach_sql_user}
+* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/sql_user cockroach_sql_user}
 */
 export class SqlUser extends cdktf.TerraformResource {
 
@@ -42,7 +42,7 @@ export class SqlUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SqlUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SqlUser to import
-  * @param importFromId The id of the existing SqlUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/sql_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SqlUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/sql_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SqlUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -54,7 +54,7 @@ export class SqlUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/sql_user cockroach_sql_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/sql_user cockroach_sql_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -65,8 +65,8 @@ export class SqlUser extends cdktf.TerraformResource {
       terraformResourceType: 'cockroach_sql_user',
       terraformGeneratorMetadata: {
         providerName: 'cockroach',
-        providerVersion: '1.16.0',
-        providerVersionConstraint: '1.16.0'
+        providerVersion: '1.17.0',
+        providerVersionConstraint: '1.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/api_gateway_usage_plan
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/api_gateway_usage_plan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ApiGatewayUsagePlanConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/api_gateway_usage_plan#id ApiGatewayUsagePlan#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/api_gateway_usage_plan#id ApiGatewayUsagePlan#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface ApiGatewayUsagePlanConfig extends cdktf.TerraformMetaArguments 
   /**
   * Total number of requests allowed. Valid values: -1, [1,99999999]. The default value is -1, which indicates no limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/api_gateway_usage_plan#max_request_num ApiGatewayUsagePlan#max_request_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/api_gateway_usage_plan#max_request_num ApiGatewayUsagePlan#max_request_num}
   */
   readonly maxRequestNum?: number;
   /**
   * Limit of requests per second. Valid values: -1, [1,2000]. The default value is -1, which indicates no limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/api_gateway_usage_plan#max_request_num_pre_sec ApiGatewayUsagePlan#max_request_num_pre_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/api_gateway_usage_plan#max_request_num_pre_sec ApiGatewayUsagePlan#max_request_num_pre_sec}
   */
   readonly maxRequestNumPreSec?: number;
   /**
   * Custom usage plan description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/api_gateway_usage_plan#usage_plan_desc ApiGatewayUsagePlan#usage_plan_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/api_gateway_usage_plan#usage_plan_desc ApiGatewayUsagePlan#usage_plan_desc}
   */
   readonly usagePlanDesc?: string;
   /**
   * Custom usage plan name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/api_gateway_usage_plan#usage_plan_name ApiGatewayUsagePlan#usage_plan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/api_gateway_usage_plan#usage_plan_name ApiGatewayUsagePlan#usage_plan_name}
   */
   readonly usagePlanName: string;
 }
@@ -156,7 +156,7 @@ export class ApiGatewayUsagePlanAttachListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/api_gateway_usage_plan tencentcloud_api_gateway_usage_plan}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/api_gateway_usage_plan tencentcloud_api_gateway_usage_plan}
 */
 export class ApiGatewayUsagePlan extends cdktf.TerraformResource {
 
@@ -172,7 +172,7 @@ export class ApiGatewayUsagePlan extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiGatewayUsagePlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiGatewayUsagePlan to import
-  * @param importFromId The id of the existing ApiGatewayUsagePlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/api_gateway_usage_plan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiGatewayUsagePlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/api_gateway_usage_plan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiGatewayUsagePlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -184,7 +184,7 @@ export class ApiGatewayUsagePlan extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/api_gateway_usage_plan tencentcloud_api_gateway_usage_plan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/api_gateway_usage_plan tencentcloud_api_gateway_usage_plan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -195,8 +195,8 @@ export class ApiGatewayUsagePlan extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_api_gateway_usage_plan',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_yarn
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/emr_yarn
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface EmrYarnConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether to synchronize when closing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_yarn#disable_resource_schedule_sync EmrYarn#disable_resource_schedule_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/emr_yarn#disable_resource_schedule_sync EmrYarn#disable_resource_schedule_sync}
   */
   readonly disableResourceScheduleSync?: boolean | cdktf.IResolvable;
   /**
   * Whether the resource scheduling function is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_yarn#enable_resource_schedule EmrYarn#enable_resource_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/emr_yarn#enable_resource_schedule EmrYarn#enable_resource_schedule}
   */
   readonly enableResourceSchedule?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_yarn#id EmrYarn#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/emr_yarn#id EmrYarn#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface EmrYarnConfig extends cdktf.TerraformMetaArguments {
   /**
   * EMR Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_yarn#instance_id EmrYarn#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/emr_yarn#instance_id EmrYarn#instance_id}
   */
   readonly instanceId: string;
   /**
   * The latest resource scheduler.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_yarn#scheduler EmrYarn#scheduler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/emr_yarn#scheduler EmrYarn#scheduler}
   */
   readonly scheduler?: string;
   /**
   * capacity_global_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_yarn#capacity_global_config EmrYarn#capacity_global_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/emr_yarn#capacity_global_config EmrYarn#capacity_global_config}
   */
   readonly capacityGlobalConfig?: EmrYarnCapacityGlobalConfig[] | cdktf.IResolvable;
   /**
   * fair_global_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_yarn#fair_global_config EmrYarn#fair_global_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/emr_yarn#fair_global_config EmrYarn#fair_global_config}
   */
   readonly fairGlobalConfig?: EmrYarnFairGlobalConfig[] | cdktf.IResolvable;
 }
@@ -55,13 +55,13 @@ export interface EmrYarnCapacityGlobalConfigDefaultSettings {
   /**
   * Name, as the key for the input parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_yarn#name EmrYarn#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/emr_yarn#name EmrYarn#name}
   */
   readonly name: string;
   /**
   * Value corresponding to tame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_yarn#value EmrYarn#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/emr_yarn#value EmrYarn#value}
   */
   readonly value: string;
 }
@@ -217,25 +217,25 @@ export interface EmrYarnCapacityGlobalConfig {
   /**
   * Whether label scheduling is turned on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_yarn#enable_label EmrYarn#enable_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/emr_yarn#enable_label EmrYarn#enable_label}
   */
   readonly enableLabel?: boolean | cdktf.IResolvable;
   /**
   * If label scheduling is enabled, the path where label information is stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_yarn#label_dir EmrYarn#label_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/emr_yarn#label_dir EmrYarn#label_dir}
   */
   readonly labelDir?: string;
   /**
   * Whether to overwrite the user-specified queue. True means overwriting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_yarn#queue_mapping_override EmrYarn#queue_mapping_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/emr_yarn#queue_mapping_override EmrYarn#queue_mapping_override}
   */
   readonly queueMappingOverride?: boolean | cdktf.IResolvable;
   /**
   * default_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_yarn#default_settings EmrYarn#default_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/emr_yarn#default_settings EmrYarn#default_settings}
   */
   readonly defaultSettings?: EmrYarnCapacityGlobalConfigDefaultSettings[] | cdktf.IResolvable;
 }
@@ -440,7 +440,7 @@ export interface EmrYarnFairGlobalConfig {
   /**
   * Corresponding to the page procedural upper limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_yarn#user_max_apps_default EmrYarn#user_max_apps_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/emr_yarn#user_max_apps_default EmrYarn#user_max_apps_default}
   */
   readonly userMaxAppsDefault?: number;
 }
@@ -556,7 +556,7 @@ export class EmrYarnFairGlobalConfigList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_yarn tencentcloud_emr_yarn}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/emr_yarn tencentcloud_emr_yarn}
 */
 export class EmrYarn extends cdktf.TerraformResource {
 
@@ -572,7 +572,7 @@ export class EmrYarn extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EmrYarn resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EmrYarn to import
-  * @param importFromId The id of the existing EmrYarn that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_yarn#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EmrYarn that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/emr_yarn#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EmrYarn to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -584,7 +584,7 @@ export class EmrYarn extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_yarn tencentcloud_emr_yarn} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/emr_yarn tencentcloud_emr_yarn} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -595,8 +595,8 @@ export class EmrYarn extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_emr_yarn',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

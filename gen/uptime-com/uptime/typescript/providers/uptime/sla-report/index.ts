@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/sla_report
+// https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/sla_report
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,39 +8,39 @@ import * as cdktf from 'cdktf';
 
 export interface SlaReportConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/sla_report#default_date_range SlaReport#default_date_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/sla_report#default_date_range SlaReport#default_date_range}
   */
   readonly defaultDateRange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/sla_report#filter_response_time_sla_violations SlaReport#filter_response_time_sla_violations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/sla_report#filter_response_time_sla_violations SlaReport#filter_response_time_sla_violations}
   */
   readonly filterResponseTimeSlaViolations?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/sla_report#filter_slowest SlaReport#filter_slowest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/sla_report#filter_slowest SlaReport#filter_slowest}
   */
   readonly filterSlowest?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/sla_report#filter_uptime_sla_violations SlaReport#filter_uptime_sla_violations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/sla_report#filter_uptime_sla_violations SlaReport#filter_uptime_sla_violations}
   */
   readonly filterUptimeSlaViolations?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/sla_report#filter_with_downtime SlaReport#filter_with_downtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/sla_report#filter_with_downtime SlaReport#filter_with_downtime}
   */
   readonly filterWithDowntime?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/sla_report#name SlaReport#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/sla_report#name SlaReport#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/sla_report#reporting_groups SlaReport#reporting_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/sla_report#reporting_groups SlaReport#reporting_groups}
   */
   readonly reportingGroups?: SlaReportReportingGroups[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/sla_report#response_time_section_sort SlaReport#response_time_section_sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/sla_report#response_time_section_sort SlaReport#response_time_section_sort}
   */
   readonly responseTimeSectionSort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/sla_report#services_selected SlaReport#services_selected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/sla_report#services_selected SlaReport#services_selected}
   */
   readonly servicesSelected?: SlaReportServicesSelected[] | cdktf.IResolvable;
   /**
@@ -50,44 +50,44 @@ export interface SlaReportConfig extends cdktf.TerraformMetaArguments {
   * Common use cases include tagging by team ('dev-team', 'ops'), environment ('production', 'staging'), 
   * or purpose ('api', 'customer-facing'). Defaults to an empty list if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/sla_report#services_tags SlaReport#services_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/sla_report#services_tags SlaReport#services_tags}
   */
   readonly servicesTags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/sla_report#show_response_time_section SlaReport#show_response_time_section}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/sla_report#show_response_time_section SlaReport#show_response_time_section}
   */
   readonly showResponseTimeSection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/sla_report#show_response_time_sla SlaReport#show_response_time_sla}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/sla_report#show_response_time_sla SlaReport#show_response_time_sla}
   */
   readonly showResponseTimeSla?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/sla_report#show_uptime_section SlaReport#show_uptime_section}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/sla_report#show_uptime_section SlaReport#show_uptime_section}
   */
   readonly showUptimeSection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/sla_report#show_uptime_sla SlaReport#show_uptime_sla}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/sla_report#show_uptime_sla SlaReport#show_uptime_sla}
   */
   readonly showUptimeSla?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/sla_report#uptime_section_sort SlaReport#uptime_section_sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/sla_report#uptime_section_sort SlaReport#uptime_section_sort}
   */
   readonly uptimeSectionSort?: string;
 }
 export interface SlaReportReportingGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/sla_report#group_services SlaReport#group_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/sla_report#group_services SlaReport#group_services}
   */
   readonly groupServices?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/sla_report#id SlaReport#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/sla_report#id SlaReport#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/sla_report#name SlaReport#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/sla_report#name SlaReport#name}
   */
   readonly name: string;
 }
@@ -258,14 +258,14 @@ export class SlaReportReportingGroupsList extends cdktf.ComplexList {
 }
 export interface SlaReportServicesSelected {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/sla_report#id SlaReport#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/sla_report#id SlaReport#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/sla_report#name SlaReport#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/sla_report#name SlaReport#name}
   */
   readonly name?: string;
 }
@@ -410,7 +410,7 @@ export class SlaReportServicesSelectedList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/sla_report uptime_sla_report}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/sla_report uptime_sla_report}
 */
 export class SlaReport extends cdktf.TerraformResource {
 
@@ -426,7 +426,7 @@ export class SlaReport extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlaReport resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlaReport to import
-  * @param importFromId The id of the existing SlaReport that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/sla_report#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlaReport that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/sla_report#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlaReport to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -438,7 +438,7 @@ export class SlaReport extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/sla_report uptime_sla_report} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/sla_report uptime_sla_report} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -449,8 +449,8 @@ export class SlaReport extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_sla_report',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.18.1',
-        providerVersionConstraint: '2.18.1'
+        providerVersion: '2.20.0',
+        providerVersionConstraint: '2.20.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

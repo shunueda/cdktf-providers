@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_instance
+// https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface PostgresInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Access Control rules to whitelist IP addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_instance#acl PostgresInstance#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_instance#acl PostgresInstance#acl}
   */
   readonly acl?: string[];
   /**
   * Specifies the instance name. Changing this value requires the resource to be recreated. Changing this value requires the resource to be recreated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_instance#name PostgresInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_instance#name PostgresInstance#name}
   */
   readonly name: string;
   /**
   * The Postgres Plan. Default is `stackit-postgresql-1.4.10-single`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_instance#plan PostgresInstance#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_instance#plan PostgresInstance#plan}
   */
   readonly plan?: string;
   /**
   * The project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_instance#project_id PostgresInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_instance#project_id PostgresInstance#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_instance#timeouts PostgresInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_instance#timeouts PostgresInstance#timeouts}
   */
   readonly timeouts?: PostgresInstanceTimeouts;
   /**
   * Postgres version. Default is 13
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_instance#version PostgresInstance#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_instance#version PostgresInstance#version}
   */
   readonly version?: string;
 }
 export interface PostgresInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_instance#create PostgresInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_instance#create PostgresInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_instance#delete PostgresInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_instance#delete PostgresInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_instance#update PostgresInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_instance#update PostgresInstance#update}
   */
   readonly update?: string;
 }
@@ -204,7 +204,7 @@ export class PostgresInstanceTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_instance stackit_postgres_instance}
+* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_instance stackit_postgres_instance}
 */
 export class PostgresInstance extends cdktf.TerraformResource {
 
@@ -220,7 +220,7 @@ export class PostgresInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PostgresInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PostgresInstance to import
-  * @param importFromId The id of the existing PostgresInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PostgresInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PostgresInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -232,7 +232,7 @@ export class PostgresInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_instance stackit_postgres_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_instance stackit_postgres_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -243,8 +243,8 @@ export class PostgresInstance extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_postgres_instance',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '1.34.3',
-        providerVersionConstraint: '1.34.3'
+        providerVersion: '1.34.4',
+        providerVersionConstraint: '1.34.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

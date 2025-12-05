@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/user_role_grant
+// https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/user_role_grant
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface UserRoleGrantConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/user_role_grant#role UserRoleGrant#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/user_role_grant#role UserRoleGrant#role}
   */
   readonly role: UserRoleGrantRole;
   /**
   * ID of the user to grant these roles to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/user_role_grant#user_id UserRoleGrant#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/user_role_grant#user_id UserRoleGrant#user_id}
   */
   readonly userId: string;
 }
@@ -22,7 +22,7 @@ export interface UserRoleGrantRole {
   /**
   * ID of the resource. Required if the resource_type is 'FOLDER' or 'CLUSTER'. It should be omitted otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/user_role_grant#resource_id UserRoleGrant#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/user_role_grant#resource_id UserRoleGrant#resource_id}
   */
   readonly resourceId?: string;
   /**
@@ -31,7 +31,7 @@ export interface UserRoleGrantRole {
   *   * CLUSTER
   *   * FOLDER
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/user_role_grant#resource_type UserRoleGrant#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/user_role_grant#resource_type UserRoleGrant#resource_type}
   */
   readonly resourceType: string;
   /**
@@ -46,7 +46,7 @@ export interface UserRoleGrantRole {
   *   * FOLDER_ADMIN
   *   * FOLDER_MOVER
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/user_role_grant#role_name UserRoleGrant#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/user_role_grant#role_name UserRoleGrant#role_name}
   */
   readonly roleName: string;
 }
@@ -192,7 +192,7 @@ export class UserRoleGrantRoleOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/user_role_grant cockroach_user_role_grant}
+* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/user_role_grant cockroach_user_role_grant}
 */
 export class UserRoleGrant extends cdktf.TerraformResource {
 
@@ -208,7 +208,7 @@ export class UserRoleGrant extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserRoleGrant resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserRoleGrant to import
-  * @param importFromId The id of the existing UserRoleGrant that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/user_role_grant#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserRoleGrant that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/user_role_grant#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserRoleGrant to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -220,7 +220,7 @@ export class UserRoleGrant extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/user_role_grant cockroach_user_role_grant} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/user_role_grant cockroach_user_role_grant} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,8 +231,8 @@ export class UserRoleGrant extends cdktf.TerraformResource {
       terraformResourceType: 'cockroach_user_role_grant',
       terraformGeneratorMetadata: {
         providerName: 'cockroach',
-        providerVersion: '1.16.0',
-        providerVersionConstraint: '1.16.0'
+        providerVersion: '1.17.0',
+        providerVersionConstraint: '1.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

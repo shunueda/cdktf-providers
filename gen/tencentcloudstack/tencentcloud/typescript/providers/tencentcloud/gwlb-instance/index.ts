@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/gwlb_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gwlb_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface GwlbInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/gwlb_instance#id GwlbInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gwlb_instance#id GwlbInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface GwlbInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * GWLB instance billing type, which currently supports POSTPAID_BY_HOUR only. The default is POSTPAID_BY_HOUR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/gwlb_instance#lb_charge_type GwlbInstance#lb_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gwlb_instance#lb_charge_type GwlbInstance#lb_charge_type}
   */
   readonly lbChargeType?: string;
   /**
   * GWLB instance name. It supports input of 1 to 60 characters. If not filled in, it will be generated automatically by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/gwlb_instance#load_balancer_name GwlbInstance#load_balancer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gwlb_instance#load_balancer_name GwlbInstance#load_balancer_name}
   */
   readonly loadBalancerName?: string;
   /**
   * Subnet ID of the VPC to which the backend target device of the GWLB belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/gwlb_instance#subnet_id GwlbInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gwlb_instance#subnet_id GwlbInstance#subnet_id}
   */
   readonly subnetId: string;
   /**
   * ID of the VPC to which the backend target device of the GWLB belongs, such as vpc-12345678. It can be obtained through the DescribeVpcEx interface. If left blank, it defaults to DefaultVPC. This parameter is required when a private network CLB instance is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/gwlb_instance#vpc_id GwlbInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gwlb_instance#vpc_id GwlbInstance#vpc_id}
   */
   readonly vpcId: string;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/gwlb_instance#tags GwlbInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gwlb_instance#tags GwlbInstance#tags}
   */
   readonly tags?: GwlbInstanceTags[] | cdktf.IResolvable;
 }
@@ -49,13 +49,13 @@ export interface GwlbInstanceTags {
   /**
   * Tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/gwlb_instance#tag_key GwlbInstance#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gwlb_instance#tag_key GwlbInstance#tag_key}
   */
   readonly tagKey: string;
   /**
   * Tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/gwlb_instance#tag_value GwlbInstance#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gwlb_instance#tag_value GwlbInstance#tag_value}
   */
   readonly tagValue: string;
 }
@@ -194,7 +194,7 @@ export class GwlbInstanceTagsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/gwlb_instance tencentcloud_gwlb_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gwlb_instance tencentcloud_gwlb_instance}
 */
 export class GwlbInstance extends cdktf.TerraformResource {
 
@@ -210,7 +210,7 @@ export class GwlbInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GwlbInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GwlbInstance to import
-  * @param importFromId The id of the existing GwlbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/gwlb_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GwlbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gwlb_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GwlbInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -222,7 +222,7 @@ export class GwlbInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/gwlb_instance tencentcloud_gwlb_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gwlb_instance tencentcloud_gwlb_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -233,8 +233,8 @@ export class GwlbInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_gwlb_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

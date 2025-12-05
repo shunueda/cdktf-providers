@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_operate_container_group
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tsf_operate_container_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TsfOperateContainerGroupConfig extends cdktf.TerraformMetaArgum
   /**
   * group Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_operate_container_group#group_id TsfOperateContainerGroup#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tsf_operate_container_group#group_id TsfOperateContainerGroup#group_id}
   */
   readonly groupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_operate_container_group#id TsfOperateContainerGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tsf_operate_container_group#id TsfOperateContainerGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface TsfOperateContainerGroupConfig extends cdktf.TerraformMetaArgum
   /**
   * Operation, `start`- start the container, `stop`- stop the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_operate_container_group#operate TsfOperateContainerGroup#operate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tsf_operate_container_group#operate TsfOperateContainerGroup#operate}
   */
   readonly operate: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_operate_container_group tencentcloud_tsf_operate_container_group}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tsf_operate_container_group tencentcloud_tsf_operate_container_group}
 */
 export class TsfOperateContainerGroup extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class TsfOperateContainerGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TsfOperateContainerGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TsfOperateContainerGroup to import
-  * @param importFromId The id of the existing TsfOperateContainerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_operate_container_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TsfOperateContainerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tsf_operate_container_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TsfOperateContainerGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class TsfOperateContainerGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_operate_container_group tencentcloud_tsf_operate_container_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tsf_operate_container_group tencentcloud_tsf_operate_container_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class TsfOperateContainerGroup extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tsf_operate_container_group',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

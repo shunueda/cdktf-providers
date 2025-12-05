@@ -1,5 +1,6 @@
 import * as cdktf from 'cdktf';
-import { DataKeyhubGroupAdministeredSystemsAbstractProvisionedLdapOutputReference,
+import { DataKeyhubGroupAdministeredSystemsProvisionedLdapGidNumberingLinksList,
+DataKeyhubGroupAdministeredSystemsAbstractProvisionedLdapOutputReference,
 DataKeyhubGroupAdministeredSystemsCleanupPeriodOutputReference,
 DataKeyhubGroupAdministeredSystemsContentAdministratorOutputReference,
 DataKeyhubGroupAdministeredSystemsLinksList,
@@ -10,12 +11,3341 @@ DataKeyhubGroupAdministeredSystemsProvisionedADOutputReference,
 DataKeyhubGroupAdministeredSystemsProvisionedAzureOidcDirectoryOutputReference,
 DataKeyhubGroupAdministeredSystemsProvisionedAzureSyncLdapDirectoryOutputReference,
 DataKeyhubGroupAdministeredSystemsProvisionedAzureTenantOutputReference,
-DataKeyhubGroupAdministeredSystemsProvisionedInternalLdapOutputReference,
-DataKeyhubGroupAdministeredSystemsProvisionedLdapOutputReference,
-DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryOutputReference,
-DataKeyhubGroupAdministeredSystemsProvisionedNamespaceOutputReference,
-DataKeyhubGroupAdministeredSystemsProvisionedScimOutputReference,
-DataKeyhubGroupAdministeredSystemsTechnicalAdministratorOutputReference } from './structs0'
+DataKeyhubGroupAdministeredSystemsProvisionedInternalLdapOutputReference } from './structs0'
+export interface DataKeyhubGroupAdministeredSystemsProvisionedLdapGidNumberingPermissions {
+}
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapGidNumberingPermissionsToTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdapGidNumberingPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapGidNumberingPermissionsToHclTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdapGidNumberingPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedLdapGidNumberingPermissionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataKeyhubGroupAdministeredSystemsProvisionedLdapGidNumberingPermissions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubGroupAdministeredSystemsProvisionedLdapGidNumberingPermissions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // full - computed: true, optional: false, required: false
+  public get full() {
+    return this.getStringAttribute('full');
+  }
+
+  // instances - computed: true, optional: false, required: false
+  public get instances() {
+    return this.getListAttribute('instances');
+  }
+
+  // operations - computed: true, optional: false, required: false
+  public get operations() {
+    return cdktf.Fn.tolist(this.getListAttribute('operations'));
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedLdapGidNumberingPermissionsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataKeyhubGroupAdministeredSystemsProvisionedLdapGidNumberingPermissionsOutputReference {
+    return new DataKeyhubGroupAdministeredSystemsProvisionedLdapGidNumberingPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataKeyhubGroupAdministeredSystemsProvisionedLdapGidNumbering {
+}
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapGidNumberingToTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdapGidNumbering): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapGidNumberingToHclTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdapGidNumbering): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedLdapGidNumberingOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataKeyhubGroupAdministeredSystemsProvisionedLdapGidNumbering | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubGroupAdministeredSystemsProvisionedLdapGidNumbering | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // links - computed: true, optional: false, required: false
+  private _links = new DataKeyhubGroupAdministeredSystemsProvisionedLdapGidNumberingLinksList(this, "links", false);
+  public get links() {
+    return this._links;
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // next_id - computed: true, optional: false, required: false
+  public get nextId() {
+    return this.getNumberAttribute('next_id');
+  }
+
+  // permissions - computed: true, optional: false, required: false
+  private _permissions = new DataKeyhubGroupAdministeredSystemsProvisionedLdapGidNumberingPermissionsList(this, "permissions", false);
+  public get permissions() {
+    return this._permissions;
+  }
+}
+export interface DataKeyhubGroupAdministeredSystemsProvisionedLdapNumberingLinks {
+}
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapNumberingLinksToTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdapNumberingLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapNumberingLinksToHclTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdapNumberingLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedLdapNumberingLinksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataKeyhubGroupAdministeredSystemsProvisionedLdapNumberingLinks | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubGroupAdministeredSystemsProvisionedLdapNumberingLinks | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // href - computed: true, optional: false, required: false
+  public get href() {
+    return this.getStringAttribute('href');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getNumberAttribute('id');
+  }
+
+  // rel - computed: true, optional: false, required: false
+  public get rel() {
+    return this.getStringAttribute('rel');
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedLdapNumberingLinksList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataKeyhubGroupAdministeredSystemsProvisionedLdapNumberingLinksOutputReference {
+    return new DataKeyhubGroupAdministeredSystemsProvisionedLdapNumberingLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataKeyhubGroupAdministeredSystemsProvisionedLdapNumberingPermissions {
+}
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapNumberingPermissionsToTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdapNumberingPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapNumberingPermissionsToHclTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdapNumberingPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedLdapNumberingPermissionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataKeyhubGroupAdministeredSystemsProvisionedLdapNumberingPermissions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubGroupAdministeredSystemsProvisionedLdapNumberingPermissions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // full - computed: true, optional: false, required: false
+  public get full() {
+    return this.getStringAttribute('full');
+  }
+
+  // instances - computed: true, optional: false, required: false
+  public get instances() {
+    return this.getListAttribute('instances');
+  }
+
+  // operations - computed: true, optional: false, required: false
+  public get operations() {
+    return cdktf.Fn.tolist(this.getListAttribute('operations'));
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedLdapNumberingPermissionsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataKeyhubGroupAdministeredSystemsProvisionedLdapNumberingPermissionsOutputReference {
+    return new DataKeyhubGroupAdministeredSystemsProvisionedLdapNumberingPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataKeyhubGroupAdministeredSystemsProvisionedLdapNumbering {
+}
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapNumberingToTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdapNumbering): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapNumberingToHclTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdapNumbering): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedLdapNumberingOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataKeyhubGroupAdministeredSystemsProvisionedLdapNumbering | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubGroupAdministeredSystemsProvisionedLdapNumbering | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // links - computed: true, optional: false, required: false
+  private _links = new DataKeyhubGroupAdministeredSystemsProvisionedLdapNumberingLinksList(this, "links", false);
+  public get links() {
+    return this._links;
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // next_id - computed: true, optional: false, required: false
+  public get nextId() {
+    return this.getNumberAttribute('next_id');
+  }
+
+  // permissions - computed: true, optional: false, required: false
+  private _permissions = new DataKeyhubGroupAdministeredSystemsProvisionedLdapNumberingPermissionsList(this, "permissions", false);
+  public get permissions() {
+    return this._permissions;
+  }
+}
+export interface DataKeyhubGroupAdministeredSystemsProvisionedLdap {
+}
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapToTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdap): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapToHclTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdap): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedLdapOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataKeyhubGroupAdministeredSystemsProvisionedLdap | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubGroupAdministeredSystemsProvisionedLdap | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // gid - computed: true, optional: false, required: false
+  public get gid() {
+    return this.getNumberAttribute('gid');
+  }
+
+  // gid_numbering - computed: true, optional: false, required: false
+  private _gidNumbering = new DataKeyhubGroupAdministeredSystemsProvisionedLdapGidNumberingOutputReference(this, "gid_numbering");
+  public get gidNumbering() {
+    return this._gidNumbering;
+  }
+
+  // hashing_scheme - computed: true, optional: false, required: false
+  public get hashingScheme() {
+    return this.getStringAttribute('hashing_scheme');
+  }
+
+  // numbering - computed: true, optional: false, required: false
+  private _numbering = new DataKeyhubGroupAdministeredSystemsProvisionedLdapNumberingOutputReference(this, "numbering");
+  public get numbering() {
+    return this._numbering;
+  }
+}
+export interface DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionLinks {
+}
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionLinksToTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionLinksToHclTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionLinksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionLinks | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionLinks | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // href - computed: true, optional: false, required: false
+  public get href() {
+    return this.getStringAttribute('href');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getNumberAttribute('id');
+  }
+
+  // rel - computed: true, optional: false, required: false
+  public get rel() {
+    return this.getStringAttribute('rel');
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionLinksList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionLinksOutputReference {
+    return new DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionPermissions {
+}
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionPermissionsToTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionPermissionsToHclTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionPermissionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionPermissions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionPermissions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // full - computed: true, optional: false, required: false
+  public get full() {
+    return this.getStringAttribute('full');
+  }
+
+  // instances - computed: true, optional: false, required: false
+  public get instances() {
+    return this.getListAttribute('instances');
+  }
+
+  // operations - computed: true, optional: false, required: false
+  public get operations() {
+    return cdktf.Fn.tolist(this.getListAttribute('operations'));
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionPermissionsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionPermissionsOutputReference {
+    return new DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinition {
+}
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionToTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinition): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionToHclTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinition): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinition | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinition | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // format - computed: true, optional: false, required: false
+  public get format() {
+    return this.getStringAttribute('format');
+  }
+
+  // freely_useable - computed: true, optional: false, required: false
+  public get freelyUseable() {
+    return this.getBooleanAttribute('freely_useable');
+  }
+
+  // links - computed: true, optional: false, required: false
+  private _links = new DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionLinksList(this, "links", false);
+  public get links() {
+    return this._links;
+  }
+
+  // list - computed: true, optional: false, required: false
+  public get list() {
+    return this.getBooleanAttribute('list');
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // permissions - computed: true, optional: false, required: false
+  private _permissions = new DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionPermissionsList(this, "permissions", false);
+  public get permissions() {
+    return this._permissions;
+  }
+
+  // required - computed: true, optional: false, required: false
+  public get required() {
+    return this.getBooleanAttribute('required');
+  }
+
+  // system_definition - computed: true, optional: false, required: false
+  public get systemDefinition() {
+    return this.getStringAttribute('system_definition');
+  }
+
+  // unique - computed: true, optional: false, required: false
+  public get unique() {
+    return this.getBooleanAttribute('unique');
+  }
+}
+export interface DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributes {
+}
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesToTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributes): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesToHclTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributes): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributes | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributes | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // attribute_definition - computed: true, optional: false, required: false
+  private _attributeDefinition = new DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionOutputReference(this, "attribute_definition");
+  public get attributeDefinition() {
+    return this._attributeDefinition;
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // script - computed: true, optional: false, required: false
+  public get script() {
+    return this.getStringAttribute('script');
+  }
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesOutputReference {
+    return new DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryDirectoryLinks {
+}
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryDirectoryLinksToTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryDirectoryLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryDirectoryLinksToHclTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryDirectoryLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryDirectoryLinksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryDirectoryLinks | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryDirectoryLinks | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // href - computed: true, optional: false, required: false
+  public get href() {
+    return this.getStringAttribute('href');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getNumberAttribute('id');
+  }
+
+  // rel - computed: true, optional: false, required: false
+  public get rel() {
+    return this.getStringAttribute('rel');
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryDirectoryLinksList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryDirectoryLinksOutputReference {
+    return new DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryDirectoryLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryDirectoryPermissions {
+}
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryDirectoryPermissionsToTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryDirectoryPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryDirectoryPermissionsToHclTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryDirectoryPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryDirectoryPermissionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryDirectoryPermissions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryDirectoryPermissions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // full - computed: true, optional: false, required: false
+  public get full() {
+    return this.getStringAttribute('full');
+  }
+
+  // instances - computed: true, optional: false, required: false
+  public get instances() {
+    return this.getListAttribute('instances');
+  }
+
+  // operations - computed: true, optional: false, required: false
+  public get operations() {
+    return cdktf.Fn.tolist(this.getListAttribute('operations'));
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryDirectoryPermissionsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryDirectoryPermissionsOutputReference {
+    return new DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryDirectoryPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryDirectory {
+}
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryDirectoryToTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryDirectory): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryDirectoryToHclTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryDirectory): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryDirectoryOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryDirectory | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryDirectory | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // account_validity_supported - computed: true, optional: false, required: false
+  public get accountValiditySupported() {
+    return this.getBooleanAttribute('account_validity_supported');
+  }
+
+  // active - computed: true, optional: false, required: false
+  public get active() {
+    return this.getBooleanAttribute('active');
+  }
+
+  // links - computed: true, optional: false, required: false
+  private _links = new DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryDirectoryLinksList(this, "links", false);
+  public get links() {
+    return this._links;
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // permissions - computed: true, optional: false, required: false
+  private _permissions = new DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryDirectoryPermissionsList(this, "permissions", false);
+  public get permissions() {
+    return this._permissions;
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+
+  // uuid - computed: true, optional: false, required: false
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+}
+export interface DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingLinks {
+}
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingLinksToTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingLinksToHclTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingLinksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingLinks | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingLinks | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // href - computed: true, optional: false, required: false
+  public get href() {
+    return this.getStringAttribute('href');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getNumberAttribute('id');
+  }
+
+  // rel - computed: true, optional: false, required: false
+  public get rel() {
+    return this.getStringAttribute('rel');
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingLinksList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingLinksOutputReference {
+    return new DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingPermissions {
+}
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingPermissionsToTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingPermissionsToHclTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingPermissionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingPermissions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingPermissions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // full - computed: true, optional: false, required: false
+  public get full() {
+    return this.getStringAttribute('full');
+  }
+
+  // instances - computed: true, optional: false, required: false
+  public get instances() {
+    return this.getListAttribute('instances');
+  }
+
+  // operations - computed: true, optional: false, required: false
+  public get operations() {
+    return cdktf.Fn.tolist(this.getListAttribute('operations'));
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingPermissionsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingPermissionsOutputReference {
+    return new DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryGidNumbering {
+}
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingToTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryGidNumbering): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingToHclTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryGidNumbering): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryGidNumbering | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryGidNumbering | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // links - computed: true, optional: false, required: false
+  private _links = new DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingLinksList(this, "links", false);
+  public get links() {
+    return this._links;
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // next_id - computed: true, optional: false, required: false
+  public get nextId() {
+    return this.getNumberAttribute('next_id');
+  }
+
+  // permissions - computed: true, optional: false, required: false
+  private _permissions = new DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingPermissionsList(this, "permissions", false);
+  public get permissions() {
+    return this._permissions;
+  }
+}
+export interface DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryNumberingLinks {
+}
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryNumberingLinksToTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryNumberingLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryNumberingLinksToHclTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryNumberingLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryNumberingLinksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryNumberingLinks | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryNumberingLinks | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // href - computed: true, optional: false, required: false
+  public get href() {
+    return this.getStringAttribute('href');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getNumberAttribute('id');
+  }
+
+  // rel - computed: true, optional: false, required: false
+  public get rel() {
+    return this.getStringAttribute('rel');
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryNumberingLinksList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryNumberingLinksOutputReference {
+    return new DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryNumberingLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryNumberingPermissions {
+}
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryNumberingPermissionsToTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryNumberingPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryNumberingPermissionsToHclTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryNumberingPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryNumberingPermissionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryNumberingPermissions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryNumberingPermissions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // full - computed: true, optional: false, required: false
+  public get full() {
+    return this.getStringAttribute('full');
+  }
+
+  // instances - computed: true, optional: false, required: false
+  public get instances() {
+    return this.getListAttribute('instances');
+  }
+
+  // operations - computed: true, optional: false, required: false
+  public get operations() {
+    return cdktf.Fn.tolist(this.getListAttribute('operations'));
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryNumberingPermissionsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryNumberingPermissionsOutputReference {
+    return new DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryNumberingPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryNumbering {
+}
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryNumberingToTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryNumbering): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryNumberingToHclTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryNumbering): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryNumberingOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryNumbering | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryNumbering | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // links - computed: true, optional: false, required: false
+  private _links = new DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryNumberingLinksList(this, "links", false);
+  public get links() {
+    return this._links;
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // next_id - computed: true, optional: false, required: false
+  public get nextId() {
+    return this.getNumberAttribute('next_id');
+  }
+
+  // permissions - computed: true, optional: false, required: false
+  private _permissions = new DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryNumberingPermissionsList(this, "permissions", false);
+  public get permissions() {
+    return this._permissions;
+  }
+}
+export interface DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectory {
+}
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryToTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectory): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryToHclTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectory): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectory | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectory | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // accounts_writable - computed: true, optional: false, required: false
+  public get accountsWritable() {
+    return this.getBooleanAttribute('accounts_writable');
+  }
+
+  // attributes - computed: true, optional: false, required: false
+  private _attributes = new DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryAttributesList(this, "attributes", false);
+  public get attributes() {
+    return this._attributes;
+  }
+
+  // directory - computed: true, optional: false, required: false
+  private _directory = new DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryDirectoryOutputReference(this, "directory");
+  public get directory() {
+    return this._directory;
+  }
+
+  // gid - computed: true, optional: false, required: false
+  public get gid() {
+    return this.getNumberAttribute('gid');
+  }
+
+  // gid_numbering - computed: true, optional: false, required: false
+  private _gidNumbering = new DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingOutputReference(this, "gid_numbering");
+  public get gidNumbering() {
+    return this._gidNumbering;
+  }
+
+  // group_dn - computed: true, optional: false, required: false
+  public get groupDn() {
+    return this.getStringAttribute('group_dn');
+  }
+
+  // hashing_scheme - computed: true, optional: false, required: false
+  public get hashingScheme() {
+    return this.getStringAttribute('hashing_scheme');
+  }
+
+  // numbering - computed: true, optional: false, required: false
+  private _numbering = new DataKeyhubGroupAdministeredSystemsProvisionedLdapDirectoryNumberingOutputReference(this, "numbering");
+  public get numbering() {
+    return this._numbering;
+  }
+
+  // object_classes - computed: true, optional: false, required: false
+  public get objectClasses() {
+    return this.getStringAttribute('object_classes');
+  }
+
+  // sam_account_name_scheme - computed: true, optional: false, required: false
+  public get samAccountNameScheme() {
+    return this.getStringAttribute('sam_account_name_scheme');
+  }
+
+  // ssh_public_key_support - computed: true, optional: false, required: false
+  public get sshPublicKeySupport() {
+    return this.getStringAttribute('ssh_public_key_support');
+  }
+}
+export interface DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemLinks {
+}
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemLinksToTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemLinksToHclTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemLinksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemLinks | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemLinks | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // href - computed: true, optional: false, required: false
+  public get href() {
+    return this.getStringAttribute('href');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getNumberAttribute('id');
+  }
+
+  // rel - computed: true, optional: false, required: false
+  public get rel() {
+    return this.getStringAttribute('rel');
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemLinksList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemLinksOutputReference {
+    return new DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitLinks {
+}
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitLinksToTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitLinksToHclTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitLinksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitLinks | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitLinks | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // href - computed: true, optional: false, required: false
+  public get href() {
+    return this.getStringAttribute('href');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getNumberAttribute('id');
+  }
+
+  // rel - computed: true, optional: false, required: false
+  public get rel() {
+    return this.getStringAttribute('rel');
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitLinksList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitLinksOutputReference {
+    return new DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitPermissions {
+}
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitPermissionsToTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitPermissionsToHclTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitPermissionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitPermissions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitPermissions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // full - computed: true, optional: false, required: false
+  public get full() {
+    return this.getStringAttribute('full');
+  }
+
+  // instances - computed: true, optional: false, required: false
+  public get instances() {
+    return this.getListAttribute('instances');
+  }
+
+  // operations - computed: true, optional: false, required: false
+  public get operations() {
+    return cdktf.Fn.tolist(this.getListAttribute('operations'));
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitPermissionsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitPermissionsOutputReference {
+    return new DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnit {
+}
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitToTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnit): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitToHclTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnit): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnit | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnit | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // links - computed: true, optional: false, required: false
+  private _links = new DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitLinksList(this, "links", false);
+  public get links() {
+    return this._links;
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // permissions - computed: true, optional: false, required: false
+  private _permissions = new DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitPermissionsList(this, "permissions", false);
+  public get permissions() {
+    return this._permissions;
+  }
+
+  // uuid - computed: true, optional: false, required: false
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+}
+export interface DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemPermissions {
+}
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemPermissionsToTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemPermissionsToHclTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemPermissionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemPermissions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemPermissions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // full - computed: true, optional: false, required: false
+  public get full() {
+    return this.getStringAttribute('full');
+  }
+
+  // instances - computed: true, optional: false, required: false
+  public get instances() {
+    return this.getListAttribute('instances');
+  }
+
+  // operations - computed: true, optional: false, required: false
+  public get operations() {
+    return cdktf.Fn.tolist(this.getListAttribute('operations'));
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemPermissionsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemPermissionsOutputReference {
+    return new DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystem {
+}
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemToTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystem): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemToHclTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystem): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystem | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystem | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // active - computed: true, optional: false, required: false
+  public get active() {
+    return this.getBooleanAttribute('active');
+  }
+
+  // admin_permissions - computed: true, optional: false, required: false
+  public get adminPermissions() {
+    return this.getBooleanAttribute('admin_permissions');
+  }
+
+  // can_write_accounts - computed: true, optional: false, required: false
+  public get canWriteAccounts() {
+    return this.getBooleanAttribute('can_write_accounts');
+  }
+
+  // content_admin_permissions - computed: true, optional: false, required: false
+  public get contentAdminPermissions() {
+    return this.getBooleanAttribute('content_admin_permissions');
+  }
+
+  // links - computed: true, optional: false, required: false
+  private _links = new DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemLinksList(this, "links", false);
+  public get links() {
+    return this._links;
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // organizational_unit - computed: true, optional: false, required: false
+  private _organizationalUnit = new DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitOutputReference(this, "organizational_unit");
+  public get organizationalUnit() {
+    return this._organizationalUnit;
+  }
+
+  // owner_permissions - computed: true, optional: false, required: false
+  public get ownerPermissions() {
+    return this.getBooleanAttribute('owner_permissions');
+  }
+
+  // permissions - computed: true, optional: false, required: false
+  private _permissions = new DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemPermissionsList(this, "permissions", false);
+  public get permissions() {
+    return this._permissions;
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+
+  // uuid - computed: true, optional: false, required: false
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+}
+export interface DataKeyhubGroupAdministeredSystemsProvisionedNamespace {
+}
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedNamespaceToTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedNamespace): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedNamespaceToHclTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedNamespace): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedNamespaceOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataKeyhubGroupAdministeredSystemsProvisionedNamespace | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubGroupAdministeredSystemsProvisionedNamespace | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // base_system - computed: true, optional: false, required: false
+  private _baseSystem = new DataKeyhubGroupAdministeredSystemsProvisionedNamespaceBaseSystemOutputReference(this, "base_system");
+  public get baseSystem() {
+    return this._baseSystem;
+  }
+
+  // group_dn - computed: true, optional: false, required: false
+  public get groupDn() {
+    return this.getStringAttribute('group_dn');
+  }
+
+  // service_account_dn - computed: true, optional: false, required: false
+  public get serviceAccountDn() {
+    return this.getStringAttribute('service_account_dn');
+  }
+}
+export interface DataKeyhubGroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionLinks {
+}
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionLinksToTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionLinksToHclTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionLinksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataKeyhubGroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionLinks | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubGroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionLinks | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // href - computed: true, optional: false, required: false
+  public get href() {
+    return this.getStringAttribute('href');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getNumberAttribute('id');
+  }
+
+  // rel - computed: true, optional: false, required: false
+  public get rel() {
+    return this.getStringAttribute('rel');
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionLinksList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataKeyhubGroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionLinksOutputReference {
+    return new DataKeyhubGroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataKeyhubGroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionPermissions {
+}
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionPermissionsToTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionPermissionsToHclTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionPermissionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataKeyhubGroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionPermissions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubGroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionPermissions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // full - computed: true, optional: false, required: false
+  public get full() {
+    return this.getStringAttribute('full');
+  }
+
+  // instances - computed: true, optional: false, required: false
+  public get instances() {
+    return this.getListAttribute('instances');
+  }
+
+  // operations - computed: true, optional: false, required: false
+  public get operations() {
+    return cdktf.Fn.tolist(this.getListAttribute('operations'));
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionPermissionsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataKeyhubGroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionPermissionsOutputReference {
+    return new DataKeyhubGroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataKeyhubGroupAdministeredSystemsProvisionedScimAttributesAttributeDefinition {
+}
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionToTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedScimAttributesAttributeDefinition): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionToHclTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedScimAttributesAttributeDefinition): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataKeyhubGroupAdministeredSystemsProvisionedScimAttributesAttributeDefinition | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubGroupAdministeredSystemsProvisionedScimAttributesAttributeDefinition | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // format - computed: true, optional: false, required: false
+  public get format() {
+    return this.getStringAttribute('format');
+  }
+
+  // freely_useable - computed: true, optional: false, required: false
+  public get freelyUseable() {
+    return this.getBooleanAttribute('freely_useable');
+  }
+
+  // links - computed: true, optional: false, required: false
+  private _links = new DataKeyhubGroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionLinksList(this, "links", false);
+  public get links() {
+    return this._links;
+  }
+
+  // list - computed: true, optional: false, required: false
+  public get list() {
+    return this.getBooleanAttribute('list');
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // permissions - computed: true, optional: false, required: false
+  private _permissions = new DataKeyhubGroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionPermissionsList(this, "permissions", false);
+  public get permissions() {
+    return this._permissions;
+  }
+
+  // required - computed: true, optional: false, required: false
+  public get required() {
+    return this.getBooleanAttribute('required');
+  }
+
+  // system_definition - computed: true, optional: false, required: false
+  public get systemDefinition() {
+    return this.getStringAttribute('system_definition');
+  }
+
+  // unique - computed: true, optional: false, required: false
+  public get unique() {
+    return this.getBooleanAttribute('unique');
+  }
+}
+export interface DataKeyhubGroupAdministeredSystemsProvisionedScimAttributes {
+}
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedScimAttributesToTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedScimAttributes): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedScimAttributesToHclTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedScimAttributes): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedScimAttributesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataKeyhubGroupAdministeredSystemsProvisionedScimAttributes | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubGroupAdministeredSystemsProvisionedScimAttributes | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // attribute_definition - computed: true, optional: false, required: false
+  private _attributeDefinition = new DataKeyhubGroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionOutputReference(this, "attribute_definition");
+  public get attributeDefinition() {
+    return this._attributeDefinition;
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // script - computed: true, optional: false, required: false
+  public get script() {
+    return this.getStringAttribute('script');
+  }
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedScimAttributesList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataKeyhubGroupAdministeredSystemsProvisionedScimAttributesOutputReference {
+    return new DataKeyhubGroupAdministeredSystemsProvisionedScimAttributesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataKeyhubGroupAdministeredSystemsProvisionedScim {
+}
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedScimToTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedScim): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubGroupAdministeredSystemsProvisionedScimToHclTerraform(struct?: DataKeyhubGroupAdministeredSystemsProvisionedScim): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubGroupAdministeredSystemsProvisionedScimOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataKeyhubGroupAdministeredSystemsProvisionedScim | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubGroupAdministeredSystemsProvisionedScim | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // attributes - computed: true, optional: false, required: false
+  private _attributes = new DataKeyhubGroupAdministeredSystemsProvisionedScimAttributesList(this, "attributes", false);
+  public get attributes() {
+    return this._attributes;
+  }
+
+  // authentication_scheme - computed: true, optional: false, required: false
+  public get authenticationScheme() {
+    return this.getStringAttribute('authentication_scheme');
+  }
+
+  // basic_auth_password - computed: true, optional: false, required: false
+  public get basicAuthPassword() {
+    return this.getStringAttribute('basic_auth_password');
+  }
+
+  // basic_auth_username - computed: true, optional: false, required: false
+  public get basicAuthUsername() {
+    return this.getStringAttribute('basic_auth_username');
+  }
+
+  // bearer_token - computed: true, optional: false, required: false
+  public get bearerToken() {
+    return this.getStringAttribute('bearer_token');
+  }
+
+  // connector_configuration - computed: true, optional: false, required: false
+  public get connectorConfiguration() {
+    return this.getStringAttribute('connector_configuration');
+  }
+
+  // custom_header_name - computed: true, optional: false, required: false
+  public get customHeaderName() {
+    return this.getStringAttribute('custom_header_name');
+  }
+
+  // custom_header_value - computed: true, optional: false, required: false
+  public get customHeaderValue() {
+    return this.getStringAttribute('custom_header_value');
+  }
+
+  // external_id_supported - computed: true, optional: false, required: false
+  public get externalIdSupported() {
+    return this.getBooleanAttribute('external_id_supported');
+  }
+
+  // filter_active_users_supported - computed: true, optional: false, required: false
+  public get filterActiveUsersSupported() {
+    return this.getBooleanAttribute('filter_active_users_supported');
+  }
+
+  // groups_supported - computed: true, optional: false, required: false
+  public get groupsSupported() {
+    return this.getBooleanAttribute('groups_supported');
+  }
+
+  // page_size - computed: true, optional: false, required: false
+  public get pageSize() {
+    return this.getNumberAttribute('page_size');
+  }
+
+  // password_supported - computed: true, optional: false, required: false
+  public get passwordSupported() {
+    return this.getBooleanAttribute('password_supported');
+  }
+
+  // update_strategy - computed: true, optional: false, required: false
+  public get updateStrategy() {
+    return this.getStringAttribute('update_strategy');
+  }
+
+  // url - computed: true, optional: false, required: false
+  public get url() {
+    return this.getStringAttribute('url');
+  }
+
+  // use_scim_json_mimetype - computed: true, optional: false, required: false
+  public get useScimJsonMimetype() {
+    return this.getBooleanAttribute('use_scim_json_mimetype');
+  }
+
+  // vendor_escaped - computed: true, optional: false, required: false
+  public get vendorEscaped() {
+    return this.getStringAttribute('vendor_escaped');
+  }
+}
+export interface DataKeyhubGroupAdministeredSystemsTechnicalAdministratorLinks {
+}
+
+export function dataKeyhubGroupAdministeredSystemsTechnicalAdministratorLinksToTerraform(struct?: DataKeyhubGroupAdministeredSystemsTechnicalAdministratorLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubGroupAdministeredSystemsTechnicalAdministratorLinksToHclTerraform(struct?: DataKeyhubGroupAdministeredSystemsTechnicalAdministratorLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubGroupAdministeredSystemsTechnicalAdministratorLinksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataKeyhubGroupAdministeredSystemsTechnicalAdministratorLinks | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubGroupAdministeredSystemsTechnicalAdministratorLinks | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // href - computed: true, optional: false, required: false
+  public get href() {
+    return this.getStringAttribute('href');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getNumberAttribute('id');
+  }
+
+  // rel - computed: true, optional: false, required: false
+  public get rel() {
+    return this.getStringAttribute('rel');
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class DataKeyhubGroupAdministeredSystemsTechnicalAdministratorLinksList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataKeyhubGroupAdministeredSystemsTechnicalAdministratorLinksOutputReference {
+    return new DataKeyhubGroupAdministeredSystemsTechnicalAdministratorLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataKeyhubGroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitLinks {
+}
+
+export function dataKeyhubGroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitLinksToTerraform(struct?: DataKeyhubGroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubGroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitLinksToHclTerraform(struct?: DataKeyhubGroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubGroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitLinksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataKeyhubGroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitLinks | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubGroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitLinks | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // href - computed: true, optional: false, required: false
+  public get href() {
+    return this.getStringAttribute('href');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getNumberAttribute('id');
+  }
+
+  // rel - computed: true, optional: false, required: false
+  public get rel() {
+    return this.getStringAttribute('rel');
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class DataKeyhubGroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitLinksList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataKeyhubGroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitLinksOutputReference {
+    return new DataKeyhubGroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataKeyhubGroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitPermissions {
+}
+
+export function dataKeyhubGroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitPermissionsToTerraform(struct?: DataKeyhubGroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubGroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitPermissionsToHclTerraform(struct?: DataKeyhubGroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubGroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitPermissionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataKeyhubGroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitPermissions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubGroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitPermissions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // full - computed: true, optional: false, required: false
+  public get full() {
+    return this.getStringAttribute('full');
+  }
+
+  // instances - computed: true, optional: false, required: false
+  public get instances() {
+    return this.getListAttribute('instances');
+  }
+
+  // operations - computed: true, optional: false, required: false
+  public get operations() {
+    return cdktf.Fn.tolist(this.getListAttribute('operations'));
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class DataKeyhubGroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitPermissionsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataKeyhubGroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitPermissionsOutputReference {
+    return new DataKeyhubGroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataKeyhubGroupAdministeredSystemsTechnicalAdministratorOrganizationalUnit {
+}
+
+export function dataKeyhubGroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitToTerraform(struct?: DataKeyhubGroupAdministeredSystemsTechnicalAdministratorOrganizationalUnit): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubGroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitToHclTerraform(struct?: DataKeyhubGroupAdministeredSystemsTechnicalAdministratorOrganizationalUnit): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubGroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataKeyhubGroupAdministeredSystemsTechnicalAdministratorOrganizationalUnit | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubGroupAdministeredSystemsTechnicalAdministratorOrganizationalUnit | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // links - computed: true, optional: false, required: false
+  private _links = new DataKeyhubGroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitLinksList(this, "links", false);
+  public get links() {
+    return this._links;
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // permissions - computed: true, optional: false, required: false
+  private _permissions = new DataKeyhubGroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitPermissionsList(this, "permissions", false);
+  public get permissions() {
+    return this._permissions;
+  }
+
+  // uuid - computed: true, optional: false, required: false
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+}
+export interface DataKeyhubGroupAdministeredSystemsTechnicalAdministratorPermissions {
+}
+
+export function dataKeyhubGroupAdministeredSystemsTechnicalAdministratorPermissionsToTerraform(struct?: DataKeyhubGroupAdministeredSystemsTechnicalAdministratorPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubGroupAdministeredSystemsTechnicalAdministratorPermissionsToHclTerraform(struct?: DataKeyhubGroupAdministeredSystemsTechnicalAdministratorPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubGroupAdministeredSystemsTechnicalAdministratorPermissionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataKeyhubGroupAdministeredSystemsTechnicalAdministratorPermissions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubGroupAdministeredSystemsTechnicalAdministratorPermissions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // full - computed: true, optional: false, required: false
+  public get full() {
+    return this.getStringAttribute('full');
+  }
+
+  // instances - computed: true, optional: false, required: false
+  public get instances() {
+    return this.getListAttribute('instances');
+  }
+
+  // operations - computed: true, optional: false, required: false
+  public get operations() {
+    return cdktf.Fn.tolist(this.getListAttribute('operations'));
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class DataKeyhubGroupAdministeredSystemsTechnicalAdministratorPermissionsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataKeyhubGroupAdministeredSystemsTechnicalAdministratorPermissionsOutputReference {
+    return new DataKeyhubGroupAdministeredSystemsTechnicalAdministratorPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataKeyhubGroupAdministeredSystemsTechnicalAdministrator {
+}
+
+export function dataKeyhubGroupAdministeredSystemsTechnicalAdministratorToTerraform(struct?: DataKeyhubGroupAdministeredSystemsTechnicalAdministrator): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubGroupAdministeredSystemsTechnicalAdministratorToHclTerraform(struct?: DataKeyhubGroupAdministeredSystemsTechnicalAdministrator): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubGroupAdministeredSystemsTechnicalAdministratorOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataKeyhubGroupAdministeredSystemsTechnicalAdministrator | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubGroupAdministeredSystemsTechnicalAdministrator | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // admin - computed: true, optional: false, required: false
+  public get admin() {
+    return this.getBooleanAttribute('admin');
+  }
+
+  // links - computed: true, optional: false, required: false
+  private _links = new DataKeyhubGroupAdministeredSystemsTechnicalAdministratorLinksList(this, "links", false);
+  public get links() {
+    return this._links;
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // organizational_unit - computed: true, optional: false, required: false
+  private _organizationalUnit = new DataKeyhubGroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitOutputReference(this, "organizational_unit");
+  public get organizationalUnit() {
+    return this._organizationalUnit;
+  }
+
+  // permissions - computed: true, optional: false, required: false
+  private _permissions = new DataKeyhubGroupAdministeredSystemsTechnicalAdministratorPermissionsList(this, "permissions", false);
+  public get permissions() {
+    return this._permissions;
+  }
+
+  // uuid - computed: true, optional: false, required: false
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+}
 export interface DataKeyhubGroupAdministeredSystems {
 }
 
@@ -7288,10 +10618,10 @@ export class DataKeyhubGroupClientPermissionsClientAccountPermissionsList extend
     return new DataKeyhubGroupClientPermissionsClientAccountPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface DataKeyhubGroupClientPermissionsClientSharedSecretLinks {
+export interface DataKeyhubGroupClientPermissionsClientAttributesAttributeDefinitionLinks {
 }
 
-export function dataKeyhubGroupClientPermissionsClientSharedSecretLinksToTerraform(struct?: DataKeyhubGroupClientPermissionsClientSharedSecretLinks): any {
+export function dataKeyhubGroupClientPermissionsClientAttributesAttributeDefinitionLinksToTerraform(struct?: DataKeyhubGroupClientPermissionsClientAttributesAttributeDefinitionLinks): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -7301,7 +10631,7 @@ export function dataKeyhubGroupClientPermissionsClientSharedSecretLinksToTerrafo
 }
 
 
-export function dataKeyhubGroupClientPermissionsClientSharedSecretLinksToHclTerraform(struct?: DataKeyhubGroupClientPermissionsClientSharedSecretLinks): any {
+export function dataKeyhubGroupClientPermissionsClientAttributesAttributeDefinitionLinksToHclTerraform(struct?: DataKeyhubGroupClientPermissionsClientAttributesAttributeDefinitionLinks): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -7311,7 +10641,7 @@ export function dataKeyhubGroupClientPermissionsClientSharedSecretLinksToHclTerr
   return attrs;
 }
 
-export class DataKeyhubGroupClientPermissionsClientSharedSecretLinksOutputReference extends cdktf.ComplexObject {
+export class DataKeyhubGroupClientPermissionsClientAttributesAttributeDefinitionLinksOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -7324,13 +10654,13 @@ export class DataKeyhubGroupClientPermissionsClientSharedSecretLinksOutputRefere
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): DataKeyhubGroupClientPermissionsClientSharedSecretLinks | undefined {
+  public get internalValue(): DataKeyhubGroupClientPermissionsClientAttributesAttributeDefinitionLinks | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataKeyhubGroupClientPermissionsClientSharedSecretLinks | undefined) {
+  public set internalValue(value: DataKeyhubGroupClientPermissionsClientAttributesAttributeDefinitionLinks | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -7360,7 +10690,7 @@ export class DataKeyhubGroupClientPermissionsClientSharedSecretLinksOutputRefere
   }
 }
 
-export class DataKeyhubGroupClientPermissionsClientSharedSecretLinksList extends cdktf.ComplexList {
+export class DataKeyhubGroupClientPermissionsClientAttributesAttributeDefinitionLinksList extends cdktf.ComplexList {
 
   /**
   * @param terraformResource The parent resource
@@ -7374,3198 +10704,7 @@ export class DataKeyhubGroupClientPermissionsClientSharedSecretLinksList extends
   /**
   * @param index the index of the item to return
   */
-  public get(index: number): DataKeyhubGroupClientPermissionsClientSharedSecretLinksOutputReference {
-    return new DataKeyhubGroupClientPermissionsClientSharedSecretLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataKeyhubGroupClientPermissionsClientSharedSecretPermissions {
-}
-
-export function dataKeyhubGroupClientPermissionsClientSharedSecretPermissionsToTerraform(struct?: DataKeyhubGroupClientPermissionsClientSharedSecretPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataKeyhubGroupClientPermissionsClientSharedSecretPermissionsToHclTerraform(struct?: DataKeyhubGroupClientPermissionsClientSharedSecretPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataKeyhubGroupClientPermissionsClientSharedSecretPermissionsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataKeyhubGroupClientPermissionsClientSharedSecretPermissions | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataKeyhubGroupClientPermissionsClientSharedSecretPermissions | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // full - computed: true, optional: false, required: false
-  public get full() {
-    return this.getStringAttribute('full');
-  }
-
-  // instances - computed: true, optional: false, required: false
-  public get instances() {
-    return this.getListAttribute('instances');
-  }
-
-  // operations - computed: true, optional: false, required: false
-  public get operations() {
-    return cdktf.Fn.tolist(this.getListAttribute('operations'));
-  }
-
-  // type_escaped - computed: true, optional: false, required: false
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-}
-
-export class DataKeyhubGroupClientPermissionsClientSharedSecretPermissionsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataKeyhubGroupClientPermissionsClientSharedSecretPermissionsOutputReference {
-    return new DataKeyhubGroupClientPermissionsClientSharedSecretPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataKeyhubGroupClientPermissionsClientSharedSecret {
-}
-
-export function dataKeyhubGroupClientPermissionsClientSharedSecretToTerraform(struct?: DataKeyhubGroupClientPermissionsClientSharedSecret): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataKeyhubGroupClientPermissionsClientSharedSecretToHclTerraform(struct?: DataKeyhubGroupClientPermissionsClientSharedSecret): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataKeyhubGroupClientPermissionsClientSharedSecretOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): DataKeyhubGroupClientPermissionsClientSharedSecret | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataKeyhubGroupClientPermissionsClientSharedSecret | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // color - computed: true, optional: false, required: false
-  public get color() {
-    return this.getStringAttribute('color');
-  }
-
-  // links - computed: true, optional: false, required: false
-  private _links = new DataKeyhubGroupClientPermissionsClientSharedSecretLinksList(this, "links", false);
-  public get links() {
-    return this._links;
-  }
-
-  // name - computed: true, optional: false, required: false
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-
-  // permissions - computed: true, optional: false, required: false
-  private _permissions = new DataKeyhubGroupClientPermissionsClientSharedSecretPermissionsList(this, "permissions", false);
-  public get permissions() {
-    return this._permissions;
-  }
-
-  // share_end_time - computed: true, optional: false, required: false
-  public get shareEndTime() {
-    return this.getStringAttribute('share_end_time');
-  }
-
-  // uuid - computed: true, optional: false, required: false
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-}
-export interface DataKeyhubGroupClientPermissionsClient {
-}
-
-export function dataKeyhubGroupClientPermissionsClientToTerraform(struct?: DataKeyhubGroupClientPermissionsClient): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataKeyhubGroupClientPermissionsClientToHclTerraform(struct?: DataKeyhubGroupClientPermissionsClient): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataKeyhubGroupClientPermissionsClientOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): DataKeyhubGroupClientPermissionsClient | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataKeyhubGroupClientPermissionsClient | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // account_permissions - computed: true, optional: false, required: false
-  private _accountPermissions = new DataKeyhubGroupClientPermissionsClientAccountPermissionsList(this, "account_permissions", false);
-  public get accountPermissions() {
-    return this._accountPermissions;
-  }
-
-  // attributes - computed: true, optional: false, required: false
-  private _attributes = new cdktf.StringMap(this, "attributes");
-  public get attributes() {
-    return this._attributes;
-  }
-
-  // callback_uri - computed: true, optional: false, required: false
-  public get callbackUri() {
-    return this.getStringAttribute('callback_uri');
-  }
-
-  // debug_mode - computed: true, optional: false, required: false
-  public get debugMode() {
-    return this.getBooleanAttribute('debug_mode');
-  }
-
-  // for_identity_source - computed: true, optional: false, required: false
-  public get forIdentitySource() {
-    return this.getBooleanAttribute('for_identity_source');
-  }
-
-  // id_token_claims - computed: true, optional: false, required: false
-  public get idTokenClaims() {
-    return this.getStringAttribute('id_token_claims');
-  }
-
-  // initiate_login_uri - computed: true, optional: false, required: false
-  public get initiateLoginUri() {
-    return this.getStringAttribute('initiate_login_uri');
-  }
-
-  // profile - computed: true, optional: false, required: false
-  public get profile() {
-    return this.getStringAttribute('profile');
-  }
-
-  // resource_uris - computed: true, optional: false, required: false
-  public get resourceUris() {
-    return this.getStringAttribute('resource_uris');
-  }
-
-  // share_secret_in_vault - computed: true, optional: false, required: false
-  public get shareSecretInVault() {
-    return this.getBooleanAttribute('share_secret_in_vault');
-  }
-
-  // shared_secret - computed: true, optional: false, required: false
-  private _sharedSecret = new DataKeyhubGroupClientPermissionsClientSharedSecretOutputReference(this, "shared_secret");
-  public get sharedSecret() {
-    return this._sharedSecret;
-  }
-
-  // show_landing_page - computed: true, optional: false, required: false
-  public get showLandingPage() {
-    return this.getBooleanAttribute('show_landing_page');
-  }
-
-  // use_client_credentials - computed: true, optional: false, required: false
-  public get useClientCredentials() {
-    return this.getBooleanAttribute('use_client_credentials');
-  }
-}
-export interface DataKeyhubGroupClientPermissionsForGroupLinks {
-}
-
-export function dataKeyhubGroupClientPermissionsForGroupLinksToTerraform(struct?: DataKeyhubGroupClientPermissionsForGroupLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataKeyhubGroupClientPermissionsForGroupLinksToHclTerraform(struct?: DataKeyhubGroupClientPermissionsForGroupLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataKeyhubGroupClientPermissionsForGroupLinksOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataKeyhubGroupClientPermissionsForGroupLinks | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataKeyhubGroupClientPermissionsForGroupLinks | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // href - computed: true, optional: false, required: false
-  public get href() {
-    return this.getStringAttribute('href');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getNumberAttribute('id');
-  }
-
-  // rel - computed: true, optional: false, required: false
-  public get rel() {
-    return this.getStringAttribute('rel');
-  }
-
-  // type_escaped - computed: true, optional: false, required: false
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-}
-
-export class DataKeyhubGroupClientPermissionsForGroupLinksList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataKeyhubGroupClientPermissionsForGroupLinksOutputReference {
-    return new DataKeyhubGroupClientPermissionsForGroupLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataKeyhubGroupClientPermissionsForGroupOrganizationalUnitLinks {
-}
-
-export function dataKeyhubGroupClientPermissionsForGroupOrganizationalUnitLinksToTerraform(struct?: DataKeyhubGroupClientPermissionsForGroupOrganizationalUnitLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataKeyhubGroupClientPermissionsForGroupOrganizationalUnitLinksToHclTerraform(struct?: DataKeyhubGroupClientPermissionsForGroupOrganizationalUnitLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataKeyhubGroupClientPermissionsForGroupOrganizationalUnitLinksOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataKeyhubGroupClientPermissionsForGroupOrganizationalUnitLinks | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataKeyhubGroupClientPermissionsForGroupOrganizationalUnitLinks | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // href - computed: true, optional: false, required: false
-  public get href() {
-    return this.getStringAttribute('href');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getNumberAttribute('id');
-  }
-
-  // rel - computed: true, optional: false, required: false
-  public get rel() {
-    return this.getStringAttribute('rel');
-  }
-
-  // type_escaped - computed: true, optional: false, required: false
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-}
-
-export class DataKeyhubGroupClientPermissionsForGroupOrganizationalUnitLinksList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataKeyhubGroupClientPermissionsForGroupOrganizationalUnitLinksOutputReference {
-    return new DataKeyhubGroupClientPermissionsForGroupOrganizationalUnitLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataKeyhubGroupClientPermissionsForGroupOrganizationalUnitPermissions {
-}
-
-export function dataKeyhubGroupClientPermissionsForGroupOrganizationalUnitPermissionsToTerraform(struct?: DataKeyhubGroupClientPermissionsForGroupOrganizationalUnitPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataKeyhubGroupClientPermissionsForGroupOrganizationalUnitPermissionsToHclTerraform(struct?: DataKeyhubGroupClientPermissionsForGroupOrganizationalUnitPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataKeyhubGroupClientPermissionsForGroupOrganizationalUnitPermissionsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataKeyhubGroupClientPermissionsForGroupOrganizationalUnitPermissions | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataKeyhubGroupClientPermissionsForGroupOrganizationalUnitPermissions | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // full - computed: true, optional: false, required: false
-  public get full() {
-    return this.getStringAttribute('full');
-  }
-
-  // instances - computed: true, optional: false, required: false
-  public get instances() {
-    return this.getListAttribute('instances');
-  }
-
-  // operations - computed: true, optional: false, required: false
-  public get operations() {
-    return cdktf.Fn.tolist(this.getListAttribute('operations'));
-  }
-
-  // type_escaped - computed: true, optional: false, required: false
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-}
-
-export class DataKeyhubGroupClientPermissionsForGroupOrganizationalUnitPermissionsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataKeyhubGroupClientPermissionsForGroupOrganizationalUnitPermissionsOutputReference {
-    return new DataKeyhubGroupClientPermissionsForGroupOrganizationalUnitPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataKeyhubGroupClientPermissionsForGroupOrganizationalUnit {
-}
-
-export function dataKeyhubGroupClientPermissionsForGroupOrganizationalUnitToTerraform(struct?: DataKeyhubGroupClientPermissionsForGroupOrganizationalUnit): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataKeyhubGroupClientPermissionsForGroupOrganizationalUnitToHclTerraform(struct?: DataKeyhubGroupClientPermissionsForGroupOrganizationalUnit): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataKeyhubGroupClientPermissionsForGroupOrganizationalUnitOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): DataKeyhubGroupClientPermissionsForGroupOrganizationalUnit | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataKeyhubGroupClientPermissionsForGroupOrganizationalUnit | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // links - computed: true, optional: false, required: false
-  private _links = new DataKeyhubGroupClientPermissionsForGroupOrganizationalUnitLinksList(this, "links", false);
-  public get links() {
-    return this._links;
-  }
-
-  // name - computed: true, optional: false, required: false
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-
-  // permissions - computed: true, optional: false, required: false
-  private _permissions = new DataKeyhubGroupClientPermissionsForGroupOrganizationalUnitPermissionsList(this, "permissions", false);
-  public get permissions() {
-    return this._permissions;
-  }
-
-  // uuid - computed: true, optional: false, required: false
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-}
-export interface DataKeyhubGroupClientPermissionsForGroupPermissions {
-}
-
-export function dataKeyhubGroupClientPermissionsForGroupPermissionsToTerraform(struct?: DataKeyhubGroupClientPermissionsForGroupPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataKeyhubGroupClientPermissionsForGroupPermissionsToHclTerraform(struct?: DataKeyhubGroupClientPermissionsForGroupPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataKeyhubGroupClientPermissionsForGroupPermissionsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataKeyhubGroupClientPermissionsForGroupPermissions | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataKeyhubGroupClientPermissionsForGroupPermissions | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // full - computed: true, optional: false, required: false
-  public get full() {
-    return this.getStringAttribute('full');
-  }
-
-  // instances - computed: true, optional: false, required: false
-  public get instances() {
-    return this.getListAttribute('instances');
-  }
-
-  // operations - computed: true, optional: false, required: false
-  public get operations() {
-    return cdktf.Fn.tolist(this.getListAttribute('operations'));
-  }
-
-  // type_escaped - computed: true, optional: false, required: false
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-}
-
-export class DataKeyhubGroupClientPermissionsForGroupPermissionsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataKeyhubGroupClientPermissionsForGroupPermissionsOutputReference {
-    return new DataKeyhubGroupClientPermissionsForGroupPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataKeyhubGroupClientPermissionsForGroup {
-}
-
-export function dataKeyhubGroupClientPermissionsForGroupToTerraform(struct?: DataKeyhubGroupClientPermissionsForGroup): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataKeyhubGroupClientPermissionsForGroupToHclTerraform(struct?: DataKeyhubGroupClientPermissionsForGroup): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataKeyhubGroupClientPermissionsForGroupOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): DataKeyhubGroupClientPermissionsForGroup | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataKeyhubGroupClientPermissionsForGroup | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // admin - computed: true, optional: false, required: false
-  public get admin() {
-    return this.getBooleanAttribute('admin');
-  }
-
-  // links - computed: true, optional: false, required: false
-  private _links = new DataKeyhubGroupClientPermissionsForGroupLinksList(this, "links", false);
-  public get links() {
-    return this._links;
-  }
-
-  // name - computed: true, optional: false, required: false
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-
-  // organizational_unit - computed: true, optional: false, required: false
-  private _organizationalUnit = new DataKeyhubGroupClientPermissionsForGroupOrganizationalUnitOutputReference(this, "organizational_unit");
-  public get organizationalUnit() {
-    return this._organizationalUnit;
-  }
-
-  // permissions - computed: true, optional: false, required: false
-  private _permissions = new DataKeyhubGroupClientPermissionsForGroupPermissionsList(this, "permissions", false);
-  public get permissions() {
-    return this._permissions;
-  }
-
-  // uuid - computed: true, optional: false, required: false
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-}
-export interface DataKeyhubGroupClientPermissionsForSystemLinks {
-}
-
-export function dataKeyhubGroupClientPermissionsForSystemLinksToTerraform(struct?: DataKeyhubGroupClientPermissionsForSystemLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataKeyhubGroupClientPermissionsForSystemLinksToHclTerraform(struct?: DataKeyhubGroupClientPermissionsForSystemLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataKeyhubGroupClientPermissionsForSystemLinksOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataKeyhubGroupClientPermissionsForSystemLinks | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataKeyhubGroupClientPermissionsForSystemLinks | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // href - computed: true, optional: false, required: false
-  public get href() {
-    return this.getStringAttribute('href');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getNumberAttribute('id');
-  }
-
-  // rel - computed: true, optional: false, required: false
-  public get rel() {
-    return this.getStringAttribute('rel');
-  }
-
-  // type_escaped - computed: true, optional: false, required: false
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-}
-
-export class DataKeyhubGroupClientPermissionsForSystemLinksList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataKeyhubGroupClientPermissionsForSystemLinksOutputReference {
-    return new DataKeyhubGroupClientPermissionsForSystemLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataKeyhubGroupClientPermissionsForSystemOrganizationalUnitLinks {
-}
-
-export function dataKeyhubGroupClientPermissionsForSystemOrganizationalUnitLinksToTerraform(struct?: DataKeyhubGroupClientPermissionsForSystemOrganizationalUnitLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataKeyhubGroupClientPermissionsForSystemOrganizationalUnitLinksToHclTerraform(struct?: DataKeyhubGroupClientPermissionsForSystemOrganizationalUnitLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataKeyhubGroupClientPermissionsForSystemOrganizationalUnitLinksOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataKeyhubGroupClientPermissionsForSystemOrganizationalUnitLinks | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataKeyhubGroupClientPermissionsForSystemOrganizationalUnitLinks | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // href - computed: true, optional: false, required: false
-  public get href() {
-    return this.getStringAttribute('href');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getNumberAttribute('id');
-  }
-
-  // rel - computed: true, optional: false, required: false
-  public get rel() {
-    return this.getStringAttribute('rel');
-  }
-
-  // type_escaped - computed: true, optional: false, required: false
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-}
-
-export class DataKeyhubGroupClientPermissionsForSystemOrganizationalUnitLinksList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataKeyhubGroupClientPermissionsForSystemOrganizationalUnitLinksOutputReference {
-    return new DataKeyhubGroupClientPermissionsForSystemOrganizationalUnitLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataKeyhubGroupClientPermissionsForSystemOrganizationalUnitPermissions {
-}
-
-export function dataKeyhubGroupClientPermissionsForSystemOrganizationalUnitPermissionsToTerraform(struct?: DataKeyhubGroupClientPermissionsForSystemOrganizationalUnitPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataKeyhubGroupClientPermissionsForSystemOrganizationalUnitPermissionsToHclTerraform(struct?: DataKeyhubGroupClientPermissionsForSystemOrganizationalUnitPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataKeyhubGroupClientPermissionsForSystemOrganizationalUnitPermissionsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataKeyhubGroupClientPermissionsForSystemOrganizationalUnitPermissions | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataKeyhubGroupClientPermissionsForSystemOrganizationalUnitPermissions | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // full - computed: true, optional: false, required: false
-  public get full() {
-    return this.getStringAttribute('full');
-  }
-
-  // instances - computed: true, optional: false, required: false
-  public get instances() {
-    return this.getListAttribute('instances');
-  }
-
-  // operations - computed: true, optional: false, required: false
-  public get operations() {
-    return cdktf.Fn.tolist(this.getListAttribute('operations'));
-  }
-
-  // type_escaped - computed: true, optional: false, required: false
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-}
-
-export class DataKeyhubGroupClientPermissionsForSystemOrganizationalUnitPermissionsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataKeyhubGroupClientPermissionsForSystemOrganizationalUnitPermissionsOutputReference {
-    return new DataKeyhubGroupClientPermissionsForSystemOrganizationalUnitPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataKeyhubGroupClientPermissionsForSystemOrganizationalUnit {
-}
-
-export function dataKeyhubGroupClientPermissionsForSystemOrganizationalUnitToTerraform(struct?: DataKeyhubGroupClientPermissionsForSystemOrganizationalUnit): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataKeyhubGroupClientPermissionsForSystemOrganizationalUnitToHclTerraform(struct?: DataKeyhubGroupClientPermissionsForSystemOrganizationalUnit): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataKeyhubGroupClientPermissionsForSystemOrganizationalUnitOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): DataKeyhubGroupClientPermissionsForSystemOrganizationalUnit | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataKeyhubGroupClientPermissionsForSystemOrganizationalUnit | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // links - computed: true, optional: false, required: false
-  private _links = new DataKeyhubGroupClientPermissionsForSystemOrganizationalUnitLinksList(this, "links", false);
-  public get links() {
-    return this._links;
-  }
-
-  // name - computed: true, optional: false, required: false
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-
-  // permissions - computed: true, optional: false, required: false
-  private _permissions = new DataKeyhubGroupClientPermissionsForSystemOrganizationalUnitPermissionsList(this, "permissions", false);
-  public get permissions() {
-    return this._permissions;
-  }
-
-  // uuid - computed: true, optional: false, required: false
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-}
-export interface DataKeyhubGroupClientPermissionsForSystemPermissions {
-}
-
-export function dataKeyhubGroupClientPermissionsForSystemPermissionsToTerraform(struct?: DataKeyhubGroupClientPermissionsForSystemPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataKeyhubGroupClientPermissionsForSystemPermissionsToHclTerraform(struct?: DataKeyhubGroupClientPermissionsForSystemPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataKeyhubGroupClientPermissionsForSystemPermissionsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataKeyhubGroupClientPermissionsForSystemPermissions | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataKeyhubGroupClientPermissionsForSystemPermissions | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // full - computed: true, optional: false, required: false
-  public get full() {
-    return this.getStringAttribute('full');
-  }
-
-  // instances - computed: true, optional: false, required: false
-  public get instances() {
-    return this.getListAttribute('instances');
-  }
-
-  // operations - computed: true, optional: false, required: false
-  public get operations() {
-    return cdktf.Fn.tolist(this.getListAttribute('operations'));
-  }
-
-  // type_escaped - computed: true, optional: false, required: false
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-}
-
-export class DataKeyhubGroupClientPermissionsForSystemPermissionsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataKeyhubGroupClientPermissionsForSystemPermissionsOutputReference {
-    return new DataKeyhubGroupClientPermissionsForSystemPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataKeyhubGroupClientPermissionsForSystem {
-}
-
-export function dataKeyhubGroupClientPermissionsForSystemToTerraform(struct?: DataKeyhubGroupClientPermissionsForSystem): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataKeyhubGroupClientPermissionsForSystemToHclTerraform(struct?: DataKeyhubGroupClientPermissionsForSystem): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataKeyhubGroupClientPermissionsForSystemOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): DataKeyhubGroupClientPermissionsForSystem | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataKeyhubGroupClientPermissionsForSystem | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // active - computed: true, optional: false, required: false
-  public get active() {
-    return this.getBooleanAttribute('active');
-  }
-
-  // admin_permissions - computed: true, optional: false, required: false
-  public get adminPermissions() {
-    return this.getBooleanAttribute('admin_permissions');
-  }
-
-  // can_write_accounts - computed: true, optional: false, required: false
-  public get canWriteAccounts() {
-    return this.getBooleanAttribute('can_write_accounts');
-  }
-
-  // content_admin_permissions - computed: true, optional: false, required: false
-  public get contentAdminPermissions() {
-    return this.getBooleanAttribute('content_admin_permissions');
-  }
-
-  // links - computed: true, optional: false, required: false
-  private _links = new DataKeyhubGroupClientPermissionsForSystemLinksList(this, "links", false);
-  public get links() {
-    return this._links;
-  }
-
-  // name - computed: true, optional: false, required: false
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-
-  // organizational_unit - computed: true, optional: false, required: false
-  private _organizationalUnit = new DataKeyhubGroupClientPermissionsForSystemOrganizationalUnitOutputReference(this, "organizational_unit");
-  public get organizationalUnit() {
-    return this._organizationalUnit;
-  }
-
-  // owner_permissions - computed: true, optional: false, required: false
-  public get ownerPermissions() {
-    return this.getBooleanAttribute('owner_permissions');
-  }
-
-  // permissions - computed: true, optional: false, required: false
-  private _permissions = new DataKeyhubGroupClientPermissionsForSystemPermissionsList(this, "permissions", false);
-  public get permissions() {
-    return this._permissions;
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-
-  // uuid - computed: true, optional: false, required: false
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-}
-export interface DataKeyhubGroupClientPermissionsLinks {
-}
-
-export function dataKeyhubGroupClientPermissionsLinksToTerraform(struct?: DataKeyhubGroupClientPermissionsLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataKeyhubGroupClientPermissionsLinksToHclTerraform(struct?: DataKeyhubGroupClientPermissionsLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataKeyhubGroupClientPermissionsLinksOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataKeyhubGroupClientPermissionsLinks | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataKeyhubGroupClientPermissionsLinks | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // href - computed: true, optional: false, required: false
-  public get href() {
-    return this.getStringAttribute('href');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getNumberAttribute('id');
-  }
-
-  // rel - computed: true, optional: false, required: false
-  public get rel() {
-    return this.getStringAttribute('rel');
-  }
-
-  // type_escaped - computed: true, optional: false, required: false
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-}
-
-export class DataKeyhubGroupClientPermissionsLinksList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataKeyhubGroupClientPermissionsLinksOutputReference {
-    return new DataKeyhubGroupClientPermissionsLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataKeyhubGroupClientPermissionsPermissions {
-}
-
-export function dataKeyhubGroupClientPermissionsPermissionsToTerraform(struct?: DataKeyhubGroupClientPermissionsPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataKeyhubGroupClientPermissionsPermissionsToHclTerraform(struct?: DataKeyhubGroupClientPermissionsPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataKeyhubGroupClientPermissionsPermissionsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataKeyhubGroupClientPermissionsPermissions | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataKeyhubGroupClientPermissionsPermissions | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // full - computed: true, optional: false, required: false
-  public get full() {
-    return this.getStringAttribute('full');
-  }
-
-  // instances - computed: true, optional: false, required: false
-  public get instances() {
-    return this.getListAttribute('instances');
-  }
-
-  // operations - computed: true, optional: false, required: false
-  public get operations() {
-    return cdktf.Fn.tolist(this.getListAttribute('operations'));
-  }
-
-  // type_escaped - computed: true, optional: false, required: false
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-}
-
-export class DataKeyhubGroupClientPermissionsPermissionsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataKeyhubGroupClientPermissionsPermissionsOutputReference {
-    return new DataKeyhubGroupClientPermissionsPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataKeyhubGroupClientPermissions {
-}
-
-export function dataKeyhubGroupClientPermissionsToTerraform(struct?: DataKeyhubGroupClientPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataKeyhubGroupClientPermissionsToHclTerraform(struct?: DataKeyhubGroupClientPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataKeyhubGroupClientPermissionsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataKeyhubGroupClientPermissions | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataKeyhubGroupClientPermissions | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // client - computed: true, optional: false, required: false
-  private _client = new DataKeyhubGroupClientPermissionsClientOutputReference(this, "client");
-  public get client() {
-    return this._client;
-  }
-
-  // for_group - computed: true, optional: false, required: false
-  private _forGroup = new DataKeyhubGroupClientPermissionsForGroupOutputReference(this, "for_group");
-  public get forGroup() {
-    return this._forGroup;
-  }
-
-  // for_system - computed: true, optional: false, required: false
-  private _forSystem = new DataKeyhubGroupClientPermissionsForSystemOutputReference(this, "for_system");
-  public get forSystem() {
-    return this._forSystem;
-  }
-
-  // links - computed: true, optional: false, required: false
-  private _links = new DataKeyhubGroupClientPermissionsLinksList(this, "links", false);
-  public get links() {
-    return this._links;
-  }
-
-  // permissions - computed: true, optional: false, required: false
-  private _permissions = new DataKeyhubGroupClientPermissionsPermissionsList(this, "permissions", false);
-  public get permissions() {
-    return this._permissions;
-  }
-
-  // value - computed: true, optional: false, required: false
-  public get value() {
-    return this.getStringAttribute('value');
-  }
-}
-
-export class DataKeyhubGroupClientPermissionsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataKeyhubGroupClientPermissionsOutputReference {
-    return new DataKeyhubGroupClientPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataKeyhubGroupClientsClientLinks {
-}
-
-export function dataKeyhubGroupClientsClientLinksToTerraform(struct?: DataKeyhubGroupClientsClientLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataKeyhubGroupClientsClientLinksToHclTerraform(struct?: DataKeyhubGroupClientsClientLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataKeyhubGroupClientsClientLinksOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataKeyhubGroupClientsClientLinks | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataKeyhubGroupClientsClientLinks | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // href - computed: true, optional: false, required: false
-  public get href() {
-    return this.getStringAttribute('href');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getNumberAttribute('id');
-  }
-
-  // rel - computed: true, optional: false, required: false
-  public get rel() {
-    return this.getStringAttribute('rel');
-  }
-
-  // type_escaped - computed: true, optional: false, required: false
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-}
-
-export class DataKeyhubGroupClientsClientLinksList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataKeyhubGroupClientsClientLinksOutputReference {
-    return new DataKeyhubGroupClientsClientLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataKeyhubGroupClientsClientPermissions {
-}
-
-export function dataKeyhubGroupClientsClientPermissionsToTerraform(struct?: DataKeyhubGroupClientsClientPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataKeyhubGroupClientsClientPermissionsToHclTerraform(struct?: DataKeyhubGroupClientsClientPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataKeyhubGroupClientsClientPermissionsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataKeyhubGroupClientsClientPermissions | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataKeyhubGroupClientsClientPermissions | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // full - computed: true, optional: false, required: false
-  public get full() {
-    return this.getStringAttribute('full');
-  }
-
-  // instances - computed: true, optional: false, required: false
-  public get instances() {
-    return this.getListAttribute('instances');
-  }
-
-  // operations - computed: true, optional: false, required: false
-  public get operations() {
-    return cdktf.Fn.tolist(this.getListAttribute('operations'));
-  }
-
-  // type_escaped - computed: true, optional: false, required: false
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-}
-
-export class DataKeyhubGroupClientsClientPermissionsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataKeyhubGroupClientsClientPermissionsOutputReference {
-    return new DataKeyhubGroupClientsClientPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataKeyhubGroupClientsClient {
-}
-
-export function dataKeyhubGroupClientsClientToTerraform(struct?: DataKeyhubGroupClientsClient): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataKeyhubGroupClientsClientToHclTerraform(struct?: DataKeyhubGroupClientsClient): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataKeyhubGroupClientsClientOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): DataKeyhubGroupClientsClient | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataKeyhubGroupClientsClient | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // client_id - computed: true, optional: false, required: false
-  public get clientId() {
-    return this.getStringAttribute('client_id');
-  }
-
-  // links - computed: true, optional: false, required: false
-  private _links = new DataKeyhubGroupClientsClientLinksList(this, "links", false);
-  public get links() {
-    return this._links;
-  }
-
-  // name - computed: true, optional: false, required: false
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-
-  // permissions - computed: true, optional: false, required: false
-  private _permissions = new DataKeyhubGroupClientsClientPermissionsList(this, "permissions", false);
-  public get permissions() {
-    return this._permissions;
-  }
-
-  // scopes - computed: true, optional: false, required: false
-  public get scopes() {
-    return this.getListAttribute('scopes');
-  }
-
-  // sso_application - computed: true, optional: false, required: false
-  public get ssoApplication() {
-    return this.getBooleanAttribute('sso_application');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-
-  // uuid - computed: true, optional: false, required: false
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-}
-export interface DataKeyhubGroupClientsGroupLinks {
-}
-
-export function dataKeyhubGroupClientsGroupLinksToTerraform(struct?: DataKeyhubGroupClientsGroupLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataKeyhubGroupClientsGroupLinksToHclTerraform(struct?: DataKeyhubGroupClientsGroupLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataKeyhubGroupClientsGroupLinksOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataKeyhubGroupClientsGroupLinks | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataKeyhubGroupClientsGroupLinks | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // href - computed: true, optional: false, required: false
-  public get href() {
-    return this.getStringAttribute('href');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getNumberAttribute('id');
-  }
-
-  // rel - computed: true, optional: false, required: false
-  public get rel() {
-    return this.getStringAttribute('rel');
-  }
-
-  // type_escaped - computed: true, optional: false, required: false
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-}
-
-export class DataKeyhubGroupClientsGroupLinksList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataKeyhubGroupClientsGroupLinksOutputReference {
-    return new DataKeyhubGroupClientsGroupLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataKeyhubGroupClientsGroupOrganizationalUnitLinks {
-}
-
-export function dataKeyhubGroupClientsGroupOrganizationalUnitLinksToTerraform(struct?: DataKeyhubGroupClientsGroupOrganizationalUnitLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataKeyhubGroupClientsGroupOrganizationalUnitLinksToHclTerraform(struct?: DataKeyhubGroupClientsGroupOrganizationalUnitLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataKeyhubGroupClientsGroupOrganizationalUnitLinksOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataKeyhubGroupClientsGroupOrganizationalUnitLinks | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataKeyhubGroupClientsGroupOrganizationalUnitLinks | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // href - computed: true, optional: false, required: false
-  public get href() {
-    return this.getStringAttribute('href');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getNumberAttribute('id');
-  }
-
-  // rel - computed: true, optional: false, required: false
-  public get rel() {
-    return this.getStringAttribute('rel');
-  }
-
-  // type_escaped - computed: true, optional: false, required: false
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-}
-
-export class DataKeyhubGroupClientsGroupOrganizationalUnitLinksList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataKeyhubGroupClientsGroupOrganizationalUnitLinksOutputReference {
-    return new DataKeyhubGroupClientsGroupOrganizationalUnitLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataKeyhubGroupClientsGroupOrganizationalUnitPermissions {
-}
-
-export function dataKeyhubGroupClientsGroupOrganizationalUnitPermissionsToTerraform(struct?: DataKeyhubGroupClientsGroupOrganizationalUnitPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataKeyhubGroupClientsGroupOrganizationalUnitPermissionsToHclTerraform(struct?: DataKeyhubGroupClientsGroupOrganizationalUnitPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataKeyhubGroupClientsGroupOrganizationalUnitPermissionsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataKeyhubGroupClientsGroupOrganizationalUnitPermissions | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataKeyhubGroupClientsGroupOrganizationalUnitPermissions | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // full - computed: true, optional: false, required: false
-  public get full() {
-    return this.getStringAttribute('full');
-  }
-
-  // instances - computed: true, optional: false, required: false
-  public get instances() {
-    return this.getListAttribute('instances');
-  }
-
-  // operations - computed: true, optional: false, required: false
-  public get operations() {
-    return cdktf.Fn.tolist(this.getListAttribute('operations'));
-  }
-
-  // type_escaped - computed: true, optional: false, required: false
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-}
-
-export class DataKeyhubGroupClientsGroupOrganizationalUnitPermissionsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataKeyhubGroupClientsGroupOrganizationalUnitPermissionsOutputReference {
-    return new DataKeyhubGroupClientsGroupOrganizationalUnitPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataKeyhubGroupClientsGroupOrganizationalUnit {
-}
-
-export function dataKeyhubGroupClientsGroupOrganizationalUnitToTerraform(struct?: DataKeyhubGroupClientsGroupOrganizationalUnit): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataKeyhubGroupClientsGroupOrganizationalUnitToHclTerraform(struct?: DataKeyhubGroupClientsGroupOrganizationalUnit): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataKeyhubGroupClientsGroupOrganizationalUnitOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): DataKeyhubGroupClientsGroupOrganizationalUnit | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataKeyhubGroupClientsGroupOrganizationalUnit | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // links - computed: true, optional: false, required: false
-  private _links = new DataKeyhubGroupClientsGroupOrganizationalUnitLinksList(this, "links", false);
-  public get links() {
-    return this._links;
-  }
-
-  // name - computed: true, optional: false, required: false
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-
-  // permissions - computed: true, optional: false, required: false
-  private _permissions = new DataKeyhubGroupClientsGroupOrganizationalUnitPermissionsList(this, "permissions", false);
-  public get permissions() {
-    return this._permissions;
-  }
-
-  // uuid - computed: true, optional: false, required: false
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-}
-export interface DataKeyhubGroupClientsGroupPermissions {
-}
-
-export function dataKeyhubGroupClientsGroupPermissionsToTerraform(struct?: DataKeyhubGroupClientsGroupPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataKeyhubGroupClientsGroupPermissionsToHclTerraform(struct?: DataKeyhubGroupClientsGroupPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataKeyhubGroupClientsGroupPermissionsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataKeyhubGroupClientsGroupPermissions | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataKeyhubGroupClientsGroupPermissions | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // full - computed: true, optional: false, required: false
-  public get full() {
-    return this.getStringAttribute('full');
-  }
-
-  // instances - computed: true, optional: false, required: false
-  public get instances() {
-    return this.getListAttribute('instances');
-  }
-
-  // operations - computed: true, optional: false, required: false
-  public get operations() {
-    return cdktf.Fn.tolist(this.getListAttribute('operations'));
-  }
-
-  // type_escaped - computed: true, optional: false, required: false
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-}
-
-export class DataKeyhubGroupClientsGroupPermissionsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataKeyhubGroupClientsGroupPermissionsOutputReference {
-    return new DataKeyhubGroupClientsGroupPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataKeyhubGroupClientsGroup {
-}
-
-export function dataKeyhubGroupClientsGroupToTerraform(struct?: DataKeyhubGroupClientsGroup): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataKeyhubGroupClientsGroupToHclTerraform(struct?: DataKeyhubGroupClientsGroup): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataKeyhubGroupClientsGroupOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): DataKeyhubGroupClientsGroup | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataKeyhubGroupClientsGroup | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // admin - computed: true, optional: false, required: false
-  public get admin() {
-    return this.getBooleanAttribute('admin');
-  }
-
-  // links - computed: true, optional: false, required: false
-  private _links = new DataKeyhubGroupClientsGroupLinksList(this, "links", false);
-  public get links() {
-    return this._links;
-  }
-
-  // name - computed: true, optional: false, required: false
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-
-  // organizational_unit - computed: true, optional: false, required: false
-  private _organizationalUnit = new DataKeyhubGroupClientsGroupOrganizationalUnitOutputReference(this, "organizational_unit");
-  public get organizationalUnit() {
-    return this._organizationalUnit;
-  }
-
-  // permissions - computed: true, optional: false, required: false
-  private _permissions = new DataKeyhubGroupClientsGroupPermissionsList(this, "permissions", false);
-  public get permissions() {
-    return this._permissions;
-  }
-
-  // uuid - computed: true, optional: false, required: false
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-}
-export interface DataKeyhubGroupClientsLinks {
-}
-
-export function dataKeyhubGroupClientsLinksToTerraform(struct?: DataKeyhubGroupClientsLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataKeyhubGroupClientsLinksToHclTerraform(struct?: DataKeyhubGroupClientsLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataKeyhubGroupClientsLinksOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataKeyhubGroupClientsLinks | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataKeyhubGroupClientsLinks | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // href - computed: true, optional: false, required: false
-  public get href() {
-    return this.getStringAttribute('href');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getNumberAttribute('id');
-  }
-
-  // rel - computed: true, optional: false, required: false
-  public get rel() {
-    return this.getStringAttribute('rel');
-  }
-
-  // type_escaped - computed: true, optional: false, required: false
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-}
-
-export class DataKeyhubGroupClientsLinksList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataKeyhubGroupClientsLinksOutputReference {
-    return new DataKeyhubGroupClientsLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataKeyhubGroupClientsOwnerLinks {
-}
-
-export function dataKeyhubGroupClientsOwnerLinksToTerraform(struct?: DataKeyhubGroupClientsOwnerLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataKeyhubGroupClientsOwnerLinksToHclTerraform(struct?: DataKeyhubGroupClientsOwnerLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataKeyhubGroupClientsOwnerLinksOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataKeyhubGroupClientsOwnerLinks | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataKeyhubGroupClientsOwnerLinks | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // href - computed: true, optional: false, required: false
-  public get href() {
-    return this.getStringAttribute('href');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getNumberAttribute('id');
-  }
-
-  // rel - computed: true, optional: false, required: false
-  public get rel() {
-    return this.getStringAttribute('rel');
-  }
-
-  // type_escaped - computed: true, optional: false, required: false
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-}
-
-export class DataKeyhubGroupClientsOwnerLinksList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataKeyhubGroupClientsOwnerLinksOutputReference {
-    return new DataKeyhubGroupClientsOwnerLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataKeyhubGroupClientsOwnerOrganizationalUnitLinks {
-}
-
-export function dataKeyhubGroupClientsOwnerOrganizationalUnitLinksToTerraform(struct?: DataKeyhubGroupClientsOwnerOrganizationalUnitLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataKeyhubGroupClientsOwnerOrganizationalUnitLinksToHclTerraform(struct?: DataKeyhubGroupClientsOwnerOrganizationalUnitLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataKeyhubGroupClientsOwnerOrganizationalUnitLinksOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataKeyhubGroupClientsOwnerOrganizationalUnitLinks | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataKeyhubGroupClientsOwnerOrganizationalUnitLinks | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // href - computed: true, optional: false, required: false
-  public get href() {
-    return this.getStringAttribute('href');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getNumberAttribute('id');
-  }
-
-  // rel - computed: true, optional: false, required: false
-  public get rel() {
-    return this.getStringAttribute('rel');
-  }
-
-  // type_escaped - computed: true, optional: false, required: false
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-}
-
-export class DataKeyhubGroupClientsOwnerOrganizationalUnitLinksList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataKeyhubGroupClientsOwnerOrganizationalUnitLinksOutputReference {
-    return new DataKeyhubGroupClientsOwnerOrganizationalUnitLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataKeyhubGroupClientsOwnerOrganizationalUnitPermissions {
-}
-
-export function dataKeyhubGroupClientsOwnerOrganizationalUnitPermissionsToTerraform(struct?: DataKeyhubGroupClientsOwnerOrganizationalUnitPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataKeyhubGroupClientsOwnerOrganizationalUnitPermissionsToHclTerraform(struct?: DataKeyhubGroupClientsOwnerOrganizationalUnitPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataKeyhubGroupClientsOwnerOrganizationalUnitPermissionsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataKeyhubGroupClientsOwnerOrganizationalUnitPermissions | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataKeyhubGroupClientsOwnerOrganizationalUnitPermissions | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // full - computed: true, optional: false, required: false
-  public get full() {
-    return this.getStringAttribute('full');
-  }
-
-  // instances - computed: true, optional: false, required: false
-  public get instances() {
-    return this.getListAttribute('instances');
-  }
-
-  // operations - computed: true, optional: false, required: false
-  public get operations() {
-    return cdktf.Fn.tolist(this.getListAttribute('operations'));
-  }
-
-  // type_escaped - computed: true, optional: false, required: false
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-}
-
-export class DataKeyhubGroupClientsOwnerOrganizationalUnitPermissionsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataKeyhubGroupClientsOwnerOrganizationalUnitPermissionsOutputReference {
-    return new DataKeyhubGroupClientsOwnerOrganizationalUnitPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataKeyhubGroupClientsOwnerOrganizationalUnit {
-}
-
-export function dataKeyhubGroupClientsOwnerOrganizationalUnitToTerraform(struct?: DataKeyhubGroupClientsOwnerOrganizationalUnit): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataKeyhubGroupClientsOwnerOrganizationalUnitToHclTerraform(struct?: DataKeyhubGroupClientsOwnerOrganizationalUnit): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataKeyhubGroupClientsOwnerOrganizationalUnitOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): DataKeyhubGroupClientsOwnerOrganizationalUnit | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataKeyhubGroupClientsOwnerOrganizationalUnit | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // links - computed: true, optional: false, required: false
-  private _links = new DataKeyhubGroupClientsOwnerOrganizationalUnitLinksList(this, "links", false);
-  public get links() {
-    return this._links;
-  }
-
-  // name - computed: true, optional: false, required: false
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-
-  // permissions - computed: true, optional: false, required: false
-  private _permissions = new DataKeyhubGroupClientsOwnerOrganizationalUnitPermissionsList(this, "permissions", false);
-  public get permissions() {
-    return this._permissions;
-  }
-
-  // uuid - computed: true, optional: false, required: false
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-}
-export interface DataKeyhubGroupClientsOwnerPermissions {
-}
-
-export function dataKeyhubGroupClientsOwnerPermissionsToTerraform(struct?: DataKeyhubGroupClientsOwnerPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataKeyhubGroupClientsOwnerPermissionsToHclTerraform(struct?: DataKeyhubGroupClientsOwnerPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataKeyhubGroupClientsOwnerPermissionsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataKeyhubGroupClientsOwnerPermissions | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataKeyhubGroupClientsOwnerPermissions | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // full - computed: true, optional: false, required: false
-  public get full() {
-    return this.getStringAttribute('full');
-  }
-
-  // instances - computed: true, optional: false, required: false
-  public get instances() {
-    return this.getListAttribute('instances');
-  }
-
-  // operations - computed: true, optional: false, required: false
-  public get operations() {
-    return cdktf.Fn.tolist(this.getListAttribute('operations'));
-  }
-
-  // type_escaped - computed: true, optional: false, required: false
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-}
-
-export class DataKeyhubGroupClientsOwnerPermissionsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataKeyhubGroupClientsOwnerPermissionsOutputReference {
-    return new DataKeyhubGroupClientsOwnerPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataKeyhubGroupClientsOwner {
-}
-
-export function dataKeyhubGroupClientsOwnerToTerraform(struct?: DataKeyhubGroupClientsOwner): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataKeyhubGroupClientsOwnerToHclTerraform(struct?: DataKeyhubGroupClientsOwner): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataKeyhubGroupClientsOwnerOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): DataKeyhubGroupClientsOwner | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataKeyhubGroupClientsOwner | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // admin - computed: true, optional: false, required: false
-  public get admin() {
-    return this.getBooleanAttribute('admin');
-  }
-
-  // links - computed: true, optional: false, required: false
-  private _links = new DataKeyhubGroupClientsOwnerLinksList(this, "links", false);
-  public get links() {
-    return this._links;
-  }
-
-  // name - computed: true, optional: false, required: false
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-
-  // organizational_unit - computed: true, optional: false, required: false
-  private _organizationalUnit = new DataKeyhubGroupClientsOwnerOrganizationalUnitOutputReference(this, "organizational_unit");
-  public get organizationalUnit() {
-    return this._organizationalUnit;
-  }
-
-  // permissions - computed: true, optional: false, required: false
-  private _permissions = new DataKeyhubGroupClientsOwnerPermissionsList(this, "permissions", false);
-  public get permissions() {
-    return this._permissions;
-  }
-
-  // uuid - computed: true, optional: false, required: false
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-}
-export interface DataKeyhubGroupClientsPermissions {
-}
-
-export function dataKeyhubGroupClientsPermissionsToTerraform(struct?: DataKeyhubGroupClientsPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataKeyhubGroupClientsPermissionsToHclTerraform(struct?: DataKeyhubGroupClientsPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataKeyhubGroupClientsPermissionsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataKeyhubGroupClientsPermissions | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataKeyhubGroupClientsPermissions | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // full - computed: true, optional: false, required: false
-  public get full() {
-    return this.getStringAttribute('full');
-  }
-
-  // instances - computed: true, optional: false, required: false
-  public get instances() {
-    return this.getListAttribute('instances');
-  }
-
-  // operations - computed: true, optional: false, required: false
-  public get operations() {
-    return cdktf.Fn.tolist(this.getListAttribute('operations'));
-  }
-
-  // type_escaped - computed: true, optional: false, required: false
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-}
-
-export class DataKeyhubGroupClientsPermissionsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataKeyhubGroupClientsPermissionsOutputReference {
-    return new DataKeyhubGroupClientsPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataKeyhubGroupClientsTechnicalAdministratorLinks {
-}
-
-export function dataKeyhubGroupClientsTechnicalAdministratorLinksToTerraform(struct?: DataKeyhubGroupClientsTechnicalAdministratorLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataKeyhubGroupClientsTechnicalAdministratorLinksToHclTerraform(struct?: DataKeyhubGroupClientsTechnicalAdministratorLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataKeyhubGroupClientsTechnicalAdministratorLinksOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataKeyhubGroupClientsTechnicalAdministratorLinks | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataKeyhubGroupClientsTechnicalAdministratorLinks | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // href - computed: true, optional: false, required: false
-  public get href() {
-    return this.getStringAttribute('href');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getNumberAttribute('id');
-  }
-
-  // rel - computed: true, optional: false, required: false
-  public get rel() {
-    return this.getStringAttribute('rel');
-  }
-
-  // type_escaped - computed: true, optional: false, required: false
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-}
-
-export class DataKeyhubGroupClientsTechnicalAdministratorLinksList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataKeyhubGroupClientsTechnicalAdministratorLinksOutputReference {
-    return new DataKeyhubGroupClientsTechnicalAdministratorLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  public get(index: number): DataKeyhubGroupClientPermissionsClientAttributesAttributeDefinitionLinksOutputReference {
+    return new DataKeyhubGroupClientPermissionsClientAttributesAttributeDefinitionLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }

@@ -59,6 +59,7 @@ export * as subaccount from './subaccount';
 export * as tag from './tag';
 export * as user from './user';
 export * as dataUptimeAlerts from './data-uptime-alerts';
+export * as dataUptimeCheckGroups from './data-uptime-check-groups';
 export * as dataUptimeContacts from './data-uptime-contacts';
 export * as dataUptimeCredentials from './data-uptime-credentials';
 export * as dataUptimeDashboards from './data-uptime-dashboards';

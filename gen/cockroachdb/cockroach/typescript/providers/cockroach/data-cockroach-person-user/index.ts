@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/data-sources/person_user
+// https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/data-sources/person_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataCockroachPersonUserConfig extends cdktf.TerraformMetaArgume
   /**
   * Email address used to find the User ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/data-sources/person_user#email DataCockroachPersonUser#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/data-sources/person_user#email DataCockroachPersonUser#email}
   */
   readonly email: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/data-sources/person_user cockroach_person_user}
+* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/data-sources/person_user cockroach_person_user}
 */
 export class DataCockroachPersonUser extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataCockroachPersonUser extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCockroachPersonUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCockroachPersonUser to import
-  * @param importFromId The id of the existing DataCockroachPersonUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/data-sources/person_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCockroachPersonUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/data-sources/person_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCockroachPersonUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataCockroachPersonUser extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/data-sources/person_user cockroach_person_user} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/data-sources/person_user cockroach_person_user} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataCockroachPersonUser extends cdktf.TerraformDataSource {
       terraformResourceType: 'cockroach_person_user',
       terraformGeneratorMetadata: {
         providerName: 'cockroach',
-        providerVersion: '1.16.0',
-        providerVersionConstraint: '1.16.0'
+        providerVersion: '1.17.0',
+        providerVersionConstraint: '1.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

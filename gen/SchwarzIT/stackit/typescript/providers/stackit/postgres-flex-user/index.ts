@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_flex_user
+// https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_flex_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface PostgresFlexUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * the postgres db flex instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_flex_user#instance_id PostgresFlexUser#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_flex_user#instance_id PostgresFlexUser#instance_id}
   */
   readonly instanceId: string;
   /**
   * The project ID the instance runs in. Changing this value requires the resource to be recreated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_flex_user#project_id PostgresFlexUser#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_flex_user#project_id PostgresFlexUser#project_id}
   */
   readonly projectId: string;
   /**
   * Specifies the roles assigned to the user, valid options are: `login`, `createdb`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_flex_user#role_set PostgresFlexUser#role_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_flex_user#role_set PostgresFlexUser#role_set}
   */
   readonly roleSet?: string[];
   /**
   * Specifies the roles assigned to the user, valid options are: `login`, `createdb`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_flex_user#roles PostgresFlexUser#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_flex_user#roles PostgresFlexUser#roles}
   */
   readonly roles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_flex_user#timeouts PostgresFlexUser#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_flex_user#timeouts PostgresFlexUser#timeouts}
   */
   readonly timeouts?: PostgresFlexUserTimeouts;
   /**
   * Specifies the username. Defaults to `psqluser`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_flex_user#username PostgresFlexUser#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_flex_user#username PostgresFlexUser#username}
   */
   readonly username?: string;
 }
 export interface PostgresFlexUserTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_flex_user#delete PostgresFlexUser#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_flex_user#delete PostgresFlexUser#delete}
   */
   readonly delete?: string;
 }
@@ -138,7 +138,7 @@ export class PostgresFlexUserTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_flex_user stackit_postgres_flex_user}
+* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_flex_user stackit_postgres_flex_user}
 */
 export class PostgresFlexUser extends cdktf.TerraformResource {
 
@@ -154,7 +154,7 @@ export class PostgresFlexUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PostgresFlexUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PostgresFlexUser to import
-  * @param importFromId The id of the existing PostgresFlexUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_flex_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PostgresFlexUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_flex_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PostgresFlexUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -166,7 +166,7 @@ export class PostgresFlexUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_flex_user stackit_postgres_flex_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_flex_user stackit_postgres_flex_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -177,8 +177,8 @@ export class PostgresFlexUser extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_postgres_flex_user',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '1.34.3',
-        providerVersionConstraint: '1.34.3'
+        providerVersion: '1.34.4',
+        providerVersionConstraint: '1.34.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/project
+// https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,45 +10,45 @@ export interface ProjectConfig extends cdktf.TerraformMetaArguments {
   /**
   * billing reference for cost transparency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/project#billing_ref Project#billing_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/project#billing_ref Project#billing_ref}
   */
   readonly billingRef: string;
   /**
   * Extend project information with custom label values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/project#labels Project#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/project#labels Project#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * the project name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/project#name Project#name}
   */
   readonly name: string;
   /**
   * Email address of owner of the project. This value is only considered during creation. changing it afterwards will have no effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/project#owner_email Project#owner_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/project#owner_email Project#owner_email}
   */
   readonly ownerEmail: string;
   /**
   * the container ID in which the project will be created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/project#parent_container_id Project#parent_container_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/project#parent_container_id Project#parent_container_id}
   */
   readonly parentContainerId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/project#timeouts Project#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/project#timeouts Project#timeouts}
   */
   readonly timeouts?: ProjectTimeouts;
 }
 export interface ProjectTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/project#create Project#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/project#create Project#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/project#delete Project#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/project#delete Project#delete}
   */
   readonly delete?: string;
 }
@@ -171,7 +171,7 @@ export class ProjectTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/project stackit_project}
+* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/project stackit_project}
 */
 export class Project extends cdktf.TerraformResource {
 
@@ -187,7 +187,7 @@ export class Project extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Project resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Project to import
-  * @param importFromId The id of the existing Project that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Project that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Project to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -199,7 +199,7 @@ export class Project extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/project stackit_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/project stackit_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -210,8 +210,8 @@ export class Project extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_project',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '1.34.3',
-        providerVersionConstraint: '1.34.3'
+        providerVersion: '1.34.4',
+        providerVersionConstraint: '1.34.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

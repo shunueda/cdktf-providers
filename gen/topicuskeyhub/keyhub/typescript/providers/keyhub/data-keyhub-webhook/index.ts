@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/data-sources/webhook
+// https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/data-sources/webhook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataKeyhubWebhookConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/data-sources/webhook#additional DataKeyhubWebhook#additional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/data-sources/webhook#additional DataKeyhubWebhook#additional}
   */
   readonly additional?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/data-sources/webhook#uuid DataKeyhubWebhook#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/data-sources/webhook#uuid DataKeyhubWebhook#uuid}
   */
   readonly uuid: string;
 }
@@ -2693,7 +2693,7 @@ export class DataKeyhubWebhookTrustedCertificateOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/data-sources/webhook keyhub_webhook}
+* Represents a {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/data-sources/webhook keyhub_webhook}
 */
 export class DataKeyhubWebhook extends cdktf.TerraformDataSource {
 
@@ -2709,7 +2709,7 @@ export class DataKeyhubWebhook extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataKeyhubWebhook resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataKeyhubWebhook to import
-  * @param importFromId The id of the existing DataKeyhubWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/data-sources/webhook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataKeyhubWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/data-sources/webhook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataKeyhubWebhook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2721,7 +2721,7 @@ export class DataKeyhubWebhook extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/data-sources/webhook keyhub_webhook} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/data-sources/webhook keyhub_webhook} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2732,8 +2732,8 @@ export class DataKeyhubWebhook extends cdktf.TerraformDataSource {
       terraformResourceType: 'keyhub_webhook',
       terraformGeneratorMetadata: {
         providerName: 'keyhub',
-        providerVersion: '2.44.0',
-        providerVersionConstraint: '2.44.0'
+        providerVersion: '2.45.0',
+        providerVersionConstraint: '2.45.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_account
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cynosdb_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface CynosdbAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * Account name, including alphanumeric _, Start with a letter, end with a letter or number, length 1-16.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_account#account_name CynosdbAccount#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cynosdb_account#account_name CynosdbAccount#account_name}
   */
   readonly accountName: string;
   /**
   * Password, with a length range of 8 to 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_account#account_password CynosdbAccount#account_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cynosdb_account#account_password CynosdbAccount#account_password}
   */
   readonly accountPassword: string;
   /**
   * Cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_account#cluster_id CynosdbAccount#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cynosdb_account#cluster_id CynosdbAccount#cluster_id}
   */
   readonly clusterId: string;
   /**
   * describe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_account#description CynosdbAccount#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cynosdb_account#description CynosdbAccount#description}
   */
   readonly description?: string;
   /**
   * main engine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_account#host CynosdbAccount#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cynosdb_account#host CynosdbAccount#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_account#id CynosdbAccount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cynosdb_account#id CynosdbAccount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,13 +47,13 @@ export interface CynosdbAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * The maximum number of user connections cannot be greater than 10240.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_account#max_user_connections CynosdbAccount#max_user_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cynosdb_account#max_user_connections CynosdbAccount#max_user_connections}
   */
   readonly maxUserConnections?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_account tencentcloud_cynosdb_account}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cynosdb_account tencentcloud_cynosdb_account}
 */
 export class CynosdbAccount extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class CynosdbAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CynosdbAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CynosdbAccount to import
-  * @param importFromId The id of the existing CynosdbAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CynosdbAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cynosdb_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CynosdbAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class CynosdbAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_account tencentcloud_cynosdb_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cynosdb_account tencentcloud_cynosdb_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class CynosdbAccount extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cynosdb_account',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

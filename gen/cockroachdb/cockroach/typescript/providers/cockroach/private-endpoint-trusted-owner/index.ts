@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/private_endpoint_trusted_owner
+// https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/private_endpoint_trusted_owner
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,26 +10,26 @@ export interface PrivateEndpointTrustedOwnerConfig extends cdktf.TerraformMetaAr
   /**
   * UUID of the cluster the private endpoint trusted owner entry belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/private_endpoint_trusted_owner#cluster_id PrivateEndpointTrustedOwner#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/private_endpoint_trusted_owner#cluster_id PrivateEndpointTrustedOwner#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Owner ID of the private endpoint connection in the cloud provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/private_endpoint_trusted_owner#external_owner_id PrivateEndpointTrustedOwner#external_owner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/private_endpoint_trusted_owner#external_owner_id PrivateEndpointTrustedOwner#external_owner_id}
   */
   readonly externalOwnerId: string;
   /**
   * Representation of the external_owner_id field. Allowed values are:
   *   * AWS_ACCOUNT_ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/private_endpoint_trusted_owner#type PrivateEndpointTrustedOwner#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/private_endpoint_trusted_owner#type PrivateEndpointTrustedOwner#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/private_endpoint_trusted_owner cockroach_private_endpoint_trusted_owner}
+* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/private_endpoint_trusted_owner cockroach_private_endpoint_trusted_owner}
 */
 export class PrivateEndpointTrustedOwner extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class PrivateEndpointTrustedOwner extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PrivateEndpointTrustedOwner resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PrivateEndpointTrustedOwner to import
-  * @param importFromId The id of the existing PrivateEndpointTrustedOwner that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/private_endpoint_trusted_owner#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PrivateEndpointTrustedOwner that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/private_endpoint_trusted_owner#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PrivateEndpointTrustedOwner to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class PrivateEndpointTrustedOwner extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/private_endpoint_trusted_owner cockroach_private_endpoint_trusted_owner} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/private_endpoint_trusted_owner cockroach_private_endpoint_trusted_owner} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class PrivateEndpointTrustedOwner extends cdktf.TerraformResource {
       terraformResourceType: 'cockroach_private_endpoint_trusted_owner',
       terraformGeneratorMetadata: {
         providerName: 'cockroach',
-        providerVersion: '1.16.0',
-        providerVersionConstraint: '1.16.0'
+        providerVersion: '1.17.0',
+        providerVersionConstraint: '1.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

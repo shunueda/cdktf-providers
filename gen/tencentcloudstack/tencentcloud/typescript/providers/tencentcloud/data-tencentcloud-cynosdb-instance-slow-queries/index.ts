@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/cynosdb_instance_slow_queries
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/cynosdb_instance_slow_queries
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataTencentcloudCynosdbInstanceSlowQueriesConfig extends cdktf.
   /**
   * Database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/cynosdb_instance_slow_queries#database DataTencentcloudCynosdbInstanceSlowQueries#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/cynosdb_instance_slow_queries#database DataTencentcloudCynosdbInstanceSlowQueries#database}
   */
   readonly database?: string;
   /**
   * Latest transaction start time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/cynosdb_instance_slow_queries#end_time DataTencentcloudCynosdbInstanceSlowQueries#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/cynosdb_instance_slow_queries#end_time DataTencentcloudCynosdbInstanceSlowQueries#end_time}
   */
   readonly endTime?: string;
   /**
   * Client host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/cynosdb_instance_slow_queries#host DataTencentcloudCynosdbInstanceSlowQueries#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/cynosdb_instance_slow_queries#host DataTencentcloudCynosdbInstanceSlowQueries#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/cynosdb_instance_slow_queries#id DataTencentcloudCynosdbInstanceSlowQueries#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/cynosdb_instance_slow_queries#id DataTencentcloudCynosdbInstanceSlowQueries#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,37 +35,37 @@ export interface DataTencentcloudCynosdbInstanceSlowQueriesConfig extends cdktf.
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/cynosdb_instance_slow_queries#instance_id DataTencentcloudCynosdbInstanceSlowQueries#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/cynosdb_instance_slow_queries#instance_id DataTencentcloudCynosdbInstanceSlowQueries#instance_id}
   */
   readonly instanceId: string;
   /**
   * Sort field, optional values: QueryTime, LockTime, RowsExamined, RowsSent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/cynosdb_instance_slow_queries#order_by DataTencentcloudCynosdbInstanceSlowQueries#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/cynosdb_instance_slow_queries#order_by DataTencentcloudCynosdbInstanceSlowQueries#order_by}
   */
   readonly orderBy?: string;
   /**
   * Sort type, optional values: asc, desc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/cynosdb_instance_slow_queries#order_by_type DataTencentcloudCynosdbInstanceSlowQueries#order_by_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/cynosdb_instance_slow_queries#order_by_type DataTencentcloudCynosdbInstanceSlowQueries#order_by_type}
   */
   readonly orderByType?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/cynosdb_instance_slow_queries#result_output_file DataTencentcloudCynosdbInstanceSlowQueries#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/cynosdb_instance_slow_queries#result_output_file DataTencentcloudCynosdbInstanceSlowQueries#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Earliest transaction start time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/cynosdb_instance_slow_queries#start_time DataTencentcloudCynosdbInstanceSlowQueries#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/cynosdb_instance_slow_queries#start_time DataTencentcloudCynosdbInstanceSlowQueries#start_time}
   */
   readonly startTime?: string;
   /**
   * user name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/cynosdb_instance_slow_queries#username DataTencentcloudCynosdbInstanceSlowQueries#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/cynosdb_instance_slow_queries#username DataTencentcloudCynosdbInstanceSlowQueries#username}
   */
   readonly username?: string;
 }
@@ -196,7 +196,7 @@ export class DataTencentcloudCynosdbInstanceSlowQueriesSlowQueriesList extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/cynosdb_instance_slow_queries tencentcloud_cynosdb_instance_slow_queries}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/cynosdb_instance_slow_queries tencentcloud_cynosdb_instance_slow_queries}
 */
 export class DataTencentcloudCynosdbInstanceSlowQueries extends cdktf.TerraformDataSource {
 
@@ -212,7 +212,7 @@ export class DataTencentcloudCynosdbInstanceSlowQueries extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataTencentcloudCynosdbInstanceSlowQueries resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCynosdbInstanceSlowQueries to import
-  * @param importFromId The id of the existing DataTencentcloudCynosdbInstanceSlowQueries that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/cynosdb_instance_slow_queries#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCynosdbInstanceSlowQueries that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/cynosdb_instance_slow_queries#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCynosdbInstanceSlowQueries to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -224,7 +224,7 @@ export class DataTencentcloudCynosdbInstanceSlowQueries extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/cynosdb_instance_slow_queries tencentcloud_cynosdb_instance_slow_queries} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/cynosdb_instance_slow_queries tencentcloud_cynosdb_instance_slow_queries} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -235,8 +235,8 @@ export class DataTencentcloudCynosdbInstanceSlowQueries extends cdktf.TerraformD
       terraformResourceType: 'tencentcloud_cynosdb_instance_slow_queries',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

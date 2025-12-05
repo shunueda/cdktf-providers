@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/data-sources/vaultrecord
+// https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/data-sources/vaultrecord
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataKeyhubVaultrecordConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/data-sources/vaultrecord#additional DataKeyhubVaultrecord#additional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/data-sources/vaultrecord#additional DataKeyhubVaultrecord#additional}
   */
   readonly additional?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/data-sources/vaultrecord#uuid DataKeyhubVaultrecord#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/data-sources/vaultrecord#uuid DataKeyhubVaultrecord#uuid}
   */
   readonly uuid: string;
 }
@@ -1230,6 +1230,1411 @@ export class DataKeyhubVaultrecordSharesList extends cdktf.ComplexList {
     return new DataKeyhubVaultrecordSharesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataKeyhubVaultrecordTileLinks {
+}
+
+export function dataKeyhubVaultrecordTileLinksToTerraform(struct?: DataKeyhubVaultrecordTileLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubVaultrecordTileLinksToHclTerraform(struct?: DataKeyhubVaultrecordTileLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubVaultrecordTileLinksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataKeyhubVaultrecordTileLinks | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubVaultrecordTileLinks | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // href - computed: true, optional: false, required: false
+  public get href() {
+    return this.getStringAttribute('href');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getNumberAttribute('id');
+  }
+
+  // rel - computed: true, optional: false, required: false
+  public get rel() {
+    return this.getStringAttribute('rel');
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class DataKeyhubVaultrecordTileLinksList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataKeyhubVaultrecordTileLinksOutputReference {
+    return new DataKeyhubVaultrecordTileLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataKeyhubVaultrecordTileManualLaunchpadTileGroupLinks {
+}
+
+export function dataKeyhubVaultrecordTileManualLaunchpadTileGroupLinksToTerraform(struct?: DataKeyhubVaultrecordTileManualLaunchpadTileGroupLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubVaultrecordTileManualLaunchpadTileGroupLinksToHclTerraform(struct?: DataKeyhubVaultrecordTileManualLaunchpadTileGroupLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubVaultrecordTileManualLaunchpadTileGroupLinksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataKeyhubVaultrecordTileManualLaunchpadTileGroupLinks | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubVaultrecordTileManualLaunchpadTileGroupLinks | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // href - computed: true, optional: false, required: false
+  public get href() {
+    return this.getStringAttribute('href');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getNumberAttribute('id');
+  }
+
+  // rel - computed: true, optional: false, required: false
+  public get rel() {
+    return this.getStringAttribute('rel');
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class DataKeyhubVaultrecordTileManualLaunchpadTileGroupLinksList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataKeyhubVaultrecordTileManualLaunchpadTileGroupLinksOutputReference {
+    return new DataKeyhubVaultrecordTileManualLaunchpadTileGroupLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataKeyhubVaultrecordTileManualLaunchpadTileGroupOrganizationalUnitLinks {
+}
+
+export function dataKeyhubVaultrecordTileManualLaunchpadTileGroupOrganizationalUnitLinksToTerraform(struct?: DataKeyhubVaultrecordTileManualLaunchpadTileGroupOrganizationalUnitLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubVaultrecordTileManualLaunchpadTileGroupOrganizationalUnitLinksToHclTerraform(struct?: DataKeyhubVaultrecordTileManualLaunchpadTileGroupOrganizationalUnitLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubVaultrecordTileManualLaunchpadTileGroupOrganizationalUnitLinksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataKeyhubVaultrecordTileManualLaunchpadTileGroupOrganizationalUnitLinks | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubVaultrecordTileManualLaunchpadTileGroupOrganizationalUnitLinks | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // href - computed: true, optional: false, required: false
+  public get href() {
+    return this.getStringAttribute('href');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getNumberAttribute('id');
+  }
+
+  // rel - computed: true, optional: false, required: false
+  public get rel() {
+    return this.getStringAttribute('rel');
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class DataKeyhubVaultrecordTileManualLaunchpadTileGroupOrganizationalUnitLinksList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataKeyhubVaultrecordTileManualLaunchpadTileGroupOrganizationalUnitLinksOutputReference {
+    return new DataKeyhubVaultrecordTileManualLaunchpadTileGroupOrganizationalUnitLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataKeyhubVaultrecordTileManualLaunchpadTileGroupOrganizationalUnitPermissions {
+}
+
+export function dataKeyhubVaultrecordTileManualLaunchpadTileGroupOrganizationalUnitPermissionsToTerraform(struct?: DataKeyhubVaultrecordTileManualLaunchpadTileGroupOrganizationalUnitPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubVaultrecordTileManualLaunchpadTileGroupOrganizationalUnitPermissionsToHclTerraform(struct?: DataKeyhubVaultrecordTileManualLaunchpadTileGroupOrganizationalUnitPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubVaultrecordTileManualLaunchpadTileGroupOrganizationalUnitPermissionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataKeyhubVaultrecordTileManualLaunchpadTileGroupOrganizationalUnitPermissions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubVaultrecordTileManualLaunchpadTileGroupOrganizationalUnitPermissions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // full - computed: true, optional: false, required: false
+  public get full() {
+    return this.getStringAttribute('full');
+  }
+
+  // instances - computed: true, optional: false, required: false
+  public get instances() {
+    return this.getListAttribute('instances');
+  }
+
+  // operations - computed: true, optional: false, required: false
+  public get operations() {
+    return cdktf.Fn.tolist(this.getListAttribute('operations'));
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class DataKeyhubVaultrecordTileManualLaunchpadTileGroupOrganizationalUnitPermissionsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataKeyhubVaultrecordTileManualLaunchpadTileGroupOrganizationalUnitPermissionsOutputReference {
+    return new DataKeyhubVaultrecordTileManualLaunchpadTileGroupOrganizationalUnitPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataKeyhubVaultrecordTileManualLaunchpadTileGroupOrganizationalUnit {
+}
+
+export function dataKeyhubVaultrecordTileManualLaunchpadTileGroupOrganizationalUnitToTerraform(struct?: DataKeyhubVaultrecordTileManualLaunchpadTileGroupOrganizationalUnit): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubVaultrecordTileManualLaunchpadTileGroupOrganizationalUnitToHclTerraform(struct?: DataKeyhubVaultrecordTileManualLaunchpadTileGroupOrganizationalUnit): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubVaultrecordTileManualLaunchpadTileGroupOrganizationalUnitOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataKeyhubVaultrecordTileManualLaunchpadTileGroupOrganizationalUnit | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubVaultrecordTileManualLaunchpadTileGroupOrganizationalUnit | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // links - computed: true, optional: false, required: false
+  private _links = new DataKeyhubVaultrecordTileManualLaunchpadTileGroupOrganizationalUnitLinksList(this, "links", false);
+  public get links() {
+    return this._links;
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // permissions - computed: true, optional: false, required: false
+  private _permissions = new DataKeyhubVaultrecordTileManualLaunchpadTileGroupOrganizationalUnitPermissionsList(this, "permissions", false);
+  public get permissions() {
+    return this._permissions;
+  }
+
+  // uuid - computed: true, optional: false, required: false
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+}
+export interface DataKeyhubVaultrecordTileManualLaunchpadTileGroupPermissions {
+}
+
+export function dataKeyhubVaultrecordTileManualLaunchpadTileGroupPermissionsToTerraform(struct?: DataKeyhubVaultrecordTileManualLaunchpadTileGroupPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubVaultrecordTileManualLaunchpadTileGroupPermissionsToHclTerraform(struct?: DataKeyhubVaultrecordTileManualLaunchpadTileGroupPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubVaultrecordTileManualLaunchpadTileGroupPermissionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataKeyhubVaultrecordTileManualLaunchpadTileGroupPermissions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubVaultrecordTileManualLaunchpadTileGroupPermissions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // full - computed: true, optional: false, required: false
+  public get full() {
+    return this.getStringAttribute('full');
+  }
+
+  // instances - computed: true, optional: false, required: false
+  public get instances() {
+    return this.getListAttribute('instances');
+  }
+
+  // operations - computed: true, optional: false, required: false
+  public get operations() {
+    return cdktf.Fn.tolist(this.getListAttribute('operations'));
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class DataKeyhubVaultrecordTileManualLaunchpadTileGroupPermissionsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataKeyhubVaultrecordTileManualLaunchpadTileGroupPermissionsOutputReference {
+    return new DataKeyhubVaultrecordTileManualLaunchpadTileGroupPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataKeyhubVaultrecordTileManualLaunchpadTileGroup {
+}
+
+export function dataKeyhubVaultrecordTileManualLaunchpadTileGroupToTerraform(struct?: DataKeyhubVaultrecordTileManualLaunchpadTileGroup): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubVaultrecordTileManualLaunchpadTileGroupToHclTerraform(struct?: DataKeyhubVaultrecordTileManualLaunchpadTileGroup): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubVaultrecordTileManualLaunchpadTileGroupOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataKeyhubVaultrecordTileManualLaunchpadTileGroup | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubVaultrecordTileManualLaunchpadTileGroup | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // admin - computed: true, optional: false, required: false
+  public get admin() {
+    return this.getBooleanAttribute('admin');
+  }
+
+  // links - computed: true, optional: false, required: false
+  private _links = new DataKeyhubVaultrecordTileManualLaunchpadTileGroupLinksList(this, "links", false);
+  public get links() {
+    return this._links;
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // organizational_unit - computed: true, optional: false, required: false
+  private _organizationalUnit = new DataKeyhubVaultrecordTileManualLaunchpadTileGroupOrganizationalUnitOutputReference(this, "organizational_unit");
+  public get organizationalUnit() {
+    return this._organizationalUnit;
+  }
+
+  // permissions - computed: true, optional: false, required: false
+  private _permissions = new DataKeyhubVaultrecordTileManualLaunchpadTileGroupPermissionsList(this, "permissions", false);
+  public get permissions() {
+    return this._permissions;
+  }
+
+  // uuid - computed: true, optional: false, required: false
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+}
+export interface DataKeyhubVaultrecordTileManualLaunchpadTile {
+}
+
+export function dataKeyhubVaultrecordTileManualLaunchpadTileToTerraform(struct?: DataKeyhubVaultrecordTileManualLaunchpadTile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubVaultrecordTileManualLaunchpadTileToHclTerraform(struct?: DataKeyhubVaultrecordTileManualLaunchpadTile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubVaultrecordTileManualLaunchpadTileOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataKeyhubVaultrecordTileManualLaunchpadTile | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubVaultrecordTileManualLaunchpadTile | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // group - computed: true, optional: false, required: false
+  private _group = new DataKeyhubVaultrecordTileManualLaunchpadTileGroupOutputReference(this, "group");
+  public get group() {
+    return this._group;
+  }
+
+  // title - computed: true, optional: false, required: false
+  public get title() {
+    return this.getStringAttribute('title');
+  }
+
+  // uri - computed: true, optional: false, required: false
+  public get uri() {
+    return this.getStringAttribute('uri');
+  }
+}
+export interface DataKeyhubVaultrecordTilePermissions {
+}
+
+export function dataKeyhubVaultrecordTilePermissionsToTerraform(struct?: DataKeyhubVaultrecordTilePermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubVaultrecordTilePermissionsToHclTerraform(struct?: DataKeyhubVaultrecordTilePermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubVaultrecordTilePermissionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataKeyhubVaultrecordTilePermissions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubVaultrecordTilePermissions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // full - computed: true, optional: false, required: false
+  public get full() {
+    return this.getStringAttribute('full');
+  }
+
+  // instances - computed: true, optional: false, required: false
+  public get instances() {
+    return this.getListAttribute('instances');
+  }
+
+  // operations - computed: true, optional: false, required: false
+  public get operations() {
+    return cdktf.Fn.tolist(this.getListAttribute('operations'));
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class DataKeyhubVaultrecordTilePermissionsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataKeyhubVaultrecordTilePermissionsOutputReference {
+    return new DataKeyhubVaultrecordTilePermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataKeyhubVaultrecordTileSsoApplicationLaunchpadTileApplicationLinks {
+}
+
+export function dataKeyhubVaultrecordTileSsoApplicationLaunchpadTileApplicationLinksToTerraform(struct?: DataKeyhubVaultrecordTileSsoApplicationLaunchpadTileApplicationLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubVaultrecordTileSsoApplicationLaunchpadTileApplicationLinksToHclTerraform(struct?: DataKeyhubVaultrecordTileSsoApplicationLaunchpadTileApplicationLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubVaultrecordTileSsoApplicationLaunchpadTileApplicationLinksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataKeyhubVaultrecordTileSsoApplicationLaunchpadTileApplicationLinks | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubVaultrecordTileSsoApplicationLaunchpadTileApplicationLinks | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // href - computed: true, optional: false, required: false
+  public get href() {
+    return this.getStringAttribute('href');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getNumberAttribute('id');
+  }
+
+  // rel - computed: true, optional: false, required: false
+  public get rel() {
+    return this.getStringAttribute('rel');
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class DataKeyhubVaultrecordTileSsoApplicationLaunchpadTileApplicationLinksList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataKeyhubVaultrecordTileSsoApplicationLaunchpadTileApplicationLinksOutputReference {
+    return new DataKeyhubVaultrecordTileSsoApplicationLaunchpadTileApplicationLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataKeyhubVaultrecordTileSsoApplicationLaunchpadTileApplicationPermissions {
+}
+
+export function dataKeyhubVaultrecordTileSsoApplicationLaunchpadTileApplicationPermissionsToTerraform(struct?: DataKeyhubVaultrecordTileSsoApplicationLaunchpadTileApplicationPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubVaultrecordTileSsoApplicationLaunchpadTileApplicationPermissionsToHclTerraform(struct?: DataKeyhubVaultrecordTileSsoApplicationLaunchpadTileApplicationPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubVaultrecordTileSsoApplicationLaunchpadTileApplicationPermissionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataKeyhubVaultrecordTileSsoApplicationLaunchpadTileApplicationPermissions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubVaultrecordTileSsoApplicationLaunchpadTileApplicationPermissions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // full - computed: true, optional: false, required: false
+  public get full() {
+    return this.getStringAttribute('full');
+  }
+
+  // instances - computed: true, optional: false, required: false
+  public get instances() {
+    return this.getListAttribute('instances');
+  }
+
+  // operations - computed: true, optional: false, required: false
+  public get operations() {
+    return cdktf.Fn.tolist(this.getListAttribute('operations'));
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class DataKeyhubVaultrecordTileSsoApplicationLaunchpadTileApplicationPermissionsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataKeyhubVaultrecordTileSsoApplicationLaunchpadTileApplicationPermissionsOutputReference {
+    return new DataKeyhubVaultrecordTileSsoApplicationLaunchpadTileApplicationPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataKeyhubVaultrecordTileSsoApplicationLaunchpadTileApplication {
+}
+
+export function dataKeyhubVaultrecordTileSsoApplicationLaunchpadTileApplicationToTerraform(struct?: DataKeyhubVaultrecordTileSsoApplicationLaunchpadTileApplication): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubVaultrecordTileSsoApplicationLaunchpadTileApplicationToHclTerraform(struct?: DataKeyhubVaultrecordTileSsoApplicationLaunchpadTileApplication): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubVaultrecordTileSsoApplicationLaunchpadTileApplicationOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataKeyhubVaultrecordTileSsoApplicationLaunchpadTileApplication | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubVaultrecordTileSsoApplicationLaunchpadTileApplication | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // client_id - computed: true, optional: false, required: false
+  public get clientId() {
+    return this.getStringAttribute('client_id');
+  }
+
+  // links - computed: true, optional: false, required: false
+  private _links = new DataKeyhubVaultrecordTileSsoApplicationLaunchpadTileApplicationLinksList(this, "links", false);
+  public get links() {
+    return this._links;
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // permissions - computed: true, optional: false, required: false
+  private _permissions = new DataKeyhubVaultrecordTileSsoApplicationLaunchpadTileApplicationPermissionsList(this, "permissions", false);
+  public get permissions() {
+    return this._permissions;
+  }
+
+  // scopes - computed: true, optional: false, required: false
+  public get scopes() {
+    return this.getListAttribute('scopes');
+  }
+
+  // sso_application - computed: true, optional: false, required: false
+  public get ssoApplication() {
+    return this.getBooleanAttribute('sso_application');
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+
+  // uuid - computed: true, optional: false, required: false
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+}
+export interface DataKeyhubVaultrecordTileSsoApplicationLaunchpadTile {
+}
+
+export function dataKeyhubVaultrecordTileSsoApplicationLaunchpadTileToTerraform(struct?: DataKeyhubVaultrecordTileSsoApplicationLaunchpadTile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubVaultrecordTileSsoApplicationLaunchpadTileToHclTerraform(struct?: DataKeyhubVaultrecordTileSsoApplicationLaunchpadTile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubVaultrecordTileSsoApplicationLaunchpadTileOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataKeyhubVaultrecordTileSsoApplicationLaunchpadTile | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubVaultrecordTileSsoApplicationLaunchpadTile | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // application - computed: true, optional: false, required: false
+  private _application = new DataKeyhubVaultrecordTileSsoApplicationLaunchpadTileApplicationOutputReference(this, "application");
+  public get application() {
+    return this._application;
+  }
+
+  // uri - computed: true, optional: false, required: false
+  public get uri() {
+    return this.getStringAttribute('uri');
+  }
+}
+export interface DataKeyhubVaultrecordTileVaultRecordLaunchpadTileVaultRecordLinks {
+}
+
+export function dataKeyhubVaultrecordTileVaultRecordLaunchpadTileVaultRecordLinksToTerraform(struct?: DataKeyhubVaultrecordTileVaultRecordLaunchpadTileVaultRecordLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubVaultrecordTileVaultRecordLaunchpadTileVaultRecordLinksToHclTerraform(struct?: DataKeyhubVaultrecordTileVaultRecordLaunchpadTileVaultRecordLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubVaultrecordTileVaultRecordLaunchpadTileVaultRecordLinksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataKeyhubVaultrecordTileVaultRecordLaunchpadTileVaultRecordLinks | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubVaultrecordTileVaultRecordLaunchpadTileVaultRecordLinks | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // href - computed: true, optional: false, required: false
+  public get href() {
+    return this.getStringAttribute('href');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getNumberAttribute('id');
+  }
+
+  // rel - computed: true, optional: false, required: false
+  public get rel() {
+    return this.getStringAttribute('rel');
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class DataKeyhubVaultrecordTileVaultRecordLaunchpadTileVaultRecordLinksList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataKeyhubVaultrecordTileVaultRecordLaunchpadTileVaultRecordLinksOutputReference {
+    return new DataKeyhubVaultrecordTileVaultRecordLaunchpadTileVaultRecordLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataKeyhubVaultrecordTileVaultRecordLaunchpadTileVaultRecordPermissions {
+}
+
+export function dataKeyhubVaultrecordTileVaultRecordLaunchpadTileVaultRecordPermissionsToTerraform(struct?: DataKeyhubVaultrecordTileVaultRecordLaunchpadTileVaultRecordPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubVaultrecordTileVaultRecordLaunchpadTileVaultRecordPermissionsToHclTerraform(struct?: DataKeyhubVaultrecordTileVaultRecordLaunchpadTileVaultRecordPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubVaultrecordTileVaultRecordLaunchpadTileVaultRecordPermissionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataKeyhubVaultrecordTileVaultRecordLaunchpadTileVaultRecordPermissions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubVaultrecordTileVaultRecordLaunchpadTileVaultRecordPermissions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // full - computed: true, optional: false, required: false
+  public get full() {
+    return this.getStringAttribute('full');
+  }
+
+  // instances - computed: true, optional: false, required: false
+  public get instances() {
+    return this.getListAttribute('instances');
+  }
+
+  // operations - computed: true, optional: false, required: false
+  public get operations() {
+    return cdktf.Fn.tolist(this.getListAttribute('operations'));
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class DataKeyhubVaultrecordTileVaultRecordLaunchpadTileVaultRecordPermissionsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataKeyhubVaultrecordTileVaultRecordLaunchpadTileVaultRecordPermissionsOutputReference {
+    return new DataKeyhubVaultrecordTileVaultRecordLaunchpadTileVaultRecordPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataKeyhubVaultrecordTileVaultRecordLaunchpadTileVaultRecord {
+}
+
+export function dataKeyhubVaultrecordTileVaultRecordLaunchpadTileVaultRecordToTerraform(struct?: DataKeyhubVaultrecordTileVaultRecordLaunchpadTileVaultRecord): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubVaultrecordTileVaultRecordLaunchpadTileVaultRecordToHclTerraform(struct?: DataKeyhubVaultrecordTileVaultRecordLaunchpadTileVaultRecord): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubVaultrecordTileVaultRecordLaunchpadTileVaultRecordOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataKeyhubVaultrecordTileVaultRecordLaunchpadTileVaultRecord | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubVaultrecordTileVaultRecordLaunchpadTileVaultRecord | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // color - computed: true, optional: false, required: false
+  public get color() {
+    return this.getStringAttribute('color');
+  }
+
+  // links - computed: true, optional: false, required: false
+  private _links = new DataKeyhubVaultrecordTileVaultRecordLaunchpadTileVaultRecordLinksList(this, "links", false);
+  public get links() {
+    return this._links;
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // permissions - computed: true, optional: false, required: false
+  private _permissions = new DataKeyhubVaultrecordTileVaultRecordLaunchpadTileVaultRecordPermissionsList(this, "permissions", false);
+  public get permissions() {
+    return this._permissions;
+  }
+
+  // share_end_time - computed: true, optional: false, required: false
+  public get shareEndTime() {
+    return this.getStringAttribute('share_end_time');
+  }
+
+  // uuid - computed: true, optional: false, required: false
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+}
+export interface DataKeyhubVaultrecordTileVaultRecordLaunchpadTile {
+}
+
+export function dataKeyhubVaultrecordTileVaultRecordLaunchpadTileToTerraform(struct?: DataKeyhubVaultrecordTileVaultRecordLaunchpadTile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataKeyhubVaultrecordTileVaultRecordLaunchpadTileToHclTerraform(struct?: DataKeyhubVaultrecordTileVaultRecordLaunchpadTile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataKeyhubVaultrecordTileVaultRecordLaunchpadTileOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataKeyhubVaultrecordTileVaultRecordLaunchpadTile | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataKeyhubVaultrecordTileVaultRecordLaunchpadTile | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // vault_record - computed: true, optional: false, required: false
+  private _vaultRecord = new DataKeyhubVaultrecordTileVaultRecordLaunchpadTileVaultRecordOutputReference(this, "vault_record");
+  public get vaultRecord() {
+    return this._vaultRecord;
+  }
+}
 export interface DataKeyhubVaultrecordTile {
 }
 
@@ -1277,6 +2682,51 @@ export class DataKeyhubVaultrecordTileOutputReference extends cdktf.ComplexObjec
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
     }
+  }
+
+  // identicon_code - computed: true, optional: false, required: false
+  public get identiconCode() {
+    return this.getNumberAttribute('identicon_code');
+  }
+
+  // launchpad_launchpad_tile_type - computed: true, optional: false, required: false
+  public get launchpadLaunchpadTileType() {
+    return this.getStringAttribute('launchpad_launchpad_tile_type');
+  }
+
+  // links - computed: true, optional: false, required: false
+  private _links = new DataKeyhubVaultrecordTileLinksList(this, "links", false);
+  public get links() {
+    return this._links;
+  }
+
+  // logo - computed: true, optional: false, required: false
+  public get logo() {
+    return this.getStringAttribute('logo');
+  }
+
+  // manual_launchpad_tile - computed: true, optional: false, required: false
+  private _manualLaunchpadTile = new DataKeyhubVaultrecordTileManualLaunchpadTileOutputReference(this, "manual_launchpad_tile");
+  public get manualLaunchpadTile() {
+    return this._manualLaunchpadTile;
+  }
+
+  // permissions - computed: true, optional: false, required: false
+  private _permissions = new DataKeyhubVaultrecordTilePermissionsList(this, "permissions", false);
+  public get permissions() {
+    return this._permissions;
+  }
+
+  // sso_application_launchpad_tile - computed: true, optional: false, required: false
+  private _ssoApplicationLaunchpadTile = new DataKeyhubVaultrecordTileSsoApplicationLaunchpadTileOutputReference(this, "sso_application_launchpad_tile");
+  public get ssoApplicationLaunchpadTile() {
+    return this._ssoApplicationLaunchpadTile;
+  }
+
+  // vault_record_launchpad_tile - computed: true, optional: false, required: false
+  private _vaultRecordLaunchpadTile = new DataKeyhubVaultrecordTileVaultRecordLaunchpadTileOutputReference(this, "vault_record_launchpad_tile");
+  public get vaultRecordLaunchpadTile() {
+    return this._vaultRecordLaunchpadTile;
   }
 }
 export interface DataKeyhubVaultrecordVaultholderLinks {
@@ -1522,7 +2972,7 @@ export class DataKeyhubVaultrecordVaultholderOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/data-sources/vaultrecord keyhub_vaultrecord}
+* Represents a {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/data-sources/vaultrecord keyhub_vaultrecord}
 */
 export class DataKeyhubVaultrecord extends cdktf.TerraformDataSource {
 
@@ -1538,7 +2988,7 @@ export class DataKeyhubVaultrecord extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataKeyhubVaultrecord resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataKeyhubVaultrecord to import
-  * @param importFromId The id of the existing DataKeyhubVaultrecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/data-sources/vaultrecord#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataKeyhubVaultrecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/data-sources/vaultrecord#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataKeyhubVaultrecord to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1550,7 +3000,7 @@ export class DataKeyhubVaultrecord extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/data-sources/vaultrecord keyhub_vaultrecord} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/data-sources/vaultrecord keyhub_vaultrecord} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1561,8 +3011,8 @@ export class DataKeyhubVaultrecord extends cdktf.TerraformDataSource {
       terraformResourceType: 'keyhub_vaultrecord',
       terraformGeneratorMetadata: {
         providerName: 'keyhub',
-        providerVersion: '2.44.0',
-        providerVersionConstraint: '2.44.0'
+        providerVersion: '2.45.0',
+        providerVersionConstraint: '2.45.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

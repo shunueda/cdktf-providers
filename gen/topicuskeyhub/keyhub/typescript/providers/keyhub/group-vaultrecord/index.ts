@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord
+// https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,65 +8,65 @@ import * as cdktf from 'cdktf';
 
 export interface GroupVaultrecordConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#additional GroupVaultrecord#additional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#additional GroupVaultrecord#additional}
   */
   readonly additional?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#additional_urls GroupVaultrecord#additional_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#additional_urls GroupVaultrecord#additional_urls}
   */
   readonly additionalUrls?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#color GroupVaultrecord#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#color GroupVaultrecord#color}
   */
   readonly color?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#delete_tile GroupVaultrecord#delete_tile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#delete_tile GroupVaultrecord#delete_tile}
   */
   readonly deleteTile?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#end_date GroupVaultrecord#end_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#end_date GroupVaultrecord#end_date}
   */
   readonly endDate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#filename GroupVaultrecord#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#filename GroupVaultrecord#filename}
   */
   readonly filename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#group_uuid GroupVaultrecord#group_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#group_uuid GroupVaultrecord#group_uuid}
   */
   readonly groupUuid: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#name GroupVaultrecord#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#name GroupVaultrecord#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#secret GroupVaultrecord#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#secret GroupVaultrecord#secret}
   */
   readonly secret?: GroupVaultrecordSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#tile GroupVaultrecord#tile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#tile GroupVaultrecord#tile}
   */
   readonly tile?: GroupVaultrecordTile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#url GroupVaultrecord#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#url GroupVaultrecord#url}
   */
   readonly url?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#username GroupVaultrecord#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#username GroupVaultrecord#username}
   */
   readonly username?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#warning_period GroupVaultrecord#warning_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#warning_period GroupVaultrecord#warning_period}
   */
   readonly warningPeriod?: string;
 }
 export interface GroupVaultrecordActivationStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#activated GroupVaultrecord#activated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#activated GroupVaultrecord#activated}
   */
   readonly activated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#activation_required GroupVaultrecord#activation_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#activation_required GroupVaultrecord#activation_required}
   */
   readonly activationRequired?: boolean | cdktf.IResolvable;
 }
@@ -428,19 +428,19 @@ export class GroupVaultrecordParentLinksList extends cdktf.ComplexList {
 }
 export interface GroupVaultrecordParentPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#full GroupVaultrecord#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#full GroupVaultrecord#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#instances GroupVaultrecord#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#instances GroupVaultrecord#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#operations GroupVaultrecord#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#operations GroupVaultrecord#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#type_escaped GroupVaultrecord#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#type_escaped GroupVaultrecord#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -633,11 +633,11 @@ export class GroupVaultrecordParentPermissionsList extends cdktf.ComplexList {
 }
 export interface GroupVaultrecordParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#color GroupVaultrecord#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#color GroupVaultrecord#color}
   */
   readonly color?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#name GroupVaultrecord#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#name GroupVaultrecord#name}
   */
   readonly name: string;
 }
@@ -863,19 +863,19 @@ export class GroupVaultrecordPasswordMetadataOutputReference extends cdktf.Compl
 }
 export interface GroupVaultrecordPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#full GroupVaultrecord#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#full GroupVaultrecord#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#instances GroupVaultrecord#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#instances GroupVaultrecord#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#operations GroupVaultrecord#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#operations GroupVaultrecord#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#type_escaped GroupVaultrecord#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#type_escaped GroupVaultrecord#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -1068,19 +1068,19 @@ export class GroupVaultrecordPermissionsList extends cdktf.ComplexList {
 }
 export interface GroupVaultrecordSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#comment GroupVaultrecord#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#comment GroupVaultrecord#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#file GroupVaultrecord#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#file GroupVaultrecord#file}
   */
   readonly file?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#password GroupVaultrecord#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#password GroupVaultrecord#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#totp_key GroupVaultrecord#totp_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#totp_key GroupVaultrecord#totp_key}
   */
   readonly totpKey?: string;
 }
@@ -1266,11 +1266,11 @@ export class GroupVaultrecordSecretOutputReference extends cdktf.ComplexObject {
 }
 export interface GroupVaultrecordShareSummaryChildren {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#name GroupVaultrecord#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#name GroupVaultrecord#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#type GroupVaultrecord#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#type GroupVaultrecord#type}
   */
   readonly type?: string;
 }
@@ -1415,11 +1415,11 @@ export class GroupVaultrecordShareSummaryChildrenList extends cdktf.ComplexList 
 }
 export interface GroupVaultrecordShareSummaryParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#name GroupVaultrecord#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#name GroupVaultrecord#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#type GroupVaultrecord#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#type GroupVaultrecord#type}
   */
   readonly type?: string;
 }
@@ -1542,11 +1542,11 @@ export class GroupVaultrecordShareSummaryParentOutputReference extends cdktf.Com
 }
 export interface GroupVaultrecordShareSummary {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#children GroupVaultrecord#children}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#children GroupVaultrecord#children}
   */
   readonly children?: GroupVaultrecordShareSummaryChildren[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#parent GroupVaultrecord#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#parent GroupVaultrecord#parent}
   */
   readonly parent?: GroupVaultrecordShareSummaryParent;
 }
@@ -1749,19 +1749,19 @@ export class GroupVaultrecordSharesLinksList extends cdktf.ComplexList {
 }
 export interface GroupVaultrecordSharesPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#full GroupVaultrecord#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#full GroupVaultrecord#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#instances GroupVaultrecord#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#instances GroupVaultrecord#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#operations GroupVaultrecord#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#operations GroupVaultrecord#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#type_escaped GroupVaultrecord#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#type_escaped GroupVaultrecord#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -1954,11 +1954,11 @@ export class GroupVaultrecordSharesPermissionsList extends cdktf.ComplexList {
 }
 export interface GroupVaultrecordShares {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#color GroupVaultrecord#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#color GroupVaultrecord#color}
   */
   readonly color?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#name GroupVaultrecord#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#name GroupVaultrecord#name}
   */
   readonly name: string;
 }
@@ -2110,7 +2110,694 @@ export class GroupVaultrecordSharesList extends cdktf.ComplexList {
     return new GroupVaultrecordSharesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface GroupVaultrecordTileLinks {
+}
+
+export function groupVaultrecordTileLinksToTerraform(struct?: GroupVaultrecordTileLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function groupVaultrecordTileLinksToHclTerraform(struct?: GroupVaultrecordTileLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GroupVaultrecordTileLinksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GroupVaultrecordTileLinks | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupVaultrecordTileLinks | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // href - computed: true, optional: false, required: false
+  public get href() {
+    return this.getStringAttribute('href');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getNumberAttribute('id');
+  }
+
+  // rel - computed: true, optional: false, required: false
+  public get rel() {
+    return this.getStringAttribute('rel');
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class GroupVaultrecordTileLinksList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GroupVaultrecordTileLinksOutputReference {
+    return new GroupVaultrecordTileLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GroupVaultrecordTileManualLaunchpadTile {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#group_uuid GroupVaultrecord#group_uuid}
+  */
+  readonly groupUuid: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#title GroupVaultrecord#title}
+  */
+  readonly title: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#uri GroupVaultrecord#uri}
+  */
+  readonly uri: string;
+}
+
+export function groupVaultrecordTileManualLaunchpadTileToTerraform(struct?: GroupVaultrecordTileManualLaunchpadTile | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    group_uuid: cdktf.stringToTerraform(struct!.groupUuid),
+    title: cdktf.stringToTerraform(struct!.title),
+    uri: cdktf.stringToTerraform(struct!.uri),
+  }
+}
+
+
+export function groupVaultrecordTileManualLaunchpadTileToHclTerraform(struct?: GroupVaultrecordTileManualLaunchpadTile | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    group_uuid: {
+      value: cdktf.stringToHclTerraform(struct!.groupUuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    title: {
+      value: cdktf.stringToHclTerraform(struct!.title),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    uri: {
+      value: cdktf.stringToHclTerraform(struct!.uri),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GroupVaultrecordTileManualLaunchpadTileOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): GroupVaultrecordTileManualLaunchpadTile | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._groupUuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.groupUuid = this._groupUuid;
+    }
+    if (this._title !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.title = this._title;
+    }
+    if (this._uri !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uri = this._uri;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupVaultrecordTileManualLaunchpadTile | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._groupUuid = undefined;
+      this._title = undefined;
+      this._uri = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._groupUuid = value.groupUuid;
+      this._title = value.title;
+      this._uri = value.uri;
+    }
+  }
+
+  // group_uuid - computed: false, optional: false, required: true
+  private _groupUuid?: string; 
+  public get groupUuid() {
+    return this.getStringAttribute('group_uuid');
+  }
+  public set groupUuid(value: string) {
+    this._groupUuid = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get groupUuidInput() {
+    return this._groupUuid;
+  }
+
+  // title - computed: false, optional: false, required: true
+  private _title?: string; 
+  public get title() {
+    return this.getStringAttribute('title');
+  }
+  public set title(value: string) {
+    this._title = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get titleInput() {
+    return this._title;
+  }
+
+  // uri - computed: false, optional: false, required: true
+  private _uri?: string; 
+  public get uri() {
+    return this.getStringAttribute('uri');
+  }
+  public set uri(value: string) {
+    this._uri = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uriInput() {
+    return this._uri;
+  }
+}
+export interface GroupVaultrecordTilePermissions {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#full GroupVaultrecord#full}
+  */
+  readonly full?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#instances GroupVaultrecord#instances}
+  */
+  readonly instances?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#operations GroupVaultrecord#operations}
+  */
+  readonly operations?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#type_escaped GroupVaultrecord#type_escaped}
+  */
+  readonly typeEscaped?: string;
+}
+
+export function groupVaultrecordTilePermissionsToTerraform(struct?: GroupVaultrecordTilePermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    full: cdktf.stringToTerraform(struct!.full),
+    instances: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.instances),
+    operations: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.operations),
+    type_escaped: cdktf.stringToTerraform(struct!.typeEscaped),
+  }
+}
+
+
+export function groupVaultrecordTilePermissionsToHclTerraform(struct?: GroupVaultrecordTilePermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    full: {
+      value: cdktf.stringToHclTerraform(struct!.full),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    instances: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.instances),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    operations: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.operations),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+    type_escaped: {
+      value: cdktf.stringToHclTerraform(struct!.typeEscaped),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GroupVaultrecordTilePermissionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GroupVaultrecordTilePermissions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._full !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.full = this._full;
+    }
+    if (this._instances !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.instances = this._instances;
+    }
+    if (this._operations !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.operations = this._operations;
+    }
+    if (this._typeEscaped !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.typeEscaped = this._typeEscaped;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupVaultrecordTilePermissions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._full = undefined;
+      this._instances = undefined;
+      this._operations = undefined;
+      this._typeEscaped = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._full = value.full;
+      this._instances = value.instances;
+      this._operations = value.operations;
+      this._typeEscaped = value.typeEscaped;
+    }
+  }
+
+  // full - computed: true, optional: true, required: false
+  private _full?: string; 
+  public get full() {
+    return this.getStringAttribute('full');
+  }
+  public set full(value: string) {
+    this._full = value;
+  }
+  public resetFull() {
+    this._full = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fullInput() {
+    return this._full;
+  }
+
+  // instances - computed: true, optional: true, required: false
+  private _instances?: string[]; 
+  public get instances() {
+    return this.getListAttribute('instances');
+  }
+  public set instances(value: string[]) {
+    this._instances = value;
+  }
+  public resetInstances() {
+    this._instances = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instancesInput() {
+    return this._instances;
+  }
+
+  // operations - computed: true, optional: true, required: false
+  private _operations?: string[]; 
+  public get operations() {
+    return cdktf.Fn.tolist(this.getListAttribute('operations'));
+  }
+  public set operations(value: string[]) {
+    this._operations = value;
+  }
+  public resetOperations() {
+    this._operations = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get operationsInput() {
+    return this._operations;
+  }
+
+  // type_escaped - computed: true, optional: true, required: false
+  private _typeEscaped?: string; 
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+  public set typeEscaped(value: string) {
+    this._typeEscaped = value;
+  }
+  public resetTypeEscaped() {
+    this._typeEscaped = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeEscapedInput() {
+    return this._typeEscaped;
+  }
+}
+
+export class GroupVaultrecordTilePermissionsList extends cdktf.ComplexList {
+  public internalValue? : GroupVaultrecordTilePermissions[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GroupVaultrecordTilePermissionsOutputReference {
+    return new GroupVaultrecordTilePermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GroupVaultrecordTileSsoApplicationLaunchpadTile {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#application_uuid GroupVaultrecord#application_uuid}
+  */
+  readonly applicationUuid?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#uri GroupVaultrecord#uri}
+  */
+  readonly uri?: string;
+}
+
+export function groupVaultrecordTileSsoApplicationLaunchpadTileToTerraform(struct?: GroupVaultrecordTileSsoApplicationLaunchpadTile | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    application_uuid: cdktf.stringToTerraform(struct!.applicationUuid),
+    uri: cdktf.stringToTerraform(struct!.uri),
+  }
+}
+
+
+export function groupVaultrecordTileSsoApplicationLaunchpadTileToHclTerraform(struct?: GroupVaultrecordTileSsoApplicationLaunchpadTile | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    application_uuid: {
+      value: cdktf.stringToHclTerraform(struct!.applicationUuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    uri: {
+      value: cdktf.stringToHclTerraform(struct!.uri),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GroupVaultrecordTileSsoApplicationLaunchpadTileOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): GroupVaultrecordTileSsoApplicationLaunchpadTile | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._applicationUuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.applicationUuid = this._applicationUuid;
+    }
+    if (this._uri !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uri = this._uri;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupVaultrecordTileSsoApplicationLaunchpadTile | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._applicationUuid = undefined;
+      this._uri = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._applicationUuid = value.applicationUuid;
+      this._uri = value.uri;
+    }
+  }
+
+  // application_uuid - computed: true, optional: true, required: false
+  private _applicationUuid?: string; 
+  public get applicationUuid() {
+    return this.getStringAttribute('application_uuid');
+  }
+  public set applicationUuid(value: string) {
+    this._applicationUuid = value;
+  }
+  public resetApplicationUuid() {
+    this._applicationUuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get applicationUuidInput() {
+    return this._applicationUuid;
+  }
+
+  // uri - computed: false, optional: true, required: false
+  private _uri?: string; 
+  public get uri() {
+    return this.getStringAttribute('uri');
+  }
+  public set uri(value: string) {
+    this._uri = value;
+  }
+  public resetUri() {
+    this._uri = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uriInput() {
+    return this._uri;
+  }
+}
+export interface GroupVaultrecordTileVaultRecordLaunchpadTile {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#vault_record_uuid GroupVaultrecord#vault_record_uuid}
+  */
+  readonly vaultRecordUuid?: string;
+}
+
+export function groupVaultrecordTileVaultRecordLaunchpadTileToTerraform(struct?: GroupVaultrecordTileVaultRecordLaunchpadTile | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    vault_record_uuid: cdktf.stringToTerraform(struct!.vaultRecordUuid),
+  }
+}
+
+
+export function groupVaultrecordTileVaultRecordLaunchpadTileToHclTerraform(struct?: GroupVaultrecordTileVaultRecordLaunchpadTile | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    vault_record_uuid: {
+      value: cdktf.stringToHclTerraform(struct!.vaultRecordUuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GroupVaultrecordTileVaultRecordLaunchpadTileOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): GroupVaultrecordTileVaultRecordLaunchpadTile | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._vaultRecordUuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultRecordUuid = this._vaultRecordUuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupVaultrecordTileVaultRecordLaunchpadTile | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._vaultRecordUuid = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._vaultRecordUuid = value.vaultRecordUuid;
+    }
+  }
+
+  // vault_record_uuid - computed: true, optional: true, required: false
+  private _vaultRecordUuid?: string; 
+  public get vaultRecordUuid() {
+    return this.getStringAttribute('vault_record_uuid');
+  }
+  public set vaultRecordUuid(value: string) {
+    this._vaultRecordUuid = value;
+  }
+  public resetVaultRecordUuid() {
+    this._vaultRecordUuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultRecordUuidInput() {
+    return this._vaultRecordUuid;
+  }
+}
 export interface GroupVaultrecordTile {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#identicon_code GroupVaultrecord#identicon_code}
+  */
+  readonly identiconCode?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#logo GroupVaultrecord#logo}
+  */
+  readonly logo?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#manual_launchpad_tile GroupVaultrecord#manual_launchpad_tile}
+  */
+  readonly manualLaunchpadTile?: GroupVaultrecordTileManualLaunchpadTile;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#sso_application_launchpad_tile GroupVaultrecord#sso_application_launchpad_tile}
+  */
+  readonly ssoApplicationLaunchpadTile?: GroupVaultrecordTileSsoApplicationLaunchpadTile;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#vault_record_launchpad_tile GroupVaultrecord#vault_record_launchpad_tile}
+  */
+  readonly vaultRecordLaunchpadTile?: GroupVaultrecordTileVaultRecordLaunchpadTile;
 }
 
 export function groupVaultrecordTileToTerraform(struct?: GroupVaultrecordTile | cdktf.IResolvable): any {
@@ -2119,6 +2806,11 @@ export function groupVaultrecordTileToTerraform(struct?: GroupVaultrecordTile | 
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    identicon_code: cdktf.numberToTerraform(struct!.identiconCode),
+    logo: cdktf.stringToTerraform(struct!.logo),
+    manual_launchpad_tile: groupVaultrecordTileManualLaunchpadTileToTerraform(struct!.manualLaunchpadTile),
+    sso_application_launchpad_tile: groupVaultrecordTileSsoApplicationLaunchpadTileToTerraform(struct!.ssoApplicationLaunchpadTile),
+    vault_record_launchpad_tile: groupVaultrecordTileVaultRecordLaunchpadTileToTerraform(struct!.vaultRecordLaunchpadTile),
   }
 }
 
@@ -2129,8 +2821,40 @@ export function groupVaultrecordTileToHclTerraform(struct?: GroupVaultrecordTile
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    identicon_code: {
+      value: cdktf.numberToHclTerraform(struct!.identiconCode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    logo: {
+      value: cdktf.stringToHclTerraform(struct!.logo),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    manual_launchpad_tile: {
+      value: groupVaultrecordTileManualLaunchpadTileToHclTerraform(struct!.manualLaunchpadTile),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "GroupVaultrecordTileManualLaunchpadTile",
+    },
+    sso_application_launchpad_tile: {
+      value: groupVaultrecordTileSsoApplicationLaunchpadTileToHclTerraform(struct!.ssoApplicationLaunchpadTile),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "GroupVaultrecordTileSsoApplicationLaunchpadTile",
+    },
+    vault_record_launchpad_tile: {
+      value: groupVaultrecordTileVaultRecordLaunchpadTileToHclTerraform(struct!.vaultRecordLaunchpadTile),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "GroupVaultrecordTileVaultRecordLaunchpadTile",
+    },
   };
-  return attrs;
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class GroupVaultrecordTileOutputReference extends cdktf.ComplexObject {
@@ -2151,6 +2875,26 @@ export class GroupVaultrecordTileOutputReference extends cdktf.ComplexObject {
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._identiconCode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.identiconCode = this._identiconCode;
+    }
+    if (this._logo !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.logo = this._logo;
+    }
+    if (this._manualLaunchpadTile?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.manualLaunchpadTile = this._manualLaunchpadTile?.internalValue;
+    }
+    if (this._ssoApplicationLaunchpadTile?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ssoApplicationLaunchpadTile = this._ssoApplicationLaunchpadTile?.internalValue;
+    }
+    if (this._vaultRecordLaunchpadTile?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultRecordLaunchpadTile = this._vaultRecordLaunchpadTile?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -2158,6 +2902,11 @@ export class GroupVaultrecordTileOutputReference extends cdktf.ComplexObject {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._identiconCode = undefined;
+      this._logo = undefined;
+      this._manualLaunchpadTile.internalValue = undefined;
+      this._ssoApplicationLaunchpadTile.internalValue = undefined;
+      this._vaultRecordLaunchpadTile.internalValue = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -2166,7 +2915,109 @@ export class GroupVaultrecordTileOutputReference extends cdktf.ComplexObject {
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._identiconCode = value.identiconCode;
+      this._logo = value.logo;
+      this._manualLaunchpadTile.internalValue = value.manualLaunchpadTile;
+      this._ssoApplicationLaunchpadTile.internalValue = value.ssoApplicationLaunchpadTile;
+      this._vaultRecordLaunchpadTile.internalValue = value.vaultRecordLaunchpadTile;
     }
+  }
+
+  // identicon_code - computed: true, optional: true, required: false
+  private _identiconCode?: number; 
+  public get identiconCode() {
+    return this.getNumberAttribute('identicon_code');
+  }
+  public set identiconCode(value: number) {
+    this._identiconCode = value;
+  }
+  public resetIdenticonCode() {
+    this._identiconCode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get identiconCodeInput() {
+    return this._identiconCode;
+  }
+
+  // launchpad_launchpad_tile_type - computed: true, optional: false, required: false
+  public get launchpadLaunchpadTileType() {
+    return this.getStringAttribute('launchpad_launchpad_tile_type');
+  }
+
+  // links - computed: true, optional: false, required: false
+  private _links = new GroupVaultrecordTileLinksList(this, "links", false);
+  public get links() {
+    return this._links;
+  }
+
+  // logo - computed: true, optional: true, required: false
+  private _logo?: string; 
+  public get logo() {
+    return this.getStringAttribute('logo');
+  }
+  public set logo(value: string) {
+    this._logo = value;
+  }
+  public resetLogo() {
+    this._logo = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get logoInput() {
+    return this._logo;
+  }
+
+  // manual_launchpad_tile - computed: false, optional: true, required: false
+  private _manualLaunchpadTile = new GroupVaultrecordTileManualLaunchpadTileOutputReference(this, "manual_launchpad_tile");
+  public get manualLaunchpadTile() {
+    return this._manualLaunchpadTile;
+  }
+  public putManualLaunchpadTile(value: GroupVaultrecordTileManualLaunchpadTile) {
+    this._manualLaunchpadTile.internalValue = value;
+  }
+  public resetManualLaunchpadTile() {
+    this._manualLaunchpadTile.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get manualLaunchpadTileInput() {
+    return this._manualLaunchpadTile.internalValue;
+  }
+
+  // permissions - computed: true, optional: false, required: false
+  private _permissions = new GroupVaultrecordTilePermissionsList(this, "permissions", false);
+  public get permissions() {
+    return this._permissions;
+  }
+
+  // sso_application_launchpad_tile - computed: false, optional: true, required: false
+  private _ssoApplicationLaunchpadTile = new GroupVaultrecordTileSsoApplicationLaunchpadTileOutputReference(this, "sso_application_launchpad_tile");
+  public get ssoApplicationLaunchpadTile() {
+    return this._ssoApplicationLaunchpadTile;
+  }
+  public putSsoApplicationLaunchpadTile(value: GroupVaultrecordTileSsoApplicationLaunchpadTile) {
+    this._ssoApplicationLaunchpadTile.internalValue = value;
+  }
+  public resetSsoApplicationLaunchpadTile() {
+    this._ssoApplicationLaunchpadTile.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ssoApplicationLaunchpadTileInput() {
+    return this._ssoApplicationLaunchpadTile.internalValue;
+  }
+
+  // vault_record_launchpad_tile - computed: false, optional: true, required: false
+  private _vaultRecordLaunchpadTile = new GroupVaultrecordTileVaultRecordLaunchpadTileOutputReference(this, "vault_record_launchpad_tile");
+  public get vaultRecordLaunchpadTile() {
+    return this._vaultRecordLaunchpadTile;
+  }
+  public putVaultRecordLaunchpadTile(value: GroupVaultrecordTileVaultRecordLaunchpadTile) {
+    this._vaultRecordLaunchpadTile.internalValue = value;
+  }
+  public resetVaultRecordLaunchpadTile() {
+    this._vaultRecordLaunchpadTile.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultRecordLaunchpadTileInput() {
+    return this._vaultRecordLaunchpadTile.internalValue;
   }
 }
 export interface GroupVaultrecordVaultholderLinks {
@@ -2261,19 +3112,19 @@ export class GroupVaultrecordVaultholderLinksList extends cdktf.ComplexList {
 }
 export interface GroupVaultrecordVaultholderPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#full GroupVaultrecord#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#full GroupVaultrecord#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#instances GroupVaultrecord#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#instances GroupVaultrecord#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#operations GroupVaultrecord#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#operations GroupVaultrecord#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#type_escaped GroupVaultrecord#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#type_escaped GroupVaultrecord#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -2527,7 +3378,7 @@ export class GroupVaultrecordVaultholderOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord keyhub_group_vaultrecord}
+* Represents a {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord keyhub_group_vaultrecord}
 */
 export class GroupVaultrecord extends cdktf.TerraformResource {
 
@@ -2543,7 +3394,7 @@ export class GroupVaultrecord extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GroupVaultrecord resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GroupVaultrecord to import
-  * @param importFromId The id of the existing GroupVaultrecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GroupVaultrecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GroupVaultrecord to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2555,7 +3406,7 @@ export class GroupVaultrecord extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group_vaultrecord keyhub_group_vaultrecord} Resource
+  * Create a new {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group_vaultrecord keyhub_group_vaultrecord} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2566,8 +3417,8 @@ export class GroupVaultrecord extends cdktf.TerraformResource {
       terraformResourceType: 'keyhub_group_vaultrecord',
       terraformGeneratorMetadata: {
         providerName: 'keyhub',
-        providerVersion: '2.44.0',
-        providerVersionConstraint: '2.44.0'
+        providerVersion: '2.45.0',
+        providerVersionConstraint: '2.45.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

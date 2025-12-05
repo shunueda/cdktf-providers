@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TeoL7AccRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#id TeoL7AccRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#id TeoL7AccRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface TeoL7AccRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Zone id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#zone_id TeoL7AccRule#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#zone_id TeoL7AccRule#zone_id}
   */
   readonly zoneId: string;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#rules TeoL7AccRule#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#rules TeoL7AccRule#rules}
   */
   readonly rules?: TeoL7AccRuleRules[] | cdktf.IResolvable;
 }
@@ -31,13 +31,13 @@ export interface TeoL7AccRuleRulesBranchesActionsAccessUrlRedirectParametersHost
   /**
   * Target hostname configuration, valid values are: follow: follow the request; custom: custom.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#action TeoL7AccRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#action TeoL7AccRule#action}
   */
   readonly action?: string;
   /**
   * Custom value for target hostname, maximum length is 1024.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#value TeoL7AccRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#value TeoL7AccRule#value}
   */
   readonly value?: string;
 }
@@ -152,7 +152,7 @@ export interface TeoL7AccRuleRulesBranchesActionsAccessUrlRedirectParametersQuer
   /**
   * Action to be executed. values: full: retain all; ignore: ignore all.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#action TeoL7AccRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#action TeoL7AccRule#action}
   */
   readonly action?: string;
 }
@@ -238,19 +238,19 @@ export interface TeoL7AccRuleRulesBranchesActionsAccessUrlRedirectParametersUrlP
   /**
   * Action to be executed. values: follow: follow the request; custom: custom; regex: regular expression matching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#action TeoL7AccRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#action TeoL7AccRule#action}
   */
   readonly action?: string;
   /**
   * Regular expression matching expression, length range is 1-1024. note: when action is regex, this field is required; when action is follow or custom, this field is not required and will not take effect if filled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#regex TeoL7AccRule#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#regex TeoL7AccRule#regex}
   */
   readonly regex?: string;
   /**
   * Redirect target url, length range is 1-1024.note: when action is regex or custom, this field is required; when action is follow, this field is not required and will not take effect if filled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#value TeoL7AccRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#value TeoL7AccRule#value}
   */
   readonly value?: string;
 }
@@ -394,31 +394,31 @@ export interface TeoL7AccRuleRulesBranchesActionsAccessUrlRedirectParameters {
   /**
   * Target request protocol. valid values: http: target request protocol http; https: target request protocol https; follow: follow the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#protocol TeoL7AccRule#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#protocol TeoL7AccRule#protocol}
   */
   readonly protocol?: string;
   /**
   * Status code. valid values: 301, 302, 303, 307, 308.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#status_code TeoL7AccRule#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#status_code TeoL7AccRule#status_code}
   */
   readonly statusCode?: number;
   /**
   * host_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#host_name TeoL7AccRule#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#host_name TeoL7AccRule#host_name}
   */
   readonly hostName?: TeoL7AccRuleRulesBranchesActionsAccessUrlRedirectParametersHostName;
   /**
   * query_string block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#query_string TeoL7AccRule#query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#query_string TeoL7AccRule#query_string}
   */
   readonly queryString?: TeoL7AccRuleRulesBranchesActionsAccessUrlRedirectParametersQueryString;
   /**
   * url_path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#url_path TeoL7AccRule#url_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#url_path TeoL7AccRule#url_path}
   */
   readonly urlPath?: TeoL7AccRuleRulesBranchesActionsAccessUrlRedirectParametersUrlPath;
 }
@@ -620,7 +620,7 @@ export interface TeoL7AccRuleRulesBranchesActionsAuthenticationParameters {
   /**
   * Authentication parameters name. the node will validate the value corresponding to this parameter name. consists of 1-100 uppercase and lowercase letters, numbers, or underscores.note: this field is required when authtype is either typea or typed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#auth_param TeoL7AccRule#auth_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#auth_param TeoL7AccRule#auth_param}
   */
   readonly authParam?: string;
   /**
@@ -631,37 +631,37 @@ export interface TeoL7AccRuleRulesBranchesActionsAuthenticationParameters {
   * - `TypeD`: authentication method d type, for specific meaning please refer to authentication method d. https://www.tencentcloud.com/document/product/1145/62478;
   * - `TypeVOD`: authentication method v type, for specific meaning please refer to authentication method v. https://www.tencentcloud.com/document/product/1145/62479.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#auth_type TeoL7AccRule#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#auth_type TeoL7AccRule#auth_type}
   */
   readonly authType?: string;
   /**
   * The backup authentication key consists of 6-40 uppercase and lowercase english letters or digits, and cannot contain " and $.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#backup_secret_key TeoL7AccRule#backup_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#backup_secret_key TeoL7AccRule#backup_secret_key}
   */
   readonly backupSecretKey?: string;
   /**
   * The primary authentication key consists of 6-40 uppercase and lowercase english letters or digits, and cannot contain " and $.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#secret_key TeoL7AccRule#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#secret_key TeoL7AccRule#secret_key}
   */
   readonly secretKey?: string;
   /**
   * Authentication time format. values: dec: decimal; hex: hexadecimal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#time_format TeoL7AccRule#time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#time_format TeoL7AccRule#time_format}
   */
   readonly timeFormat?: string;
   /**
   * Authentication timestamp. it cannot be the same as the value of the authparam field.note: this field is required when authtype is typed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#time_param TeoL7AccRule#time_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#time_param TeoL7AccRule#time_param}
   */
   readonly timeParam?: string;
   /**
   * Validity period of the authentication url, in seconds, value range: 1-630720000. used to determine if the client access request has expired: If the current time exceeds "timestamp + validity period", it is an expired request, and a 403 is returned directly. If the current time does not exceed "timestamp + validity period", the request is not expired, and the md5 string is further validated. note: when authtype is one of typea, typeb, typec, or typed, this field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#timeout TeoL7AccRule#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#timeout TeoL7AccRule#timeout}
   */
   readonly timeout?: number;
 }
@@ -921,19 +921,19 @@ export interface TeoL7AccRuleRulesBranchesActionsCacheKeyParametersCookie {
   /**
   * Cache action. values: full: retain all; ignore: ignore all; includeCustom: retain partial parameters; excludeCustom: ignore partial parameters. note: when switch is on, this field is required. when switch is off, this field is not required and will not take effect if filled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#action TeoL7AccRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#action TeoL7AccRule#action}
   */
   readonly action?: string;
   /**
   * Whether to enable feature. values: on: enable; off: disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
   */
   readonly switch?: string;
   /**
   * Custom cache key cookie name list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#values TeoL7AccRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#values TeoL7AccRule#values}
   */
   readonly values?: string[];
 }
@@ -1077,13 +1077,13 @@ export interface TeoL7AccRuleRulesBranchesActionsCacheKeyParametersHeader {
   /**
   * Whether to enable feature. values: on: enable; off: disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
   */
   readonly switch?: string;
   /**
   * Custom cache key http request header list. note: this field is required when switch is on; when switch is off, this field is not required and will not take effect if filled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#values TeoL7AccRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#values TeoL7AccRule#values}
   */
   readonly values?: string[];
 }
@@ -1198,19 +1198,19 @@ export interface TeoL7AccRuleRulesBranchesActionsCacheKeyParametersQueryString {
   /**
   * Actions to retain/ignore specified parameters in the query string. values: `includeCustom`: retain partial parameters. `excludeCustom`: ignore partial parameters.note: this field is required when switch is on. when switch is off, this field is not required and will not take effect if filled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#action TeoL7AccRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#action TeoL7AccRule#action}
   */
   readonly action?: string;
   /**
   * Query string retain/ignore specified parameter switch. valid values are: on: enable; off: disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
   */
   readonly switch?: string;
   /**
   * A list of parameter names to keep/ignore in the query string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#values TeoL7AccRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#values TeoL7AccRule#values}
   */
   readonly values?: string[];
 }
@@ -1354,37 +1354,37 @@ export interface TeoL7AccRuleRulesBranchesActionsCacheKeyParameters {
   /**
   * Switch for retaining the complete query string. values: on: enable; off: disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#full_url_cache TeoL7AccRule#full_url_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#full_url_cache TeoL7AccRule#full_url_cache}
   */
   readonly fullUrlCache?: string;
   /**
   * Switch for ignoring case. values: enable; off: disable.note: at least one of fullurlcache, ignorecase, header, scheme, or cookie must be configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#ignore_case TeoL7AccRule#ignore_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#ignore_case TeoL7AccRule#ignore_case}
   */
   readonly ignoreCase?: string;
   /**
   * Request protocol switch. valid values: on: enable; off: disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#scheme TeoL7AccRule#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#scheme TeoL7AccRule#scheme}
   */
   readonly scheme?: string;
   /**
   * cookie block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#cookie TeoL7AccRule#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#cookie TeoL7AccRule#cookie}
   */
   readonly cookie?: TeoL7AccRuleRulesBranchesActionsCacheKeyParametersCookie;
   /**
   * header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#header TeoL7AccRule#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#header TeoL7AccRule#header}
   */
   readonly header?: TeoL7AccRuleRulesBranchesActionsCacheKeyParametersHeader;
   /**
   * query_string block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#query_string TeoL7AccRule#query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#query_string TeoL7AccRule#query_string}
   */
   readonly queryString?: TeoL7AccRuleRulesBranchesActionsCacheKeyParametersQueryString;
 }
@@ -1615,19 +1615,19 @@ export interface TeoL7AccRuleRulesBranchesActionsCacheParametersCustomTime {
   /**
   * Custom cache time value, unit: seconds. value range: 0-315360000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#cache_time TeoL7AccRule#cache_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#cache_time TeoL7AccRule#cache_time}
   */
   readonly cacheTime?: number;
   /**
   * Ignore origin server cachecontrol switch. values: `on`: Enable; `off`: Disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#ignore_cache_control TeoL7AccRule#ignore_cache_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#ignore_cache_control TeoL7AccRule#ignore_cache_control}
   */
   readonly ignoreCacheControl?: string;
   /**
   * Custom cache time switch. values: `on`: Enable; `off`: Disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
   */
   readonly switch?: string;
 }
@@ -1771,25 +1771,25 @@ export interface TeoL7AccRuleRulesBranchesActionsCacheParametersFollowOrigin {
   /**
   * Whether to cache when an origin server does not return the cache-control header. this field is required when switch is on; when switch is off, this field is not required and will be ineffective if filled. valid values: On: cache; Off: do not cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#default_cache TeoL7AccRule#default_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#default_cache TeoL7AccRule#default_cache}
   */
   readonly defaultCache?: string;
   /**
   * Whether to use the default caching policy when an origin server does not return the cache-control header. this field is required when defaultcache is set to on; otherwise, it is ineffective. when defaultcachetime is not 0, this field should be off. valid values: on: use the default caching policy. off: do not use the default caching policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#default_cache_strategy TeoL7AccRule#default_cache_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#default_cache_strategy TeoL7AccRule#default_cache_strategy}
   */
   readonly defaultCacheStrategy?: string;
   /**
   * The default cache time in seconds when an origin server does not return the cache-control header. the value ranges from 0 to 315360000. this field is required when defaultcache is set to on; otherwise, it is ineffective. when defaultcachestrategy is on, this field should be 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#default_cache_time TeoL7AccRule#default_cache_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#default_cache_time TeoL7AccRule#default_cache_time}
   */
   readonly defaultCacheTime?: number;
   /**
   * Whether to enable the configuration of following the origin server. Valid values: `on`: Enable; `off`: Disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
   */
   readonly switch: string;
 }
@@ -1959,7 +1959,7 @@ export interface TeoL7AccRuleRulesBranchesActionsCacheParametersNoCache {
   /**
   * Whether to enable no-cache configuration. Valid values: `on`: Enable; `off`: Disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
   */
   readonly switch: string;
 }
@@ -2042,19 +2042,19 @@ export interface TeoL7AccRuleRulesBranchesActionsCacheParameters {
   /**
   * custom_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#custom_time TeoL7AccRule#custom_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#custom_time TeoL7AccRule#custom_time}
   */
   readonly customTime?: TeoL7AccRuleRulesBranchesActionsCacheParametersCustomTime;
   /**
   * follow_origin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#follow_origin TeoL7AccRule#follow_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#follow_origin TeoL7AccRule#follow_origin}
   */
   readonly followOrigin?: TeoL7AccRuleRulesBranchesActionsCacheParametersFollowOrigin;
   /**
   * no_cache block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#no_cache TeoL7AccRule#no_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#no_cache TeoL7AccRule#no_cache}
   */
   readonly noCache?: TeoL7AccRuleRulesBranchesActionsCacheParametersNoCache;
 }
@@ -2198,13 +2198,13 @@ export interface TeoL7AccRuleRulesBranchesActionsCachePrefreshParameters {
   /**
   * Prefresh interval set as a percentage of the node cache time. value range: 1-99. note: this field is required when switch is on; when switch is off, this field is not required and will not take effect if filled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#cache_time_percent TeoL7AccRule#cache_time_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#cache_time_percent TeoL7AccRule#cache_time_percent}
   */
   readonly cacheTimePercent?: number;
   /**
   * Whether to enable cache prefresh. values: enable; off: disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
   */
   readonly switch?: string;
 }
@@ -2319,13 +2319,13 @@ export interface TeoL7AccRuleRulesBranchesActionsClientIpCountryParameters {
   /**
   * Name of the request header that contains the client ip region. it is valid when switch=on. the default value eo-client-ipcountry is used when it is not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#header_name TeoL7AccRule#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#header_name TeoL7AccRule#header_name}
   */
   readonly headerName?: string;
   /**
   * Whether to enable configuration. values: on: enable; off: disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
   */
   readonly switch?: string;
 }
@@ -2440,13 +2440,13 @@ export interface TeoL7AccRuleRulesBranchesActionsClientIpHeaderParameters {
   /**
   * Name of the request header containing the client ip address for origin-pull. when switch is on, this parameter is required. x-forwarded-for is not allowed for this parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#header_name TeoL7AccRule#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#header_name TeoL7AccRule#header_name}
   */
   readonly headerName?: string;
   /**
   * Whether to enable configuration. values: on: enable; off: disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
   */
   readonly switch?: string;
 }
@@ -2561,13 +2561,13 @@ export interface TeoL7AccRuleRulesBranchesActionsCompressionParameters {
   /**
   * Supported compression algorithm list. this field is required when switch is on; otherwise, it is not effective. valid values: brotli: brotli algorithm; gzip: gzip algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#algorithms TeoL7AccRule#algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#algorithms TeoL7AccRule#algorithms}
   */
   readonly algorithms?: string[];
   /**
   * Whether to enable smart compression. values: on: enable; off: disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
   */
   readonly switch?: string;
 }
@@ -2682,13 +2682,13 @@ export interface TeoL7AccRuleRulesBranchesActionsErrorPageParametersErrorPagePar
   /**
   * Redirect url. requires a full redirect path, such as https://www.test.com/error.html.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#redirect_url TeoL7AccRule#redirect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#redirect_url TeoL7AccRule#redirect_url}
   */
   readonly redirectUrl: string;
   /**
   * Status code. supported values are 400, 403, 404, 405, 414, 416, 451, 500, 501, 502, 503, 504.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#status_code TeoL7AccRule#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#status_code TeoL7AccRule#status_code}
   */
   readonly statusCode: number;
 }
@@ -2797,7 +2797,7 @@ export interface TeoL7AccRuleRulesBranchesActionsErrorPageParameters {
   /**
   * error_page_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#error_page_params TeoL7AccRule#error_page_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#error_page_params TeoL7AccRule#error_page_params}
   */
   readonly errorPageParams?: TeoL7AccRuleRulesBranchesActionsErrorPageParametersErrorPageParams;
 }
@@ -2883,13 +2883,13 @@ export interface TeoL7AccRuleRulesBranchesActionsForceRedirectHttpsParameters {
   /**
   * Redirection status code. this field is required when switch is on; otherwise, it is not effective. valid values are: 301: 301 redirect; 302: 302 redirect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#redirect_status_code TeoL7AccRule#redirect_status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#redirect_status_code TeoL7AccRule#redirect_status_code}
   */
   readonly redirectStatusCode?: number;
   /**
   * Whether to enable forced redirect configuration switch. values: on: enable; off: disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
   */
   readonly switch?: string;
 }
@@ -3004,13 +3004,13 @@ export interface TeoL7AccRuleRulesBranchesActionsHostHeaderParameters {
   /**
   * Action to be executed. values: followOrigin: follow origin server domain name; custom: custom.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#action TeoL7AccRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#action TeoL7AccRule#action}
   */
   readonly action?: string;
   /**
   * Host header rewrite requires a complete domain name. note: this field is required when switch is on; when switch is off, this field is not required and any value will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#server_name TeoL7AccRule#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#server_name TeoL7AccRule#server_name}
   */
   readonly serverName?: string;
 }
@@ -3125,25 +3125,25 @@ export interface TeoL7AccRuleRulesBranchesActionsHstsParameters {
   /**
   * Whether to allow other subdomains to inherit the same hsts header. values: on: allows other subdomains to inherit the same hsts header; off: does not allow other subdomains to inherit the same hsts header. note: when switch is on, this field is required; when switch is off, this field is not required and will not take effect if filled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#include_sub_domains TeoL7AccRule#include_sub_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#include_sub_domains TeoL7AccRule#include_sub_domains}
   */
   readonly includeSubDomains?: string;
   /**
   * Whether to allow the browser to preload the hsts header. valid values: on: allows the browser to preload the hsts header; off: does not allow the browser to preload the hsts header. note: when switch is on, this field is required; when switch is off, this field is not required and will not take effect if filled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#preload TeoL7AccRule#preload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#preload TeoL7AccRule#preload}
   */
   readonly preload?: string;
   /**
   * Whether to enable hsts. values: on: enable; off: disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
   */
   readonly switch?: string;
   /**
   * Cache hsts header time, unit: seconds. value range: 1-31536000. note: this field is required when switch is on; when switch is off, this field is not required and will not take effect if filled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#timeout TeoL7AccRule#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#timeout TeoL7AccRule#timeout}
   */
   readonly timeout?: number;
 }
@@ -3316,7 +3316,7 @@ export interface TeoL7AccRuleRulesBranchesActionsHttp2Parameters {
   /**
   * Whether to enable http2 access. values: on: enable; off: disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
   */
   readonly switch?: string;
 }
@@ -3402,13 +3402,13 @@ export interface TeoL7AccRuleRulesBranchesActionsHttpResponseParameters {
   /**
   * Response page id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#response_page TeoL7AccRule#response_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#response_page TeoL7AccRule#response_page}
   */
   readonly responsePage?: string;
   /**
   * Response status code. supports 2xx, 4xx, 5xx, excluding 499, 514, 101, 301, 302, 303, 509, 520-599.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#status_code TeoL7AccRule#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#status_code TeoL7AccRule#status_code}
   */
   readonly statusCode?: number;
 }
@@ -3523,7 +3523,7 @@ export interface TeoL7AccRuleRulesBranchesActionsHttpUpstreamTimeoutParameters {
   /**
   * HTTP response timeout in seconds. value range: 5-600.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#response_timeout TeoL7AccRule#response_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#response_timeout TeoL7AccRule#response_timeout}
   */
   readonly responseTimeout?: number;
 }
@@ -3609,13 +3609,13 @@ export interface TeoL7AccRuleRulesBranchesActionsMaxAgeParameters {
   /**
   * Custom cache time value, unit: seconds. value range: 0-315360000. note: when followorigin is off, it means not following the origin server and using cachetime to set the cache time; otherwise, this field will not take effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#cache_time TeoL7AccRule#cache_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#cache_time TeoL7AccRule#cache_time}
   */
   readonly cacheTime?: number;
   /**
   * Specifies whether to follow the origin server cache-control configuration, with the following values: on: follow the origin server and ignore the field cachetime; off: do not follow the origin server and apply the field cachetime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#follow_origin TeoL7AccRule#follow_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#follow_origin TeoL7AccRule#follow_origin}
   */
   readonly followOrigin?: string;
 }
@@ -3730,25 +3730,25 @@ export interface TeoL7AccRuleRulesBranchesActionsModifyOriginParametersPrivatePa
   /**
   * Authentication parameter access key id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#access_key_id TeoL7AccRule#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#access_key_id TeoL7AccRule#access_key_id}
   */
   readonly accessKeyId: string;
   /**
   * Region of the bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#region TeoL7AccRule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#region TeoL7AccRule#region}
   */
   readonly region?: string;
   /**
   * Authentication parameter secret access key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#secret_access_key TeoL7AccRule#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#secret_access_key TeoL7AccRule#secret_access_key}
   */
   readonly secretAccessKey: string;
   /**
   * Authentication version. values: v2: v2 version; v4: v4 version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#signature_version TeoL7AccRule#signature_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#signature_version TeoL7AccRule#signature_version}
   */
   readonly signatureVersion: string;
 }
@@ -3912,43 +3912,43 @@ export interface TeoL7AccRuleRulesBranchesActionsModifyOriginParameters {
   /**
   * Ports for http origin-pull requests. value range: 1-65535. this parameter takes effect only when the origin-pull protocol originprotocol is http or follow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#http_origin_port TeoL7AccRule#http_origin_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#http_origin_port TeoL7AccRule#http_origin_port}
   */
   readonly httpOriginPort?: number;
   /**
   * Ports for https origin-pull requests. value range: 1-65535. this parameter takes effect only when the origin-pull protocol originprotocol is https or follow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#https_origin_port TeoL7AccRule#https_origin_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#https_origin_port TeoL7AccRule#https_origin_port}
   */
   readonly httpsOriginPort?: number;
   /**
   * Origin server address, which varies according to the value of origintype: When origintype = ipdomain, fill in an ipv4 address, an ipv6 address, or a domain name; When origintype = cos, please fill in the access domain name of the cos bucket; When origintype = awss3, fill in the access domain name of the s3 bucket; When origintype = origingroup, fill in the origin server group id; When origintype = loadbalance, fill in the cloud load balancer instance id. this feature is currently only available to the allowlist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#origin TeoL7AccRule#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#origin TeoL7AccRule#origin}
   */
   readonly origin?: string;
   /**
   * Origin-Pull protocol configuration. this parameter is required when origintype is ipdomain, origingroup, or loadbalance. valid values are: Http: use http protocol; Https: use https protocol; Follow: follow the protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#origin_protocol TeoL7AccRule#origin_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#origin_protocol TeoL7AccRule#origin_protocol}
   */
   readonly originProtocol?: string;
   /**
   * The origin type. values: IPDomain: ipv4, ipv6, or domain name type origin server; OriginGroup: origin server group type origin server; LoadBalance: cloud load balancer (clb), this feature is in beta test. to use it, please submit a ticket or contact smart customer service; COS: tencent cloud COS origin server; AWSS3: all object storage origin servers that support the aws s3 protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#origin_type TeoL7AccRule#origin_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#origin_type TeoL7AccRule#origin_type}
   */
   readonly originType?: string;
   /**
   * Whether access to the private object storage origin server is allowed. this parameter is valid only when the origin server type origintype is COS or awss3. valid values: on: enable private authentication; off: disable private authentication. if not specified, the default value is off.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#private_access TeoL7AccRule#private_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#private_access TeoL7AccRule#private_access}
   */
   readonly privateAccess?: string;
   /**
   * private_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#private_parameters TeoL7AccRule#private_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#private_parameters TeoL7AccRule#private_parameters}
   */
   readonly privateParameters?: TeoL7AccRuleRulesBranchesActionsModifyOriginParametersPrivateParameters;
 }
@@ -4208,19 +4208,19 @@ export interface TeoL7AccRuleRulesBranchesActionsModifyRequestHeaderParametersHe
   /**
   * HTTP header setting methods. valid values are: set: sets a value for an existing header parameter; del: deletes a header parameter; add: adds a header parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#action TeoL7AccRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#action TeoL7AccRule#action}
   */
   readonly action: string;
   /**
   * HTTP header name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#name TeoL7AccRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#name TeoL7AccRule#name}
   */
   readonly name: string;
   /**
   * HTTP header value. this parameter is required when the action is set to set or add; it is optional when the action is set to del.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#value TeoL7AccRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#value TeoL7AccRule#value}
   */
   readonly value?: string;
 }
@@ -4390,7 +4390,7 @@ export interface TeoL7AccRuleRulesBranchesActionsModifyRequestHeaderParameters {
   /**
   * header_actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#header_actions TeoL7AccRule#header_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#header_actions TeoL7AccRule#header_actions}
   */
   readonly headerActions?: TeoL7AccRuleRulesBranchesActionsModifyRequestHeaderParametersHeaderActions[] | cdktf.IResolvable;
 }
@@ -4476,19 +4476,19 @@ export interface TeoL7AccRuleRulesBranchesActionsModifyResponseHeaderParametersH
   /**
   * HTTP header setting methods. valid values are: set: sets a value for an existing header parameter; del: deletes a header parameter; add: adds a header parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#action TeoL7AccRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#action TeoL7AccRule#action}
   */
   readonly action: string;
   /**
   * HTTP header name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#name TeoL7AccRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#name TeoL7AccRule#name}
   */
   readonly name: string;
   /**
   * HTTP header value. this parameter is required when the action is set to set or add; it is optional when the action is set to del.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#value TeoL7AccRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#value TeoL7AccRule#value}
   */
   readonly value?: string;
 }
@@ -4658,7 +4658,7 @@ export interface TeoL7AccRuleRulesBranchesActionsModifyResponseHeaderParameters 
   /**
   * header_actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#header_actions TeoL7AccRule#header_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#header_actions TeoL7AccRule#header_actions}
   */
   readonly headerActions?: TeoL7AccRuleRulesBranchesActionsModifyResponseHeaderParametersHeaderActions[] | cdktf.IResolvable;
 }
@@ -4744,7 +4744,7 @@ export interface TeoL7AccRuleRulesBranchesActionsOcspStaplingParameters {
   /**
   * Whether to enable ocsp stapling configuration switch. values: on: enable; off: disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
   */
   readonly switch?: string;
 }
@@ -4830,7 +4830,7 @@ export interface TeoL7AccRuleRulesBranchesActionsOfflineCacheParameters {
   /**
   * Whether to enable offline caching. values: on: enable; Off: disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
   */
   readonly switch?: string;
 }
@@ -4916,7 +4916,7 @@ export interface TeoL7AccRuleRulesBranchesActionsOriginPullProtocolParameters {
   /**
   * Back-to-origin protocol configuration. Possible values are: `http`: use HTTP protocol for back-to-origin; `https`: use HTTPS protocol for back-to-origin; `follow`: follow the protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#protocol TeoL7AccRule#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#protocol TeoL7AccRule#protocol}
   */
   readonly protocol?: string;
 }
@@ -5002,13 +5002,13 @@ export interface TeoL7AccRuleRulesBranchesActionsPostMaxSizeParameters {
   /**
   * Maximum size of the file uploaded for streaming via a post request, in bytes. value range: 1 * 2^20 bytes to 500 * 2^20 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#max_size TeoL7AccRule#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#max_size TeoL7AccRule#max_size}
   */
   readonly maxSize?: number;
   /**
   * Whether to enable post request file upload limit, in bytes (default limit: 32 * 2^20 bytes). valid values: on: enable limit; off: disable limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
   */
   readonly switch?: string;
 }
@@ -5123,7 +5123,7 @@ export interface TeoL7AccRuleRulesBranchesActionsQuicParameters {
   /**
   * Whether to enable quic. values: on: enable; off: disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
   */
   readonly switch?: string;
 }
@@ -5209,7 +5209,7 @@ export interface TeoL7AccRuleRulesBranchesActionsRangeOriginPullParameters {
   /**
   * Whether to enable range gets. values are: on: enable; Off: disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
   */
   readonly switch?: string;
 }
@@ -5295,19 +5295,19 @@ export interface TeoL7AccRuleRulesBranchesActionsResponseSpeedLimitParameters {
   /**
   * Rate-Limiting value, in kb/s. enter a numerical value to specify the rate limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#max_speed TeoL7AccRule#max_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#max_speed TeoL7AccRule#max_speed}
   */
   readonly maxSpeed: string;
   /**
   * Download rate limit mode. valid values: LimitUponDownload: rate limit throughout the download process; LimitAfterSpecificBytesDownloaded: rate limit after downloading specific bytes at full speed; LimitAfterSpecificSecondsDownloaded: start speed limit after downloading at full speed for a specific duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#mode TeoL7AccRule#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#mode TeoL7AccRule#mode}
   */
   readonly mode: string;
   /**
   * Rate-Limiting start value, which can be the download size or specified duration, in kb or s. this parameter is required when mode is set to limitafterspecificbytesdownloaded or limitafterspecificsecondsdownloaded. enter a numerical value to specify the download size or duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#start_at TeoL7AccRule#start_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#start_at TeoL7AccRule#start_at}
   */
   readonly startAt?: string;
 }
@@ -5445,7 +5445,7 @@ export interface TeoL7AccRuleRulesBranchesActionsSetContentIdentifierParameters 
   /**
   * Content identifier id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#content_identifier TeoL7AccRule#content_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#content_identifier TeoL7AccRule#content_identifier}
   */
   readonly contentIdentifier?: string;
 }
@@ -5531,7 +5531,7 @@ export interface TeoL7AccRuleRulesBranchesActionsSmartRoutingParameters {
   /**
   * Whether to enable smart acceleration. values: on: enable; Off: disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
   */
   readonly switch?: string;
 }
@@ -5617,13 +5617,13 @@ export interface TeoL7AccRuleRulesBranchesActionsStatusCodeCacheParametersStatus
   /**
   * Cache time value in seconds. value range: 0-31536000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#cache_time TeoL7AccRule#cache_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#cache_time TeoL7AccRule#cache_time}
   */
   readonly cacheTime?: number;
   /**
   * Status code. valid values: 400, 401, 403, 404, 405, 407, 414, 500, 501, 502, 503, 504, 509, 514.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#status_code TeoL7AccRule#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#status_code TeoL7AccRule#status_code}
   */
   readonly statusCode?: number;
 }
@@ -5770,7 +5770,7 @@ export interface TeoL7AccRuleRulesBranchesActionsStatusCodeCacheParameters {
   /**
   * status_code_cache_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#status_code_cache_params TeoL7AccRule#status_code_cache_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#status_code_cache_params TeoL7AccRule#status_code_cache_params}
   */
   readonly statusCodeCacheParams?: TeoL7AccRuleRulesBranchesActionsStatusCodeCacheParametersStatusCodeCacheParams[] | cdktf.IResolvable;
 }
@@ -5856,13 +5856,13 @@ export interface TeoL7AccRuleRulesBranchesActionsTlsConfigParameters {
   /**
   * Cipher suite. for detailed information, please refer to tls versions and cipher suites description, https://www.tencentcloud.com/document/product/1145/54154?has_map=1. valid values: loose-v2023: loose-v2023 cipher suite; general-v2023: general-v2023 cipher suite; strict-v2023: strict-v2023 cipher suite.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#cipher_suite TeoL7AccRule#cipher_suite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#cipher_suite TeoL7AccRule#cipher_suite}
   */
   readonly cipherSuite?: string;
   /**
   * TLS version. at least one must be specified. if multiple versions are specified, they must be consecutive, e.g., enable tls1, 1.1, 1.2, and 1.3. it is not allowed to enable only 1 and 1.2 while disabling 1.1. valid values: tlsv1: tlsv1 version; `tlsv1.1`: tlsv1.1 version; `tlsv1.2`: tlsv1.2 version; `tlsv1.3`: tlsv1.3 version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#version TeoL7AccRule#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#version TeoL7AccRule#version}
   */
   readonly version?: string[];
 }
@@ -5977,13 +5977,13 @@ export interface TeoL7AccRuleRulesBranchesActionsUpstreamFollowRedirectParameter
   /**
   * The maximum number of redirects. value range: 1-5. Note: this field is required when switch is on; when switch is off, this field is not required and will not take effect if filled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#max_times TeoL7AccRule#max_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#max_times TeoL7AccRule#max_times}
   */
   readonly maxTimes?: number;
   /**
   * Whether to enable origin-pull to follow the redirection configuration. values: on: enable; off: disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
   */
   readonly switch?: string;
 }
@@ -6098,7 +6098,7 @@ export interface TeoL7AccRuleRulesBranchesActionsUpstreamHttp2Parameters {
   /**
   * Whether to enable http2 origin-pull. valid values: on: enable; off: disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
   */
   readonly switch?: string;
 }
@@ -6184,19 +6184,19 @@ export interface TeoL7AccRuleRulesBranchesActionsUpstreamRequestParametersCookie
   /**
   * Origin-Pull request parameter cookie mode. this parameter is required when switch is on. valid values are: full: retain all; ignore: ignore all; includeCustom: retain partial parameters; excludeCustom: ignore partial parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#action TeoL7AccRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#action TeoL7AccRule#action}
   */
   readonly action?: string;
   /**
   * Whether to enable the origin-pull request parameter cookie. valid values: on: enable; off: disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
   */
   readonly switch?: string;
   /**
   * Specifies parameter values. this parameter takes effect only when the query string mode action is includecustom or excludecustom, and is used to specify the parameters to be reserved or ignored. up to 10 parameters are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#values TeoL7AccRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#values TeoL7AccRule#values}
   */
   readonly values?: string[];
 }
@@ -6340,19 +6340,19 @@ export interface TeoL7AccRuleRulesBranchesActionsUpstreamRequestParametersQueryS
   /**
   * Query string mode. this parameter is required when switch is on. values: full: retain all; ignore: ignore all; includeCustom: retain partial parameters; excludeCustom: ignore partial parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#action TeoL7AccRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#action TeoL7AccRule#action}
   */
   readonly action?: string;
   /**
   * Whether to enable origin-pull request parameter query string. values: on: enable; off: disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
   */
   readonly switch?: string;
   /**
   * Specifies parameter values. this parameter takes effect only when the query string mode action is includecustom or excludecustom, and is used to specify the parameters to be reserved or ignored. up to 10 parameters are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#values TeoL7AccRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#values TeoL7AccRule#values}
   */
   readonly values?: string[];
 }
@@ -6496,13 +6496,13 @@ export interface TeoL7AccRuleRulesBranchesActionsUpstreamRequestParameters {
   /**
   * cookie block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#cookie TeoL7AccRule#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#cookie TeoL7AccRule#cookie}
   */
   readonly cookie?: TeoL7AccRuleRulesBranchesActionsUpstreamRequestParametersCookie;
   /**
   * query_string block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#query_string TeoL7AccRule#query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#query_string TeoL7AccRule#query_string}
   */
   readonly queryString?: TeoL7AccRuleRulesBranchesActionsUpstreamRequestParametersQueryString;
 }
@@ -6617,25 +6617,25 @@ export interface TeoL7AccRuleRulesBranchesActionsUpstreamUrlRewriteParameters {
   /**
   * Origin-Pull url rewrite action. valid values are: replace: replace the path prefix; addPrefix: add the path prefix; rmvPrefix: remove the path prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#action TeoL7AccRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#action TeoL7AccRule#action}
   */
   readonly action?: string;
   /**
   * Origin URL Rewrite uses a regular expression for matching the complete path. It must conform to the Google RE2 specification and have a length range of 1 to 1024. This field is required when the Action is regexReplace; otherwise, it is optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#regex TeoL7AccRule#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#regex TeoL7AccRule#regex}
   */
   readonly regex?: string;
   /**
   * Origin-Pull url rewriting type, only path is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#type TeoL7AccRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#type TeoL7AccRule#type}
   */
   readonly type?: string;
   /**
   * Origin-Pull url rewrite value, maximum length 1024, must start with /.note: when action is addprefix, it cannot end with /; when action is rmvprefix, * cannot be present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#value TeoL7AccRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#value TeoL7AccRule#value}
   */
   readonly value?: string;
 }
@@ -6808,13 +6808,13 @@ export interface TeoL7AccRuleRulesBranchesActionsWebSocketParameters {
   /**
   * Whether to enable websocket connection timeout. values: on: use timeout as the websocket timeout;; off: the platform still supports websocket connections, using the system default timeout of 15 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#switch TeoL7AccRule#switch}
   */
   readonly switch?: string;
   /**
   * Timeout, unit: seconds. maximum timeout is 120 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#timeout TeoL7AccRule#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#timeout TeoL7AccRule#timeout}
   */
   readonly timeout?: number;
 }
@@ -6964,217 +6964,217 @@ export interface TeoL7AccRuleRulesBranchesActions {
   * - `ResponseSpeedLimit`: Single connection download speed limit.
   * - `SetContentIdentifierParameters`: Set content identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#name TeoL7AccRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#name TeoL7AccRule#name}
   */
   readonly name: string;
   /**
   * access_url_redirect_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#access_url_redirect_parameters TeoL7AccRule#access_url_redirect_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#access_url_redirect_parameters TeoL7AccRule#access_url_redirect_parameters}
   */
   readonly accessUrlRedirectParameters?: TeoL7AccRuleRulesBranchesActionsAccessUrlRedirectParameters;
   /**
   * authentication_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#authentication_parameters TeoL7AccRule#authentication_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#authentication_parameters TeoL7AccRule#authentication_parameters}
   */
   readonly authenticationParameters?: TeoL7AccRuleRulesBranchesActionsAuthenticationParameters;
   /**
   * cache_key_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#cache_key_parameters TeoL7AccRule#cache_key_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#cache_key_parameters TeoL7AccRule#cache_key_parameters}
   */
   readonly cacheKeyParameters?: TeoL7AccRuleRulesBranchesActionsCacheKeyParameters;
   /**
   * cache_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#cache_parameters TeoL7AccRule#cache_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#cache_parameters TeoL7AccRule#cache_parameters}
   */
   readonly cacheParameters?: TeoL7AccRuleRulesBranchesActionsCacheParameters;
   /**
   * cache_prefresh_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#cache_prefresh_parameters TeoL7AccRule#cache_prefresh_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#cache_prefresh_parameters TeoL7AccRule#cache_prefresh_parameters}
   */
   readonly cachePrefreshParameters?: TeoL7AccRuleRulesBranchesActionsCachePrefreshParameters;
   /**
   * client_ip_country_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#client_ip_country_parameters TeoL7AccRule#client_ip_country_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#client_ip_country_parameters TeoL7AccRule#client_ip_country_parameters}
   */
   readonly clientIpCountryParameters?: TeoL7AccRuleRulesBranchesActionsClientIpCountryParameters;
   /**
   * client_ip_header_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#client_ip_header_parameters TeoL7AccRule#client_ip_header_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#client_ip_header_parameters TeoL7AccRule#client_ip_header_parameters}
   */
   readonly clientIpHeaderParameters?: TeoL7AccRuleRulesBranchesActionsClientIpHeaderParameters;
   /**
   * compression_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#compression_parameters TeoL7AccRule#compression_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#compression_parameters TeoL7AccRule#compression_parameters}
   */
   readonly compressionParameters?: TeoL7AccRuleRulesBranchesActionsCompressionParameters;
   /**
   * error_page_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#error_page_parameters TeoL7AccRule#error_page_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#error_page_parameters TeoL7AccRule#error_page_parameters}
   */
   readonly errorPageParameters?: TeoL7AccRuleRulesBranchesActionsErrorPageParameters;
   /**
   * force_redirect_https_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#force_redirect_https_parameters TeoL7AccRule#force_redirect_https_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#force_redirect_https_parameters TeoL7AccRule#force_redirect_https_parameters}
   */
   readonly forceRedirectHttpsParameters?: TeoL7AccRuleRulesBranchesActionsForceRedirectHttpsParameters;
   /**
   * host_header_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#host_header_parameters TeoL7AccRule#host_header_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#host_header_parameters TeoL7AccRule#host_header_parameters}
   */
   readonly hostHeaderParameters?: TeoL7AccRuleRulesBranchesActionsHostHeaderParameters;
   /**
   * hsts_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#hsts_parameters TeoL7AccRule#hsts_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#hsts_parameters TeoL7AccRule#hsts_parameters}
   */
   readonly hstsParameters?: TeoL7AccRuleRulesBranchesActionsHstsParameters;
   /**
   * http2_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#http2_parameters TeoL7AccRule#http2_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#http2_parameters TeoL7AccRule#http2_parameters}
   */
   readonly http2Parameters?: TeoL7AccRuleRulesBranchesActionsHttp2Parameters;
   /**
   * http_response_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#http_response_parameters TeoL7AccRule#http_response_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#http_response_parameters TeoL7AccRule#http_response_parameters}
   */
   readonly httpResponseParameters?: TeoL7AccRuleRulesBranchesActionsHttpResponseParameters;
   /**
   * http_upstream_timeout_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#http_upstream_timeout_parameters TeoL7AccRule#http_upstream_timeout_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#http_upstream_timeout_parameters TeoL7AccRule#http_upstream_timeout_parameters}
   */
   readonly httpUpstreamTimeoutParameters?: TeoL7AccRuleRulesBranchesActionsHttpUpstreamTimeoutParameters;
   /**
   * max_age_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#max_age_parameters TeoL7AccRule#max_age_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#max_age_parameters TeoL7AccRule#max_age_parameters}
   */
   readonly maxAgeParameters?: TeoL7AccRuleRulesBranchesActionsMaxAgeParameters;
   /**
   * modify_origin_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#modify_origin_parameters TeoL7AccRule#modify_origin_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#modify_origin_parameters TeoL7AccRule#modify_origin_parameters}
   */
   readonly modifyOriginParameters?: TeoL7AccRuleRulesBranchesActionsModifyOriginParameters;
   /**
   * modify_request_header_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#modify_request_header_parameters TeoL7AccRule#modify_request_header_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#modify_request_header_parameters TeoL7AccRule#modify_request_header_parameters}
   */
   readonly modifyRequestHeaderParameters?: TeoL7AccRuleRulesBranchesActionsModifyRequestHeaderParameters;
   /**
   * modify_response_header_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#modify_response_header_parameters TeoL7AccRule#modify_response_header_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#modify_response_header_parameters TeoL7AccRule#modify_response_header_parameters}
   */
   readonly modifyResponseHeaderParameters?: TeoL7AccRuleRulesBranchesActionsModifyResponseHeaderParameters;
   /**
   * ocsp_stapling_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#ocsp_stapling_parameters TeoL7AccRule#ocsp_stapling_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#ocsp_stapling_parameters TeoL7AccRule#ocsp_stapling_parameters}
   */
   readonly ocspStaplingParameters?: TeoL7AccRuleRulesBranchesActionsOcspStaplingParameters;
   /**
   * offline_cache_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#offline_cache_parameters TeoL7AccRule#offline_cache_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#offline_cache_parameters TeoL7AccRule#offline_cache_parameters}
   */
   readonly offlineCacheParameters?: TeoL7AccRuleRulesBranchesActionsOfflineCacheParameters;
   /**
   * origin_pull_protocol_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#origin_pull_protocol_parameters TeoL7AccRule#origin_pull_protocol_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#origin_pull_protocol_parameters TeoL7AccRule#origin_pull_protocol_parameters}
   */
   readonly originPullProtocolParameters?: TeoL7AccRuleRulesBranchesActionsOriginPullProtocolParameters;
   /**
   * post_max_size_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#post_max_size_parameters TeoL7AccRule#post_max_size_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#post_max_size_parameters TeoL7AccRule#post_max_size_parameters}
   */
   readonly postMaxSizeParameters?: TeoL7AccRuleRulesBranchesActionsPostMaxSizeParameters;
   /**
   * quic_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#quic_parameters TeoL7AccRule#quic_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#quic_parameters TeoL7AccRule#quic_parameters}
   */
   readonly quicParameters?: TeoL7AccRuleRulesBranchesActionsQuicParameters;
   /**
   * range_origin_pull_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#range_origin_pull_parameters TeoL7AccRule#range_origin_pull_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#range_origin_pull_parameters TeoL7AccRule#range_origin_pull_parameters}
   */
   readonly rangeOriginPullParameters?: TeoL7AccRuleRulesBranchesActionsRangeOriginPullParameters;
   /**
   * response_speed_limit_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#response_speed_limit_parameters TeoL7AccRule#response_speed_limit_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#response_speed_limit_parameters TeoL7AccRule#response_speed_limit_parameters}
   */
   readonly responseSpeedLimitParameters?: TeoL7AccRuleRulesBranchesActionsResponseSpeedLimitParameters;
   /**
   * set_content_identifier_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#set_content_identifier_parameters TeoL7AccRule#set_content_identifier_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#set_content_identifier_parameters TeoL7AccRule#set_content_identifier_parameters}
   */
   readonly setContentIdentifierParameters?: TeoL7AccRuleRulesBranchesActionsSetContentIdentifierParameters;
   /**
   * smart_routing_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#smart_routing_parameters TeoL7AccRule#smart_routing_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#smart_routing_parameters TeoL7AccRule#smart_routing_parameters}
   */
   readonly smartRoutingParameters?: TeoL7AccRuleRulesBranchesActionsSmartRoutingParameters;
   /**
   * status_code_cache_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#status_code_cache_parameters TeoL7AccRule#status_code_cache_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#status_code_cache_parameters TeoL7AccRule#status_code_cache_parameters}
   */
   readonly statusCodeCacheParameters?: TeoL7AccRuleRulesBranchesActionsStatusCodeCacheParameters;
   /**
   * tls_config_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#tls_config_parameters TeoL7AccRule#tls_config_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#tls_config_parameters TeoL7AccRule#tls_config_parameters}
   */
   readonly tlsConfigParameters?: TeoL7AccRuleRulesBranchesActionsTlsConfigParameters;
   /**
   * upstream_follow_redirect_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#upstream_follow_redirect_parameters TeoL7AccRule#upstream_follow_redirect_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#upstream_follow_redirect_parameters TeoL7AccRule#upstream_follow_redirect_parameters}
   */
   readonly upstreamFollowRedirectParameters?: TeoL7AccRuleRulesBranchesActionsUpstreamFollowRedirectParameters;
   /**
   * upstream_http2_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#upstream_http2_parameters TeoL7AccRule#upstream_http2_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#upstream_http2_parameters TeoL7AccRule#upstream_http2_parameters}
   */
   readonly upstreamHttp2Parameters?: TeoL7AccRuleRulesBranchesActionsUpstreamHttp2Parameters;
   /**
   * upstream_request_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#upstream_request_parameters TeoL7AccRule#upstream_request_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#upstream_request_parameters TeoL7AccRule#upstream_request_parameters}
   */
   readonly upstreamRequestParameters?: TeoL7AccRuleRulesBranchesActionsUpstreamRequestParameters;
   /**
   * upstream_url_rewrite_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#upstream_url_rewrite_parameters TeoL7AccRule#upstream_url_rewrite_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#upstream_url_rewrite_parameters TeoL7AccRule#upstream_url_rewrite_parameters}
   */
   readonly upstreamUrlRewriteParameters?: TeoL7AccRuleRulesBranchesActionsUpstreamUrlRewriteParameters;
   /**
   * web_socket_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#web_socket_parameters TeoL7AccRule#web_socket_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#web_socket_parameters TeoL7AccRule#web_socket_parameters}
   */
   readonly webSocketParameters?: TeoL7AccRuleRulesBranchesActionsWebSocketParameters;
 }
@@ -8304,13 +8304,13 @@ export interface TeoL7AccRuleRulesBranchesSubRules {
   /**
   * Rule comments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#description TeoL7AccRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#description TeoL7AccRule#description}
   */
   readonly description?: string[];
   /**
   * branches block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#branches TeoL7AccRule#branches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#branches TeoL7AccRule#branches}
   */
   readonly branches?: TeoL7AccRuleRulesBranches[] | cdktf.IResolvable;
 }
@@ -8457,19 +8457,19 @@ export interface TeoL7AccRuleRulesBranches {
   /**
   * Match condition. https://www.tencentcloud.com/document/product/1145/54759.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#condition TeoL7AccRule#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#condition TeoL7AccRule#condition}
   */
   readonly condition?: string;
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#actions TeoL7AccRule#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#actions TeoL7AccRule#actions}
   */
   readonly actions?: TeoL7AccRuleRulesBranchesActions[] | cdktf.IResolvable;
   /**
   * sub_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#sub_rules TeoL7AccRule#sub_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#sub_rules TeoL7AccRule#sub_rules}
   */
   readonly subRules?: TeoL7AccRuleRulesBranchesSubRules[] | cdktf.IResolvable;
 }
@@ -8645,25 +8645,25 @@ export interface TeoL7AccRuleRules {
   /**
   * Rule annotation. multiple annotations can be added.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#description TeoL7AccRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#description TeoL7AccRule#description}
   */
   readonly description?: string[];
   /**
   * Rule name. The name length limit is 255 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#rule_name TeoL7AccRule#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#rule_name TeoL7AccRule#rule_name}
   */
   readonly ruleName?: string;
   /**
   * Rule status. The possible values are: `enable`: enabled; `disable`: disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#status TeoL7AccRule#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#status TeoL7AccRule#status}
   */
   readonly status?: string;
   /**
   * branches block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#branches TeoL7AccRule#branches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#branches TeoL7AccRule#branches}
   */
   readonly branches?: TeoL7AccRuleRulesBranches[] | cdktf.IResolvable;
 }
@@ -8876,7 +8876,7 @@ export class TeoL7AccRuleRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule tencentcloud_teo_l7_acc_rule}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule tencentcloud_teo_l7_acc_rule}
 */
 export class TeoL7AccRule extends cdktf.TerraformResource {
 
@@ -8892,7 +8892,7 @@ export class TeoL7AccRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeoL7AccRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeoL7AccRule to import
-  * @param importFromId The id of the existing TeoL7AccRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeoL7AccRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeoL7AccRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8904,7 +8904,7 @@ export class TeoL7AccRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_l7_acc_rule tencentcloud_teo_l7_acc_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_l7_acc_rule tencentcloud_teo_l7_acc_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8915,8 +8915,8 @@ export class TeoL7AccRule extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_teo_l7_acc_rule',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

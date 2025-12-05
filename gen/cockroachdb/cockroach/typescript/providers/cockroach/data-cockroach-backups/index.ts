@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/data-sources/backups
+// https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/data-sources/backups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataCockroachBackupsConfig extends cdktf.TerraformMetaArguments
   /**
   * The ID of the cluster containing the managed backups to be retrieved.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/data-sources/backups#cluster_id DataCockroachBackups#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/data-sources/backups#cluster_id DataCockroachBackups#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Ending timestamp of the range (exclusive) used to search for backups based on their restore point. If this field is provided, start_time must also be included in the request. Uses a date format with optional timestamp, for example: `2023-01-15` or `2023-01-15T10:30:00Z`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/data-sources/backups#end_time DataCockroachBackups#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/data-sources/backups#end_time DataCockroachBackups#end_time}
   */
   readonly endTime?: string;
   /**
   * The maximum number of backups to return. If not set, only the first 500 backups will be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/data-sources/backups#limit DataCockroachBackups#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/data-sources/backups#limit DataCockroachBackups#limit}
   */
   readonly limit?: number;
   /**
   * Specifies the sort direction for the returned results, which are ordered based on the `as_of_time` field. Use `ASC` for ascending or `DESC` for descending order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/data-sources/backups#sort_order DataCockroachBackups#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/data-sources/backups#sort_order DataCockroachBackups#sort_order}
   */
   readonly sortOrder?: string;
   /**
   * Beginning timestamp of the range (inclusive) used to search for backups based on their restore point. If this field is provided, end_time must also be included in the request. Uses a date format with optional timestamp, for example: `2023-01-15` or `2023-01-15T10:30:00Z`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/data-sources/backups#start_time DataCockroachBackups#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/data-sources/backups#start_time DataCockroachBackups#start_time}
   */
   readonly startTime?: string;
 }
@@ -120,7 +120,7 @@ export class DataCockroachBackupsBackupsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/data-sources/backups cockroach_backups}
+* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/data-sources/backups cockroach_backups}
 */
 export class DataCockroachBackups extends cdktf.TerraformDataSource {
 
@@ -136,7 +136,7 @@ export class DataCockroachBackups extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCockroachBackups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCockroachBackups to import
-  * @param importFromId The id of the existing DataCockroachBackups that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/data-sources/backups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCockroachBackups that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/data-sources/backups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCockroachBackups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -148,7 +148,7 @@ export class DataCockroachBackups extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/data-sources/backups cockroach_backups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/data-sources/backups cockroach_backups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -159,8 +159,8 @@ export class DataCockroachBackups extends cdktf.TerraformDataSource {
       terraformResourceType: 'cockroach_backups',
       terraformGeneratorMetadata: {
         providerName: 'cockroach',
-        providerVersion: '1.16.0',
-        providerVersionConstraint: '1.16.0'
+        providerVersion: '1.17.0',
+        providerVersionConstraint: '1.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

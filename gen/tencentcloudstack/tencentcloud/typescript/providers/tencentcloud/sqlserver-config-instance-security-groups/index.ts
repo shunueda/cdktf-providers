@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/sqlserver_config_instance_security_groups
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/sqlserver_config_instance_security_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SqlserverConfigInstanceSecurityGroupsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/sqlserver_config_instance_security_groups#id SqlserverConfigInstanceSecurityGroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/sqlserver_config_instance_security_groups#id SqlserverConfigInstanceSecurityGroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface SqlserverConfigInstanceSecurityGroupsConfig extends cdktf.Terra
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/sqlserver_config_instance_security_groups#instance_id SqlserverConfigInstanceSecurityGroups#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/sqlserver_config_instance_security_groups#instance_id SqlserverConfigInstanceSecurityGroups#instance_id}
   */
   readonly instanceId: string;
   /**
   * A list of security group IDs to modify, an array of one or more security group IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/sqlserver_config_instance_security_groups#security_group_id_set SqlserverConfigInstanceSecurityGroups#security_group_id_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/sqlserver_config_instance_security_groups#security_group_id_set SqlserverConfigInstanceSecurityGroups#security_group_id_set}
   */
   readonly securityGroupIdSet: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/sqlserver_config_instance_security_groups tencentcloud_sqlserver_config_instance_security_groups}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/sqlserver_config_instance_security_groups tencentcloud_sqlserver_config_instance_security_groups}
 */
 export class SqlserverConfigInstanceSecurityGroups extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class SqlserverConfigInstanceSecurityGroups extends cdktf.TerraformResour
   * Generates CDKTF code for importing a SqlserverConfigInstanceSecurityGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SqlserverConfigInstanceSecurityGroups to import
-  * @param importFromId The id of the existing SqlserverConfigInstanceSecurityGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/sqlserver_config_instance_security_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SqlserverConfigInstanceSecurityGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/sqlserver_config_instance_security_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SqlserverConfigInstanceSecurityGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class SqlserverConfigInstanceSecurityGroups extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/sqlserver_config_instance_security_groups tencentcloud_sqlserver_config_instance_security_groups} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/sqlserver_config_instance_security_groups tencentcloud_sqlserver_config_instance_security_groups} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class SqlserverConfigInstanceSecurityGroups extends cdktf.TerraformResour
       terraformResourceType: 'tencentcloud_sqlserver_config_instance_security_groups',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

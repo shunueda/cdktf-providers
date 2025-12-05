@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_standard_engine_resource_group
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_standard_engine_resource_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface DlcStandardEngineResourceGroupConfig extends cdktf.TerraformMet
   /**
   * Automatic start (task submission automatically pulls up the resource group) 0-automatic start, 1-not automatic start.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_standard_engine_resource_group#auto_launch DlcStandardEngineResourceGroup#auto_launch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_standard_engine_resource_group#auto_launch DlcStandardEngineResourceGroup#auto_launch}
   */
   readonly autoLaunch?: number;
   /**
   * Automatically suspend resource groups. 0 - Automatically suspend, 1 - Not automatically suspend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_standard_engine_resource_group#auto_pause DlcStandardEngineResourceGroup#auto_pause}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_standard_engine_resource_group#auto_pause DlcStandardEngineResourceGroup#auto_pause}
   */
   readonly autoPause?: number;
   /**
   * Automatic suspension time, in minutes, with a value range of 1-999 (after no tasks have reached AutoPauseTime, the resource group will automatically suspend).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_standard_engine_resource_group#auto_pause_time DlcStandardEngineResourceGroup#auto_pause_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_standard_engine_resource_group#auto_pause_time DlcStandardEngineResourceGroup#auto_pause_time}
   */
   readonly autoPauseTime?: number;
   /**
   * Standard engine name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_standard_engine_resource_group#data_engine_name DlcStandardEngineResourceGroup#data_engine_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_standard_engine_resource_group#data_engine_name DlcStandardEngineResourceGroup#data_engine_name}
   */
   readonly dataEngineName: string;
   /**
   * Driver CU specifications: Currently supported: small (default, 1 CU), medium (2 CU), large (4 CU), xlarge (8 CU). Memory CUs are CPUs with a ratio of 1:8, m.small (1 CU memory), m.medium (2 CU memory), m.large (4 CU memory), and m.xlarge (8 CU memory).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_standard_engine_resource_group#driver_cu_spec DlcStandardEngineResourceGroup#driver_cu_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_standard_engine_resource_group#driver_cu_spec DlcStandardEngineResourceGroup#driver_cu_spec}
   */
   readonly driverCuSpec?: string;
   /**
   * Standard engine resource group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_standard_engine_resource_group#engine_resource_group_name DlcStandardEngineResourceGroup#engine_resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_standard_engine_resource_group#engine_resource_group_name DlcStandardEngineResourceGroup#engine_resource_group_name}
   */
   readonly engineResourceGroupName: string;
   /**
   * Executor CU specifications: Currently supported: small (default, 1 CU), medium (2 CU), large (4 CU), xlarge (8 CU). Memory CUs are CPUs with a ratio of 1:8, m.small (1 CU memory), m.medium (2 CU memory), m.large (4 CU memory), and m.xlarge (8 CU memory).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_standard_engine_resource_group#executor_cu_spec DlcStandardEngineResourceGroup#executor_cu_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_standard_engine_resource_group#executor_cu_spec DlcStandardEngineResourceGroup#executor_cu_spec}
   */
   readonly executorCuSpec?: string;
   /**
   * The framework type of the AI type resource group, machine-learning, python, spark-ml, if not filled in, the default is machine-learning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_standard_engine_resource_group#frame_type DlcStandardEngineResourceGroup#frame_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_standard_engine_resource_group#frame_type DlcStandardEngineResourceGroup#frame_type}
   */
   readonly frameType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_standard_engine_resource_group#id DlcStandardEngineResourceGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_standard_engine_resource_group#id DlcStandardEngineResourceGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -66,109 +66,109 @@ export interface DlcStandardEngineResourceGroupConfig extends cdktf.TerraformMet
   * Image Name. 
   * Example value: image-xxx. If using a built-in image (ImageType is built-in), the ImageName for different frameworks is: machine-learning: pytorch-v2.5.1, scikit-learn-v1.6.0, tensorflow-v2.18.0, python: python-v3.10, spark-m: Standard-S 1.1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_standard_engine_resource_group#image_name DlcStandardEngineResourceGroup#image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_standard_engine_resource_group#image_name DlcStandardEngineResourceGroup#image_name}
   */
   readonly imageName?: string;
   /**
   * Image type, build-in: built-in, custom: custom, if not filled in, the default is build-in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_standard_engine_resource_group#image_type DlcStandardEngineResourceGroup#image_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_standard_engine_resource_group#image_type DlcStandardEngineResourceGroup#image_type}
   */
   readonly imageType?: string;
   /**
   * Image ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_standard_engine_resource_group#image_version DlcStandardEngineResourceGroup#image_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_standard_engine_resource_group#image_version DlcStandardEngineResourceGroup#image_version}
   */
   readonly imageVersion?: string;
   /**
   * The number of concurrent tasks is 5 by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_standard_engine_resource_group#max_concurrency DlcStandardEngineResourceGroup#max_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_standard_engine_resource_group#max_concurrency DlcStandardEngineResourceGroup#max_concurrency}
   */
   readonly maxConcurrency?: number;
   /**
   * Maximum number of executors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_standard_engine_resource_group#max_executor_nums DlcStandardEngineResourceGroup#max_executor_nums}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_standard_engine_resource_group#max_executor_nums DlcStandardEngineResourceGroup#max_executor_nums}
   */
   readonly maxExecutorNums?: number;
   /**
   * Minimum number of executors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_standard_engine_resource_group#min_executor_nums DlcStandardEngineResourceGroup#min_executor_nums}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_standard_engine_resource_group#min_executor_nums DlcStandardEngineResourceGroup#min_executor_nums}
   */
   readonly minExecutorNums?: number;
   /**
   * Network configuration name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_standard_engine_resource_group#network_config_names DlcStandardEngineResourceGroup#network_config_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_standard_engine_resource_group#network_config_names DlcStandardEngineResourceGroup#network_config_names}
   */
   readonly networkConfigNames?: string[];
   /**
   * Customized mirror domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_standard_engine_resource_group#public_domain DlcStandardEngineResourceGroup#public_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_standard_engine_resource_group#public_domain DlcStandardEngineResourceGroup#public_domain}
   */
   readonly publicDomain?: string;
   /**
   * The resource limit for a Python stand-alone node in a Python resource group must be smaller than the resource limit for the resource group. Small: 1cu Medium: 2cu Large: 4cu Xlarge: 8cu 4xlarge: 16cu 8xlarge: 32cu 16xlarge: 64cu. If the resource type is high memory, add m before the type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_standard_engine_resource_group#python_cu_spec DlcStandardEngineResourceGroup#python_cu_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_standard_engine_resource_group#python_cu_spec DlcStandardEngineResourceGroup#python_cu_spec}
   */
   readonly pythonCuSpec?: string;
   /**
   * Custom image location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_standard_engine_resource_group#region_name DlcStandardEngineResourceGroup#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_standard_engine_resource_group#region_name DlcStandardEngineResourceGroup#region_name}
   */
   readonly regionName?: string;
   /**
   * Custom image instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_standard_engine_resource_group#registry_id DlcStandardEngineResourceGroup#registry_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_standard_engine_resource_group#registry_id DlcStandardEngineResourceGroup#registry_id}
   */
   readonly registryId?: string;
   /**
   * Resource group scenario.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_standard_engine_resource_group#resource_group_scene DlcStandardEngineResourceGroup#resource_group_scene}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_standard_engine_resource_group#resource_group_scene DlcStandardEngineResourceGroup#resource_group_scene}
   */
   readonly resourceGroupScene?: string;
   /**
   * The state of the resource group. true: launch standard engine resource group; false: pause standard engine resource group. Default is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_standard_engine_resource_group#running_state DlcStandardEngineResourceGroup#running_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_standard_engine_resource_group#running_state DlcStandardEngineResourceGroup#running_state}
   */
   readonly runningState?: boolean | cdktf.IResolvable;
   /**
   * The AI resource group is valid, and the upper limit of available resources in the resource group must be less than the upper limit of engine resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_standard_engine_resource_group#size DlcStandardEngineResourceGroup#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_standard_engine_resource_group#size DlcStandardEngineResourceGroup#size}
   */
   readonly size?: number;
   /**
   * Only the SQL resource group resource limit, only used for the express module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_standard_engine_resource_group#spark_size DlcStandardEngineResourceGroup#spark_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_standard_engine_resource_group#spark_size DlcStandardEngineResourceGroup#spark_size}
   */
   readonly sparkSize?: number;
   /**
   * Only SQL resource group resource configuration mode, fast: fast mode, custom: custom mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_standard_engine_resource_group#spark_spec_mode DlcStandardEngineResourceGroup#spark_spec_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_standard_engine_resource_group#spark_spec_mode DlcStandardEngineResourceGroup#spark_spec_mode}
   */
   readonly sparkSpecMode?: string;
   /**
   * dynamic_config_pairs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_standard_engine_resource_group#dynamic_config_pairs DlcStandardEngineResourceGroup#dynamic_config_pairs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_standard_engine_resource_group#dynamic_config_pairs DlcStandardEngineResourceGroup#dynamic_config_pairs}
   */
   readonly dynamicConfigPairs?: DlcStandardEngineResourceGroupDynamicConfigPairs[] | cdktf.IResolvable;
   /**
   * static_config_pairs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_standard_engine_resource_group#static_config_pairs DlcStandardEngineResourceGroup#static_config_pairs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_standard_engine_resource_group#static_config_pairs DlcStandardEngineResourceGroup#static_config_pairs}
   */
   readonly staticConfigPairs?: DlcStandardEngineResourceGroupStaticConfigPairs[] | cdktf.IResolvable;
 }
@@ -176,13 +176,13 @@ export interface DlcStandardEngineResourceGroupDynamicConfigPairs {
   /**
   * Configuration items.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_standard_engine_resource_group#config_item DlcStandardEngineResourceGroup#config_item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_standard_engine_resource_group#config_item DlcStandardEngineResourceGroup#config_item}
   */
   readonly configItem: string;
   /**
   * Configuration values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_standard_engine_resource_group#config_value DlcStandardEngineResourceGroup#config_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_standard_engine_resource_group#config_value DlcStandardEngineResourceGroup#config_value}
   */
   readonly configValue: string;
 }
@@ -323,13 +323,13 @@ export interface DlcStandardEngineResourceGroupStaticConfigPairs {
   /**
   * Configuration items.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_standard_engine_resource_group#config_item DlcStandardEngineResourceGroup#config_item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_standard_engine_resource_group#config_item DlcStandardEngineResourceGroup#config_item}
   */
   readonly configItem: string;
   /**
   * Configuration values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_standard_engine_resource_group#config_value DlcStandardEngineResourceGroup#config_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_standard_engine_resource_group#config_value DlcStandardEngineResourceGroup#config_value}
   */
   readonly configValue: string;
 }
@@ -468,7 +468,7 @@ export class DlcStandardEngineResourceGroupStaticConfigPairsList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_standard_engine_resource_group tencentcloud_dlc_standard_engine_resource_group}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_standard_engine_resource_group tencentcloud_dlc_standard_engine_resource_group}
 */
 export class DlcStandardEngineResourceGroup extends cdktf.TerraformResource {
 
@@ -484,7 +484,7 @@ export class DlcStandardEngineResourceGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DlcStandardEngineResourceGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DlcStandardEngineResourceGroup to import
-  * @param importFromId The id of the existing DlcStandardEngineResourceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_standard_engine_resource_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DlcStandardEngineResourceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_standard_engine_resource_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DlcStandardEngineResourceGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -496,7 +496,7 @@ export class DlcStandardEngineResourceGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_standard_engine_resource_group tencentcloud_dlc_standard_engine_resource_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dlc_standard_engine_resource_group tencentcloud_dlc_standard_engine_resource_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -507,8 +507,8 @@ export class DlcStandardEngineResourceGroup extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dlc_standard_engine_resource_group',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

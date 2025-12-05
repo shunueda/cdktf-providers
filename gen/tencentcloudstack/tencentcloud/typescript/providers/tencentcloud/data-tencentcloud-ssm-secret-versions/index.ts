@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/ssm_secret_versions
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/ssm_secret_versions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudSsmSecretVersionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/ssm_secret_versions#id DataTencentcloudSsmSecretVersions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/ssm_secret_versions#id DataTencentcloudSsmSecretVersions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataTencentcloudSsmSecretVersionsConfig extends cdktf.Terraform
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/ssm_secret_versions#result_output_file DataTencentcloudSsmSecretVersions#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/ssm_secret_versions#result_output_file DataTencentcloudSsmSecretVersions#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Secret name used to filter result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/ssm_secret_versions#secret_name DataTencentcloudSsmSecretVersions#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/ssm_secret_versions#secret_name DataTencentcloudSsmSecretVersions#secret_name}
   */
   readonly secretName: string;
   /**
   * VersionId used to filter result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/ssm_secret_versions#version_id DataTencentcloudSsmSecretVersions#version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/ssm_secret_versions#version_id DataTencentcloudSsmSecretVersions#version_id}
   */
   readonly versionId?: string;
 }
@@ -120,7 +120,7 @@ export class DataTencentcloudSsmSecretVersionsSecretVersionListStructList extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/ssm_secret_versions tencentcloud_ssm_secret_versions}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/ssm_secret_versions tencentcloud_ssm_secret_versions}
 */
 export class DataTencentcloudSsmSecretVersions extends cdktf.TerraformDataSource {
 
@@ -136,7 +136,7 @@ export class DataTencentcloudSsmSecretVersions extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataTencentcloudSsmSecretVersions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudSsmSecretVersions to import
-  * @param importFromId The id of the existing DataTencentcloudSsmSecretVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/ssm_secret_versions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudSsmSecretVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/ssm_secret_versions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudSsmSecretVersions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -148,7 +148,7 @@ export class DataTencentcloudSsmSecretVersions extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/ssm_secret_versions tencentcloud_ssm_secret_versions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/ssm_secret_versions tencentcloud_ssm_secret_versions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -159,8 +159,8 @@ export class DataTencentcloudSsmSecretVersions extends cdktf.TerraformDataSource
       terraformResourceType: 'tencentcloud_ssm_secret_versions',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

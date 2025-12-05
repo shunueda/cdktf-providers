@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/elasticsearch_instance
+// https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/elasticsearch_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataStackitElasticsearchInstanceConfig extends cdktf.TerraformM
   /**
   * Specifies the instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/elasticsearch_instance#name DataStackitElasticsearchInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/elasticsearch_instance#name DataStackitElasticsearchInstance#name}
   */
   readonly name: string;
   /**
   * The project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/elasticsearch_instance#project_id DataStackitElasticsearchInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/elasticsearch_instance#project_id DataStackitElasticsearchInstance#project_id}
   */
   readonly projectId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/elasticsearch_instance stackit_elasticsearch_instance}
+* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/elasticsearch_instance stackit_elasticsearch_instance}
 */
 export class DataStackitElasticsearchInstance extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataStackitElasticsearchInstance extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataStackitElasticsearchInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStackitElasticsearchInstance to import
-  * @param importFromId The id of the existing DataStackitElasticsearchInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/elasticsearch_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStackitElasticsearchInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/elasticsearch_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStackitElasticsearchInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataStackitElasticsearchInstance extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/elasticsearch_instance stackit_elasticsearch_instance} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/elasticsearch_instance stackit_elasticsearch_instance} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataStackitElasticsearchInstance extends cdktf.TerraformDataSource 
       terraformResourceType: 'stackit_elasticsearch_instance',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '1.34.3',
-        providerVersionConstraint: '1.34.3'
+        providerVersion: '1.34.4',
+        providerVersionConstraint: '1.34.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

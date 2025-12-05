@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/tsf_usable_unit_namespaces
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tsf_usable_unit_namespaces
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudTsfUsableUnitNamespacesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/tsf_usable_unit_namespaces#id DataTencentcloudTsfUsableUnitNamespaces#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tsf_usable_unit_namespaces#id DataTencentcloudTsfUsableUnitNamespaces#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataTencentcloudTsfUsableUnitNamespacesConfig extends cdktf.Ter
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/tsf_usable_unit_namespaces#result_output_file DataTencentcloudTsfUsableUnitNamespaces#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tsf_usable_unit_namespaces#result_output_file DataTencentcloudTsfUsableUnitNamespaces#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * search by namespace id or namespace Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/tsf_usable_unit_namespaces#search_word DataTencentcloudTsfUsableUnitNamespaces#search_word}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tsf_usable_unit_namespaces#search_word DataTencentcloudTsfUsableUnitNamespaces#search_word}
   */
   readonly searchWord?: string;
 }
@@ -210,7 +210,7 @@ export class DataTencentcloudTsfUsableUnitNamespacesResultList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/tsf_usable_unit_namespaces tencentcloud_tsf_usable_unit_namespaces}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tsf_usable_unit_namespaces tencentcloud_tsf_usable_unit_namespaces}
 */
 export class DataTencentcloudTsfUsableUnitNamespaces extends cdktf.TerraformDataSource {
 
@@ -226,7 +226,7 @@ export class DataTencentcloudTsfUsableUnitNamespaces extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataTencentcloudTsfUsableUnitNamespaces resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudTsfUsableUnitNamespaces to import
-  * @param importFromId The id of the existing DataTencentcloudTsfUsableUnitNamespaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/tsf_usable_unit_namespaces#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudTsfUsableUnitNamespaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tsf_usable_unit_namespaces#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudTsfUsableUnitNamespaces to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -238,7 +238,7 @@ export class DataTencentcloudTsfUsableUnitNamespaces extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/tsf_usable_unit_namespaces tencentcloud_tsf_usable_unit_namespaces} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/tsf_usable_unit_namespaces tencentcloud_tsf_usable_unit_namespaces} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -249,8 +249,8 @@ export class DataTencentcloudTsfUsableUnitNamespaces extends cdktf.TerraformData
       terraformResourceType: 'tencentcloud_tsf_usable_unit_namespaces',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/data-sources/blackout_windows
+// https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/data-sources/blackout_windows
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataCockroachBlackoutWindowsConfig extends cdktf.TerraformMetaA
   /**
   * ID of the cluster to query for blackout windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/data-sources/blackout_windows#cluster_id DataCockroachBlackoutWindows#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/data-sources/blackout_windows#cluster_id DataCockroachBlackoutWindows#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Maximum number of blackout windows to return in a single response. Defaults to 100 when not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/data-sources/blackout_windows#limit DataCockroachBlackoutWindows#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/data-sources/blackout_windows#limit DataCockroachBlackoutWindows#limit}
   */
   readonly limit?: number;
   /**
   * A pagination token used to request the next page of results. This value should come from the `next_page` attribute of a previous data source call.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/data-sources/blackout_windows#page DataCockroachBlackoutWindows#page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/data-sources/blackout_windows#page DataCockroachBlackoutWindows#page}
   */
   readonly page?: string;
   /**
   * Specifies the sort direction for the returned results, which are ordered based on the `start_time` field. Use `ASC` for ascending or `DESC` for descending order. Defaults to `ASC`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/data-sources/blackout_windows#sort_order DataCockroachBlackoutWindows#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/data-sources/blackout_windows#sort_order DataCockroachBlackoutWindows#sort_order}
   */
   readonly sortOrder?: string;
 }
@@ -124,7 +124,7 @@ export class DataCockroachBlackoutWindowsBlackoutWindowsList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/data-sources/blackout_windows cockroach_blackout_windows}
+* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/data-sources/blackout_windows cockroach_blackout_windows}
 */
 export class DataCockroachBlackoutWindows extends cdktf.TerraformDataSource {
 
@@ -140,7 +140,7 @@ export class DataCockroachBlackoutWindows extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCockroachBlackoutWindows resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCockroachBlackoutWindows to import
-  * @param importFromId The id of the existing DataCockroachBlackoutWindows that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/data-sources/blackout_windows#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCockroachBlackoutWindows that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/data-sources/blackout_windows#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCockroachBlackoutWindows to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -152,7 +152,7 @@ export class DataCockroachBlackoutWindows extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/data-sources/blackout_windows cockroach_blackout_windows} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/data-sources/blackout_windows cockroach_blackout_windows} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -163,8 +163,8 @@ export class DataCockroachBlackoutWindows extends cdktf.TerraformDataSource {
       terraformResourceType: 'cockroach_blackout_windows',
       terraformGeneratorMetadata: {
         providerName: 'cockroach',
-        providerVersion: '1.16.0',
-        providerVersionConstraint: '1.16.0'
+        providerVersion: '1.17.0',
+        providerVersionConstraint: '1.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

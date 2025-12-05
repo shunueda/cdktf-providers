@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/object_storage_credential
+// https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/object_storage_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ObjectStorageCredentialConfig extends cdktf.TerraformMetaArgume
   /**
   * credential group ID. changing this field will recreate the credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/object_storage_credential#credentials_group_id ObjectStorageCredential#credentials_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/object_storage_credential#credentials_group_id ObjectStorageCredential#credentials_group_id}
   */
   readonly credentialsGroupId?: string;
   /**
   * specifies if the credential should expire. changing this field will recreate the credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/object_storage_credential#expiry ObjectStorageCredential#expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/object_storage_credential#expiry ObjectStorageCredential#expiry}
   */
   readonly expiry?: string;
   /**
   * The ID returned from `stackit_object_storage_project`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/object_storage_credential#object_storage_project_id ObjectStorageCredential#object_storage_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/object_storage_credential#object_storage_project_id ObjectStorageCredential#object_storage_project_id}
   */
   readonly objectStorageProjectId?: string;
   /**
   * The project UUID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/object_storage_credential#project_id ObjectStorageCredential#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/object_storage_credential#project_id ObjectStorageCredential#project_id}
   */
   readonly projectId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/object_storage_credential stackit_object_storage_credential}
+* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/object_storage_credential stackit_object_storage_credential}
 */
 export class ObjectStorageCredential extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class ObjectStorageCredential extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectStorageCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectStorageCredential to import
-  * @param importFromId The id of the existing ObjectStorageCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/object_storage_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectStorageCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/object_storage_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectStorageCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class ObjectStorageCredential extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/object_storage_credential stackit_object_storage_credential} Resource
+  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/object_storage_credential stackit_object_storage_credential} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class ObjectStorageCredential extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_object_storage_credential',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '1.34.3',
-        providerVersionConstraint: '1.34.3'
+        providerVersion: '1.34.4',
+        providerVersionConstraint: '1.34.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

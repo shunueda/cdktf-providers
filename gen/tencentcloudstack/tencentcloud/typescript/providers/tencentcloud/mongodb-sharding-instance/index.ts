@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mongodb_sharding_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_sharding_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface MongodbShardingInstanceConfig extends cdktf.TerraformMetaArgume
   /**
   * Auto renew flag. Valid values are `0`(NOTIFY_AND_MANUAL_RENEW), `1`(NOTIFY_AND_AUTO_RENEW) and `2`(DISABLE_NOTIFY_AND_MANUAL_RENEW). Default value is `0`. Note: only works for PREPAID instance. Only supports`0` and `1` for creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mongodb_sharding_instance#auto_renew_flag MongodbShardingInstance#auto_renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_sharding_instance#auto_renew_flag MongodbShardingInstance#auto_renew_flag}
   */
   readonly autoRenewFlag?: number;
   /**
@@ -20,19 +20,19 @@ export interface MongodbShardingInstanceConfig extends cdktf.TerraformMetaArgume
   * 			- Read-only disaster recovery instances are not supported.
   * 			- Basic network cannot be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mongodb_sharding_instance#availability_zone_list MongodbShardingInstance#availability_zone_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_sharding_instance#availability_zone_list MongodbShardingInstance#availability_zone_list}
   */
   readonly availabilityZoneList?: string[];
   /**
   * The available zone of the Mongodb.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mongodb_sharding_instance#available_zone MongodbShardingInstance#available_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_sharding_instance#available_zone MongodbShardingInstance#available_zone}
   */
   readonly availableZone: string;
   /**
   * The charge type of instance. Valid values are `PREPAID` and `POSTPAID_BY_HOUR`. Default value is `POSTPAID_BY_HOUR`. Note: TencentCloud International only supports `POSTPAID_BY_HOUR`. Caution that update operation on this field will delete old instances and create new one with new charge type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mongodb_sharding_instance#charge_type MongodbShardingInstance#charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_sharding_instance#charge_type MongodbShardingInstance#charge_type}
   */
   readonly chargeType?: string;
   /**
@@ -44,17 +44,17 @@ export interface MongodbShardingInstanceConfig extends cdktf.TerraformMetaArgume
   * - MONGO_60_WT: version of the MongoDB 6.0 WiredTiger storage engine.
   * - MONGO_70_WT: version of the MongoDB 7.0 WiredTiger storage engine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mongodb_sharding_instance#engine_version MongodbShardingInstance#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_sharding_instance#engine_version MongodbShardingInstance#engine_version}
   */
   readonly engineVersion: string;
   /**
   * The availability zone to which the Hidden node belongs. This parameter is required in cross-AZ instance deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mongodb_sharding_instance#hidden_zone MongodbShardingInstance#hidden_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_sharding_instance#hidden_zone MongodbShardingInstance#hidden_zone}
   */
   readonly hiddenZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mongodb_sharding_instance#id MongodbShardingInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_sharding_instance#id MongodbShardingInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -66,109 +66,109 @@ export interface MongodbShardingInstanceConfig extends cdktf.TerraformMetaArgume
   * 	- 1: Perform reconfiguration tasks within the maintenance time window.
   * Note: Adjusting the number of nodes and slices does not support changes within the maintenance window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mongodb_sharding_instance#in_maintenance MongodbShardingInstance#in_maintenance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_sharding_instance#in_maintenance MongodbShardingInstance#in_maintenance}
   */
   readonly inMaintenance?: number;
   /**
   * Name of the Mongodb instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mongodb_sharding_instance#instance_name MongodbShardingInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_sharding_instance#instance_name MongodbShardingInstance#instance_name}
   */
   readonly instanceName: string;
   /**
   * Type of Mongodb instance, and available values include `HIO`(or `GIO` which will be deprecated, represents high IO) and `HIO10G`(or `TGIO` which will be deprecated, represents 10-gigabit high IO).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mongodb_sharding_instance#machine_type MongodbShardingInstance#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_sharding_instance#machine_type MongodbShardingInstance#machine_type}
   */
   readonly machineType: string;
   /**
   * Memory size. The minimum value is 2, and unit is GB. Memory and volume must be upgraded or degraded simultaneously.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mongodb_sharding_instance#memory MongodbShardingInstance#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_sharding_instance#memory MongodbShardingInstance#memory}
   */
   readonly memory: number;
   /**
   * Number of mongos cpu.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mongodb_sharding_instance#mongos_cpu MongodbShardingInstance#mongos_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_sharding_instance#mongos_cpu MongodbShardingInstance#mongos_cpu}
   */
   readonly mongosCpu?: number;
   /**
   * Mongos memory size in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mongodb_sharding_instance#mongos_memory MongodbShardingInstance#mongos_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_sharding_instance#mongos_memory MongodbShardingInstance#mongos_memory}
   */
   readonly mongosMemory?: number;
   /**
   * Number of mongos.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mongodb_sharding_instance#mongos_node_num MongodbShardingInstance#mongos_node_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_sharding_instance#mongos_node_num MongodbShardingInstance#mongos_node_num}
   */
   readonly mongosNodeNum?: number;
   /**
   * Number of nodes per shard, at least 3(one master and two slaves).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mongodb_sharding_instance#nodes_per_shard MongodbShardingInstance#nodes_per_shard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_sharding_instance#nodes_per_shard MongodbShardingInstance#nodes_per_shard}
   */
   readonly nodesPerShard: number;
   /**
   * Password of this Mongodb account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mongodb_sharding_instance#password MongodbShardingInstance#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_sharding_instance#password MongodbShardingInstance#password}
   */
   readonly password?: string;
   /**
   * The tenancy (time unit is month) of the prepaid instance. Valid values are 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 24, 36. NOTE: it only works when charge_type is set to `PREPAID`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mongodb_sharding_instance#prepaid_period MongodbShardingInstance#prepaid_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_sharding_instance#prepaid_period MongodbShardingInstance#prepaid_period}
   */
   readonly prepaidPeriod?: number;
   /**
   * ID of the project which the instance belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mongodb_sharding_instance#project_id MongodbShardingInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_sharding_instance#project_id MongodbShardingInstance#project_id}
   */
   readonly projectId?: number;
   /**
   * ID of the security group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mongodb_sharding_instance#security_groups MongodbShardingInstance#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_sharding_instance#security_groups MongodbShardingInstance#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * Number of sharding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mongodb_sharding_instance#shard_quantity MongodbShardingInstance#shard_quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_sharding_instance#shard_quantity MongodbShardingInstance#shard_quantity}
   */
   readonly shardQuantity: number;
   /**
   * ID of the subnet within this VPC. The value is required if `vpc_id` is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mongodb_sharding_instance#subnet_id MongodbShardingInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_sharding_instance#subnet_id MongodbShardingInstance#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * The tags of the Mongodb. Key name `project` is system reserved and can't be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mongodb_sharding_instance#tags MongodbShardingInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_sharding_instance#tags MongodbShardingInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Disk size. The minimum value is 25, and unit is GB. Memory and volume must be upgraded or degraded simultaneously.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mongodb_sharding_instance#volume MongodbShardingInstance#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_sharding_instance#volume MongodbShardingInstance#volume}
   */
   readonly volume: number;
   /**
   * ID of the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mongodb_sharding_instance#vpc_id MongodbShardingInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_sharding_instance#vpc_id MongodbShardingInstance#vpc_id}
   */
   readonly vpcId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mongodb_sharding_instance tencentcloud_mongodb_sharding_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_sharding_instance tencentcloud_mongodb_sharding_instance}
 */
 export class MongodbShardingInstance extends cdktf.TerraformResource {
 
@@ -184,7 +184,7 @@ export class MongodbShardingInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MongodbShardingInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MongodbShardingInstance to import
-  * @param importFromId The id of the existing MongodbShardingInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mongodb_sharding_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MongodbShardingInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_sharding_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MongodbShardingInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -196,7 +196,7 @@ export class MongodbShardingInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mongodb_sharding_instance tencentcloud_mongodb_sharding_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mongodb_sharding_instance tencentcloud_mongodb_sharding_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -207,8 +207,8 @@ export class MongodbShardingInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mongodb_sharding_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

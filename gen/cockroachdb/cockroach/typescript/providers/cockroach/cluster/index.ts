@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster
+// https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,7 +11,7 @@ export interface ClusterConfig extends cdktf.TerraformMetaArguments {
   * The backup settings for a cluster.
   *  Each cluster has backup settings that determine if backups are enabled, how frequently they are taken, and how long they are retained for. Use this attribute to manage those settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#backup_config Cluster#backup_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#backup_config Cluster#backup_config}
   */
   readonly backupConfig?: ClusterBackupConfig;
   /**
@@ -20,61 +20,61 @@ export interface ClusterConfig extends cdktf.TerraformMetaArguments {
   *   * AWS
   *   * AZURE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#cloud_provider Cluster#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#cloud_provider Cluster#cloud_provider}
   */
   readonly cloudProvider: string;
   /**
   * The major version of CockroachDB running on the cluster. This value can be used to orchestrate version upgrades. Supported for ADVANCED and STANDARD clusters (when `serverless.upgrade_type` set to 'MANUAL'). (e.g. v25.0)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#cockroach_version Cluster#cockroach_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#cockroach_version Cluster#cockroach_version}
   */
   readonly cockroachVersion?: string;
   /**
   * Cloud-specific details required to host the cluster in your own cloud account. Only one of `aws`, `gcp`, or `azure` may be specified. This feature is available in [Private Preview](https://www.cockroachlabs.com/docs/stable/cockroachdb-feature-availability). Contact your Cockroach Labs account team to enable this feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#customer_cloud_account Cluster#customer_cloud_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#customer_cloud_account Cluster#customer_cloud_account}
   */
   readonly customerCloudAccount?: ClusterCustomerCloudAccount;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#dedicated Cluster#dedicated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#dedicated Cluster#dedicated}
   */
   readonly dedicated?: ClusterDedicated;
   /**
   * Set to true to enable delete protection on the cluster. If unset, the server chooses the value on cluster creation, and preserves the value on cluster update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#delete_protection Cluster#delete_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#delete_protection Cluster#delete_protection}
   */
   readonly deleteProtection?: boolean | cdktf.IResolvable;
   /**
   * Map of key-value pairs used to organize and categorize resources. If unset, labels will not be managed by Terraform. If set, labels defined in Terraform will overwrite any labels configured outside this platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#labels Cluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#labels Cluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#name Cluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#name Cluster#name}
   */
   readonly name: string;
   /**
   * The ID of the cluster's parent folder. 'root' is used for a cluster at the root level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#parent_id Cluster#parent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#parent_id Cluster#parent_id}
   */
   readonly parentId?: string;
   /**
   * Denotes cluster plan type: 'BASIC' or 'STANDARD' or 'ADVANCED'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#plan Cluster#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#plan Cluster#plan}
   */
   readonly plan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#regions Cluster#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#regions Cluster#regions}
   */
   readonly regions: ClusterRegions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#serverless Cluster#serverless}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#serverless Cluster#serverless}
   */
   readonly serverless?: ClusterServerless;
 }
@@ -82,19 +82,19 @@ export interface ClusterBackupConfig {
   /**
   * Indicates whether backups are enabled. If set to false, no backups will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#enabled Cluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#enabled Cluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The frequency of backups in minutes.  Valid values are [5, 10, 15, 30, 60, 240, 1440]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#frequency_minutes Cluster#frequency_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#frequency_minutes Cluster#frequency_minutes}
   */
   readonly frequencyMinutes?: number;
   /**
   * The number of days to retain backups for.  Valid values are [2, 7, 30, 90, 365]. Can only be set once, further changes require opening a support ticket. See [Updating backup retention](../guides/updating-backup-retention) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#retention_days Cluster#retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#retention_days Cluster#retention_days}
   */
   readonly retentionDays?: number;
 }
@@ -248,7 +248,7 @@ export interface ClusterCustomerCloudAccountAws {
   /**
   * The AWS IAM Role ARN that CockroachDB Cloud will assume in your account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#arn Cluster#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#arn Cluster#arn}
   */
   readonly arn: string;
 }
@@ -341,13 +341,13 @@ export interface ClusterCustomerCloudAccountAzure {
   /**
   * The Azure subscription ID in the customer-owned tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#subscription_id Cluster#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#subscription_id Cluster#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * The customer-owned Azure tenant ID that contains the subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#tenant_id Cluster#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#tenant_id Cluster#tenant_id}
   */
   readonly tenantId: string;
 }
@@ -466,7 +466,7 @@ export interface ClusterCustomerCloudAccountGcp {
   /**
   * The customer-owned GCP service account email CockroachDB Cloud will impersonate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#service_account_email Cluster#service_account_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#service_account_email Cluster#service_account_email}
   */
   readonly serviceAccountEmail: string;
 }
@@ -557,15 +557,15 @@ export class ClusterCustomerCloudAccountGcpOutputReference extends cdktf.Complex
 }
 export interface ClusterCustomerCloudAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#aws Cluster#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#aws Cluster#aws}
   */
   readonly aws?: ClusterCustomerCloudAccountAws;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#azure Cluster#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#azure Cluster#azure}
   */
   readonly azure?: ClusterCustomerCloudAccountAzure;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#gcp Cluster#gcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#gcp Cluster#gcp}
   */
   readonly gcp?: ClusterCustomerCloudAccountGcp;
 }
@@ -719,43 +719,43 @@ export interface ClusterDedicated {
   /**
   * The IPv4 range in CIDR format that will be used by the cluster. This is supported only on GCP, and must have a subnet mask no larger than /19. Defaults to "172.28.0.0/14". This cannot be changed after cluster creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#cidr_range Cluster#cidr_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#cidr_range Cluster#cidr_range}
   */
   readonly cidrRange?: string;
   /**
   * Number of disk I/O operations per second that are permitted on each node in the cluster. Omitting this attribute will result in the cloud provider-specific default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#disk_iops Cluster#disk_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#disk_iops Cluster#disk_iops}
   */
   readonly diskIops?: number;
   /**
   * Machine type identifier within the given cloud provider, e.g., m6.xlarge, n2-standard-4. This attribute requires a feature flag to be enabled. It is recommended to leave this empty and use `num_virtual_cpus` to control the machine type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#machine_type Cluster#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#machine_type Cluster#machine_type}
   */
   readonly machineType?: string;
   /**
   * Number of virtual CPUs per node in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#num_virtual_cpus Cluster#num_virtual_cpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#num_virtual_cpus Cluster#num_virtual_cpus}
   */
   readonly numVirtualCpus?: number;
   /**
   * Set to true to assign private IP addresses to nodes. Required for CMEK and other advanced networking features. Clusters created with this flag will have advanced security features enabled.  This cannot be changed after cluster creation and incurs additional charges.  See [Create an Advanced Cluster](https://www.cockroachlabs.com/docs/cockroachcloud/create-an-advanced-cluster.html#step-6-configure-advanced-security-features) and [Pricing](https://www.cockroachlabs.com/pricing/) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#private_network_visibility Cluster#private_network_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#private_network_visibility Cluster#private_network_visibility}
   */
   readonly privateNetworkVisibility?: boolean | cdktf.IResolvable;
   /**
   * Storage amount per node in GiB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#storage_gib Cluster#storage_gib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#storage_gib Cluster#storage_gib}
   */
   readonly storageGib?: number;
   /**
   * supports_cluster_virtualization specifies whether an Advanced cluster is started with a virtual cluster architecture. This field is restricted to Private Preview usage; see our documentation for details: https://www.cockroachlabs.com/docs/stable/cluster-virtualization-overview
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#supports_cluster_virtualization Cluster#supports_cluster_virtualization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#supports_cluster_virtualization Cluster#supports_cluster_virtualization}
   */
   readonly supportsClusterVirtualization?: boolean | cdktf.IResolvable;
 }
@@ -1030,19 +1030,19 @@ export interface ClusterRegions {
   /**
   * Name of the region. Should match the region code used by the cluster's cloud provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#name Cluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#name Cluster#name}
   */
   readonly name: string;
   /**
   * Number of nodes in the region. Valid for Advanced clusters only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#node_count Cluster#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#node_count Cluster#node_count}
   */
   readonly nodeCount?: number;
   /**
   * Set to true to mark this region as the primary for a serverless cluster. Exactly one region must be primary. Dedicated clusters expect to have no primary region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#primary Cluster#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#primary Cluster#primary}
   */
   readonly primary?: boolean | cdktf.IResolvable;
 }
@@ -1235,19 +1235,19 @@ export interface ClusterServerlessUsageLimits {
   /**
   * Maximum number of vCPUs that the cluster can use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#provisioned_virtual_cpus Cluster#provisioned_virtual_cpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#provisioned_virtual_cpus Cluster#provisioned_virtual_cpus}
   */
   readonly provisionedVirtualCpus?: number;
   /**
   * Maximum number of Request Units that the cluster can consume during the month.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#request_unit_limit Cluster#request_unit_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#request_unit_limit Cluster#request_unit_limit}
   */
   readonly requestUnitLimit?: number;
   /**
   * Maximum amount of storage (in MiB) that the cluster can have at any time during the month.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#storage_mib_limit Cluster#storage_mib_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#storage_mib_limit Cluster#storage_mib_limit}
   */
   readonly storageMibLimit?: number;
 }
@@ -1401,7 +1401,7 @@ export interface ClusterServerless {
   /**
   * Spend limit in US cents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#spend_limit Cluster#spend_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#spend_limit Cluster#spend_limit}
   */
   readonly spendLimit?: number;
   /**
@@ -1409,11 +1409,11 @@ export interface ClusterServerless {
   *   * MANUAL
   *   * AUTOMATIC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#upgrade_type Cluster#upgrade_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#upgrade_type Cluster#upgrade_type}
   */
   readonly upgradeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#usage_limits Cluster#usage_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#usage_limits Cluster#usage_limits}
   */
   readonly usageLimits?: ClusterServerlessUsageLimits;
 }
@@ -1570,7 +1570,7 @@ export class ClusterServerlessOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster cockroach_cluster}
+* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster cockroach_cluster}
 */
 export class Cluster extends cdktf.TerraformResource {
 
@@ -1586,7 +1586,7 @@ export class Cluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cluster to import
-  * @param importFromId The id of the existing Cluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1598,7 +1598,7 @@ export class Cluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cluster cockroach_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cluster cockroach_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1609,8 +1609,8 @@ export class Cluster extends cdktf.TerraformResource {
       terraformResourceType: 'cockroach_cluster',
       terraformGeneratorMetadata: {
         providerName: 'cockroach',
-        providerVersion: '1.16.0',
-        providerVersionConstraint: '1.16.0'
+        providerVersion: '1.17.0',
+        providerVersionConstraint: '1.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

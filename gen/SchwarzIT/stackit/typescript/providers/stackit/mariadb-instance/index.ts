@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mariadb_instance
+// https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mariadb_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface MariadbInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Access Control rules to whitelist IP addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mariadb_instance#acl MariadbInstance#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mariadb_instance#acl MariadbInstance#acl}
   */
   readonly acl?: string[];
   /**
   * Specifies the instance name. Changing this value requires the resource to be recreated. Changing this value requires the resource to be recreated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mariadb_instance#name MariadbInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mariadb_instance#name MariadbInstance#name}
   */
   readonly name: string;
   /**
   * The MariaDB Plan. Default is `stackit-mariadb-1.4.10-single`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mariadb_instance#plan MariadbInstance#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mariadb_instance#plan MariadbInstance#plan}
   */
   readonly plan?: string;
   /**
   * The project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mariadb_instance#project_id MariadbInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mariadb_instance#project_id MariadbInstance#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mariadb_instance#timeouts MariadbInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mariadb_instance#timeouts MariadbInstance#timeouts}
   */
   readonly timeouts?: MariadbInstanceTimeouts;
   /**
   * MariaDB version. Default is 10.6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mariadb_instance#version MariadbInstance#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mariadb_instance#version MariadbInstance#version}
   */
   readonly version?: string;
 }
 export interface MariadbInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mariadb_instance#create MariadbInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mariadb_instance#create MariadbInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mariadb_instance#delete MariadbInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mariadb_instance#delete MariadbInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mariadb_instance#update MariadbInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mariadb_instance#update MariadbInstance#update}
   */
   readonly update?: string;
 }
@@ -204,7 +204,7 @@ export class MariadbInstanceTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mariadb_instance stackit_mariadb_instance}
+* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mariadb_instance stackit_mariadb_instance}
 */
 export class MariadbInstance extends cdktf.TerraformResource {
 
@@ -220,7 +220,7 @@ export class MariadbInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MariadbInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MariadbInstance to import
-  * @param importFromId The id of the existing MariadbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mariadb_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MariadbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mariadb_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MariadbInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -232,7 +232,7 @@ export class MariadbInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mariadb_instance stackit_mariadb_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mariadb_instance stackit_mariadb_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -243,8 +243,8 @@ export class MariadbInstance extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_mariadb_instance',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '1.34.3',
-        providerVersionConstraint: '1.34.3'
+        providerVersion: '1.34.4',
+        providerVersionConstraint: '1.34.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

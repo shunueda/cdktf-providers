@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface WedataIntegrationOfflineTaskConfig extends cdktf.TerraformMetaA
   /**
   * Interval time of scheduling, the minimum value: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#cycle_step WedataIntegrationOfflineTask#cycle_step}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#cycle_step WedataIntegrationOfflineTask#cycle_step}
   */
   readonly cycleStep: number;
   /**
   * Execution time, unit is minutes, only available for day/week/month/year scheduling. For example, daily scheduling is executed once every day at 02:00, and the delayTime is 120 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#delay_time WedataIntegrationOfflineTask#delay_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#delay_time WedataIntegrationOfflineTask#delay_time}
   */
   readonly delayTime: number;
   /**
   * Effective end time, the format is yyyy-MM-dd HH:mm:ss.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#end_time WedataIntegrationOfflineTask#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#end_time WedataIntegrationOfflineTask#end_time}
   */
   readonly endTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#id WedataIntegrationOfflineTask#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#id WedataIntegrationOfflineTask#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,43 +35,43 @@ export interface WedataIntegrationOfflineTaskConfig extends cdktf.TerraformMetaA
   /**
   * Description information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#notes WedataIntegrationOfflineTask#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#notes WedataIntegrationOfflineTask#notes}
   */
   readonly notes: string;
   /**
   * Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#project_id WedataIntegrationOfflineTask#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#project_id WedataIntegrationOfflineTask#project_id}
   */
   readonly projectId: string;
   /**
   * Effective start time, the format is yyyy-MM-dd HH:mm:ss.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#start_time WedataIntegrationOfflineTask#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#start_time WedataIntegrationOfflineTask#start_time}
   */
   readonly startTime: string;
   /**
   * Scheduling configuration: flexible period configuration, only available for hourly/weekly/monthly/yearly scheduling. If the hourly task is specified to run at 0:00, 3:00 and 4:00 every day, it is 0,3,4.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#task_action WedataIntegrationOfflineTask#task_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#task_action WedataIntegrationOfflineTask#task_action}
   */
   readonly taskAction: string;
   /**
   * Task display mode, 0: canvas mode, 1: form mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#task_mode WedataIntegrationOfflineTask#task_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#task_mode WedataIntegrationOfflineTask#task_mode}
   */
   readonly taskMode: string;
   /**
   * Task name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#task_name WedataIntegrationOfflineTask#task_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#task_name WedataIntegrationOfflineTask#task_name}
   */
   readonly taskName: string;
   /**
   * task_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#task_info WedataIntegrationOfflineTask#task_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#task_info WedataIntegrationOfflineTask#task_info}
   */
   readonly taskInfo: WedataIntegrationOfflineTaskTaskInfo;
 }
@@ -79,13 +79,13 @@ export interface WedataIntegrationOfflineTaskTaskInfoConfig {
   /**
   * Configuration name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#name WedataIntegrationOfflineTask#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#name WedataIntegrationOfflineTask#name}
   */
   readonly name?: string;
   /**
   * Configuration value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#value WedataIntegrationOfflineTask#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#value WedataIntegrationOfflineTask#value}
   */
   readonly value?: string;
 }
@@ -232,13 +232,13 @@ export interface WedataIntegrationOfflineTaskTaskInfoExecuteContext {
   /**
   * Configuration name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#name WedataIntegrationOfflineTask#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#name WedataIntegrationOfflineTask#name}
   */
   readonly name?: string;
   /**
   * Configuration value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#value WedataIntegrationOfflineTask#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#value WedataIntegrationOfflineTask#value}
   */
   readonly value?: string;
 }
@@ -385,13 +385,13 @@ export interface WedataIntegrationOfflineTaskTaskInfoExtConfig {
   /**
   * Configuration name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#name WedataIntegrationOfflineTask#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#name WedataIntegrationOfflineTask#name}
   */
   readonly name?: string;
   /**
   * Configuration value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#value WedataIntegrationOfflineTask#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#value WedataIntegrationOfflineTask#value}
   */
   readonly value?: string;
 }
@@ -538,13 +538,13 @@ export interface WedataIntegrationOfflineTaskTaskInfoMappingsExtConfig {
   /**
   * Configuration name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#name WedataIntegrationOfflineTask#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#name WedataIntegrationOfflineTask#name}
   */
   readonly name?: string;
   /**
   * Configuration value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#value WedataIntegrationOfflineTask#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#value WedataIntegrationOfflineTask#value}
   */
   readonly value?: string;
 }
@@ -691,13 +691,13 @@ export interface WedataIntegrationOfflineTaskTaskInfoMappingsSchemaMappings {
   /**
   * Schema ID from sink node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#sink_schema_id WedataIntegrationOfflineTask#sink_schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#sink_schema_id WedataIntegrationOfflineTask#sink_schema_id}
   */
   readonly sinkSchemaId: string;
   /**
   * Schema ID from source node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#source_schema_id WedataIntegrationOfflineTask#source_schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#source_schema_id WedataIntegrationOfflineTask#source_schema_id}
   */
   readonly sourceSchemaId: string;
 }
@@ -838,13 +838,13 @@ export interface WedataIntegrationOfflineTaskTaskInfoMappingsSourceSchemaPropert
   /**
   * Attributes name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#name WedataIntegrationOfflineTask#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#name WedataIntegrationOfflineTask#name}
   */
   readonly name?: string;
   /**
   * Attributes value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#value WedataIntegrationOfflineTask#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#value WedataIntegrationOfflineTask#value}
   */
   readonly value?: string;
 }
@@ -991,19 +991,19 @@ export interface WedataIntegrationOfflineTaskTaskInfoMappingsSourceSchema {
   /**
   * Schema alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#alias WedataIntegrationOfflineTask#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#alias WedataIntegrationOfflineTask#alias}
   */
   readonly alias?: string;
   /**
   * Schema comment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#comment WedataIntegrationOfflineTask#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#comment WedataIntegrationOfflineTask#comment}
   */
   readonly comment?: string;
   /**
   * Schema ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#id WedataIntegrationOfflineTask#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#id WedataIntegrationOfflineTask#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1012,25 +1012,25 @@ export interface WedataIntegrationOfflineTaskTaskInfoMappingsSourceSchema {
   /**
   * Schema name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#name WedataIntegrationOfflineTask#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#name WedataIntegrationOfflineTask#name}
   */
   readonly name: string;
   /**
   * Schema type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#type WedataIntegrationOfflineTask#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#type WedataIntegrationOfflineTask#type}
   */
   readonly type: string;
   /**
   * Schema value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#value WedataIntegrationOfflineTask#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#value WedataIntegrationOfflineTask#value}
   */
   readonly value?: string;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#properties WedataIntegrationOfflineTask#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#properties WedataIntegrationOfflineTask#properties}
   */
   readonly properties?: WedataIntegrationOfflineTaskTaskInfoMappingsSourceSchemaProperties[] | cdktf.IResolvable;
 }
@@ -1313,31 +1313,31 @@ export interface WedataIntegrationOfflineTaskTaskInfoMappings {
   /**
   * Sink node ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#sink_id WedataIntegrationOfflineTask#sink_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#sink_id WedataIntegrationOfflineTask#sink_id}
   */
   readonly sinkId?: string;
   /**
   * Source node ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#source_id WedataIntegrationOfflineTask#source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#source_id WedataIntegrationOfflineTask#source_id}
   */
   readonly sourceId?: string;
   /**
   * ext_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#ext_config WedataIntegrationOfflineTask#ext_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#ext_config WedataIntegrationOfflineTask#ext_config}
   */
   readonly extConfig?: WedataIntegrationOfflineTaskTaskInfoMappingsExtConfig[] | cdktf.IResolvable;
   /**
   * schema_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#schema_mappings WedataIntegrationOfflineTask#schema_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#schema_mappings WedataIntegrationOfflineTask#schema_mappings}
   */
   readonly schemaMappings?: WedataIntegrationOfflineTaskTaskInfoMappingsSchemaMappings[] | cdktf.IResolvable;
   /**
   * source_schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#source_schema WedataIntegrationOfflineTask#source_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#source_schema WedataIntegrationOfflineTask#source_schema}
   */
   readonly sourceSchema?: WedataIntegrationOfflineTaskTaskInfoMappingsSourceSchema[] | cdktf.IResolvable;
 }
@@ -1571,49 +1571,49 @@ export interface WedataIntegrationOfflineTaskTaskInfoOfflineTaskAddEntity {
   /**
   * Crontab expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#crontab_expression WedataIntegrationOfflineTask#crontab_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#crontab_expression WedataIntegrationOfflineTask#crontab_expression}
   */
   readonly crontabExpression?: string;
   /**
   * Scheduling type, 0: crontab type, 1: minutes, 2: hours, 3: days, 4: weeks, 5: months, 6: one-time, 7: user-driven, 10: elastic period (week), 11: elastic period (month), 12: year, 13: instant trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#cycle_type WedataIntegrationOfflineTask#cycle_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#cycle_type WedataIntegrationOfflineTask#cycle_type}
   */
   readonly cycleType?: number;
   /**
   * Scheduling execution end time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#execution_end_time WedataIntegrationOfflineTask#execution_end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#execution_end_time WedataIntegrationOfflineTask#execution_end_time}
   */
   readonly executionEndTime?: string;
   /**
   * Scheduling execution start time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#execution_start_time WedataIntegrationOfflineTask#execution_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#execution_start_time WedataIntegrationOfflineTask#execution_start_time}
   */
   readonly executionStartTime?: string;
   /**
   * Whether to retry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#retriable WedataIntegrationOfflineTask#retriable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#retriable WedataIntegrationOfflineTask#retriable}
   */
   readonly retriable?: number;
   /**
   * Retry waiting time, unit is minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#retry_wait WedataIntegrationOfflineTask#retry_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#retry_wait WedataIntegrationOfflineTask#retry_wait}
   */
   readonly retryWait?: number;
   /**
   * Self-dependent rules, 1: Ordered serial one at a time, queued execution, 2: Unordered serial one at a time, not queued execution, 3: Parallel, multiple at once.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#self_depend WedataIntegrationOfflineTask#self_depend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#self_depend WedataIntegrationOfflineTask#self_depend}
   */
   readonly selfDepend?: number;
   /**
   * Number of retries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#try_limit WedataIntegrationOfflineTask#try_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#try_limit WedataIntegrationOfflineTask#try_limit}
   */
   readonly tryLimit?: number;
 }
@@ -1902,247 +1902,247 @@ export interface WedataIntegrationOfflineTaskTaskInfo {
   /**
   * User App Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#app_id WedataIntegrationOfflineTask#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#app_id WedataIntegrationOfflineTask#app_id}
   */
   readonly appId?: string;
   /**
   * Create time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#create_time WedataIntegrationOfflineTask#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#create_time WedataIntegrationOfflineTask#create_time}
   */
   readonly createTime?: string;
   /**
   * Creator User ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#creator_uin WedataIntegrationOfflineTask#creator_uin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#creator_uin WedataIntegrationOfflineTask#creator_uin}
   */
   readonly creatorUin?: string;
   /**
   * Data proxy url.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#data_proxy_url WedataIntegrationOfflineTask#data_proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#data_proxy_url WedataIntegrationOfflineTask#data_proxy_url}
   */
   readonly dataProxyUrl?: string[];
   /**
   * Executor group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#executor_group_name WedataIntegrationOfflineTask#executor_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#executor_group_name WedataIntegrationOfflineTask#executor_group_name}
   */
   readonly executorGroupName?: string;
   /**
   * Executor resource ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#executor_id WedataIntegrationOfflineTask#executor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#executor_id WedataIntegrationOfflineTask#executor_id}
   */
   readonly executorId?: string;
   /**
   * Whether the task been submitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#has_version WedataIntegrationOfflineTask#has_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#has_version WedataIntegrationOfflineTask#has_version}
   */
   readonly hasVersion?: boolean | cdktf.IResolvable;
   /**
   * InLong manager url.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#in_long_manager_url WedataIntegrationOfflineTask#in_long_manager_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#in_long_manager_url WedataIntegrationOfflineTask#in_long_manager_url}
   */
   readonly inLongManagerUrl?: string;
   /**
   * InLong manager version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#in_long_manager_version WedataIntegrationOfflineTask#in_long_manager_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#in_long_manager_version WedataIntegrationOfflineTask#in_long_manager_version}
   */
   readonly inLongManagerVersion?: string;
   /**
   * InLong stream id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#in_long_stream_id WedataIntegrationOfflineTask#in_long_stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#in_long_stream_id WedataIntegrationOfflineTask#in_long_stream_id}
   */
   readonly inLongStreamId?: string;
   /**
   * Incharge user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#incharge WedataIntegrationOfflineTask#incharge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#incharge WedataIntegrationOfflineTask#incharge}
   */
   readonly incharge?: string;
   /**
   * Input datasource type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#input_datasource_type WedataIntegrationOfflineTask#input_datasource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#input_datasource_type WedataIntegrationOfflineTask#input_datasource_type}
   */
   readonly inputDatasourceType?: string;
   /**
   * Instance version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#instance_version WedataIntegrationOfflineTask#instance_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#instance_version WedataIntegrationOfflineTask#instance_version}
   */
   readonly instanceVersion?: number;
   /**
   * The last time the task was run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#last_run_time WedataIntegrationOfflineTask#last_run_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#last_run_time WedataIntegrationOfflineTask#last_run_time}
   */
   readonly lastRunTime?: string;
   /**
   * Whether the task been locked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#locked WedataIntegrationOfflineTask#locked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#locked WedataIntegrationOfflineTask#locked}
   */
   readonly locked?: boolean | cdktf.IResolvable;
   /**
   * User locked task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#locker WedataIntegrationOfflineTask#locker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#locker WedataIntegrationOfflineTask#locker}
   */
   readonly locker?: string;
   /**
   * Number of reads.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#num_records_in WedataIntegrationOfflineTask#num_records_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#num_records_in WedataIntegrationOfflineTask#num_records_in}
   */
   readonly numRecordsIn?: number;
   /**
   * Number of writes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#num_records_out WedataIntegrationOfflineTask#num_records_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#num_records_out WedataIntegrationOfflineTask#num_records_out}
   */
   readonly numRecordsOut?: number;
   /**
   * Times of restarts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#num_restarts WedataIntegrationOfflineTask#num_restarts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#num_restarts WedataIntegrationOfflineTask#num_restarts}
   */
   readonly numRestarts?: number;
   /**
   * Operator User ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#operator_uin WedataIntegrationOfflineTask#operator_uin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#operator_uin WedataIntegrationOfflineTask#operator_uin}
   */
   readonly operatorUin?: string;
   /**
   * Output datasource type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#output_datasource_type WedataIntegrationOfflineTask#output_datasource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#output_datasource_type WedataIntegrationOfflineTask#output_datasource_type}
   */
   readonly outputDatasourceType?: string;
   /**
   * Owner User ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#owner_uin WedataIntegrationOfflineTask#owner_uin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#owner_uin WedataIntegrationOfflineTask#owner_uin}
   */
   readonly ownerUin?: string;
   /**
   * Reading stage, 0: full amount, 1: partial full amount, 2: all incremental.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#read_phase WedataIntegrationOfflineTask#read_phase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#read_phase WedataIntegrationOfflineTask#read_phase}
   */
   readonly readPhase?: number;
   /**
   * Read latency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#reader_delay WedataIntegrationOfflineTask#reader_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#reader_delay WedataIntegrationOfflineTask#reader_delay}
   */
   readonly readerDelay?: number;
   /**
   * The amount of resources consumed by real-time task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#running_cu WedataIntegrationOfflineTask#running_cu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#running_cu WedataIntegrationOfflineTask#running_cu}
   */
   readonly runningCu?: number;
   /**
   * Task scheduling id (job id such as oceanus or us).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#schedule_task_id WedataIntegrationOfflineTask#schedule_task_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#schedule_task_id WedataIntegrationOfflineTask#schedule_task_id}
   */
   readonly scheduleTaskId?: string;
   /**
   * Task status 1. Not started | Task initialization, 2. Task starting, 3. Running, 4. Paused, 5. Task stopping, 6. Stopped, 7. Execution failed, 8. deleted, 9. Locked, 404. unknown status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#status WedataIntegrationOfflineTask#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#status WedataIntegrationOfflineTask#status}
   */
   readonly status?: number;
   /**
   * The time the task was stopped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#stop_time WedataIntegrationOfflineTask#stop_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#stop_time WedataIntegrationOfflineTask#stop_time}
   */
   readonly stopTime?: string;
   /**
   * Whether the task version has been submitted for operation and maintenance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#submit WedataIntegrationOfflineTask#submit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#submit WedataIntegrationOfflineTask#submit}
   */
   readonly submit?: boolean | cdktf.IResolvable;
   /**
   * Resource tiering status, 0: in progress, 1: successful, 2: failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#switch_resource WedataIntegrationOfflineTask#switch_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#switch_resource WedataIntegrationOfflineTask#switch_resource}
   */
   readonly switchResource?: number;
   /**
   * Synchronization type: 1. Whole database synchronization, 2. Single table synchronization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#sync_type WedataIntegrationOfflineTask#sync_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#sync_type WedataIntegrationOfflineTask#sync_type}
   */
   readonly syncType?: number;
   /**
   * Task alarm regular.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#task_alarm_regular_list WedataIntegrationOfflineTask#task_alarm_regular_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#task_alarm_regular_list WedataIntegrationOfflineTask#task_alarm_regular_list}
   */
   readonly taskAlarmRegularList?: string[];
   /**
   * Inlong Task Group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#task_group_id WedataIntegrationOfflineTask#task_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#task_group_id WedataIntegrationOfflineTask#task_group_id}
   */
   readonly taskGroupId?: string;
   /**
   * Task display mode, 0: canvas mode, 1: form mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#task_mode WedataIntegrationOfflineTask#task_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#task_mode WedataIntegrationOfflineTask#task_mode}
   */
   readonly taskMode?: string;
   /**
   * Update time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#update_time WedataIntegrationOfflineTask#update_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#update_time WedataIntegrationOfflineTask#update_time}
   */
   readonly updateTime?: string;
   /**
   * The workflow id to which the task belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#workflow_id WedataIntegrationOfflineTask#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#workflow_id WedataIntegrationOfflineTask#workflow_id}
   */
   readonly workflowId?: string;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#config WedataIntegrationOfflineTask#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#config WedataIntegrationOfflineTask#config}
   */
   readonly config?: WedataIntegrationOfflineTaskTaskInfoConfig[] | cdktf.IResolvable;
   /**
   * execute_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#execute_context WedataIntegrationOfflineTask#execute_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#execute_context WedataIntegrationOfflineTask#execute_context}
   */
   readonly executeContext?: WedataIntegrationOfflineTaskTaskInfoExecuteContext[] | cdktf.IResolvable;
   /**
   * ext_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#ext_config WedataIntegrationOfflineTask#ext_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#ext_config WedataIntegrationOfflineTask#ext_config}
   */
   readonly extConfig?: WedataIntegrationOfflineTaskTaskInfoExtConfig[] | cdktf.IResolvable;
   /**
   * mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#mappings WedataIntegrationOfflineTask#mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#mappings WedataIntegrationOfflineTask#mappings}
   */
   readonly mappings?: WedataIntegrationOfflineTaskTaskInfoMappings[] | cdktf.IResolvable;
   /**
   * offline_task_add_entity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#offline_task_add_entity WedataIntegrationOfflineTask#offline_task_add_entity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#offline_task_add_entity WedataIntegrationOfflineTask#offline_task_add_entity}
   */
   readonly offlineTaskAddEntity?: WedataIntegrationOfflineTaskTaskInfoOfflineTaskAddEntity;
 }
@@ -3386,7 +3386,7 @@ export class WedataIntegrationOfflineTaskTaskInfoOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task tencentcloud_wedata_integration_offline_task}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task tencentcloud_wedata_integration_offline_task}
 */
 export class WedataIntegrationOfflineTask extends cdktf.TerraformResource {
 
@@ -3402,7 +3402,7 @@ export class WedataIntegrationOfflineTask extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WedataIntegrationOfflineTask resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WedataIntegrationOfflineTask to import
-  * @param importFromId The id of the existing WedataIntegrationOfflineTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WedataIntegrationOfflineTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WedataIntegrationOfflineTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3414,7 +3414,7 @@ export class WedataIntegrationOfflineTask extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_integration_offline_task tencentcloud_wedata_integration_offline_task} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/wedata_integration_offline_task tencentcloud_wedata_integration_offline_task} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3425,8 +3425,8 @@ export class WedataIntegrationOfflineTask extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_wedata_integration_offline_task',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

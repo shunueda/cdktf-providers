@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_pushbullet
+// https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_pushbullet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface IntegrationPushbulletConfig extends cdktf.TerraformMetaArguments {
   /**
-  * List of contact group names to receive notifications. 
-  * Each contact group can contain multiple contacts (email addresses, phone numbers, or integrations) 
+  * List of contact group names to receive notifications.
+  * Each contact group can contain multiple contacts (email addresses, phone numbers, or integrations)
   * that will be notified when alerts are triggered. Defaults to ['Default'] if not specified.
+  * Set to an empty list to disable notifications at this level and rely on parent check group notifications instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_pushbullet#contact_groups IntegrationPushbullet#contact_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_pushbullet#contact_groups IntegrationPushbullet#contact_groups}
   */
   readonly contactGroups?: string[];
   /**
   * Email address to send notifications to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_pushbullet#email IntegrationPushbullet#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_pushbullet#email IntegrationPushbullet#email}
   */
   readonly email: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_pushbullet#name IntegrationPushbullet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_pushbullet#name IntegrationPushbullet#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_pushbullet uptime_integration_pushbullet}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_pushbullet uptime_integration_pushbullet}
 */
 export class IntegrationPushbullet extends cdktf.TerraformResource {
 
@@ -44,7 +45,7 @@ export class IntegrationPushbullet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationPushbullet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationPushbullet to import
-  * @param importFromId The id of the existing IntegrationPushbullet that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_pushbullet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationPushbullet that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_pushbullet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationPushbullet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +57,7 @@ export class IntegrationPushbullet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_pushbullet uptime_integration_pushbullet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_pushbullet uptime_integration_pushbullet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +68,8 @@ export class IntegrationPushbullet extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_integration_pushbullet',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.18.1',
-        providerVersionConstraint: '2.18.1'
+        providerVersion: '2.20.0',
+        providerVersionConstraint: '2.20.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

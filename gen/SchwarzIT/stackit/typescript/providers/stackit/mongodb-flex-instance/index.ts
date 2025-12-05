@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mongodb_flex_instance
+// https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mongodb_flex_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface MongodbFlexInstanceConfig extends cdktf.TerraformMetaArguments 
   /**
   * Whitelist IP address ranges. Default is [193.148.160.0/19 45.129.40.0/21 45.135.244.0/22]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mongodb_flex_instance#acl MongodbFlexInstance#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mongodb_flex_instance#acl MongodbFlexInstance#acl}
   */
   readonly acl?: string[];
   /**
   * Specifies the backup schedule (cron style).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mongodb_flex_instance#backup_schedule MongodbFlexInstance#backup_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mongodb_flex_instance#backup_schedule MongodbFlexInstance#backup_schedule}
   */
   readonly backupSchedule?: string;
   /**
   * Instance Labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mongodb_flex_instance#labels MongodbFlexInstance#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mongodb_flex_instance#labels MongodbFlexInstance#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The Machine Type. Available options: `1.1` (1 CPU, 1 Memory), `1.2` (1 CPU, 2 Memory), `1.4` (1 CPU, 4 Memory), `1.8` (1 CPU, 8 Memory), `2.4` (2 CPU, 4 Memory), `2.8` (2 CPU, 8 Memory), `2.16` (2 CPU, 16 Memory), `4.8` (4 CPU, 8 Memory), `4.16` (4 CPU, 16 Memory), `4.32` (4 CPU, 32 Memory), `8.16` (8 CPU, 16 Memory), `8.32` (8 CPU, 32 Memory), `8.64` (8 CPU, 64 Memory), `16.32` (16 CPU, 32 Memory), `16.64` (16 CPU, 64 Memory)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mongodb_flex_instance#machine_type MongodbFlexInstance#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mongodb_flex_instance#machine_type MongodbFlexInstance#machine_type}
   */
   readonly machineType: string;
   /**
   * Specifies the instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mongodb_flex_instance#name MongodbFlexInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mongodb_flex_instance#name MongodbFlexInstance#name}
   */
   readonly name: string;
   /**
   * The project ID the instance runs in. Changing this value requires the resource to be recreated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mongodb_flex_instance#project_id MongodbFlexInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mongodb_flex_instance#project_id MongodbFlexInstance#project_id}
   */
   readonly projectId: string;
   /**
   * Number of replicas (Default is `1`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mongodb_flex_instance#replicas MongodbFlexInstance#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mongodb_flex_instance#replicas MongodbFlexInstance#replicas}
   */
   readonly replicas?: number;
   /**
   * A single `storage` block as defined below.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mongodb_flex_instance#storage MongodbFlexInstance#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mongodb_flex_instance#storage MongodbFlexInstance#storage}
   */
   readonly storage?: MongodbFlexInstanceStorage;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mongodb_flex_instance#timeouts MongodbFlexInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mongodb_flex_instance#timeouts MongodbFlexInstance#timeouts}
   */
   readonly timeouts?: MongodbFlexInstanceTimeouts;
   /**
   * The service type. Available options: `Single`, `Replica`, `Sharded`. Changing this value requires the resource to be recreated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mongodb_flex_instance#type MongodbFlexInstance#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mongodb_flex_instance#type MongodbFlexInstance#type}
   */
   readonly type?: string;
   /**
   * MongoDB version. Version `5.0`, `6.0`, `7.0` are supported. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mongodb_flex_instance#version MongodbFlexInstance#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mongodb_flex_instance#version MongodbFlexInstance#version}
   */
   readonly version?: string;
 }
@@ -76,13 +76,13 @@ export interface MongodbFlexInstanceStorage {
   /**
   * Specifies the storage class. Available option: `premium-perf2-mongodb`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mongodb_flex_instance#class MongodbFlexInstance#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mongodb_flex_instance#class MongodbFlexInstance#class}
   */
   readonly class?: string;
   /**
   * The storage size in GB (Default is `10`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mongodb_flex_instance#size MongodbFlexInstance#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mongodb_flex_instance#size MongodbFlexInstance#size}
   */
   readonly size?: number;
 }
@@ -205,15 +205,15 @@ export class MongodbFlexInstanceStorageOutputReference extends cdktf.ComplexObje
 }
 export interface MongodbFlexInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mongodb_flex_instance#create MongodbFlexInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mongodb_flex_instance#create MongodbFlexInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mongodb_flex_instance#delete MongodbFlexInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mongodb_flex_instance#delete MongodbFlexInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mongodb_flex_instance#update MongodbFlexInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mongodb_flex_instance#update MongodbFlexInstance#update}
   */
   readonly update?: string;
 }
@@ -365,7 +365,7 @@ export class MongodbFlexInstanceTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mongodb_flex_instance stackit_mongodb_flex_instance}
+* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mongodb_flex_instance stackit_mongodb_flex_instance}
 */
 export class MongodbFlexInstance extends cdktf.TerraformResource {
 
@@ -381,7 +381,7 @@ export class MongodbFlexInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MongodbFlexInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MongodbFlexInstance to import
-  * @param importFromId The id of the existing MongodbFlexInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mongodb_flex_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MongodbFlexInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mongodb_flex_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MongodbFlexInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -393,7 +393,7 @@ export class MongodbFlexInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mongodb_flex_instance stackit_mongodb_flex_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mongodb_flex_instance stackit_mongodb_flex_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -404,8 +404,8 @@ export class MongodbFlexInstance extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_mongodb_flex_instance',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '1.34.3',
-        providerVersionConstraint: '1.34.3'
+        providerVersion: '1.34.4',
+        providerVersionConstraint: '1.34.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

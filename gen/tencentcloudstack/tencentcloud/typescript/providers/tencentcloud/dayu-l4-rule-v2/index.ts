@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_l4_rule_v2
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_l4_rule_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DayuL4RuleV2Config extends cdktf.TerraformMetaArguments {
   /**
   * Business of the resource that the layer 4 rule works for. Valid values: `bgpip` and `net`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_l4_rule_v2#business DayuL4RuleV2#business}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_l4_rule_v2#business DayuL4RuleV2#business}
   */
   readonly business: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_l4_rule_v2#id DayuL4RuleV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_l4_rule_v2#id DayuL4RuleV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DayuL4RuleV2Config extends cdktf.TerraformMetaArguments {
   /**
   * Resource id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_l4_rule_v2#resource_id DayuL4RuleV2#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_l4_rule_v2#resource_id DayuL4RuleV2#resource_id}
   */
   readonly resourceId: string;
   /**
   * The virtual port of the layer 4 rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_l4_rule_v2#virtual_port DayuL4RuleV2#virtual_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_l4_rule_v2#virtual_port DayuL4RuleV2#virtual_port}
   */
   readonly virtualPort: number;
   /**
   * Resource vpn.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_l4_rule_v2#vpn DayuL4RuleV2#vpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_l4_rule_v2#vpn DayuL4RuleV2#vpn}
   */
   readonly vpn: string;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_l4_rule_v2#rules DayuL4RuleV2#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_l4_rule_v2#rules DayuL4RuleV2#rules}
   */
   readonly rules: DayuL4RuleV2Rules;
 }
@@ -49,13 +49,13 @@ export interface DayuL4RuleV2RulesSourceListStruct {
   /**
   * Source IP or domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_l4_rule_v2#source DayuL4RuleV2#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_l4_rule_v2#source DayuL4RuleV2#source}
   */
   readonly source: string;
   /**
   * Weight of the source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_l4_rule_v2#weight DayuL4RuleV2#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_l4_rule_v2#weight DayuL4RuleV2#weight}
   */
   readonly weight: number;
 }
@@ -196,67 +196,67 @@ export interface DayuL4RuleV2Rules {
   /**
   * session hold switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_l4_rule_v2#keep_enable DayuL4RuleV2#keep_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_l4_rule_v2#keep_enable DayuL4RuleV2#keep_enable}
   */
   readonly keepEnable: boolean | cdktf.IResolvable;
   /**
   * The keeptime of the layer 4 rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_l4_rule_v2#keeptime DayuL4RuleV2#keeptime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_l4_rule_v2#keeptime DayuL4RuleV2#keeptime}
   */
   readonly keeptime: number;
   /**
   * LB type of the rule, `1` for weight cycling and `2` for IP hash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_l4_rule_v2#lb_type DayuL4RuleV2#lb_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_l4_rule_v2#lb_type DayuL4RuleV2#lb_type}
   */
   readonly lbType: number;
   /**
   * Protocol of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_l4_rule_v2#protocol DayuL4RuleV2#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_l4_rule_v2#protocol DayuL4RuleV2#protocol}
   */
   readonly protocol: string;
   /**
   * Corresponding regional information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_l4_rule_v2#region DayuL4RuleV2#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_l4_rule_v2#region DayuL4RuleV2#region}
   */
   readonly region: number;
   /**
   * Remove the watermark state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_l4_rule_v2#remove_switch DayuL4RuleV2#remove_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_l4_rule_v2#remove_switch DayuL4RuleV2#remove_switch}
   */
   readonly removeSwitch: boolean | cdktf.IResolvable;
   /**
   * Name of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_l4_rule_v2#rule_name DayuL4RuleV2#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_l4_rule_v2#rule_name DayuL4RuleV2#rule_name}
   */
   readonly ruleName: string;
   /**
   * The source port of the layer 4 rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_l4_rule_v2#source_port DayuL4RuleV2#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_l4_rule_v2#source_port DayuL4RuleV2#source_port}
   */
   readonly sourcePort: number;
   /**
   * Source type, `1` for source of host, `2` for source of IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_l4_rule_v2#source_type DayuL4RuleV2#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_l4_rule_v2#source_type DayuL4RuleV2#source_type}
   */
   readonly sourceType: number;
   /**
   * The virtual port of the layer 4 rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_l4_rule_v2#virtual_port DayuL4RuleV2#virtual_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_l4_rule_v2#virtual_port DayuL4RuleV2#virtual_port}
   */
   readonly virtualPort: number;
   /**
   * source_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_l4_rule_v2#source_list DayuL4RuleV2#source_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_l4_rule_v2#source_list DayuL4RuleV2#source_list}
   */
   readonly sourceList: DayuL4RuleV2RulesSourceListStruct[] | cdktf.IResolvable;
 }
@@ -597,7 +597,7 @@ export class DayuL4RuleV2RulesOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_l4_rule_v2 tencentcloud_dayu_l4_rule_v2}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_l4_rule_v2 tencentcloud_dayu_l4_rule_v2}
 */
 export class DayuL4RuleV2 extends cdktf.TerraformResource {
 
@@ -613,7 +613,7 @@ export class DayuL4RuleV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DayuL4RuleV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DayuL4RuleV2 to import
-  * @param importFromId The id of the existing DayuL4RuleV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_l4_rule_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DayuL4RuleV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_l4_rule_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DayuL4RuleV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -625,7 +625,7 @@ export class DayuL4RuleV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_l4_rule_v2 tencentcloud_dayu_l4_rule_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_l4_rule_v2 tencentcloud_dayu_l4_rule_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -636,8 +636,8 @@ export class DayuL4RuleV2 extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dayu_l4_rule_v2',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

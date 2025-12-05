@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vpc_end_point_service
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vpc_end_point_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface VpcEndPointServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether to automatically accept.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vpc_end_point_service#auto_accept_flag VpcEndPointService#auto_accept_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vpc_end_point_service#auto_accept_flag VpcEndPointService#auto_accept_flag}
   */
   readonly autoAcceptFlag: boolean | cdktf.IResolvable;
   /**
   * Name of end point service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vpc_end_point_service#end_point_service_name VpcEndPointService#end_point_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vpc_end_point_service#end_point_service_name VpcEndPointService#end_point_service_name}
   */
   readonly endPointServiceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vpc_end_point_service#id VpcEndPointService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vpc_end_point_service#id VpcEndPointService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface VpcEndPointServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Id of service instance, like lb-xxx.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vpc_end_point_service#service_instance_id VpcEndPointService#service_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vpc_end_point_service#service_instance_id VpcEndPointService#service_instance_id}
   */
   readonly serviceInstanceId: string;
   /**
   * Type of service instance, like `CLB`, `CDB`, `CRS`, default is `CLB`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vpc_end_point_service#service_type VpcEndPointService#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vpc_end_point_service#service_type VpcEndPointService#service_type}
   */
   readonly serviceType?: string;
   /**
   * ID of vpc instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vpc_end_point_service#vpc_id VpcEndPointService#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vpc_end_point_service#vpc_id VpcEndPointService#vpc_id}
   */
   readonly vpcId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vpc_end_point_service tencentcloud_vpc_end_point_service}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vpc_end_point_service tencentcloud_vpc_end_point_service}
 */
 export class VpcEndPointService extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class VpcEndPointService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcEndPointService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcEndPointService to import
-  * @param importFromId The id of the existing VpcEndPointService that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vpc_end_point_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcEndPointService that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vpc_end_point_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcEndPointService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class VpcEndPointService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vpc_end_point_service tencentcloud_vpc_end_point_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vpc_end_point_service tencentcloud_vpc_end_point_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class VpcEndPointService extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_vpc_end_point_service',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

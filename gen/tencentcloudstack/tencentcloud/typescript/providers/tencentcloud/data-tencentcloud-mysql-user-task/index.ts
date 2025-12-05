@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/mysql_user_task
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mysql_user_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudMysqlUserTaskConfig extends cdktf.TerraformMeta
   /**
   * Asynchronous task request ID, the AsyncRequestId returned by executing cloud database-related operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/mysql_user_task#async_request_id DataTencentcloudMysqlUserTask#async_request_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mysql_user_task#async_request_id DataTencentcloudMysqlUserTask#async_request_id}
   */
   readonly asyncRequestId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/mysql_user_task#id DataTencentcloudMysqlUserTask#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mysql_user_task#id DataTencentcloudMysqlUserTask#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface DataTencentcloudMysqlUserTaskConfig extends cdktf.TerraformMeta
   /**
   * Instance ID, the format is: cdb-c1nl9rpv, which is the same as the instance ID displayed on the cloud database console page, and you can use the [query instance list] (https://cloud.tencent.com/document/api/236/15872) interface Gets the value of the field InstanceId in the output parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/mysql_user_task#instance_id DataTencentcloudMysqlUserTask#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mysql_user_task#instance_id DataTencentcloudMysqlUserTask#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/mysql_user_task#result_output_file DataTencentcloudMysqlUserTask#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mysql_user_task#result_output_file DataTencentcloudMysqlUserTask#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * The start time of the first task, used for range query, the time format is as follows: 2017-12-31 10:40:01.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/mysql_user_task#start_time_begin DataTencentcloudMysqlUserTask#start_time_begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mysql_user_task#start_time_begin DataTencentcloudMysqlUserTask#start_time_begin}
   */
   readonly startTimeBegin?: string;
   /**
   * The start time of the last task, used for range query, the time format is as follows: 2017-12-31 10:40:01.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/mysql_user_task#start_time_end DataTencentcloudMysqlUserTask#start_time_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mysql_user_task#start_time_end DataTencentcloudMysqlUserTask#start_time_end}
   */
   readonly startTimeEnd?: string;
   /**
   * Task status. If no value is passed, all task statuses will be queried. Supported values include: `UNDEFINED` - undefined; `INITIAL` - initialization; `RUNNING` - running; `SUCCEED` - the execution was successful; `FAILED` - execution failed; `KILLED` - terminated; `REMOVED` - removed; `PAUSED` - Paused.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/mysql_user_task#task_status DataTencentcloudMysqlUserTask#task_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mysql_user_task#task_status DataTencentcloudMysqlUserTask#task_status}
   */
   readonly taskStatus?: string[];
   /**
   * Task type. If no value is passed, all task types will be queried. Supported values include: `ROLLBACK` - database rollback; `SQL OPERATION` - SQL operation; `IMPORT DATA` - data import; `MODIFY PARAM` - parameter setting; `INITIAL` - initialize the cloud database instance; `REBOOT` - restarts the cloud database instance; `OPEN GTID` - open the cloud database instance GTID; `UPGRADE RO` - read-only instance upgrade; `BATCH ROLLBACK` - database batch rollback; `UPGRADE MASTER` - master upgrade; `DROP TABLES` - delete cloud database tables; `SWITCH DR TO MASTER` - The disaster recovery instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/mysql_user_task#task_types DataTencentcloudMysqlUserTask#task_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mysql_user_task#task_types DataTencentcloudMysqlUserTask#task_types}
   */
   readonly taskTypes?: string[];
 }
@@ -179,7 +179,7 @@ export class DataTencentcloudMysqlUserTaskItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/mysql_user_task tencentcloud_mysql_user_task}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mysql_user_task tencentcloud_mysql_user_task}
 */
 export class DataTencentcloudMysqlUserTask extends cdktf.TerraformDataSource {
 
@@ -195,7 +195,7 @@ export class DataTencentcloudMysqlUserTask extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudMysqlUserTask resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudMysqlUserTask to import
-  * @param importFromId The id of the existing DataTencentcloudMysqlUserTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/mysql_user_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudMysqlUserTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mysql_user_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudMysqlUserTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -207,7 +207,7 @@ export class DataTencentcloudMysqlUserTask extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/mysql_user_task tencentcloud_mysql_user_task} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mysql_user_task tencentcloud_mysql_user_task} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -218,8 +218,8 @@ export class DataTencentcloudMysqlUserTask extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_mysql_user_task',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

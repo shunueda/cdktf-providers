@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/secrets_manager_instance
+// https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/secrets_manager_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface SecretsManagerInstanceConfig extends cdktf.TerraformMetaArgumen
   /**
   * Specifies the access list for the instance. Each item must be CIDR notation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/secrets_manager_instance#acl SecretsManagerInstance#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/secrets_manager_instance#acl SecretsManagerInstance#acl}
   */
   readonly acl?: string[];
   /**
   * Specifies the instance name. Changing this value requires the resource to be recreated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/secrets_manager_instance#name SecretsManagerInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/secrets_manager_instance#name SecretsManagerInstance#name}
   */
   readonly name: string;
   /**
   * The project UUID. Changing this value requires the resource to be recreated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/secrets_manager_instance#project_id SecretsManagerInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/secrets_manager_instance#project_id SecretsManagerInstance#project_id}
   */
   readonly projectId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/secrets_manager_instance stackit_secrets_manager_instance}
+* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/secrets_manager_instance stackit_secrets_manager_instance}
 */
 export class SecretsManagerInstance extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class SecretsManagerInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecretsManagerInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecretsManagerInstance to import
-  * @param importFromId The id of the existing SecretsManagerInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/secrets_manager_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecretsManagerInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/secrets_manager_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecretsManagerInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class SecretsManagerInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/secrets_manager_instance stackit_secrets_manager_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/secrets_manager_instance stackit_secrets_manager_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class SecretsManagerInstance extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_secrets_manager_instance',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '1.34.3',
-        providerVersionConstraint: '1.34.3'
+        providerVersion: '1.34.4',
+        providerVersionConstraint: '1.34.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

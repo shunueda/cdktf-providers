@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/gaap_domain_error_page
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gaap_domain_error_page
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface GaapDomainErrorPageConfig extends cdktf.TerraformMetaArguments 
   /**
   * New response body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/gaap_domain_error_page#body GaapDomainErrorPage#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gaap_domain_error_page#body GaapDomainErrorPage#body}
   */
   readonly body: string;
   /**
   * Response headers to be removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/gaap_domain_error_page#clear_headers GaapDomainErrorPage#clear_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gaap_domain_error_page#clear_headers GaapDomainErrorPage#clear_headers}
   */
   readonly clearHeaders?: string[];
   /**
   * HTTP domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/gaap_domain_error_page#domain GaapDomainErrorPage#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gaap_domain_error_page#domain GaapDomainErrorPage#domain}
   */
   readonly domain: string;
   /**
   * Original error codes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/gaap_domain_error_page#error_codes GaapDomainErrorPage#error_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gaap_domain_error_page#error_codes GaapDomainErrorPage#error_codes}
   */
   readonly errorCodes: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/gaap_domain_error_page#id GaapDomainErrorPage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gaap_domain_error_page#id GaapDomainErrorPage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,25 +41,25 @@ export interface GaapDomainErrorPageConfig extends cdktf.TerraformMetaArguments 
   /**
   * ID of the layer7 listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/gaap_domain_error_page#listener_id GaapDomainErrorPage#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gaap_domain_error_page#listener_id GaapDomainErrorPage#listener_id}
   */
   readonly listenerId: string;
   /**
   * New error code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/gaap_domain_error_page#new_error_code GaapDomainErrorPage#new_error_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gaap_domain_error_page#new_error_code GaapDomainErrorPage#new_error_code}
   */
   readonly newErrorCode?: number;
   /**
   * Response headers to be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/gaap_domain_error_page#set_headers GaapDomainErrorPage#set_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gaap_domain_error_page#set_headers GaapDomainErrorPage#set_headers}
   */
   readonly setHeaders?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/gaap_domain_error_page tencentcloud_gaap_domain_error_page}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gaap_domain_error_page tencentcloud_gaap_domain_error_page}
 */
 export class GaapDomainErrorPage extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class GaapDomainErrorPage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GaapDomainErrorPage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GaapDomainErrorPage to import
-  * @param importFromId The id of the existing GaapDomainErrorPage that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/gaap_domain_error_page#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GaapDomainErrorPage that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gaap_domain_error_page#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GaapDomainErrorPage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class GaapDomainErrorPage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/gaap_domain_error_page tencentcloud_gaap_domain_error_page} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/gaap_domain_error_page tencentcloud_gaap_domain_error_page} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class GaapDomainErrorPage extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_gaap_domain_error_page',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

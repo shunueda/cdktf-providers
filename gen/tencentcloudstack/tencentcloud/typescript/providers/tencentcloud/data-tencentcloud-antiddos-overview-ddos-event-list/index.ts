@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/antiddos_overview_ddos_event_list
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/antiddos_overview_ddos_event_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudAntiddosOverviewDdosEventListConfig extends cdk
   /**
   * filter event by attack status, start: attacking; end: attack end.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/antiddos_overview_ddos_event_list#attack_status DataTencentcloudAntiddosOverviewDdosEventList#attack_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/antiddos_overview_ddos_event_list#attack_status DataTencentcloudAntiddosOverviewDdosEventList#attack_status}
   */
   readonly attackStatus?: string;
   /**
   * EndTime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/antiddos_overview_ddos_event_list#end_time DataTencentcloudAntiddosOverviewDdosEventList#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/antiddos_overview_ddos_event_list#end_time DataTencentcloudAntiddosOverviewDdosEventList#end_time}
   */
   readonly endTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/antiddos_overview_ddos_event_list#id DataTencentcloudAntiddosOverviewDdosEventList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/antiddos_overview_ddos_event_list#id DataTencentcloudAntiddosOverviewDdosEventList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface DataTencentcloudAntiddosOverviewDdosEventListConfig extends cdk
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/antiddos_overview_ddos_event_list#result_output_file DataTencentcloudAntiddosOverviewDdosEventList#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/antiddos_overview_ddos_event_list#result_output_file DataTencentcloudAntiddosOverviewDdosEventList#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * StartTime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/antiddos_overview_ddos_event_list#start_time DataTencentcloudAntiddosOverviewDdosEventList#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/antiddos_overview_ddos_event_list#start_time DataTencentcloudAntiddosOverviewDdosEventList#start_time}
   */
   readonly startTime: string;
 }
@@ -166,7 +166,7 @@ export class DataTencentcloudAntiddosOverviewDdosEventListEventListStructList ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/antiddos_overview_ddos_event_list tencentcloud_antiddos_overview_ddos_event_list}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/antiddos_overview_ddos_event_list tencentcloud_antiddos_overview_ddos_event_list}
 */
 export class DataTencentcloudAntiddosOverviewDdosEventList extends cdktf.TerraformDataSource {
 
@@ -182,7 +182,7 @@ export class DataTencentcloudAntiddosOverviewDdosEventList extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataTencentcloudAntiddosOverviewDdosEventList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudAntiddosOverviewDdosEventList to import
-  * @param importFromId The id of the existing DataTencentcloudAntiddosOverviewDdosEventList that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/antiddos_overview_ddos_event_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudAntiddosOverviewDdosEventList that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/antiddos_overview_ddos_event_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudAntiddosOverviewDdosEventList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -194,7 +194,7 @@ export class DataTencentcloudAntiddosOverviewDdosEventList extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/antiddos_overview_ddos_event_list tencentcloud_antiddos_overview_ddos_event_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/antiddos_overview_ddos_event_list tencentcloud_antiddos_overview_ddos_event_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -205,8 +205,8 @@ export class DataTencentcloudAntiddosOverviewDdosEventList extends cdktf.Terrafo
       terraformResourceType: 'tencentcloud_antiddos_overview_ddos_event_list',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

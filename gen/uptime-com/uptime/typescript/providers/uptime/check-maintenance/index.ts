@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_maintenance
+// https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_maintenance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,53 +8,59 @@ import * as cdktf from 'cdktf';
 
 export interface CheckMaintenanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_maintenance#check_id CheckMaintenance#check_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_maintenance#check_id CheckMaintenance#check_id}
   */
   readonly checkId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_maintenance#schedule CheckMaintenance#schedule}
+  * Whether to pause the check during scheduled maintenance windows
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_maintenance#pause_on_scheduled_maintenance CheckMaintenance#pause_on_scheduled_maintenance}
+  */
+  readonly pauseOnScheduledMaintenance?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_maintenance#schedule CheckMaintenance#schedule}
   */
   readonly schedule?: CheckMaintenanceSchedule[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_maintenance#state CheckMaintenance#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_maintenance#state CheckMaintenance#state}
   */
   readonly state?: string;
 }
 export interface CheckMaintenanceSchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_maintenance#from_time CheckMaintenance#from_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_maintenance#from_time CheckMaintenance#from_time}
   */
   readonly fromTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_maintenance#monthday CheckMaintenance#monthday}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_maintenance#monthday CheckMaintenance#monthday}
   */
   readonly monthday?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_maintenance#monthday_from CheckMaintenance#monthday_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_maintenance#monthday_from CheckMaintenance#monthday_from}
   */
   readonly monthdayFrom?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_maintenance#monthday_to CheckMaintenance#monthday_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_maintenance#monthday_to CheckMaintenance#monthday_to}
   */
   readonly monthdayTo?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_maintenance#once_end_date CheckMaintenance#once_end_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_maintenance#once_end_date CheckMaintenance#once_end_date}
   */
   readonly onceEndDate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_maintenance#once_start_date CheckMaintenance#once_start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_maintenance#once_start_date CheckMaintenance#once_start_date}
   */
   readonly onceStartDate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_maintenance#to_time CheckMaintenance#to_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_maintenance#to_time CheckMaintenance#to_time}
   */
   readonly toTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_maintenance#type CheckMaintenance#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_maintenance#type CheckMaintenance#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_maintenance#weekdays CheckMaintenance#weekdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_maintenance#weekdays CheckMaintenance#weekdays}
   */
   readonly weekdays?: number[];
 }
@@ -402,7 +408,7 @@ export class CheckMaintenanceScheduleList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_maintenance uptime_check_maintenance}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_maintenance uptime_check_maintenance}
 */
 export class CheckMaintenance extends cdktf.TerraformResource {
 
@@ -418,7 +424,7 @@ export class CheckMaintenance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CheckMaintenance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CheckMaintenance to import
-  * @param importFromId The id of the existing CheckMaintenance that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_maintenance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CheckMaintenance that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_maintenance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CheckMaintenance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -430,7 +436,7 @@ export class CheckMaintenance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_maintenance uptime_check_maintenance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_maintenance uptime_check_maintenance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -441,8 +447,8 @@ export class CheckMaintenance extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_check_maintenance',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.18.1',
-        providerVersionConstraint: '2.18.1'
+        providerVersion: '2.20.0',
+        providerVersionConstraint: '2.20.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -453,6 +459,7 @@ export class CheckMaintenance extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._checkId = config.checkId;
+    this._pauseOnScheduledMaintenance = config.pauseOnScheduledMaintenance;
     this._schedule.internalValue = config.schedule;
     this._state = config.state;
   }
@@ -472,6 +479,22 @@ export class CheckMaintenance extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get checkIdInput() {
     return this._checkId;
+  }
+
+  // pause_on_scheduled_maintenance - computed: true, optional: true, required: false
+  private _pauseOnScheduledMaintenance?: boolean | cdktf.IResolvable; 
+  public get pauseOnScheduledMaintenance() {
+    return this.getBooleanAttribute('pause_on_scheduled_maintenance');
+  }
+  public set pauseOnScheduledMaintenance(value: boolean | cdktf.IResolvable) {
+    this._pauseOnScheduledMaintenance = value;
+  }
+  public resetPauseOnScheduledMaintenance() {
+    this._pauseOnScheduledMaintenance = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get pauseOnScheduledMaintenanceInput() {
+    return this._pauseOnScheduledMaintenance;
   }
 
   // schedule - computed: true, optional: true, required: false
@@ -513,6 +536,7 @@ export class CheckMaintenance extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       check_id: cdktf.numberToTerraform(this._checkId),
+      pause_on_scheduled_maintenance: cdktf.booleanToTerraform(this._pauseOnScheduledMaintenance),
       schedule: cdktf.listMapper(checkMaintenanceScheduleToTerraform, false)(this._schedule.internalValue),
       state: cdktf.stringToTerraform(this._state),
     };
@@ -525,6 +549,12 @@ export class CheckMaintenance extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      pause_on_scheduled_maintenance: {
+        value: cdktf.booleanToHclTerraform(this._pauseOnScheduledMaintenance),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       schedule: {
         value: cdktf.listMapperHcl(checkMaintenanceScheduleToHclTerraform, false)(this._schedule.internalValue),

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_blacklist
+// https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_blacklist
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,33 +10,34 @@ export interface CheckBlacklistConfig extends cdktf.TerraformMetaArguments {
   /**
   * Domain name to check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_blacklist#address CheckBlacklist#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_blacklist#address CheckBlacklist#address}
   */
   readonly address: string;
   /**
-  * List of contact group names to receive notifications. 
-  * Each contact group can contain multiple contacts (email addresses, phone numbers, or integrations) 
+  * List of contact group names to receive notifications.
+  * Each contact group can contain multiple contacts (email addresses, phone numbers, or integrations)
   * that will be notified when alerts are triggered. Defaults to ['Default'] if not specified.
+  * Set to an empty list to disable notifications at this level and rely on parent check group notifications instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_blacklist#contact_groups CheckBlacklist#contact_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_blacklist#contact_groups CheckBlacklist#contact_groups}
   */
   readonly contactGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_blacklist#is_paused CheckBlacklist#is_paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_blacklist#is_paused CheckBlacklist#is_paused}
   */
   readonly isPaused?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_blacklist#name CheckBlacklist#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_blacklist#name CheckBlacklist#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_blacklist#notes CheckBlacklist#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_blacklist#notes CheckBlacklist#notes}
   */
   readonly notes?: string;
   /**
   * How many times the check should be retried before a location is considered down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_blacklist#num_retries CheckBlacklist#num_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_blacklist#num_retries CheckBlacklist#num_retries}
   */
   readonly numRetries?: number;
   /**
@@ -46,13 +47,13 @@ export interface CheckBlacklistConfig extends cdktf.TerraformMetaArguments {
   * Common use cases include tagging by team ('dev-team', 'ops'), environment ('production', 'staging'), 
   * or purpose ('api', 'customer-facing'). Defaults to an empty list if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_blacklist#tags CheckBlacklist#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_blacklist#tags CheckBlacklist#tags}
   */
   readonly tags?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_blacklist uptime_check_blacklist}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_blacklist uptime_check_blacklist}
 */
 export class CheckBlacklist extends cdktf.TerraformResource {
 
@@ -68,7 +69,7 @@ export class CheckBlacklist extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CheckBlacklist resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CheckBlacklist to import
-  * @param importFromId The id of the existing CheckBlacklist that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_blacklist#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CheckBlacklist that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_blacklist#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CheckBlacklist to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +81,7 @@ export class CheckBlacklist extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_blacklist uptime_check_blacklist} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_blacklist uptime_check_blacklist} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +92,8 @@ export class CheckBlacklist extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_check_blacklist',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.18.1',
-        providerVersionConstraint: '2.18.1'
+        providerVersion: '2.20.0',
+        providerVersionConstraint: '2.20.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

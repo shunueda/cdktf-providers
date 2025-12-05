@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_notice_content
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cls_notice_content
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ClsNoticeContentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_notice_content#id ClsNoticeContent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cls_notice_content#id ClsNoticeContent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface ClsNoticeContentConfig extends cdktf.TerraformMetaArguments {
   /**
   * Notice content name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_notice_content#name ClsNoticeContent#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cls_notice_content#name ClsNoticeContent#name}
   */
   readonly name: string;
   /**
   * Template content language. 0: Chinese 1: English.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_notice_content#type ClsNoticeContent#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cls_notice_content#type ClsNoticeContent#type}
   */
   readonly type?: number;
   /**
   * notice_contents block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_notice_content#notice_contents ClsNoticeContent#notice_contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cls_notice_content#notice_contents ClsNoticeContent#notice_contents}
   */
   readonly noticeContents?: ClsNoticeContentNoticeContents;
 }
@@ -37,19 +37,19 @@ export interface ClsNoticeContentNoticeContentsRecoveryContent {
   /**
   * Notification content template body information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_notice_content#content ClsNoticeContent#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cls_notice_content#content ClsNoticeContent#content}
   */
   readonly content?: string;
   /**
   * Request headers: In HTTP requests, request headers contain additional information sent by the client to the server, such as user agent, authorization credentials, expected response format, etc. Only `custom callback` supports this configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_notice_content#headers ClsNoticeContent#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cls_notice_content#headers ClsNoticeContent#headers}
   */
   readonly headers?: string[];
   /**
   * Notification content template title information. Some notification channel types do not support 'title', please refer to the Tencent Cloud Console page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_notice_content#title ClsNoticeContent#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cls_notice_content#title ClsNoticeContent#title}
   */
   readonly title?: string;
 }
@@ -193,19 +193,19 @@ export interface ClsNoticeContentNoticeContentsTriggerContent {
   /**
   * Notification content template body information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_notice_content#content ClsNoticeContent#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cls_notice_content#content ClsNoticeContent#content}
   */
   readonly content?: string;
   /**
   * Request headers: In HTTP requests, request headers contain additional information sent by the client to the server, such as user agent, authorization credentials, expected response format, etc. Only `custom callback` supports this configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_notice_content#headers ClsNoticeContent#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cls_notice_content#headers ClsNoticeContent#headers}
   */
   readonly headers?: string[];
   /**
   * Notification content template title information. Some notification channel types do not support 'title', please refer to the Tencent Cloud Console page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_notice_content#title ClsNoticeContent#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cls_notice_content#title ClsNoticeContent#title}
   */
   readonly title?: string;
 }
@@ -349,19 +349,19 @@ export interface ClsNoticeContentNoticeContents {
   /**
   * Channel type. Email: Email; Sms: SMS; WeChat: WeChat; Phone: Telephone; WeCom: Enterprise WeChat; DingTalk: DingTalk; Lark: Feishu; Http: Custom callback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_notice_content#type ClsNoticeContent#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cls_notice_content#type ClsNoticeContent#type}
   */
   readonly type: string;
   /**
   * recovery_content block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_notice_content#recovery_content ClsNoticeContent#recovery_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cls_notice_content#recovery_content ClsNoticeContent#recovery_content}
   */
   readonly recoveryContent?: ClsNoticeContentNoticeContentsRecoveryContent;
   /**
   * trigger_content block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_notice_content#trigger_content ClsNoticeContent#trigger_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cls_notice_content#trigger_content ClsNoticeContent#trigger_content}
   */
   readonly triggerContent?: ClsNoticeContentNoticeContentsTriggerContent;
 }
@@ -500,7 +500,7 @@ export class ClsNoticeContentNoticeContentsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_notice_content tencentcloud_cls_notice_content}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cls_notice_content tencentcloud_cls_notice_content}
 */
 export class ClsNoticeContent extends cdktf.TerraformResource {
 
@@ -516,7 +516,7 @@ export class ClsNoticeContent extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClsNoticeContent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClsNoticeContent to import
-  * @param importFromId The id of the existing ClsNoticeContent that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_notice_content#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClsNoticeContent that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cls_notice_content#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClsNoticeContent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -528,7 +528,7 @@ export class ClsNoticeContent extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_notice_content tencentcloud_cls_notice_content} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cls_notice_content tencentcloud_cls_notice_content} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -539,8 +539,8 @@ export class ClsNoticeContent extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cls_notice_content',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

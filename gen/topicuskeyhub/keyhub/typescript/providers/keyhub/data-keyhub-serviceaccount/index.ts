@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/data-sources/serviceaccount
+// https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/data-sources/serviceaccount
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataKeyhubServiceaccountConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/data-sources/serviceaccount#additional DataKeyhubServiceaccount#additional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/data-sources/serviceaccount#additional DataKeyhubServiceaccount#additional}
   */
   readonly additional?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/data-sources/serviceaccount#uuid DataKeyhubServiceaccount#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/data-sources/serviceaccount#uuid DataKeyhubServiceaccount#uuid}
   */
   readonly uuid: string;
 }
@@ -346,6 +346,11 @@ export class DataKeyhubServiceaccountGroupsOutputReference extends cdktf.Complex
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
+  }
+
+  // uuid - computed: true, optional: false, required: false
+  public get uuid() {
+    return this.getStringAttribute('uuid');
   }
 }
 
@@ -857,19 +862,9 @@ export class DataKeyhubServiceaccountSecretOutputReference extends cdktf.Complex
     }
   }
 
-  // generated_secret - computed: true, optional: false, required: false
-  public get generatedSecret() {
-    return this.getStringAttribute('generated_secret');
-  }
-
-  // old_secret - computed: true, optional: false, required: false
-  public get oldSecret() {
-    return this.getStringAttribute('old_secret');
-  }
-
-  // regenerate - computed: true, optional: false, required: false
-  public get regenerate() {
-    return this.getBooleanAttribute('regenerate');
+  // secret - computed: true, optional: false, required: false
+  public get secret() {
+    return this.getStringAttribute('secret');
   }
 }
 export interface DataKeyhubServiceaccountSupportedFeatures {
@@ -1198,7 +1193,7 @@ export class DataKeyhubServiceaccountSystemOrganizationalUnitPermissionsList ext
 }
 export interface DataKeyhubServiceaccountSystemOrganizationalUnit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/data-sources/serviceaccount#uuid DataKeyhubServiceaccount#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/data-sources/serviceaccount#uuid DataKeyhubServiceaccount#uuid}
   */
   readonly uuid: string;
 }
@@ -1386,7 +1381,7 @@ export class DataKeyhubServiceaccountSystemPermissionsList extends cdktf.Complex
 }
 export interface DataKeyhubServiceaccountSystem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/data-sources/serviceaccount#uuid DataKeyhubServiceaccount#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/data-sources/serviceaccount#uuid DataKeyhubServiceaccount#uuid}
   */
   readonly uuid: string;
 }
@@ -2033,7 +2028,7 @@ export class DataKeyhubServiceaccountTechnicalAdministratorOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/data-sources/serviceaccount keyhub_serviceaccount}
+* Represents a {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/data-sources/serviceaccount keyhub_serviceaccount}
 */
 export class DataKeyhubServiceaccount extends cdktf.TerraformDataSource {
 
@@ -2049,7 +2044,7 @@ export class DataKeyhubServiceaccount extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataKeyhubServiceaccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataKeyhubServiceaccount to import
-  * @param importFromId The id of the existing DataKeyhubServiceaccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/data-sources/serviceaccount#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataKeyhubServiceaccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/data-sources/serviceaccount#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataKeyhubServiceaccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2061,7 +2056,7 @@ export class DataKeyhubServiceaccount extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/data-sources/serviceaccount keyhub_serviceaccount} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/data-sources/serviceaccount keyhub_serviceaccount} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2072,8 +2067,8 @@ export class DataKeyhubServiceaccount extends cdktf.TerraformDataSource {
       terraformResourceType: 'keyhub_serviceaccount',
       terraformGeneratorMetadata: {
         providerName: 'keyhub',
-        providerVersion: '2.44.0',
-        providerVersionConstraint: '2.44.0'
+        providerVersion: '2.45.0',
+        providerVersionConstraint: '2.45.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

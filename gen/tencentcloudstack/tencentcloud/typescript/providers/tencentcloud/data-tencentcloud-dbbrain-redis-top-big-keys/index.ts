@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_redis_top_big_keys
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/dbbrain_redis_top_big_keys
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudDbbrainRedisTopBigKeysConfig extends cdktf.Terr
   /**
   * Query date, such as 2021-05-27, the earliest date can be the previous 30 days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_redis_top_big_keys#date DataTencentcloudDbbrainRedisTopBigKeys#date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/dbbrain_redis_top_big_keys#date DataTencentcloudDbbrainRedisTopBigKeys#date}
   */
   readonly date: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_redis_top_big_keys#id DataTencentcloudDbbrainRedisTopBigKeys#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/dbbrain_redis_top_big_keys#id DataTencentcloudDbbrainRedisTopBigKeys#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface DataTencentcloudDbbrainRedisTopBigKeysConfig extends cdktf.Terr
   /**
   * instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_redis_top_big_keys#instance_id DataTencentcloudDbbrainRedisTopBigKeys#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/dbbrain_redis_top_big_keys#instance_id DataTencentcloudDbbrainRedisTopBigKeys#instance_id}
   */
   readonly instanceId: string;
   /**
   * Key type filter condition, the default is no filter, the value includes `string`, `list`, `set`, `hash`, `sortedset`, `stream`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_redis_top_big_keys#key_type DataTencentcloudDbbrainRedisTopBigKeys#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/dbbrain_redis_top_big_keys#key_type DataTencentcloudDbbrainRedisTopBigKeys#key_type}
   */
   readonly keyType?: string;
   /**
   * Service product type, supported values include `redis` - cloud database Redis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_redis_top_big_keys#product DataTencentcloudDbbrainRedisTopBigKeys#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/dbbrain_redis_top_big_keys#product DataTencentcloudDbbrainRedisTopBigKeys#product}
   */
   readonly product: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_redis_top_big_keys#result_output_file DataTencentcloudDbbrainRedisTopBigKeys#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/dbbrain_redis_top_big_keys#result_output_file DataTencentcloudDbbrainRedisTopBigKeys#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Sorting field, the value includes `Capacity` - memory, `ItemCount` - number of elements, the default is `Capacity`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_redis_top_big_keys#sort_by DataTencentcloudDbbrainRedisTopBigKeys#sort_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/dbbrain_redis_top_big_keys#sort_by DataTencentcloudDbbrainRedisTopBigKeys#sort_by}
   */
   readonly sortBy?: string;
 }
@@ -158,7 +158,7 @@ export class DataTencentcloudDbbrainRedisTopBigKeysTopKeysList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_redis_top_big_keys tencentcloud_dbbrain_redis_top_big_keys}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/dbbrain_redis_top_big_keys tencentcloud_dbbrain_redis_top_big_keys}
 */
 export class DataTencentcloudDbbrainRedisTopBigKeys extends cdktf.TerraformDataSource {
 
@@ -174,7 +174,7 @@ export class DataTencentcloudDbbrainRedisTopBigKeys extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataTencentcloudDbbrainRedisTopBigKeys resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDbbrainRedisTopBigKeys to import
-  * @param importFromId The id of the existing DataTencentcloudDbbrainRedisTopBigKeys that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_redis_top_big_keys#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDbbrainRedisTopBigKeys that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/dbbrain_redis_top_big_keys#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDbbrainRedisTopBigKeys to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -186,7 +186,7 @@ export class DataTencentcloudDbbrainRedisTopBigKeys extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_redis_top_big_keys tencentcloud_dbbrain_redis_top_big_keys} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/dbbrain_redis_top_big_keys tencentcloud_dbbrain_redis_top_big_keys} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -197,8 +197,8 @@ export class DataTencentcloudDbbrainRedisTopBigKeys extends cdktf.TerraformDataS
       terraformResourceType: 'tencentcloud_dbbrain_redis_top_big_keys',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

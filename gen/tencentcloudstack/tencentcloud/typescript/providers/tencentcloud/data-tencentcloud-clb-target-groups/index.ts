@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/clb_target_groups
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clb_target_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudClbTargetGroupsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/clb_target_groups#id DataTencentcloudClbTargetGroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clb_target_groups#id DataTencentcloudClbTargetGroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataTencentcloudClbTargetGroupsConfig extends cdktf.TerraformMe
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/clb_target_groups#result_output_file DataTencentcloudClbTargetGroups#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clb_target_groups#result_output_file DataTencentcloudClbTargetGroups#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * ID of Target group. Mutually exclusive with `vpc_id` and `target_group_name`. `target_group_id` is preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/clb_target_groups#target_group_id DataTencentcloudClbTargetGroups#target_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clb_target_groups#target_group_id DataTencentcloudClbTargetGroups#target_group_id}
   */
   readonly targetGroupId?: string;
   /**
   * Name of target group. Mutually exclusive with `target_group_id`. `target_group_id` is preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/clb_target_groups#target_group_name DataTencentcloudClbTargetGroups#target_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clb_target_groups#target_group_name DataTencentcloudClbTargetGroups#target_group_name}
   */
   readonly targetGroupName?: string;
   /**
   * Target group VPC ID. Mutually exclusive with `target_group_id`. `target_group_id` is preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/clb_target_groups#vpc_id DataTencentcloudClbTargetGroups#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clb_target_groups#vpc_id DataTencentcloudClbTargetGroups#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -383,7 +383,7 @@ export class DataTencentcloudClbTargetGroupsListStructList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/clb_target_groups tencentcloud_clb_target_groups}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clb_target_groups tencentcloud_clb_target_groups}
 */
 export class DataTencentcloudClbTargetGroups extends cdktf.TerraformDataSource {
 
@@ -399,7 +399,7 @@ export class DataTencentcloudClbTargetGroups extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudClbTargetGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudClbTargetGroups to import
-  * @param importFromId The id of the existing DataTencentcloudClbTargetGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/clb_target_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudClbTargetGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clb_target_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudClbTargetGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -411,7 +411,7 @@ export class DataTencentcloudClbTargetGroups extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/clb_target_groups tencentcloud_clb_target_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clb_target_groups tencentcloud_clb_target_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -422,8 +422,8 @@ export class DataTencentcloudClbTargetGroups extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_clb_target_groups',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

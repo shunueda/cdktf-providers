@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dcdb_database_objects
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/dcdb_database_objects
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudDcdbDatabaseObjectsConfig extends cdktf.Terrafo
   /**
   * Database name, obtained through the DescribeDatabases api.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dcdb_database_objects#db_name DataTencentcloudDcdbDatabaseObjects#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/dcdb_database_objects#db_name DataTencentcloudDcdbDatabaseObjects#db_name}
   */
   readonly dbName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dcdb_database_objects#id DataTencentcloudDcdbDatabaseObjects#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/dcdb_database_objects#id DataTencentcloudDcdbDatabaseObjects#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataTencentcloudDcdbDatabaseObjectsConfig extends cdktf.Terrafo
   /**
   * The ID of instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dcdb_database_objects#instance_id DataTencentcloudDcdbDatabaseObjects#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/dcdb_database_objects#instance_id DataTencentcloudDcdbDatabaseObjects#instance_id}
   */
   readonly instanceId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dcdb_database_objects#result_output_file DataTencentcloudDcdbDatabaseObjects#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/dcdb_database_objects#result_output_file DataTencentcloudDcdbDatabaseObjects#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -335,7 +335,7 @@ export class DataTencentcloudDcdbDatabaseObjectsViewsList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dcdb_database_objects tencentcloud_dcdb_database_objects}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/dcdb_database_objects tencentcloud_dcdb_database_objects}
 */
 export class DataTencentcloudDcdbDatabaseObjects extends cdktf.TerraformDataSource {
 
@@ -351,7 +351,7 @@ export class DataTencentcloudDcdbDatabaseObjects extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataTencentcloudDcdbDatabaseObjects resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDcdbDatabaseObjects to import
-  * @param importFromId The id of the existing DataTencentcloudDcdbDatabaseObjects that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dcdb_database_objects#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDcdbDatabaseObjects that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/dcdb_database_objects#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDcdbDatabaseObjects to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -363,7 +363,7 @@ export class DataTencentcloudDcdbDatabaseObjects extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dcdb_database_objects tencentcloud_dcdb_database_objects} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/dcdb_database_objects tencentcloud_dcdb_database_objects} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -374,8 +374,8 @@ export class DataTencentcloudDcdbDatabaseObjects extends cdktf.TerraformDataSour
       terraformResourceType: 'tencentcloud_dcdb_database_objects',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

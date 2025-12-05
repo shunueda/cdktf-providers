@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_flex_instance
+// https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_flex_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface PostgresFlexInstanceConfig extends cdktf.TerraformMetaArguments
   /**
   * Whitelist IP address ranges. Default is [193.148.160.0/19 45.129.40.0/21 45.135.244.0/22]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_flex_instance#acl PostgresFlexInstance#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_flex_instance#acl PostgresFlexInstance#acl}
   */
   readonly acl?: string[];
   /**
   * Specifies the backup schedule (cron style)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_flex_instance#backup_schedule PostgresFlexInstance#backup_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_flex_instance#backup_schedule PostgresFlexInstance#backup_schedule}
   */
   readonly backupSchedule?: string;
   /**
   * Instance Labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_flex_instance#labels PostgresFlexInstance#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_flex_instance#labels PostgresFlexInstance#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The Machine Type. Available options: `2.4` (2 CPU, 4 Memory), `2.16` (2 CPU, 16 Memory), `4.8` (4 CPU, 8 Memory), `4.32` (4 CPU, 32 Memory), `8.16` (8 CPU, 16 Memory), `16.32` (16 CPU, 32 Memory), `16.128` (16 CPU, 128 Memory)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_flex_instance#machine_type PostgresFlexInstance#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_flex_instance#machine_type PostgresFlexInstance#machine_type}
   */
   readonly machineType: string;
   /**
   * Specifies the instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_flex_instance#name PostgresFlexInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_flex_instance#name PostgresFlexInstance#name}
   */
   readonly name: string;
   /**
   * Specifies postgres instance options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_flex_instance#options PostgresFlexInstance#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_flex_instance#options PostgresFlexInstance#options}
   */
   readonly options?: { [key: string]: string };
   /**
   * The project ID the instance runs in. Changing this value requires the resource to be recreated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_flex_instance#project_id PostgresFlexInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_flex_instance#project_id PostgresFlexInstance#project_id}
   */
   readonly projectId: string;
   /**
   * Number of replicas (Default is `1`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_flex_instance#replicas PostgresFlexInstance#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_flex_instance#replicas PostgresFlexInstance#replicas}
   */
   readonly replicas?: number;
   /**
   * A single `storage` block as defined below.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_flex_instance#storage PostgresFlexInstance#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_flex_instance#storage PostgresFlexInstance#storage}
   */
   readonly storage?: PostgresFlexInstanceStorage;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_flex_instance#timeouts PostgresFlexInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_flex_instance#timeouts PostgresFlexInstance#timeouts}
   */
   readonly timeouts?: PostgresFlexInstanceTimeouts;
   /**
   * Postgres version. Options: `12`, `13`, `14`. Changing this value requires the resource to be recreated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_flex_instance#version PostgresFlexInstance#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_flex_instance#version PostgresFlexInstance#version}
   */
   readonly version?: string;
 }
@@ -76,13 +76,13 @@ export interface PostgresFlexInstanceStorage {
   /**
   * Specifies the storage class. Available option: `premium-perf6-stackit`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_flex_instance#class PostgresFlexInstance#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_flex_instance#class PostgresFlexInstance#class}
   */
   readonly class?: string;
   /**
   * The storage size in GB (min of 5 is required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_flex_instance#size PostgresFlexInstance#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_flex_instance#size PostgresFlexInstance#size}
   */
   readonly size?: number;
 }
@@ -205,15 +205,15 @@ export class PostgresFlexInstanceStorageOutputReference extends cdktf.ComplexObj
 }
 export interface PostgresFlexInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_flex_instance#create PostgresFlexInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_flex_instance#create PostgresFlexInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_flex_instance#delete PostgresFlexInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_flex_instance#delete PostgresFlexInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_flex_instance#update PostgresFlexInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_flex_instance#update PostgresFlexInstance#update}
   */
   readonly update?: string;
 }
@@ -365,7 +365,7 @@ export class PostgresFlexInstanceTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_flex_instance stackit_postgres_flex_instance}
+* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_flex_instance stackit_postgres_flex_instance}
 */
 export class PostgresFlexInstance extends cdktf.TerraformResource {
 
@@ -381,7 +381,7 @@ export class PostgresFlexInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PostgresFlexInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PostgresFlexInstance to import
-  * @param importFromId The id of the existing PostgresFlexInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_flex_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PostgresFlexInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_flex_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PostgresFlexInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -393,7 +393,7 @@ export class PostgresFlexInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/postgres_flex_instance stackit_postgres_flex_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/postgres_flex_instance stackit_postgres_flex_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -404,8 +404,8 @@ export class PostgresFlexInstance extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_postgres_flex_instance',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '1.34.3',
-        providerVersionConstraint: '1.34.3'
+        providerVersion: '1.34.4',
+        providerVersionConstraint: '1.34.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

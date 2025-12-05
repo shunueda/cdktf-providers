@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs
+// https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,26 +11,26 @@ export interface CockroachProviderConfig {
   * The JWT from a JWT Issuer configured for the CockroachDB Cloud Organization.
   * In this case, the vanity name of the organization is required and can be provided using the `COCKROACH_VANITY_NAME` environment variable. If the JWT is mapped to multiple identities, the identity to impersonate should be provided using the `COCKROACH_USERNAME` environment variable, and should contain either a user email address or a service account ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs#apijwt CockroachProvider#apijwt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs#apijwt CockroachProvider#apijwt}
   */
   readonly apijwt?: string;
   /**
   * The API key to access CockroachDB Cloud.
   * If this field is provided, it is used and `apijwt` is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs#apikey CockroachProvider#apikey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs#apikey CockroachProvider#apikey}
   */
   readonly apikey?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs#alias CockroachProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs#alias CockroachProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs cockroach}
+* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs cockroach}
 */
 export class CockroachProvider extends cdktf.TerraformProvider {
 
@@ -46,7 +46,7 @@ export class CockroachProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a CockroachProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CockroachProvider to import
-  * @param importFromId The id of the existing CockroachProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CockroachProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CockroachProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -58,7 +58,7 @@ export class CockroachProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs cockroach} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs cockroach} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -69,8 +69,8 @@ export class CockroachProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'cockroach',
       terraformGeneratorMetadata: {
         providerName: 'cockroach',
-        providerVersion: '1.16.0',
-        providerVersionConstraint: '1.16.0'
+        providerVersion: '1.17.0',
+        providerVersionConstraint: '1.17.0'
       },
       terraformProviderSource: 'cockroachdb/cockroach'
     });

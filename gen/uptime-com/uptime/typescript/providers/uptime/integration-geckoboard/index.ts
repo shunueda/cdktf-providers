@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_geckoboard
+// https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_geckoboard
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,32 @@ export interface IntegrationGeckoboardConfig extends cdktf.TerraformMetaArgument
   /**
   * Geckoboard API key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_geckoboard#api_key IntegrationGeckoboard#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_geckoboard#api_key IntegrationGeckoboard#api_key}
   */
   readonly apiKey: string;
   /**
-  * List of contact group names to receive notifications. 
-  * Each contact group can contain multiple contacts (email addresses, phone numbers, or integrations) 
+  * List of contact group names to receive notifications.
+  * Each contact group can contain multiple contacts (email addresses, phone numbers, or integrations)
   * that will be notified when alerts are triggered. Defaults to ['Default'] if not specified.
+  * Set to an empty list to disable notifications at this level and rely on parent check group notifications instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_geckoboard#contact_groups IntegrationGeckoboard#contact_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_geckoboard#contact_groups IntegrationGeckoboard#contact_groups}
   */
   readonly contactGroups?: string[];
   /**
   * Name of the dataset to send data to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_geckoboard#dataset_name IntegrationGeckoboard#dataset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_geckoboard#dataset_name IntegrationGeckoboard#dataset_name}
   */
   readonly datasetName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_geckoboard#name IntegrationGeckoboard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_geckoboard#name IntegrationGeckoboard#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_geckoboard uptime_integration_geckoboard}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_geckoboard uptime_integration_geckoboard}
 */
 export class IntegrationGeckoboard extends cdktf.TerraformResource {
 
@@ -50,7 +51,7 @@ export class IntegrationGeckoboard extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationGeckoboard resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationGeckoboard to import
-  * @param importFromId The id of the existing IntegrationGeckoboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_geckoboard#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationGeckoboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_geckoboard#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationGeckoboard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +63,7 @@ export class IntegrationGeckoboard extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_geckoboard uptime_integration_geckoboard} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_geckoboard uptime_integration_geckoboard} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +74,8 @@ export class IntegrationGeckoboard extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_integration_geckoboard',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.18.1',
-        providerVersionConstraint: '2.18.1'
+        providerVersion: '2.20.0',
+        providerVersionConstraint: '2.20.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

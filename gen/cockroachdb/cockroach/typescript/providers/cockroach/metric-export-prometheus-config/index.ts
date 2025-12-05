@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/metric_export_prometheus_config
+// https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/metric_export_prometheus_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface MetricExportPrometheusConfigConfig extends cdktf.TerraformMetaA
   /**
   * Cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/metric_export_prometheus_config#id MetricExportPrometheusConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/metric_export_prometheus_config#id MetricExportPrometheusConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface MetricExportPrometheusConfigConfig extends cdktf.TerraformMetaA
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/metric_export_prometheus_config cockroach_metric_export_prometheus_config}
+* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/metric_export_prometheus_config cockroach_metric_export_prometheus_config}
 */
 export class MetricExportPrometheusConfig extends cdktf.TerraformResource {
 
@@ -35,7 +35,7 @@ export class MetricExportPrometheusConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MetricExportPrometheusConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MetricExportPrometheusConfig to import
-  * @param importFromId The id of the existing MetricExportPrometheusConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/metric_export_prometheus_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MetricExportPrometheusConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/metric_export_prometheus_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MetricExportPrometheusConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -47,7 +47,7 @@ export class MetricExportPrometheusConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/metric_export_prometheus_config cockroach_metric_export_prometheus_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/metric_export_prometheus_config cockroach_metric_export_prometheus_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -58,8 +58,8 @@ export class MetricExportPrometheusConfig extends cdktf.TerraformResource {
       terraformResourceType: 'cockroach_metric_export_prometheus_config',
       terraformGeneratorMetadata: {
         providerName: 'cockroach',
-        providerVersion: '1.16.0',
-        providerVersionConstraint: '1.16.0'
+        providerVersion: '1.17.0',
+        providerVersionConstraint: '1.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

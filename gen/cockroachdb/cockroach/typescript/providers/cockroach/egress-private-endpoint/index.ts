@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/egress_private_endpoint
+// https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/egress_private_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface EgressPrivateEndpointConfig extends cdktf.TerraformMetaArgument
   /**
   * cluster_id identifies the cluster to which this egress private endpoint applies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/egress_private_endpoint#cluster_id EgressPrivateEndpoint#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/egress_private_endpoint#cluster_id EgressPrivateEndpoint#cluster_id}
   */
   readonly clusterId: string;
   /**
   * region represents the region that the endpoint will be created in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/egress_private_endpoint#region EgressPrivateEndpoint#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/egress_private_endpoint#region EgressPrivateEndpoint#region}
   */
   readonly region: string;
   /**
   * target_service_identifier represents the identifier of the target service that the CockroachDB endpoint connects to. For example, this would be the Service Name for AWS, Service Attachment for GCP, or ARN for AWS MSK
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/egress_private_endpoint#target_service_identifier EgressPrivateEndpoint#target_service_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/egress_private_endpoint#target_service_identifier EgressPrivateEndpoint#target_service_identifier}
   */
   readonly targetServiceIdentifier: string;
   /**
@@ -32,13 +32,13 @@ export interface EgressPrivateEndpointConfig extends cdktf.TerraformMetaArgument
   *   * MSK_SASL_IAM
   *   * MSK_TLS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/egress_private_endpoint#target_service_type EgressPrivateEndpoint#target_service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/egress_private_endpoint#target_service_type EgressPrivateEndpoint#target_service_type}
   */
   readonly targetServiceType: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/egress_private_endpoint cockroach_egress_private_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/egress_private_endpoint cockroach_egress_private_endpoint}
 */
 export class EgressPrivateEndpoint extends cdktf.TerraformResource {
 
@@ -54,7 +54,7 @@ export class EgressPrivateEndpoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EgressPrivateEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EgressPrivateEndpoint to import
-  * @param importFromId The id of the existing EgressPrivateEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/egress_private_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EgressPrivateEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/egress_private_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EgressPrivateEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -66,7 +66,7 @@ export class EgressPrivateEndpoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/egress_private_endpoint cockroach_egress_private_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/egress_private_endpoint cockroach_egress_private_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -77,8 +77,8 @@ export class EgressPrivateEndpoint extends cdktf.TerraformResource {
       terraformResourceType: 'cockroach_egress_private_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'cockroach',
-        providerVersion: '1.16.0',
-        providerVersionConstraint: '1.16.0'
+        providerVersion: '1.17.0',
+        providerVersionConstraint: '1.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/log_export_config
+// https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/log_export_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface LogExportConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * Either the AWS Role ARN that identifies a role that the cluster account can assume to write to CloudWatch or the GCP Project ID that the cluster service account has permissions to write to for cloud logging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/log_export_config#auth_principal LogExportConfig#auth_principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/log_export_config#auth_principal LogExportConfig#auth_principal}
   */
   readonly authPrincipal: string;
   /**
   * The external ID to use when assuming the AWS role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/log_export_config#aws_external_id LogExportConfig#aws_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/log_export_config#aws_external_id LogExportConfig#aws_external_id}
   */
   readonly awsExternalId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/log_export_config#groups LogExportConfig#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/log_export_config#groups LogExportConfig#groups}
   */
   readonly groups?: LogExportConfigGroups[] | cdktf.IResolvable;
   /**
   * Cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/log_export_config#id LogExportConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/log_export_config#id LogExportConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,25 @@ export interface LogExportConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * An identifier for the logs in the customer's log sink.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/log_export_config#log_name LogExportConfig#log_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/log_export_config#log_name LogExportConfig#log_name}
   */
   readonly logName: string;
   /**
   * Controls what CRDB channels do not get exported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/log_export_config#omitted_channels LogExportConfig#omitted_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/log_export_config#omitted_channels LogExportConfig#omitted_channels}
   */
   readonly omittedChannels?: string[];
   /**
   * Controls whether logs are redacted before forwarding to customer sinks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/log_export_config#redact LogExportConfig#redact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/log_export_config#redact LogExportConfig#redact}
   */
   readonly redact?: boolean | cdktf.IResolvable;
   /**
   * Controls whether all logs are sent to a specific region in the customer sink.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/log_export_config#region LogExportConfig#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/log_export_config#region LogExportConfig#region}
   */
   readonly region?: string;
   /**
@@ -62,7 +62,7 @@ export interface LogExportConfigConfig extends cdktf.TerraformMetaArguments {
   *   * GCP_CLOUD_LOGGING
   *   * AZURE_LOG_ANALYTICS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/log_export_config#type LogExportConfig#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/log_export_config#type LogExportConfig#type}
   */
   readonly type: string;
 }
@@ -70,25 +70,25 @@ export interface LogExportConfigGroups {
   /**
   * A list of CockroachDB log channels to include in this group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/log_export_config#channels LogExportConfig#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/log_export_config#channels LogExportConfig#channels}
   */
   readonly channels: string[];
   /**
   * The name of the group, reflected in the log sink.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/log_export_config#log_name LogExportConfig#log_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/log_export_config#log_name LogExportConfig#log_name}
   */
   readonly logName: string;
   /**
   * The minimum log level to filter to this log group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/log_export_config#min_level LogExportConfig#min_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/log_export_config#min_level LogExportConfig#min_level}
   */
   readonly minLevel?: string;
   /**
   * Governs whether this log group should aggregate redacted logs if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/log_export_config#redact LogExportConfig#redact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/log_export_config#redact LogExportConfig#redact}
   */
   readonly redact?: boolean | cdktf.IResolvable;
 }
@@ -285,7 +285,7 @@ export class LogExportConfigGroupsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/log_export_config cockroach_log_export_config}
+* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/log_export_config cockroach_log_export_config}
 */
 export class LogExportConfig extends cdktf.TerraformResource {
 
@@ -301,7 +301,7 @@ export class LogExportConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LogExportConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogExportConfig to import
-  * @param importFromId The id of the existing LogExportConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/log_export_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogExportConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/log_export_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogExportConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -313,7 +313,7 @@ export class LogExportConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/log_export_config cockroach_log_export_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/log_export_config cockroach_log_export_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -324,8 +324,8 @@ export class LogExportConfig extends cdktf.TerraformResource {
       terraformResourceType: 'cockroach_log_export_config',
       terraformGeneratorMetadata: {
         providerName: 'cockroach',
-        providerVersion: '1.16.0',
-        providerVersionConstraint: '1.16.0'
+        providerVersion: '1.17.0',
+        providerVersionConstraint: '1.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

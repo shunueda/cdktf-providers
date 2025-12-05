@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ha_vip_instance_attachment
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ha_vip_instance_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface HaVipInstanceAttachmentConfig extends cdktf.TerraformMetaArgume
   /**
   * Unique ID of the HaVip instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ha_vip_instance_attachment#ha_vip_id HaVipInstanceAttachment#ha_vip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ha_vip_instance_attachment#ha_vip_id HaVipInstanceAttachment#ha_vip_id}
   */
   readonly haVipId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ha_vip_instance_attachment#id HaVipInstanceAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ha_vip_instance_attachment#id HaVipInstanceAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface HaVipInstanceAttachmentConfig extends cdktf.TerraformMetaArgume
   /**
   * The unique ID of the slave machine or network card to which HaVip is bound.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ha_vip_instance_attachment#instance_id HaVipInstanceAttachment#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ha_vip_instance_attachment#instance_id HaVipInstanceAttachment#instance_id}
   */
   readonly instanceId: string;
   /**
   * The type of HaVip binding. Values:CVM, ENI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ha_vip_instance_attachment#instance_type HaVipInstanceAttachment#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ha_vip_instance_attachment#instance_type HaVipInstanceAttachment#instance_type}
   */
   readonly instanceType?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ha_vip_instance_attachment tencentcloud_ha_vip_instance_attachment}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ha_vip_instance_attachment tencentcloud_ha_vip_instance_attachment}
 */
 export class HaVipInstanceAttachment extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class HaVipInstanceAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HaVipInstanceAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HaVipInstanceAttachment to import
-  * @param importFromId The id of the existing HaVipInstanceAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ha_vip_instance_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HaVipInstanceAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ha_vip_instance_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HaVipInstanceAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class HaVipInstanceAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ha_vip_instance_attachment tencentcloud_ha_vip_instance_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ha_vip_instance_attachment tencentcloud_ha_vip_instance_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class HaVipInstanceAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_ha_vip_instance_attachment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

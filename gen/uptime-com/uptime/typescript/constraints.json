@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "uptime": "2.18.1"
+    "uptime": "2.20.0"
   }
 }

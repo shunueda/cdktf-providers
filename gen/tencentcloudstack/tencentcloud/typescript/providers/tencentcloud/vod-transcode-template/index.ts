@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_transcode_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vod_transcode_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface VodTranscodeTemplateConfig extends cdktf.TerraformMetaArguments
   /**
   * Template description. Length limit: 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_transcode_template#comment VodTranscodeTemplate#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vod_transcode_template#comment VodTranscodeTemplate#comment}
   */
   readonly comment?: string;
   /**
   * The container format. Valid values: `mp4`, `flv`, `hls`, `mp3`, `flac`, `ogg`, `m4a`, `wav` ( `mp3`, `flac`, `ogg`, `m4a`, and `wav` are audio file formats).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_transcode_template#container VodTranscodeTemplate#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vod_transcode_template#container VodTranscodeTemplate#container}
   */
   readonly container: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_transcode_template#id VodTranscodeTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vod_transcode_template#id VodTranscodeTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface VodTranscodeTemplateConfig extends cdktf.TerraformMetaArguments
   /**
   * Transcoding template name. Length limit: 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_transcode_template#name VodTranscodeTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vod_transcode_template#name VodTranscodeTemplate#name}
   */
   readonly name?: string;
   /**
   * Whether to remove audio data. Valid values:0: retain 1: remove Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_transcode_template#remove_audio VodTranscodeTemplate#remove_audio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vod_transcode_template#remove_audio VodTranscodeTemplate#remove_audio}
   */
   readonly removeAudio?: number;
   /**
@@ -44,37 +44,37 @@ export interface VodTranscodeTemplateConfig extends cdktf.TerraformMetaArguments
   * - 1: remove
   * Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_transcode_template#remove_video VodTranscodeTemplate#remove_video}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vod_transcode_template#remove_video VodTranscodeTemplate#remove_video}
   */
   readonly removeVideo?: number;
   /**
   * The segment type. This parameter is valid only if `Container` is `hls`. Valid values: `ts`: TS segment; `fmp4`: fMP4 segment Default: `ts`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_transcode_template#segment_type VodTranscodeTemplate#segment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vod_transcode_template#segment_type VodTranscodeTemplate#segment_type}
   */
   readonly segmentType?: string;
   /**
   * The VOD [application](https://intl.cloud.tencent.com/document/product/266/14574) ID. For customers who activate VOD service from December 25, 2023, if they want to access resources in a VOD application (whether it's the default application or a newly created one), they must fill in this field with the application ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_transcode_template#sub_app_id VodTranscodeTemplate#sub_app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vod_transcode_template#sub_app_id VodTranscodeTemplate#sub_app_id}
   */
   readonly subAppId?: number;
   /**
   * audio_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_transcode_template#audio_template VodTranscodeTemplate#audio_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vod_transcode_template#audio_template VodTranscodeTemplate#audio_template}
   */
   readonly audioTemplate?: VodTranscodeTemplateAudioTemplate;
   /**
   * tehd_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_transcode_template#tehd_config VodTranscodeTemplate#tehd_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vod_transcode_template#tehd_config VodTranscodeTemplate#tehd_config}
   */
   readonly tehdConfig?: VodTranscodeTemplateTehdConfig;
   /**
   * video_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_transcode_template#video_template VodTranscodeTemplate#video_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vod_transcode_template#video_template VodTranscodeTemplate#video_template}
   */
   readonly videoTemplate?: VodTranscodeTemplateVideoTemplate;
 }
@@ -82,25 +82,25 @@ export interface VodTranscodeTemplateAudioTemplate {
   /**
   * Audio channel system. Valid values:1: mono-channel2: dual-channel6: stereoYou cannot set the sound channel as stereo for media files in container formats for audios (FLAC, OGG, MP3, M4A).Default value: 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_transcode_template#audio_channel VodTranscodeTemplate#audio_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vod_transcode_template#audio_channel VodTranscodeTemplate#audio_channel}
   */
   readonly audioChannel?: number;
   /**
   * Audio stream bitrate in Kbps. Value range: 0 and [26, 256].If the value is 0, the bitrate of the audio stream will be the same as that of the original audio.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_transcode_template#bitrate VodTranscodeTemplate#bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vod_transcode_template#bitrate VodTranscodeTemplate#bitrate}
   */
   readonly bitrate: number;
   /**
   * The audio codec.If `Container` is `mp3`, the valid value is:`libmp3lame`If `Container` is `ogg` or `flac`, the valid value is:`flac`If `Container` is `m4a`, the valid values are:`libfdk_aac``libmp3lame``ac3`If `Container` is `mp4` or `flv`, the valid values are:`libfdk_aac` (Recommended for MP4)`libmp3lame` (Recommended for FLV)`mp2`If `Container` is `hls`, the valid value is:`libfdk_aac`If `Format` is `HLS` or `MPEG-DASH`, the valid value is:`libfdk_aac`If `Container` is `wav`, the valid value is:`pcm16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_transcode_template#codec VodTranscodeTemplate#codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vod_transcode_template#codec VodTranscodeTemplate#codec}
   */
   readonly codec: string;
   /**
   * The audio sample rate. Valid values:`16000` (valid only if `Codec` is `pcm16`)`32000``44100``48000`Unit: Hz.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_transcode_template#sample_rate VodTranscodeTemplate#sample_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vod_transcode_template#sample_rate VodTranscodeTemplate#sample_rate}
   */
   readonly sampleRate: number;
 }
@@ -264,13 +264,13 @@ export interface VodTranscodeTemplateTehdConfig {
   /**
   * Maximum bitrate, which is valid when `Type` is `TESHD`.If this parameter is left blank or 0 is entered, there will be no upper limit for bitrate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_transcode_template#max_video_bitrate VodTranscodeTemplate#max_video_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vod_transcode_template#max_video_bitrate VodTranscodeTemplate#max_video_bitrate}
   */
   readonly maxVideoBitrate?: number;
   /**
   * TESHD transcoding type. Valid values: TEHD-100, OFF (default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_transcode_template#type VodTranscodeTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vod_transcode_template#type VodTranscodeTemplate#type}
   */
   readonly type: string;
 }
@@ -382,67 +382,67 @@ export interface VodTranscodeTemplateVideoTemplate {
   /**
   * Bitrate of video stream in Kbps. Value range: 0 and [128, 35,000].If the value is 0, the bitrate of the video will be the same as that of the source video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_transcode_template#bitrate VodTranscodeTemplate#bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vod_transcode_template#bitrate VodTranscodeTemplate#bitrate}
   */
   readonly bitrate: number;
   /**
   * The video codec. Valid values:libx264: H.264; libx265: H.265; av1: AOMedia Video 1; H.266: H.266. The AOMedia Video 1 and H.266 codecs can only be used for MP4 files. Only CRF is supported for H.266 currently.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_transcode_template#codec VodTranscodeTemplate#codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vod_transcode_template#codec VodTranscodeTemplate#codec}
   */
   readonly codec: string;
   /**
   * The codec tag. This parameter is valid only if the H.265 codec is used. Valid values:hvc1hev1Default value: hvc1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_transcode_template#codec_tag VodTranscodeTemplate#codec_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vod_transcode_template#codec_tag VodTranscodeTemplate#codec_tag}
   */
   readonly codecTag?: string;
   /**
   * Fill type, the way of processing a screenshot when the configured aspect ratio is different from that of the source video. Valid values:stretch: stretches the video image frame by frame to fill the screen. The video image may become squashed or stretched after transcoding.black: fills the uncovered area with black color, without changing the image&#39;s aspect ratio.white: fills the uncovered area with white color, without changing the image&#39;s aspect ratio.gauss: applies Gaussian blur to the uncovered area, without changing the image&#39;s aspect ratio.Default value: black.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_transcode_template#fill_type VodTranscodeTemplate#fill_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vod_transcode_template#fill_type VodTranscodeTemplate#fill_type}
   */
   readonly fillType?: string;
   /**
   * Video frame rate in Hz. Value range: [0,100].If the value is 0, the frame rate will be the same as that of the source video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_transcode_template#fps VodTranscodeTemplate#fps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vod_transcode_template#fps VodTranscodeTemplate#fps}
   */
   readonly fps: number;
   /**
   * I-frame interval in frames. Valid values: 0 and 1-100000.When this parameter is set to 0 or left empty, `Gop` will be automatically set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_transcode_template#gop VodTranscodeTemplate#gop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vod_transcode_template#gop VodTranscodeTemplate#gop}
   */
   readonly gop?: number;
   /**
   * The maximum video height (or short side) in pixels. Value range: 0 and [128, 8192].If both `Width` and `Height` are 0, the output resolution will be the same as that of the source video.If `Width` is 0 and `Height` is not, the video width will be proportionally scaled.If `Width` is not 0 and `Height` is, the video height will be proportionally scaled.If neither `Width` nor `Height` is 0, the specified width and height will be used.Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_transcode_template#height VodTranscodeTemplate#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vod_transcode_template#height VodTranscodeTemplate#height}
   */
   readonly height?: number;
   /**
   * Whether to output an HDR (high dynamic range) video if the source video is HDR. Valid values:ON: If the source video is HDR, output an HDR video; if not, output an SDR (standard dynamic range) video.OFF: Output an SDR video regardless of whether the source video is HDR.Default value: OFF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_transcode_template#preserve_hdr_switch VodTranscodeTemplate#preserve_hdr_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vod_transcode_template#preserve_hdr_switch VodTranscodeTemplate#preserve_hdr_switch}
   */
   readonly preserveHdrSwitch?: string;
   /**
   * Resolution adaption. Valid values:open: enabled. In this case, `Width` represents the long side of a video, while `Height` the short side;close: disabled. In this case, `Width` represents the width of a video, while `Height` the height.Default value: open.Note: this field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_transcode_template#resolution_adaptive VodTranscodeTemplate#resolution_adaptive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vod_transcode_template#resolution_adaptive VodTranscodeTemplate#resolution_adaptive}
   */
   readonly resolutionAdaptive?: string;
   /**
   * The video constant rate factor (CRF). Value range: 1-51.If this parameter is specified, CRF encoding will be used and the bitrate parameter will be ignored.If `Codec` is `H.266`, this parameter is required (`28` is recommended).We don't recommend using this parameter unless you have special requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_transcode_template#vcrf VodTranscodeTemplate#vcrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vod_transcode_template#vcrf VodTranscodeTemplate#vcrf}
   */
   readonly vcrf?: number;
   /**
   * The maximum video width (or long side) in pixels. Value range: 0 and [128, 8192].If both `Width` and `Height` are 0, the output resolution will be the same as that of the source video.If `Width` is 0 and `Height` is not, the video width will be proportionally scaled.If `Width` is not 0 and `Height` is, the video height will be proportionally scaled.If neither `Width` nor `Height` is 0, the specified width and height will be used.Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_transcode_template#width VodTranscodeTemplate#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vod_transcode_template#width VodTranscodeTemplate#width}
   */
   readonly width?: number;
 }
@@ -807,7 +807,7 @@ export class VodTranscodeTemplateVideoTemplateOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_transcode_template tencentcloud_vod_transcode_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vod_transcode_template tencentcloud_vod_transcode_template}
 */
 export class VodTranscodeTemplate extends cdktf.TerraformResource {
 
@@ -823,7 +823,7 @@ export class VodTranscodeTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VodTranscodeTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VodTranscodeTemplate to import
-  * @param importFromId The id of the existing VodTranscodeTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_transcode_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VodTranscodeTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vod_transcode_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VodTranscodeTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -835,7 +835,7 @@ export class VodTranscodeTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_transcode_template tencentcloud_vod_transcode_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vod_transcode_template tencentcloud_vod_transcode_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -846,8 +846,8 @@ export class VodTranscodeTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_vod_transcode_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

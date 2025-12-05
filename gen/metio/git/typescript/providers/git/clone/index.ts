@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/git/2025.11.28/docs/resources/clone
+// https://registry.terraform.io/providers/metio/git/2025.12.5/docs/resources/clone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface CloneConfig extends cdktf.TerraformMetaArguments {
   /**
   * The authentication credentials, if required, to use with the remote repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/resources/clone#auth Clone#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.12.5/docs/resources/clone#auth Clone#auth}
   */
   readonly auth?: CloneAuth;
   /**
   * Whether we should perform a bare clone. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/resources/clone#bare Clone#bare}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.12.5/docs/resources/clone#bare Clone#bare}
   */
   readonly bare?: boolean | cdktf.IResolvable;
   /**
   * File system path to an additional CA bundle to use together with the system cert pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/resources/clone#ca_bundle_file_path Clone#ca_bundle_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.12.5/docs/resources/clone#ca_bundle_file_path Clone#ca_bundle_file_path}
   */
   readonly caBundleFilePath?: string;
   /**
   * The path to the local Git repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/resources/clone#directory Clone#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.12.5/docs/resources/clone#directory Clone#directory}
   */
   readonly directory: string;
   /**
   * Skip SSL verification if protocol is HTTPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/resources/clone#insecure_skip_tls Clone#insecure_skip_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.12.5/docs/resources/clone#insecure_skip_tls Clone#insecure_skip_tls}
   */
   readonly insecureSkipTls?: boolean | cdktf.IResolvable;
   /**
   * Name of the remote to be added. Defaults to 'main'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/resources/clone#reference_name Clone#reference_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.12.5/docs/resources/clone#reference_name Clone#reference_name}
   */
   readonly referenceName?: string;
   /**
   * Name of the remote to be added. Defaults to 'origin'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/resources/clone#remote_name Clone#remote_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.12.5/docs/resources/clone#remote_name Clone#remote_name}
   */
   readonly remoteName?: string;
   /**
   * The (possibly remote) repository URL to clone from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/resources/clone#url Clone#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.12.5/docs/resources/clone#url Clone#url}
   */
   readonly url: string;
 }
@@ -60,13 +60,13 @@ export interface CloneAuthBasic {
   /**
   * The basic auth password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/resources/clone#password Clone#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.12.5/docs/resources/clone#password Clone#password}
   */
   readonly password: string;
   /**
   * The basic auth username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/resources/clone#username Clone#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.12.5/docs/resources/clone#username Clone#username}
   */
   readonly username: string;
 }
@@ -185,13 +185,13 @@ export interface CloneAuthSshAgent {
   /**
   * The list of known hosts files to accept. If none are specified, system defaults will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/resources/clone#known_hosts Clone#known_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.12.5/docs/resources/clone#known_hosts Clone#known_hosts}
   */
   readonly knownHosts?: string[];
   /**
   * The system username of the user talking to the SSH agent. Use an empty string in order to automatically fetch this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/resources/clone#username Clone#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.12.5/docs/resources/clone#username Clone#username}
   */
   readonly username?: string;
 }
@@ -316,31 +316,31 @@ export interface CloneAuthSshKey {
   /**
   * The list of known hosts files to accept. If none are specified, system defaults will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/resources/clone#known_hosts Clone#known_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.12.5/docs/resources/clone#known_hosts Clone#known_hosts}
   */
   readonly knownHosts?: string[];
   /**
   * The SSH key password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/resources/clone#password Clone#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.12.5/docs/resources/clone#password Clone#password}
   */
   readonly password?: string;
   /**
   * The absolute path to the private SSH key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/resources/clone#private_key_path Clone#private_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.12.5/docs/resources/clone#private_key_path Clone#private_key_path}
   */
   readonly privateKeyPath?: string;
   /**
   * The private SSH key in PEM format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/resources/clone#private_key_pem Clone#private_key_pem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.12.5/docs/resources/clone#private_key_pem Clone#private_key_pem}
   */
   readonly privateKeyPem?: string;
   /**
   * The SSH auth username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/resources/clone#username Clone#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.12.5/docs/resources/clone#username Clone#username}
   */
   readonly username?: string;
 }
@@ -552,19 +552,19 @@ export interface CloneAuthSshPassword {
   /**
   * The list of known hosts files to accept. If none are specified, system defaults will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/resources/clone#known_hosts Clone#known_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.12.5/docs/resources/clone#known_hosts Clone#known_hosts}
   */
   readonly knownHosts?: string[];
   /**
   * The SSH password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/resources/clone#password Clone#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.12.5/docs/resources/clone#password Clone#password}
   */
   readonly password: string;
   /**
   * The SSH username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/resources/clone#username Clone#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.12.5/docs/resources/clone#username Clone#username}
   */
   readonly username: string;
 }
@@ -712,31 +712,31 @@ export interface CloneAuth {
   /**
   * Configure basic auth authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/resources/clone#basic Clone#basic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.12.5/docs/resources/clone#basic Clone#basic}
   */
   readonly basic?: CloneAuthBasic;
   /**
   * Configure HTTP bearer token authentication. **Note**: Services like GitHub use basic auth with your OAuth2 personal access token as the password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/resources/clone#bearer Clone#bearer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.12.5/docs/resources/clone#bearer Clone#bearer}
   */
   readonly bearer?: string;
   /**
   * Configure SSH agent based authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/resources/clone#ssh_agent Clone#ssh_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.12.5/docs/resources/clone#ssh_agent Clone#ssh_agent}
   */
   readonly sshAgent?: CloneAuthSshAgent;
   /**
   * Configure SSH public/private key authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/resources/clone#ssh_key Clone#ssh_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.12.5/docs/resources/clone#ssh_key Clone#ssh_key}
   */
   readonly sshKey?: CloneAuthSshKey;
   /**
   * Configure password based SSH authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/resources/clone#ssh_password Clone#ssh_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.12.5/docs/resources/clone#ssh_password Clone#ssh_password}
   */
   readonly sshPassword?: CloneAuthSshPassword;
 }
@@ -946,7 +946,7 @@ export class CloneAuthOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/resources/clone git_clone}
+* Represents a {@link https://registry.terraform.io/providers/metio/git/2025.12.5/docs/resources/clone git_clone}
 */
 export class Clone extends cdktf.TerraformResource {
 
@@ -962,7 +962,7 @@ export class Clone extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Clone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Clone to import
-  * @param importFromId The id of the existing Clone that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/resources/clone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Clone that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/git/2025.12.5/docs/resources/clone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Clone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -974,7 +974,7 @@ export class Clone extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/git/2025.11.28/docs/resources/clone git_clone} Resource
+  * Create a new {@link https://registry.terraform.io/providers/metio/git/2025.12.5/docs/resources/clone git_clone} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -985,8 +985,8 @@ export class Clone extends cdktf.TerraformResource {
       terraformResourceType: 'git_clone',
       terraformGeneratorMetadata: {
         providerName: 'git',
-        providerVersion: '2025.11.28',
-        providerVersionConstraint: '2025.11.28'
+        providerVersion: '2025.12.5',
+        providerVersionConstraint: '2025.12.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

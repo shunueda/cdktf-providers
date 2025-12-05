@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/css_snapshot_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/css_snapshot_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface CssSnapshotTemplateConfig extends cdktf.TerraformMetaArguments 
   /**
   * Cos application ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/css_snapshot_template#cos_app_id CssSnapshotTemplate#cos_app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/css_snapshot_template#cos_app_id CssSnapshotTemplate#cos_app_id}
   */
   readonly cosAppId: number;
   /**
   * Cos bucket name. Note: The CosBucket parameter value cannot include the - [appid] part.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/css_snapshot_template#cos_bucket CssSnapshotTemplate#cos_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/css_snapshot_template#cos_bucket CssSnapshotTemplate#cos_bucket}
   */
   readonly cosBucket: string;
   /**
   * Cos file name. If it is empty, set according to the default value {StreamID}-screenshot-{Hour}-{Minute}-{Second}-{Width}x{Height}{Ext}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/css_snapshot_template#cos_file_name CssSnapshotTemplate#cos_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/css_snapshot_template#cos_file_name CssSnapshotTemplate#cos_file_name}
   */
   readonly cosFileName?: string;
   /**
   * Cos Bucket folder prefix. If it is empty, set according to the default value /{Year}-{Month}-{Day}/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/css_snapshot_template#cos_prefix CssSnapshotTemplate#cos_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/css_snapshot_template#cos_prefix CssSnapshotTemplate#cos_prefix}
   */
   readonly cosPrefix?: string;
   /**
   * Cos region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/css_snapshot_template#cos_region CssSnapshotTemplate#cos_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/css_snapshot_template#cos_region CssSnapshotTemplate#cos_region}
   */
   readonly cosRegion: string;
   /**
   * Description information. Maximum length: 1024 bytes. Only `Chinese`, `English`, `numbers`, `_`, `-` are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/css_snapshot_template#description CssSnapshotTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/css_snapshot_template#description CssSnapshotTemplate#description}
   */
   readonly description?: string;
   /**
   * Screenshot height. Default: 0 (original height). Range: 0-2000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/css_snapshot_template#height CssSnapshotTemplate#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/css_snapshot_template#height CssSnapshotTemplate#height}
   */
   readonly height?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/css_snapshot_template#id CssSnapshotTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/css_snapshot_template#id CssSnapshotTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,31 +59,31 @@ export interface CssSnapshotTemplateConfig extends cdktf.TerraformMetaArguments 
   /**
   * Whether porn is enabled, 0: not enabled, 1: enabled. Default: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/css_snapshot_template#porn_flag CssSnapshotTemplate#porn_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/css_snapshot_template#porn_flag CssSnapshotTemplate#porn_flag}
   */
   readonly pornFlag?: number;
   /**
   * Screenshot interval, unit: s, default: 10s. Range: 2s~300s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/css_snapshot_template#snapshot_interval CssSnapshotTemplate#snapshot_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/css_snapshot_template#snapshot_interval CssSnapshotTemplate#snapshot_interval}
   */
   readonly snapshotInterval?: number;
   /**
   * Template name. Maximum length: 255 bytes. Only Chinese, English, numbers, `_`, `-` are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/css_snapshot_template#template_name CssSnapshotTemplate#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/css_snapshot_template#template_name CssSnapshotTemplate#template_name}
   */
   readonly templateName: string;
   /**
   * Screenshot width. Default: 0 (original width). Range: 0-3000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/css_snapshot_template#width CssSnapshotTemplate#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/css_snapshot_template#width CssSnapshotTemplate#width}
   */
   readonly width?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/css_snapshot_template tencentcloud_css_snapshot_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/css_snapshot_template tencentcloud_css_snapshot_template}
 */
 export class CssSnapshotTemplate extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class CssSnapshotTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CssSnapshotTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CssSnapshotTemplate to import
-  * @param importFromId The id of the existing CssSnapshotTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/css_snapshot_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CssSnapshotTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/css_snapshot_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CssSnapshotTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class CssSnapshotTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/css_snapshot_template tencentcloud_css_snapshot_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/css_snapshot_template tencentcloud_css_snapshot_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class CssSnapshotTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_css_snapshot_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

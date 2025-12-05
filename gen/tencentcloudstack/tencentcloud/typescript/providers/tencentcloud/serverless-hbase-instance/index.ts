@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/serverless_hbase_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/serverless_hbase_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ServerlessHbaseInstanceConfig extends cdktf.TerraformMetaArgume
   /**
   * AutoRenewFlag, Value range: 0: indicates NOTIFY_AND_MANUAL_RENEW; 1: indicates NOTIFY_AND_AUTO_RENEW; 2: indicates DISABLE_NOTIFY_AND_MANUAL_RENEW.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/serverless_hbase_instance#auto_renew_flag ServerlessHbaseInstance#auto_renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/serverless_hbase_instance#auto_renew_flag ServerlessHbaseInstance#auto_renew_flag}
   */
   readonly autoRenewFlag?: number;
   /**
   * Instance single-node disk capacity, in GB. The single-node disk capacity must be greater than or equal to 100 and less than or equal to 250 times the number of CPU cores. The capacity adjustment step is 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/serverless_hbase_instance#disk_size ServerlessHbaseInstance#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/serverless_hbase_instance#disk_size ServerlessHbaseInstance#disk_size}
   */
   readonly diskSize: number;
   /**
   * Instance disk type, Value range: CLOUD_HSSD: indicate performance cloud storage(ESSD). CLOUD_BSSD: indicate standard cloud storage(SSD).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/serverless_hbase_instance#disk_type ServerlessHbaseInstance#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/serverless_hbase_instance#disk_type ServerlessHbaseInstance#disk_type}
   */
   readonly diskType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/serverless_hbase_instance#id ServerlessHbaseInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/serverless_hbase_instance#id ServerlessHbaseInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,43 +35,43 @@ export interface ServerlessHbaseInstanceConfig extends cdktf.TerraformMetaArgume
   /**
   * Instance name. Length limit is 6-36 characters. Only Chinese characters, letters, numbers, -, and _ are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/serverless_hbase_instance#instance_name ServerlessHbaseInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/serverless_hbase_instance#instance_name ServerlessHbaseInstance#instance_name}
   */
   readonly instanceName: string;
   /**
   * Instance node type, can be filled in as 4C16G, 8C32G, 16C64G, 32C128G, case insensitive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/serverless_hbase_instance#node_type ServerlessHbaseInstance#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/serverless_hbase_instance#node_type ServerlessHbaseInstance#node_type}
   */
   readonly nodeType?: string;
   /**
   * Instance pay mode. Value range: 0: indicates post-pay mode, that is, pay-as-you-go. 1: indicates pre-pay mode, that is, monthly subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/serverless_hbase_instance#pay_mode ServerlessHbaseInstance#pay_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/serverless_hbase_instance#pay_mode ServerlessHbaseInstance#pay_mode}
   */
   readonly payMode: number;
   /**
   * Time span.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/serverless_hbase_instance#time_span ServerlessHbaseInstance#time_span}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/serverless_hbase_instance#time_span ServerlessHbaseInstance#time_span}
   */
   readonly timeSpan?: number;
   /**
   * Time unit, fill in m which means month.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/serverless_hbase_instance#time_unit ServerlessHbaseInstance#time_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/serverless_hbase_instance#time_unit ServerlessHbaseInstance#time_unit}
   */
   readonly timeUnit?: string;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/serverless_hbase_instance#tags ServerlessHbaseInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/serverless_hbase_instance#tags ServerlessHbaseInstance#tags}
   */
   readonly tags?: ServerlessHbaseInstanceTags[] | cdktf.IResolvable;
   /**
   * zone_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/serverless_hbase_instance#zone_settings ServerlessHbaseInstance#zone_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/serverless_hbase_instance#zone_settings ServerlessHbaseInstance#zone_settings}
   */
   readonly zoneSettings: ServerlessHbaseInstanceZoneSettings[] | cdktf.IResolvable;
 }
@@ -79,13 +79,13 @@ export interface ServerlessHbaseInstanceTags {
   /**
   * Tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/serverless_hbase_instance#tag_key ServerlessHbaseInstance#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/serverless_hbase_instance#tag_key ServerlessHbaseInstance#tag_key}
   */
   readonly tagKey?: string;
   /**
   * Tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/serverless_hbase_instance#tag_value ServerlessHbaseInstance#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/serverless_hbase_instance#tag_value ServerlessHbaseInstance#tag_value}
   */
   readonly tagValue?: string;
 }
@@ -232,13 +232,13 @@ export interface ServerlessHbaseInstanceZoneSettingsVpcSettings {
   /**
   * Subnet ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/serverless_hbase_instance#subnet_id ServerlessHbaseInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/serverless_hbase_instance#subnet_id ServerlessHbaseInstance#subnet_id}
   */
   readonly subnetId: string;
   /**
   * VPC ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/serverless_hbase_instance#vpc_id ServerlessHbaseInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/serverless_hbase_instance#vpc_id ServerlessHbaseInstance#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -347,19 +347,19 @@ export interface ServerlessHbaseInstanceZoneSettings {
   /**
   * Number of nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/serverless_hbase_instance#node_num ServerlessHbaseInstance#node_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/serverless_hbase_instance#node_num ServerlessHbaseInstance#node_num}
   */
   readonly nodeNum: number;
   /**
   * The availability zone to which the instance belongs, such as ap-guangzhou-1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/serverless_hbase_instance#zone ServerlessHbaseInstance#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/serverless_hbase_instance#zone ServerlessHbaseInstance#zone}
   */
   readonly zone: string;
   /**
   * vpc_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/serverless_hbase_instance#vpc_settings ServerlessHbaseInstance#vpc_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/serverless_hbase_instance#vpc_settings ServerlessHbaseInstance#vpc_settings}
   */
   readonly vpcSettings: ServerlessHbaseInstanceZoneSettingsVpcSettings;
 }
@@ -524,7 +524,7 @@ export class ServerlessHbaseInstanceZoneSettingsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/serverless_hbase_instance tencentcloud_serverless_hbase_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/serverless_hbase_instance tencentcloud_serverless_hbase_instance}
 */
 export class ServerlessHbaseInstance extends cdktf.TerraformResource {
 
@@ -540,7 +540,7 @@ export class ServerlessHbaseInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServerlessHbaseInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServerlessHbaseInstance to import
-  * @param importFromId The id of the existing ServerlessHbaseInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/serverless_hbase_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServerlessHbaseInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/serverless_hbase_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServerlessHbaseInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -552,7 +552,7 @@ export class ServerlessHbaseInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/serverless_hbase_instance tencentcloud_serverless_hbase_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/serverless_hbase_instance tencentcloud_serverless_hbase_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -563,8 +563,8 @@ export class ServerlessHbaseInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_serverless_hbase_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

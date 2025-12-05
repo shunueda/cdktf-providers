@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_record
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/private_dns_record
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface PrivateDnsRecordConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_record#id PrivateDnsRecord#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/private_dns_record#id PrivateDnsRecord#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,55 +17,55 @@ export interface PrivateDnsRecordConfig extends cdktf.TerraformMetaArguments {
   /**
   * MX priority, which is required when the record type is MX. Valid values: 5, 10, 15, 20, 30, 40, 50.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_record#mx PrivateDnsRecord#mx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/private_dns_record#mx PrivateDnsRecord#mx}
   */
   readonly mx?: number;
   /**
   * Record type. Valid values: `A`, `AAAA`, `CNAME`, `MX`, `TXT`, `PTR`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_record#record_type PrivateDnsRecord#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/private_dns_record#record_type PrivateDnsRecord#record_type}
   */
   readonly recordType: string;
   /**
   * Record value, such as IP: 192.168.10.2, CNAME: cname.qcloud.com, and MX: mail.qcloud.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_record#record_value PrivateDnsRecord#record_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/private_dns_record#record_value PrivateDnsRecord#record_value}
   */
   readonly recordValue: string;
   /**
   * Record status. Valid values: `enabled`, `disabled`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_record#status PrivateDnsRecord#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/private_dns_record#status PrivateDnsRecord#status}
   */
   readonly status?: string;
   /**
   * Subdomain, such as `www`, `m`, and `@`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_record#sub_domain PrivateDnsRecord#sub_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/private_dns_record#sub_domain PrivateDnsRecord#sub_domain}
   */
   readonly subDomain: string;
   /**
   * Record cache time. The smaller the value, the faster the record will take effect. Value range: 1~86400s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_record#ttl PrivateDnsRecord#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/private_dns_record#ttl PrivateDnsRecord#ttl}
   */
   readonly ttl?: number;
   /**
   * Record weight. Value range: 1~100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_record#weight PrivateDnsRecord#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/private_dns_record#weight PrivateDnsRecord#weight}
   */
   readonly weight?: number;
   /**
   * Private domain ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_record#zone_id PrivateDnsRecord#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/private_dns_record#zone_id PrivateDnsRecord#zone_id}
   */
   readonly zoneId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_record tencentcloud_private_dns_record}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/private_dns_record tencentcloud_private_dns_record}
 */
 export class PrivateDnsRecord extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class PrivateDnsRecord extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PrivateDnsRecord resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PrivateDnsRecord to import
-  * @param importFromId The id of the existing PrivateDnsRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_record#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PrivateDnsRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/private_dns_record#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PrivateDnsRecord to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class PrivateDnsRecord extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_record tencentcloud_private_dns_record} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/private_dns_record tencentcloud_private_dns_record} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class PrivateDnsRecord extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_private_dns_record',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

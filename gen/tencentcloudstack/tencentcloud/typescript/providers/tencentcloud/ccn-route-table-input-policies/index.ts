@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ccn_route_table_input_policies
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ccn_route_table_input_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CcnRouteTableInputPoliciesConfig extends cdktf.TerraformMetaArg
   /**
   * CCN Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ccn_route_table_input_policies#ccn_id CcnRouteTableInputPolicies#ccn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ccn_route_table_input_policies#ccn_id CcnRouteTableInputPolicies#ccn_id}
   */
   readonly ccnId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ccn_route_table_input_policies#id CcnRouteTableInputPolicies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ccn_route_table_input_policies#id CcnRouteTableInputPolicies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface CcnRouteTableInputPoliciesConfig extends cdktf.TerraformMetaArg
   /**
   * CCN Route table ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ccn_route_table_input_policies#route_table_id CcnRouteTableInputPolicies#route_table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ccn_route_table_input_policies#route_table_id CcnRouteTableInputPolicies#route_table_id}
   */
   readonly routeTableId: string;
   /**
   * policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ccn_route_table_input_policies#policies CcnRouteTableInputPolicies#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ccn_route_table_input_policies#policies CcnRouteTableInputPolicies#policies}
   */
   readonly policies?: CcnRouteTableInputPoliciesPolicies[] | cdktf.IResolvable;
 }
@@ -37,13 +37,13 @@ export interface CcnRouteTableInputPoliciesPoliciesRouteConditions {
   /**
   * Matching mode, `1` precise matching, `0` fuzzy matching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ccn_route_table_input_policies#match_pattern CcnRouteTableInputPolicies#match_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ccn_route_table_input_policies#match_pattern CcnRouteTableInputPolicies#match_pattern}
   */
   readonly matchPattern: number;
   /**
   * Condition type. Example value: `instance-type`, `instance-region`, `instance-id`, `cidr-block`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ccn_route_table_input_policies#name CcnRouteTableInputPolicies#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ccn_route_table_input_policies#name CcnRouteTableInputPolicies#name}
   */
   readonly name: string;
   /**
@@ -53,7 +53,7 @@ export interface CcnRouteTableInputPoliciesPoliciesRouteConditions {
   *  `instance-id`: `vpc-axrsmmrv`, `dcg-oxad32f7`, `vpngw-33p5vnwd`
   *  `cidr-block`: `172.0.0.0/8`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ccn_route_table_input_policies#values CcnRouteTableInputPolicies#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ccn_route_table_input_policies#values CcnRouteTableInputPolicies#values}
   */
   readonly values: string[];
 }
@@ -220,19 +220,19 @@ export interface CcnRouteTableInputPoliciesPolicies {
   /**
   * Routing behavior, `accept` allows, `drop` rejects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ccn_route_table_input_policies#action CcnRouteTableInputPolicies#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ccn_route_table_input_policies#action CcnRouteTableInputPolicies#action}
   */
   readonly action: string;
   /**
   * Policy description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ccn_route_table_input_policies#description CcnRouteTableInputPolicies#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ccn_route_table_input_policies#description CcnRouteTableInputPolicies#description}
   */
   readonly description: string;
   /**
   * route_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ccn_route_table_input_policies#route_conditions CcnRouteTableInputPolicies#route_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ccn_route_table_input_policies#route_conditions CcnRouteTableInputPolicies#route_conditions}
   */
   readonly routeConditions: CcnRouteTableInputPoliciesPoliciesRouteConditions[] | cdktf.IResolvable;
 }
@@ -397,7 +397,7 @@ export class CcnRouteTableInputPoliciesPoliciesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ccn_route_table_input_policies tencentcloud_ccn_route_table_input_policies}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ccn_route_table_input_policies tencentcloud_ccn_route_table_input_policies}
 */
 export class CcnRouteTableInputPolicies extends cdktf.TerraformResource {
 
@@ -413,7 +413,7 @@ export class CcnRouteTableInputPolicies extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CcnRouteTableInputPolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CcnRouteTableInputPolicies to import
-  * @param importFromId The id of the existing CcnRouteTableInputPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ccn_route_table_input_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CcnRouteTableInputPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ccn_route_table_input_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CcnRouteTableInputPolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -425,7 +425,7 @@ export class CcnRouteTableInputPolicies extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ccn_route_table_input_policies tencentcloud_ccn_route_table_input_policies} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ccn_route_table_input_policies tencentcloud_ccn_route_table_input_policies} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -436,8 +436,8 @@ export class CcnRouteTableInputPolicies extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_ccn_route_table_input_policies',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

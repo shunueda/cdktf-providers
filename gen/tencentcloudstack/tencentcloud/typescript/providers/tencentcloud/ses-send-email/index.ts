@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ses_send_email
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ses_send_email
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface SesSendEmailConfig extends cdktf.TerraformMetaArguments {
   /**
   * The email address of the cc recipient can support up to 20 cc recipients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ses_send_email#bcc SesSendEmail#bcc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ses_send_email#bcc SesSendEmail#bcc}
   */
   readonly bcc?: string[];
   /**
   * Cc recipient email address, up to 20 people can be copied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ses_send_email#cc SesSendEmail#cc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ses_send_email#cc SesSendEmail#cc}
   */
   readonly cc?: string[];
   /**
   * Recipient email addresses. You can send an email to up to 50 recipients at a time. Note: the email content will display all recipient addresses. To send one-to-one emails to several recipients, please call the API multiple times to send the emails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ses_send_email#destination SesSendEmail#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ses_send_email#destination SesSendEmail#destination}
   */
   readonly destination: string[];
   /**
   * Sender address. Enter a sender address, for example, noreply@mail.qcloud.com.To display the sender name, enter the address in the following format:Sender.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ses_send_email#from_email_address SesSendEmail#from_email_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ses_send_email#from_email_address SesSendEmail#from_email_address}
   */
   readonly fromEmailAddress: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ses_send_email#id SesSendEmail#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ses_send_email#id SesSendEmail#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,37 +41,37 @@ export interface SesSendEmailConfig extends cdktf.TerraformMetaArguments {
   /**
   * Reply-to address. You can enter a valid personal email address that can receive emails. If this parameter is left empty, reply emails will fail to be sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ses_send_email#reply_to_addresses SesSendEmail#reply_to_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ses_send_email#reply_to_addresses SesSendEmail#reply_to_addresses}
   */
   readonly replyToAddresses?: string;
   /**
   * Email subject.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ses_send_email#subject SesSendEmail#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ses_send_email#subject SesSendEmail#subject}
   */
   readonly subject: string;
   /**
   * Email triggering type. 0 (default): non-trigger-based, suitable for marketing emails and non-immediate emails;1: trigger-based, suitable for immediate emails such as emails containing verification codes.If the size of an email exceeds a specified value,the system will automatically choose the non-trigger-based type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ses_send_email#trigger_type SesSendEmail#trigger_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ses_send_email#trigger_type SesSendEmail#trigger_type}
   */
   readonly triggerType?: number;
   /**
   * Unsubscribe link option.  0: Do not add unsubscribe link; 1: English 2: Simplified Chinese;  3: Traditional Chinese; 4: Spanish; 5: French;  6: German; 7: Japanese; 8: Korean;  9: Arabic; 10: Thai.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ses_send_email#unsubscribe SesSendEmail#unsubscribe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ses_send_email#unsubscribe SesSendEmail#unsubscribe}
   */
   readonly unsubscribe?: string;
   /**
   * attachments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ses_send_email#attachments SesSendEmail#attachments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ses_send_email#attachments SesSendEmail#attachments}
   */
   readonly attachments?: SesSendEmailAttachments[] | cdktf.IResolvable;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ses_send_email#template SesSendEmail#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ses_send_email#template SesSendEmail#template}
   */
   readonly template?: SesSendEmailTemplate;
 }
@@ -79,13 +79,13 @@ export interface SesSendEmailAttachments {
   /**
   * Base64-encoded attachment content. You can send attachments of up to 4 MB in the total size.Note: The TencentCloud API supports a request packet of up to 8 MB in size, and the size of the attachmentcontent will increase by 1.5 times after Base64 encoding. Therefore, you need to keep the total size of allattachments below 4 MB. If the entire request exceeds 8 MB, the API will return an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ses_send_email#content SesSendEmail#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ses_send_email#content SesSendEmail#content}
   */
   readonly content: string;
   /**
   * Attachment name, which cannot exceed 255 characters. Some attachment types are not supported. For details, see [Attachment Types.](https://www.tencentcloud.com/document/product/1084/42373?has_map=1).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ses_send_email#file_name SesSendEmail#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ses_send_email#file_name SesSendEmail#file_name}
   */
   readonly fileName: string;
 }
@@ -226,13 +226,13 @@ export interface SesSendEmailTemplate {
   /**
   * Variable parameters in the template. Please use json.dump to format the JSON object into a string type.The object is a set of key-value pairs. Each key denotes a variable, which is represented by {{key}}. The key will be replaced with the correspondingvalue (represented by {{value}}) when sending the email.Note: The parameter value cannot be data of a complex type such as HTML.Example: {name:xxx,age:xx}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ses_send_email#template_data SesSendEmail#template_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ses_send_email#template_data SesSendEmail#template_data}
   */
   readonly templateData: string;
   /**
   * Template ID. If you do not have any template, please create one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ses_send_email#template_id SesSendEmail#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ses_send_email#template_id SesSendEmail#template_id}
   */
   readonly templateId: number;
 }
@@ -339,7 +339,7 @@ export class SesSendEmailTemplateOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ses_send_email tencentcloud_ses_send_email}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ses_send_email tencentcloud_ses_send_email}
 */
 export class SesSendEmail extends cdktf.TerraformResource {
 
@@ -355,7 +355,7 @@ export class SesSendEmail extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SesSendEmail resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SesSendEmail to import
-  * @param importFromId The id of the existing SesSendEmail that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ses_send_email#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SesSendEmail that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ses_send_email#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SesSendEmail to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -367,7 +367,7 @@ export class SesSendEmail extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ses_send_email tencentcloud_ses_send_email} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ses_send_email tencentcloud_ses_send_email} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -378,8 +378,8 @@ export class SesSendEmail extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_ses_send_email',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

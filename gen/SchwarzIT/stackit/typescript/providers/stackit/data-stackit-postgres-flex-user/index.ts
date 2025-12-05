@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/postgres_flex_user
+// https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/postgres_flex_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataStackitPostgresFlexUserConfig extends cdktf.TerraformMetaAr
   /**
   * Specifies the resource ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/postgres_flex_user#id DataStackitPostgresFlexUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/postgres_flex_user#id DataStackitPostgresFlexUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,19 +19,19 @@ export interface DataStackitPostgresFlexUserConfig extends cdktf.TerraformMetaAr
   /**
   * the postgres db flex instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/postgres_flex_user#instance_id DataStackitPostgresFlexUser#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/postgres_flex_user#instance_id DataStackitPostgresFlexUser#instance_id}
   */
   readonly instanceId: string;
   /**
   * The project ID the instance runs in. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/postgres_flex_user#project_id DataStackitPostgresFlexUser#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/postgres_flex_user#project_id DataStackitPostgresFlexUser#project_id}
   */
   readonly projectId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/postgres_flex_user stackit_postgres_flex_user}
+* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/postgres_flex_user stackit_postgres_flex_user}
 */
 export class DataStackitPostgresFlexUser extends cdktf.TerraformDataSource {
 
@@ -47,7 +47,7 @@ export class DataStackitPostgresFlexUser extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataStackitPostgresFlexUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStackitPostgresFlexUser to import
-  * @param importFromId The id of the existing DataStackitPostgresFlexUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/postgres_flex_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStackitPostgresFlexUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/postgres_flex_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStackitPostgresFlexUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -59,7 +59,7 @@ export class DataStackitPostgresFlexUser extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/postgres_flex_user stackit_postgres_flex_user} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/postgres_flex_user stackit_postgres_flex_user} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -70,8 +70,8 @@ export class DataStackitPostgresFlexUser extends cdktf.TerraformDataSource {
       terraformResourceType: 'stackit_postgres_flex_user',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '1.34.3',
-        providerVersionConstraint: '1.34.3'
+        providerVersion: '1.34.4',
+        providerVersionConstraint: '1.34.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/redis_credential
+// https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/redis_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface RedisCredentialConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instance ID the credential belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/redis_credential#instance_id RedisCredential#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/redis_credential#instance_id RedisCredential#instance_id}
   */
   readonly instanceId: string;
   /**
   * Project ID the credential belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/redis_credential#project_id RedisCredential#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/redis_credential#project_id RedisCredential#project_id}
   */
   readonly projectId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/redis_credential stackit_redis_credential}
+* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/redis_credential stackit_redis_credential}
 */
 export class RedisCredential extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class RedisCredential extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RedisCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RedisCredential to import
-  * @param importFromId The id of the existing RedisCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/redis_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RedisCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/redis_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RedisCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class RedisCredential extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/redis_credential stackit_redis_credential} Resource
+  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/redis_credential stackit_redis_credential} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class RedisCredential extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_redis_credential',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '1.34.3',
-        providerVersionConstraint: '1.34.3'
+        providerVersion: '1.34.4',
+        providerVersionConstraint: '1.34.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

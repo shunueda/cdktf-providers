@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster_endpoint
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/kubernetes_cluster_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface KubernetesClusterEndpointConfig extends cdktf.TerraformMetaArgu
   /**
   * Specify cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster_endpoint#cluster_id KubernetesClusterEndpoint#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/kubernetes_cluster_endpoint#cluster_id KubernetesClusterEndpoint#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Open internet access or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster_endpoint#cluster_internet KubernetesClusterEndpoint#cluster_internet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/kubernetes_cluster_endpoint#cluster_internet KubernetesClusterEndpoint#cluster_internet}
   */
   readonly clusterInternet?: boolean | cdktf.IResolvable;
   /**
   * Domain name for cluster Kube-apiserver internet access.  Be careful if you modify value of this parameter, the cluster_external_endpoint value may be changed automatically too.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster_endpoint#cluster_internet_domain KubernetesClusterEndpoint#cluster_internet_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/kubernetes_cluster_endpoint#cluster_internet_domain KubernetesClusterEndpoint#cluster_internet_domain}
   */
   readonly clusterInternetDomain?: string;
   /**
   * Specify security group, NOTE: This argument must not be empty if cluster internet enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster_endpoint#cluster_internet_security_group KubernetesClusterEndpoint#cluster_internet_security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/kubernetes_cluster_endpoint#cluster_internet_security_group KubernetesClusterEndpoint#cluster_internet_security_group}
   */
   readonly clusterInternetSecurityGroup?: string;
   /**
   * Open intranet access or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster_endpoint#cluster_intranet KubernetesClusterEndpoint#cluster_intranet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/kubernetes_cluster_endpoint#cluster_intranet KubernetesClusterEndpoint#cluster_intranet}
   */
   readonly clusterIntranet?: boolean | cdktf.IResolvable;
   /**
   * Domain name for cluster Kube-apiserver intranet access. Be careful if you modify value of this parameter, the pgw_endpoint value may be changed automatically too.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster_endpoint#cluster_intranet_domain KubernetesClusterEndpoint#cluster_intranet_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/kubernetes_cluster_endpoint#cluster_intranet_domain KubernetesClusterEndpoint#cluster_intranet_domain}
   */
   readonly clusterIntranetDomain?: string;
   /**
   * Subnet id who can access this independent cluster, this field must and can only set  when `cluster_intranet` is true. `cluster_intranet_subnet_id` can not modify once be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster_endpoint#cluster_intranet_subnet_id KubernetesClusterEndpoint#cluster_intranet_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/kubernetes_cluster_endpoint#cluster_intranet_subnet_id KubernetesClusterEndpoint#cluster_intranet_subnet_id}
   */
   readonly clusterIntranetSubnetId?: string;
   /**
   * The LB parameter. Only used for public network access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster_endpoint#extensive_parameters KubernetesClusterEndpoint#extensive_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/kubernetes_cluster_endpoint#extensive_parameters KubernetesClusterEndpoint#extensive_parameters}
   */
   readonly extensiveParameters?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster_endpoint#id KubernetesClusterEndpoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/kubernetes_cluster_endpoint#id KubernetesClusterEndpoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,13 +65,13 @@ export interface KubernetesClusterEndpointConfig extends cdktf.TerraformMetaArgu
   /**
   * Security policies for managed cluster internet, like:'192.168.1.0/24' or '113.116.51.27', '0.0.0.0/0' means all. This field can only set when field `cluster_deploy_type` is 'MANAGED_CLUSTER' and `cluster_internet` is true. `managed_cluster_internet_security_policies` can not delete or empty once be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster_endpoint#managed_cluster_internet_security_policies KubernetesClusterEndpoint#managed_cluster_internet_security_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/kubernetes_cluster_endpoint#managed_cluster_internet_security_policies KubernetesClusterEndpoint#managed_cluster_internet_security_policies}
   */
   readonly managedClusterInternetSecurityPolicies?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster_endpoint tencentcloud_kubernetes_cluster_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/kubernetes_cluster_endpoint tencentcloud_kubernetes_cluster_endpoint}
 */
 export class KubernetesClusterEndpoint extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class KubernetesClusterEndpoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesClusterEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesClusterEndpoint to import
-  * @param importFromId The id of the existing KubernetesClusterEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesClusterEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/kubernetes_cluster_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesClusterEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class KubernetesClusterEndpoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster_endpoint tencentcloud_kubernetes_cluster_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/kubernetes_cluster_endpoint tencentcloud_kubernetes_cluster_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class KubernetesClusterEndpoint extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_kubernetes_cluster_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

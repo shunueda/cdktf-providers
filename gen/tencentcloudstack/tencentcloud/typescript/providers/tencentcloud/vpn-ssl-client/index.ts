@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vpn_ssl_client
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vpn_ssl_client
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface VpnSslClientConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vpn_ssl_client#id VpnSslClient#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vpn_ssl_client#id VpnSslClient#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface VpnSslClientConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of ssl vpn client to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vpn_ssl_client#ssl_vpn_client_name VpnSslClient#ssl_vpn_client_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vpn_ssl_client#ssl_vpn_client_name VpnSslClient#ssl_vpn_client_name}
   */
   readonly sslVpnClientName: string;
   /**
   * VPN ssl server id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vpn_ssl_client#ssl_vpn_server_id VpnSslClient#ssl_vpn_server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vpn_ssl_client#ssl_vpn_server_id VpnSslClient#ssl_vpn_server_id}
   */
   readonly sslVpnServerId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vpn_ssl_client tencentcloud_vpn_ssl_client}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vpn_ssl_client tencentcloud_vpn_ssl_client}
 */
 export class VpnSslClient extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class VpnSslClient extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpnSslClient resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpnSslClient to import
-  * @param importFromId The id of the existing VpnSslClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vpn_ssl_client#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpnSslClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vpn_ssl_client#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpnSslClient to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class VpnSslClient extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vpn_ssl_client tencentcloud_vpn_ssl_client} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vpn_ssl_client tencentcloud_vpn_ssl_client} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class VpnSslClient extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_vpn_ssl_client',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

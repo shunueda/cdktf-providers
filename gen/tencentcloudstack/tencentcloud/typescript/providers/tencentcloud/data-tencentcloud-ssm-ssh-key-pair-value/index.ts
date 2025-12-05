@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/ssm_ssh_key_pair_value
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/ssm_ssh_key_pair_value
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudSsmSshKeyPairValueConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/ssm_ssh_key_pair_value#id DataTencentcloudSsmSshKeyPairValue#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/ssm_ssh_key_pair_value#id DataTencentcloudSsmSshKeyPairValue#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataTencentcloudSsmSshKeyPairValueConfig extends cdktf.Terrafor
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/ssm_ssh_key_pair_value#result_output_file DataTencentcloudSsmSshKeyPairValue#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/ssm_ssh_key_pair_value#result_output_file DataTencentcloudSsmSshKeyPairValue#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Secret name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/ssm_ssh_key_pair_value#secret_name DataTencentcloudSsmSshKeyPairValue#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/ssm_ssh_key_pair_value#secret_name DataTencentcloudSsmSshKeyPairValue#secret_name}
   */
   readonly secretName?: string;
   /**
   * The key pair ID is the unique identifier of the key pair in the cloud server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/ssm_ssh_key_pair_value#ssh_key_id DataTencentcloudSsmSshKeyPairValue#ssh_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/ssm_ssh_key_pair_value#ssh_key_id DataTencentcloudSsmSshKeyPairValue#ssh_key_id}
   */
   readonly sshKeyId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/ssm_ssh_key_pair_value tencentcloud_ssm_ssh_key_pair_value}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/ssm_ssh_key_pair_value tencentcloud_ssm_ssh_key_pair_value}
 */
 export class DataTencentcloudSsmSshKeyPairValue extends cdktf.TerraformDataSource {
 
@@ -51,7 +51,7 @@ export class DataTencentcloudSsmSshKeyPairValue extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataTencentcloudSsmSshKeyPairValue resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudSsmSshKeyPairValue to import
-  * @param importFromId The id of the existing DataTencentcloudSsmSshKeyPairValue that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/ssm_ssh_key_pair_value#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudSsmSshKeyPairValue that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/ssm_ssh_key_pair_value#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudSsmSshKeyPairValue to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class DataTencentcloudSsmSshKeyPairValue extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/ssm_ssh_key_pair_value tencentcloud_ssm_ssh_key_pair_value} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/ssm_ssh_key_pair_value tencentcloud_ssm_ssh_key_pair_value} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class DataTencentcloudSsmSshKeyPairValue extends cdktf.TerraformDataSourc
       terraformResourceType: 'tencentcloud_ssm_ssh_key_pair_value',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

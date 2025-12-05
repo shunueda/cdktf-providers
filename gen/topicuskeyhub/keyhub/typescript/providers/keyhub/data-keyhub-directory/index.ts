@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/data-sources/directory
+// https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/data-sources/directory
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataKeyhubDirectoryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/data-sources/directory#additional DataKeyhubDirectory#additional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/data-sources/directory#additional DataKeyhubDirectory#additional}
   */
   readonly additional?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/data-sources/directory#uuid DataKeyhubDirectory#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/data-sources/directory#uuid DataKeyhubDirectory#uuid}
   */
   readonly uuid: string;
 }
@@ -2986,7 +2986,7 @@ export class DataKeyhubDirectoryStatusOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/data-sources/directory keyhub_directory}
+* Represents a {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/data-sources/directory keyhub_directory}
 */
 export class DataKeyhubDirectory extends cdktf.TerraformDataSource {
 
@@ -3002,7 +3002,7 @@ export class DataKeyhubDirectory extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataKeyhubDirectory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataKeyhubDirectory to import
-  * @param importFromId The id of the existing DataKeyhubDirectory that should be imported. Refer to the {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/data-sources/directory#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataKeyhubDirectory that should be imported. Refer to the {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/data-sources/directory#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataKeyhubDirectory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3014,7 +3014,7 @@ export class DataKeyhubDirectory extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/data-sources/directory keyhub_directory} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/data-sources/directory keyhub_directory} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3025,8 +3025,8 @@ export class DataKeyhubDirectory extends cdktf.TerraformDataSource {
       terraformResourceType: 'keyhub_directory',
       terraformGeneratorMetadata: {
         providerName: 'keyhub',
-        providerVersion: '2.44.0',
-        providerVersionConstraint: '2.44.0'
+        providerVersion: '2.45.0',
+        providerVersionConstraint: '2.45.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/physical_replication_stream
+// https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/physical_replication_stream
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface PhysicalReplicationStreamConfig extends cdktf.TerraformMetaArgu
   /**
   * The timestamp at which to perform failover. If not specified, failover will occur at the latest consistent replicated time. Cannot be used with failover_immediately.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/physical_replication_stream#failover_at PhysicalReplicationStream#failover_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/physical_replication_stream#failover_at PhysicalReplicationStream#failover_at}
   */
   readonly failoverAt?: string;
   /**
   * If true, failover will occur immediately at the latest consistent replicated time. Cannot be used with failover_at.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/physical_replication_stream#failover_immediately PhysicalReplicationStream#failover_immediately}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/physical_replication_stream#failover_immediately PhysicalReplicationStream#failover_immediately}
   */
   readonly failoverImmediately?: boolean | cdktf.IResolvable;
   /**
   * ID of the primary cluster, which is the replication source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/physical_replication_stream#primary_cluster_id PhysicalReplicationStream#primary_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/physical_replication_stream#primary_cluster_id PhysicalReplicationStream#primary_cluster_id}
   */
   readonly primaryClusterId: string;
   /**
   * ID of the standby cluster, which is the replication target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/physical_replication_stream#standby_cluster_id PhysicalReplicationStream#standby_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/physical_replication_stream#standby_cluster_id PhysicalReplicationStream#standby_cluster_id}
   */
   readonly standbyClusterId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/physical_replication_stream cockroach_physical_replication_stream}
+* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/physical_replication_stream cockroach_physical_replication_stream}
 */
 export class PhysicalReplicationStream extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class PhysicalReplicationStream extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PhysicalReplicationStream resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PhysicalReplicationStream to import
-  * @param importFromId The id of the existing PhysicalReplicationStream that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/physical_replication_stream#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PhysicalReplicationStream that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/physical_replication_stream#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PhysicalReplicationStream to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class PhysicalReplicationStream extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/physical_replication_stream cockroach_physical_replication_stream} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/physical_replication_stream cockroach_physical_replication_stream} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class PhysicalReplicationStream extends cdktf.TerraformResource {
       terraformResourceType: 'cockroach_physical_replication_stream',
       terraformGeneratorMetadata: {
         providerName: 'cockroach',
-        providerVersion: '1.16.0',
-        providerVersionConstraint: '1.16.0'
+        providerVersion: '1.17.0',
+        providerVersionConstraint: '1.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

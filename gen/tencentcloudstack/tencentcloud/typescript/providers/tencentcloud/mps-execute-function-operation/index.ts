@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_execute_function_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_execute_function_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface MpsExecuteFunctionOperationConfig extends cdktf.TerraformMetaAr
   /**
   * API parameter. Parameter format will depend on the actual function definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_execute_function_operation#function_arg MpsExecuteFunctionOperation#function_arg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_execute_function_operation#function_arg MpsExecuteFunctionOperation#function_arg}
   */
   readonly functionArg: string;
   /**
   * Name of called backend API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_execute_function_operation#function_name MpsExecuteFunctionOperation#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_execute_function_operation#function_name MpsExecuteFunctionOperation#function_name}
   */
   readonly functionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_execute_function_operation#id MpsExecuteFunctionOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_execute_function_operation#id MpsExecuteFunctionOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface MpsExecuteFunctionOperationConfig extends cdktf.TerraformMetaAr
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_execute_function_operation tencentcloud_mps_execute_function_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_execute_function_operation tencentcloud_mps_execute_function_operation}
 */
 export class MpsExecuteFunctionOperation extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class MpsExecuteFunctionOperation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MpsExecuteFunctionOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MpsExecuteFunctionOperation to import
-  * @param importFromId The id of the existing MpsExecuteFunctionOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_execute_function_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MpsExecuteFunctionOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_execute_function_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MpsExecuteFunctionOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class MpsExecuteFunctionOperation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_execute_function_operation tencentcloud_mps_execute_function_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_execute_function_operation tencentcloud_mps_execute_function_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class MpsExecuteFunctionOperation extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mps_execute_function_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/monitor_tmp_tke_cluster_agent
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_tmp_tke_cluster_agent
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface MonitorTmpTkeClusterAgentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/monitor_tmp_tke_cluster_agent#id MonitorTmpTkeClusterAgent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_tmp_tke_cluster_agent#id MonitorTmpTkeClusterAgent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface MonitorTmpTkeClusterAgentConfig extends cdktf.TerraformMetaArgu
   /**
   * Instance Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/monitor_tmp_tke_cluster_agent#instance_id MonitorTmpTkeClusterAgent#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_tmp_tke_cluster_agent#instance_id MonitorTmpTkeClusterAgent#instance_id}
   */
   readonly instanceId: string;
   /**
   * agents block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/monitor_tmp_tke_cluster_agent#agents MonitorTmpTkeClusterAgent#agents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_tmp_tke_cluster_agent#agents MonitorTmpTkeClusterAgent#agents}
   */
   readonly agents: MonitorTmpTkeClusterAgentAgents;
 }
@@ -31,13 +31,13 @@ export interface MonitorTmpTkeClusterAgentAgentsExternalLabels {
   /**
   * Indicator name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/monitor_tmp_tke_cluster_agent#name MonitorTmpTkeClusterAgent#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_tmp_tke_cluster_agent#name MonitorTmpTkeClusterAgent#name}
   */
   readonly name: string;
   /**
   * Index value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/monitor_tmp_tke_cluster_agent#value MonitorTmpTkeClusterAgent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_tmp_tke_cluster_agent#value MonitorTmpTkeClusterAgent#value}
   */
   readonly value?: string;
 }
@@ -181,13 +181,13 @@ export interface MonitorTmpTkeClusterAgentAgentsInClusterPodConfigNodeSelector {
   /**
   * The pod configuration name of the component deployed in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/monitor_tmp_tke_cluster_agent#name MonitorTmpTkeClusterAgent#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_tmp_tke_cluster_agent#name MonitorTmpTkeClusterAgent#name}
   */
   readonly name?: string;
   /**
   * Pod configuration values for components deployed in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/monitor_tmp_tke_cluster_agent#value MonitorTmpTkeClusterAgent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_tmp_tke_cluster_agent#value MonitorTmpTkeClusterAgent#value}
   */
   readonly value?: string;
 }
@@ -334,19 +334,19 @@ export interface MonitorTmpTkeClusterAgentAgentsInClusterPodConfigTolerations {
   /**
   * blemish effect to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/monitor_tmp_tke_cluster_agent#effect MonitorTmpTkeClusterAgent#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_tmp_tke_cluster_agent#effect MonitorTmpTkeClusterAgent#effect}
   */
   readonly effect?: string;
   /**
   * The taint key to which the tolerance applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/monitor_tmp_tke_cluster_agent#key MonitorTmpTkeClusterAgent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_tmp_tke_cluster_agent#key MonitorTmpTkeClusterAgent#key}
   */
   readonly key?: string;
   /**
   * key-value relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/monitor_tmp_tke_cluster_agent#operator MonitorTmpTkeClusterAgent#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_tmp_tke_cluster_agent#operator MonitorTmpTkeClusterAgent#operator}
   */
   readonly operator?: string;
 }
@@ -522,19 +522,19 @@ export interface MonitorTmpTkeClusterAgentAgentsInClusterPodConfig {
   /**
   * Whether to use HostNetWork.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/monitor_tmp_tke_cluster_agent#host_net MonitorTmpTkeClusterAgent#host_net}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_tmp_tke_cluster_agent#host_net MonitorTmpTkeClusterAgent#host_net}
   */
   readonly hostNet: boolean | cdktf.IResolvable;
   /**
   * node_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/monitor_tmp_tke_cluster_agent#node_selector MonitorTmpTkeClusterAgent#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_tmp_tke_cluster_agent#node_selector MonitorTmpTkeClusterAgent#node_selector}
   */
   readonly nodeSelector?: MonitorTmpTkeClusterAgentAgentsInClusterPodConfigNodeSelector[] | cdktf.IResolvable;
   /**
   * tolerations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/monitor_tmp_tke_cluster_agent#tolerations MonitorTmpTkeClusterAgent#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_tmp_tke_cluster_agent#tolerations MonitorTmpTkeClusterAgent#tolerations}
   */
   readonly tolerations?: MonitorTmpTkeClusterAgentAgentsInClusterPodConfigTolerations[] | cdktf.IResolvable;
 }
@@ -675,55 +675,55 @@ export interface MonitorTmpTkeClusterAgentAgents {
   /**
   * An id identify the cluster, like `cls-xxxxxx`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/monitor_tmp_tke_cluster_agent#cluster_id MonitorTmpTkeClusterAgent#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_tmp_tke_cluster_agent#cluster_id MonitorTmpTkeClusterAgent#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Type of cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/monitor_tmp_tke_cluster_agent#cluster_type MonitorTmpTkeClusterAgent#cluster_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_tmp_tke_cluster_agent#cluster_type MonitorTmpTkeClusterAgent#cluster_type}
   */
   readonly clusterType: string;
   /**
   * Whether to enable the public network CLB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/monitor_tmp_tke_cluster_agent#enable_external MonitorTmpTkeClusterAgent#enable_external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_tmp_tke_cluster_agent#enable_external MonitorTmpTkeClusterAgent#enable_external}
   */
   readonly enableExternal: boolean | cdktf.IResolvable;
   /**
   * Whether to install the default collection configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/monitor_tmp_tke_cluster_agent#not_install_basic_scrape MonitorTmpTkeClusterAgent#not_install_basic_scrape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_tmp_tke_cluster_agent#not_install_basic_scrape MonitorTmpTkeClusterAgent#not_install_basic_scrape}
   */
   readonly notInstallBasicScrape?: boolean | cdktf.IResolvable;
   /**
   * Whether to collect indicators, true means drop all indicators, false means collect default indicators.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/monitor_tmp_tke_cluster_agent#not_scrape MonitorTmpTkeClusterAgent#not_scrape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_tmp_tke_cluster_agent#not_scrape MonitorTmpTkeClusterAgent#not_scrape}
   */
   readonly notScrape?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the default pre-aggregation rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/monitor_tmp_tke_cluster_agent#open_default_record MonitorTmpTkeClusterAgent#open_default_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_tmp_tke_cluster_agent#open_default_record MonitorTmpTkeClusterAgent#open_default_record}
   */
   readonly openDefaultRecord?: boolean | cdktf.IResolvable;
   /**
   * Limitation of region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/monitor_tmp_tke_cluster_agent#region MonitorTmpTkeClusterAgent#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_tmp_tke_cluster_agent#region MonitorTmpTkeClusterAgent#region}
   */
   readonly region: string;
   /**
   * external_labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/monitor_tmp_tke_cluster_agent#external_labels MonitorTmpTkeClusterAgent#external_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_tmp_tke_cluster_agent#external_labels MonitorTmpTkeClusterAgent#external_labels}
   */
   readonly externalLabels?: MonitorTmpTkeClusterAgentAgentsExternalLabels[] | cdktf.IResolvable;
   /**
   * in_cluster_pod_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/monitor_tmp_tke_cluster_agent#in_cluster_pod_config MonitorTmpTkeClusterAgent#in_cluster_pod_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_tmp_tke_cluster_agent#in_cluster_pod_config MonitorTmpTkeClusterAgent#in_cluster_pod_config}
   */
   readonly inClusterPodConfig?: MonitorTmpTkeClusterAgentAgentsInClusterPodConfig;
 }
@@ -1037,7 +1037,7 @@ export class MonitorTmpTkeClusterAgentAgentsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/monitor_tmp_tke_cluster_agent tencentcloud_monitor_tmp_tke_cluster_agent}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_tmp_tke_cluster_agent tencentcloud_monitor_tmp_tke_cluster_agent}
 */
 export class MonitorTmpTkeClusterAgent extends cdktf.TerraformResource {
 
@@ -1053,7 +1053,7 @@ export class MonitorTmpTkeClusterAgent extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MonitorTmpTkeClusterAgent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MonitorTmpTkeClusterAgent to import
-  * @param importFromId The id of the existing MonitorTmpTkeClusterAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/monitor_tmp_tke_cluster_agent#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MonitorTmpTkeClusterAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_tmp_tke_cluster_agent#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MonitorTmpTkeClusterAgent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1065,7 +1065,7 @@ export class MonitorTmpTkeClusterAgent extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/monitor_tmp_tke_cluster_agent tencentcloud_monitor_tmp_tke_cluster_agent} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/monitor_tmp_tke_cluster_agent tencentcloud_monitor_tmp_tke_cluster_agent} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1076,8 +1076,8 @@ export class MonitorTmpTkeClusterAgent extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_monitor_tmp_tke_cluster_agent',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

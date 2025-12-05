@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface MpsScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#id MpsSchedule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#id MpsSchedule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,43 @@ export interface MpsScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The directory to save the media processing output file, which must start and end with `/`, such as `/movie/201907/`.If you do not specify this, the file will be saved to the trigger directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#output_dir MpsSchedule#output_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#output_dir MpsSchedule#output_dir}
   */
   readonly outputDir?: string;
   /**
   * Resource ID, you need to ensure that the corresponding resource is open. The default is the account main resource ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#resource_id MpsSchedule#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#resource_id MpsSchedule#resource_id}
   */
   readonly resourceId?: string;
   /**
   * The scheme name (max 128 characters). This name should be unique across your account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#schedule_name MpsSchedule#schedule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#schedule_name MpsSchedule#schedule_name}
   */
   readonly scheduleName: string;
   /**
   * activities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#activities MpsSchedule#activities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#activities MpsSchedule#activities}
   */
   readonly activities: MpsScheduleActivities[] | cdktf.IResolvable;
   /**
   * output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#output_storage MpsSchedule#output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#output_storage MpsSchedule#output_storage}
   */
   readonly outputStorage?: MpsScheduleOutputStorage;
   /**
   * task_notify_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#task_notify_config MpsSchedule#task_notify_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#task_notify_config MpsSchedule#task_notify_config}
   */
   readonly taskNotifyConfig?: MpsScheduleTaskNotifyConfig;
   /**
   * trigger block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#trigger MpsSchedule#trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#trigger MpsSchedule#trigger}
   */
   readonly trigger: MpsScheduleTrigger;
 }
@@ -61,19 +61,19 @@ export interface MpsScheduleActivitiesActivityParaAdaptiveDynamicStreamingTaskAd
   /**
   * The COS bucket of the object to process, such as TopRankVideo-125xxx88.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#bucket MpsSchedule#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#bucket MpsSchedule#bucket}
   */
   readonly bucket: string;
   /**
   * The path of the object to process, such as /movie/201907/WildAnimal.mov.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#object MpsSchedule#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#object MpsSchedule#object}
   */
   readonly object: string;
   /**
   * The region of the COS bucket, such as ap-chongqing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#region MpsSchedule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#region MpsSchedule#region}
   */
   readonly region: string;
 }
@@ -208,31 +208,31 @@ export interface MpsScheduleActivitiesActivityParaAdaptiveDynamicStreamingTaskAd
   /**
   * S3 bucket.Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_bucket MpsSchedule#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_bucket MpsSchedule#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The path of the AWS S3 object.Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_object MpsSchedule#s3_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_object MpsSchedule#s3_object}
   */
   readonly s3Object: string;
   /**
   * The region of the AWS S3 bucket, support:  us-east-1  eu-west-3Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_region MpsSchedule#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_region MpsSchedule#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID required to access the AWS S3 object.Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_secret_id MpsSchedule#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_secret_id MpsSchedule#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to access the AWS S3 object.Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_secret_key MpsSchedule#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_secret_key MpsSchedule#s3_secret_key}
   */
   readonly s3SecretKey?: string;
 }
@@ -425,7 +425,7 @@ export interface MpsScheduleActivitiesActivityParaAdaptiveDynamicStreamingTaskAd
   /**
   * URL of a video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#url MpsSchedule#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#url MpsSchedule#url}
   */
   readonly url: string;
 }
@@ -508,25 +508,25 @@ export interface MpsScheduleActivitiesActivityParaAdaptiveDynamicStreamingTaskAd
   /**
   * The input type. Valid values:  COS:A COS bucket address  URL:A URL  AWS-S3:An AWS S3 bucket address. Currently, this type is only supported for transcoding tasks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#type MpsSchedule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#type MpsSchedule#type}
   */
   readonly type: string;
   /**
   * cos_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#cos_input_info MpsSchedule#cos_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#cos_input_info MpsSchedule#cos_input_info}
   */
   readonly cosInputInfo?: MpsScheduleActivitiesActivityParaAdaptiveDynamicStreamingTaskAddOnSubtitlesSubtitleCosInputInfo;
   /**
   * s3_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_input_info MpsSchedule#s3_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_input_info MpsSchedule#s3_input_info}
   */
   readonly s3InputInfo?: MpsScheduleActivitiesActivityParaAdaptiveDynamicStreamingTaskAddOnSubtitlesSubtitleS3InputInfo;
   /**
   * url_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#url_input_info MpsSchedule#url_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#url_input_info MpsSchedule#url_input_info}
   */
   readonly urlInputInfo?: MpsScheduleActivitiesActivityParaAdaptiveDynamicStreamingTaskAddOnSubtitlesSubtitleUrlInputInfo;
 }
@@ -696,13 +696,13 @@ export interface MpsScheduleActivitiesActivityParaAdaptiveDynamicStreamingTaskAd
   /**
   * The inserting type. Valid values: subtitle-stream:Insert title track close-caption-708:CEA-708 subtitle encode to SEI frame close-caption-608:CEA-608 subtitle encode to SEI frameNote: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#type MpsSchedule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#type MpsSchedule#type}
   */
   readonly type?: string;
   /**
   * subtitle block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#subtitle MpsSchedule#subtitle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#subtitle MpsSchedule#subtitle}
   */
   readonly subtitle?: MpsScheduleActivitiesActivityParaAdaptiveDynamicStreamingTaskAddOnSubtitlesSubtitle;
 }
@@ -849,13 +849,13 @@ export interface MpsScheduleActivitiesActivityParaAdaptiveDynamicStreamingTaskOu
   /**
   * The bucket to which the output file of media processing is saved, such as `TopRankVideo-125xxx88`. If this parameter is left empty, the value of the upper layer will be inherited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#bucket MpsSchedule#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#bucket MpsSchedule#bucket}
   */
   readonly bucket?: string;
   /**
   * The region of the output bucket, such as `ap-chongqing`. If this parameter is left empty, the value of the upper layer will be inherited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#region MpsSchedule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#region MpsSchedule#region}
   */
   readonly region?: string;
 }
@@ -970,25 +970,25 @@ export interface MpsScheduleActivitiesActivityParaAdaptiveDynamicStreamingTaskOu
   /**
   * The AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_bucket MpsSchedule#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_bucket MpsSchedule#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The region of the AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_region MpsSchedule#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_region MpsSchedule#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID required to upload files to the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_secret_id MpsSchedule#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_secret_id MpsSchedule#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to upload files to the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_secret_key MpsSchedule#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_secret_key MpsSchedule#s3_secret_key}
   */
   readonly s3SecretKey?: string;
 }
@@ -1155,19 +1155,19 @@ export interface MpsScheduleActivitiesActivityParaAdaptiveDynamicStreamingTaskOu
   /**
   * The storage type for a media processing output file. Valid values: `COS`: Tencent Cloud COS `AWS-S3`: AWS S3. This type is only supported for AWS tasks, and the output bucket must be in the same region as the bucket of the source file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#type MpsSchedule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#type MpsSchedule#type}
   */
   readonly type: string;
   /**
   * cos_output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#cos_output_storage MpsSchedule#cos_output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#cos_output_storage MpsSchedule#cos_output_storage}
   */
   readonly cosOutputStorage?: MpsScheduleActivitiesActivityParaAdaptiveDynamicStreamingTaskOutputStorageCosOutputStorage;
   /**
   * s3_output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_output_storage MpsSchedule#s3_output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_output_storage MpsSchedule#s3_output_storage}
   */
   readonly s3OutputStorage?: MpsScheduleActivitiesActivityParaAdaptiveDynamicStreamingTaskOutputStorageS3OutputStorage;
 }
@@ -1308,19 +1308,19 @@ export interface MpsScheduleActivitiesActivityParaAdaptiveDynamicStreamingTaskWa
   /**
   * The COS bucket of the object to process, such as `TopRankVideo-125xxx88`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#bucket MpsSchedule#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#bucket MpsSchedule#bucket}
   */
   readonly bucket: string;
   /**
   * The path of the object to process, such as `/movie/201907/WildAnimal.mov`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#object MpsSchedule#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#object MpsSchedule#object}
   */
   readonly object: string;
   /**
   * The region of the COS bucket, such as `ap-chongqing`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#region MpsSchedule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#region MpsSchedule#region}
   */
   readonly region: string;
 }
@@ -1455,31 +1455,31 @@ export interface MpsScheduleActivitiesActivityParaAdaptiveDynamicStreamingTaskWa
   /**
   * The AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_bucket MpsSchedule#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_bucket MpsSchedule#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The path of the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_object MpsSchedule#s3_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_object MpsSchedule#s3_object}
   */
   readonly s3Object: string;
   /**
   * The region of the AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_region MpsSchedule#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_region MpsSchedule#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_secret_id MpsSchedule#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_secret_id MpsSchedule#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_secret_key MpsSchedule#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_secret_key MpsSchedule#s3_secret_key}
   */
   readonly s3SecretKey?: string;
 }
@@ -1672,7 +1672,7 @@ export interface MpsScheduleActivitiesActivityParaAdaptiveDynamicStreamingTaskWa
   /**
   * URL of a video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#url MpsSchedule#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#url MpsSchedule#url}
   */
   readonly url: string;
 }
@@ -1755,25 +1755,25 @@ export interface MpsScheduleActivitiesActivityParaAdaptiveDynamicStreamingTaskWa
   /**
   * The input type. Valid values: `COS`: A COS bucket address.  `URL`: A URL.  `AWS-S3`: An AWS S3 bucket address. Currently, this type is only supported for transcoding tasks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#type MpsSchedule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#type MpsSchedule#type}
   */
   readonly type: string;
   /**
   * cos_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#cos_input_info MpsSchedule#cos_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#cos_input_info MpsSchedule#cos_input_info}
   */
   readonly cosInputInfo?: MpsScheduleActivitiesActivityParaAdaptiveDynamicStreamingTaskWatermarkSetRawParameterImageTemplateImageContentCosInputInfo;
   /**
   * s3_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_input_info MpsSchedule#s3_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_input_info MpsSchedule#s3_input_info}
   */
   readonly s3InputInfo?: MpsScheduleActivitiesActivityParaAdaptiveDynamicStreamingTaskWatermarkSetRawParameterImageTemplateImageContentS3InputInfo;
   /**
   * url_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#url_input_info MpsSchedule#url_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#url_input_info MpsSchedule#url_input_info}
   */
   readonly urlInputInfo?: MpsScheduleActivitiesActivityParaAdaptiveDynamicStreamingTaskWatermarkSetRawParameterImageTemplateImageContentUrlInputInfo;
 }
@@ -1943,25 +1943,25 @@ export interface MpsScheduleActivitiesActivityParaAdaptiveDynamicStreamingTaskWa
   /**
   * Watermark height. % and px formats are supported: If the string ends in %, the `Height` of the watermark will be the specified percentage of the video height; for example, `10%` means that `Height` is 10% of the video height; If the string ends in px, the `Height` of the watermark will be in px; for example, `100px` means that `Height` is 100 px.Default value: 0 px, which means that `Height` will be proportionally scaled according to the aspect ratio of the original watermark image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#height MpsSchedule#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#height MpsSchedule#height}
   */
   readonly height?: string;
   /**
   * Repeat type of an animated watermark. Valid values: `once`: no longer appears after watermark playback ends. `repeat_last_frame`: stays on the last frame after watermark playback ends. `repeat` (default): repeats the playback until the video ends.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#repeat_type MpsSchedule#repeat_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#repeat_type MpsSchedule#repeat_type}
   */
   readonly repeatType?: string;
   /**
   * Watermark width. % and px formats are supported: If the string ends in %, the `Width` of the watermark will be the specified percentage of the video width; for example, `10%` means that `Width` is 10% of the video width; If the string ends in px, the `Width` of the watermark will be in px; for example, `100px` means that `Width` is 100 px.Default value: 10%.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#width MpsSchedule#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#width MpsSchedule#width}
   */
   readonly width?: string;
   /**
   * image_content block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#image_content MpsSchedule#image_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#image_content MpsSchedule#image_content}
   */
   readonly imageContent: MpsScheduleActivitiesActivityParaAdaptiveDynamicStreamingTaskWatermarkSetRawParameterImageTemplateImageContent;
 }
@@ -2131,31 +2131,31 @@ export interface MpsScheduleActivitiesActivityParaAdaptiveDynamicStreamingTaskWa
   /**
   * Origin position, which currently can only be: TopLeft: the origin of coordinates is in the top-left corner of the video, and the origin of the watermark is in the top-left corner of the image or text.Default value: TopLeft.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#coordinate_origin MpsSchedule#coordinate_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#coordinate_origin MpsSchedule#coordinate_origin}
   */
   readonly coordinateOrigin?: string;
   /**
   * Watermark type. Valid values: image: image watermark.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#type MpsSchedule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#type MpsSchedule#type}
   */
   readonly type: string;
   /**
   * The horizontal position of the origin of the watermark relative to the origin of coordinates of the video. % and px formats are supported: If the string ends in %, the `XPos` of the watermark will be the specified percentage of the video width; for example, `10%` means that `XPos` is 10% of the video width; If the string ends in px, the `XPos` of the watermark will be the specified px; for example, `100px` means that `XPos` is 100 px.Default value: 0 px.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#x_pos MpsSchedule#x_pos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#x_pos MpsSchedule#x_pos}
   */
   readonly xPos?: string;
   /**
   * The vertical position of the origin of the watermark relative to the origin of coordinates of the video. % and px formats are supported: If the string ends in %, the `YPos` of the watermark will be the specified percentage of the video height; for example, `10%` means that `YPos` is 10% of the video height; If the string ends in px, the `YPos` of the watermark will be the specified px; for example, `100px` means that `YPos` is 100 px.Default value: 0 px.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#y_pos MpsSchedule#y_pos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#y_pos MpsSchedule#y_pos}
   */
   readonly yPos?: string;
   /**
   * image_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#image_template MpsSchedule#image_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#image_template MpsSchedule#image_template}
   */
   readonly imageTemplate?: MpsScheduleActivitiesActivityParaAdaptiveDynamicStreamingTaskWatermarkSetRawParameterImageTemplate;
 }
@@ -2354,37 +2354,37 @@ export interface MpsScheduleActivitiesActivityParaAdaptiveDynamicStreamingTaskWa
   /**
   * ID of a watermarking template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#definition MpsSchedule#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#definition MpsSchedule#definition}
   */
   readonly definition: number;
   /**
   * End time offset of a watermark in seconds. If this parameter is left empty or 0 is entered, the watermark will exist till the last video frame; If this value is greater than 0 (e.g., n), the watermark will exist till second n; If this value is smaller than 0 (e.g., -n), the watermark will exist till second n before the last video frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#end_time_offset MpsSchedule#end_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#end_time_offset MpsSchedule#end_time_offset}
   */
   readonly endTimeOffset?: number;
   /**
   * Start time offset of a watermark in seconds. If this parameter is left empty or 0 is entered, the watermark will appear upon the first video frame. If this parameter is left empty or 0 is entered, the watermark will appear upon the first video frame; If this value is greater than 0 (e.g., n), the watermark will appear at second n after the first video frame; If this value is smaller than 0 (e.g., -n), the watermark will appear at second n before the last video frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#start_time_offset MpsSchedule#start_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#start_time_offset MpsSchedule#start_time_offset}
   */
   readonly startTimeOffset?: number;
   /**
   * SVG content of up to 2,000,000 characters. This field is required only when the watermark type is `SVG`.SVG watermark is not available for screenshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#svg_content MpsSchedule#svg_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#svg_content MpsSchedule#svg_content}
   */
   readonly svgContent?: string;
   /**
   * Text content of up to 100 characters. This field is required only when the watermark type is text.Text watermark is not available for screenshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#text_content MpsSchedule#text_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#text_content MpsSchedule#text_content}
   */
   readonly textContent?: string;
   /**
   * raw_parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#raw_parameter MpsSchedule#raw_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#raw_parameter MpsSchedule#raw_parameter}
   */
   readonly rawParameter?: MpsScheduleActivitiesActivityParaAdaptiveDynamicStreamingTaskWatermarkSetRawParameter;
 }
@@ -2644,43 +2644,43 @@ export interface MpsScheduleActivitiesActivityParaAdaptiveDynamicStreamingTask {
   /**
   * Adaptive bitrate streaming template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#definition MpsSchedule#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#definition MpsSchedule#definition}
   */
   readonly definition: number;
   /**
   * The relative or absolute output path of the manifest file after being transcoded to adaptive bitrate streaming. If this parameter is left empty, a relative path in the following format will be used by default: `{inputName}_adaptiveDynamicStreaming_{definition}.{format}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#output_object_path MpsSchedule#output_object_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#output_object_path MpsSchedule#output_object_path}
   */
   readonly outputObjectPath?: string;
   /**
   * The relative output path of the segment file after being transcoded to adaptive bitrate streaming (in HLS format only). If this parameter is left empty, a relative path in the following format will be used by default: `{inputName}_adaptiveDynamicStreaming_{definition}_{subStreamNumber}_{segmentNumber}.{format}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#segment_object_name MpsSchedule#segment_object_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#segment_object_name MpsSchedule#segment_object_name}
   */
   readonly segmentObjectName?: string;
   /**
   * The relative output path of the substream file after being transcoded to adaptive bitrate streaming. If this parameter is left empty, a relative path in the following format will be used by default: `{inputName}_adaptiveDynamicStreaming_{definition}_{subStreamNumber}.{format}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#sub_stream_object_name MpsSchedule#sub_stream_object_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#sub_stream_object_name MpsSchedule#sub_stream_object_name}
   */
   readonly subStreamObjectName?: string;
   /**
   * add_on_subtitles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#add_on_subtitles MpsSchedule#add_on_subtitles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#add_on_subtitles MpsSchedule#add_on_subtitles}
   */
   readonly addOnSubtitles?: MpsScheduleActivitiesActivityParaAdaptiveDynamicStreamingTaskAddOnSubtitles[] | cdktf.IResolvable;
   /**
   * output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#output_storage MpsSchedule#output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#output_storage MpsSchedule#output_storage}
   */
   readonly outputStorage?: MpsScheduleActivitiesActivityParaAdaptiveDynamicStreamingTaskOutputStorage;
   /**
   * watermark_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#watermark_set MpsSchedule#watermark_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#watermark_set MpsSchedule#watermark_set}
   */
   readonly watermarkSet?: MpsScheduleActivitiesActivityParaAdaptiveDynamicStreamingTaskWatermarkSet[] | cdktf.IResolvable;
 }
@@ -2937,13 +2937,13 @@ export interface MpsScheduleActivitiesActivityParaAiAnalysisTask {
   /**
   * Video content analysis template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#definition MpsSchedule#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#definition MpsSchedule#definition}
   */
   readonly definition: number;
   /**
   * An extended parameter, whose value is a stringfied JSON.Note: This parameter is for customers with special requirements. It needs to be customized offline.Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#extended_parameter MpsSchedule#extended_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#extended_parameter MpsSchedule#extended_parameter}
   */
   readonly extendedParameter?: string;
 }
@@ -3055,7 +3055,7 @@ export interface MpsScheduleActivitiesActivityParaAiContentReviewTask {
   /**
   * Video content audit template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#definition MpsSchedule#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#definition MpsSchedule#definition}
   */
   readonly definition: number;
 }
@@ -3138,7 +3138,7 @@ export interface MpsScheduleActivitiesActivityParaAiRecognitionTask {
   /**
   * Intelligent video recognition template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#definition MpsSchedule#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#definition MpsSchedule#definition}
   */
   readonly definition: number;
 }
@@ -3221,13 +3221,13 @@ export interface MpsScheduleActivitiesActivityParaAnimatedGraphicTaskOutputStora
   /**
   * The bucket to which the output file of media processing is saved, such as `TopRankVideo-125xxx88`. If this parameter is left empty, the value of the upper layer will be inherited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#bucket MpsSchedule#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#bucket MpsSchedule#bucket}
   */
   readonly bucket?: string;
   /**
   * The region of the output bucket, such as `ap-chongqing`. If this parameter is left empty, the value of the upper layer will be inherited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#region MpsSchedule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#region MpsSchedule#region}
   */
   readonly region?: string;
 }
@@ -3342,25 +3342,25 @@ export interface MpsScheduleActivitiesActivityParaAnimatedGraphicTaskOutputStora
   /**
   * The AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_bucket MpsSchedule#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_bucket MpsSchedule#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The region of the AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_region MpsSchedule#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_region MpsSchedule#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID required to upload files to the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_secret_id MpsSchedule#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_secret_id MpsSchedule#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to upload files to the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_secret_key MpsSchedule#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_secret_key MpsSchedule#s3_secret_key}
   */
   readonly s3SecretKey?: string;
 }
@@ -3527,19 +3527,19 @@ export interface MpsScheduleActivitiesActivityParaAnimatedGraphicTaskOutputStora
   /**
   * The storage type for a media processing output file. Valid values: `COS`: Tencent Cloud COS `AWS-S3`: AWS S3. This type is only supported for AWS tasks, and the output bucket must be in the same region as the bucket of the source file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#type MpsSchedule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#type MpsSchedule#type}
   */
   readonly type: string;
   /**
   * cos_output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#cos_output_storage MpsSchedule#cos_output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#cos_output_storage MpsSchedule#cos_output_storage}
   */
   readonly cosOutputStorage?: MpsScheduleActivitiesActivityParaAnimatedGraphicTaskOutputStorageCosOutputStorage;
   /**
   * s3_output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_output_storage MpsSchedule#s3_output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_output_storage MpsSchedule#s3_output_storage}
   */
   readonly s3OutputStorage?: MpsScheduleActivitiesActivityParaAnimatedGraphicTaskOutputStorageS3OutputStorage;
 }
@@ -3680,31 +3680,31 @@ export interface MpsScheduleActivitiesActivityParaAnimatedGraphicTask {
   /**
   * Animated image generating template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#definition MpsSchedule#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#definition MpsSchedule#definition}
   */
   readonly definition: number;
   /**
   * End time of an animated image in a video in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#end_time_offset MpsSchedule#end_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#end_time_offset MpsSchedule#end_time_offset}
   */
   readonly endTimeOffset: number;
   /**
   * Output path to a generated animated image file, which can be a relative path or an absolute path. If this parameter is left empty, the following relative path will be used by default: `{inputName}_animatedGraphic_{definition}.{format}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#output_object_path MpsSchedule#output_object_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#output_object_path MpsSchedule#output_object_path}
   */
   readonly outputObjectPath?: string;
   /**
   * Start time of an animated image in a video in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#start_time_offset MpsSchedule#start_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#start_time_offset MpsSchedule#start_time_offset}
   */
   readonly startTimeOffset: number;
   /**
   * output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#output_storage MpsSchedule#output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#output_storage MpsSchedule#output_storage}
   */
   readonly outputStorage?: MpsScheduleActivitiesActivityParaAnimatedGraphicTaskOutputStorage;
 }
@@ -3897,25 +3897,25 @@ export interface MpsScheduleActivitiesActivityParaImageSpriteTaskObjectNumberFor
   /**
   * Increment of the `{number}` variable. Default value: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#increment MpsSchedule#increment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#increment MpsSchedule#increment}
   */
   readonly increment?: number;
   /**
   * Start value of the `{number}` variable. Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#initial_value MpsSchedule#initial_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#initial_value MpsSchedule#initial_value}
   */
   readonly initialValue?: number;
   /**
   * Minimum length of the `{number}` variable. A placeholder will be used if the variable length is below the minimum requirement. Default value: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#min_length MpsSchedule#min_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#min_length MpsSchedule#min_length}
   */
   readonly minLength?: number;
   /**
   * Placeholder used when the `{number}` variable length is below the minimum requirement. Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#place_holder MpsSchedule#place_holder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#place_holder MpsSchedule#place_holder}
   */
   readonly placeHolder?: string;
 }
@@ -4088,13 +4088,13 @@ export interface MpsScheduleActivitiesActivityParaImageSpriteTaskOutputStorageCo
   /**
   * The bucket to which the output file of media processing is saved, such as `TopRankVideo-125xxx88`. If this parameter is left empty, the value of the upper layer will be inherited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#bucket MpsSchedule#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#bucket MpsSchedule#bucket}
   */
   readonly bucket?: string;
   /**
   * The region of the output bucket, such as `ap-chongqing`. If this parameter is left empty, the value of the upper layer will be inherited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#region MpsSchedule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#region MpsSchedule#region}
   */
   readonly region?: string;
 }
@@ -4209,25 +4209,25 @@ export interface MpsScheduleActivitiesActivityParaImageSpriteTaskOutputStorageS3
   /**
   * The AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_bucket MpsSchedule#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_bucket MpsSchedule#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The region of the AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_region MpsSchedule#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_region MpsSchedule#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID required to upload files to the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_secret_id MpsSchedule#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_secret_id MpsSchedule#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to upload files to the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_secret_key MpsSchedule#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_secret_key MpsSchedule#s3_secret_key}
   */
   readonly s3SecretKey?: string;
 }
@@ -4394,19 +4394,19 @@ export interface MpsScheduleActivitiesActivityParaImageSpriteTaskOutputStorage {
   /**
   * The storage type for a media processing output file. Valid values: `COS`: Tencent Cloud COS `AWS-S3`: AWS S3. This type is only supported for AWS tasks, and the output bucket must be in the same region as the bucket of the source file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#type MpsSchedule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#type MpsSchedule#type}
   */
   readonly type: string;
   /**
   * cos_output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#cos_output_storage MpsSchedule#cos_output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#cos_output_storage MpsSchedule#cos_output_storage}
   */
   readonly cosOutputStorage?: MpsScheduleActivitiesActivityParaImageSpriteTaskOutputStorageCosOutputStorage;
   /**
   * s3_output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_output_storage MpsSchedule#s3_output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_output_storage MpsSchedule#s3_output_storage}
   */
   readonly s3OutputStorage?: MpsScheduleActivitiesActivityParaImageSpriteTaskOutputStorageS3OutputStorage;
 }
@@ -4547,31 +4547,31 @@ export interface MpsScheduleActivitiesActivityParaImageSpriteTask {
   /**
   * ID of an image sprite generating template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#definition MpsSchedule#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#definition MpsSchedule#definition}
   */
   readonly definition: number;
   /**
   * Output path to a generated image sprite file, which can be a relative path or an absolute path. If this parameter is left empty, the following relative path will be used by default: `{inputName}_imageSprite_{definition}_{number}.{format}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#output_object_path MpsSchedule#output_object_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#output_object_path MpsSchedule#output_object_path}
   */
   readonly outputObjectPath?: string;
   /**
   * Output path to the WebVTT file after an image sprite is generated, which can only be a relative path. If this parameter is left empty, the following relative path will be used by default: `{inputName}_imageSprite_{definition}.{format}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#web_vtt_object_name MpsSchedule#web_vtt_object_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#web_vtt_object_name MpsSchedule#web_vtt_object_name}
   */
   readonly webVttObjectName?: string;
   /**
   * object_number_format block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#object_number_format MpsSchedule#object_number_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#object_number_format MpsSchedule#object_number_format}
   */
   readonly objectNumberFormat?: MpsScheduleActivitiesActivityParaImageSpriteTaskObjectNumberFormat;
   /**
   * output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#output_storage MpsSchedule#output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#output_storage MpsSchedule#output_storage}
   */
   readonly outputStorage?: MpsScheduleActivitiesActivityParaImageSpriteTaskOutputStorage;
 }
@@ -4770,25 +4770,25 @@ export interface MpsScheduleActivitiesActivityParaSampleSnapshotTaskObjectNumber
   /**
   * Increment of the `{number}` variable. Default value: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#increment MpsSchedule#increment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#increment MpsSchedule#increment}
   */
   readonly increment?: number;
   /**
   * Start value of the `{number}` variable. Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#initial_value MpsSchedule#initial_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#initial_value MpsSchedule#initial_value}
   */
   readonly initialValue?: number;
   /**
   * Minimum length of the `{number}` variable. A placeholder will be used if the variable length is below the minimum requirement. Default value: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#min_length MpsSchedule#min_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#min_length MpsSchedule#min_length}
   */
   readonly minLength?: number;
   /**
   * Placeholder used when the `{number}` variable length is below the minimum requirement. Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#place_holder MpsSchedule#place_holder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#place_holder MpsSchedule#place_holder}
   */
   readonly placeHolder?: string;
 }
@@ -4961,13 +4961,13 @@ export interface MpsScheduleActivitiesActivityParaSampleSnapshotTaskOutputStorag
   /**
   * The bucket to which the output file of media processing is saved, such as `TopRankVideo-125xxx88`. If this parameter is left empty, the value of the upper layer will be inherited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#bucket MpsSchedule#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#bucket MpsSchedule#bucket}
   */
   readonly bucket?: string;
   /**
   * The region of the output bucket, such as `ap-chongqing`. If this parameter is left empty, the value of the upper layer will be inherited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#region MpsSchedule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#region MpsSchedule#region}
   */
   readonly region?: string;
 }
@@ -5082,25 +5082,25 @@ export interface MpsScheduleActivitiesActivityParaSampleSnapshotTaskOutputStorag
   /**
   * The AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_bucket MpsSchedule#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_bucket MpsSchedule#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The region of the AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_region MpsSchedule#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_region MpsSchedule#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID required to upload files to the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_secret_id MpsSchedule#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_secret_id MpsSchedule#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to upload files to the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_secret_key MpsSchedule#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_secret_key MpsSchedule#s3_secret_key}
   */
   readonly s3SecretKey?: string;
 }
@@ -5267,19 +5267,19 @@ export interface MpsScheduleActivitiesActivityParaSampleSnapshotTaskOutputStorag
   /**
   * The storage type for a media processing output file. Valid values: `COS`: Tencent Cloud COS `AWS-S3`: AWS S3. This type is only supported for AWS tasks, and the output bucket must be in the same region as the bucket of the source file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#type MpsSchedule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#type MpsSchedule#type}
   */
   readonly type: string;
   /**
   * cos_output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#cos_output_storage MpsSchedule#cos_output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#cos_output_storage MpsSchedule#cos_output_storage}
   */
   readonly cosOutputStorage?: MpsScheduleActivitiesActivityParaSampleSnapshotTaskOutputStorageCosOutputStorage;
   /**
   * s3_output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_output_storage MpsSchedule#s3_output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_output_storage MpsSchedule#s3_output_storage}
   */
   readonly s3OutputStorage?: MpsScheduleActivitiesActivityParaSampleSnapshotTaskOutputStorageS3OutputStorage;
 }
@@ -5420,19 +5420,19 @@ export interface MpsScheduleActivitiesActivityParaSampleSnapshotTaskWatermarkSet
   /**
   * The COS bucket of the object to process, such as `TopRankVideo-125xxx88`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#bucket MpsSchedule#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#bucket MpsSchedule#bucket}
   */
   readonly bucket: string;
   /**
   * The path of the object to process, such as `/movie/201907/WildAnimal.mov`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#object MpsSchedule#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#object MpsSchedule#object}
   */
   readonly object: string;
   /**
   * The region of the COS bucket, such as `ap-chongqing`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#region MpsSchedule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#region MpsSchedule#region}
   */
   readonly region: string;
 }
@@ -5567,31 +5567,31 @@ export interface MpsScheduleActivitiesActivityParaSampleSnapshotTaskWatermarkSet
   /**
   * The AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_bucket MpsSchedule#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_bucket MpsSchedule#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The path of the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_object MpsSchedule#s3_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_object MpsSchedule#s3_object}
   */
   readonly s3Object: string;
   /**
   * The region of the AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_region MpsSchedule#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_region MpsSchedule#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_secret_id MpsSchedule#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_secret_id MpsSchedule#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_secret_key MpsSchedule#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_secret_key MpsSchedule#s3_secret_key}
   */
   readonly s3SecretKey?: string;
 }
@@ -5784,7 +5784,7 @@ export interface MpsScheduleActivitiesActivityParaSampleSnapshotTaskWatermarkSet
   /**
   * URL of a video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#url MpsSchedule#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#url MpsSchedule#url}
   */
   readonly url: string;
 }
@@ -5867,25 +5867,25 @@ export interface MpsScheduleActivitiesActivityParaSampleSnapshotTaskWatermarkSet
   /**
   * The input type. Valid values: `COS`: A COS bucket address.  `URL`: A URL.  `AWS-S3`: An AWS S3 bucket address. Currently, this type is only supported for transcoding tasks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#type MpsSchedule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#type MpsSchedule#type}
   */
   readonly type: string;
   /**
   * cos_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#cos_input_info MpsSchedule#cos_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#cos_input_info MpsSchedule#cos_input_info}
   */
   readonly cosInputInfo?: MpsScheduleActivitiesActivityParaSampleSnapshotTaskWatermarkSetRawParameterImageTemplateImageContentCosInputInfo;
   /**
   * s3_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_input_info MpsSchedule#s3_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_input_info MpsSchedule#s3_input_info}
   */
   readonly s3InputInfo?: MpsScheduleActivitiesActivityParaSampleSnapshotTaskWatermarkSetRawParameterImageTemplateImageContentS3InputInfo;
   /**
   * url_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#url_input_info MpsSchedule#url_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#url_input_info MpsSchedule#url_input_info}
   */
   readonly urlInputInfo?: MpsScheduleActivitiesActivityParaSampleSnapshotTaskWatermarkSetRawParameterImageTemplateImageContentUrlInputInfo;
 }
@@ -6055,25 +6055,25 @@ export interface MpsScheduleActivitiesActivityParaSampleSnapshotTaskWatermarkSet
   /**
   * Watermark height. % and px formats are supported: If the string ends in %, the `Height` of the watermark will be the specified percentage of the video height; for example, `10%` means that `Height` is 10% of the video height; If the string ends in px, the `Height` of the watermark will be in px; for example, `100px` means that `Height` is 100 px.Default value: 0 px, which means that `Height` will be proportionally scaled according to the aspect ratio of the original watermark image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#height MpsSchedule#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#height MpsSchedule#height}
   */
   readonly height?: string;
   /**
   * Repeat type of an animated watermark. Valid values: `once`: no longer appears after watermark playback ends. `repeat_last_frame`: stays on the last frame after watermark playback ends. `repeat` (default): repeats the playback until the video ends.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#repeat_type MpsSchedule#repeat_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#repeat_type MpsSchedule#repeat_type}
   */
   readonly repeatType?: string;
   /**
   * Watermark width. % and px formats are supported: If the string ends in %, the `Width` of the watermark will be the specified percentage of the video width; for example, `10%` means that `Width` is 10% of the video width; If the string ends in px, the `Width` of the watermark will be in px; for example, `100px` means that `Width` is 100 px.Default value: 10%.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#width MpsSchedule#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#width MpsSchedule#width}
   */
   readonly width?: string;
   /**
   * image_content block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#image_content MpsSchedule#image_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#image_content MpsSchedule#image_content}
   */
   readonly imageContent: MpsScheduleActivitiesActivityParaSampleSnapshotTaskWatermarkSetRawParameterImageTemplateImageContent;
 }
@@ -6243,31 +6243,31 @@ export interface MpsScheduleActivitiesActivityParaSampleSnapshotTaskWatermarkSet
   /**
   * Origin position, which currently can only be: TopLeft: the origin of coordinates is in the top-left corner of the video, and the origin of the watermark is in the top-left corner of the image or text.Default value: TopLeft.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#coordinate_origin MpsSchedule#coordinate_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#coordinate_origin MpsSchedule#coordinate_origin}
   */
   readonly coordinateOrigin?: string;
   /**
   * Watermark type. Valid values: image: image watermark.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#type MpsSchedule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#type MpsSchedule#type}
   */
   readonly type: string;
   /**
   * The horizontal position of the origin of the watermark relative to the origin of coordinates of the video. % and px formats are supported: If the string ends in %, the `XPos` of the watermark will be the specified percentage of the video width; for example, `10%` means that `XPos` is 10% of the video width; If the string ends in px, the `XPos` of the watermark will be the specified px; for example, `100px` means that `XPos` is 100 px.Default value: 0 px.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#x_pos MpsSchedule#x_pos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#x_pos MpsSchedule#x_pos}
   */
   readonly xPos?: string;
   /**
   * The vertical position of the origin of the watermark relative to the origin of coordinates of the video. % and px formats are supported: If the string ends in %, the `YPos` of the watermark will be the specified percentage of the video height; for example, `10%` means that `YPos` is 10% of the video height; If the string ends in px, the `YPos` of the watermark will be the specified px; for example, `100px` means that `YPos` is 100 px.Default value: 0 px.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#y_pos MpsSchedule#y_pos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#y_pos MpsSchedule#y_pos}
   */
   readonly yPos?: string;
   /**
   * image_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#image_template MpsSchedule#image_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#image_template MpsSchedule#image_template}
   */
   readonly imageTemplate?: MpsScheduleActivitiesActivityParaSampleSnapshotTaskWatermarkSetRawParameterImageTemplate;
 }
@@ -6466,37 +6466,37 @@ export interface MpsScheduleActivitiesActivityParaSampleSnapshotTaskWatermarkSet
   /**
   * ID of a watermarking template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#definition MpsSchedule#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#definition MpsSchedule#definition}
   */
   readonly definition: number;
   /**
   * End time offset of a watermark in seconds. If this parameter is left empty or 0 is entered, the watermark will exist till the last video frame; If this value is greater than 0 (e.g., n), the watermark will exist till second n; If this value is smaller than 0 (e.g., -n), the watermark will exist till second n before the last video frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#end_time_offset MpsSchedule#end_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#end_time_offset MpsSchedule#end_time_offset}
   */
   readonly endTimeOffset?: number;
   /**
   * Start time offset of a watermark in seconds. If this parameter is left empty or 0 is entered, the watermark will appear upon the first video frame. If this parameter is left empty or 0 is entered, the watermark will appear upon the first video frame; If this value is greater than 0 (e.g., n), the watermark will appear at second n after the first video frame; If this value is smaller than 0 (e.g., -n), the watermark will appear at second n before the last video frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#start_time_offset MpsSchedule#start_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#start_time_offset MpsSchedule#start_time_offset}
   */
   readonly startTimeOffset?: number;
   /**
   * SVG content of up to 2,000,000 characters. This field is required only when the watermark type is `SVG`.SVG watermark is not available for screenshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#svg_content MpsSchedule#svg_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#svg_content MpsSchedule#svg_content}
   */
   readonly svgContent?: string;
   /**
   * Text content of up to 100 characters. This field is required only when the watermark type is text.Text watermark is not available for screenshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#text_content MpsSchedule#text_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#text_content MpsSchedule#text_content}
   */
   readonly textContent?: string;
   /**
   * raw_parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#raw_parameter MpsSchedule#raw_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#raw_parameter MpsSchedule#raw_parameter}
   */
   readonly rawParameter?: MpsScheduleActivitiesActivityParaSampleSnapshotTaskWatermarkSetRawParameter;
 }
@@ -6756,31 +6756,31 @@ export interface MpsScheduleActivitiesActivityParaSampleSnapshotTask {
   /**
   * Sampled screencapturing template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#definition MpsSchedule#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#definition MpsSchedule#definition}
   */
   readonly definition: number;
   /**
   * Output path to a generated sampled screenshot, which can be a relative path or an absolute path. If this parameter is left empty, the following relative path will be used by default: `{inputName}_sampleSnapshot_{definition}_{number}.{format}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#output_object_path MpsSchedule#output_object_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#output_object_path MpsSchedule#output_object_path}
   */
   readonly outputObjectPath?: string;
   /**
   * object_number_format block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#object_number_format MpsSchedule#object_number_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#object_number_format MpsSchedule#object_number_format}
   */
   readonly objectNumberFormat?: MpsScheduleActivitiesActivityParaSampleSnapshotTaskObjectNumberFormat;
   /**
   * output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#output_storage MpsSchedule#output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#output_storage MpsSchedule#output_storage}
   */
   readonly outputStorage?: MpsScheduleActivitiesActivityParaSampleSnapshotTaskOutputStorage;
   /**
   * watermark_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#watermark_set MpsSchedule#watermark_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#watermark_set MpsSchedule#watermark_set}
   */
   readonly watermarkSet?: MpsScheduleActivitiesActivityParaSampleSnapshotTaskWatermarkSet[] | cdktf.IResolvable;
 }
@@ -6979,25 +6979,25 @@ export interface MpsScheduleActivitiesActivityParaSnapshotByTimeOffsetTaskObject
   /**
   * Increment of the `{number}` variable. Default value: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#increment MpsSchedule#increment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#increment MpsSchedule#increment}
   */
   readonly increment?: number;
   /**
   * Start value of the `{number}` variable. Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#initial_value MpsSchedule#initial_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#initial_value MpsSchedule#initial_value}
   */
   readonly initialValue?: number;
   /**
   * Minimum length of the `{number}` variable. A placeholder will be used if the variable length is below the minimum requirement. Default value: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#min_length MpsSchedule#min_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#min_length MpsSchedule#min_length}
   */
   readonly minLength?: number;
   /**
   * Placeholder used when the `{number}` variable length is below the minimum requirement. Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#place_holder MpsSchedule#place_holder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#place_holder MpsSchedule#place_holder}
   */
   readonly placeHolder?: string;
 }
@@ -7170,13 +7170,13 @@ export interface MpsScheduleActivitiesActivityParaSnapshotByTimeOffsetTaskOutput
   /**
   * The bucket to which the output file of media processing is saved, such as `TopRankVideo-125xxx88`. If this parameter is left empty, the value of the upper layer will be inherited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#bucket MpsSchedule#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#bucket MpsSchedule#bucket}
   */
   readonly bucket?: string;
   /**
   * The region of the output bucket, such as `ap-chongqing`. If this parameter is left empty, the value of the upper layer will be inherited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#region MpsSchedule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#region MpsSchedule#region}
   */
   readonly region?: string;
 }
@@ -7291,25 +7291,25 @@ export interface MpsScheduleActivitiesActivityParaSnapshotByTimeOffsetTaskOutput
   /**
   * The AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_bucket MpsSchedule#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_bucket MpsSchedule#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The region of the AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_region MpsSchedule#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_region MpsSchedule#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID required to upload files to the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_secret_id MpsSchedule#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_secret_id MpsSchedule#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to upload files to the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_secret_key MpsSchedule#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_secret_key MpsSchedule#s3_secret_key}
   */
   readonly s3SecretKey?: string;
 }
@@ -7476,19 +7476,19 @@ export interface MpsScheduleActivitiesActivityParaSnapshotByTimeOffsetTaskOutput
   /**
   * The storage type for a media processing output file. Valid values: `COS`: Tencent Cloud COS `AWS-S3`: AWS S3. This type is only supported for AWS tasks, and the output bucket must be in the same region as the bucket of the source file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#type MpsSchedule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#type MpsSchedule#type}
   */
   readonly type: string;
   /**
   * cos_output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#cos_output_storage MpsSchedule#cos_output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#cos_output_storage MpsSchedule#cos_output_storage}
   */
   readonly cosOutputStorage?: MpsScheduleActivitiesActivityParaSnapshotByTimeOffsetTaskOutputStorageCosOutputStorage;
   /**
   * s3_output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_output_storage MpsSchedule#s3_output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_output_storage MpsSchedule#s3_output_storage}
   */
   readonly s3OutputStorage?: MpsScheduleActivitiesActivityParaSnapshotByTimeOffsetTaskOutputStorageS3OutputStorage;
 }
@@ -7629,19 +7629,19 @@ export interface MpsScheduleActivitiesActivityParaSnapshotByTimeOffsetTaskWaterm
   /**
   * The COS bucket of the object to process, such as `TopRankVideo-125xxx88`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#bucket MpsSchedule#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#bucket MpsSchedule#bucket}
   */
   readonly bucket: string;
   /**
   * The path of the object to process, such as `/movie/201907/WildAnimal.mov`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#object MpsSchedule#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#object MpsSchedule#object}
   */
   readonly object: string;
   /**
   * The region of the COS bucket, such as `ap-chongqing`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#region MpsSchedule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#region MpsSchedule#region}
   */
   readonly region: string;
 }
@@ -7776,31 +7776,31 @@ export interface MpsScheduleActivitiesActivityParaSnapshotByTimeOffsetTaskWaterm
   /**
   * The AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_bucket MpsSchedule#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_bucket MpsSchedule#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The path of the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_object MpsSchedule#s3_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_object MpsSchedule#s3_object}
   */
   readonly s3Object: string;
   /**
   * The region of the AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_region MpsSchedule#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_region MpsSchedule#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_secret_id MpsSchedule#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_secret_id MpsSchedule#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_secret_key MpsSchedule#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_secret_key MpsSchedule#s3_secret_key}
   */
   readonly s3SecretKey?: string;
 }
@@ -7993,7 +7993,7 @@ export interface MpsScheduleActivitiesActivityParaSnapshotByTimeOffsetTaskWaterm
   /**
   * URL of a video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#url MpsSchedule#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#url MpsSchedule#url}
   */
   readonly url: string;
 }
@@ -8076,25 +8076,25 @@ export interface MpsScheduleActivitiesActivityParaSnapshotByTimeOffsetTaskWaterm
   /**
   * The input type. Valid values: `COS`: A COS bucket address.  `URL`: A URL.  `AWS-S3`: An AWS S3 bucket address. Currently, this type is only supported for transcoding tasks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#type MpsSchedule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#type MpsSchedule#type}
   */
   readonly type: string;
   /**
   * cos_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#cos_input_info MpsSchedule#cos_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#cos_input_info MpsSchedule#cos_input_info}
   */
   readonly cosInputInfo?: MpsScheduleActivitiesActivityParaSnapshotByTimeOffsetTaskWatermarkSetRawParameterImageTemplateImageContentCosInputInfo;
   /**
   * s3_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_input_info MpsSchedule#s3_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_input_info MpsSchedule#s3_input_info}
   */
   readonly s3InputInfo?: MpsScheduleActivitiesActivityParaSnapshotByTimeOffsetTaskWatermarkSetRawParameterImageTemplateImageContentS3InputInfo;
   /**
   * url_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#url_input_info MpsSchedule#url_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#url_input_info MpsSchedule#url_input_info}
   */
   readonly urlInputInfo?: MpsScheduleActivitiesActivityParaSnapshotByTimeOffsetTaskWatermarkSetRawParameterImageTemplateImageContentUrlInputInfo;
 }
@@ -8264,25 +8264,25 @@ export interface MpsScheduleActivitiesActivityParaSnapshotByTimeOffsetTaskWaterm
   /**
   * Watermark height. % and px formats are supported: If the string ends in %, the `Height` of the watermark will be the specified percentage of the video height; for example, `10%` means that `Height` is 10% of the video height; If the string ends in px, the `Height` of the watermark will be in px; for example, `100px` means that `Height` is 100 px.Default value: 0 px, which means that `Height` will be proportionally scaled according to the aspect ratio of the original watermark image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#height MpsSchedule#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#height MpsSchedule#height}
   */
   readonly height?: string;
   /**
   * Repeat type of an animated watermark. Valid values: `once`: no longer appears after watermark playback ends. `repeat_last_frame`: stays on the last frame after watermark playback ends. `repeat` (default): repeats the playback until the video ends.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#repeat_type MpsSchedule#repeat_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#repeat_type MpsSchedule#repeat_type}
   */
   readonly repeatType?: string;
   /**
   * Watermark width. % and px formats are supported: If the string ends in %, the `Width` of the watermark will be the specified percentage of the video width; for example, `10%` means that `Width` is 10% of the video width; If the string ends in px, the `Width` of the watermark will be in px; for example, `100px` means that `Width` is 100 px.Default value: 10%.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#width MpsSchedule#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#width MpsSchedule#width}
   */
   readonly width?: string;
   /**
   * image_content block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#image_content MpsSchedule#image_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#image_content MpsSchedule#image_content}
   */
   readonly imageContent: MpsScheduleActivitiesActivityParaSnapshotByTimeOffsetTaskWatermarkSetRawParameterImageTemplateImageContent;
 }
@@ -8452,31 +8452,31 @@ export interface MpsScheduleActivitiesActivityParaSnapshotByTimeOffsetTaskWaterm
   /**
   * Origin position, which currently can only be: TopLeft: the origin of coordinates is in the top-left corner of the video, and the origin of the watermark is in the top-left corner of the image or text.Default value: TopLeft.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#coordinate_origin MpsSchedule#coordinate_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#coordinate_origin MpsSchedule#coordinate_origin}
   */
   readonly coordinateOrigin?: string;
   /**
   * Watermark type. Valid values: image: image watermark.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#type MpsSchedule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#type MpsSchedule#type}
   */
   readonly type: string;
   /**
   * The horizontal position of the origin of the watermark relative to the origin of coordinates of the video. % and px formats are supported: If the string ends in %, the `XPos` of the watermark will be the specified percentage of the video width; for example, `10%` means that `XPos` is 10% of the video width; If the string ends in px, the `XPos` of the watermark will be the specified px; for example, `100px` means that `XPos` is 100 px.Default value: 0 px.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#x_pos MpsSchedule#x_pos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#x_pos MpsSchedule#x_pos}
   */
   readonly xPos?: string;
   /**
   * The vertical position of the origin of the watermark relative to the origin of coordinates of the video. % and px formats are supported: If the string ends in %, the `YPos` of the watermark will be the specified percentage of the video height; for example, `10%` means that `YPos` is 10% of the video height; If the string ends in px, the `YPos` of the watermark will be the specified px; for example, `100px` means that `YPos` is 100 px.Default value: 0 px.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#y_pos MpsSchedule#y_pos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#y_pos MpsSchedule#y_pos}
   */
   readonly yPos?: string;
   /**
   * image_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#image_template MpsSchedule#image_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#image_template MpsSchedule#image_template}
   */
   readonly imageTemplate?: MpsScheduleActivitiesActivityParaSnapshotByTimeOffsetTaskWatermarkSetRawParameterImageTemplate;
 }
@@ -8675,37 +8675,37 @@ export interface MpsScheduleActivitiesActivityParaSnapshotByTimeOffsetTaskWaterm
   /**
   * ID of a watermarking template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#definition MpsSchedule#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#definition MpsSchedule#definition}
   */
   readonly definition: number;
   /**
   * End time offset of a watermark in seconds. If this parameter is left empty or 0 is entered, the watermark will exist till the last video frame; If this value is greater than 0 (e.g., n), the watermark will exist till second n; If this value is smaller than 0 (e.g., -n), the watermark will exist till second n before the last video frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#end_time_offset MpsSchedule#end_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#end_time_offset MpsSchedule#end_time_offset}
   */
   readonly endTimeOffset?: number;
   /**
   * Start time offset of a watermark in seconds. If this parameter is left empty or 0 is entered, the watermark will appear upon the first video frame. If this parameter is left empty or 0 is entered, the watermark will appear upon the first video frame; If this value is greater than 0 (e.g., n), the watermark will appear at second n after the first video frame; If this value is smaller than 0 (e.g., -n), the watermark will appear at second n before the last video frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#start_time_offset MpsSchedule#start_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#start_time_offset MpsSchedule#start_time_offset}
   */
   readonly startTimeOffset?: number;
   /**
   * SVG content of up to 2,000,000 characters. This field is required only when the watermark type is `SVG`.SVG watermark is not available for screenshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#svg_content MpsSchedule#svg_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#svg_content MpsSchedule#svg_content}
   */
   readonly svgContent?: string;
   /**
   * Text content of up to 100 characters. This field is required only when the watermark type is text.Text watermark is not available for screenshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#text_content MpsSchedule#text_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#text_content MpsSchedule#text_content}
   */
   readonly textContent?: string;
   /**
   * raw_parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#raw_parameter MpsSchedule#raw_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#raw_parameter MpsSchedule#raw_parameter}
   */
   readonly rawParameter?: MpsScheduleActivitiesActivityParaSnapshotByTimeOffsetTaskWatermarkSetRawParameter;
 }
@@ -8965,37 +8965,37 @@ export interface MpsScheduleActivitiesActivityParaSnapshotByTimeOffsetTask {
   /**
   * ID of a time point screencapturing template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#definition MpsSchedule#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#definition MpsSchedule#definition}
   */
   readonly definition: number;
   /**
   * List of screenshot time points in the format of `s` or `%`: If the string ends in `s`, it means that the time point is in seconds; for example, `3.5s` means that the time point is the 3.5th second; If the string ends in `%`, it means that the time point is the specified percentage of the video duration; for example, `10%` means that the time point is 10% of the video duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#ext_time_offset_set MpsSchedule#ext_time_offset_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#ext_time_offset_set MpsSchedule#ext_time_offset_set}
   */
   readonly extTimeOffsetSet?: string[];
   /**
   * Output path to a generated time point screenshot, which can be a relative path or an absolute path. If this parameter is left empty, the following relative path will be used by default: `{inputName}_snapshotByTimeOffset_{definition}_{number}.{format}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#output_object_path MpsSchedule#output_object_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#output_object_path MpsSchedule#output_object_path}
   */
   readonly outputObjectPath?: string;
   /**
   * object_number_format block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#object_number_format MpsSchedule#object_number_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#object_number_format MpsSchedule#object_number_format}
   */
   readonly objectNumberFormat?: MpsScheduleActivitiesActivityParaSnapshotByTimeOffsetTaskObjectNumberFormat;
   /**
   * output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#output_storage MpsSchedule#output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#output_storage MpsSchedule#output_storage}
   */
   readonly outputStorage?: MpsScheduleActivitiesActivityParaSnapshotByTimeOffsetTaskOutputStorage;
   /**
   * watermark_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#watermark_set MpsSchedule#watermark_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#watermark_set MpsSchedule#watermark_set}
   */
   readonly watermarkSet?: MpsScheduleActivitiesActivityParaSnapshotByTimeOffsetTaskWatermarkSet[] | cdktf.IResolvable;
 }
@@ -9223,19 +9223,19 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskHeadTailParameter
   /**
   * The COS bucket of the object to process, such as `TopRankVideo-125xxx88`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#bucket MpsSchedule#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#bucket MpsSchedule#bucket}
   */
   readonly bucket: string;
   /**
   * The path of the object to process, such as `/movie/201907/WildAnimal.mov`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#object MpsSchedule#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#object MpsSchedule#object}
   */
   readonly object: string;
   /**
   * The region of the COS bucket, such as `ap-chongqing`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#region MpsSchedule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#region MpsSchedule#region}
   */
   readonly region: string;
 }
@@ -9370,31 +9370,31 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskHeadTailParameter
   /**
   * The AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_bucket MpsSchedule#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_bucket MpsSchedule#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The path of the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_object MpsSchedule#s3_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_object MpsSchedule#s3_object}
   */
   readonly s3Object: string;
   /**
   * The region of the AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_region MpsSchedule#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_region MpsSchedule#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_secret_id MpsSchedule#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_secret_id MpsSchedule#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_secret_key MpsSchedule#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_secret_key MpsSchedule#s3_secret_key}
   */
   readonly s3SecretKey?: string;
 }
@@ -9587,7 +9587,7 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskHeadTailParameter
   /**
   * URL of a video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#url MpsSchedule#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#url MpsSchedule#url}
   */
   readonly url: string;
 }
@@ -9670,25 +9670,25 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskHeadTailParameter
   /**
   * The input type. Valid values: `COS`: A COS bucket address.  `URL`: A URL.  `AWS-S3`: An AWS S3 bucket address. Currently, this type is only supported for transcoding tasks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#type MpsSchedule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#type MpsSchedule#type}
   */
   readonly type: string;
   /**
   * cos_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#cos_input_info MpsSchedule#cos_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#cos_input_info MpsSchedule#cos_input_info}
   */
   readonly cosInputInfo?: MpsScheduleActivitiesActivityParaTranscodeTaskHeadTailParameterHeadSetCosInputInfo;
   /**
   * s3_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_input_info MpsSchedule#s3_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_input_info MpsSchedule#s3_input_info}
   */
   readonly s3InputInfo?: MpsScheduleActivitiesActivityParaTranscodeTaskHeadTailParameterHeadSetS3InputInfo;
   /**
   * url_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#url_input_info MpsSchedule#url_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#url_input_info MpsSchedule#url_input_info}
   */
   readonly urlInputInfo?: MpsScheduleActivitiesActivityParaTranscodeTaskHeadTailParameterHeadSetUrlInputInfo;
 }
@@ -9890,19 +9890,19 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskHeadTailParameter
   /**
   * The COS bucket of the object to process, such as `TopRankVideo-125xxx88`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#bucket MpsSchedule#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#bucket MpsSchedule#bucket}
   */
   readonly bucket: string;
   /**
   * The path of the object to process, such as `/movie/201907/WildAnimal.mov`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#object MpsSchedule#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#object MpsSchedule#object}
   */
   readonly object: string;
   /**
   * The region of the COS bucket, such as `ap-chongqing`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#region MpsSchedule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#region MpsSchedule#region}
   */
   readonly region: string;
 }
@@ -10037,31 +10037,31 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskHeadTailParameter
   /**
   * The AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_bucket MpsSchedule#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_bucket MpsSchedule#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The path of the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_object MpsSchedule#s3_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_object MpsSchedule#s3_object}
   */
   readonly s3Object: string;
   /**
   * The region of the AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_region MpsSchedule#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_region MpsSchedule#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_secret_id MpsSchedule#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_secret_id MpsSchedule#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_secret_key MpsSchedule#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_secret_key MpsSchedule#s3_secret_key}
   */
   readonly s3SecretKey?: string;
 }
@@ -10254,7 +10254,7 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskHeadTailParameter
   /**
   * URL of a video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#url MpsSchedule#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#url MpsSchedule#url}
   */
   readonly url: string;
 }
@@ -10337,25 +10337,25 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskHeadTailParameter
   /**
   * The input type. Valid values: `COS`: A COS bucket address.  `URL`: A URL.  `AWS-S3`: An AWS S3 bucket address. Currently, this type is only supported for transcoding tasks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#type MpsSchedule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#type MpsSchedule#type}
   */
   readonly type: string;
   /**
   * cos_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#cos_input_info MpsSchedule#cos_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#cos_input_info MpsSchedule#cos_input_info}
   */
   readonly cosInputInfo?: MpsScheduleActivitiesActivityParaTranscodeTaskHeadTailParameterTailSetCosInputInfo;
   /**
   * s3_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_input_info MpsSchedule#s3_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_input_info MpsSchedule#s3_input_info}
   */
   readonly s3InputInfo?: MpsScheduleActivitiesActivityParaTranscodeTaskHeadTailParameterTailSetS3InputInfo;
   /**
   * url_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#url_input_info MpsSchedule#url_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#url_input_info MpsSchedule#url_input_info}
   */
   readonly urlInputInfo?: MpsScheduleActivitiesActivityParaTranscodeTaskHeadTailParameterTailSetUrlInputInfo;
 }
@@ -10557,13 +10557,13 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskHeadTailParameter
   /**
   * head_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#head_set MpsSchedule#head_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#head_set MpsSchedule#head_set}
   */
   readonly headSet?: MpsScheduleActivitiesActivityParaTranscodeTaskHeadTailParameterHeadSet[] | cdktf.IResolvable;
   /**
   * tail_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#tail_set MpsSchedule#tail_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#tail_set MpsSchedule#tail_set}
   */
   readonly tailSet?: MpsScheduleActivitiesActivityParaTranscodeTaskHeadTailParameterTailSet[] | cdktf.IResolvable;
 }
@@ -10678,43 +10678,43 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskMosaicSet {
   /**
   * Origin position, which currently can only be: TopLeft: the origin of coordinates is in the top-left corner of the video, and the origin of the blur is in the top-left corner of the image or text.Default value: TopLeft.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#coordinate_origin MpsSchedule#coordinate_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#coordinate_origin MpsSchedule#coordinate_origin}
   */
   readonly coordinateOrigin?: string;
   /**
   * End time offset of blur in seconds. If this parameter is left empty or 0 is entered, the blur will exist till the last video frame; If this value is greater than 0 (e.g., n), the blur will exist till second n; If this value is smaller than 0 (e.g., -n), the blur will exist till second n before the last video frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#end_time_offset MpsSchedule#end_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#end_time_offset MpsSchedule#end_time_offset}
   */
   readonly endTimeOffset?: number;
   /**
   * Blur height. % and px formats are supported: If the string ends in %, the `Height` of the blur will be the specified percentage of the video height; for example, `10%` means that `Height` is 10% of the video height; If the string ends in px, the `Height` of the blur will be in px; for example, `100px` means that `Height` is 100 px.Default value: 10%.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#height MpsSchedule#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#height MpsSchedule#height}
   */
   readonly height?: string;
   /**
   * Start time offset of blur in seconds. If this parameter is left empty or 0 is entered, the blur will appear upon the first video frame. If this parameter is left empty or 0 is entered, the blur will appear upon the first video frame; If this value is greater than 0 (e.g., n), the blur will appear at second n after the first video frame; If this value is smaller than 0 (e.g., -n), the blur will appear at second n before the last video frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#start_time_offset MpsSchedule#start_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#start_time_offset MpsSchedule#start_time_offset}
   */
   readonly startTimeOffset?: number;
   /**
   * Blur width. % and px formats are supported: If the string ends in %, the `Width` of the blur will be the specified percentage of the video width; for example, `10%` means that `Width` is 10% of the video width; If the string ends in px, the `Width` of the blur will be in px; for example, `100px` means that `Width` is 100 px.Default value: 10%.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#width MpsSchedule#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#width MpsSchedule#width}
   */
   readonly width?: string;
   /**
   * The horizontal position of the origin of the blur relative to the origin of coordinates of the video. % and px formats are supported: If the string ends in %, the `XPos` of the blur will be the specified percentage of the video width; for example, `10%` means that `XPos` is 10% of the video width; If the string ends in px, the `XPos` of the blur will be the specified px; for example, `100px` means that `XPos` is 100 px.Default value: 0 px.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#x_pos MpsSchedule#x_pos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#x_pos MpsSchedule#x_pos}
   */
   readonly xPos?: string;
   /**
   * Vertical position of the origin of blur relative to the origin of coordinates of video. % and px formats are supported: If the string ends in %, the `YPos` of the blur will be the specified percentage of the video height; for example, `10%` means that `YPos` is 10% of the video height; If the string ends in px, the `YPos` of the blur will be the specified px; for example, `100px` means that `YPos` is 100 px.Default value: 0 px.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#y_pos MpsSchedule#y_pos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#y_pos MpsSchedule#y_pos}
   */
   readonly yPos?: string;
 }
@@ -11006,25 +11006,25 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskObjectNumberForma
   /**
   * Increment of the `{number}` variable. Default value: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#increment MpsSchedule#increment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#increment MpsSchedule#increment}
   */
   readonly increment?: number;
   /**
   * Start value of the `{number}` variable. Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#initial_value MpsSchedule#initial_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#initial_value MpsSchedule#initial_value}
   */
   readonly initialValue?: number;
   /**
   * Minimum length of the `{number}` variable. A placeholder will be used if the variable length is below the minimum requirement. Default value: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#min_length MpsSchedule#min_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#min_length MpsSchedule#min_length}
   */
   readonly minLength?: number;
   /**
   * Placeholder used when the `{number}` variable length is below the minimum requirement. Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#place_holder MpsSchedule#place_holder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#place_holder MpsSchedule#place_holder}
   */
   readonly placeHolder?: string;
 }
@@ -11197,13 +11197,13 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskOutputStorageCosO
   /**
   * The bucket to which the output file of media processing is saved, such as `TopRankVideo-125xxx88`. If this parameter is left empty, the value of the upper layer will be inherited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#bucket MpsSchedule#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#bucket MpsSchedule#bucket}
   */
   readonly bucket?: string;
   /**
   * The region of the output bucket, such as `ap-chongqing`. If this parameter is left empty, the value of the upper layer will be inherited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#region MpsSchedule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#region MpsSchedule#region}
   */
   readonly region?: string;
 }
@@ -11318,25 +11318,25 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskOutputStorageS3Ou
   /**
   * The AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_bucket MpsSchedule#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_bucket MpsSchedule#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The region of the AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_region MpsSchedule#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_region MpsSchedule#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID required to upload files to the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_secret_id MpsSchedule#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_secret_id MpsSchedule#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to upload files to the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_secret_key MpsSchedule#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_secret_key MpsSchedule#s3_secret_key}
   */
   readonly s3SecretKey?: string;
 }
@@ -11503,19 +11503,19 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskOutputStorage {
   /**
   * The storage type for a media processing output file. Valid values: `COS`: Tencent Cloud COS `AWS-S3`: AWS S3. This type is only supported for AWS tasks, and the output bucket must be in the same region as the bucket of the source file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#type MpsSchedule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#type MpsSchedule#type}
   */
   readonly type: string;
   /**
   * cos_output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#cos_output_storage MpsSchedule#cos_output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#cos_output_storage MpsSchedule#cos_output_storage}
   */
   readonly cosOutputStorage?: MpsScheduleActivitiesActivityParaTranscodeTaskOutputStorageCosOutputStorage;
   /**
   * s3_output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_output_storage MpsSchedule#s3_output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_output_storage MpsSchedule#s3_output_storage}
   */
   readonly s3OutputStorage?: MpsScheduleActivitiesActivityParaTranscodeTaskOutputStorageS3OutputStorage;
 }
@@ -11656,19 +11656,19 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskOverrideParameter
   /**
   * The COS bucket of the object to process, such as TopRankVideo-125xxx88.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#bucket MpsSchedule#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#bucket MpsSchedule#bucket}
   */
   readonly bucket: string;
   /**
   * The path of the object to process, such as /movie/201907/WildAnimal.mov.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#object MpsSchedule#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#object MpsSchedule#object}
   */
   readonly object: string;
   /**
   * The region of the COS bucket, such as ap-chongqing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#region MpsSchedule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#region MpsSchedule#region}
   */
   readonly region: string;
 }
@@ -11803,31 +11803,31 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskOverrideParameter
   /**
   * S3 bucket.Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_bucket MpsSchedule#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_bucket MpsSchedule#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The path of the AWS S3 object.Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_object MpsSchedule#s3_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_object MpsSchedule#s3_object}
   */
   readonly s3Object: string;
   /**
   * The region of the AWS S3 bucket, support:  us-east-1  eu-west-3Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_region MpsSchedule#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_region MpsSchedule#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID required to access the AWS S3 object.Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_secret_id MpsSchedule#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_secret_id MpsSchedule#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to access the AWS S3 object.Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_secret_key MpsSchedule#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_secret_key MpsSchedule#s3_secret_key}
   */
   readonly s3SecretKey?: string;
 }
@@ -12020,7 +12020,7 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskOverrideParameter
   /**
   * URL of a video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#url MpsSchedule#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#url MpsSchedule#url}
   */
   readonly url: string;
 }
@@ -12103,25 +12103,25 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskOverrideParameter
   /**
   * The input type. Valid values:  `COS`:A COS bucket address. `URL`:A URL. `AWS-S3`:An AWS S3 bucket address. Currently, this type is only supported for transcoding tasks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#type MpsSchedule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#type MpsSchedule#type}
   */
   readonly type: string;
   /**
   * cos_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#cos_input_info MpsSchedule#cos_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#cos_input_info MpsSchedule#cos_input_info}
   */
   readonly cosInputInfo?: MpsScheduleActivitiesActivityParaTranscodeTaskOverrideParameterAddOnSubtitlesSubtitleCosInputInfo;
   /**
   * s3_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_input_info MpsSchedule#s3_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_input_info MpsSchedule#s3_input_info}
   */
   readonly s3InputInfo?: MpsScheduleActivitiesActivityParaTranscodeTaskOverrideParameterAddOnSubtitlesSubtitleS3InputInfo;
   /**
   * url_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#url_input_info MpsSchedule#url_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#url_input_info MpsSchedule#url_input_info}
   */
   readonly urlInputInfo?: MpsScheduleActivitiesActivityParaTranscodeTaskOverrideParameterAddOnSubtitlesSubtitleUrlInputInfo;
 }
@@ -12291,13 +12291,13 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskOverrideParameter
   /**
   * The inserting type. Valid values: `subtitle-stream`:Insert title track. `close-caption-708`:CEA-708 subtitle encode to SEI frame. `close-caption-608`:CEA-608 subtitle encode to SEI frame. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#type MpsSchedule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#type MpsSchedule#type}
   */
   readonly type?: string;
   /**
   * subtitle block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#subtitle MpsSchedule#subtitle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#subtitle MpsSchedule#subtitle}
   */
   readonly subtitle?: MpsScheduleActivitiesActivityParaTranscodeTaskOverrideParameterAddOnSubtitlesSubtitle;
 }
@@ -12444,19 +12444,19 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskOverrideParameter
   /**
   * The COS bucket of the object to process, such as `TopRankVideo-125xxx88`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#bucket MpsSchedule#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#bucket MpsSchedule#bucket}
   */
   readonly bucket: string;
   /**
   * The path of the object to process, such as `/movie/201907/WildAnimal.mov`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#object MpsSchedule#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#object MpsSchedule#object}
   */
   readonly object: string;
   /**
   * The region of the COS bucket, such as `ap-chongqing`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#region MpsSchedule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#region MpsSchedule#region}
   */
   readonly region: string;
 }
@@ -12591,31 +12591,31 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskOverrideParameter
   /**
   * The AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_bucket MpsSchedule#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_bucket MpsSchedule#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The path of the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_object MpsSchedule#s3_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_object MpsSchedule#s3_object}
   */
   readonly s3Object: string;
   /**
   * The region of the AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_region MpsSchedule#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_region MpsSchedule#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_secret_id MpsSchedule#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_secret_id MpsSchedule#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_secret_key MpsSchedule#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_secret_key MpsSchedule#s3_secret_key}
   */
   readonly s3SecretKey?: string;
 }
@@ -12808,7 +12808,7 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskOverrideParameter
   /**
   * URL of a video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#url MpsSchedule#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#url MpsSchedule#url}
   */
   readonly url: string;
 }
@@ -12891,25 +12891,25 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskOverrideParameter
   /**
   * The input type. Valid values: `COS`: A COS bucket address.  `URL`: A URL.  `AWS-S3`: An AWS S3 bucket address. Currently, this type is only supported for transcoding tasks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#type MpsSchedule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#type MpsSchedule#type}
   */
   readonly type: string;
   /**
   * cos_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#cos_input_info MpsSchedule#cos_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#cos_input_info MpsSchedule#cos_input_info}
   */
   readonly cosInputInfo?: MpsScheduleActivitiesActivityParaTranscodeTaskOverrideParameterAddonAudioStreamCosInputInfo;
   /**
   * s3_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_input_info MpsSchedule#s3_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_input_info MpsSchedule#s3_input_info}
   */
   readonly s3InputInfo?: MpsScheduleActivitiesActivityParaTranscodeTaskOverrideParameterAddonAudioStreamS3InputInfo;
   /**
   * url_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#url_input_info MpsSchedule#url_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#url_input_info MpsSchedule#url_input_info}
   */
   readonly urlInputInfo?: MpsScheduleActivitiesActivityParaTranscodeTaskOverrideParameterAddonAudioStreamUrlInputInfo;
 }
@@ -13111,31 +13111,31 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskOverrideParameter
   /**
   * Audio channel system. Valid values: 1: Mono 2: Dual 6: StereoWhen the media is packaged in audio format (FLAC, OGG, MP3, M4A), the sound channel cannot be set to stereo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#audio_channel MpsSchedule#audio_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#audio_channel MpsSchedule#audio_channel}
   */
   readonly audioChannel?: number;
   /**
   * Audio stream bitrate in Kbps. Value range: 0 and [26, 256]. If the value is 0, the bitrate of the audio stream will be the same as that of the original audio.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#bitrate MpsSchedule#bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#bitrate MpsSchedule#bitrate}
   */
   readonly bitrate?: number;
   /**
   * Audio stream codec.When the outer `Container` parameter is `mp3`, the valid value is: libmp3lame.When the outer `Container` parameter is `ogg` or `flac`, the valid value is: flac.When the outer `Container` parameter is `m4a`, the valid values include: libfdk_aac; libmp3lame; ac3.When the outer `Container` parameter is `mp4` or `flv`, the valid values include: libfdk_aac: More suitable for mp4; libmp3lame: More suitable for flv; mp2.When the outer `Container` parameter is `hls`, the valid values include: libfdk_aac; libmp3lame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#codec MpsSchedule#codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#codec MpsSchedule#codec}
   */
   readonly codec?: string;
   /**
   * Audio stream sample rate. Valid values: 32,000 44,100 48,000In Hz.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#sample_rate MpsSchedule#sample_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#sample_rate MpsSchedule#sample_rate}
   */
   readonly sampleRate?: number;
   /**
   * The audio tracks to retain. All audio tracks are retained by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#stream_selects MpsSchedule#stream_selects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#stream_selects MpsSchedule#stream_selects}
   */
   readonly streamSelects?: number[];
 }
@@ -13337,37 +13337,37 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskOverrideParameter
   /**
   * The text transparency. Value range: 0-1. 0: Completely transparent 1: Completely opaqueDefault value: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#font_alpha MpsSchedule#font_alpha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#font_alpha MpsSchedule#font_alpha}
   */
   readonly fontAlpha?: number;
   /**
   * The font color in 0xRRGGBB format. Default value: 0xFFFFFF (white).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#font_color MpsSchedule#font_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#font_color MpsSchedule#font_color}
   */
   readonly fontColor?: string;
   /**
   * The font size (pixels). If this is not specified, the font size in the subtitle file will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#font_size MpsSchedule#font_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#font_size MpsSchedule#font_size}
   */
   readonly fontSize?: string;
   /**
   * The font type. Valid values: `hei.ttf` `song.ttf` `simkai.ttf` `arial.ttf` (for English only). The default is `hei.ttf`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#font_type MpsSchedule#font_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#font_type MpsSchedule#font_type}
   */
   readonly fontType?: string;
   /**
   * The URL of the subtitles to add to the video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#path MpsSchedule#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#path MpsSchedule#path}
   */
   readonly path?: string;
   /**
   * The subtitle track to add to the video. If both `Path` and `StreamIndex` are specified, `Path` will be used. You need to specify at least one of the two parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#stream_index MpsSchedule#stream_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#stream_index MpsSchedule#stream_index}
   */
   readonly streamIndex?: number;
 }
@@ -13598,13 +13598,13 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskOverrideParameter
   /**
   * Maximum bitrate. If this parameter is left empty, no modification will be made.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#max_video_bitrate MpsSchedule#max_video_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#max_video_bitrate MpsSchedule#max_video_bitrate}
   */
   readonly maxVideoBitrate?: number;
   /**
   * TESHD type. Valid values: TEHD-100: TESHD-100.If this parameter is left blank, no modification will be made.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#type MpsSchedule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#type MpsSchedule#type}
   */
   readonly type?: string;
 }
@@ -13719,61 +13719,61 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskOverrideParameter
   /**
   * Bitrate of a video stream in Kbps. Value range: 0 and [128, 35,000].If the value is 0, the bitrate of the video will be the same as that of the source video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#bitrate MpsSchedule#bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#bitrate MpsSchedule#bitrate}
   */
   readonly bitrate?: number;
   /**
   * The video codec. Valid values: libx264: H.264 libx265: H.265 av1: AOMedia Video 1Note: You must specify a resolution (not higher than 640 x 480) if the H.265 codec is used.Note: You can only use the AOMedia Video 1 codec for MP4 files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#codec MpsSchedule#codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#codec MpsSchedule#codec}
   */
   readonly codec?: string;
   /**
   * Whether to enable adaptive encoding. Valid values: 0: Disable 1: EnableDefault value: 0. If this parameter is set to `1`, multiple streams with different resolutions and bitrates will be generated automatically. The highest resolution, bitrate, and quality of the streams are determined by the values of `width` and `height`, `Bitrate`, and `Vcrf` in `VideoTemplate` respectively. If these parameters are not set in `VideoTemplate`, the highest resolution generated will be the same as that of the source video, and the highest video quality will be close to VMAF 95. To use this parameter or learn about the billing details of adaptive encoding, please contact your sales rep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#content_adapt_stream MpsSchedule#content_adapt_stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#content_adapt_stream MpsSchedule#content_adapt_stream}
   */
   readonly contentAdaptStream?: number;
   /**
   * Fill type. Fill refers to the way of processing a screenshot when its aspect ratio is different from that of the source video. The following fill types are supported:  stretch: stretch. The screenshot will be stretched frame by frame to match the aspect ratio of the source video, which may make the screenshot shorter or longer; black: fill with black. This option retains the aspect ratio of the source video for the screenshot and fills the unmatched area with black color blocks. white: fill with white. This option retains the aspect ratio of the source video for the screenshot and fills the unmatched area with white color blocks. gauss: fill with Gaussian blur. This option retains the aspect ratio of the source video for the screenshot and fills the unmatched area with Gaussian blur.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#fill_type MpsSchedule#fill_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#fill_type MpsSchedule#fill_type}
   */
   readonly fillType?: string;
   /**
   * Video frame rate in Hz. Value range: [0, 100].If the value is 0, the frame rate will be the same as that of the source video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#fps MpsSchedule#fps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#fps MpsSchedule#fps}
   */
   readonly fps?: number;
   /**
   * Frame interval between I keyframes. Value range: 0 and [1,100000]. If this parameter is 0, the system will automatically set the GOP length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#gop MpsSchedule#gop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#gop MpsSchedule#gop}
   */
   readonly gop?: number;
   /**
   * Maximum value of the height (or short side) of a video stream in px. Value range: 0 and [128, 4,096].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#height MpsSchedule#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#height MpsSchedule#height}
   */
   readonly height?: number;
   /**
   * Resolution adaption. Valid values: open: Enabled. When resolution adaption is enabled, `Width` indicates the long side of a video, while `Height` indicates the short side. close: Disabled. When resolution adaption is disabled, `Width` indicates the width of a video, while `Height` indicates the height.Note: When resolution adaption is enabled, `Width` cannot be smaller than `Height`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#resolution_adaptive MpsSchedule#resolution_adaptive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#resolution_adaptive MpsSchedule#resolution_adaptive}
   */
   readonly resolutionAdaptive?: string;
   /**
   * The control factor of video constant bitrate. Value range: [0, 51]. This parameter will be disabled if you enter `0`.It is not recommended to specify this parameter if there are no special requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#vcrf MpsSchedule#vcrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#vcrf MpsSchedule#vcrf}
   */
   readonly vcrf?: number;
   /**
   * Maximum value of the width (or long side) of a video stream in px. Value range: 0 and [128, 4,096]. If both `Width` and `Height` are 0, the resolution will be the same as that of the source video; If `Width` is 0, but `Height` is not 0, `Width` will be proportionally scaled; If `Width` is not 0, but `Height` is 0, `Height` will be proportionally scaled; If both `Width` and `Height` are not 0, the custom resolution will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#width MpsSchedule#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#width MpsSchedule#width}
   */
   readonly width?: number;
 }
@@ -14120,61 +14120,61 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskOverrideParameter
   /**
   * Container format. Valid values: mp4, flv, hls, mp3, flac, ogg, and m4a; mp3, flac, ogg, and m4a are formats of audio files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#container MpsSchedule#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#container MpsSchedule#container}
   */
   readonly container?: string;
   /**
   * Whether to remove audio data. Valid values: 0: retain 1: remove.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#remove_audio MpsSchedule#remove_audio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#remove_audio MpsSchedule#remove_audio}
   */
   readonly removeAudio?: number;
   /**
   * Whether to remove video data. Valid values: 0: retain 1: remove.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#remove_video MpsSchedule#remove_video}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#remove_video MpsSchedule#remove_video}
   */
   readonly removeVideo?: number;
   /**
   * Transcoding extension field.Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#std_ext_info MpsSchedule#std_ext_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#std_ext_info MpsSchedule#std_ext_info}
   */
   readonly stdExtInfo?: string;
   /**
   * add_on_subtitles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#add_on_subtitles MpsSchedule#add_on_subtitles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#add_on_subtitles MpsSchedule#add_on_subtitles}
   */
   readonly addOnSubtitles?: MpsScheduleActivitiesActivityParaTranscodeTaskOverrideParameterAddOnSubtitles[] | cdktf.IResolvable;
   /**
   * addon_audio_stream block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#addon_audio_stream MpsSchedule#addon_audio_stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#addon_audio_stream MpsSchedule#addon_audio_stream}
   */
   readonly addonAudioStream?: MpsScheduleActivitiesActivityParaTranscodeTaskOverrideParameterAddonAudioStream[] | cdktf.IResolvable;
   /**
   * audio_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#audio_template MpsSchedule#audio_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#audio_template MpsSchedule#audio_template}
   */
   readonly audioTemplate?: MpsScheduleActivitiesActivityParaTranscodeTaskOverrideParameterAudioTemplate;
   /**
   * subtitle_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#subtitle_template MpsSchedule#subtitle_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#subtitle_template MpsSchedule#subtitle_template}
   */
   readonly subtitleTemplate?: MpsScheduleActivitiesActivityParaTranscodeTaskOverrideParameterSubtitleTemplate;
   /**
   * tehd_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#tehd_config MpsSchedule#tehd_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#tehd_config MpsSchedule#tehd_config}
   */
   readonly tehdConfig?: MpsScheduleActivitiesActivityParaTranscodeTaskOverrideParameterTehdConfig;
   /**
   * video_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#video_template MpsSchedule#video_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#video_template MpsSchedule#video_template}
   */
   readonly videoTemplate?: MpsScheduleActivitiesActivityParaTranscodeTaskOverrideParameterVideoTemplate;
 }
@@ -14521,25 +14521,25 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskRawParameterAudio
   /**
   * Audio channel system. Valid values: 1: Mono 2: Dual 6: StereoWhen the media is packaged in audio format (FLAC, OGG, MP3, M4A), the sound channel cannot be set to stereo.Default value: 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#audio_channel MpsSchedule#audio_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#audio_channel MpsSchedule#audio_channel}
   */
   readonly audioChannel?: number;
   /**
   * Audio stream bitrate in Kbps. Value range: 0 and [26, 256].If the value is 0, the bitrate of the audio stream will be the same as that of the original audio.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#bitrate MpsSchedule#bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#bitrate MpsSchedule#bitrate}
   */
   readonly bitrate: number;
   /**
   * Audio stream codec.When the outer `Container` parameter is `mp3`, the valid value is: libmp3lame.When the outer `Container` parameter is `ogg` or `flac`, the valid value is: flac.When the outer `Container` parameter is `m4a`, the valid values include: libfdk_aac; libmp3lame; ac3.When the outer `Container` parameter is `mp4` or `flv`, the valid values include: libfdk_aac: more suitable for mp4; libmp3lame: more suitable for flv.When the outer `Container` parameter is `hls`, the valid values include: libfdk_aac; libmp3lame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#codec MpsSchedule#codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#codec MpsSchedule#codec}
   */
   readonly codec: string;
   /**
   * Audio stream sample rate. Valid values: 32,000 44,100 48,000In Hz.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#sample_rate MpsSchedule#sample_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#sample_rate MpsSchedule#sample_rate}
   */
   readonly sampleRate: number;
 }
@@ -14703,13 +14703,13 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskRawParameterTehdC
   /**
   * Maximum bitrate, which is valid when `Type` is `TESHD`.If this parameter is left empty or 0 is entered, there will be no upper limit for bitrate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#max_video_bitrate MpsSchedule#max_video_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#max_video_bitrate MpsSchedule#max_video_bitrate}
   */
   readonly maxVideoBitrate?: number;
   /**
   * TESHD type. Valid values: TEHD-100: TESHD-100.If this parameter is left empty, TESHD will not be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#type MpsSchedule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#type MpsSchedule#type}
   */
   readonly type: string;
 }
@@ -14821,55 +14821,55 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskRawParameterVideo
   /**
   * The video bitrate (Kbps). Value range: 0 and [128, 35000].If the value is 0, the bitrate of the video will be the same as that of the source video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#bitrate MpsSchedule#bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#bitrate MpsSchedule#bitrate}
   */
   readonly bitrate: number;
   /**
   * The video codec. Valid values: `libx264`: H.264 `libx265`: H.265 `av1`: AOMedia Video 1Note: You must specify a resolution (not higher than 640 x 480) if the H.265 codec is used.Note: You can only use the AOMedia Video 1 codec for MP4 files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#codec MpsSchedule#codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#codec MpsSchedule#codec}
   */
   readonly codec: string;
   /**
   * The fill mode, which indicates how a video is resized when the video's original aspect ratio is different from the target aspect ratio. Valid values: stretch: Stretch the image frame by frame to fill the entire screen. The video image may become squashed or stretched after transcoding. black: Keep the image&#39;s original aspect ratio and fill the blank space with black bars. white: Keep the image's original aspect ratio and fill the blank space with white bars. gauss: Keep the image's original aspect ratio and apply Gaussian blur to the blank space.Default value: black.Note: Only `stretch` and `black` are supported for adaptive bitrate streaming.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#fill_type MpsSchedule#fill_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#fill_type MpsSchedule#fill_type}
   */
   readonly fillType?: string;
   /**
   * The video frame rate (Hz). Value range: [0, 100].If the value is 0, the frame rate will be the same as that of the source video.Note: For adaptive bitrate streaming, the value range of this parameter is [0, 60].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#fps MpsSchedule#fps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#fps MpsSchedule#fps}
   */
   readonly fps: number;
   /**
   * Frame interval between I keyframes. Value range: 0 and [1,100000].If this parameter is 0 or left empty, the system will automatically set the GOP length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#gop MpsSchedule#gop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#gop MpsSchedule#gop}
   */
   readonly gop?: number;
   /**
   * Maximum value of the height (or short side) of a video stream in px. Value range: 0 and [128, 4,096]. If both `Width` and `Height` are 0, the resolution will be the same as that of the source video; If `Width` is 0, but `Height` is not 0, `Width` will be proportionally scaled; If `Width` is not 0, but `Height` is 0, `Height` will be proportionally scaled; If both `Width` and `Height` are not 0, the custom resolution will be used.Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#height MpsSchedule#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#height MpsSchedule#height}
   */
   readonly height?: number;
   /**
   * Resolution adaption. Valid values: open: Enabled. When resolution adaption is enabled, `Width` indicates the long side of a video, while `Height` indicates the short side. close: Disabled. When resolution adaption is disabled, `Width` indicates the width of a video, while `Height` indicates the height.Default value: open.Note: When resolution adaption is enabled, `Width` cannot be smaller than `Height`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#resolution_adaptive MpsSchedule#resolution_adaptive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#resolution_adaptive MpsSchedule#resolution_adaptive}
   */
   readonly resolutionAdaptive?: string;
   /**
   * The control factor of video constant bitrate. Value range: [1, 51]If this parameter is specified, CRF (a bitrate control method) will be used for transcoding. (Video bitrate will no longer take effect.)It is not recommended to specify this parameter if there are no special requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#vcrf MpsSchedule#vcrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#vcrf MpsSchedule#vcrf}
   */
   readonly vcrf?: number;
   /**
   * Maximum value of the width (or long side) of a video stream in px. Value range: 0 and [128, 4,096]. If both `Width` and `Height` are 0, the resolution will be the same as that of the source video; If `Width` is 0, but `Height` is not 0, `Width` will be proportionally scaled; If `Width` is not 0, but `Height` is 0, `Height` will be proportionally scaled; If both `Width` and `Height` are not 0, the custom resolution will be used.Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#width MpsSchedule#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#width MpsSchedule#width}
   */
   readonly width?: number;
 }
@@ -15178,37 +15178,37 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskRawParameter {
   /**
   * Container. Valid values: mp4; flv; hls; mp3; flac; ogg; m4a. Among them, mp3, flac, ogg, and m4a are for audio files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#container MpsSchedule#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#container MpsSchedule#container}
   */
   readonly container: string;
   /**
   * Whether to remove audio data. Valid values: 0: retain; 1: remove.Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#remove_audio MpsSchedule#remove_audio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#remove_audio MpsSchedule#remove_audio}
   */
   readonly removeAudio?: number;
   /**
   * Whether to remove video data. Valid values: 0: retain; 1: remove.Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#remove_video MpsSchedule#remove_video}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#remove_video MpsSchedule#remove_video}
   */
   readonly removeVideo?: number;
   /**
   * audio_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#audio_template MpsSchedule#audio_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#audio_template MpsSchedule#audio_template}
   */
   readonly audioTemplate?: MpsScheduleActivitiesActivityParaTranscodeTaskRawParameterAudioTemplate;
   /**
   * tehd_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#tehd_config MpsSchedule#tehd_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#tehd_config MpsSchedule#tehd_config}
   */
   readonly tehdConfig?: MpsScheduleActivitiesActivityParaTranscodeTaskRawParameterTehdConfig;
   /**
   * video_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#video_template MpsSchedule#video_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#video_template MpsSchedule#video_template}
   */
   readonly videoTemplate?: MpsScheduleActivitiesActivityParaTranscodeTaskRawParameterVideoTemplate;
 }
@@ -15436,19 +15436,19 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskWatermarkSetRawPa
   /**
   * The COS bucket of the object to process, such as `TopRankVideo-125xxx88`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#bucket MpsSchedule#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#bucket MpsSchedule#bucket}
   */
   readonly bucket: string;
   /**
   * The path of the object to process, such as `/movie/201907/WildAnimal.mov`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#object MpsSchedule#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#object MpsSchedule#object}
   */
   readonly object: string;
   /**
   * The region of the COS bucket, such as `ap-chongqing`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#region MpsSchedule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#region MpsSchedule#region}
   */
   readonly region: string;
 }
@@ -15583,31 +15583,31 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskWatermarkSetRawPa
   /**
   * The AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_bucket MpsSchedule#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_bucket MpsSchedule#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The path of the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_object MpsSchedule#s3_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_object MpsSchedule#s3_object}
   */
   readonly s3Object: string;
   /**
   * The region of the AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_region MpsSchedule#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_region MpsSchedule#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_secret_id MpsSchedule#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_secret_id MpsSchedule#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_secret_key MpsSchedule#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_secret_key MpsSchedule#s3_secret_key}
   */
   readonly s3SecretKey?: string;
 }
@@ -15800,7 +15800,7 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskWatermarkSetRawPa
   /**
   * URL of a video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#url MpsSchedule#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#url MpsSchedule#url}
   */
   readonly url: string;
 }
@@ -15883,25 +15883,25 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskWatermarkSetRawPa
   /**
   * The input type. Valid values: `COS`: A COS bucket address.  `URL`: A URL.  `AWS-S3`: An AWS S3 bucket address. Currently, this type is only supported for transcoding tasks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#type MpsSchedule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#type MpsSchedule#type}
   */
   readonly type: string;
   /**
   * cos_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#cos_input_info MpsSchedule#cos_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#cos_input_info MpsSchedule#cos_input_info}
   */
   readonly cosInputInfo?: MpsScheduleActivitiesActivityParaTranscodeTaskWatermarkSetRawParameterImageTemplateImageContentCosInputInfo;
   /**
   * s3_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_input_info MpsSchedule#s3_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_input_info MpsSchedule#s3_input_info}
   */
   readonly s3InputInfo?: MpsScheduleActivitiesActivityParaTranscodeTaskWatermarkSetRawParameterImageTemplateImageContentS3InputInfo;
   /**
   * url_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#url_input_info MpsSchedule#url_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#url_input_info MpsSchedule#url_input_info}
   */
   readonly urlInputInfo?: MpsScheduleActivitiesActivityParaTranscodeTaskWatermarkSetRawParameterImageTemplateImageContentUrlInputInfo;
 }
@@ -16071,25 +16071,25 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskWatermarkSetRawPa
   /**
   * Watermark height. % and px formats are supported: If the string ends in %, the `Height` of the watermark will be the specified percentage of the video height; for example, `10%` means that `Height` is 10% of the video height; If the string ends in px, the `Height` of the watermark will be in px; for example, `100px` means that `Height` is 100 px.Default value: 0 px, which means that `Height` will be proportionally scaled according to the aspect ratio of the original watermark image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#height MpsSchedule#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#height MpsSchedule#height}
   */
   readonly height?: string;
   /**
   * Repeat type of an animated watermark. Valid values: `once`: no longer appears after watermark playback ends. `repeat_last_frame`: stays on the last frame after watermark playback ends. `repeat` (default): repeats the playback until the video ends.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#repeat_type MpsSchedule#repeat_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#repeat_type MpsSchedule#repeat_type}
   */
   readonly repeatType?: string;
   /**
   * Watermark width. % and px formats are supported: If the string ends in %, the `Width` of the watermark will be the specified percentage of the video width; for example, `10%` means that `Width` is 10% of the video width; If the string ends in px, the `Width` of the watermark will be in px; for example, `100px` means that `Width` is 100 px.Default value: 10%.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#width MpsSchedule#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#width MpsSchedule#width}
   */
   readonly width?: string;
   /**
   * image_content block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#image_content MpsSchedule#image_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#image_content MpsSchedule#image_content}
   */
   readonly imageContent: MpsScheduleActivitiesActivityParaTranscodeTaskWatermarkSetRawParameterImageTemplateImageContent;
 }
@@ -16259,31 +16259,31 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskWatermarkSetRawPa
   /**
   * Origin position, which currently can only be: TopLeft: the origin of coordinates is in the top-left corner of the video, and the origin of the watermark is in the top-left corner of the image or text.Default value: TopLeft.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#coordinate_origin MpsSchedule#coordinate_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#coordinate_origin MpsSchedule#coordinate_origin}
   */
   readonly coordinateOrigin?: string;
   /**
   * Watermark type. Valid values: image: image watermark.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#type MpsSchedule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#type MpsSchedule#type}
   */
   readonly type: string;
   /**
   * The horizontal position of the origin of the watermark relative to the origin of coordinates of the video. % and px formats are supported: If the string ends in %, the `XPos` of the watermark will be the specified percentage of the video width; for example, `10%` means that `XPos` is 10% of the video width; If the string ends in px, the `XPos` of the watermark will be the specified px; for example, `100px` means that `XPos` is 100 px.Default value: 0 px.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#x_pos MpsSchedule#x_pos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#x_pos MpsSchedule#x_pos}
   */
   readonly xPos?: string;
   /**
   * The vertical position of the origin of the watermark relative to the origin of coordinates of the video. % and px formats are supported: If the string ends in %, the `YPos` of the watermark will be the specified percentage of the video height; for example, `10%` means that `YPos` is 10% of the video height; If the string ends in px, the `YPos` of the watermark will be the specified px; for example, `100px` means that `YPos` is 100 px.Default value: 0 px.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#y_pos MpsSchedule#y_pos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#y_pos MpsSchedule#y_pos}
   */
   readonly yPos?: string;
   /**
   * image_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#image_template MpsSchedule#image_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#image_template MpsSchedule#image_template}
   */
   readonly imageTemplate?: MpsScheduleActivitiesActivityParaTranscodeTaskWatermarkSetRawParameterImageTemplate;
 }
@@ -16482,37 +16482,37 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTaskWatermarkSet {
   /**
   * ID of a watermarking template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#definition MpsSchedule#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#definition MpsSchedule#definition}
   */
   readonly definition: number;
   /**
   * End time offset of a watermark in seconds. If this parameter is left empty or 0 is entered, the watermark will exist till the last video frame; If this value is greater than 0 (e.g., n), the watermark will exist till second n; If this value is smaller than 0 (e.g., -n), the watermark will exist till second n before the last video frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#end_time_offset MpsSchedule#end_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#end_time_offset MpsSchedule#end_time_offset}
   */
   readonly endTimeOffset?: number;
   /**
   * Start time offset of a watermark in seconds. If this parameter is left empty or 0 is entered, the watermark will appear upon the first video frame. If this parameter is left empty or 0 is entered, the watermark will appear upon the first video frame; If this value is greater than 0 (e.g., n), the watermark will appear at second n after the first video frame; If this value is smaller than 0 (e.g., -n), the watermark will appear at second n before the last video frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#start_time_offset MpsSchedule#start_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#start_time_offset MpsSchedule#start_time_offset}
   */
   readonly startTimeOffset?: number;
   /**
   * SVG content of up to 2,000,000 characters. This field is required only when the watermark type is `SVG`.SVG watermark is not available for screenshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#svg_content MpsSchedule#svg_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#svg_content MpsSchedule#svg_content}
   */
   readonly svgContent?: string;
   /**
   * Text content of up to 100 characters. This field is required only when the watermark type is text.Text watermark is not available for screenshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#text_content MpsSchedule#text_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#text_content MpsSchedule#text_content}
   */
   readonly textContent?: string;
   /**
   * raw_parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#raw_parameter MpsSchedule#raw_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#raw_parameter MpsSchedule#raw_parameter}
   */
   readonly rawParameter?: MpsScheduleActivitiesActivityParaTranscodeTaskWatermarkSetRawParameter;
 }
@@ -16772,73 +16772,73 @@ export interface MpsScheduleActivitiesActivityParaTranscodeTask {
   /**
   * ID of a video transcoding template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#definition MpsSchedule#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#definition MpsSchedule#definition}
   */
   readonly definition: number;
   /**
   * End time offset of a transcoded video, in seconds. If this parameter is left empty or set to 0, the transcoded video will end at the same time as the original video. If this parameter is set to a positive number (n for example), the transcoded video will end at the nth second of the original video. If this parameter is set to a negative number (-n for example), the transcoded video will end at the nth second before the end of the original video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#end_time_offset MpsSchedule#end_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#end_time_offset MpsSchedule#end_time_offset}
   */
   readonly endTimeOffset?: number;
   /**
   * Path to a primary output file, which can be a relative path or an absolute path. If this parameter is left empty, the following relative path will be used by default: `{inputName}_transcode_{definition}.{format}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#output_object_path MpsSchedule#output_object_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#output_object_path MpsSchedule#output_object_path}
   */
   readonly outputObjectPath?: string;
   /**
   * Path to an output file part (the path to ts during transcoding to HLS), which can only be a relative path. If this parameter is left empty, the following relative path will be used by default: `{inputName}_transcode_{definition}_{number}.{format}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#segment_object_name MpsSchedule#segment_object_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#segment_object_name MpsSchedule#segment_object_name}
   */
   readonly segmentObjectName?: string;
   /**
   * Start time offset of a transcoded video, in seconds. If this parameter is left empty or set to 0, the transcoded video will start at the same time as the original video. If this parameter is set to a positive number (n for example), the transcoded video will start at the nth second of the original video. If this parameter is set to a negative number (-n for example), the transcoded video will start at the nth second before the end of the original video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#start_time_offset MpsSchedule#start_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#start_time_offset MpsSchedule#start_time_offset}
   */
   readonly startTimeOffset?: number;
   /**
   * head_tail_parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#head_tail_parameter MpsSchedule#head_tail_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#head_tail_parameter MpsSchedule#head_tail_parameter}
   */
   readonly headTailParameter?: MpsScheduleActivitiesActivityParaTranscodeTaskHeadTailParameter;
   /**
   * mosaic_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#mosaic_set MpsSchedule#mosaic_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#mosaic_set MpsSchedule#mosaic_set}
   */
   readonly mosaicSet?: MpsScheduleActivitiesActivityParaTranscodeTaskMosaicSet[] | cdktf.IResolvable;
   /**
   * object_number_format block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#object_number_format MpsSchedule#object_number_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#object_number_format MpsSchedule#object_number_format}
   */
   readonly objectNumberFormat?: MpsScheduleActivitiesActivityParaTranscodeTaskObjectNumberFormat;
   /**
   * output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#output_storage MpsSchedule#output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#output_storage MpsSchedule#output_storage}
   */
   readonly outputStorage?: MpsScheduleActivitiesActivityParaTranscodeTaskOutputStorage;
   /**
   * override_parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#override_parameter MpsSchedule#override_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#override_parameter MpsSchedule#override_parameter}
   */
   readonly overrideParameter?: MpsScheduleActivitiesActivityParaTranscodeTaskOverrideParameter;
   /**
   * raw_parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#raw_parameter MpsSchedule#raw_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#raw_parameter MpsSchedule#raw_parameter}
   */
   readonly rawParameter?: MpsScheduleActivitiesActivityParaTranscodeTaskRawParameter;
   /**
   * watermark_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#watermark_set MpsSchedule#watermark_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#watermark_set MpsSchedule#watermark_set}
   */
   readonly watermarkSet?: MpsScheduleActivitiesActivityParaTranscodeTaskWatermarkSet[] | cdktf.IResolvable;
 }
@@ -17240,55 +17240,55 @@ export interface MpsScheduleActivitiesActivityPara {
   /**
   * adaptive_dynamic_streaming_task block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#adaptive_dynamic_streaming_task MpsSchedule#adaptive_dynamic_streaming_task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#adaptive_dynamic_streaming_task MpsSchedule#adaptive_dynamic_streaming_task}
   */
   readonly adaptiveDynamicStreamingTask?: MpsScheduleActivitiesActivityParaAdaptiveDynamicStreamingTask;
   /**
   * ai_analysis_task block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#ai_analysis_task MpsSchedule#ai_analysis_task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#ai_analysis_task MpsSchedule#ai_analysis_task}
   */
   readonly aiAnalysisTask?: MpsScheduleActivitiesActivityParaAiAnalysisTask;
   /**
   * ai_content_review_task block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#ai_content_review_task MpsSchedule#ai_content_review_task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#ai_content_review_task MpsSchedule#ai_content_review_task}
   */
   readonly aiContentReviewTask?: MpsScheduleActivitiesActivityParaAiContentReviewTask;
   /**
   * ai_recognition_task block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#ai_recognition_task MpsSchedule#ai_recognition_task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#ai_recognition_task MpsSchedule#ai_recognition_task}
   */
   readonly aiRecognitionTask?: MpsScheduleActivitiesActivityParaAiRecognitionTask;
   /**
   * animated_graphic_task block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#animated_graphic_task MpsSchedule#animated_graphic_task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#animated_graphic_task MpsSchedule#animated_graphic_task}
   */
   readonly animatedGraphicTask?: MpsScheduleActivitiesActivityParaAnimatedGraphicTask;
   /**
   * image_sprite_task block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#image_sprite_task MpsSchedule#image_sprite_task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#image_sprite_task MpsSchedule#image_sprite_task}
   */
   readonly imageSpriteTask?: MpsScheduleActivitiesActivityParaImageSpriteTask;
   /**
   * sample_snapshot_task block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#sample_snapshot_task MpsSchedule#sample_snapshot_task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#sample_snapshot_task MpsSchedule#sample_snapshot_task}
   */
   readonly sampleSnapshotTask?: MpsScheduleActivitiesActivityParaSampleSnapshotTask;
   /**
   * snapshot_by_time_offset_task block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#snapshot_by_time_offset_task MpsSchedule#snapshot_by_time_offset_task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#snapshot_by_time_offset_task MpsSchedule#snapshot_by_time_offset_task}
   */
   readonly snapshotByTimeOffsetTask?: MpsScheduleActivitiesActivityParaSnapshotByTimeOffsetTask;
   /**
   * transcode_task block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#transcode_task MpsSchedule#transcode_task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#transcode_task MpsSchedule#transcode_task}
   */
   readonly transcodeTask?: MpsScheduleActivitiesActivityParaTranscodeTask;
 }
@@ -17606,19 +17606,19 @@ export interface MpsScheduleActivities {
   /**
   * The subtask type. `input`: The start. `output`: The end. `action-trans`: Transcoding. `action-samplesnapshot`: Sampled screencapturing. `action-AIAnalysis`: Content analysis. `action-AIRecognition`: Content recognition. `action-aiReview`: Content moderation. `action-animated-graphics`: Animated screenshot generation. `action-image-sprite`: Image sprite generation. `action-snapshotByTimeOffset`: Time point screencapturing. `action-adaptive-substream`: Adaptive bitrate streaming.Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#activity_type MpsSchedule#activity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#activity_type MpsSchedule#activity_type}
   */
   readonly activityType: string;
   /**
   * The indexes of the subsequent actions. Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#reardrive_index MpsSchedule#reardrive_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#reardrive_index MpsSchedule#reardrive_index}
   */
   readonly reardriveIndex?: number[];
   /**
   * activity_para block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#activity_para MpsSchedule#activity_para}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#activity_para MpsSchedule#activity_para}
   */
   readonly activityPara?: MpsScheduleActivitiesActivityPara;
 }
@@ -17791,13 +17791,13 @@ export interface MpsScheduleOutputStorageCosOutputStorage {
   /**
   * The bucket to which the output file of media processing is saved, such as `TopRankVideo-125xxx88`. If this parameter is left empty, the value of the upper layer will be inherited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#bucket MpsSchedule#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#bucket MpsSchedule#bucket}
   */
   readonly bucket?: string;
   /**
   * The region of the output bucket, such as `ap-chongqing`. If this parameter is left empty, the value of the upper layer will be inherited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#region MpsSchedule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#region MpsSchedule#region}
   */
   readonly region?: string;
 }
@@ -17912,25 +17912,25 @@ export interface MpsScheduleOutputStorageS3OutputStorage {
   /**
   * The AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_bucket MpsSchedule#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_bucket MpsSchedule#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The region of the AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_region MpsSchedule#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_region MpsSchedule#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID required to upload files to the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_secret_id MpsSchedule#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_secret_id MpsSchedule#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to upload files to the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_secret_key MpsSchedule#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_secret_key MpsSchedule#s3_secret_key}
   */
   readonly s3SecretKey?: string;
 }
@@ -18097,19 +18097,19 @@ export interface MpsScheduleOutputStorage {
   /**
   * The storage type for a media processing output file. Valid values: `COS`: Tencent Cloud COS `AWS-S3`: AWS S3. This type is only supported for AWS tasks, and the output bucket must be in the same region as the bucket of the source file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#type MpsSchedule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#type MpsSchedule#type}
   */
   readonly type: string;
   /**
   * cos_output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#cos_output_storage MpsSchedule#cos_output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#cos_output_storage MpsSchedule#cos_output_storage}
   */
   readonly cosOutputStorage?: MpsScheduleOutputStorageCosOutputStorage;
   /**
   * s3_output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_output_storage MpsSchedule#s3_output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_output_storage MpsSchedule#s3_output_storage}
   */
   readonly s3OutputStorage?: MpsScheduleOutputStorageS3OutputStorage;
 }
@@ -18250,25 +18250,25 @@ export interface MpsScheduleTaskNotifyConfigAwsSqs {
   /**
   * The key ID required to read from/write to the SQS queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_secret_id MpsSchedule#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_secret_id MpsSchedule#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to read from/write to the SQS queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_secret_key MpsSchedule#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_secret_key MpsSchedule#s3_secret_key}
   */
   readonly s3SecretKey?: string;
   /**
   * The name of the SQS queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#sqs_queue_name MpsSchedule#sqs_queue_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#sqs_queue_name MpsSchedule#sqs_queue_name}
   */
   readonly sqsQueueName: string;
   /**
   * The region of the SQS queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#sqs_region MpsSchedule#sqs_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#sqs_region MpsSchedule#sqs_region}
   */
   readonly sqsRegion: string;
 }
@@ -18435,49 +18435,49 @@ export interface MpsScheduleTaskNotifyConfig {
   /**
   * The CMQ or TDMQ-CMQ model. Valid values: Queue, Topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#cmq_model MpsSchedule#cmq_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#cmq_model MpsSchedule#cmq_model}
   */
   readonly cmqModel?: string;
   /**
   * The CMQ or TDMQ-CMQ region, such as `sh` (Shanghai) or `bj` (Beijing).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#cmq_region MpsSchedule#cmq_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#cmq_region MpsSchedule#cmq_region}
   */
   readonly cmqRegion?: string;
   /**
   * Workflow notification method. Valid values: Finish, Change. If this parameter is left empty, `Finish` will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#notify_mode MpsSchedule#notify_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#notify_mode MpsSchedule#notify_mode}
   */
   readonly notifyMode?: string;
   /**
   * The notification type. Valid values: `CMQ`: This value is no longer used. Please use `TDMQ-CMQ` instead. `TDMQ-CMQ`: Message queue `URL`: If `NotifyType` is set to `URL`, HTTP callbacks are sent to the URL specified by `NotifyUrl`. HTTP and JSON are used for the callbacks. The packet contains the response parameters of the `ParseNotification` API. `SCF`: This notification type is not recommended. You need to configure it in the SCF console. `AWS-SQS`: AWS queue. This type is only supported for AWS tasks, and the queue must be in the same region as the AWS bucket.Note: If you do not pass this parameter or pass in an empty string, `CMQ` will be used. To use a different notification type, specify this parameter accordingly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#notify_type MpsSchedule#notify_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#notify_type MpsSchedule#notify_type}
   */
   readonly notifyType?: string;
   /**
   * HTTP callback URL, required if `NotifyType` is set to `URL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#notify_url MpsSchedule#notify_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#notify_url MpsSchedule#notify_url}
   */
   readonly notifyUrl?: string;
   /**
   * The CMQ or TDMQ-CMQ queue to receive notifications. This parameter is valid when `CmqModel` is `Queue`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#queue_name MpsSchedule#queue_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#queue_name MpsSchedule#queue_name}
   */
   readonly queueName?: string;
   /**
   * The CMQ or TDMQ-CMQ topic to receive notifications. This parameter is valid when `CmqModel` is `Topic`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#topic_name MpsSchedule#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#topic_name MpsSchedule#topic_name}
   */
   readonly topicName?: string;
   /**
   * aws_sqs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#aws_sqs MpsSchedule#aws_sqs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#aws_sqs MpsSchedule#aws_sqs}
   */
   readonly awsSqs?: MpsScheduleTaskNotifyConfigAwsSqs;
 }
@@ -18766,25 +18766,25 @@ export interface MpsScheduleTriggerAwsS3FileUploadTriggerAwsSqs {
   /**
   * The key ID required to read from/write to the SQS queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_secret_id MpsSchedule#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_secret_id MpsSchedule#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to read from/write to the SQS queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_secret_key MpsSchedule#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_secret_key MpsSchedule#s3_secret_key}
   */
   readonly s3SecretKey?: string;
   /**
   * The name of the SQS queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#sqs_queue_name MpsSchedule#sqs_queue_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#sqs_queue_name MpsSchedule#sqs_queue_name}
   */
   readonly sqsQueueName: string;
   /**
   * The region of the SQS queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#sqs_region MpsSchedule#sqs_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#sqs_region MpsSchedule#sqs_region}
   */
   readonly sqsRegion: string;
 }
@@ -18951,43 +18951,43 @@ export interface MpsScheduleTriggerAwsS3FileUploadTrigger {
   /**
   * The bucket directory bound. It must be an absolute path that starts and ends with `/`, such as `/movie/201907/`. If you do not specify this, the root directory will be bound.	.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#dir MpsSchedule#dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#dir MpsSchedule#dir}
   */
   readonly dir?: string;
   /**
   * The file formats that will trigger the scheme, such as [mp4, flv, mov]. If you do not specify this, the upload of files in any format will trigger the scheme.	.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#formats MpsSchedule#formats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#formats MpsSchedule#formats}
   */
   readonly formats?: string[];
   /**
   * The AWS S3 bucket bound to the scheme.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_bucket MpsSchedule#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_bucket MpsSchedule#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The region of the AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_region MpsSchedule#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_region MpsSchedule#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID of the AWS S3 bucket.Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_secret_id MpsSchedule#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_secret_id MpsSchedule#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key of the AWS S3 bucket.Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#s3_secret_key MpsSchedule#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#s3_secret_key MpsSchedule#s3_secret_key}
   */
   readonly s3SecretKey?: string;
   /**
   * aws_sqs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#aws_sqs MpsSchedule#aws_sqs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#aws_sqs MpsSchedule#aws_sqs}
   */
   readonly awsSqs?: MpsScheduleTriggerAwsS3FileUploadTriggerAwsSqs;
 }
@@ -19241,25 +19241,25 @@ export interface MpsScheduleTriggerCosFileUploadTrigger {
   /**
   * Name of the COS bucket bound to a workflow, such as `TopRankVideo-125xxx88`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#bucket MpsSchedule#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#bucket MpsSchedule#bucket}
   */
   readonly bucket: string;
   /**
   * Input path directory bound to a workflow, such as `/movie/201907/`. If this parameter is left empty, the `/` root directory will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#dir MpsSchedule#dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#dir MpsSchedule#dir}
   */
   readonly dir?: string;
   /**
   * Format list of files that can trigger a workflow, such as [mp4, flv, mov]. If this parameter is left empty, files in all formats can trigger the workflow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#formats MpsSchedule#formats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#formats MpsSchedule#formats}
   */
   readonly formats?: string[];
   /**
   * Region of the COS bucket bound to a workflow, such as `ap-chongiqng`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#region MpsSchedule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#region MpsSchedule#region}
   */
   readonly region: string;
 }
@@ -19426,19 +19426,19 @@ export interface MpsScheduleTrigger {
   /**
   * The trigger type. Valid values: `CosFileUpload`: Tencent Cloud COS trigger. `AwsS3FileUpload`: AWS S3 trigger. Currently, this type is only supported for transcoding tasks and schemes (not supported for workflows).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#type MpsSchedule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#type MpsSchedule#type}
   */
   readonly type: string;
   /**
   * aws_s3_file_upload_trigger block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#aws_s3_file_upload_trigger MpsSchedule#aws_s3_file_upload_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#aws_s3_file_upload_trigger MpsSchedule#aws_s3_file_upload_trigger}
   */
   readonly awsS3FileUploadTrigger?: MpsScheduleTriggerAwsS3FileUploadTrigger;
   /**
   * cos_file_upload_trigger block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#cos_file_upload_trigger MpsSchedule#cos_file_upload_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#cos_file_upload_trigger MpsSchedule#cos_file_upload_trigger}
   */
   readonly cosFileUploadTrigger?: MpsScheduleTriggerCosFileUploadTrigger;
 }
@@ -19577,7 +19577,7 @@ export class MpsScheduleTriggerOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule tencentcloud_mps_schedule}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule tencentcloud_mps_schedule}
 */
 export class MpsSchedule extends cdktf.TerraformResource {
 
@@ -19593,7 +19593,7 @@ export class MpsSchedule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MpsSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MpsSchedule to import
-  * @param importFromId The id of the existing MpsSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MpsSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MpsSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -19605,7 +19605,7 @@ export class MpsSchedule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mps_schedule tencentcloud_mps_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mps_schedule tencentcloud_mps_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -19616,8 +19616,8 @@ export class MpsSchedule extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mps_schedule',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

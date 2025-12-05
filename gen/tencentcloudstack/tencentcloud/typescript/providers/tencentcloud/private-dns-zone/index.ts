@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_zone
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/private_dns_zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PrivateDnsZoneConfig extends cdktf.TerraformMetaArguments {
   /**
   * CNAME acceleration: ENABLED, DISABLED, Default value is ENABLED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_zone#cname_speedup_status PrivateDnsZone#cname_speedup_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/private_dns_zone#cname_speedup_status PrivateDnsZone#cname_speedup_status}
   */
   readonly cnameSpeedupStatus?: string;
   /**
   * Whether to enable subdomain recursive DNS. Valid values: ENABLED, DISABLED. Default value: DISABLED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_zone#dns_forward_status PrivateDnsZone#dns_forward_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/private_dns_zone#dns_forward_status PrivateDnsZone#dns_forward_status}
   */
   readonly dnsForwardStatus?: string;
   /**
   * Domain name, which must be in the format of standard TLD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_zone#domain PrivateDnsZone#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/private_dns_zone#domain PrivateDnsZone#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_zone#id PrivateDnsZone#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/private_dns_zone#id PrivateDnsZone#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface PrivateDnsZoneConfig extends cdktf.TerraformMetaArguments {
   /**
   * Remarks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_zone#remark PrivateDnsZone#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/private_dns_zone#remark PrivateDnsZone#remark}
   */
   readonly remark?: string;
   /**
   * Tags of the private dns zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_zone#tags PrivateDnsZone#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/private_dns_zone#tags PrivateDnsZone#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * account_vpc_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_zone#account_vpc_set PrivateDnsZone#account_vpc_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/private_dns_zone#account_vpc_set PrivateDnsZone#account_vpc_set}
   */
   readonly accountVpcSet?: PrivateDnsZoneAccountVpcSet[] | cdktf.IResolvable;
   /**
   * tag_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_zone#tag_set PrivateDnsZone#tag_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/private_dns_zone#tag_set PrivateDnsZone#tag_set}
   */
   readonly tagSet?: PrivateDnsZoneTagSet[] | cdktf.IResolvable;
   /**
   * vpc_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_zone#vpc_set PrivateDnsZone#vpc_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/private_dns_zone#vpc_set PrivateDnsZone#vpc_set}
   */
   readonly vpcSet?: PrivateDnsZoneVpcSet[] | cdktf.IResolvable;
 }
@@ -67,25 +67,25 @@ export interface PrivateDnsZoneAccountVpcSet {
   /**
   * Region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_zone#region PrivateDnsZone#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/private_dns_zone#region PrivateDnsZone#region}
   */
   readonly region: string;
   /**
   * UIN of the VPC account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_zone#uin PrivateDnsZone#uin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/private_dns_zone#uin PrivateDnsZone#uin}
   */
   readonly uin: string;
   /**
   * VPC ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_zone#uniq_vpc_id PrivateDnsZone#uniq_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/private_dns_zone#uniq_vpc_id PrivateDnsZone#uniq_vpc_id}
   */
   readonly uniqVpcId: string;
   /**
   * VPC NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_zone#vpc_name PrivateDnsZone#vpc_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/private_dns_zone#vpc_name PrivateDnsZone#vpc_name}
   */
   readonly vpcName: string;
 }
@@ -278,13 +278,13 @@ export interface PrivateDnsZoneTagSet {
   /**
   * Key of Tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_zone#tag_key PrivateDnsZone#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/private_dns_zone#tag_key PrivateDnsZone#tag_key}
   */
   readonly tagKey: string;
   /**
   * Value of Tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_zone#tag_value PrivateDnsZone#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/private_dns_zone#tag_value PrivateDnsZone#tag_value}
   */
   readonly tagValue: string;
 }
@@ -425,13 +425,13 @@ export interface PrivateDnsZoneVpcSet {
   /**
   * VPC REGION.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_zone#region PrivateDnsZone#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/private_dns_zone#region PrivateDnsZone#region}
   */
   readonly region: string;
   /**
   * VPC ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_zone#uniq_vpc_id PrivateDnsZone#uniq_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/private_dns_zone#uniq_vpc_id PrivateDnsZone#uniq_vpc_id}
   */
   readonly uniqVpcId: string;
 }
@@ -570,7 +570,7 @@ export class PrivateDnsZoneVpcSetList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_zone tencentcloud_private_dns_zone}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/private_dns_zone tencentcloud_private_dns_zone}
 */
 export class PrivateDnsZone extends cdktf.TerraformResource {
 
@@ -586,7 +586,7 @@ export class PrivateDnsZone extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PrivateDnsZone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PrivateDnsZone to import
-  * @param importFromId The id of the existing PrivateDnsZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PrivateDnsZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/private_dns_zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PrivateDnsZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -598,7 +598,7 @@ export class PrivateDnsZone extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_zone tencentcloud_private_dns_zone} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/private_dns_zone tencentcloud_private_dns_zone} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -609,8 +609,8 @@ export class PrivateDnsZone extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_private_dns_zone',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

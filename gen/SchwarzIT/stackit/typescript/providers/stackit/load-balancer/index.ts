@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/load_balancer
+// https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/load_balancer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface LoadBalancerConfig extends cdktf.TerraformMetaArguments {
   /**
   * The load balancers ACLs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/load_balancer#acl LoadBalancer#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/load_balancer#acl LoadBalancer#acl}
   */
   readonly acl?: string[];
   /**
   * The external address of the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/load_balancer#external_address LoadBalancer#external_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/load_balancer#external_address LoadBalancer#external_address}
   */
   readonly externalAddress?: string;
   /**
   * The load balancers listeners.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/load_balancer#listeners LoadBalancer#listeners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/load_balancer#listeners LoadBalancer#listeners}
   */
   readonly listeners: LoadBalancerListeners[] | cdktf.IResolvable;
   /**
   * Specifies the instance name. Changing this value requires the resource to be recreated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/load_balancer#name LoadBalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/load_balancer#name LoadBalancer#name}
   */
   readonly name: string;
   /**
   * The load balancers networks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/load_balancer#networks LoadBalancer#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/load_balancer#networks LoadBalancer#networks}
   */
   readonly networks: LoadBalancerNetworks[] | cdktf.IResolvable;
   /**
   * The private address of the load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/load_balancer#private_address LoadBalancer#private_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/load_balancer#private_address LoadBalancer#private_address}
   */
   readonly privateAddress?: string;
   /**
   * Whether the load balancer is only accessible via private networks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/load_balancer#private_network_only LoadBalancer#private_network_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/load_balancer#private_network_only LoadBalancer#private_network_only}
   */
   readonly privateNetworkOnly?: boolean | cdktf.IResolvable;
   /**
   * The project UUID. Changing this value requires the resource to be recreated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/load_balancer#project_id LoadBalancer#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/load_balancer#project_id LoadBalancer#project_id}
   */
   readonly projectId: string;
   /**
   * The load balancers target pools.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/load_balancer#target_pools LoadBalancer#target_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/load_balancer#target_pools LoadBalancer#target_pools}
   */
   readonly targetPools: LoadBalancerTargetPools[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/load_balancer#timeouts LoadBalancer#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/load_balancer#timeouts LoadBalancer#timeouts}
   */
   readonly timeouts?: LoadBalancerTimeouts;
 }
@@ -70,25 +70,25 @@ export interface LoadBalancerListeners {
   /**
   * The port the load balancer listens on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/load_balancer#display_name LoadBalancer#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/load_balancer#display_name LoadBalancer#display_name}
   */
   readonly displayName: string;
   /**
   * The port the load balancer listens on [ 1 .. 65535 ].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/load_balancer#port LoadBalancer#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/load_balancer#port LoadBalancer#port}
   */
   readonly port: number;
   /**
   * The protocol the load balancer listens on. Options: `PROTOCOL_TCP`, `PROTOCOL_UDP`, `PROTOCOL_TCP_PROXY`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/load_balancer#protocol LoadBalancer#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/load_balancer#protocol LoadBalancer#protocol}
   */
   readonly protocol: string;
   /**
   * The target pool name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/load_balancer#target_pool LoadBalancer#target_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/load_balancer#target_pool LoadBalancer#target_pool}
   */
   readonly targetPool?: string;
 }
@@ -284,13 +284,13 @@ export interface LoadBalancerNetworks {
   /**
   * The network UUID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/load_balancer#network_id LoadBalancer#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/load_balancer#network_id LoadBalancer#network_id}
   */
   readonly networkId: string;
   /**
   * The network role. only `ROLE_LISTENERS_AND_TARGETS` is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/load_balancer#role LoadBalancer#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/load_balancer#role LoadBalancer#role}
   */
   readonly role?: string;
 }
@@ -434,31 +434,31 @@ export interface LoadBalancerTargetPoolsHealthCheck {
   /**
   * The healthy threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/load_balancer#healthy_threshold LoadBalancer#healthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/load_balancer#healthy_threshold LoadBalancer#healthy_threshold}
   */
   readonly healthyThreshold: number;
   /**
   * The interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/load_balancer#interval LoadBalancer#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/load_balancer#interval LoadBalancer#interval}
   */
   readonly interval: string;
   /**
   * The interval jitter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/load_balancer#interval_jitter LoadBalancer#interval_jitter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/load_balancer#interval_jitter LoadBalancer#interval_jitter}
   */
   readonly intervalJitter: string;
   /**
   * The timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/load_balancer#timeout LoadBalancer#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/load_balancer#timeout LoadBalancer#timeout}
   */
   readonly timeout: string;
   /**
   * The unhealthy threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/load_balancer#unhealthy_threshold LoadBalancer#unhealthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/load_balancer#unhealthy_threshold LoadBalancer#unhealthy_threshold}
   */
   readonly unhealthyThreshold: number;
 }
@@ -655,13 +655,13 @@ export interface LoadBalancerTargetPoolsTargets {
   /**
   * The target display name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/load_balancer#display_name LoadBalancer#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/load_balancer#display_name LoadBalancer#display_name}
   */
   readonly displayName: string;
   /**
   * The target IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/load_balancer#ip_address LoadBalancer#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/load_balancer#ip_address LoadBalancer#ip_address}
   */
   readonly ipAddress: string;
 }
@@ -800,25 +800,25 @@ export class LoadBalancerTargetPoolsTargetsList extends cdktf.ComplexList {
 }
 export interface LoadBalancerTargetPools {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/load_balancer#health_check LoadBalancer#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/load_balancer#health_check LoadBalancer#health_check}
   */
   readonly healthCheck?: LoadBalancerTargetPoolsHealthCheck;
   /**
   * The target pool name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/load_balancer#name LoadBalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/load_balancer#name LoadBalancer#name}
   */
   readonly name: string;
   /**
   * The target port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/load_balancer#target_port LoadBalancer#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/load_balancer#target_port LoadBalancer#target_port}
   */
   readonly targetPort: number;
   /**
   * The target pool targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/load_balancer#targets LoadBalancer#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/load_balancer#targets LoadBalancer#targets}
   */
   readonly targets: LoadBalancerTargetPoolsTargets[] | cdktf.IResolvable;
 }
@@ -1012,11 +1012,11 @@ export class LoadBalancerTargetPoolsList extends cdktf.ComplexList {
 }
 export interface LoadBalancerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/load_balancer#create LoadBalancer#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/load_balancer#create LoadBalancer#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/load_balancer#delete LoadBalancer#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/load_balancer#delete LoadBalancer#delete}
   */
   readonly delete?: string;
 }
@@ -1139,7 +1139,7 @@ export class LoadBalancerTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/load_balancer stackit_load_balancer}
+* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/load_balancer stackit_load_balancer}
 */
 export class LoadBalancer extends cdktf.TerraformResource {
 
@@ -1155,7 +1155,7 @@ export class LoadBalancer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LoadBalancer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LoadBalancer to import
-  * @param importFromId The id of the existing LoadBalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/load_balancer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LoadBalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/load_balancer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LoadBalancer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1167,7 +1167,7 @@ export class LoadBalancer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/load_balancer stackit_load_balancer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/load_balancer stackit_load_balancer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1178,8 +1178,8 @@ export class LoadBalancer extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_load_balancer',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '1.34.3',
-        providerVersionConstraint: '1.34.3'
+        providerVersion: '1.34.4',
+        providerVersionConstraint: '1.34.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

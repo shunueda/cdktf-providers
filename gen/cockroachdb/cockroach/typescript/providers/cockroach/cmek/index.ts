@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cmek
+// https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cmek
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,26 +10,26 @@ export interface CmekConfig extends cdktf.TerraformMetaArguments {
   /**
   * Once CMEK is enabled for a cluster, no new regions can be added to the cluster resource, since they need encryption key info stored in the CMEK resource. New regions can be added and maintained here instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cmek#additional_regions Cmek#additional_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cmek#additional_regions Cmek#additional_regions}
   */
   readonly additionalRegions?: CmekAdditionalRegions[] | cdktf.IResolvable;
   /**
   * Cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cmek#id Cmek#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cmek#id Cmek#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cmek#regions Cmek#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cmek#regions Cmek#regions}
   */
   readonly regions: CmekRegions[] | cdktf.IResolvable;
   /**
   * Aggregated status of the cluster's encryption key(s).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cmek#status Cmek#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cmek#status Cmek#status}
   */
   readonly status?: string;
 }
@@ -37,19 +37,19 @@ export interface CmekAdditionalRegions {
   /**
   * Name of the region. Should match the region code used by the cluster's cloud provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cmek#name Cmek#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cmek#name Cmek#name}
   */
   readonly name: string;
   /**
   * Number of nodes in the region. Valid for Advanced clusters only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cmek#node_count Cmek#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cmek#node_count Cmek#node_count}
   */
   readonly nodeCount?: number;
   /**
   * Set to true to mark this region as the primary for a serverless cluster. Exactly one region must be primary. Dedicated clusters expect to have no primary region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cmek#primary Cmek#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cmek#primary Cmek#primary}
   */
   readonly primary?: boolean | cdktf.IResolvable;
 }
@@ -242,7 +242,7 @@ export interface CmekRegionsKey {
   /**
   * Principal to authenticate as in order to access the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cmek#auth_principal Cmek#auth_principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cmek#auth_principal Cmek#auth_principal}
   */
   readonly authPrincipal: string;
   /**
@@ -252,13 +252,13 @@ export interface CmekRegionsKey {
   *   * NULL_KMS
   *   * AZURE_KEY_VAULT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cmek#type Cmek#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cmek#type Cmek#type}
   */
   readonly type: string;
   /**
   * Provider-specific URI pointing to the encryption key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cmek#uri Cmek#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cmek#uri Cmek#uri}
   */
   readonly uri: string;
 }
@@ -421,13 +421,13 @@ export class CmekRegionsKeyOutputReference extends cdktf.ComplexObject {
 }
 export interface CmekRegions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cmek#key Cmek#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cmek#key Cmek#key}
   */
   readonly key: CmekRegionsKey;
   /**
   * Cloud provider region code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cmek#region Cmek#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cmek#region Cmek#region}
   */
   readonly region: string;
 }
@@ -571,7 +571,7 @@ export class CmekRegionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cmek cockroach_cmek}
+* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cmek cockroach_cmek}
 */
 export class Cmek extends cdktf.TerraformResource {
 
@@ -587,7 +587,7 @@ export class Cmek extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cmek resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cmek to import
-  * @param importFromId The id of the existing Cmek that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cmek#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cmek that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cmek#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cmek to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -599,7 +599,7 @@ export class Cmek extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/cmek cockroach_cmek} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/cmek cockroach_cmek} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -610,8 +610,8 @@ export class Cmek extends cdktf.TerraformResource {
       terraformResourceType: 'cockroach_cmek',
       terraformGeneratorMetadata: {
         providerName: 'cockroach',
-        providerVersion: '1.16.0',
-        providerVersionConstraint: '1.16.0'
+        providerVersion: '1.17.0',
+        providerVersionConstraint: '1.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

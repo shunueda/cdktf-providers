@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/argus_instance
+// https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/argus_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface ArgusInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * A Grafana configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/argus_instance#grafana ArgusInstance#grafana}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/argus_instance#grafana ArgusInstance#grafana}
   */
   readonly grafana?: ArgusInstanceGrafana;
   /**
   * Metrics configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/argus_instance#metrics ArgusInstance#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/argus_instance#metrics ArgusInstance#metrics}
   */
   readonly metrics?: ArgusInstanceMetrics;
   /**
   * Specifies the name of the Argus instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/argus_instance#name ArgusInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/argus_instance#name ArgusInstance#name}
   */
   readonly name: string;
   /**
   * Specifies the Argus plan. Available options are: `Monitoring-Medium-EU01`, `Monitoring-Large-EU01`, `Frontend-Starter-EU01`, `Monitoring-XL-EU01`, `Monitoring-XXL-EU01`, `Monitoring-Starter-EU01`, `Monitoring-Basic-EU01`, `Observability-Medium-EU01`, `Observability-Large-EU01 `, `Observability-XL-EU01`, `Observability-Starter-EU01`, `Observability-Basic-EU01`, `Observability-XXL-EU01`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/argus_instance#plan ArgusInstance#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/argus_instance#plan ArgusInstance#plan}
   */
   readonly plan: string;
   /**
   * Specifies the Project ID the Argus instance belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/argus_instance#project_id ArgusInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/argus_instance#project_id ArgusInstance#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/argus_instance#timeouts ArgusInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/argus_instance#timeouts ArgusInstance#timeouts}
   */
   readonly timeouts?: ArgusInstanceTimeouts;
 }
@@ -46,7 +46,7 @@ export interface ArgusInstanceGrafana {
   /**
   * If true, anyone can access Grafana dashboards without logging in. Default is set to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/argus_instance#enable_public_access ArgusInstance#enable_public_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/argus_instance#enable_public_access ArgusInstance#enable_public_access}
   */
   readonly enablePublicAccess?: boolean | cdktf.IResolvable;
 }
@@ -142,19 +142,19 @@ export interface ArgusInstanceMetrics {
   /**
   * Specifies for how many days the raw metrics are kept. Default is set to `90`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/argus_instance#retention_days ArgusInstance#retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/argus_instance#retention_days ArgusInstance#retention_days}
   */
   readonly retentionDays?: number;
   /**
   * Specifies for how many days the 1h downsampled metrics are kept. must be less than the value of the 5m downsampling retention. Default is set to `0` (disabled).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/argus_instance#retention_days_1h_downsampling ArgusInstance#retention_days_1h_downsampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/argus_instance#retention_days_1h_downsampling ArgusInstance#retention_days_1h_downsampling}
   */
   readonly retentionDays1HDownsampling?: number;
   /**
   * Specifies for how many days the 5m downsampled metrics are kept. must be less than the value of the general retention. Default is set to `0` (disabled).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/argus_instance#retention_days_5m_downsampling ArgusInstance#retention_days_5m_downsampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/argus_instance#retention_days_5m_downsampling ArgusInstance#retention_days_5m_downsampling}
   */
   readonly retentionDays5MDownsampling?: number;
 }
@@ -306,15 +306,15 @@ export class ArgusInstanceMetricsOutputReference extends cdktf.ComplexObject {
 }
 export interface ArgusInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/argus_instance#create ArgusInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/argus_instance#create ArgusInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/argus_instance#delete ArgusInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/argus_instance#delete ArgusInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/argus_instance#update ArgusInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/argus_instance#update ArgusInstance#update}
   */
   readonly update?: string;
 }
@@ -466,7 +466,7 @@ export class ArgusInstanceTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/argus_instance stackit_argus_instance}
+* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/argus_instance stackit_argus_instance}
 */
 export class ArgusInstance extends cdktf.TerraformResource {
 
@@ -482,7 +482,7 @@ export class ArgusInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ArgusInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ArgusInstance to import
-  * @param importFromId The id of the existing ArgusInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/argus_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ArgusInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/argus_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ArgusInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -494,7 +494,7 @@ export class ArgusInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/argus_instance stackit_argus_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/argus_instance stackit_argus_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -505,8 +505,8 @@ export class ArgusInstance extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_argus_instance',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '1.34.3',
-        providerVersionConstraint: '1.34.3'
+        providerVersion: '1.34.4',
+        providerVersionConstraint: '1.34.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/postgresql_xlogs
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/postgresql_xlogs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudPostgresqlXlogsConfig extends cdktf.TerraformMe
   /**
   * Xlog end time, format `yyyy-MM-dd hh:mm:ss`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/postgresql_xlogs#end_time DataTencentcloudPostgresqlXlogs#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/postgresql_xlogs#end_time DataTencentcloudPostgresqlXlogs#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/postgresql_xlogs#id DataTencentcloudPostgresqlXlogs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/postgresql_xlogs#id DataTencentcloudPostgresqlXlogs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataTencentcloudPostgresqlXlogsConfig extends cdktf.TerraformMe
   /**
   * PostgreSQL instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/postgresql_xlogs#instance_id DataTencentcloudPostgresqlXlogs#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/postgresql_xlogs#instance_id DataTencentcloudPostgresqlXlogs#instance_id}
   */
   readonly instanceId: string;
   /**
   * Used for save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/postgresql_xlogs#result_output_file DataTencentcloudPostgresqlXlogs#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/postgresql_xlogs#result_output_file DataTencentcloudPostgresqlXlogs#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Xlog start time, format `yyyy-MM-dd hh:mm:ss`, start time cannot before 7 days ago.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/postgresql_xlogs#start_time DataTencentcloudPostgresqlXlogs#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/postgresql_xlogs#start_time DataTencentcloudPostgresqlXlogs#start_time}
   */
   readonly startTime?: string;
 }
@@ -141,7 +141,7 @@ export class DataTencentcloudPostgresqlXlogsListStructList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/postgresql_xlogs tencentcloud_postgresql_xlogs}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/postgresql_xlogs tencentcloud_postgresql_xlogs}
 */
 export class DataTencentcloudPostgresqlXlogs extends cdktf.TerraformDataSource {
 
@@ -157,7 +157,7 @@ export class DataTencentcloudPostgresqlXlogs extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudPostgresqlXlogs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudPostgresqlXlogs to import
-  * @param importFromId The id of the existing DataTencentcloudPostgresqlXlogs that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/postgresql_xlogs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudPostgresqlXlogs that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/postgresql_xlogs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudPostgresqlXlogs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -169,7 +169,7 @@ export class DataTencentcloudPostgresqlXlogs extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/postgresql_xlogs tencentcloud_postgresql_xlogs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/postgresql_xlogs tencentcloud_postgresql_xlogs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -180,8 +180,8 @@ export class DataTencentcloudPostgresqlXlogs extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_postgresql_xlogs',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

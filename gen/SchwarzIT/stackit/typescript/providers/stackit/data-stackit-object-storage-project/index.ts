@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/object_storage_project
+// https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/object_storage_project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataStackitObjectStorageProjectConfig extends cdktf.TerraformMe
   /**
   * The project ID in which Object Storage is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/object_storage_project#project_id DataStackitObjectStorageProject#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/object_storage_project#project_id DataStackitObjectStorageProject#project_id}
   */
   readonly projectId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/object_storage_project stackit_object_storage_project}
+* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/object_storage_project stackit_object_storage_project}
 */
 export class DataStackitObjectStorageProject extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataStackitObjectStorageProject extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataStackitObjectStorageProject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStackitObjectStorageProject to import
-  * @param importFromId The id of the existing DataStackitObjectStorageProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/object_storage_project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStackitObjectStorageProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/object_storage_project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStackitObjectStorageProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataStackitObjectStorageProject extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/object_storage_project stackit_object_storage_project} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/object_storage_project stackit_object_storage_project} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataStackitObjectStorageProject extends cdktf.TerraformDataSource {
       terraformResourceType: 'stackit_object_storage_project',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '1.34.3',
-        providerVersionConstraint: '1.34.3'
+        providerVersion: '1.34.4',
+        providerVersionConstraint: '1.34.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

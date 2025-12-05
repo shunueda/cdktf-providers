@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_status
+// https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_status
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,56 @@ export interface IntegrationStatusConfig extends cdktf.TerraformMetaArguments {
   /**
   * Status.io API ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_status#api_id IntegrationStatus#api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_status#api_id IntegrationStatus#api_id}
   */
   readonly apiId: string;
   /**
   * Status.io API key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_status#api_key IntegrationStatus#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_status#api_key IntegrationStatus#api_key}
   */
   readonly apiKey: string;
   /**
   * Component ID to update
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_status#component IntegrationStatus#component}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_status#component IntegrationStatus#component}
   */
   readonly component?: string;
   /**
-  * List of contact group names to receive notifications. 
-  * Each contact group can contain multiple contacts (email addresses, phone numbers, or integrations) 
+  * List of contact group names to receive notifications.
+  * Each contact group can contain multiple contacts (email addresses, phone numbers, or integrations)
   * that will be notified when alerts are triggered. Defaults to ['Default'] if not specified.
+  * Set to an empty list to disable notifications at this level and rely on parent check group notifications instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_status#contact_groups IntegrationStatus#contact_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_status#contact_groups IntegrationStatus#contact_groups}
   */
   readonly contactGroups?: string[];
   /**
   * Container ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_status#container IntegrationStatus#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_status#container IntegrationStatus#container}
   */
   readonly container?: string;
   /**
   * Metric ID to update
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_status#metric IntegrationStatus#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_status#metric IntegrationStatus#metric}
   */
   readonly metric?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_status#name IntegrationStatus#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_status#name IntegrationStatus#name}
   */
   readonly name: string;
   /**
   * Status.io status page ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_status#statuspage_id IntegrationStatus#statuspage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_status#statuspage_id IntegrationStatus#statuspage_id}
   */
   readonly statuspageId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_status uptime_integration_status}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_status uptime_integration_status}
 */
 export class IntegrationStatus extends cdktf.TerraformResource {
 
@@ -74,7 +75,7 @@ export class IntegrationStatus extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationStatus resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationStatus to import
-  * @param importFromId The id of the existing IntegrationStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_status#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_status#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationStatus to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +87,7 @@ export class IntegrationStatus extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_status uptime_integration_status} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_status uptime_integration_status} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +98,8 @@ export class IntegrationStatus extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_integration_status',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.18.1',
-        providerVersionConstraint: '2.18.1'
+        providerVersion: '2.20.0',
+        providerVersionConstraint: '2.20.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

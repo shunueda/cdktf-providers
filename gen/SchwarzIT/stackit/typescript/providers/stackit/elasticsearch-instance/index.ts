@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/elasticsearch_instance
+// https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/elasticsearch_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface ElasticsearchInstanceConfig extends cdktf.TerraformMetaArgument
   /**
   * Access Control rules to whitelist IP addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/elasticsearch_instance#acl ElasticsearchInstance#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/elasticsearch_instance#acl ElasticsearchInstance#acl}
   */
   readonly acl?: string[];
   /**
   * Specifies the instance name. Changing this value requires the resource to be recreated. Changing this value requires the resource to be recreated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/elasticsearch_instance#name ElasticsearchInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/elasticsearch_instance#name ElasticsearchInstance#name}
   */
   readonly name: string;
   /**
   * The ElasticSearch Plan. Default is `stackit-elasticsearch-1.4.10-single`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/elasticsearch_instance#plan ElasticsearchInstance#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/elasticsearch_instance#plan ElasticsearchInstance#plan}
   */
   readonly plan?: string;
   /**
   * The project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/elasticsearch_instance#project_id ElasticsearchInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/elasticsearch_instance#project_id ElasticsearchInstance#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/elasticsearch_instance#timeouts ElasticsearchInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/elasticsearch_instance#timeouts ElasticsearchInstance#timeouts}
   */
   readonly timeouts?: ElasticsearchInstanceTimeouts;
   /**
   * ElasticSearch version. Default is 7
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/elasticsearch_instance#version ElasticsearchInstance#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/elasticsearch_instance#version ElasticsearchInstance#version}
   */
   readonly version?: string;
 }
 export interface ElasticsearchInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/elasticsearch_instance#create ElasticsearchInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/elasticsearch_instance#create ElasticsearchInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/elasticsearch_instance#delete ElasticsearchInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/elasticsearch_instance#delete ElasticsearchInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/elasticsearch_instance#update ElasticsearchInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/elasticsearch_instance#update ElasticsearchInstance#update}
   */
   readonly update?: string;
 }
@@ -204,7 +204,7 @@ export class ElasticsearchInstanceTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/elasticsearch_instance stackit_elasticsearch_instance}
+* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/elasticsearch_instance stackit_elasticsearch_instance}
 */
 export class ElasticsearchInstance extends cdktf.TerraformResource {
 
@@ -220,7 +220,7 @@ export class ElasticsearchInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ElasticsearchInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticsearchInstance to import
-  * @param importFromId The id of the existing ElasticsearchInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/elasticsearch_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticsearchInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/elasticsearch_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticsearchInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -232,7 +232,7 @@ export class ElasticsearchInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/elasticsearch_instance stackit_elasticsearch_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/elasticsearch_instance stackit_elasticsearch_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -243,8 +243,8 @@ export class ElasticsearchInstance extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_elasticsearch_instance',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '1.34.3',
-        providerVersionConstraint: '1.34.3'
+        providerVersion: '1.34.4',
+        providerVersionConstraint: '1.34.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

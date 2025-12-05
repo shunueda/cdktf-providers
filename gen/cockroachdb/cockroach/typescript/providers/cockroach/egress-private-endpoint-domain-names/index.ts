@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/egress_private_endpoint_domain_names
+// https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/egress_private_endpoint_domain_names
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface EgressPrivateEndpointDomainNamesConfig extends cdktf.TerraformM
   /**
   * cluster_id identifies the cluster to which this egress private endpoint applies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/egress_private_endpoint_domain_names#cluster_id EgressPrivateEndpointDomainNames#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/egress_private_endpoint_domain_names#cluster_id EgressPrivateEndpointDomainNames#cluster_id}
   */
   readonly clusterId: string;
   /**
   * domain_names contains a list of domain names to associate with the egress private endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/egress_private_endpoint_domain_names#domain_names EgressPrivateEndpointDomainNames#domain_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/egress_private_endpoint_domain_names#domain_names EgressPrivateEndpointDomainNames#domain_names}
   */
   readonly domainNames: string[];
   /**
   * endpoint_id is the `id` value of the egress private endpoint in CockroachDB Cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/egress_private_endpoint_domain_names#endpoint_id EgressPrivateEndpointDomainNames#endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/egress_private_endpoint_domain_names#endpoint_id EgressPrivateEndpointDomainNames#endpoint_id}
   */
   readonly endpointId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/egress_private_endpoint_domain_names cockroach_egress_private_endpoint_domain_names}
+* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/egress_private_endpoint_domain_names cockroach_egress_private_endpoint_domain_names}
 */
 export class EgressPrivateEndpointDomainNames extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class EgressPrivateEndpointDomainNames extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EgressPrivateEndpointDomainNames resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EgressPrivateEndpointDomainNames to import
-  * @param importFromId The id of the existing EgressPrivateEndpointDomainNames that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/egress_private_endpoint_domain_names#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EgressPrivateEndpointDomainNames that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/egress_private_endpoint_domain_names#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EgressPrivateEndpointDomainNames to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class EgressPrivateEndpointDomainNames extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/egress_private_endpoint_domain_names cockroach_egress_private_endpoint_domain_names} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/egress_private_endpoint_domain_names cockroach_egress_private_endpoint_domain_names} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class EgressPrivateEndpointDomainNames extends cdktf.TerraformResource {
       terraformResourceType: 'cockroach_egress_private_endpoint_domain_names',
       terraformGeneratorMetadata: {
         providerName: 'cockroach',
-        providerVersion: '1.16.0',
-        providerVersionConstraint: '1.16.0'
+        providerVersion: '1.17.0',
+        providerVersionConstraint: '1.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

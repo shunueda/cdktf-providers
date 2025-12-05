@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/secrets_manager_user
+// https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/secrets_manager_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataStackitSecretsManagerUserConfig extends cdktf.TerraformMeta
   /**
   * Specifies the instance UUID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/secrets_manager_user#instance_id DataStackitSecretsManagerUser#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/secrets_manager_user#instance_id DataStackitSecretsManagerUser#instance_id}
   */
   readonly instanceId: string;
   /**
   * The project UUID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/secrets_manager_user#project_id DataStackitSecretsManagerUser#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/secrets_manager_user#project_id DataStackitSecretsManagerUser#project_id}
   */
   readonly projectId: string;
   /**
   * Specifies the user name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/secrets_manager_user#username DataStackitSecretsManagerUser#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/secrets_manager_user#username DataStackitSecretsManagerUser#username}
   */
   readonly username: string;
   /**
   * Specifies if the user can write secrets. `false` by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/secrets_manager_user#write_enabled DataStackitSecretsManagerUser#write_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/secrets_manager_user#write_enabled DataStackitSecretsManagerUser#write_enabled}
   */
   readonly writeEnabled?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/secrets_manager_user stackit_secrets_manager_user}
+* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/secrets_manager_user stackit_secrets_manager_user}
 */
 export class DataStackitSecretsManagerUser extends cdktf.TerraformDataSource {
 
@@ -50,7 +50,7 @@ export class DataStackitSecretsManagerUser extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataStackitSecretsManagerUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStackitSecretsManagerUser to import
-  * @param importFromId The id of the existing DataStackitSecretsManagerUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/secrets_manager_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStackitSecretsManagerUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/secrets_manager_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStackitSecretsManagerUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class DataStackitSecretsManagerUser extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/secrets_manager_user stackit_secrets_manager_user} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/secrets_manager_user stackit_secrets_manager_user} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class DataStackitSecretsManagerUser extends cdktf.TerraformDataSource {
       terraformResourceType: 'stackit_secrets_manager_user',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '1.34.3',
-        providerVersionConstraint: '1.34.3'
+        providerVersion: '1.34.4',
+        providerVersionConstraint: '1.34.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

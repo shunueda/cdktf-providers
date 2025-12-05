@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/as_protect_instances
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/as_protect_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AsProtectInstancesConfig extends cdktf.TerraformMetaArguments {
   /**
   * Launch configuration ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/as_protect_instances#auto_scaling_group_id AsProtectInstances#auto_scaling_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/as_protect_instances#auto_scaling_group_id AsProtectInstances#auto_scaling_group_id}
   */
   readonly autoScalingGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/as_protect_instances#id AsProtectInstances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/as_protect_instances#id AsProtectInstances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface AsProtectInstancesConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of cvm instances to remove.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/as_protect_instances#instance_ids AsProtectInstances#instance_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/as_protect_instances#instance_ids AsProtectInstances#instance_ids}
   */
   readonly instanceIds: string[];
   /**
   * If instances need protect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/as_protect_instances#protected_from_scale_in AsProtectInstances#protected_from_scale_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/as_protect_instances#protected_from_scale_in AsProtectInstances#protected_from_scale_in}
   */
   readonly protectedFromScaleIn: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/as_protect_instances tencentcloud_as_protect_instances}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/as_protect_instances tencentcloud_as_protect_instances}
 */
 export class AsProtectInstances extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class AsProtectInstances extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AsProtectInstances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AsProtectInstances to import
-  * @param importFromId The id of the existing AsProtectInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/as_protect_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AsProtectInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/as_protect_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AsProtectInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class AsProtectInstances extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/as_protect_instances tencentcloud_as_protect_instances} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/as_protect_instances tencentcloud_as_protect_instances} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class AsProtectInstances extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_as_protect_instances',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

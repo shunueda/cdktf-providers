@@ -1,3 +1,3 @@
 # `tencentcloud_redis_connection_config`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_redis_connection_config`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/redis_connection_config).
+Refer to the Terraform Registry for docs: [`tencentcloud_redis_connection_config`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/redis_connection_config).

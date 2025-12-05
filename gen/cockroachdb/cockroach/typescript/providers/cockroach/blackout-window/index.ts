@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/blackout_window
+// https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/blackout_window
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface BlackoutWindowConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the cluster the blackout window applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/blackout_window#cluster_id BlackoutWindow#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/blackout_window#cluster_id BlackoutWindow#cluster_id}
   */
   readonly clusterId: string;
   /**
   * The UTC end time for the blackout window in RFC3339 format (e.g. `2025-03-18T09:00:00Z`). Must fall within 14 days of `start_time` and no later than three months from now.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/blackout_window#end_time BlackoutWindow#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/blackout_window#end_time BlackoutWindow#end_time}
   */
   readonly endTime?: string;
   /**
   * The UTC start time for the blackout window in RFC3339 format (e.g. `2025-03-15T09:00:00Z`). Must be scheduled at least seven days in advance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/blackout_window#start_time BlackoutWindow#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/blackout_window#start_time BlackoutWindow#start_time}
   */
   readonly startTime?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/blackout_window cockroach_blackout_window}
+* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/blackout_window cockroach_blackout_window}
 */
 export class BlackoutWindow extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class BlackoutWindow extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BlackoutWindow resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BlackoutWindow to import
-  * @param importFromId The id of the existing BlackoutWindow that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/blackout_window#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BlackoutWindow that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/blackout_window#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BlackoutWindow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class BlackoutWindow extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/blackout_window cockroach_blackout_window} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/blackout_window cockroach_blackout_window} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class BlackoutWindow extends cdktf.TerraformResource {
       terraformResourceType: 'cockroach_blackout_window',
       terraformGeneratorMetadata: {
         providerName: 'cockroach',
-        providerVersion: '1.16.0',
-        providerVersionConstraint: '1.16.0'
+        providerVersion: '1.17.0',
+        providerVersionConstraint: '1.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

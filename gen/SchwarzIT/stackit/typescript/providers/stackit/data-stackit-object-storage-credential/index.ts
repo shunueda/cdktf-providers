@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/object_storage_credential
+// https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/object_storage_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataStackitObjectStorageCredentialConfig extends cdktf.Terrafor
   /**
   * the credentials group ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/object_storage_credential#credentials_group_id DataStackitObjectStorageCredential#credentials_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/object_storage_credential#credentials_group_id DataStackitObjectStorageCredential#credentials_group_id}
   */
   readonly credentialsGroupId: string;
   /**
   * the credential's display name in the portal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/object_storage_credential#display_name DataStackitObjectStorageCredential#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/object_storage_credential#display_name DataStackitObjectStorageCredential#display_name}
   */
   readonly displayName?: string;
   /**
   * the credential ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/object_storage_credential#id DataStackitObjectStorageCredential#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/object_storage_credential#id DataStackitObjectStorageCredential#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,19 +31,19 @@ export interface DataStackitObjectStorageCredentialConfig extends cdktf.Terrafor
   /**
   * The ID returned from `stackit_object_storage_project`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/object_storage_credential#object_storage_project_id DataStackitObjectStorageCredential#object_storage_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/object_storage_credential#object_storage_project_id DataStackitObjectStorageCredential#object_storage_project_id}
   */
   readonly objectStorageProjectId?: string;
   /**
   * The ID returned from `stackit_object_storage_project`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/object_storage_credential#project_id DataStackitObjectStorageCredential#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/object_storage_credential#project_id DataStackitObjectStorageCredential#project_id}
   */
   readonly projectId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/object_storage_credential stackit_object_storage_credential}
+* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/object_storage_credential stackit_object_storage_credential}
 */
 export class DataStackitObjectStorageCredential extends cdktf.TerraformDataSource {
 
@@ -59,7 +59,7 @@ export class DataStackitObjectStorageCredential extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataStackitObjectStorageCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStackitObjectStorageCredential to import
-  * @param importFromId The id of the existing DataStackitObjectStorageCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/object_storage_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStackitObjectStorageCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/object_storage_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStackitObjectStorageCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -71,7 +71,7 @@ export class DataStackitObjectStorageCredential extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/object_storage_credential stackit_object_storage_credential} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/object_storage_credential stackit_object_storage_credential} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -82,8 +82,8 @@ export class DataStackitObjectStorageCredential extends cdktf.TerraformDataSourc
       terraformResourceType: 'stackit_object_storage_credential',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '1.34.3',
-        providerVersionConstraint: '1.34.3'
+        providerVersion: '1.34.4',
+        providerVersionConstraint: '1.34.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

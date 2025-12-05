@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_route_rate_limit
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_route_rate_limit
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TseCngwRouteRateLimitConfig extends cdktf.TerraformMetaArgument
   /**
   * gateway ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_route_rate_limit#gateway_id TseCngwRouteRateLimit#gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_route_rate_limit#gateway_id TseCngwRouteRateLimit#gateway_id}
   */
   readonly gatewayId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_route_rate_limit#id TseCngwRouteRateLimit#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_route_rate_limit#id TseCngwRouteRateLimit#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface TseCngwRouteRateLimitConfig extends cdktf.TerraformMetaArgument
   /**
   * Route id, or route name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_route_rate_limit#route_id TseCngwRouteRateLimit#route_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_route_rate_limit#route_id TseCngwRouteRateLimit#route_id}
   */
   readonly routeId: string;
   /**
   * limit_detail block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_route_rate_limit#limit_detail TseCngwRouteRateLimit#limit_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_route_rate_limit#limit_detail TseCngwRouteRateLimit#limit_detail}
   */
   readonly limitDetail: TseCngwRouteRateLimitLimitDetail;
 }
@@ -37,25 +37,25 @@ export interface TseCngwRouteRateLimitLimitDetailExternalRedis {
   /**
   * redis ip, maybe null.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_route_rate_limit#redis_host TseCngwRouteRateLimit#redis_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_route_rate_limit#redis_host TseCngwRouteRateLimit#redis_host}
   */
   readonly redisHost: string;
   /**
   * redis password, maybe null.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_route_rate_limit#redis_password TseCngwRouteRateLimit#redis_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_route_rate_limit#redis_password TseCngwRouteRateLimit#redis_password}
   */
   readonly redisPassword: string;
   /**
   * redis port, maybe null.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_route_rate_limit#redis_port TseCngwRouteRateLimit#redis_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_route_rate_limit#redis_port TseCngwRouteRateLimit#redis_port}
   */
   readonly redisPort: number;
   /**
   * redis timeout, unit: `ms`, maybe null.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_route_rate_limit#redis_timeout TseCngwRouteRateLimit#redis_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_route_rate_limit#redis_timeout TseCngwRouteRateLimit#redis_timeout}
   */
   readonly redisTimeout: number;
 }
@@ -216,13 +216,13 @@ export interface TseCngwRouteRateLimitLimitDetailQpsThresholds {
   /**
   * the max threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_route_rate_limit#max TseCngwRouteRateLimit#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_route_rate_limit#max TseCngwRouteRateLimit#max}
   */
   readonly max: number;
   /**
   * qps threshold unit.Reference value:`second`,`minute`,`hour`,`day`,`month`,`year`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_route_rate_limit#unit TseCngwRouteRateLimit#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_route_rate_limit#unit TseCngwRouteRateLimit#unit}
   */
   readonly unit: string;
 }
@@ -363,13 +363,13 @@ export interface TseCngwRouteRateLimitLimitDetailRateLimitResponseHeaders {
   /**
   * key of header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_route_rate_limit#key TseCngwRouteRateLimit#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_route_rate_limit#key TseCngwRouteRateLimit#key}
   */
   readonly key?: string;
   /**
   * value of header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_route_rate_limit#value TseCngwRouteRateLimit#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_route_rate_limit#value TseCngwRouteRateLimit#value}
   */
   readonly value?: string;
 }
@@ -516,19 +516,19 @@ export interface TseCngwRouteRateLimitLimitDetailRateLimitResponse {
   /**
   * custom response body, maybe bull.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_route_rate_limit#body TseCngwRouteRateLimit#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_route_rate_limit#body TseCngwRouteRateLimit#body}
   */
   readonly body?: string;
   /**
   * http status code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_route_rate_limit#http_status TseCngwRouteRateLimit#http_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_route_rate_limit#http_status TseCngwRouteRateLimit#http_status}
   */
   readonly httpStatus?: number;
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_route_rate_limit#headers TseCngwRouteRateLimit#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_route_rate_limit#headers TseCngwRouteRateLimit#headers}
   */
   readonly headers?: TseCngwRouteRateLimitLimitDetailRateLimitResponseHeaders[] | cdktf.IResolvable;
 }
@@ -672,79 +672,79 @@ export interface TseCngwRouteRateLimitLimitDetail {
   /**
   * status of service rate limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_route_rate_limit#enabled TseCngwRouteRateLimit#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_route_rate_limit#enabled TseCngwRouteRateLimit#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * request headers that require rate limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_route_rate_limit#header TseCngwRouteRateLimit#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_route_rate_limit#header TseCngwRouteRateLimit#header}
   */
   readonly header?: string;
   /**
   * whether to hide the headers of client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_route_rate_limit#hide_client_headers TseCngwRouteRateLimit#hide_client_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_route_rate_limit#hide_client_headers TseCngwRouteRateLimit#hide_client_headers}
   */
   readonly hideClientHeaders: boolean | cdktf.IResolvable;
   /**
   * whether to enable request queuing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_route_rate_limit#is_delay TseCngwRouteRateLimit#is_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_route_rate_limit#is_delay TseCngwRouteRateLimit#is_delay}
   */
   readonly isDelay: boolean | cdktf.IResolvable;
   /**
   * basis for service rate limit.Reference value:`ip`,`service`,`consumer`,`credential`,`path`,`header`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_route_rate_limit#limit_by TseCngwRouteRateLimit#limit_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_route_rate_limit#limit_by TseCngwRouteRateLimit#limit_by}
   */
   readonly limitBy: string;
   /**
   * queue time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_route_rate_limit#line_up_time TseCngwRouteRateLimit#line_up_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_route_rate_limit#line_up_time TseCngwRouteRateLimit#line_up_time}
   */
   readonly lineUpTime?: number;
   /**
   * request paths that require rate limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_route_rate_limit#path TseCngwRouteRateLimit#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_route_rate_limit#path TseCngwRouteRateLimit#path}
   */
   readonly path?: string;
   /**
   * counter policy.Reference value:`local`,`redis`,`external_redis`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_route_rate_limit#policy TseCngwRouteRateLimit#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_route_rate_limit#policy TseCngwRouteRateLimit#policy}
   */
   readonly policy?: string;
   /**
   * request forwarding address, maybe null.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_route_rate_limit#rate_limit_response_url TseCngwRouteRateLimit#rate_limit_response_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_route_rate_limit#rate_limit_response_url TseCngwRouteRateLimit#rate_limit_response_url}
   */
   readonly rateLimitResponseUrl?: string;
   /**
   * response strategy.Reference value:`url`: forward request according to url,`text`: response configuration,`default`: return directly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_route_rate_limit#response_type TseCngwRouteRateLimit#response_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_route_rate_limit#response_type TseCngwRouteRateLimit#response_type}
   */
   readonly responseType: string;
   /**
   * external_redis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_route_rate_limit#external_redis TseCngwRouteRateLimit#external_redis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_route_rate_limit#external_redis TseCngwRouteRateLimit#external_redis}
   */
   readonly externalRedis?: TseCngwRouteRateLimitLimitDetailExternalRedis;
   /**
   * qps_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_route_rate_limit#qps_thresholds TseCngwRouteRateLimit#qps_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_route_rate_limit#qps_thresholds TseCngwRouteRateLimit#qps_thresholds}
   */
   readonly qpsThresholds: TseCngwRouteRateLimitLimitDetailQpsThresholds[] | cdktf.IResolvable;
   /**
   * rate_limit_response block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_route_rate_limit#rate_limit_response TseCngwRouteRateLimit#rate_limit_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_route_rate_limit#rate_limit_response TseCngwRouteRateLimit#rate_limit_response}
   */
   readonly rateLimitResponse?: TseCngwRouteRateLimitLimitDetailRateLimitResponse;
 }
@@ -1158,7 +1158,7 @@ export class TseCngwRouteRateLimitLimitDetailOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_route_rate_limit tencentcloud_tse_cngw_route_rate_limit}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_route_rate_limit tencentcloud_tse_cngw_route_rate_limit}
 */
 export class TseCngwRouteRateLimit extends cdktf.TerraformResource {
 
@@ -1174,7 +1174,7 @@ export class TseCngwRouteRateLimit extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TseCngwRouteRateLimit resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TseCngwRouteRateLimit to import
-  * @param importFromId The id of the existing TseCngwRouteRateLimit that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_route_rate_limit#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TseCngwRouteRateLimit that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_route_rate_limit#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TseCngwRouteRateLimit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1186,7 +1186,7 @@ export class TseCngwRouteRateLimit extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_route_rate_limit tencentcloud_tse_cngw_route_rate_limit} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/tse_cngw_route_rate_limit tencentcloud_tse_cngw_route_rate_limit} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1197,8 +1197,8 @@ export class TseCngwRouteRateLimit extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tse_cngw_route_rate_limit',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

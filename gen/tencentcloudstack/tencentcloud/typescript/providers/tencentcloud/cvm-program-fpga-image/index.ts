@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cvm_program_fpga_image
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cvm_program_fpga_image
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface CvmProgramFpgaImageConfig extends cdktf.TerraformMetaArguments 
   /**
   * The DBDF number of the FPGA card on the instance, if left blank, the FPGA image will be burned to all FPGA cards owned by the instance by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cvm_program_fpga_image#dbd_fs CvmProgramFpgaImage#dbd_fs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cvm_program_fpga_image#dbd_fs CvmProgramFpgaImage#dbd_fs}
   */
   readonly dbdFs?: string[];
   /**
   * Trial run, will not perform the actual burning action, the default is False.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cvm_program_fpga_image#dry_run CvmProgramFpgaImage#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cvm_program_fpga_image#dry_run CvmProgramFpgaImage#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
   * COS URL address of the FPGA image file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cvm_program_fpga_image#fpga_url CvmProgramFpgaImage#fpga_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cvm_program_fpga_image#fpga_url CvmProgramFpgaImage#fpga_url}
   */
   readonly fpgaUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cvm_program_fpga_image#id CvmProgramFpgaImage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cvm_program_fpga_image#id CvmProgramFpgaImage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,13 +35,13 @@ export interface CvmProgramFpgaImageConfig extends cdktf.TerraformMetaArguments 
   /**
   * The ID information of the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cvm_program_fpga_image#instance_id CvmProgramFpgaImage#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cvm_program_fpga_image#instance_id CvmProgramFpgaImage#instance_id}
   */
   readonly instanceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cvm_program_fpga_image tencentcloud_cvm_program_fpga_image}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cvm_program_fpga_image tencentcloud_cvm_program_fpga_image}
 */
 export class CvmProgramFpgaImage extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class CvmProgramFpgaImage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CvmProgramFpgaImage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CvmProgramFpgaImage to import
-  * @param importFromId The id of the existing CvmProgramFpgaImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cvm_program_fpga_image#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CvmProgramFpgaImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cvm_program_fpga_image#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CvmProgramFpgaImage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class CvmProgramFpgaImage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cvm_program_fpga_image tencentcloud_cvm_program_fpga_image} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/cvm_program_fpga_image tencentcloud_cvm_program_fpga_image} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class CvmProgramFpgaImage extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cvm_program_fpga_image',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

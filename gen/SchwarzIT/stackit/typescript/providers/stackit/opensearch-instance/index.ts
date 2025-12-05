@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/opensearch_instance
+// https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/opensearch_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface OpensearchInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Access Control rules to whitelist IP addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/opensearch_instance#acl OpensearchInstance#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/opensearch_instance#acl OpensearchInstance#acl}
   */
   readonly acl?: string[];
   /**
   * Specifies the instance name. Changing this value requires the resource to be recreated. Changing this value requires the resource to be recreated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/opensearch_instance#name OpensearchInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/opensearch_instance#name OpensearchInstance#name}
   */
   readonly name: string;
   /**
   * The Opensearch Plan. Default is `stackit-opensearch-1.4.10-single`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/opensearch_instance#plan OpensearchInstance#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/opensearch_instance#plan OpensearchInstance#plan}
   */
   readonly plan?: string;
   /**
   * The project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/opensearch_instance#project_id OpensearchInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/opensearch_instance#project_id OpensearchInstance#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/opensearch_instance#timeouts OpensearchInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/opensearch_instance#timeouts OpensearchInstance#timeouts}
   */
   readonly timeouts?: OpensearchInstanceTimeouts;
   /**
   * Opensearch version. Default is 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/opensearch_instance#version OpensearchInstance#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/opensearch_instance#version OpensearchInstance#version}
   */
   readonly version?: string;
 }
 export interface OpensearchInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/opensearch_instance#create OpensearchInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/opensearch_instance#create OpensearchInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/opensearch_instance#delete OpensearchInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/opensearch_instance#delete OpensearchInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/opensearch_instance#update OpensearchInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/opensearch_instance#update OpensearchInstance#update}
   */
   readonly update?: string;
 }
@@ -204,7 +204,7 @@ export class OpensearchInstanceTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/opensearch_instance stackit_opensearch_instance}
+* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/opensearch_instance stackit_opensearch_instance}
 */
 export class OpensearchInstance extends cdktf.TerraformResource {
 
@@ -220,7 +220,7 @@ export class OpensearchInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OpensearchInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpensearchInstance to import
-  * @param importFromId The id of the existing OpensearchInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/opensearch_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpensearchInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/opensearch_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpensearchInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -232,7 +232,7 @@ export class OpensearchInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/opensearch_instance stackit_opensearch_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/opensearch_instance stackit_opensearch_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -243,8 +243,8 @@ export class OpensearchInstance extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_opensearch_instance',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '1.34.3',
-        providerVersionConstraint: '1.34.3'
+        providerVersion: '1.34.4',
+        providerVersionConstraint: '1.34.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

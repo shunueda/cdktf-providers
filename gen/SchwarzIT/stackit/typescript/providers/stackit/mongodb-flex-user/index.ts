@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mongodb_flex_user
+// https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mongodb_flex_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface MongodbFlexUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the database the user can access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mongodb_flex_user#database MongodbFlexUser#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mongodb_flex_user#database MongodbFlexUser#database}
   */
   readonly database?: string;
   /**
   * the mongo db flex instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mongodb_flex_user#instance_id MongodbFlexUser#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mongodb_flex_user#instance_id MongodbFlexUser#instance_id}
   */
   readonly instanceId: string;
   /**
   * The project ID the instance runs in. Changing this value requires the resource to be recreated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mongodb_flex_user#project_id MongodbFlexUser#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mongodb_flex_user#project_id MongodbFlexUser#project_id}
   */
   readonly projectId: string;
   /**
   * Specifies the role assigned to the user, valid options are: `readWrite` or `read`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mongodb_flex_user#roles MongodbFlexUser#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mongodb_flex_user#roles MongodbFlexUser#roles}
   */
   readonly roles?: string[];
   /**
   * Specifies the user's username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mongodb_flex_user#username MongodbFlexUser#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mongodb_flex_user#username MongodbFlexUser#username}
   */
   readonly username?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mongodb_flex_user stackit_mongodb_flex_user}
+* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mongodb_flex_user stackit_mongodb_flex_user}
 */
 export class MongodbFlexUser extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class MongodbFlexUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MongodbFlexUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MongodbFlexUser to import
-  * @param importFromId The id of the existing MongodbFlexUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mongodb_flex_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MongodbFlexUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mongodb_flex_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MongodbFlexUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class MongodbFlexUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/mongodb_flex_user stackit_mongodb_flex_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/mongodb_flex_user stackit_mongodb_flex_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class MongodbFlexUser extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_mongodb_flex_user',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '1.34.3',
-        providerVersionConstraint: '1.34.3'
+        providerVersion: '1.34.4',
+        providerVersionConstraint: '1.34.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

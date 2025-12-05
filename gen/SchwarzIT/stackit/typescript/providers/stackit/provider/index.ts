@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs
+// https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface StackitProviderConfig {
   /**
   * Enable trace context. If `true` a `Traceparent` header will be added to the request. Default: `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs#enable_trace_context StackitProvider#enable_trace_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs#enable_trace_context StackitProvider#enable_trace_context}
   */
   readonly enableTraceContext?: boolean | cdktf.IResolvable;
   /**
   * Private RSA Key.<br />This attribute can also be loaded from `STACKIT_PRIVATE_KEY` environment variable instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs#private_key StackitProvider#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs#private_key StackitProvider#private_key}
   */
   readonly privateKey?: string;
   /**
   * Path to the Private RSA Key.<br />This attribute can also be loaded from `STACKIT_PRIVATE_KEY_PATH` environment variable instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs#private_key_path StackitProvider#private_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs#private_key_path StackitProvider#private_key_path}
   */
   readonly privateKeyPath?: string;
   /**
   * Service Account Email.<br />This attribute can also be loaded from `STACKIT_SERVICE_ACCOUNT_EMAIL` environment variable instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs#service_account_email StackitProvider#service_account_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs#service_account_email StackitProvider#service_account_email}
   */
   readonly serviceAccountEmail?: string;
   /**
   * Service Account Key.<br />This attribute can also be loaded from `STACKIT_SERVICE_ACCOUNT_KEY` environment variable instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs#service_account_key StackitProvider#service_account_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs#service_account_key StackitProvider#service_account_key}
   */
   readonly serviceAccountKey?: string;
   /**
   * Path to the Service Account Key.<br />This attribute can also be loaded from `STACKIT_SERVICE_ACCOUNT_KEY_PATH` environment variable instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs#service_account_key_path StackitProvider#service_account_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs#service_account_key_path StackitProvider#service_account_key_path}
   */
   readonly serviceAccountKeyPath?: string;
   /**
   * Service Account Token.<br />This attribute can also be loaded from `STACKIT_SERVICE_ACCOUNT_TOKEN` environment variable instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs#service_account_token StackitProvider#service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs#service_account_token StackitProvider#service_account_token}
   */
   readonly serviceAccountToken?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs#alias StackitProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs#alias StackitProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs stackit}
+* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs stackit}
 */
 export class StackitProvider extends cdktf.TerraformProvider {
 
@@ -74,7 +74,7 @@ export class StackitProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a StackitProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StackitProvider to import
-  * @param importFromId The id of the existing StackitProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StackitProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StackitProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class StackitProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs stackit} Resource
+  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs stackit} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class StackitProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'stackit',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '1.34.3',
-        providerVersionConstraint: '1.34.3'
+        providerVersion: '1.34.4',
+        providerVersionConstraint: '1.34.4'
       },
       terraformProviderSource: 'SchwarzIT/stackit'
     });

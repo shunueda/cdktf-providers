@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/object_storage_bucket
+// https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/object_storage_bucket
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,33 +10,33 @@ export interface ObjectStorageBucketConfig extends cdktf.TerraformMetaArguments 
   /**
   * Bucket name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/object_storage_bucket#name ObjectStorageBucket#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/object_storage_bucket#name ObjectStorageBucket#name}
   */
   readonly name: string;
   /**
   * The ID returned from `stackit_object_storage_project`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/object_storage_bucket#object_storage_project_id ObjectStorageBucket#object_storage_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/object_storage_bucket#object_storage_project_id ObjectStorageBucket#object_storage_project_id}
   */
   readonly objectStorageProjectId?: string;
   /**
   * The project UUID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/object_storage_bucket#project_id ObjectStorageBucket#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/object_storage_bucket#project_id ObjectStorageBucket#project_id}
   */
   readonly projectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/object_storage_bucket#timeouts ObjectStorageBucket#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/object_storage_bucket#timeouts ObjectStorageBucket#timeouts}
   */
   readonly timeouts?: ObjectStorageBucketTimeouts;
 }
 export interface ObjectStorageBucketTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/object_storage_bucket#create ObjectStorageBucket#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/object_storage_bucket#create ObjectStorageBucket#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/object_storage_bucket#delete ObjectStorageBucket#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/object_storage_bucket#delete ObjectStorageBucket#delete}
   */
   readonly delete?: string;
 }
@@ -159,7 +159,7 @@ export class ObjectStorageBucketTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/object_storage_bucket stackit_object_storage_bucket}
+* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/object_storage_bucket stackit_object_storage_bucket}
 */
 export class ObjectStorageBucket extends cdktf.TerraformResource {
 
@@ -175,7 +175,7 @@ export class ObjectStorageBucket extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectStorageBucket resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectStorageBucket to import
-  * @param importFromId The id of the existing ObjectStorageBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/object_storage_bucket#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectStorageBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/object_storage_bucket#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectStorageBucket to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -187,7 +187,7 @@ export class ObjectStorageBucket extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/object_storage_bucket stackit_object_storage_bucket} Resource
+  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/object_storage_bucket stackit_object_storage_bucket} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -198,8 +198,8 @@ export class ObjectStorageBucket extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_object_storage_bucket',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '1.34.3',
-        providerVersionConstraint: '1.34.3'
+        providerVersion: '1.34.4',
+        providerVersionConstraint: '1.34.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

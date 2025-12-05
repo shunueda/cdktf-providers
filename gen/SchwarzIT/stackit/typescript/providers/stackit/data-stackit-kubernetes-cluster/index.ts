@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/kubernetes_cluster
+// https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/kubernetes_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataStackitKubernetesClusterConfig extends cdktf.TerraformMetaA
   /**
   * The ID of a `stackit_kubernetes_project` resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/kubernetes_cluster#kubernetes_project_id DataStackitKubernetesCluster#kubernetes_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/kubernetes_cluster#kubernetes_project_id DataStackitKubernetesCluster#kubernetes_project_id}
   */
   readonly kubernetesProjectId?: string;
   /**
   * Specifies the cluster name (lower case, alphanumeric, hypens allowed, up to 11 chars)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/kubernetes_cluster#name DataStackitKubernetesCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/kubernetes_cluster#name DataStackitKubernetesCluster#name}
   */
   readonly name: string;
   /**
   * ID of the Network the SKE nodes are running in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/kubernetes_cluster#network_id DataStackitKubernetesCluster#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/kubernetes_cluster#network_id DataStackitKubernetesCluster#network_id}
   */
   readonly networkId?: string;
   /**
   * One or more `node_pool` block as defined below
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/kubernetes_cluster#node_pools DataStackitKubernetesCluster#node_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/kubernetes_cluster#node_pools DataStackitKubernetesCluster#node_pools}
   */
   readonly nodePools?: DataStackitKubernetesClusterNodePools[] | cdktf.IResolvable;
   /**
   * The project UUID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/kubernetes_cluster#project_id DataStackitKubernetesCluster#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/kubernetes_cluster#project_id DataStackitKubernetesCluster#project_id}
   */
   readonly projectId: string;
 }
@@ -460,13 +460,13 @@ export interface DataStackitKubernetesClusterNodePools {
   /**
   * The machine type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/kubernetes_cluster#machine_type DataStackitKubernetesCluster#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/kubernetes_cluster#machine_type DataStackitKubernetesCluster#machine_type}
   */
   readonly machineType: string;
   /**
   * Specifies the name of the node pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/kubernetes_cluster#name DataStackitKubernetesCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/kubernetes_cluster#name DataStackitKubernetesCluster#name}
   */
   readonly name: string;
 }
@@ -667,7 +667,7 @@ export class DataStackitKubernetesClusterNodePoolsList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/kubernetes_cluster stackit_kubernetes_cluster}
+* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/kubernetes_cluster stackit_kubernetes_cluster}
 */
 export class DataStackitKubernetesCluster extends cdktf.TerraformDataSource {
 
@@ -683,7 +683,7 @@ export class DataStackitKubernetesCluster extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataStackitKubernetesCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStackitKubernetesCluster to import
-  * @param importFromId The id of the existing DataStackitKubernetesCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/kubernetes_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStackitKubernetesCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/kubernetes_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStackitKubernetesCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -695,7 +695,7 @@ export class DataStackitKubernetesCluster extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/kubernetes_cluster stackit_kubernetes_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/kubernetes_cluster stackit_kubernetes_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -706,8 +706,8 @@ export class DataStackitKubernetesCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'stackit_kubernetes_cluster',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '1.34.3',
-        providerVersionConstraint: '1.34.3'
+        providerVersion: '1.34.4',
+        providerVersionConstraint: '1.34.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

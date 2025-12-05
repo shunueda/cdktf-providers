@@ -1,3 +1,3 @@
 # `tencentcloud_subnet`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_subnet`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/subnet).
+Refer to the Terraform Registry for docs: [`tencentcloud_subnet`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/subnet).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/alb_server_attachment
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/alb_server_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AlbServerAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/alb_server_attachment#id AlbServerAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/alb_server_attachment#id AlbServerAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface AlbServerAttachmentConfig extends cdktf.TerraformMetaArguments 
   /**
   * listener ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/alb_server_attachment#listener_id AlbServerAttachment#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/alb_server_attachment#listener_id AlbServerAttachment#listener_id}
   */
   readonly listenerId: string;
   /**
   * loadbalancer ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/alb_server_attachment#loadbalancer_id AlbServerAttachment#loadbalancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/alb_server_attachment#loadbalancer_id AlbServerAttachment#loadbalancer_id}
   */
   readonly loadbalancerId: string;
   /**
   * location ID, only support for layer 7 loadbalancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/alb_server_attachment#location_id AlbServerAttachment#location_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/alb_server_attachment#location_id AlbServerAttachment#location_id}
   */
   readonly locationId?: string;
   /**
   * backends block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/alb_server_attachment#backends AlbServerAttachment#backends}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/alb_server_attachment#backends AlbServerAttachment#backends}
   */
   readonly backends: AlbServerAttachmentBackends[] | cdktf.IResolvable;
 }
@@ -43,19 +43,19 @@ export interface AlbServerAttachmentBackends {
   /**
   * A list backend instance ID (CVM instance ID).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/alb_server_attachment#instance_id AlbServerAttachment#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/alb_server_attachment#instance_id AlbServerAttachment#instance_id}
   */
   readonly instanceId: string;
   /**
   * The port used by the backend server. Valid value range: [1-65535].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/alb_server_attachment#port AlbServerAttachment#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/alb_server_attachment#port AlbServerAttachment#port}
   */
   readonly port: number;
   /**
   * Weight of the backend server. Valid value range: [0-100]. Default to 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/alb_server_attachment#weight AlbServerAttachment#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/alb_server_attachment#weight AlbServerAttachment#weight}
   */
   readonly weight?: number;
 }
@@ -223,7 +223,7 @@ export class AlbServerAttachmentBackendsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/alb_server_attachment tencentcloud_alb_server_attachment}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/alb_server_attachment tencentcloud_alb_server_attachment}
 */
 export class AlbServerAttachment extends cdktf.TerraformResource {
 
@@ -239,7 +239,7 @@ export class AlbServerAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AlbServerAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlbServerAttachment to import
-  * @param importFromId The id of the existing AlbServerAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/alb_server_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlbServerAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/alb_server_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlbServerAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -251,7 +251,7 @@ export class AlbServerAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/alb_server_attachment tencentcloud_alb_server_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/alb_server_attachment tencentcloud_alb_server_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -262,8 +262,8 @@ export class AlbServerAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_alb_server_attachment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

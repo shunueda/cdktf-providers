@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/private_endpoint_connection
+// https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/private_endpoint_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface PrivateEndpointConnectionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/private_endpoint_connection#cluster_id PrivateEndpointConnection#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/private_endpoint_connection#cluster_id PrivateEndpointConnection#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Client side ID of the Private Endpoint Connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/private_endpoint_connection#endpoint_id PrivateEndpointConnection#endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/private_endpoint_connection#endpoint_id PrivateEndpointConnection#endpoint_id}
   */
   readonly endpointId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/private_endpoint_connection cockroach_private_endpoint_connection}
+* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/private_endpoint_connection cockroach_private_endpoint_connection}
 */
 export class PrivateEndpointConnection extends cdktf.TerraformResource {
 
@@ -36,7 +36,7 @@ export class PrivateEndpointConnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PrivateEndpointConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PrivateEndpointConnection to import
-  * @param importFromId The id of the existing PrivateEndpointConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/private_endpoint_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PrivateEndpointConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/private_endpoint_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PrivateEndpointConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -48,7 +48,7 @@ export class PrivateEndpointConnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/private_endpoint_connection cockroach_private_endpoint_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/private_endpoint_connection cockroach_private_endpoint_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -59,8 +59,8 @@ export class PrivateEndpointConnection extends cdktf.TerraformResource {
       terraformResourceType: 'cockroach_private_endpoint_connection',
       terraformGeneratorMetadata: {
         providerName: 'cockroach',
-        providerVersion: '1.16.0',
-        providerVersionConstraint: '1.16.0'
+        providerVersion: '1.17.0',
+        providerVersionConstraint: '1.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

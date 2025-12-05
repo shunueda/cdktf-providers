@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/wedata_task_instance_log
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/wedata_task_instance_log
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudWedataTaskInstanceLogConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/wedata_task_instance_log#id DataTencentcloudWedataTaskInstanceLog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/wedata_task_instance_log#id DataTencentcloudWedataTaskInstanceLog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface DataTencentcloudWedataTaskInstanceLogConfig extends cdktf.Terra
   /**
   * Unique instance identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/wedata_task_instance_log#instance_key DataTencentcloudWedataTaskInstanceLog#instance_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/wedata_task_instance_log#instance_key DataTencentcloudWedataTaskInstanceLog#instance_key}
   */
   readonly instanceKey: string;
   /**
   * Instance lifecycle number, identifying a specific execution of the instance. For example: the first run of a periodic instance is 0, if manually rerun the second execution is 1; defaults to the latest execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/wedata_task_instance_log#life_round_num DataTencentcloudWedataTaskInstanceLog#life_round_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/wedata_task_instance_log#life_round_num DataTencentcloudWedataTaskInstanceLog#life_round_num}
   */
   readonly lifeRoundNum?: number;
   /**
   * Log level, default All - Info - Debug - Warn - Error - All.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/wedata_task_instance_log#log_level DataTencentcloudWedataTaskInstanceLog#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/wedata_task_instance_log#log_level DataTencentcloudWedataTaskInstanceLog#log_level}
   */
   readonly logLevel?: string;
   /**
   * Pagination cursor for log queries, no business meaning. First query uses null, subsequent queries use NextCursor from previous response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/wedata_task_instance_log#next_cursor DataTencentcloudWedataTaskInstanceLog#next_cursor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/wedata_task_instance_log#next_cursor DataTencentcloudWedataTaskInstanceLog#next_cursor}
   */
   readonly nextCursor?: string;
   /**
   * Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/wedata_task_instance_log#project_id DataTencentcloudWedataTaskInstanceLog#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/wedata_task_instance_log#project_id DataTencentcloudWedataTaskInstanceLog#project_id}
   */
   readonly projectId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/wedata_task_instance_log#result_output_file DataTencentcloudWedataTaskInstanceLog#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/wedata_task_instance_log#result_output_file DataTencentcloudWedataTaskInstanceLog#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -148,7 +148,7 @@ export class DataTencentcloudWedataTaskInstanceLogDataList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/wedata_task_instance_log tencentcloud_wedata_task_instance_log}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/wedata_task_instance_log tencentcloud_wedata_task_instance_log}
 */
 export class DataTencentcloudWedataTaskInstanceLog extends cdktf.TerraformDataSource {
 
@@ -164,7 +164,7 @@ export class DataTencentcloudWedataTaskInstanceLog extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataTencentcloudWedataTaskInstanceLog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudWedataTaskInstanceLog to import
-  * @param importFromId The id of the existing DataTencentcloudWedataTaskInstanceLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/wedata_task_instance_log#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudWedataTaskInstanceLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/wedata_task_instance_log#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudWedataTaskInstanceLog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -176,7 +176,7 @@ export class DataTencentcloudWedataTaskInstanceLog extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/wedata_task_instance_log tencentcloud_wedata_task_instance_log} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/wedata_task_instance_log tencentcloud_wedata_task_instance_log} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -187,8 +187,8 @@ export class DataTencentcloudWedataTaskInstanceLog extends cdktf.TerraformDataSo
       terraformResourceType: 'tencentcloud_wedata_task_instance_log',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

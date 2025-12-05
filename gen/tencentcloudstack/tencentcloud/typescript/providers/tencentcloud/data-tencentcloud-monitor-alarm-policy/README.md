@@ -1,3 +1,3 @@
 # `data_tencentcloud_monitor_alarm_policy`
 
-Refer to the Terraform Registry for docs: [`data_tencentcloud_monitor_alarm_policy`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/monitor_alarm_policy).
+Refer to the Terraform Registry for docs: [`data_tencentcloud_monitor_alarm_policy`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/monitor_alarm_policy).

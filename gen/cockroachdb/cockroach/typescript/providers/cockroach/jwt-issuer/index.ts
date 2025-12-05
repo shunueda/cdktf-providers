@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/jwt_issuer
+// https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/jwt_issuer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface JwtIssuerConfig extends cdktf.TerraformMetaArguments {
   /**
   * The intended audience for consuming the JWT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/jwt_issuer#audience JwtIssuer#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/jwt_issuer#audience JwtIssuer#audience}
   */
   readonly audience: string;
   /**
   * Used to identify the user from the external Identity Provider. Defaults to "sub".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/jwt_issuer#claim JwtIssuer#claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/jwt_issuer#claim JwtIssuer#claim}
   */
   readonly claim?: string;
   /**
   * A list of mappings to map the external token identity into CockroachDB Cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/jwt_issuer#identity_map JwtIssuer#identity_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/jwt_issuer#identity_map JwtIssuer#identity_map}
   */
   readonly identityMap?: JwtIssuerIdentityMap[] | cdktf.IResolvable;
   /**
   * The URL of the server issuing JWTs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/jwt_issuer#issuer_url JwtIssuer#issuer_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/jwt_issuer#issuer_url JwtIssuer#issuer_url}
   */
   readonly issuerUrl: string;
   /**
   * A set of public keys (JWKS) used to verify the JWT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/jwt_issuer#jwks JwtIssuer#jwks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/jwt_issuer#jwks JwtIssuer#jwks}
   */
   readonly jwks?: string;
 }
@@ -42,13 +42,13 @@ export interface JwtIssuerIdentityMap {
   /**
   * Specifies how to map the fetched token identity to an identity in CockroachDB Cloud. In case of a regular expression for token_identity, this must contain a \1 placeholder for the matched content. Note that you will need to escape the backslash in the string as in the example usage (\\\1).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/jwt_issuer#cc_identity JwtIssuer#cc_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/jwt_issuer#cc_identity JwtIssuer#cc_identity}
   */
   readonly ccIdentity: string;
   /**
   * Specifies how to fetch external identity from the token claim. A regular expression must start with a forward slash. The regular expression must be in RE2 compatible syntax. For further details, please see https://github.com/google/re2/wiki/Syntax.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/jwt_issuer#token_identity JwtIssuer#token_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/jwt_issuer#token_identity JwtIssuer#token_identity}
   */
   readonly tokenIdentity: string;
 }
@@ -187,7 +187,7 @@ export class JwtIssuerIdentityMapList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/jwt_issuer cockroach_jwt_issuer}
+* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/jwt_issuer cockroach_jwt_issuer}
 */
 export class JwtIssuer extends cdktf.TerraformResource {
 
@@ -203,7 +203,7 @@ export class JwtIssuer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a JwtIssuer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the JwtIssuer to import
-  * @param importFromId The id of the existing JwtIssuer that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/jwt_issuer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing JwtIssuer that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/jwt_issuer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the JwtIssuer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -215,7 +215,7 @@ export class JwtIssuer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/jwt_issuer cockroach_jwt_issuer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/jwt_issuer cockroach_jwt_issuer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -226,8 +226,8 @@ export class JwtIssuer extends cdktf.TerraformResource {
       terraformResourceType: 'cockroach_jwt_issuer',
       terraformGeneratorMetadata: {
         providerName: 'cockroach',
-        providerVersion: '1.16.0',
-        providerVersionConstraint: '1.16.0'
+        providerVersion: '1.17.0',
+        providerVersionConstraint: '1.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

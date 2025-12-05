@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_tts_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ci_media_tts_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CiMediaTtsTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * bucket name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_tts_template#bucket CiMediaTtsTemplate#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ci_media_tts_template#bucket CiMediaTtsTemplate#bucket}
   */
   readonly bucket: string;
   /**
   * Audio format, default wav (synchronous)/pcm (asynchronous, wav, mp3, pcm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_tts_template#codec CiMediaTtsTemplate#codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ci_media_tts_template#codec CiMediaTtsTemplate#codec}
   */
   readonly codec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_tts_template#id CiMediaTtsTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ci_media_tts_template#id CiMediaTtsTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface CiMediaTtsTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Processing mode, default value Asyc, Asyc (asynchronous composition), Sync (synchronous composition), When Asyc is selected, the codec only supports pcm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_tts_template#mode CiMediaTtsTemplate#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ci_media_tts_template#mode CiMediaTtsTemplate#mode}
   */
   readonly mode?: string;
   /**
   * The template name only supports `Chinese`, `English`, `numbers`, `_`, `-` and `*`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_tts_template#name CiMediaTtsTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ci_media_tts_template#name CiMediaTtsTemplate#name}
   */
   readonly name: string;
   /**
   * Speech rate, the default value is 100, [50,200].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_tts_template#speed CiMediaTtsTemplate#speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ci_media_tts_template#speed CiMediaTtsTemplate#speed}
   */
   readonly speed?: string;
   /**
   * Timbre, the default value is ruxue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_tts_template#voice_type CiMediaTtsTemplate#voice_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ci_media_tts_template#voice_type CiMediaTtsTemplate#voice_type}
   */
   readonly voiceType?: string;
   /**
   * Volume, default value 0, [-10,10].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_tts_template#volume CiMediaTtsTemplate#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ci_media_tts_template#volume CiMediaTtsTemplate#volume}
   */
   readonly volume?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_tts_template tencentcloud_ci_media_tts_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ci_media_tts_template tencentcloud_ci_media_tts_template}
 */
 export class CiMediaTtsTemplate extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class CiMediaTtsTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CiMediaTtsTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CiMediaTtsTemplate to import
-  * @param importFromId The id of the existing CiMediaTtsTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_tts_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CiMediaTtsTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ci_media_tts_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CiMediaTtsTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class CiMediaTtsTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_tts_template tencentcloud_ci_media_tts_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/ci_media_tts_template tencentcloud_ci_media_tts_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class CiMediaTtsTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_ci_media_tts_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

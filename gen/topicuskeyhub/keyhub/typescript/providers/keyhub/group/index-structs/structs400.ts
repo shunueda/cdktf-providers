@@ -1,20 +1,7360 @@
 import * as cdktf from 'cdktf';
-import { GroupAdminsDirectoryLinksList } from './structs0'
-export interface GroupAdminsDirectoryPermissions {
+import { GroupAdministeredSystemsProvisionedLdapGidNumbering,
+groupAdministeredSystemsProvisionedLdapGidNumberingToTerraform,
+groupAdministeredSystemsProvisionedLdapGidNumberingToHclTerraform,
+GroupAdministeredSystemsProvisionedLdapGidNumberingOutputReference,
+GroupAdministeredSystemsAbstractProvisionedLdap,
+groupAdministeredSystemsAbstractProvisionedLdapToTerraform,
+groupAdministeredSystemsAbstractProvisionedLdapToHclTerraform,
+GroupAdministeredSystemsAbstractProvisionedLdapOutputReference,
+GroupAdministeredSystemsCleanupPeriod,
+groupAdministeredSystemsCleanupPeriodToTerraform,
+groupAdministeredSystemsCleanupPeriodToHclTerraform,
+GroupAdministeredSystemsCleanupPeriodOutputReference,
+GroupAdministeredSystemsContentAdministrator,
+groupAdministeredSystemsContentAdministratorToTerraform,
+groupAdministeredSystemsContentAdministratorToHclTerraform,
+GroupAdministeredSystemsContentAdministratorOutputReference,
+GroupAdministeredSystemsLinksList,
+GroupAdministeredSystemsOrganizationalUnit,
+groupAdministeredSystemsOrganizationalUnitToTerraform,
+groupAdministeredSystemsOrganizationalUnitToHclTerraform,
+GroupAdministeredSystemsOrganizationalUnitOutputReference,
+GroupAdministeredSystemsOwner,
+groupAdministeredSystemsOwnerToTerraform,
+groupAdministeredSystemsOwnerToHclTerraform,
+GroupAdministeredSystemsOwnerOutputReference,
+GroupAdministeredSystemsPermissionsList,
+GroupAdministeredSystemsProvisionedAD,
+groupAdministeredSystemsProvisionedADToTerraform,
+groupAdministeredSystemsProvisionedADToHclTerraform,
+GroupAdministeredSystemsProvisionedADOutputReference,
+GroupAdministeredSystemsProvisionedAzureOidcDirectory,
+groupAdministeredSystemsProvisionedAzureOidcDirectoryToTerraform,
+groupAdministeredSystemsProvisionedAzureOidcDirectoryToHclTerraform,
+GroupAdministeredSystemsProvisionedAzureOidcDirectoryOutputReference,
+GroupAdministeredSystemsProvisionedAzureSyncLdapDirectory,
+groupAdministeredSystemsProvisionedAzureSyncLdapDirectoryToTerraform,
+groupAdministeredSystemsProvisionedAzureSyncLdapDirectoryToHclTerraform,
+GroupAdministeredSystemsProvisionedAzureSyncLdapDirectoryOutputReference,
+GroupAdministeredSystemsProvisionedAzureTenant,
+groupAdministeredSystemsProvisionedAzureTenantToTerraform,
+groupAdministeredSystemsProvisionedAzureTenantToHclTerraform,
+GroupAdministeredSystemsProvisionedAzureTenantOutputReference,
+GroupAdministeredSystemsProvisionedInternalLdap,
+groupAdministeredSystemsProvisionedInternalLdapToTerraform,
+groupAdministeredSystemsProvisionedInternalLdapToHclTerraform,
+GroupAdministeredSystemsProvisionedInternalLdapOutputReference } from './structs0'
+export interface GroupAdministeredSystemsProvisionedLdapNumberingLinks {
+}
+
+export function groupAdministeredSystemsProvisionedLdapNumberingLinksToTerraform(struct?: GroupAdministeredSystemsProvisionedLdapNumberingLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function groupAdministeredSystemsProvisionedLdapNumberingLinksToHclTerraform(struct?: GroupAdministeredSystemsProvisionedLdapNumberingLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GroupAdministeredSystemsProvisionedLdapNumberingLinksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#full Group#full}
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GroupAdministeredSystemsProvisionedLdapNumberingLinks | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupAdministeredSystemsProvisionedLdapNumberingLinks | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // href - computed: true, optional: false, required: false
+  public get href() {
+    return this.getStringAttribute('href');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getNumberAttribute('id');
+  }
+
+  // rel - computed: true, optional: false, required: false
+  public get rel() {
+    return this.getStringAttribute('rel');
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class GroupAdministeredSystemsProvisionedLdapNumberingLinksList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GroupAdministeredSystemsProvisionedLdapNumberingLinksOutputReference {
+    return new GroupAdministeredSystemsProvisionedLdapNumberingLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GroupAdministeredSystemsProvisionedLdapNumberingPermissions {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#full Group#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#instances Group#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#instances Group#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#operations Group#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#operations Group#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#type_escaped Group#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#type_escaped Group#type_escaped}
+  */
+  readonly typeEscaped?: string;
+}
+
+export function groupAdministeredSystemsProvisionedLdapNumberingPermissionsToTerraform(struct?: GroupAdministeredSystemsProvisionedLdapNumberingPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    full: cdktf.stringToTerraform(struct!.full),
+    instances: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.instances),
+    operations: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.operations),
+    type_escaped: cdktf.stringToTerraform(struct!.typeEscaped),
+  }
+}
+
+
+export function groupAdministeredSystemsProvisionedLdapNumberingPermissionsToHclTerraform(struct?: GroupAdministeredSystemsProvisionedLdapNumberingPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    full: {
+      value: cdktf.stringToHclTerraform(struct!.full),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    instances: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.instances),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    operations: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.operations),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+    type_escaped: {
+      value: cdktf.stringToHclTerraform(struct!.typeEscaped),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GroupAdministeredSystemsProvisionedLdapNumberingPermissionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GroupAdministeredSystemsProvisionedLdapNumberingPermissions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._full !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.full = this._full;
+    }
+    if (this._instances !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.instances = this._instances;
+    }
+    if (this._operations !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.operations = this._operations;
+    }
+    if (this._typeEscaped !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.typeEscaped = this._typeEscaped;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupAdministeredSystemsProvisionedLdapNumberingPermissions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._full = undefined;
+      this._instances = undefined;
+      this._operations = undefined;
+      this._typeEscaped = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._full = value.full;
+      this._instances = value.instances;
+      this._operations = value.operations;
+      this._typeEscaped = value.typeEscaped;
+    }
+  }
+
+  // full - computed: true, optional: true, required: false
+  private _full?: string; 
+  public get full() {
+    return this.getStringAttribute('full');
+  }
+  public set full(value: string) {
+    this._full = value;
+  }
+  public resetFull() {
+    this._full = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fullInput() {
+    return this._full;
+  }
+
+  // instances - computed: true, optional: true, required: false
+  private _instances?: string[]; 
+  public get instances() {
+    return this.getListAttribute('instances');
+  }
+  public set instances(value: string[]) {
+    this._instances = value;
+  }
+  public resetInstances() {
+    this._instances = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instancesInput() {
+    return this._instances;
+  }
+
+  // operations - computed: true, optional: true, required: false
+  private _operations?: string[]; 
+  public get operations() {
+    return cdktf.Fn.tolist(this.getListAttribute('operations'));
+  }
+  public set operations(value: string[]) {
+    this._operations = value;
+  }
+  public resetOperations() {
+    this._operations = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get operationsInput() {
+    return this._operations;
+  }
+
+  // type_escaped - computed: true, optional: true, required: false
+  private _typeEscaped?: string; 
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+  public set typeEscaped(value: string) {
+    this._typeEscaped = value;
+  }
+  public resetTypeEscaped() {
+    this._typeEscaped = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeEscapedInput() {
+    return this._typeEscaped;
+  }
+}
+
+export class GroupAdministeredSystemsProvisionedLdapNumberingPermissionsList extends cdktf.ComplexList {
+  public internalValue? : GroupAdministeredSystemsProvisionedLdapNumberingPermissions[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GroupAdministeredSystemsProvisionedLdapNumberingPermissionsOutputReference {
+    return new GroupAdministeredSystemsProvisionedLdapNumberingPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GroupAdministeredSystemsProvisionedLdapNumbering {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#name Group#name}
+  */
+  readonly name: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#next_id Group#next_id}
+  */
+  readonly nextId?: number;
+}
+
+export function groupAdministeredSystemsProvisionedLdapNumberingToTerraform(struct?: GroupAdministeredSystemsProvisionedLdapNumbering): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    next_id: cdktf.numberToTerraform(struct!.nextId),
+  }
+}
+
+
+export function groupAdministeredSystemsProvisionedLdapNumberingToHclTerraform(struct?: GroupAdministeredSystemsProvisionedLdapNumbering): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    next_id: {
+      value: cdktf.numberToHclTerraform(struct!.nextId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GroupAdministeredSystemsProvisionedLdapNumberingOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): GroupAdministeredSystemsProvisionedLdapNumbering | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._nextId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nextId = this._nextId;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupAdministeredSystemsProvisionedLdapNumbering | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._nextId = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._nextId = value.nextId;
+    }
+  }
+
+  // links - computed: true, optional: false, required: false
+  private _links = new GroupAdministeredSystemsProvisionedLdapNumberingLinksList(this, "links", false);
+  public get links() {
+    return this._links;
+  }
+
+  // name - computed: true, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // next_id - computed: true, optional: true, required: false
+  private _nextId?: number; 
+  public get nextId() {
+    return this.getNumberAttribute('next_id');
+  }
+  public set nextId(value: number) {
+    this._nextId = value;
+  }
+  public resetNextId() {
+    this._nextId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nextIdInput() {
+    return this._nextId;
+  }
+
+  // permissions - computed: true, optional: false, required: false
+  private _permissions = new GroupAdministeredSystemsProvisionedLdapNumberingPermissionsList(this, "permissions", false);
+  public get permissions() {
+    return this._permissions;
+  }
+}
+export interface GroupAdministeredSystemsProvisionedLdap {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#gid Group#gid}
+  */
+  readonly gid?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#gid_numbering Group#gid_numbering}
+  */
+  readonly gidNumbering: GroupAdministeredSystemsProvisionedLdapGidNumbering;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#hashing_scheme Group#hashing_scheme}
+  */
+  readonly hashingScheme: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#numbering Group#numbering}
+  */
+  readonly numbering: GroupAdministeredSystemsProvisionedLdapNumbering;
+}
+
+export function groupAdministeredSystemsProvisionedLdapToTerraform(struct?: GroupAdministeredSystemsProvisionedLdap | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    gid: cdktf.numberToTerraform(struct!.gid),
+    gid_numbering: groupAdministeredSystemsProvisionedLdapGidNumberingToTerraform(struct!.gidNumbering),
+    hashing_scheme: cdktf.stringToTerraform(struct!.hashingScheme),
+    numbering: groupAdministeredSystemsProvisionedLdapNumberingToTerraform(struct!.numbering),
+  }
+}
+
+
+export function groupAdministeredSystemsProvisionedLdapToHclTerraform(struct?: GroupAdministeredSystemsProvisionedLdap | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    gid: {
+      value: cdktf.numberToHclTerraform(struct!.gid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    gid_numbering: {
+      value: groupAdministeredSystemsProvisionedLdapGidNumberingToHclTerraform(struct!.gidNumbering),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "GroupAdministeredSystemsProvisionedLdapGidNumbering",
+    },
+    hashing_scheme: {
+      value: cdktf.stringToHclTerraform(struct!.hashingScheme),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    numbering: {
+      value: groupAdministeredSystemsProvisionedLdapNumberingToHclTerraform(struct!.numbering),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "GroupAdministeredSystemsProvisionedLdapNumbering",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GroupAdministeredSystemsProvisionedLdapOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): GroupAdministeredSystemsProvisionedLdap | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._gid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gid = this._gid;
+    }
+    if (this._gidNumbering?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gidNumbering = this._gidNumbering?.internalValue;
+    }
+    if (this._hashingScheme !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hashingScheme = this._hashingScheme;
+    }
+    if (this._numbering?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.numbering = this._numbering?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupAdministeredSystemsProvisionedLdap | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._gid = undefined;
+      this._gidNumbering.internalValue = undefined;
+      this._hashingScheme = undefined;
+      this._numbering.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._gid = value.gid;
+      this._gidNumbering.internalValue = value.gidNumbering;
+      this._hashingScheme = value.hashingScheme;
+      this._numbering.internalValue = value.numbering;
+    }
+  }
+
+  // gid - computed: true, optional: true, required: false
+  private _gid?: number; 
+  public get gid() {
+    return this.getNumberAttribute('gid');
+  }
+  public set gid(value: number) {
+    this._gid = value;
+  }
+  public resetGid() {
+    this._gid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gidInput() {
+    return this._gid;
+  }
+
+  // gid_numbering - computed: true, optional: false, required: true
+  private _gidNumbering = new GroupAdministeredSystemsProvisionedLdapGidNumberingOutputReference(this, "gid_numbering");
+  public get gidNumbering() {
+    return this._gidNumbering;
+  }
+  public putGidNumbering(value: GroupAdministeredSystemsProvisionedLdapGidNumbering) {
+    this._gidNumbering.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gidNumberingInput() {
+    return this._gidNumbering.internalValue;
+  }
+
+  // hashing_scheme - computed: true, optional: false, required: true
+  private _hashingScheme?: string; 
+  public get hashingScheme() {
+    return this.getStringAttribute('hashing_scheme');
+  }
+  public set hashingScheme(value: string) {
+    this._hashingScheme = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hashingSchemeInput() {
+    return this._hashingScheme;
+  }
+
+  // numbering - computed: true, optional: false, required: true
+  private _numbering = new GroupAdministeredSystemsProvisionedLdapNumberingOutputReference(this, "numbering");
+  public get numbering() {
+    return this._numbering;
+  }
+  public putNumbering(value: GroupAdministeredSystemsProvisionedLdapNumbering) {
+    this._numbering.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get numberingInput() {
+    return this._numbering.internalValue;
+  }
+}
+export interface GroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionLinks {
+}
+
+export function groupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionLinksToTerraform(struct?: GroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function groupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionLinksToHclTerraform(struct?: GroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionLinksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionLinks | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionLinks | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // href - computed: true, optional: false, required: false
+  public get href() {
+    return this.getStringAttribute('href');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getNumberAttribute('id');
+  }
+
+  // rel - computed: true, optional: false, required: false
+  public get rel() {
+    return this.getStringAttribute('rel');
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class GroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionLinksList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionLinksOutputReference {
+    return new GroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionPermissions {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#full Group#full}
+  */
+  readonly full?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#instances Group#instances}
+  */
+  readonly instances?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#operations Group#operations}
+  */
+  readonly operations?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#type_escaped Group#type_escaped}
+  */
+  readonly typeEscaped?: string;
+}
+
+export function groupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionPermissionsToTerraform(struct?: GroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    full: cdktf.stringToTerraform(struct!.full),
+    instances: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.instances),
+    operations: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.operations),
+    type_escaped: cdktf.stringToTerraform(struct!.typeEscaped),
+  }
+}
+
+
+export function groupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionPermissionsToHclTerraform(struct?: GroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    full: {
+      value: cdktf.stringToHclTerraform(struct!.full),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    instances: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.instances),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    operations: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.operations),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+    type_escaped: {
+      value: cdktf.stringToHclTerraform(struct!.typeEscaped),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionPermissionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionPermissions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._full !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.full = this._full;
+    }
+    if (this._instances !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.instances = this._instances;
+    }
+    if (this._operations !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.operations = this._operations;
+    }
+    if (this._typeEscaped !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.typeEscaped = this._typeEscaped;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionPermissions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._full = undefined;
+      this._instances = undefined;
+      this._operations = undefined;
+      this._typeEscaped = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._full = value.full;
+      this._instances = value.instances;
+      this._operations = value.operations;
+      this._typeEscaped = value.typeEscaped;
+    }
+  }
+
+  // full - computed: true, optional: true, required: false
+  private _full?: string; 
+  public get full() {
+    return this.getStringAttribute('full');
+  }
+  public set full(value: string) {
+    this._full = value;
+  }
+  public resetFull() {
+    this._full = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fullInput() {
+    return this._full;
+  }
+
+  // instances - computed: true, optional: true, required: false
+  private _instances?: string[]; 
+  public get instances() {
+    return this.getListAttribute('instances');
+  }
+  public set instances(value: string[]) {
+    this._instances = value;
+  }
+  public resetInstances() {
+    this._instances = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instancesInput() {
+    return this._instances;
+  }
+
+  // operations - computed: true, optional: true, required: false
+  private _operations?: string[]; 
+  public get operations() {
+    return cdktf.Fn.tolist(this.getListAttribute('operations'));
+  }
+  public set operations(value: string[]) {
+    this._operations = value;
+  }
+  public resetOperations() {
+    this._operations = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get operationsInput() {
+    return this._operations;
+  }
+
+  // type_escaped - computed: true, optional: true, required: false
+  private _typeEscaped?: string; 
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+  public set typeEscaped(value: string) {
+    this._typeEscaped = value;
+  }
+  public resetTypeEscaped() {
+    this._typeEscaped = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeEscapedInput() {
+    return this._typeEscaped;
+  }
+}
+
+export class GroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionPermissionsList extends cdktf.ComplexList {
+  public internalValue? : GroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionPermissions[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionPermissionsOutputReference {
+    return new GroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinition {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#format Group#format}
+  */
+  readonly format: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#freely_useable Group#freely_useable}
+  */
+  readonly freelyUseable?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#list Group#list}
+  */
+  readonly list?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#name Group#name}
+  */
+  readonly name: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#required Group#required}
+  */
+  readonly required?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#unique Group#unique}
+  */
+  readonly unique?: boolean | cdktf.IResolvable;
+}
+
+export function groupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionToTerraform(struct?: GroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinition | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    format: cdktf.stringToTerraform(struct!.format),
+    freely_useable: cdktf.booleanToTerraform(struct!.freelyUseable),
+    list: cdktf.booleanToTerraform(struct!.list),
+    name: cdktf.stringToTerraform(struct!.name),
+    required: cdktf.booleanToTerraform(struct!.required),
+    unique: cdktf.booleanToTerraform(struct!.unique),
+  }
+}
+
+
+export function groupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionToHclTerraform(struct?: GroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinition | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    format: {
+      value: cdktf.stringToHclTerraform(struct!.format),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    freely_useable: {
+      value: cdktf.booleanToHclTerraform(struct!.freelyUseable),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    list: {
+      value: cdktf.booleanToHclTerraform(struct!.list),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    required: {
+      value: cdktf.booleanToHclTerraform(struct!.required),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    unique: {
+      value: cdktf.booleanToHclTerraform(struct!.unique),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): GroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinition | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._format !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.format = this._format;
+    }
+    if (this._freelyUseable !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.freelyUseable = this._freelyUseable;
+    }
+    if (this._list !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.list = this._list;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._required !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.required = this._required;
+    }
+    if (this._unique !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.unique = this._unique;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinition | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._format = undefined;
+      this._freelyUseable = undefined;
+      this._list = undefined;
+      this._name = undefined;
+      this._required = undefined;
+      this._unique = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._format = value.format;
+      this._freelyUseable = value.freelyUseable;
+      this._list = value.list;
+      this._name = value.name;
+      this._required = value.required;
+      this._unique = value.unique;
+    }
+  }
+
+  // format - computed: true, optional: false, required: true
+  private _format?: string; 
+  public get format() {
+    return this.getStringAttribute('format');
+  }
+  public set format(value: string) {
+    this._format = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get formatInput() {
+    return this._format;
+  }
+
+  // freely_useable - computed: true, optional: true, required: false
+  private _freelyUseable?: boolean | cdktf.IResolvable; 
+  public get freelyUseable() {
+    return this.getBooleanAttribute('freely_useable');
+  }
+  public set freelyUseable(value: boolean | cdktf.IResolvable) {
+    this._freelyUseable = value;
+  }
+  public resetFreelyUseable() {
+    this._freelyUseable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get freelyUseableInput() {
+    return this._freelyUseable;
+  }
+
+  // links - computed: true, optional: false, required: false
+  private _links = new GroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionLinksList(this, "links", false);
+  public get links() {
+    return this._links;
+  }
+
+  // list - computed: true, optional: true, required: false
+  private _list?: boolean | cdktf.IResolvable; 
+  public get list() {
+    return this.getBooleanAttribute('list');
+  }
+  public set list(value: boolean | cdktf.IResolvable) {
+    this._list = value;
+  }
+  public resetList() {
+    this._list = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get listInput() {
+    return this._list;
+  }
+
+  // name - computed: true, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // permissions - computed: true, optional: false, required: false
+  private _permissions = new GroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionPermissionsList(this, "permissions", false);
+  public get permissions() {
+    return this._permissions;
+  }
+
+  // required - computed: true, optional: true, required: false
+  private _required?: boolean | cdktf.IResolvable; 
+  public get required() {
+    return this.getBooleanAttribute('required');
+  }
+  public set required(value: boolean | cdktf.IResolvable) {
+    this._required = value;
+  }
+  public resetRequired() {
+    this._required = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get requiredInput() {
+    return this._required;
+  }
+
+  // system_definition - computed: true, optional: false, required: false
+  public get systemDefinition() {
+    return this.getStringAttribute('system_definition');
+  }
+
+  // unique - computed: true, optional: true, required: false
+  private _unique?: boolean | cdktf.IResolvable; 
+  public get unique() {
+    return this.getBooleanAttribute('unique');
+  }
+  public set unique(value: boolean | cdktf.IResolvable) {
+    this._unique = value;
+  }
+  public resetUnique() {
+    this._unique = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uniqueInput() {
+    return this._unique;
+  }
+}
+export interface GroupAdministeredSystemsProvisionedLdapDirectoryAttributes {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#attribute_definition Group#attribute_definition}
+  */
+  readonly attributeDefinition?: GroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinition;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#name Group#name}
+  */
+  readonly name: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#script Group#script}
+  */
+  readonly script?: string;
+}
+
+export function groupAdministeredSystemsProvisionedLdapDirectoryAttributesToTerraform(struct?: GroupAdministeredSystemsProvisionedLdapDirectoryAttributes | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    attribute_definition: groupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionToTerraform(struct!.attributeDefinition),
+    name: cdktf.stringToTerraform(struct!.name),
+    script: cdktf.stringToTerraform(struct!.script),
+  }
+}
+
+
+export function groupAdministeredSystemsProvisionedLdapDirectoryAttributesToHclTerraform(struct?: GroupAdministeredSystemsProvisionedLdapDirectoryAttributes | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    attribute_definition: {
+      value: groupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionToHclTerraform(struct!.attributeDefinition),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "GroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinition",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    script: {
+      value: cdktf.stringToHclTerraform(struct!.script),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GroupAdministeredSystemsProvisionedLdapDirectoryAttributesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GroupAdministeredSystemsProvisionedLdapDirectoryAttributes | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._attributeDefinition?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.attributeDefinition = this._attributeDefinition?.internalValue;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._script !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.script = this._script;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupAdministeredSystemsProvisionedLdapDirectoryAttributes | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._attributeDefinition.internalValue = undefined;
+      this._name = undefined;
+      this._script = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._attributeDefinition.internalValue = value.attributeDefinition;
+      this._name = value.name;
+      this._script = value.script;
+    }
+  }
+
+  // attribute_definition - computed: true, optional: true, required: false
+  private _attributeDefinition = new GroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinitionOutputReference(this, "attribute_definition");
+  public get attributeDefinition() {
+    return this._attributeDefinition;
+  }
+  public putAttributeDefinition(value: GroupAdministeredSystemsProvisionedLdapDirectoryAttributesAttributeDefinition) {
+    this._attributeDefinition.internalValue = value;
+  }
+  public resetAttributeDefinition() {
+    this._attributeDefinition.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get attributeDefinitionInput() {
+    return this._attributeDefinition.internalValue;
+  }
+
+  // name - computed: true, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // script - computed: true, optional: true, required: false
+  private _script?: string; 
+  public get script() {
+    return this.getStringAttribute('script');
+  }
+  public set script(value: string) {
+    this._script = value;
+  }
+  public resetScript() {
+    this._script = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scriptInput() {
+    return this._script;
+  }
+}
+
+export class GroupAdministeredSystemsProvisionedLdapDirectoryAttributesList extends cdktf.ComplexList {
+  public internalValue? : GroupAdministeredSystemsProvisionedLdapDirectoryAttributes[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GroupAdministeredSystemsProvisionedLdapDirectoryAttributesOutputReference {
+    return new GroupAdministeredSystemsProvisionedLdapDirectoryAttributesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GroupAdministeredSystemsProvisionedLdapDirectoryDirectoryLinks {
+}
+
+export function groupAdministeredSystemsProvisionedLdapDirectoryDirectoryLinksToTerraform(struct?: GroupAdministeredSystemsProvisionedLdapDirectoryDirectoryLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function groupAdministeredSystemsProvisionedLdapDirectoryDirectoryLinksToHclTerraform(struct?: GroupAdministeredSystemsProvisionedLdapDirectoryDirectoryLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GroupAdministeredSystemsProvisionedLdapDirectoryDirectoryLinksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GroupAdministeredSystemsProvisionedLdapDirectoryDirectoryLinks | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupAdministeredSystemsProvisionedLdapDirectoryDirectoryLinks | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // href - computed: true, optional: false, required: false
+  public get href() {
+    return this.getStringAttribute('href');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getNumberAttribute('id');
+  }
+
+  // rel - computed: true, optional: false, required: false
+  public get rel() {
+    return this.getStringAttribute('rel');
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class GroupAdministeredSystemsProvisionedLdapDirectoryDirectoryLinksList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GroupAdministeredSystemsProvisionedLdapDirectoryDirectoryLinksOutputReference {
+    return new GroupAdministeredSystemsProvisionedLdapDirectoryDirectoryLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GroupAdministeredSystemsProvisionedLdapDirectoryDirectoryPermissions {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#full Group#full}
+  */
+  readonly full?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#instances Group#instances}
+  */
+  readonly instances?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#operations Group#operations}
+  */
+  readonly operations?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#type_escaped Group#type_escaped}
+  */
+  readonly typeEscaped?: string;
+}
+
+export function groupAdministeredSystemsProvisionedLdapDirectoryDirectoryPermissionsToTerraform(struct?: GroupAdministeredSystemsProvisionedLdapDirectoryDirectoryPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    full: cdktf.stringToTerraform(struct!.full),
+    instances: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.instances),
+    operations: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.operations),
+    type_escaped: cdktf.stringToTerraform(struct!.typeEscaped),
+  }
+}
+
+
+export function groupAdministeredSystemsProvisionedLdapDirectoryDirectoryPermissionsToHclTerraform(struct?: GroupAdministeredSystemsProvisionedLdapDirectoryDirectoryPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    full: {
+      value: cdktf.stringToHclTerraform(struct!.full),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    instances: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.instances),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    operations: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.operations),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+    type_escaped: {
+      value: cdktf.stringToHclTerraform(struct!.typeEscaped),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GroupAdministeredSystemsProvisionedLdapDirectoryDirectoryPermissionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GroupAdministeredSystemsProvisionedLdapDirectoryDirectoryPermissions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._full !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.full = this._full;
+    }
+    if (this._instances !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.instances = this._instances;
+    }
+    if (this._operations !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.operations = this._operations;
+    }
+    if (this._typeEscaped !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.typeEscaped = this._typeEscaped;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupAdministeredSystemsProvisionedLdapDirectoryDirectoryPermissions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._full = undefined;
+      this._instances = undefined;
+      this._operations = undefined;
+      this._typeEscaped = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._full = value.full;
+      this._instances = value.instances;
+      this._operations = value.operations;
+      this._typeEscaped = value.typeEscaped;
+    }
+  }
+
+  // full - computed: true, optional: true, required: false
+  private _full?: string; 
+  public get full() {
+    return this.getStringAttribute('full');
+  }
+  public set full(value: string) {
+    this._full = value;
+  }
+  public resetFull() {
+    this._full = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fullInput() {
+    return this._full;
+  }
+
+  // instances - computed: true, optional: true, required: false
+  private _instances?: string[]; 
+  public get instances() {
+    return this.getListAttribute('instances');
+  }
+  public set instances(value: string[]) {
+    this._instances = value;
+  }
+  public resetInstances() {
+    this._instances = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instancesInput() {
+    return this._instances;
+  }
+
+  // operations - computed: true, optional: true, required: false
+  private _operations?: string[]; 
+  public get operations() {
+    return cdktf.Fn.tolist(this.getListAttribute('operations'));
+  }
+  public set operations(value: string[]) {
+    this._operations = value;
+  }
+  public resetOperations() {
+    this._operations = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get operationsInput() {
+    return this._operations;
+  }
+
+  // type_escaped - computed: true, optional: true, required: false
+  private _typeEscaped?: string; 
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+  public set typeEscaped(value: string) {
+    this._typeEscaped = value;
+  }
+  public resetTypeEscaped() {
+    this._typeEscaped = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeEscapedInput() {
+    return this._typeEscaped;
+  }
+}
+
+export class GroupAdministeredSystemsProvisionedLdapDirectoryDirectoryPermissionsList extends cdktf.ComplexList {
+  public internalValue? : GroupAdministeredSystemsProvisionedLdapDirectoryDirectoryPermissions[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GroupAdministeredSystemsProvisionedLdapDirectoryDirectoryPermissionsOutputReference {
+    return new GroupAdministeredSystemsProvisionedLdapDirectoryDirectoryPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GroupAdministeredSystemsProvisionedLdapDirectoryDirectory {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#active Group#active}
+  */
+  readonly active?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#name Group#name}
+  */
+  readonly name: string;
+}
+
+export function groupAdministeredSystemsProvisionedLdapDirectoryDirectoryToTerraform(struct?: GroupAdministeredSystemsProvisionedLdapDirectoryDirectory): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    active: cdktf.booleanToTerraform(struct!.active),
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function groupAdministeredSystemsProvisionedLdapDirectoryDirectoryToHclTerraform(struct?: GroupAdministeredSystemsProvisionedLdapDirectoryDirectory): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    active: {
+      value: cdktf.booleanToHclTerraform(struct!.active),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GroupAdministeredSystemsProvisionedLdapDirectoryDirectoryOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): GroupAdministeredSystemsProvisionedLdapDirectoryDirectory | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._active !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.active = this._active;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupAdministeredSystemsProvisionedLdapDirectoryDirectory | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._active = undefined;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._active = value.active;
+      this._name = value.name;
+    }
+  }
+
+  // account_validity_supported - computed: true, optional: false, required: false
+  public get accountValiditySupported() {
+    return this.getBooleanAttribute('account_validity_supported');
+  }
+
+  // active - computed: true, optional: true, required: false
+  private _active?: boolean | cdktf.IResolvable; 
+  public get active() {
+    return this.getBooleanAttribute('active');
+  }
+  public set active(value: boolean | cdktf.IResolvable) {
+    this._active = value;
+  }
+  public resetActive() {
+    this._active = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get activeInput() {
+    return this._active;
+  }
+
+  // links - computed: true, optional: false, required: false
+  private _links = new GroupAdministeredSystemsProvisionedLdapDirectoryDirectoryLinksList(this, "links", false);
+  public get links() {
+    return this._links;
+  }
+
+  // name - computed: true, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // permissions - computed: true, optional: false, required: false
+  private _permissions = new GroupAdministeredSystemsProvisionedLdapDirectoryDirectoryPermissionsList(this, "permissions", false);
+  public get permissions() {
+    return this._permissions;
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+
+  // uuid - computed: true, optional: false, required: false
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+}
+export interface GroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingLinks {
+}
+
+export function groupAdministeredSystemsProvisionedLdapDirectoryGidNumberingLinksToTerraform(struct?: GroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function groupAdministeredSystemsProvisionedLdapDirectoryGidNumberingLinksToHclTerraform(struct?: GroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingLinksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingLinks | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingLinks | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // href - computed: true, optional: false, required: false
+  public get href() {
+    return this.getStringAttribute('href');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getNumberAttribute('id');
+  }
+
+  // rel - computed: true, optional: false, required: false
+  public get rel() {
+    return this.getStringAttribute('rel');
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class GroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingLinksList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingLinksOutputReference {
+    return new GroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingPermissions {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#full Group#full}
+  */
+  readonly full?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#instances Group#instances}
+  */
+  readonly instances?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#operations Group#operations}
+  */
+  readonly operations?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#type_escaped Group#type_escaped}
+  */
+  readonly typeEscaped?: string;
+}
+
+export function groupAdministeredSystemsProvisionedLdapDirectoryGidNumberingPermissionsToTerraform(struct?: GroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    full: cdktf.stringToTerraform(struct!.full),
+    instances: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.instances),
+    operations: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.operations),
+    type_escaped: cdktf.stringToTerraform(struct!.typeEscaped),
+  }
+}
+
+
+export function groupAdministeredSystemsProvisionedLdapDirectoryGidNumberingPermissionsToHclTerraform(struct?: GroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    full: {
+      value: cdktf.stringToHclTerraform(struct!.full),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    instances: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.instances),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    operations: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.operations),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+    type_escaped: {
+      value: cdktf.stringToHclTerraform(struct!.typeEscaped),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingPermissionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingPermissions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._full !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.full = this._full;
+    }
+    if (this._instances !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.instances = this._instances;
+    }
+    if (this._operations !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.operations = this._operations;
+    }
+    if (this._typeEscaped !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.typeEscaped = this._typeEscaped;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingPermissions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._full = undefined;
+      this._instances = undefined;
+      this._operations = undefined;
+      this._typeEscaped = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._full = value.full;
+      this._instances = value.instances;
+      this._operations = value.operations;
+      this._typeEscaped = value.typeEscaped;
+    }
+  }
+
+  // full - computed: true, optional: true, required: false
+  private _full?: string; 
+  public get full() {
+    return this.getStringAttribute('full');
+  }
+  public set full(value: string) {
+    this._full = value;
+  }
+  public resetFull() {
+    this._full = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fullInput() {
+    return this._full;
+  }
+
+  // instances - computed: true, optional: true, required: false
+  private _instances?: string[]; 
+  public get instances() {
+    return this.getListAttribute('instances');
+  }
+  public set instances(value: string[]) {
+    this._instances = value;
+  }
+  public resetInstances() {
+    this._instances = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instancesInput() {
+    return this._instances;
+  }
+
+  // operations - computed: true, optional: true, required: false
+  private _operations?: string[]; 
+  public get operations() {
+    return cdktf.Fn.tolist(this.getListAttribute('operations'));
+  }
+  public set operations(value: string[]) {
+    this._operations = value;
+  }
+  public resetOperations() {
+    this._operations = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get operationsInput() {
+    return this._operations;
+  }
+
+  // type_escaped - computed: true, optional: true, required: false
+  private _typeEscaped?: string; 
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+  public set typeEscaped(value: string) {
+    this._typeEscaped = value;
+  }
+  public resetTypeEscaped() {
+    this._typeEscaped = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeEscapedInput() {
+    return this._typeEscaped;
+  }
+}
+
+export class GroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingPermissionsList extends cdktf.ComplexList {
+  public internalValue? : GroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingPermissions[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingPermissionsOutputReference {
+    return new GroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GroupAdministeredSystemsProvisionedLdapDirectoryGidNumbering {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#name Group#name}
+  */
+  readonly name: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#next_id Group#next_id}
+  */
+  readonly nextId?: number;
+}
+
+export function groupAdministeredSystemsProvisionedLdapDirectoryGidNumberingToTerraform(struct?: GroupAdministeredSystemsProvisionedLdapDirectoryGidNumbering | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    next_id: cdktf.numberToTerraform(struct!.nextId),
+  }
+}
+
+
+export function groupAdministeredSystemsProvisionedLdapDirectoryGidNumberingToHclTerraform(struct?: GroupAdministeredSystemsProvisionedLdapDirectoryGidNumbering | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    next_id: {
+      value: cdktf.numberToHclTerraform(struct!.nextId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): GroupAdministeredSystemsProvisionedLdapDirectoryGidNumbering | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._nextId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nextId = this._nextId;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupAdministeredSystemsProvisionedLdapDirectoryGidNumbering | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._nextId = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._nextId = value.nextId;
+    }
+  }
+
+  // links - computed: true, optional: false, required: false
+  private _links = new GroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingLinksList(this, "links", false);
+  public get links() {
+    return this._links;
+  }
+
+  // name - computed: true, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // next_id - computed: true, optional: true, required: false
+  private _nextId?: number; 
+  public get nextId() {
+    return this.getNumberAttribute('next_id');
+  }
+  public set nextId(value: number) {
+    this._nextId = value;
+  }
+  public resetNextId() {
+    this._nextId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nextIdInput() {
+    return this._nextId;
+  }
+
+  // permissions - computed: true, optional: false, required: false
+  private _permissions = new GroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingPermissionsList(this, "permissions", false);
+  public get permissions() {
+    return this._permissions;
+  }
+}
+export interface GroupAdministeredSystemsProvisionedLdapDirectoryNumberingLinks {
+}
+
+export function groupAdministeredSystemsProvisionedLdapDirectoryNumberingLinksToTerraform(struct?: GroupAdministeredSystemsProvisionedLdapDirectoryNumberingLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function groupAdministeredSystemsProvisionedLdapDirectoryNumberingLinksToHclTerraform(struct?: GroupAdministeredSystemsProvisionedLdapDirectoryNumberingLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GroupAdministeredSystemsProvisionedLdapDirectoryNumberingLinksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GroupAdministeredSystemsProvisionedLdapDirectoryNumberingLinks | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupAdministeredSystemsProvisionedLdapDirectoryNumberingLinks | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // href - computed: true, optional: false, required: false
+  public get href() {
+    return this.getStringAttribute('href');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getNumberAttribute('id');
+  }
+
+  // rel - computed: true, optional: false, required: false
+  public get rel() {
+    return this.getStringAttribute('rel');
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class GroupAdministeredSystemsProvisionedLdapDirectoryNumberingLinksList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GroupAdministeredSystemsProvisionedLdapDirectoryNumberingLinksOutputReference {
+    return new GroupAdministeredSystemsProvisionedLdapDirectoryNumberingLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GroupAdministeredSystemsProvisionedLdapDirectoryNumberingPermissions {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#full Group#full}
+  */
+  readonly full?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#instances Group#instances}
+  */
+  readonly instances?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#operations Group#operations}
+  */
+  readonly operations?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#type_escaped Group#type_escaped}
+  */
+  readonly typeEscaped?: string;
+}
+
+export function groupAdministeredSystemsProvisionedLdapDirectoryNumberingPermissionsToTerraform(struct?: GroupAdministeredSystemsProvisionedLdapDirectoryNumberingPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    full: cdktf.stringToTerraform(struct!.full),
+    instances: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.instances),
+    operations: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.operations),
+    type_escaped: cdktf.stringToTerraform(struct!.typeEscaped),
+  }
+}
+
+
+export function groupAdministeredSystemsProvisionedLdapDirectoryNumberingPermissionsToHclTerraform(struct?: GroupAdministeredSystemsProvisionedLdapDirectoryNumberingPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    full: {
+      value: cdktf.stringToHclTerraform(struct!.full),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    instances: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.instances),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    operations: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.operations),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+    type_escaped: {
+      value: cdktf.stringToHclTerraform(struct!.typeEscaped),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GroupAdministeredSystemsProvisionedLdapDirectoryNumberingPermissionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GroupAdministeredSystemsProvisionedLdapDirectoryNumberingPermissions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._full !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.full = this._full;
+    }
+    if (this._instances !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.instances = this._instances;
+    }
+    if (this._operations !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.operations = this._operations;
+    }
+    if (this._typeEscaped !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.typeEscaped = this._typeEscaped;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupAdministeredSystemsProvisionedLdapDirectoryNumberingPermissions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._full = undefined;
+      this._instances = undefined;
+      this._operations = undefined;
+      this._typeEscaped = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._full = value.full;
+      this._instances = value.instances;
+      this._operations = value.operations;
+      this._typeEscaped = value.typeEscaped;
+    }
+  }
+
+  // full - computed: true, optional: true, required: false
+  private _full?: string; 
+  public get full() {
+    return this.getStringAttribute('full');
+  }
+  public set full(value: string) {
+    this._full = value;
+  }
+  public resetFull() {
+    this._full = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fullInput() {
+    return this._full;
+  }
+
+  // instances - computed: true, optional: true, required: false
+  private _instances?: string[]; 
+  public get instances() {
+    return this.getListAttribute('instances');
+  }
+  public set instances(value: string[]) {
+    this._instances = value;
+  }
+  public resetInstances() {
+    this._instances = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instancesInput() {
+    return this._instances;
+  }
+
+  // operations - computed: true, optional: true, required: false
+  private _operations?: string[]; 
+  public get operations() {
+    return cdktf.Fn.tolist(this.getListAttribute('operations'));
+  }
+  public set operations(value: string[]) {
+    this._operations = value;
+  }
+  public resetOperations() {
+    this._operations = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get operationsInput() {
+    return this._operations;
+  }
+
+  // type_escaped - computed: true, optional: true, required: false
+  private _typeEscaped?: string; 
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+  public set typeEscaped(value: string) {
+    this._typeEscaped = value;
+  }
+  public resetTypeEscaped() {
+    this._typeEscaped = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeEscapedInput() {
+    return this._typeEscaped;
+  }
+}
+
+export class GroupAdministeredSystemsProvisionedLdapDirectoryNumberingPermissionsList extends cdktf.ComplexList {
+  public internalValue? : GroupAdministeredSystemsProvisionedLdapDirectoryNumberingPermissions[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GroupAdministeredSystemsProvisionedLdapDirectoryNumberingPermissionsOutputReference {
+    return new GroupAdministeredSystemsProvisionedLdapDirectoryNumberingPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GroupAdministeredSystemsProvisionedLdapDirectoryNumbering {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#name Group#name}
+  */
+  readonly name: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#next_id Group#next_id}
+  */
+  readonly nextId?: number;
+}
+
+export function groupAdministeredSystemsProvisionedLdapDirectoryNumberingToTerraform(struct?: GroupAdministeredSystemsProvisionedLdapDirectoryNumbering | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    next_id: cdktf.numberToTerraform(struct!.nextId),
+  }
+}
+
+
+export function groupAdministeredSystemsProvisionedLdapDirectoryNumberingToHclTerraform(struct?: GroupAdministeredSystemsProvisionedLdapDirectoryNumbering | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    next_id: {
+      value: cdktf.numberToHclTerraform(struct!.nextId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GroupAdministeredSystemsProvisionedLdapDirectoryNumberingOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): GroupAdministeredSystemsProvisionedLdapDirectoryNumbering | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._nextId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nextId = this._nextId;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupAdministeredSystemsProvisionedLdapDirectoryNumbering | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._nextId = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._nextId = value.nextId;
+    }
+  }
+
+  // links - computed: true, optional: false, required: false
+  private _links = new GroupAdministeredSystemsProvisionedLdapDirectoryNumberingLinksList(this, "links", false);
+  public get links() {
+    return this._links;
+  }
+
+  // name - computed: true, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // next_id - computed: true, optional: true, required: false
+  private _nextId?: number; 
+  public get nextId() {
+    return this.getNumberAttribute('next_id');
+  }
+  public set nextId(value: number) {
+    this._nextId = value;
+  }
+  public resetNextId() {
+    this._nextId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nextIdInput() {
+    return this._nextId;
+  }
+
+  // permissions - computed: true, optional: false, required: false
+  private _permissions = new GroupAdministeredSystemsProvisionedLdapDirectoryNumberingPermissionsList(this, "permissions", false);
+  public get permissions() {
+    return this._permissions;
+  }
+}
+export interface GroupAdministeredSystemsProvisionedLdapDirectory {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#accounts_writable Group#accounts_writable}
+  */
+  readonly accountsWritable?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#attributes Group#attributes}
+  */
+  readonly attributes?: GroupAdministeredSystemsProvisionedLdapDirectoryAttributes[] | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#directory Group#directory}
+  */
+  readonly directory: GroupAdministeredSystemsProvisionedLdapDirectoryDirectory;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#gid Group#gid}
+  */
+  readonly gid?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#gid_numbering Group#gid_numbering}
+  */
+  readonly gidNumbering?: GroupAdministeredSystemsProvisionedLdapDirectoryGidNumbering;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#group_dn Group#group_dn}
+  */
+  readonly groupDn: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#hashing_scheme Group#hashing_scheme}
+  */
+  readonly hashingScheme?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#numbering Group#numbering}
+  */
+  readonly numbering?: GroupAdministeredSystemsProvisionedLdapDirectoryNumbering;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#object_classes Group#object_classes}
+  */
+  readonly objectClasses?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#sam_account_name_scheme Group#sam_account_name_scheme}
+  */
+  readonly samAccountNameScheme?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#ssh_public_key_support Group#ssh_public_key_support}
+  */
+  readonly sshPublicKeySupport?: string;
+}
+
+export function groupAdministeredSystemsProvisionedLdapDirectoryToTerraform(struct?: GroupAdministeredSystemsProvisionedLdapDirectory | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    accounts_writable: cdktf.booleanToTerraform(struct!.accountsWritable),
+    attributes: cdktf.listMapper(groupAdministeredSystemsProvisionedLdapDirectoryAttributesToTerraform, false)(struct!.attributes),
+    directory: groupAdministeredSystemsProvisionedLdapDirectoryDirectoryToTerraform(struct!.directory),
+    gid: cdktf.numberToTerraform(struct!.gid),
+    gid_numbering: groupAdministeredSystemsProvisionedLdapDirectoryGidNumberingToTerraform(struct!.gidNumbering),
+    group_dn: cdktf.stringToTerraform(struct!.groupDn),
+    hashing_scheme: cdktf.stringToTerraform(struct!.hashingScheme),
+    numbering: groupAdministeredSystemsProvisionedLdapDirectoryNumberingToTerraform(struct!.numbering),
+    object_classes: cdktf.stringToTerraform(struct!.objectClasses),
+    sam_account_name_scheme: cdktf.stringToTerraform(struct!.samAccountNameScheme),
+    ssh_public_key_support: cdktf.stringToTerraform(struct!.sshPublicKeySupport),
+  }
+}
+
+
+export function groupAdministeredSystemsProvisionedLdapDirectoryToHclTerraform(struct?: GroupAdministeredSystemsProvisionedLdapDirectory | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    accounts_writable: {
+      value: cdktf.booleanToHclTerraform(struct!.accountsWritable),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    attributes: {
+      value: cdktf.listMapperHcl(groupAdministeredSystemsProvisionedLdapDirectoryAttributesToHclTerraform, false)(struct!.attributes),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GroupAdministeredSystemsProvisionedLdapDirectoryAttributesList",
+    },
+    directory: {
+      value: groupAdministeredSystemsProvisionedLdapDirectoryDirectoryToHclTerraform(struct!.directory),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "GroupAdministeredSystemsProvisionedLdapDirectoryDirectory",
+    },
+    gid: {
+      value: cdktf.numberToHclTerraform(struct!.gid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    gid_numbering: {
+      value: groupAdministeredSystemsProvisionedLdapDirectoryGidNumberingToHclTerraform(struct!.gidNumbering),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "GroupAdministeredSystemsProvisionedLdapDirectoryGidNumbering",
+    },
+    group_dn: {
+      value: cdktf.stringToHclTerraform(struct!.groupDn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    hashing_scheme: {
+      value: cdktf.stringToHclTerraform(struct!.hashingScheme),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    numbering: {
+      value: groupAdministeredSystemsProvisionedLdapDirectoryNumberingToHclTerraform(struct!.numbering),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "GroupAdministeredSystemsProvisionedLdapDirectoryNumbering",
+    },
+    object_classes: {
+      value: cdktf.stringToHclTerraform(struct!.objectClasses),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    sam_account_name_scheme: {
+      value: cdktf.stringToHclTerraform(struct!.samAccountNameScheme),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ssh_public_key_support: {
+      value: cdktf.stringToHclTerraform(struct!.sshPublicKeySupport),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GroupAdministeredSystemsProvisionedLdapDirectoryOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): GroupAdministeredSystemsProvisionedLdapDirectory | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._accountsWritable !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.accountsWritable = this._accountsWritable;
+    }
+    if (this._attributes?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.attributes = this._attributes?.internalValue;
+    }
+    if (this._directory?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.directory = this._directory?.internalValue;
+    }
+    if (this._gid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gid = this._gid;
+    }
+    if (this._gidNumbering?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gidNumbering = this._gidNumbering?.internalValue;
+    }
+    if (this._groupDn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.groupDn = this._groupDn;
+    }
+    if (this._hashingScheme !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hashingScheme = this._hashingScheme;
+    }
+    if (this._numbering?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.numbering = this._numbering?.internalValue;
+    }
+    if (this._objectClasses !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.objectClasses = this._objectClasses;
+    }
+    if (this._samAccountNameScheme !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.samAccountNameScheme = this._samAccountNameScheme;
+    }
+    if (this._sshPublicKeySupport !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sshPublicKeySupport = this._sshPublicKeySupport;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupAdministeredSystemsProvisionedLdapDirectory | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._accountsWritable = undefined;
+      this._attributes.internalValue = undefined;
+      this._directory.internalValue = undefined;
+      this._gid = undefined;
+      this._gidNumbering.internalValue = undefined;
+      this._groupDn = undefined;
+      this._hashingScheme = undefined;
+      this._numbering.internalValue = undefined;
+      this._objectClasses = undefined;
+      this._samAccountNameScheme = undefined;
+      this._sshPublicKeySupport = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._accountsWritable = value.accountsWritable;
+      this._attributes.internalValue = value.attributes;
+      this._directory.internalValue = value.directory;
+      this._gid = value.gid;
+      this._gidNumbering.internalValue = value.gidNumbering;
+      this._groupDn = value.groupDn;
+      this._hashingScheme = value.hashingScheme;
+      this._numbering.internalValue = value.numbering;
+      this._objectClasses = value.objectClasses;
+      this._samAccountNameScheme = value.samAccountNameScheme;
+      this._sshPublicKeySupport = value.sshPublicKeySupport;
+    }
+  }
+
+  // accounts_writable - computed: true, optional: true, required: false
+  private _accountsWritable?: boolean | cdktf.IResolvable; 
+  public get accountsWritable() {
+    return this.getBooleanAttribute('accounts_writable');
+  }
+  public set accountsWritable(value: boolean | cdktf.IResolvable) {
+    this._accountsWritable = value;
+  }
+  public resetAccountsWritable() {
+    this._accountsWritable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get accountsWritableInput() {
+    return this._accountsWritable;
+  }
+
+  // attributes - computed: true, optional: true, required: false
+  private _attributes = new GroupAdministeredSystemsProvisionedLdapDirectoryAttributesList(this, "attributes", false);
+  public get attributes() {
+    return this._attributes;
+  }
+  public putAttributes(value: GroupAdministeredSystemsProvisionedLdapDirectoryAttributes[] | cdktf.IResolvable) {
+    this._attributes.internalValue = value;
+  }
+  public resetAttributes() {
+    this._attributes.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get attributesInput() {
+    return this._attributes.internalValue;
+  }
+
+  // directory - computed: true, optional: false, required: true
+  private _directory = new GroupAdministeredSystemsProvisionedLdapDirectoryDirectoryOutputReference(this, "directory");
+  public get directory() {
+    return this._directory;
+  }
+  public putDirectory(value: GroupAdministeredSystemsProvisionedLdapDirectoryDirectory) {
+    this._directory.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get directoryInput() {
+    return this._directory.internalValue;
+  }
+
+  // gid - computed: true, optional: true, required: false
+  private _gid?: number; 
+  public get gid() {
+    return this.getNumberAttribute('gid');
+  }
+  public set gid(value: number) {
+    this._gid = value;
+  }
+  public resetGid() {
+    this._gid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gidInput() {
+    return this._gid;
+  }
+
+  // gid_numbering - computed: true, optional: true, required: false
+  private _gidNumbering = new GroupAdministeredSystemsProvisionedLdapDirectoryGidNumberingOutputReference(this, "gid_numbering");
+  public get gidNumbering() {
+    return this._gidNumbering;
+  }
+  public putGidNumbering(value: GroupAdministeredSystemsProvisionedLdapDirectoryGidNumbering) {
+    this._gidNumbering.internalValue = value;
+  }
+  public resetGidNumbering() {
+    this._gidNumbering.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gidNumberingInput() {
+    return this._gidNumbering.internalValue;
+  }
+
+  // group_dn - computed: true, optional: false, required: true
+  private _groupDn?: string; 
+  public get groupDn() {
+    return this.getStringAttribute('group_dn');
+  }
+  public set groupDn(value: string) {
+    this._groupDn = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get groupDnInput() {
+    return this._groupDn;
+  }
+
+  // hashing_scheme - computed: true, optional: true, required: false
+  private _hashingScheme?: string; 
+  public get hashingScheme() {
+    return this.getStringAttribute('hashing_scheme');
+  }
+  public set hashingScheme(value: string) {
+    this._hashingScheme = value;
+  }
+  public resetHashingScheme() {
+    this._hashingScheme = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hashingSchemeInput() {
+    return this._hashingScheme;
+  }
+
+  // numbering - computed: true, optional: true, required: false
+  private _numbering = new GroupAdministeredSystemsProvisionedLdapDirectoryNumberingOutputReference(this, "numbering");
+  public get numbering() {
+    return this._numbering;
+  }
+  public putNumbering(value: GroupAdministeredSystemsProvisionedLdapDirectoryNumbering) {
+    this._numbering.internalValue = value;
+  }
+  public resetNumbering() {
+    this._numbering.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get numberingInput() {
+    return this._numbering.internalValue;
+  }
+
+  // object_classes - computed: true, optional: true, required: false
+  private _objectClasses?: string; 
+  public get objectClasses() {
+    return this.getStringAttribute('object_classes');
+  }
+  public set objectClasses(value: string) {
+    this._objectClasses = value;
+  }
+  public resetObjectClasses() {
+    this._objectClasses = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get objectClassesInput() {
+    return this._objectClasses;
+  }
+
+  // sam_account_name_scheme - computed: true, optional: true, required: false
+  private _samAccountNameScheme?: string; 
+  public get samAccountNameScheme() {
+    return this.getStringAttribute('sam_account_name_scheme');
+  }
+  public set samAccountNameScheme(value: string) {
+    this._samAccountNameScheme = value;
+  }
+  public resetSamAccountNameScheme() {
+    this._samAccountNameScheme = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get samAccountNameSchemeInput() {
+    return this._samAccountNameScheme;
+  }
+
+  // ssh_public_key_support - computed: true, optional: true, required: false
+  private _sshPublicKeySupport?: string; 
+  public get sshPublicKeySupport() {
+    return this.getStringAttribute('ssh_public_key_support');
+  }
+  public set sshPublicKeySupport(value: string) {
+    this._sshPublicKeySupport = value;
+  }
+  public resetSshPublicKeySupport() {
+    this._sshPublicKeySupport = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sshPublicKeySupportInput() {
+    return this._sshPublicKeySupport;
+  }
+}
+export interface GroupAdministeredSystemsProvisionedNamespaceBaseSystemLinks {
+}
+
+export function groupAdministeredSystemsProvisionedNamespaceBaseSystemLinksToTerraform(struct?: GroupAdministeredSystemsProvisionedNamespaceBaseSystemLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function groupAdministeredSystemsProvisionedNamespaceBaseSystemLinksToHclTerraform(struct?: GroupAdministeredSystemsProvisionedNamespaceBaseSystemLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GroupAdministeredSystemsProvisionedNamespaceBaseSystemLinksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GroupAdministeredSystemsProvisionedNamespaceBaseSystemLinks | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupAdministeredSystemsProvisionedNamespaceBaseSystemLinks | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // href - computed: true, optional: false, required: false
+  public get href() {
+    return this.getStringAttribute('href');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getNumberAttribute('id');
+  }
+
+  // rel - computed: true, optional: false, required: false
+  public get rel() {
+    return this.getStringAttribute('rel');
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class GroupAdministeredSystemsProvisionedNamespaceBaseSystemLinksList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GroupAdministeredSystemsProvisionedNamespaceBaseSystemLinksOutputReference {
+    return new GroupAdministeredSystemsProvisionedNamespaceBaseSystemLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitLinks {
+}
+
+export function groupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitLinksToTerraform(struct?: GroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function groupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitLinksToHclTerraform(struct?: GroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitLinksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitLinks | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitLinks | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // href - computed: true, optional: false, required: false
+  public get href() {
+    return this.getStringAttribute('href');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getNumberAttribute('id');
+  }
+
+  // rel - computed: true, optional: false, required: false
+  public get rel() {
+    return this.getStringAttribute('rel');
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class GroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitLinksList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitLinksOutputReference {
+    return new GroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitPermissions {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#full Group#full}
+  */
+  readonly full?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#instances Group#instances}
+  */
+  readonly instances?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#operations Group#operations}
+  */
+  readonly operations?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#type_escaped Group#type_escaped}
+  */
+  readonly typeEscaped?: string;
+}
+
+export function groupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitPermissionsToTerraform(struct?: GroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    full: cdktf.stringToTerraform(struct!.full),
+    instances: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.instances),
+    operations: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.operations),
+    type_escaped: cdktf.stringToTerraform(struct!.typeEscaped),
+  }
+}
+
+
+export function groupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitPermissionsToHclTerraform(struct?: GroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    full: {
+      value: cdktf.stringToHclTerraform(struct!.full),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    instances: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.instances),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    operations: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.operations),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+    type_escaped: {
+      value: cdktf.stringToHclTerraform(struct!.typeEscaped),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitPermissionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitPermissions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._full !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.full = this._full;
+    }
+    if (this._instances !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.instances = this._instances;
+    }
+    if (this._operations !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.operations = this._operations;
+    }
+    if (this._typeEscaped !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.typeEscaped = this._typeEscaped;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitPermissions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._full = undefined;
+      this._instances = undefined;
+      this._operations = undefined;
+      this._typeEscaped = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._full = value.full;
+      this._instances = value.instances;
+      this._operations = value.operations;
+      this._typeEscaped = value.typeEscaped;
+    }
+  }
+
+  // full - computed: true, optional: true, required: false
+  private _full?: string; 
+  public get full() {
+    return this.getStringAttribute('full');
+  }
+  public set full(value: string) {
+    this._full = value;
+  }
+  public resetFull() {
+    this._full = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fullInput() {
+    return this._full;
+  }
+
+  // instances - computed: true, optional: true, required: false
+  private _instances?: string[]; 
+  public get instances() {
+    return this.getListAttribute('instances');
+  }
+  public set instances(value: string[]) {
+    this._instances = value;
+  }
+  public resetInstances() {
+    this._instances = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instancesInput() {
+    return this._instances;
+  }
+
+  // operations - computed: true, optional: true, required: false
+  private _operations?: string[]; 
+  public get operations() {
+    return cdktf.Fn.tolist(this.getListAttribute('operations'));
+  }
+  public set operations(value: string[]) {
+    this._operations = value;
+  }
+  public resetOperations() {
+    this._operations = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get operationsInput() {
+    return this._operations;
+  }
+
+  // type_escaped - computed: true, optional: true, required: false
+  private _typeEscaped?: string; 
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+  public set typeEscaped(value: string) {
+    this._typeEscaped = value;
+  }
+  public resetTypeEscaped() {
+    this._typeEscaped = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeEscapedInput() {
+    return this._typeEscaped;
+  }
+}
+
+export class GroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitPermissionsList extends cdktf.ComplexList {
+  public internalValue? : GroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitPermissions[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitPermissionsOutputReference {
+    return new GroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnit {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#name Group#name}
+  */
+  readonly name: string;
+}
+
+export function groupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitToTerraform(struct?: GroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnit | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function groupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitToHclTerraform(struct?: GroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnit | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): GroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnit | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnit | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+    }
+  }
+
+  // links - computed: true, optional: false, required: false
+  private _links = new GroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitLinksList(this, "links", false);
+  public get links() {
+    return this._links;
+  }
+
+  // name - computed: true, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // permissions - computed: true, optional: false, required: false
+  private _permissions = new GroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitPermissionsList(this, "permissions", false);
+  public get permissions() {
+    return this._permissions;
+  }
+
+  // uuid - computed: true, optional: false, required: false
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+}
+export interface GroupAdministeredSystemsProvisionedNamespaceBaseSystemPermissions {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#full Group#full}
+  */
+  readonly full?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#instances Group#instances}
+  */
+  readonly instances?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#operations Group#operations}
+  */
+  readonly operations?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#type_escaped Group#type_escaped}
+  */
+  readonly typeEscaped?: string;
+}
+
+export function groupAdministeredSystemsProvisionedNamespaceBaseSystemPermissionsToTerraform(struct?: GroupAdministeredSystemsProvisionedNamespaceBaseSystemPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    full: cdktf.stringToTerraform(struct!.full),
+    instances: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.instances),
+    operations: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.operations),
+    type_escaped: cdktf.stringToTerraform(struct!.typeEscaped),
+  }
+}
+
+
+export function groupAdministeredSystemsProvisionedNamespaceBaseSystemPermissionsToHclTerraform(struct?: GroupAdministeredSystemsProvisionedNamespaceBaseSystemPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    full: {
+      value: cdktf.stringToHclTerraform(struct!.full),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    instances: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.instances),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    operations: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.operations),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+    type_escaped: {
+      value: cdktf.stringToHclTerraform(struct!.typeEscaped),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GroupAdministeredSystemsProvisionedNamespaceBaseSystemPermissionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GroupAdministeredSystemsProvisionedNamespaceBaseSystemPermissions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._full !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.full = this._full;
+    }
+    if (this._instances !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.instances = this._instances;
+    }
+    if (this._operations !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.operations = this._operations;
+    }
+    if (this._typeEscaped !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.typeEscaped = this._typeEscaped;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupAdministeredSystemsProvisionedNamespaceBaseSystemPermissions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._full = undefined;
+      this._instances = undefined;
+      this._operations = undefined;
+      this._typeEscaped = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._full = value.full;
+      this._instances = value.instances;
+      this._operations = value.operations;
+      this._typeEscaped = value.typeEscaped;
+    }
+  }
+
+  // full - computed: true, optional: true, required: false
+  private _full?: string; 
+  public get full() {
+    return this.getStringAttribute('full');
+  }
+  public set full(value: string) {
+    this._full = value;
+  }
+  public resetFull() {
+    this._full = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fullInput() {
+    return this._full;
+  }
+
+  // instances - computed: true, optional: true, required: false
+  private _instances?: string[]; 
+  public get instances() {
+    return this.getListAttribute('instances');
+  }
+  public set instances(value: string[]) {
+    this._instances = value;
+  }
+  public resetInstances() {
+    this._instances = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instancesInput() {
+    return this._instances;
+  }
+
+  // operations - computed: true, optional: true, required: false
+  private _operations?: string[]; 
+  public get operations() {
+    return cdktf.Fn.tolist(this.getListAttribute('operations'));
+  }
+  public set operations(value: string[]) {
+    this._operations = value;
+  }
+  public resetOperations() {
+    this._operations = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get operationsInput() {
+    return this._operations;
+  }
+
+  // type_escaped - computed: true, optional: true, required: false
+  private _typeEscaped?: string; 
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+  public set typeEscaped(value: string) {
+    this._typeEscaped = value;
+  }
+  public resetTypeEscaped() {
+    this._typeEscaped = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeEscapedInput() {
+    return this._typeEscaped;
+  }
+}
+
+export class GroupAdministeredSystemsProvisionedNamespaceBaseSystemPermissionsList extends cdktf.ComplexList {
+  public internalValue? : GroupAdministeredSystemsProvisionedNamespaceBaseSystemPermissions[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GroupAdministeredSystemsProvisionedNamespaceBaseSystemPermissionsOutputReference {
+    return new GroupAdministeredSystemsProvisionedNamespaceBaseSystemPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GroupAdministeredSystemsProvisionedNamespaceBaseSystem {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#active Group#active}
+  */
+  readonly active?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#name Group#name}
+  */
+  readonly name: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#organizational_unit Group#organizational_unit}
+  */
+  readonly organizationalUnit?: GroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnit;
+}
+
+export function groupAdministeredSystemsProvisionedNamespaceBaseSystemToTerraform(struct?: GroupAdministeredSystemsProvisionedNamespaceBaseSystem): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    active: cdktf.booleanToTerraform(struct!.active),
+    name: cdktf.stringToTerraform(struct!.name),
+    organizational_unit: groupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitToTerraform(struct!.organizationalUnit),
+  }
+}
+
+
+export function groupAdministeredSystemsProvisionedNamespaceBaseSystemToHclTerraform(struct?: GroupAdministeredSystemsProvisionedNamespaceBaseSystem): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    active: {
+      value: cdktf.booleanToHclTerraform(struct!.active),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    organizational_unit: {
+      value: groupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitToHclTerraform(struct!.organizationalUnit),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "GroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnit",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GroupAdministeredSystemsProvisionedNamespaceBaseSystemOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): GroupAdministeredSystemsProvisionedNamespaceBaseSystem | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._active !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.active = this._active;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._organizationalUnit?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.organizationalUnit = this._organizationalUnit?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupAdministeredSystemsProvisionedNamespaceBaseSystem | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._active = undefined;
+      this._name = undefined;
+      this._organizationalUnit.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._active = value.active;
+      this._name = value.name;
+      this._organizationalUnit.internalValue = value.organizationalUnit;
+    }
+  }
+
+  // active - computed: true, optional: true, required: false
+  private _active?: boolean | cdktf.IResolvable; 
+  public get active() {
+    return this.getBooleanAttribute('active');
+  }
+  public set active(value: boolean | cdktf.IResolvable) {
+    this._active = value;
+  }
+  public resetActive() {
+    this._active = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get activeInput() {
+    return this._active;
+  }
+
+  // admin_permissions - computed: true, optional: false, required: false
+  public get adminPermissions() {
+    return this.getBooleanAttribute('admin_permissions');
+  }
+
+  // can_write_accounts - computed: true, optional: false, required: false
+  public get canWriteAccounts() {
+    return this.getBooleanAttribute('can_write_accounts');
+  }
+
+  // content_admin_permissions - computed: true, optional: false, required: false
+  public get contentAdminPermissions() {
+    return this.getBooleanAttribute('content_admin_permissions');
+  }
+
+  // links - computed: true, optional: false, required: false
+  private _links = new GroupAdministeredSystemsProvisionedNamespaceBaseSystemLinksList(this, "links", false);
+  public get links() {
+    return this._links;
+  }
+
+  // name - computed: true, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // organizational_unit - computed: true, optional: true, required: false
+  private _organizationalUnit = new GroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnitOutputReference(this, "organizational_unit");
+  public get organizationalUnit() {
+    return this._organizationalUnit;
+  }
+  public putOrganizationalUnit(value: GroupAdministeredSystemsProvisionedNamespaceBaseSystemOrganizationalUnit) {
+    this._organizationalUnit.internalValue = value;
+  }
+  public resetOrganizationalUnit() {
+    this._organizationalUnit.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get organizationalUnitInput() {
+    return this._organizationalUnit.internalValue;
+  }
+
+  // owner_permissions - computed: true, optional: false, required: false
+  public get ownerPermissions() {
+    return this.getBooleanAttribute('owner_permissions');
+  }
+
+  // permissions - computed: true, optional: false, required: false
+  private _permissions = new GroupAdministeredSystemsProvisionedNamespaceBaseSystemPermissionsList(this, "permissions", false);
+  public get permissions() {
+    return this._permissions;
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+
+  // uuid - computed: true, optional: false, required: false
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+}
+export interface GroupAdministeredSystemsProvisionedNamespace {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#base_system Group#base_system}
+  */
+  readonly baseSystem: GroupAdministeredSystemsProvisionedNamespaceBaseSystem;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#group_dn Group#group_dn}
+  */
+  readonly groupDn: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#service_account_dn Group#service_account_dn}
+  */
+  readonly serviceAccountDn: string;
+}
+
+export function groupAdministeredSystemsProvisionedNamespaceToTerraform(struct?: GroupAdministeredSystemsProvisionedNamespace | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    base_system: groupAdministeredSystemsProvisionedNamespaceBaseSystemToTerraform(struct!.baseSystem),
+    group_dn: cdktf.stringToTerraform(struct!.groupDn),
+    service_account_dn: cdktf.stringToTerraform(struct!.serviceAccountDn),
+  }
+}
+
+
+export function groupAdministeredSystemsProvisionedNamespaceToHclTerraform(struct?: GroupAdministeredSystemsProvisionedNamespace | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    base_system: {
+      value: groupAdministeredSystemsProvisionedNamespaceBaseSystemToHclTerraform(struct!.baseSystem),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "GroupAdministeredSystemsProvisionedNamespaceBaseSystem",
+    },
+    group_dn: {
+      value: cdktf.stringToHclTerraform(struct!.groupDn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    service_account_dn: {
+      value: cdktf.stringToHclTerraform(struct!.serviceAccountDn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GroupAdministeredSystemsProvisionedNamespaceOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): GroupAdministeredSystemsProvisionedNamespace | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._baseSystem?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.baseSystem = this._baseSystem?.internalValue;
+    }
+    if (this._groupDn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.groupDn = this._groupDn;
+    }
+    if (this._serviceAccountDn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.serviceAccountDn = this._serviceAccountDn;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupAdministeredSystemsProvisionedNamespace | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._baseSystem.internalValue = undefined;
+      this._groupDn = undefined;
+      this._serviceAccountDn = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._baseSystem.internalValue = value.baseSystem;
+      this._groupDn = value.groupDn;
+      this._serviceAccountDn = value.serviceAccountDn;
+    }
+  }
+
+  // base_system - computed: true, optional: false, required: true
+  private _baseSystem = new GroupAdministeredSystemsProvisionedNamespaceBaseSystemOutputReference(this, "base_system");
+  public get baseSystem() {
+    return this._baseSystem;
+  }
+  public putBaseSystem(value: GroupAdministeredSystemsProvisionedNamespaceBaseSystem) {
+    this._baseSystem.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get baseSystemInput() {
+    return this._baseSystem.internalValue;
+  }
+
+  // group_dn - computed: true, optional: false, required: true
+  private _groupDn?: string; 
+  public get groupDn() {
+    return this.getStringAttribute('group_dn');
+  }
+  public set groupDn(value: string) {
+    this._groupDn = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get groupDnInput() {
+    return this._groupDn;
+  }
+
+  // service_account_dn - computed: true, optional: false, required: true
+  private _serviceAccountDn?: string; 
+  public get serviceAccountDn() {
+    return this.getStringAttribute('service_account_dn');
+  }
+  public set serviceAccountDn(value: string) {
+    this._serviceAccountDn = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serviceAccountDnInput() {
+    return this._serviceAccountDn;
+  }
+}
+export interface GroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionLinks {
+}
+
+export function groupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionLinksToTerraform(struct?: GroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function groupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionLinksToHclTerraform(struct?: GroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionLinksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionLinks | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionLinks | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // href - computed: true, optional: false, required: false
+  public get href() {
+    return this.getStringAttribute('href');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getNumberAttribute('id');
+  }
+
+  // rel - computed: true, optional: false, required: false
+  public get rel() {
+    return this.getStringAttribute('rel');
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class GroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionLinksList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionLinksOutputReference {
+    return new GroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionPermissions {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#full Group#full}
+  */
+  readonly full?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#instances Group#instances}
+  */
+  readonly instances?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#operations Group#operations}
+  */
+  readonly operations?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#type_escaped Group#type_escaped}
+  */
+  readonly typeEscaped?: string;
+}
+
+export function groupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionPermissionsToTerraform(struct?: GroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    full: cdktf.stringToTerraform(struct!.full),
+    instances: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.instances),
+    operations: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.operations),
+    type_escaped: cdktf.stringToTerraform(struct!.typeEscaped),
+  }
+}
+
+
+export function groupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionPermissionsToHclTerraform(struct?: GroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    full: {
+      value: cdktf.stringToHclTerraform(struct!.full),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    instances: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.instances),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    operations: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.operations),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+    type_escaped: {
+      value: cdktf.stringToHclTerraform(struct!.typeEscaped),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionPermissionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionPermissions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._full !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.full = this._full;
+    }
+    if (this._instances !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.instances = this._instances;
+    }
+    if (this._operations !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.operations = this._operations;
+    }
+    if (this._typeEscaped !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.typeEscaped = this._typeEscaped;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionPermissions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._full = undefined;
+      this._instances = undefined;
+      this._operations = undefined;
+      this._typeEscaped = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._full = value.full;
+      this._instances = value.instances;
+      this._operations = value.operations;
+      this._typeEscaped = value.typeEscaped;
+    }
+  }
+
+  // full - computed: true, optional: true, required: false
+  private _full?: string; 
+  public get full() {
+    return this.getStringAttribute('full');
+  }
+  public set full(value: string) {
+    this._full = value;
+  }
+  public resetFull() {
+    this._full = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fullInput() {
+    return this._full;
+  }
+
+  // instances - computed: true, optional: true, required: false
+  private _instances?: string[]; 
+  public get instances() {
+    return this.getListAttribute('instances');
+  }
+  public set instances(value: string[]) {
+    this._instances = value;
+  }
+  public resetInstances() {
+    this._instances = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instancesInput() {
+    return this._instances;
+  }
+
+  // operations - computed: true, optional: true, required: false
+  private _operations?: string[]; 
+  public get operations() {
+    return cdktf.Fn.tolist(this.getListAttribute('operations'));
+  }
+  public set operations(value: string[]) {
+    this._operations = value;
+  }
+  public resetOperations() {
+    this._operations = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get operationsInput() {
+    return this._operations;
+  }
+
+  // type_escaped - computed: true, optional: true, required: false
+  private _typeEscaped?: string; 
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+  public set typeEscaped(value: string) {
+    this._typeEscaped = value;
+  }
+  public resetTypeEscaped() {
+    this._typeEscaped = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeEscapedInput() {
+    return this._typeEscaped;
+  }
+}
+
+export class GroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionPermissionsList extends cdktf.ComplexList {
+  public internalValue? : GroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionPermissions[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionPermissionsOutputReference {
+    return new GroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GroupAdministeredSystemsProvisionedScimAttributesAttributeDefinition {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#format Group#format}
+  */
+  readonly format: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#freely_useable Group#freely_useable}
+  */
+  readonly freelyUseable?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#list Group#list}
+  */
+  readonly list?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#name Group#name}
+  */
+  readonly name: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#required Group#required}
+  */
+  readonly required?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#unique Group#unique}
+  */
+  readonly unique?: boolean | cdktf.IResolvable;
+}
+
+export function groupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionToTerraform(struct?: GroupAdministeredSystemsProvisionedScimAttributesAttributeDefinition | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    format: cdktf.stringToTerraform(struct!.format),
+    freely_useable: cdktf.booleanToTerraform(struct!.freelyUseable),
+    list: cdktf.booleanToTerraform(struct!.list),
+    name: cdktf.stringToTerraform(struct!.name),
+    required: cdktf.booleanToTerraform(struct!.required),
+    unique: cdktf.booleanToTerraform(struct!.unique),
+  }
+}
+
+
+export function groupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionToHclTerraform(struct?: GroupAdministeredSystemsProvisionedScimAttributesAttributeDefinition | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    format: {
+      value: cdktf.stringToHclTerraform(struct!.format),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    freely_useable: {
+      value: cdktf.booleanToHclTerraform(struct!.freelyUseable),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    list: {
+      value: cdktf.booleanToHclTerraform(struct!.list),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    required: {
+      value: cdktf.booleanToHclTerraform(struct!.required),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    unique: {
+      value: cdktf.booleanToHclTerraform(struct!.unique),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): GroupAdministeredSystemsProvisionedScimAttributesAttributeDefinition | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._format !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.format = this._format;
+    }
+    if (this._freelyUseable !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.freelyUseable = this._freelyUseable;
+    }
+    if (this._list !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.list = this._list;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._required !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.required = this._required;
+    }
+    if (this._unique !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.unique = this._unique;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupAdministeredSystemsProvisionedScimAttributesAttributeDefinition | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._format = undefined;
+      this._freelyUseable = undefined;
+      this._list = undefined;
+      this._name = undefined;
+      this._required = undefined;
+      this._unique = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._format = value.format;
+      this._freelyUseable = value.freelyUseable;
+      this._list = value.list;
+      this._name = value.name;
+      this._required = value.required;
+      this._unique = value.unique;
+    }
+  }
+
+  // format - computed: true, optional: false, required: true
+  private _format?: string; 
+  public get format() {
+    return this.getStringAttribute('format');
+  }
+  public set format(value: string) {
+    this._format = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get formatInput() {
+    return this._format;
+  }
+
+  // freely_useable - computed: true, optional: true, required: false
+  private _freelyUseable?: boolean | cdktf.IResolvable; 
+  public get freelyUseable() {
+    return this.getBooleanAttribute('freely_useable');
+  }
+  public set freelyUseable(value: boolean | cdktf.IResolvable) {
+    this._freelyUseable = value;
+  }
+  public resetFreelyUseable() {
+    this._freelyUseable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get freelyUseableInput() {
+    return this._freelyUseable;
+  }
+
+  // links - computed: true, optional: false, required: false
+  private _links = new GroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionLinksList(this, "links", false);
+  public get links() {
+    return this._links;
+  }
+
+  // list - computed: true, optional: true, required: false
+  private _list?: boolean | cdktf.IResolvable; 
+  public get list() {
+    return this.getBooleanAttribute('list');
+  }
+  public set list(value: boolean | cdktf.IResolvable) {
+    this._list = value;
+  }
+  public resetList() {
+    this._list = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get listInput() {
+    return this._list;
+  }
+
+  // name - computed: true, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // permissions - computed: true, optional: false, required: false
+  private _permissions = new GroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionPermissionsList(this, "permissions", false);
+  public get permissions() {
+    return this._permissions;
+  }
+
+  // required - computed: true, optional: true, required: false
+  private _required?: boolean | cdktf.IResolvable; 
+  public get required() {
+    return this.getBooleanAttribute('required');
+  }
+  public set required(value: boolean | cdktf.IResolvable) {
+    this._required = value;
+  }
+  public resetRequired() {
+    this._required = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get requiredInput() {
+    return this._required;
+  }
+
+  // system_definition - computed: true, optional: false, required: false
+  public get systemDefinition() {
+    return this.getStringAttribute('system_definition');
+  }
+
+  // unique - computed: true, optional: true, required: false
+  private _unique?: boolean | cdktf.IResolvable; 
+  public get unique() {
+    return this.getBooleanAttribute('unique');
+  }
+  public set unique(value: boolean | cdktf.IResolvable) {
+    this._unique = value;
+  }
+  public resetUnique() {
+    this._unique = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uniqueInput() {
+    return this._unique;
+  }
+}
+export interface GroupAdministeredSystemsProvisionedScimAttributes {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#attribute_definition Group#attribute_definition}
+  */
+  readonly attributeDefinition?: GroupAdministeredSystemsProvisionedScimAttributesAttributeDefinition;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#name Group#name}
+  */
+  readonly name: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#script Group#script}
+  */
+  readonly script?: string;
+}
+
+export function groupAdministeredSystemsProvisionedScimAttributesToTerraform(struct?: GroupAdministeredSystemsProvisionedScimAttributes | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    attribute_definition: groupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionToTerraform(struct!.attributeDefinition),
+    name: cdktf.stringToTerraform(struct!.name),
+    script: cdktf.stringToTerraform(struct!.script),
+  }
+}
+
+
+export function groupAdministeredSystemsProvisionedScimAttributesToHclTerraform(struct?: GroupAdministeredSystemsProvisionedScimAttributes | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    attribute_definition: {
+      value: groupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionToHclTerraform(struct!.attributeDefinition),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "GroupAdministeredSystemsProvisionedScimAttributesAttributeDefinition",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    script: {
+      value: cdktf.stringToHclTerraform(struct!.script),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GroupAdministeredSystemsProvisionedScimAttributesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GroupAdministeredSystemsProvisionedScimAttributes | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._attributeDefinition?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.attributeDefinition = this._attributeDefinition?.internalValue;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._script !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.script = this._script;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupAdministeredSystemsProvisionedScimAttributes | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._attributeDefinition.internalValue = undefined;
+      this._name = undefined;
+      this._script = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._attributeDefinition.internalValue = value.attributeDefinition;
+      this._name = value.name;
+      this._script = value.script;
+    }
+  }
+
+  // attribute_definition - computed: true, optional: true, required: false
+  private _attributeDefinition = new GroupAdministeredSystemsProvisionedScimAttributesAttributeDefinitionOutputReference(this, "attribute_definition");
+  public get attributeDefinition() {
+    return this._attributeDefinition;
+  }
+  public putAttributeDefinition(value: GroupAdministeredSystemsProvisionedScimAttributesAttributeDefinition) {
+    this._attributeDefinition.internalValue = value;
+  }
+  public resetAttributeDefinition() {
+    this._attributeDefinition.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get attributeDefinitionInput() {
+    return this._attributeDefinition.internalValue;
+  }
+
+  // name - computed: true, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // script - computed: true, optional: true, required: false
+  private _script?: string; 
+  public get script() {
+    return this.getStringAttribute('script');
+  }
+  public set script(value: string) {
+    this._script = value;
+  }
+  public resetScript() {
+    this._script = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scriptInput() {
+    return this._script;
+  }
+}
+
+export class GroupAdministeredSystemsProvisionedScimAttributesList extends cdktf.ComplexList {
+  public internalValue? : GroupAdministeredSystemsProvisionedScimAttributes[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GroupAdministeredSystemsProvisionedScimAttributesOutputReference {
+    return new GroupAdministeredSystemsProvisionedScimAttributesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GroupAdministeredSystemsProvisionedScim {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#attributes Group#attributes}
+  */
+  readonly attributes?: GroupAdministeredSystemsProvisionedScimAttributes[] | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#authentication_scheme Group#authentication_scheme}
+  */
+  readonly authenticationScheme?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#basic_auth_password Group#basic_auth_password}
+  */
+  readonly basicAuthPassword?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#basic_auth_username Group#basic_auth_username}
+  */
+  readonly basicAuthUsername?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#bearer_token Group#bearer_token}
+  */
+  readonly bearerToken?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#connector_configuration Group#connector_configuration}
+  */
+  readonly connectorConfiguration?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#custom_header_name Group#custom_header_name}
+  */
+  readonly customHeaderName?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#custom_header_value Group#custom_header_value}
+  */
+  readonly customHeaderValue?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#external_id_supported Group#external_id_supported}
+  */
+  readonly externalIdSupported?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#filter_active_users_supported Group#filter_active_users_supported}
+  */
+  readonly filterActiveUsersSupported?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#groups_supported Group#groups_supported}
+  */
+  readonly groupsSupported?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#page_size Group#page_size}
+  */
+  readonly pageSize?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#password_supported Group#password_supported}
+  */
+  readonly passwordSupported?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#update_strategy Group#update_strategy}
+  */
+  readonly updateStrategy?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#url Group#url}
+  */
+  readonly url: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#use_scim_json_mimetype Group#use_scim_json_mimetype}
+  */
+  readonly useScimJsonMimetype?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#vendor_escaped Group#vendor_escaped}
+  */
+  readonly vendorEscaped?: string;
+}
+
+export function groupAdministeredSystemsProvisionedScimToTerraform(struct?: GroupAdministeredSystemsProvisionedScim | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    attributes: cdktf.listMapper(groupAdministeredSystemsProvisionedScimAttributesToTerraform, false)(struct!.attributes),
+    authentication_scheme: cdktf.stringToTerraform(struct!.authenticationScheme),
+    basic_auth_password: cdktf.stringToTerraform(struct!.basicAuthPassword),
+    basic_auth_username: cdktf.stringToTerraform(struct!.basicAuthUsername),
+    bearer_token: cdktf.stringToTerraform(struct!.bearerToken),
+    connector_configuration: cdktf.stringToTerraform(struct!.connectorConfiguration),
+    custom_header_name: cdktf.stringToTerraform(struct!.customHeaderName),
+    custom_header_value: cdktf.stringToTerraform(struct!.customHeaderValue),
+    external_id_supported: cdktf.booleanToTerraform(struct!.externalIdSupported),
+    filter_active_users_supported: cdktf.booleanToTerraform(struct!.filterActiveUsersSupported),
+    groups_supported: cdktf.booleanToTerraform(struct!.groupsSupported),
+    page_size: cdktf.numberToTerraform(struct!.pageSize),
+    password_supported: cdktf.booleanToTerraform(struct!.passwordSupported),
+    update_strategy: cdktf.stringToTerraform(struct!.updateStrategy),
+    url: cdktf.stringToTerraform(struct!.url),
+    use_scim_json_mimetype: cdktf.booleanToTerraform(struct!.useScimJsonMimetype),
+    vendor_escaped: cdktf.stringToTerraform(struct!.vendorEscaped),
+  }
+}
+
+
+export function groupAdministeredSystemsProvisionedScimToHclTerraform(struct?: GroupAdministeredSystemsProvisionedScim | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    attributes: {
+      value: cdktf.listMapperHcl(groupAdministeredSystemsProvisionedScimAttributesToHclTerraform, false)(struct!.attributes),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GroupAdministeredSystemsProvisionedScimAttributesList",
+    },
+    authentication_scheme: {
+      value: cdktf.stringToHclTerraform(struct!.authenticationScheme),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    basic_auth_password: {
+      value: cdktf.stringToHclTerraform(struct!.basicAuthPassword),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    basic_auth_username: {
+      value: cdktf.stringToHclTerraform(struct!.basicAuthUsername),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    bearer_token: {
+      value: cdktf.stringToHclTerraform(struct!.bearerToken),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    connector_configuration: {
+      value: cdktf.stringToHclTerraform(struct!.connectorConfiguration),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    custom_header_name: {
+      value: cdktf.stringToHclTerraform(struct!.customHeaderName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    custom_header_value: {
+      value: cdktf.stringToHclTerraform(struct!.customHeaderValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    external_id_supported: {
+      value: cdktf.booleanToHclTerraform(struct!.externalIdSupported),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    filter_active_users_supported: {
+      value: cdktf.booleanToHclTerraform(struct!.filterActiveUsersSupported),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    groups_supported: {
+      value: cdktf.booleanToHclTerraform(struct!.groupsSupported),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    page_size: {
+      value: cdktf.numberToHclTerraform(struct!.pageSize),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    password_supported: {
+      value: cdktf.booleanToHclTerraform(struct!.passwordSupported),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    update_strategy: {
+      value: cdktf.stringToHclTerraform(struct!.updateStrategy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    url: {
+      value: cdktf.stringToHclTerraform(struct!.url),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    use_scim_json_mimetype: {
+      value: cdktf.booleanToHclTerraform(struct!.useScimJsonMimetype),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    vendor_escaped: {
+      value: cdktf.stringToHclTerraform(struct!.vendorEscaped),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GroupAdministeredSystemsProvisionedScimOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): GroupAdministeredSystemsProvisionedScim | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._attributes?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.attributes = this._attributes?.internalValue;
+    }
+    if (this._authenticationScheme !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.authenticationScheme = this._authenticationScheme;
+    }
+    if (this._basicAuthPassword !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.basicAuthPassword = this._basicAuthPassword;
+    }
+    if (this._basicAuthUsername !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.basicAuthUsername = this._basicAuthUsername;
+    }
+    if (this._bearerToken !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bearerToken = this._bearerToken;
+    }
+    if (this._connectorConfiguration !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.connectorConfiguration = this._connectorConfiguration;
+    }
+    if (this._customHeaderName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.customHeaderName = this._customHeaderName;
+    }
+    if (this._customHeaderValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.customHeaderValue = this._customHeaderValue;
+    }
+    if (this._externalIdSupported !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.externalIdSupported = this._externalIdSupported;
+    }
+    if (this._filterActiveUsersSupported !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.filterActiveUsersSupported = this._filterActiveUsersSupported;
+    }
+    if (this._groupsSupported !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.groupsSupported = this._groupsSupported;
+    }
+    if (this._pageSize !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.pageSize = this._pageSize;
+    }
+    if (this._passwordSupported !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.passwordSupported = this._passwordSupported;
+    }
+    if (this._updateStrategy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.updateStrategy = this._updateStrategy;
+    }
+    if (this._url !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.url = this._url;
+    }
+    if (this._useScimJsonMimetype !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.useScimJsonMimetype = this._useScimJsonMimetype;
+    }
+    if (this._vendorEscaped !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vendorEscaped = this._vendorEscaped;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupAdministeredSystemsProvisionedScim | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._attributes.internalValue = undefined;
+      this._authenticationScheme = undefined;
+      this._basicAuthPassword = undefined;
+      this._basicAuthUsername = undefined;
+      this._bearerToken = undefined;
+      this._connectorConfiguration = undefined;
+      this._customHeaderName = undefined;
+      this._customHeaderValue = undefined;
+      this._externalIdSupported = undefined;
+      this._filterActiveUsersSupported = undefined;
+      this._groupsSupported = undefined;
+      this._pageSize = undefined;
+      this._passwordSupported = undefined;
+      this._updateStrategy = undefined;
+      this._url = undefined;
+      this._useScimJsonMimetype = undefined;
+      this._vendorEscaped = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._attributes.internalValue = value.attributes;
+      this._authenticationScheme = value.authenticationScheme;
+      this._basicAuthPassword = value.basicAuthPassword;
+      this._basicAuthUsername = value.basicAuthUsername;
+      this._bearerToken = value.bearerToken;
+      this._connectorConfiguration = value.connectorConfiguration;
+      this._customHeaderName = value.customHeaderName;
+      this._customHeaderValue = value.customHeaderValue;
+      this._externalIdSupported = value.externalIdSupported;
+      this._filterActiveUsersSupported = value.filterActiveUsersSupported;
+      this._groupsSupported = value.groupsSupported;
+      this._pageSize = value.pageSize;
+      this._passwordSupported = value.passwordSupported;
+      this._updateStrategy = value.updateStrategy;
+      this._url = value.url;
+      this._useScimJsonMimetype = value.useScimJsonMimetype;
+      this._vendorEscaped = value.vendorEscaped;
+    }
+  }
+
+  // attributes - computed: true, optional: true, required: false
+  private _attributes = new GroupAdministeredSystemsProvisionedScimAttributesList(this, "attributes", false);
+  public get attributes() {
+    return this._attributes;
+  }
+  public putAttributes(value: GroupAdministeredSystemsProvisionedScimAttributes[] | cdktf.IResolvable) {
+    this._attributes.internalValue = value;
+  }
+  public resetAttributes() {
+    this._attributes.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get attributesInput() {
+    return this._attributes.internalValue;
+  }
+
+  // authentication_scheme - computed: true, optional: true, required: false
+  private _authenticationScheme?: string; 
+  public get authenticationScheme() {
+    return this.getStringAttribute('authentication_scheme');
+  }
+  public set authenticationScheme(value: string) {
+    this._authenticationScheme = value;
+  }
+  public resetAuthenticationScheme() {
+    this._authenticationScheme = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get authenticationSchemeInput() {
+    return this._authenticationScheme;
+  }
+
+  // basic_auth_password - computed: true, optional: true, required: false
+  private _basicAuthPassword?: string; 
+  public get basicAuthPassword() {
+    return this.getStringAttribute('basic_auth_password');
+  }
+  public set basicAuthPassword(value: string) {
+    this._basicAuthPassword = value;
+  }
+  public resetBasicAuthPassword() {
+    this._basicAuthPassword = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get basicAuthPasswordInput() {
+    return this._basicAuthPassword;
+  }
+
+  // basic_auth_username - computed: true, optional: true, required: false
+  private _basicAuthUsername?: string; 
+  public get basicAuthUsername() {
+    return this.getStringAttribute('basic_auth_username');
+  }
+  public set basicAuthUsername(value: string) {
+    this._basicAuthUsername = value;
+  }
+  public resetBasicAuthUsername() {
+    this._basicAuthUsername = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get basicAuthUsernameInput() {
+    return this._basicAuthUsername;
+  }
+
+  // bearer_token - computed: true, optional: true, required: false
+  private _bearerToken?: string; 
+  public get bearerToken() {
+    return this.getStringAttribute('bearer_token');
+  }
+  public set bearerToken(value: string) {
+    this._bearerToken = value;
+  }
+  public resetBearerToken() {
+    this._bearerToken = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bearerTokenInput() {
+    return this._bearerToken;
+  }
+
+  // connector_configuration - computed: true, optional: true, required: false
+  private _connectorConfiguration?: string; 
+  public get connectorConfiguration() {
+    return this.getStringAttribute('connector_configuration');
+  }
+  public set connectorConfiguration(value: string) {
+    this._connectorConfiguration = value;
+  }
+  public resetConnectorConfiguration() {
+    this._connectorConfiguration = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get connectorConfigurationInput() {
+    return this._connectorConfiguration;
+  }
+
+  // custom_header_name - computed: true, optional: true, required: false
+  private _customHeaderName?: string; 
+  public get customHeaderName() {
+    return this.getStringAttribute('custom_header_name');
+  }
+  public set customHeaderName(value: string) {
+    this._customHeaderName = value;
+  }
+  public resetCustomHeaderName() {
+    this._customHeaderName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get customHeaderNameInput() {
+    return this._customHeaderName;
+  }
+
+  // custom_header_value - computed: true, optional: true, required: false
+  private _customHeaderValue?: string; 
+  public get customHeaderValue() {
+    return this.getStringAttribute('custom_header_value');
+  }
+  public set customHeaderValue(value: string) {
+    this._customHeaderValue = value;
+  }
+  public resetCustomHeaderValue() {
+    this._customHeaderValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get customHeaderValueInput() {
+    return this._customHeaderValue;
+  }
+
+  // external_id_supported - computed: true, optional: true, required: false
+  private _externalIdSupported?: boolean | cdktf.IResolvable; 
+  public get externalIdSupported() {
+    return this.getBooleanAttribute('external_id_supported');
+  }
+  public set externalIdSupported(value: boolean | cdktf.IResolvable) {
+    this._externalIdSupported = value;
+  }
+  public resetExternalIdSupported() {
+    this._externalIdSupported = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get externalIdSupportedInput() {
+    return this._externalIdSupported;
+  }
+
+  // filter_active_users_supported - computed: true, optional: true, required: false
+  private _filterActiveUsersSupported?: boolean | cdktf.IResolvable; 
+  public get filterActiveUsersSupported() {
+    return this.getBooleanAttribute('filter_active_users_supported');
+  }
+  public set filterActiveUsersSupported(value: boolean | cdktf.IResolvable) {
+    this._filterActiveUsersSupported = value;
+  }
+  public resetFilterActiveUsersSupported() {
+    this._filterActiveUsersSupported = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get filterActiveUsersSupportedInput() {
+    return this._filterActiveUsersSupported;
+  }
+
+  // groups_supported - computed: true, optional: true, required: false
+  private _groupsSupported?: boolean | cdktf.IResolvable; 
+  public get groupsSupported() {
+    return this.getBooleanAttribute('groups_supported');
+  }
+  public set groupsSupported(value: boolean | cdktf.IResolvable) {
+    this._groupsSupported = value;
+  }
+  public resetGroupsSupported() {
+    this._groupsSupported = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get groupsSupportedInput() {
+    return this._groupsSupported;
+  }
+
+  // page_size - computed: true, optional: true, required: false
+  private _pageSize?: number; 
+  public get pageSize() {
+    return this.getNumberAttribute('page_size');
+  }
+  public set pageSize(value: number) {
+    this._pageSize = value;
+  }
+  public resetPageSize() {
+    this._pageSize = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get pageSizeInput() {
+    return this._pageSize;
+  }
+
+  // password_supported - computed: true, optional: true, required: false
+  private _passwordSupported?: boolean | cdktf.IResolvable; 
+  public get passwordSupported() {
+    return this.getBooleanAttribute('password_supported');
+  }
+  public set passwordSupported(value: boolean | cdktf.IResolvable) {
+    this._passwordSupported = value;
+  }
+  public resetPasswordSupported() {
+    this._passwordSupported = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get passwordSupportedInput() {
+    return this._passwordSupported;
+  }
+
+  // update_strategy - computed: true, optional: true, required: false
+  private _updateStrategy?: string; 
+  public get updateStrategy() {
+    return this.getStringAttribute('update_strategy');
+  }
+  public set updateStrategy(value: string) {
+    this._updateStrategy = value;
+  }
+  public resetUpdateStrategy() {
+    this._updateStrategy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get updateStrategyInput() {
+    return this._updateStrategy;
+  }
+
+  // url - computed: true, optional: false, required: true
+  private _url?: string; 
+  public get url() {
+    return this.getStringAttribute('url');
+  }
+  public set url(value: string) {
+    this._url = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get urlInput() {
+    return this._url;
+  }
+
+  // use_scim_json_mimetype - computed: true, optional: true, required: false
+  private _useScimJsonMimetype?: boolean | cdktf.IResolvable; 
+  public get useScimJsonMimetype() {
+    return this.getBooleanAttribute('use_scim_json_mimetype');
+  }
+  public set useScimJsonMimetype(value: boolean | cdktf.IResolvable) {
+    this._useScimJsonMimetype = value;
+  }
+  public resetUseScimJsonMimetype() {
+    this._useScimJsonMimetype = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get useScimJsonMimetypeInput() {
+    return this._useScimJsonMimetype;
+  }
+
+  // vendor_escaped - computed: true, optional: true, required: false
+  private _vendorEscaped?: string; 
+  public get vendorEscaped() {
+    return this.getStringAttribute('vendor_escaped');
+  }
+  public set vendorEscaped(value: string) {
+    this._vendorEscaped = value;
+  }
+  public resetVendorEscaped() {
+    this._vendorEscaped = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vendorEscapedInput() {
+    return this._vendorEscaped;
+  }
+}
+export interface GroupAdministeredSystemsTechnicalAdministratorLinks {
+}
+
+export function groupAdministeredSystemsTechnicalAdministratorLinksToTerraform(struct?: GroupAdministeredSystemsTechnicalAdministratorLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function groupAdministeredSystemsTechnicalAdministratorLinksToHclTerraform(struct?: GroupAdministeredSystemsTechnicalAdministratorLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GroupAdministeredSystemsTechnicalAdministratorLinksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GroupAdministeredSystemsTechnicalAdministratorLinks | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupAdministeredSystemsTechnicalAdministratorLinks | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // href - computed: true, optional: false, required: false
+  public get href() {
+    return this.getStringAttribute('href');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getNumberAttribute('id');
+  }
+
+  // rel - computed: true, optional: false, required: false
+  public get rel() {
+    return this.getStringAttribute('rel');
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class GroupAdministeredSystemsTechnicalAdministratorLinksList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GroupAdministeredSystemsTechnicalAdministratorLinksOutputReference {
+    return new GroupAdministeredSystemsTechnicalAdministratorLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitLinks {
+}
+
+export function groupAdministeredSystemsTechnicalAdministratorOrganizationalUnitLinksToTerraform(struct?: GroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function groupAdministeredSystemsTechnicalAdministratorOrganizationalUnitLinksToHclTerraform(struct?: GroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitLinksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitLinks | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitLinks | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // href - computed: true, optional: false, required: false
+  public get href() {
+    return this.getStringAttribute('href');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getNumberAttribute('id');
+  }
+
+  // rel - computed: true, optional: false, required: false
+  public get rel() {
+    return this.getStringAttribute('rel');
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class GroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitLinksList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitLinksOutputReference {
+    return new GroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitPermissions {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#full Group#full}
+  */
+  readonly full?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#instances Group#instances}
+  */
+  readonly instances?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#operations Group#operations}
+  */
+  readonly operations?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#type_escaped Group#type_escaped}
+  */
+  readonly typeEscaped?: string;
+}
+
+export function groupAdministeredSystemsTechnicalAdministratorOrganizationalUnitPermissionsToTerraform(struct?: GroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    full: cdktf.stringToTerraform(struct!.full),
+    instances: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.instances),
+    operations: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.operations),
+    type_escaped: cdktf.stringToTerraform(struct!.typeEscaped),
+  }
+}
+
+
+export function groupAdministeredSystemsTechnicalAdministratorOrganizationalUnitPermissionsToHclTerraform(struct?: GroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    full: {
+      value: cdktf.stringToHclTerraform(struct!.full),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    instances: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.instances),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    operations: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.operations),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+    type_escaped: {
+      value: cdktf.stringToHclTerraform(struct!.typeEscaped),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitPermissionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitPermissions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._full !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.full = this._full;
+    }
+    if (this._instances !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.instances = this._instances;
+    }
+    if (this._operations !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.operations = this._operations;
+    }
+    if (this._typeEscaped !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.typeEscaped = this._typeEscaped;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitPermissions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._full = undefined;
+      this._instances = undefined;
+      this._operations = undefined;
+      this._typeEscaped = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._full = value.full;
+      this._instances = value.instances;
+      this._operations = value.operations;
+      this._typeEscaped = value.typeEscaped;
+    }
+  }
+
+  // full - computed: true, optional: true, required: false
+  private _full?: string; 
+  public get full() {
+    return this.getStringAttribute('full');
+  }
+  public set full(value: string) {
+    this._full = value;
+  }
+  public resetFull() {
+    this._full = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fullInput() {
+    return this._full;
+  }
+
+  // instances - computed: true, optional: true, required: false
+  private _instances?: string[]; 
+  public get instances() {
+    return this.getListAttribute('instances');
+  }
+  public set instances(value: string[]) {
+    this._instances = value;
+  }
+  public resetInstances() {
+    this._instances = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instancesInput() {
+    return this._instances;
+  }
+
+  // operations - computed: true, optional: true, required: false
+  private _operations?: string[]; 
+  public get operations() {
+    return cdktf.Fn.tolist(this.getListAttribute('operations'));
+  }
+  public set operations(value: string[]) {
+    this._operations = value;
+  }
+  public resetOperations() {
+    this._operations = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get operationsInput() {
+    return this._operations;
+  }
+
+  // type_escaped - computed: true, optional: true, required: false
+  private _typeEscaped?: string; 
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+  public set typeEscaped(value: string) {
+    this._typeEscaped = value;
+  }
+  public resetTypeEscaped() {
+    this._typeEscaped = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeEscapedInput() {
+    return this._typeEscaped;
+  }
+}
+
+export class GroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitPermissionsList extends cdktf.ComplexList {
+  public internalValue? : GroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitPermissions[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitPermissionsOutputReference {
+    return new GroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GroupAdministeredSystemsTechnicalAdministratorOrganizationalUnit {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#name Group#name}
+  */
+  readonly name: string;
+}
+
+export function groupAdministeredSystemsTechnicalAdministratorOrganizationalUnitToTerraform(struct?: GroupAdministeredSystemsTechnicalAdministratorOrganizationalUnit | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function groupAdministeredSystemsTechnicalAdministratorOrganizationalUnitToHclTerraform(struct?: GroupAdministeredSystemsTechnicalAdministratorOrganizationalUnit | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): GroupAdministeredSystemsTechnicalAdministratorOrganizationalUnit | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupAdministeredSystemsTechnicalAdministratorOrganizationalUnit | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+    }
+  }
+
+  // links - computed: true, optional: false, required: false
+  private _links = new GroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitLinksList(this, "links", false);
+  public get links() {
+    return this._links;
+  }
+
+  // name - computed: true, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // permissions - computed: true, optional: false, required: false
+  private _permissions = new GroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitPermissionsList(this, "permissions", false);
+  public get permissions() {
+    return this._permissions;
+  }
+
+  // uuid - computed: true, optional: false, required: false
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+}
+export interface GroupAdministeredSystemsTechnicalAdministratorPermissions {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#full Group#full}
+  */
+  readonly full?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#instances Group#instances}
+  */
+  readonly instances?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#operations Group#operations}
+  */
+  readonly operations?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#type_escaped Group#type_escaped}
+  */
+  readonly typeEscaped?: string;
+}
+
+export function groupAdministeredSystemsTechnicalAdministratorPermissionsToTerraform(struct?: GroupAdministeredSystemsTechnicalAdministratorPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    full: cdktf.stringToTerraform(struct!.full),
+    instances: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.instances),
+    operations: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.operations),
+    type_escaped: cdktf.stringToTerraform(struct!.typeEscaped),
+  }
+}
+
+
+export function groupAdministeredSystemsTechnicalAdministratorPermissionsToHclTerraform(struct?: GroupAdministeredSystemsTechnicalAdministratorPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    full: {
+      value: cdktf.stringToHclTerraform(struct!.full),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    instances: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.instances),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    operations: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.operations),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+    type_escaped: {
+      value: cdktf.stringToHclTerraform(struct!.typeEscaped),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GroupAdministeredSystemsTechnicalAdministratorPermissionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GroupAdministeredSystemsTechnicalAdministratorPermissions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._full !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.full = this._full;
+    }
+    if (this._instances !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.instances = this._instances;
+    }
+    if (this._operations !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.operations = this._operations;
+    }
+    if (this._typeEscaped !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.typeEscaped = this._typeEscaped;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupAdministeredSystemsTechnicalAdministratorPermissions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._full = undefined;
+      this._instances = undefined;
+      this._operations = undefined;
+      this._typeEscaped = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._full = value.full;
+      this._instances = value.instances;
+      this._operations = value.operations;
+      this._typeEscaped = value.typeEscaped;
+    }
+  }
+
+  // full - computed: true, optional: true, required: false
+  private _full?: string; 
+  public get full() {
+    return this.getStringAttribute('full');
+  }
+  public set full(value: string) {
+    this._full = value;
+  }
+  public resetFull() {
+    this._full = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fullInput() {
+    return this._full;
+  }
+
+  // instances - computed: true, optional: true, required: false
+  private _instances?: string[]; 
+  public get instances() {
+    return this.getListAttribute('instances');
+  }
+  public set instances(value: string[]) {
+    this._instances = value;
+  }
+  public resetInstances() {
+    this._instances = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instancesInput() {
+    return this._instances;
+  }
+
+  // operations - computed: true, optional: true, required: false
+  private _operations?: string[]; 
+  public get operations() {
+    return cdktf.Fn.tolist(this.getListAttribute('operations'));
+  }
+  public set operations(value: string[]) {
+    this._operations = value;
+  }
+  public resetOperations() {
+    this._operations = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get operationsInput() {
+    return this._operations;
+  }
+
+  // type_escaped - computed: true, optional: true, required: false
+  private _typeEscaped?: string; 
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+  public set typeEscaped(value: string) {
+    this._typeEscaped = value;
+  }
+  public resetTypeEscaped() {
+    this._typeEscaped = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeEscapedInput() {
+    return this._typeEscaped;
+  }
+}
+
+export class GroupAdministeredSystemsTechnicalAdministratorPermissionsList extends cdktf.ComplexList {
+  public internalValue? : GroupAdministeredSystemsTechnicalAdministratorPermissions[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GroupAdministeredSystemsTechnicalAdministratorPermissionsOutputReference {
+    return new GroupAdministeredSystemsTechnicalAdministratorPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GroupAdministeredSystemsTechnicalAdministrator {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#name Group#name}
+  */
+  readonly name: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#organizational_unit Group#organizational_unit}
+  */
+  readonly organizationalUnit?: GroupAdministeredSystemsTechnicalAdministratorOrganizationalUnit;
+}
+
+export function groupAdministeredSystemsTechnicalAdministratorToTerraform(struct?: GroupAdministeredSystemsTechnicalAdministrator): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    organizational_unit: groupAdministeredSystemsTechnicalAdministratorOrganizationalUnitToTerraform(struct!.organizationalUnit),
+  }
+}
+
+
+export function groupAdministeredSystemsTechnicalAdministratorToHclTerraform(struct?: GroupAdministeredSystemsTechnicalAdministrator): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    organizational_unit: {
+      value: groupAdministeredSystemsTechnicalAdministratorOrganizationalUnitToHclTerraform(struct!.organizationalUnit),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "GroupAdministeredSystemsTechnicalAdministratorOrganizationalUnit",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GroupAdministeredSystemsTechnicalAdministratorOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): GroupAdministeredSystemsTechnicalAdministrator | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._organizationalUnit?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.organizationalUnit = this._organizationalUnit?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupAdministeredSystemsTechnicalAdministrator | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._organizationalUnit.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._organizationalUnit.internalValue = value.organizationalUnit;
+    }
+  }
+
+  // admin - computed: true, optional: false, required: false
+  public get admin() {
+    return this.getBooleanAttribute('admin');
+  }
+
+  // links - computed: true, optional: false, required: false
+  private _links = new GroupAdministeredSystemsTechnicalAdministratorLinksList(this, "links", false);
+  public get links() {
+    return this._links;
+  }
+
+  // name - computed: true, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // organizational_unit - computed: true, optional: true, required: false
+  private _organizationalUnit = new GroupAdministeredSystemsTechnicalAdministratorOrganizationalUnitOutputReference(this, "organizational_unit");
+  public get organizationalUnit() {
+    return this._organizationalUnit;
+  }
+  public putOrganizationalUnit(value: GroupAdministeredSystemsTechnicalAdministratorOrganizationalUnit) {
+    this._organizationalUnit.internalValue = value;
+  }
+  public resetOrganizationalUnit() {
+    this._organizationalUnit.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get organizationalUnitInput() {
+    return this._organizationalUnit.internalValue;
+  }
+
+  // permissions - computed: true, optional: false, required: false
+  private _permissions = new GroupAdministeredSystemsTechnicalAdministratorPermissionsList(this, "permissions", false);
+  public get permissions() {
+    return this._permissions;
+  }
+
+  // uuid - computed: true, optional: false, required: false
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+}
+export interface GroupAdministeredSystems {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#abstract_provisioned_ldap Group#abstract_provisioned_ldap}
+  */
+  readonly abstractProvisionedLdap?: GroupAdministeredSystemsAbstractProvisionedLdap;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#active Group#active}
+  */
+  readonly active?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#cleanup_period Group#cleanup_period}
+  */
+  readonly cleanupPeriod: GroupAdministeredSystemsCleanupPeriod;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#content_administrator Group#content_administrator}
+  */
+  readonly contentAdministrator?: GroupAdministeredSystemsContentAdministrator;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#group_on_system_provisioning Group#group_on_system_provisioning}
+  */
+  readonly groupOnSystemProvisioning?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#name Group#name}
+  */
+  readonly name: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#organizational_unit Group#organizational_unit}
+  */
+  readonly organizationalUnit?: GroupAdministeredSystemsOrganizationalUnit;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#owner Group#owner}
+  */
+  readonly owner: GroupAdministeredSystemsOwner;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#provisioned_a_d Group#provisioned_a_d}
+  */
+  readonly provisionedAD?: GroupAdministeredSystemsProvisionedAD;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#provisioned_azure_oidc_directory Group#provisioned_azure_oidc_directory}
+  */
+  readonly provisionedAzureOidcDirectory?: GroupAdministeredSystemsProvisionedAzureOidcDirectory;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#provisioned_azure_sync_ldap_directory Group#provisioned_azure_sync_ldap_directory}
+  */
+  readonly provisionedAzureSyncLdapDirectory?: GroupAdministeredSystemsProvisionedAzureSyncLdapDirectory;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#provisioned_azure_tenant Group#provisioned_azure_tenant}
+  */
+  readonly provisionedAzureTenant?: GroupAdministeredSystemsProvisionedAzureTenant;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#provisioned_internal_ldap Group#provisioned_internal_ldap}
+  */
+  readonly provisionedInternalLdap?: GroupAdministeredSystemsProvisionedInternalLdap;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#provisioned_ldap Group#provisioned_ldap}
+  */
+  readonly provisionedLdap?: GroupAdministeredSystemsProvisionedLdap;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#provisioned_ldap_directory Group#provisioned_ldap_directory}
+  */
+  readonly provisionedLdapDirectory?: GroupAdministeredSystemsProvisionedLdapDirectory;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#provisioned_namespace Group#provisioned_namespace}
+  */
+  readonly provisionedNamespace?: GroupAdministeredSystemsProvisionedNamespace;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#provisioned_scim Group#provisioned_scim}
+  */
+  readonly provisionedScim?: GroupAdministeredSystemsProvisionedScim;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#self_service_existing_groups Group#self_service_existing_groups}
+  */
+  readonly selfServiceExistingGroups?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#self_service_new_groups Group#self_service_new_groups}
+  */
+  readonly selfServiceNewGroups?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#self_service_new_namespaces Group#self_service_new_namespaces}
+  */
+  readonly selfServiceNewNamespaces?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#self_service_service_accounts Group#self_service_service_accounts}
+  */
+  readonly selfServiceServiceAccounts?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#should_destroy_unknown_accounts Group#should_destroy_unknown_accounts}
+  */
+  readonly shouldDestroyUnknownAccounts?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#technical_administrator Group#technical_administrator}
+  */
+  readonly technicalAdministrator: GroupAdministeredSystemsTechnicalAdministrator;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#username_prefix Group#username_prefix}
+  */
+  readonly usernamePrefix?: string;
+}
+
+export function groupAdministeredSystemsToTerraform(struct?: GroupAdministeredSystems): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    abstract_provisioned_ldap: groupAdministeredSystemsAbstractProvisionedLdapToTerraform(struct!.abstractProvisionedLdap),
+    active: cdktf.booleanToTerraform(struct!.active),
+    cleanup_period: groupAdministeredSystemsCleanupPeriodToTerraform(struct!.cleanupPeriod),
+    content_administrator: groupAdministeredSystemsContentAdministratorToTerraform(struct!.contentAdministrator),
+    group_on_system_provisioning: cdktf.stringToTerraform(struct!.groupOnSystemProvisioning),
+    name: cdktf.stringToTerraform(struct!.name),
+    organizational_unit: groupAdministeredSystemsOrganizationalUnitToTerraform(struct!.organizationalUnit),
+    owner: groupAdministeredSystemsOwnerToTerraform(struct!.owner),
+    provisioned_a_d: groupAdministeredSystemsProvisionedADToTerraform(struct!.provisionedAD),
+    provisioned_azure_oidc_directory: groupAdministeredSystemsProvisionedAzureOidcDirectoryToTerraform(struct!.provisionedAzureOidcDirectory),
+    provisioned_azure_sync_ldap_directory: groupAdministeredSystemsProvisionedAzureSyncLdapDirectoryToTerraform(struct!.provisionedAzureSyncLdapDirectory),
+    provisioned_azure_tenant: groupAdministeredSystemsProvisionedAzureTenantToTerraform(struct!.provisionedAzureTenant),
+    provisioned_internal_ldap: groupAdministeredSystemsProvisionedInternalLdapToTerraform(struct!.provisionedInternalLdap),
+    provisioned_ldap: groupAdministeredSystemsProvisionedLdapToTerraform(struct!.provisionedLdap),
+    provisioned_ldap_directory: groupAdministeredSystemsProvisionedLdapDirectoryToTerraform(struct!.provisionedLdapDirectory),
+    provisioned_namespace: groupAdministeredSystemsProvisionedNamespaceToTerraform(struct!.provisionedNamespace),
+    provisioned_scim: groupAdministeredSystemsProvisionedScimToTerraform(struct!.provisionedScim),
+    self_service_existing_groups: cdktf.booleanToTerraform(struct!.selfServiceExistingGroups),
+    self_service_new_groups: cdktf.booleanToTerraform(struct!.selfServiceNewGroups),
+    self_service_new_namespaces: cdktf.booleanToTerraform(struct!.selfServiceNewNamespaces),
+    self_service_service_accounts: cdktf.booleanToTerraform(struct!.selfServiceServiceAccounts),
+    should_destroy_unknown_accounts: cdktf.booleanToTerraform(struct!.shouldDestroyUnknownAccounts),
+    technical_administrator: groupAdministeredSystemsTechnicalAdministratorToTerraform(struct!.technicalAdministrator),
+    username_prefix: cdktf.stringToTerraform(struct!.usernamePrefix),
+  }
+}
+
+
+export function groupAdministeredSystemsToHclTerraform(struct?: GroupAdministeredSystems): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    abstract_provisioned_ldap: {
+      value: groupAdministeredSystemsAbstractProvisionedLdapToHclTerraform(struct!.abstractProvisionedLdap),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "GroupAdministeredSystemsAbstractProvisionedLdap",
+    },
+    active: {
+      value: cdktf.booleanToHclTerraform(struct!.active),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    cleanup_period: {
+      value: groupAdministeredSystemsCleanupPeriodToHclTerraform(struct!.cleanupPeriod),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "GroupAdministeredSystemsCleanupPeriod",
+    },
+    content_administrator: {
+      value: groupAdministeredSystemsContentAdministratorToHclTerraform(struct!.contentAdministrator),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "GroupAdministeredSystemsContentAdministrator",
+    },
+    group_on_system_provisioning: {
+      value: cdktf.stringToHclTerraform(struct!.groupOnSystemProvisioning),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    organizational_unit: {
+      value: groupAdministeredSystemsOrganizationalUnitToHclTerraform(struct!.organizationalUnit),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "GroupAdministeredSystemsOrganizationalUnit",
+    },
+    owner: {
+      value: groupAdministeredSystemsOwnerToHclTerraform(struct!.owner),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "GroupAdministeredSystemsOwner",
+    },
+    provisioned_a_d: {
+      value: groupAdministeredSystemsProvisionedADToHclTerraform(struct!.provisionedAD),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "GroupAdministeredSystemsProvisionedAD",
+    },
+    provisioned_azure_oidc_directory: {
+      value: groupAdministeredSystemsProvisionedAzureOidcDirectoryToHclTerraform(struct!.provisionedAzureOidcDirectory),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "GroupAdministeredSystemsProvisionedAzureOidcDirectory",
+    },
+    provisioned_azure_sync_ldap_directory: {
+      value: groupAdministeredSystemsProvisionedAzureSyncLdapDirectoryToHclTerraform(struct!.provisionedAzureSyncLdapDirectory),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "GroupAdministeredSystemsProvisionedAzureSyncLdapDirectory",
+    },
+    provisioned_azure_tenant: {
+      value: groupAdministeredSystemsProvisionedAzureTenantToHclTerraform(struct!.provisionedAzureTenant),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "GroupAdministeredSystemsProvisionedAzureTenant",
+    },
+    provisioned_internal_ldap: {
+      value: groupAdministeredSystemsProvisionedInternalLdapToHclTerraform(struct!.provisionedInternalLdap),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "GroupAdministeredSystemsProvisionedInternalLdap",
+    },
+    provisioned_ldap: {
+      value: groupAdministeredSystemsProvisionedLdapToHclTerraform(struct!.provisionedLdap),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "GroupAdministeredSystemsProvisionedLdap",
+    },
+    provisioned_ldap_directory: {
+      value: groupAdministeredSystemsProvisionedLdapDirectoryToHclTerraform(struct!.provisionedLdapDirectory),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "GroupAdministeredSystemsProvisionedLdapDirectory",
+    },
+    provisioned_namespace: {
+      value: groupAdministeredSystemsProvisionedNamespaceToHclTerraform(struct!.provisionedNamespace),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "GroupAdministeredSystemsProvisionedNamespace",
+    },
+    provisioned_scim: {
+      value: groupAdministeredSystemsProvisionedScimToHclTerraform(struct!.provisionedScim),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "GroupAdministeredSystemsProvisionedScim",
+    },
+    self_service_existing_groups: {
+      value: cdktf.booleanToHclTerraform(struct!.selfServiceExistingGroups),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    self_service_new_groups: {
+      value: cdktf.booleanToHclTerraform(struct!.selfServiceNewGroups),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    self_service_new_namespaces: {
+      value: cdktf.booleanToHclTerraform(struct!.selfServiceNewNamespaces),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    self_service_service_accounts: {
+      value: cdktf.booleanToHclTerraform(struct!.selfServiceServiceAccounts),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    should_destroy_unknown_accounts: {
+      value: cdktf.booleanToHclTerraform(struct!.shouldDestroyUnknownAccounts),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    technical_administrator: {
+      value: groupAdministeredSystemsTechnicalAdministratorToHclTerraform(struct!.technicalAdministrator),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "GroupAdministeredSystemsTechnicalAdministrator",
+    },
+    username_prefix: {
+      value: cdktf.stringToHclTerraform(struct!.usernamePrefix),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GroupAdministeredSystemsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GroupAdministeredSystems | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._abstractProvisionedLdap?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.abstractProvisionedLdap = this._abstractProvisionedLdap?.internalValue;
+    }
+    if (this._active !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.active = this._active;
+    }
+    if (this._cleanupPeriod?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cleanupPeriod = this._cleanupPeriod?.internalValue;
+    }
+    if (this._contentAdministrator?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.contentAdministrator = this._contentAdministrator?.internalValue;
+    }
+    if (this._groupOnSystemProvisioning !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.groupOnSystemProvisioning = this._groupOnSystemProvisioning;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._organizationalUnit?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.organizationalUnit = this._organizationalUnit?.internalValue;
+    }
+    if (this._owner?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.owner = this._owner?.internalValue;
+    }
+    if (this._provisionedAD?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provisionedAD = this._provisionedAD?.internalValue;
+    }
+    if (this._provisionedAzureOidcDirectory?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provisionedAzureOidcDirectory = this._provisionedAzureOidcDirectory?.internalValue;
+    }
+    if (this._provisionedAzureSyncLdapDirectory?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provisionedAzureSyncLdapDirectory = this._provisionedAzureSyncLdapDirectory?.internalValue;
+    }
+    if (this._provisionedAzureTenant?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provisionedAzureTenant = this._provisionedAzureTenant?.internalValue;
+    }
+    if (this._provisionedInternalLdap?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provisionedInternalLdap = this._provisionedInternalLdap?.internalValue;
+    }
+    if (this._provisionedLdap?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provisionedLdap = this._provisionedLdap?.internalValue;
+    }
+    if (this._provisionedLdapDirectory?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provisionedLdapDirectory = this._provisionedLdapDirectory?.internalValue;
+    }
+    if (this._provisionedNamespace?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provisionedNamespace = this._provisionedNamespace?.internalValue;
+    }
+    if (this._provisionedScim?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.provisionedScim = this._provisionedScim?.internalValue;
+    }
+    if (this._selfServiceExistingGroups !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.selfServiceExistingGroups = this._selfServiceExistingGroups;
+    }
+    if (this._selfServiceNewGroups !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.selfServiceNewGroups = this._selfServiceNewGroups;
+    }
+    if (this._selfServiceNewNamespaces !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.selfServiceNewNamespaces = this._selfServiceNewNamespaces;
+    }
+    if (this._selfServiceServiceAccounts !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.selfServiceServiceAccounts = this._selfServiceServiceAccounts;
+    }
+    if (this._shouldDestroyUnknownAccounts !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.shouldDestroyUnknownAccounts = this._shouldDestroyUnknownAccounts;
+    }
+    if (this._technicalAdministrator?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.technicalAdministrator = this._technicalAdministrator?.internalValue;
+    }
+    if (this._usernamePrefix !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.usernamePrefix = this._usernamePrefix;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupAdministeredSystems | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._abstractProvisionedLdap.internalValue = undefined;
+      this._active = undefined;
+      this._cleanupPeriod.internalValue = undefined;
+      this._contentAdministrator.internalValue = undefined;
+      this._groupOnSystemProvisioning = undefined;
+      this._name = undefined;
+      this._organizationalUnit.internalValue = undefined;
+      this._owner.internalValue = undefined;
+      this._provisionedAD.internalValue = undefined;
+      this._provisionedAzureOidcDirectory.internalValue = undefined;
+      this._provisionedAzureSyncLdapDirectory.internalValue = undefined;
+      this._provisionedAzureTenant.internalValue = undefined;
+      this._provisionedInternalLdap.internalValue = undefined;
+      this._provisionedLdap.internalValue = undefined;
+      this._provisionedLdapDirectory.internalValue = undefined;
+      this._provisionedNamespace.internalValue = undefined;
+      this._provisionedScim.internalValue = undefined;
+      this._selfServiceExistingGroups = undefined;
+      this._selfServiceNewGroups = undefined;
+      this._selfServiceNewNamespaces = undefined;
+      this._selfServiceServiceAccounts = undefined;
+      this._shouldDestroyUnknownAccounts = undefined;
+      this._technicalAdministrator.internalValue = undefined;
+      this._usernamePrefix = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._abstractProvisionedLdap.internalValue = value.abstractProvisionedLdap;
+      this._active = value.active;
+      this._cleanupPeriod.internalValue = value.cleanupPeriod;
+      this._contentAdministrator.internalValue = value.contentAdministrator;
+      this._groupOnSystemProvisioning = value.groupOnSystemProvisioning;
+      this._name = value.name;
+      this._organizationalUnit.internalValue = value.organizationalUnit;
+      this._owner.internalValue = value.owner;
+      this._provisionedAD.internalValue = value.provisionedAD;
+      this._provisionedAzureOidcDirectory.internalValue = value.provisionedAzureOidcDirectory;
+      this._provisionedAzureSyncLdapDirectory.internalValue = value.provisionedAzureSyncLdapDirectory;
+      this._provisionedAzureTenant.internalValue = value.provisionedAzureTenant;
+      this._provisionedInternalLdap.internalValue = value.provisionedInternalLdap;
+      this._provisionedLdap.internalValue = value.provisionedLdap;
+      this._provisionedLdapDirectory.internalValue = value.provisionedLdapDirectory;
+      this._provisionedNamespace.internalValue = value.provisionedNamespace;
+      this._provisionedScim.internalValue = value.provisionedScim;
+      this._selfServiceExistingGroups = value.selfServiceExistingGroups;
+      this._selfServiceNewGroups = value.selfServiceNewGroups;
+      this._selfServiceNewNamespaces = value.selfServiceNewNamespaces;
+      this._selfServiceServiceAccounts = value.selfServiceServiceAccounts;
+      this._shouldDestroyUnknownAccounts = value.shouldDestroyUnknownAccounts;
+      this._technicalAdministrator.internalValue = value.technicalAdministrator;
+      this._usernamePrefix = value.usernamePrefix;
+    }
+  }
+
+  // abstract_provisioned_ldap - computed: true, optional: true, required: false
+  private _abstractProvisionedLdap = new GroupAdministeredSystemsAbstractProvisionedLdapOutputReference(this, "abstract_provisioned_ldap");
+  public get abstractProvisionedLdap() {
+    return this._abstractProvisionedLdap;
+  }
+  public putAbstractProvisionedLdap(value: GroupAdministeredSystemsAbstractProvisionedLdap) {
+    this._abstractProvisionedLdap.internalValue = value;
+  }
+  public resetAbstractProvisionedLdap() {
+    this._abstractProvisionedLdap.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get abstractProvisionedLdapInput() {
+    return this._abstractProvisionedLdap.internalValue;
+  }
+
+  // account_count - computed: true, optional: false, required: false
+  public get accountCount() {
+    return this.getNumberAttribute('account_count');
+  }
+
+  // active - computed: true, optional: true, required: false
+  private _active?: boolean | cdktf.IResolvable; 
+  public get active() {
+    return this.getBooleanAttribute('active');
+  }
+  public set active(value: boolean | cdktf.IResolvable) {
+    this._active = value;
+  }
+  public resetActive() {
+    this._active = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get activeInput() {
+    return this._active;
+  }
+
+  // admin_permissions - computed: true, optional: false, required: false
+  public get adminPermissions() {
+    return this.getBooleanAttribute('admin_permissions');
+  }
+
+  // can_write_accounts - computed: true, optional: false, required: false
+  public get canWriteAccounts() {
+    return this.getBooleanAttribute('can_write_accounts');
+  }
+
+  // cleanup_period - computed: true, optional: false, required: true
+  private _cleanupPeriod = new GroupAdministeredSystemsCleanupPeriodOutputReference(this, "cleanup_period");
+  public get cleanupPeriod() {
+    return this._cleanupPeriod;
+  }
+  public putCleanupPeriod(value: GroupAdministeredSystemsCleanupPeriod) {
+    this._cleanupPeriod.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cleanupPeriodInput() {
+    return this._cleanupPeriod.internalValue;
+  }
+
+  // content_admin_permissions - computed: true, optional: false, required: false
+  public get contentAdminPermissions() {
+    return this.getBooleanAttribute('content_admin_permissions');
+  }
+
+  // content_administrator - computed: true, optional: true, required: false
+  private _contentAdministrator = new GroupAdministeredSystemsContentAdministratorOutputReference(this, "content_administrator");
+  public get contentAdministrator() {
+    return this._contentAdministrator;
+  }
+  public putContentAdministrator(value: GroupAdministeredSystemsContentAdministrator) {
+    this._contentAdministrator.internalValue = value;
+  }
+  public resetContentAdministrator() {
+    this._contentAdministrator.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get contentAdministratorInput() {
+    return this._contentAdministrator.internalValue;
+  }
+
+  // external_uuid - computed: true, optional: false, required: false
+  public get externalUuid() {
+    return this.getStringAttribute('external_uuid');
+  }
+
+  // group_on_system_provisioning - computed: true, optional: true, required: false
+  private _groupOnSystemProvisioning?: string; 
+  public get groupOnSystemProvisioning() {
+    return this.getStringAttribute('group_on_system_provisioning');
+  }
+  public set groupOnSystemProvisioning(value: string) {
+    this._groupOnSystemProvisioning = value;
+  }
+  public resetGroupOnSystemProvisioning() {
+    this._groupOnSystemProvisioning = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get groupOnSystemProvisioningInput() {
+    return this._groupOnSystemProvisioning;
+  }
+
+  // links - computed: true, optional: false, required: false
+  private _links = new GroupAdministeredSystemsLinksList(this, "links", false);
+  public get links() {
+    return this._links;
+  }
+
+  // name - computed: true, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // organizational_unit - computed: true, optional: true, required: false
+  private _organizationalUnit = new GroupAdministeredSystemsOrganizationalUnitOutputReference(this, "organizational_unit");
+  public get organizationalUnit() {
+    return this._organizationalUnit;
+  }
+  public putOrganizationalUnit(value: GroupAdministeredSystemsOrganizationalUnit) {
+    this._organizationalUnit.internalValue = value;
+  }
+  public resetOrganizationalUnit() {
+    this._organizationalUnit.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get organizationalUnitInput() {
+    return this._organizationalUnit.internalValue;
+  }
+
+  // owner - computed: true, optional: false, required: true
+  private _owner = new GroupAdministeredSystemsOwnerOutputReference(this, "owner");
+  public get owner() {
+    return this._owner;
+  }
+  public putOwner(value: GroupAdministeredSystemsOwner) {
+    this._owner.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ownerInput() {
+    return this._owner.internalValue;
+  }
+
+  // owner_permissions - computed: true, optional: false, required: false
+  public get ownerPermissions() {
+    return this.getBooleanAttribute('owner_permissions');
+  }
+
+  // permissions - computed: true, optional: false, required: false
+  private _permissions = new GroupAdministeredSystemsPermissionsList(this, "permissions", false);
+  public get permissions() {
+    return this._permissions;
+  }
+
+  // provisioned_a_d - computed: true, optional: true, required: false
+  private _provisionedAD = new GroupAdministeredSystemsProvisionedADOutputReference(this, "provisioned_a_d");
+  public get provisionedAD() {
+    return this._provisionedAD;
+  }
+  public putProvisionedAD(value: GroupAdministeredSystemsProvisionedAD) {
+    this._provisionedAD.internalValue = value;
+  }
+  public resetProvisionedAD() {
+    this._provisionedAD.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get provisionedADInput() {
+    return this._provisionedAD.internalValue;
+  }
+
+  // provisioned_azure_oidc_directory - computed: true, optional: true, required: false
+  private _provisionedAzureOidcDirectory = new GroupAdministeredSystemsProvisionedAzureOidcDirectoryOutputReference(this, "provisioned_azure_oidc_directory");
+  public get provisionedAzureOidcDirectory() {
+    return this._provisionedAzureOidcDirectory;
+  }
+  public putProvisionedAzureOidcDirectory(value: GroupAdministeredSystemsProvisionedAzureOidcDirectory) {
+    this._provisionedAzureOidcDirectory.internalValue = value;
+  }
+  public resetProvisionedAzureOidcDirectory() {
+    this._provisionedAzureOidcDirectory.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get provisionedAzureOidcDirectoryInput() {
+    return this._provisionedAzureOidcDirectory.internalValue;
+  }
+
+  // provisioned_azure_sync_ldap_directory - computed: true, optional: true, required: false
+  private _provisionedAzureSyncLdapDirectory = new GroupAdministeredSystemsProvisionedAzureSyncLdapDirectoryOutputReference(this, "provisioned_azure_sync_ldap_directory");
+  public get provisionedAzureSyncLdapDirectory() {
+    return this._provisionedAzureSyncLdapDirectory;
+  }
+  public putProvisionedAzureSyncLdapDirectory(value: GroupAdministeredSystemsProvisionedAzureSyncLdapDirectory) {
+    this._provisionedAzureSyncLdapDirectory.internalValue = value;
+  }
+  public resetProvisionedAzureSyncLdapDirectory() {
+    this._provisionedAzureSyncLdapDirectory.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get provisionedAzureSyncLdapDirectoryInput() {
+    return this._provisionedAzureSyncLdapDirectory.internalValue;
+  }
+
+  // provisioned_azure_tenant - computed: true, optional: true, required: false
+  private _provisionedAzureTenant = new GroupAdministeredSystemsProvisionedAzureTenantOutputReference(this, "provisioned_azure_tenant");
+  public get provisionedAzureTenant() {
+    return this._provisionedAzureTenant;
+  }
+  public putProvisionedAzureTenant(value: GroupAdministeredSystemsProvisionedAzureTenant) {
+    this._provisionedAzureTenant.internalValue = value;
+  }
+  public resetProvisionedAzureTenant() {
+    this._provisionedAzureTenant.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get provisionedAzureTenantInput() {
+    return this._provisionedAzureTenant.internalValue;
+  }
+
+  // provisioned_internal_ldap - computed: true, optional: true, required: false
+  private _provisionedInternalLdap = new GroupAdministeredSystemsProvisionedInternalLdapOutputReference(this, "provisioned_internal_ldap");
+  public get provisionedInternalLdap() {
+    return this._provisionedInternalLdap;
+  }
+  public putProvisionedInternalLdap(value: GroupAdministeredSystemsProvisionedInternalLdap) {
+    this._provisionedInternalLdap.internalValue = value;
+  }
+  public resetProvisionedInternalLdap() {
+    this._provisionedInternalLdap.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get provisionedInternalLdapInput() {
+    return this._provisionedInternalLdap.internalValue;
+  }
+
+  // provisioned_ldap - computed: true, optional: true, required: false
+  private _provisionedLdap = new GroupAdministeredSystemsProvisionedLdapOutputReference(this, "provisioned_ldap");
+  public get provisionedLdap() {
+    return this._provisionedLdap;
+  }
+  public putProvisionedLdap(value: GroupAdministeredSystemsProvisionedLdap) {
+    this._provisionedLdap.internalValue = value;
+  }
+  public resetProvisionedLdap() {
+    this._provisionedLdap.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get provisionedLdapInput() {
+    return this._provisionedLdap.internalValue;
+  }
+
+  // provisioned_ldap_directory - computed: true, optional: true, required: false
+  private _provisionedLdapDirectory = new GroupAdministeredSystemsProvisionedLdapDirectoryOutputReference(this, "provisioned_ldap_directory");
+  public get provisionedLdapDirectory() {
+    return this._provisionedLdapDirectory;
+  }
+  public putProvisionedLdapDirectory(value: GroupAdministeredSystemsProvisionedLdapDirectory) {
+    this._provisionedLdapDirectory.internalValue = value;
+  }
+  public resetProvisionedLdapDirectory() {
+    this._provisionedLdapDirectory.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get provisionedLdapDirectoryInput() {
+    return this._provisionedLdapDirectory.internalValue;
+  }
+
+  // provisioned_namespace - computed: true, optional: true, required: false
+  private _provisionedNamespace = new GroupAdministeredSystemsProvisionedNamespaceOutputReference(this, "provisioned_namespace");
+  public get provisionedNamespace() {
+    return this._provisionedNamespace;
+  }
+  public putProvisionedNamespace(value: GroupAdministeredSystemsProvisionedNamespace) {
+    this._provisionedNamespace.internalValue = value;
+  }
+  public resetProvisionedNamespace() {
+    this._provisionedNamespace.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get provisionedNamespaceInput() {
+    return this._provisionedNamespace.internalValue;
+  }
+
+  // provisioned_scim - computed: true, optional: true, required: false
+  private _provisionedScim = new GroupAdministeredSystemsProvisionedScimOutputReference(this, "provisioned_scim");
+  public get provisionedScim() {
+    return this._provisionedScim;
+  }
+  public putProvisionedScim(value: GroupAdministeredSystemsProvisionedScim) {
+    this._provisionedScim.internalValue = value;
+  }
+  public resetProvisionedScim() {
+    this._provisionedScim.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get provisionedScimInput() {
+    return this._provisionedScim.internalValue;
+  }
+
+  // self_service_existing_groups - computed: true, optional: true, required: false
+  private _selfServiceExistingGroups?: boolean | cdktf.IResolvable; 
+  public get selfServiceExistingGroups() {
+    return this.getBooleanAttribute('self_service_existing_groups');
+  }
+  public set selfServiceExistingGroups(value: boolean | cdktf.IResolvable) {
+    this._selfServiceExistingGroups = value;
+  }
+  public resetSelfServiceExistingGroups() {
+    this._selfServiceExistingGroups = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get selfServiceExistingGroupsInput() {
+    return this._selfServiceExistingGroups;
+  }
+
+  // self_service_new_groups - computed: true, optional: true, required: false
+  private _selfServiceNewGroups?: boolean | cdktf.IResolvable; 
+  public get selfServiceNewGroups() {
+    return this.getBooleanAttribute('self_service_new_groups');
+  }
+  public set selfServiceNewGroups(value: boolean | cdktf.IResolvable) {
+    this._selfServiceNewGroups = value;
+  }
+  public resetSelfServiceNewGroups() {
+    this._selfServiceNewGroups = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get selfServiceNewGroupsInput() {
+    return this._selfServiceNewGroups;
+  }
+
+  // self_service_new_namespaces - computed: true, optional: true, required: false
+  private _selfServiceNewNamespaces?: boolean | cdktf.IResolvable; 
+  public get selfServiceNewNamespaces() {
+    return this.getBooleanAttribute('self_service_new_namespaces');
+  }
+  public set selfServiceNewNamespaces(value: boolean | cdktf.IResolvable) {
+    this._selfServiceNewNamespaces = value;
+  }
+  public resetSelfServiceNewNamespaces() {
+    this._selfServiceNewNamespaces = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get selfServiceNewNamespacesInput() {
+    return this._selfServiceNewNamespaces;
+  }
+
+  // self_service_service_accounts - computed: true, optional: true, required: false
+  private _selfServiceServiceAccounts?: boolean | cdktf.IResolvable; 
+  public get selfServiceServiceAccounts() {
+    return this.getBooleanAttribute('self_service_service_accounts');
+  }
+  public set selfServiceServiceAccounts(value: boolean | cdktf.IResolvable) {
+    this._selfServiceServiceAccounts = value;
+  }
+  public resetSelfServiceServiceAccounts() {
+    this._selfServiceServiceAccounts = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get selfServiceServiceAccountsInput() {
+    return this._selfServiceServiceAccounts;
+  }
+
+  // should_destroy_unknown_accounts - computed: true, optional: true, required: false
+  private _shouldDestroyUnknownAccounts?: boolean | cdktf.IResolvable; 
+  public get shouldDestroyUnknownAccounts() {
+    return this.getBooleanAttribute('should_destroy_unknown_accounts');
+  }
+  public set shouldDestroyUnknownAccounts(value: boolean | cdktf.IResolvable) {
+    this._shouldDestroyUnknownAccounts = value;
+  }
+  public resetShouldDestroyUnknownAccounts() {
+    this._shouldDestroyUnknownAccounts = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get shouldDestroyUnknownAccountsInput() {
+    return this._shouldDestroyUnknownAccounts;
+  }
+
+  // technical_administrator - computed: true, optional: false, required: true
+  private _technicalAdministrator = new GroupAdministeredSystemsTechnicalAdministratorOutputReference(this, "technical_administrator");
+  public get technicalAdministrator() {
+    return this._technicalAdministrator;
+  }
+  public putTechnicalAdministrator(value: GroupAdministeredSystemsTechnicalAdministrator) {
+    this._technicalAdministrator.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get technicalAdministratorInput() {
+    return this._technicalAdministrator.internalValue;
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+
+  // username_prefix - computed: true, optional: true, required: false
+  private _usernamePrefix?: string; 
+  public get usernamePrefix() {
+    return this.getStringAttribute('username_prefix');
+  }
+  public set usernamePrefix(value: string) {
+    this._usernamePrefix = value;
+  }
+  public resetUsernamePrefix() {
+    this._usernamePrefix = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get usernamePrefixInput() {
+    return this._usernamePrefix;
+  }
+
+  // uuid - computed: true, optional: false, required: false
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+}
+
+export class GroupAdministeredSystemsList extends cdktf.ComplexList {
+  public internalValue? : GroupAdministeredSystems[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GroupAdministeredSystemsOutputReference {
+    return new GroupAdministeredSystemsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GroupAdminsDirectoryLinks {
+}
+
+export function groupAdminsDirectoryLinksToTerraform(struct?: GroupAdminsDirectoryLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function groupAdminsDirectoryLinksToHclTerraform(struct?: GroupAdminsDirectoryLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GroupAdminsDirectoryLinksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GroupAdminsDirectoryLinks | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupAdminsDirectoryLinks | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // href - computed: true, optional: false, required: false
+  public get href() {
+    return this.getStringAttribute('href');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getNumberAttribute('id');
+  }
+
+  // rel - computed: true, optional: false, required: false
+  public get rel() {
+    return this.getStringAttribute('rel');
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class GroupAdminsDirectoryLinksList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GroupAdminsDirectoryLinksOutputReference {
+    return new GroupAdminsDirectoryLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GroupAdminsDirectoryPermissions {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#full Group#full}
+  */
+  readonly full?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#instances Group#instances}
+  */
+  readonly instances?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#operations Group#operations}
+  */
+  readonly operations?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#type_escaped Group#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -207,11 +7547,11 @@ export class GroupAdminsDirectoryPermissionsList extends cdktf.ComplexList {
 }
 export interface GroupAdminsDirectory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#active Group#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#active Group#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#name Group#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#name Group#name}
   */
   readonly name: string;
 }
@@ -348,15 +7688,15 @@ export class GroupAdminsDirectoryOutputReference extends cdktf.ComplexObject {
 }
 export interface GroupAdmins {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#end_date Group#end_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#end_date Group#end_date}
   */
   readonly endDate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#rights Group#rights}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#rights Group#rights}
   */
   readonly rights: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#uuid Group#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#uuid Group#uuid}
   */
   readonly uuid: string;
 }
@@ -724,19 +8064,19 @@ export class GroupAuditConfigLinksList extends cdktf.ComplexList {
 }
 export interface GroupAuditConfigPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#full Group#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#full Group#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#instances Group#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#instances Group#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#operations Group#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#operations Group#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#type_escaped Group#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#type_escaped Group#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -929,7 +8269,7 @@ export class GroupAuditConfigPermissionsList extends cdktf.ComplexList {
 }
 export interface GroupAuditConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#months Group#months}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#months Group#months}
   */
   readonly months?: string[];
 }
@@ -1125,19 +8465,19 @@ export class GroupAuthorizedGroupsAuditConfigLinksList extends cdktf.ComplexList
 }
 export interface GroupAuthorizedGroupsAuditConfigPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#full Group#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#full Group#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#instances Group#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#instances Group#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#operations Group#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#operations Group#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#type_escaped Group#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#type_escaped Group#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -1330,7 +8670,7 @@ export class GroupAuthorizedGroupsAuditConfigPermissionsList extends cdktf.Compl
 }
 export interface GroupAuthorizedGroupsAuditConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#months Group#months}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#months Group#months}
   */
   readonly months?: string[];
 }
@@ -1616,19 +8956,19 @@ export class GroupAuthorizedGroupsAuthorizingGroupAuditingOrganizationalUnitLink
 }
 export interface GroupAuthorizedGroupsAuthorizingGroupAuditingOrganizationalUnitPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#full Group#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#full Group#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#instances Group#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#instances Group#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#operations Group#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#operations Group#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#type_escaped Group#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#type_escaped Group#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -1821,7 +9161,7 @@ export class GroupAuthorizedGroupsAuthorizingGroupAuditingOrganizationalUnitPerm
 }
 export interface GroupAuthorizedGroupsAuthorizingGroupAuditingOrganizationalUnit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#name Group#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#name Group#name}
   */
   readonly name: string;
 }
@@ -1929,19 +9269,19 @@ export class GroupAuthorizedGroupsAuthorizingGroupAuditingOrganizationalUnitOutp
 }
 export interface GroupAuthorizedGroupsAuthorizingGroupAuditingPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#full Group#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#full Group#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#instances Group#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#instances Group#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#operations Group#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#operations Group#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#type_escaped Group#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#type_escaped Group#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -2134,11 +9474,11 @@ export class GroupAuthorizedGroupsAuthorizingGroupAuditingPermissionsList extend
 }
 export interface GroupAuthorizedGroupsAuthorizingGroupAuditing {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#name Group#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#name Group#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#organizational_unit Group#organizational_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#organizational_unit Group#organizational_unit}
   */
   readonly organizationalUnit?: GroupAuthorizedGroupsAuthorizingGroupAuditingOrganizationalUnit;
 }
@@ -2460,19 +9800,19 @@ export class GroupAuthorizedGroupsAuthorizingGroupDelegationOrganizationalUnitLi
 }
 export interface GroupAuthorizedGroupsAuthorizingGroupDelegationOrganizationalUnitPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#full Group#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#full Group#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#instances Group#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#instances Group#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#operations Group#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#operations Group#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#type_escaped Group#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#type_escaped Group#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -2665,7 +10005,7 @@ export class GroupAuthorizedGroupsAuthorizingGroupDelegationOrganizationalUnitPe
 }
 export interface GroupAuthorizedGroupsAuthorizingGroupDelegationOrganizationalUnit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#name Group#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#name Group#name}
   */
   readonly name: string;
 }
@@ -2773,19 +10113,19 @@ export class GroupAuthorizedGroupsAuthorizingGroupDelegationOrganizationalUnitOu
 }
 export interface GroupAuthorizedGroupsAuthorizingGroupDelegationPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#full Group#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#full Group#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#instances Group#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#instances Group#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#operations Group#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#operations Group#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#type_escaped Group#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#type_escaped Group#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -2978,11 +10318,11 @@ export class GroupAuthorizedGroupsAuthorizingGroupDelegationPermissionsList exte
 }
 export interface GroupAuthorizedGroupsAuthorizingGroupDelegation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#name Group#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#name Group#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#organizational_unit Group#organizational_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#organizational_unit Group#organizational_unit}
   */
   readonly organizationalUnit?: GroupAuthorizedGroupsAuthorizingGroupDelegationOrganizationalUnit;
 }
@@ -3304,19 +10644,19 @@ export class GroupAuthorizedGroupsAuthorizingGroupMembershipOrganizationalUnitLi
 }
 export interface GroupAuthorizedGroupsAuthorizingGroupMembershipOrganizationalUnitPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#full Group#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#full Group#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#instances Group#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#instances Group#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#operations Group#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#operations Group#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#type_escaped Group#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#type_escaped Group#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -3509,7 +10849,7 @@ export class GroupAuthorizedGroupsAuthorizingGroupMembershipOrganizationalUnitPe
 }
 export interface GroupAuthorizedGroupsAuthorizingGroupMembershipOrganizationalUnit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#name Group#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#name Group#name}
   */
   readonly name: string;
 }
@@ -3617,19 +10957,19 @@ export class GroupAuthorizedGroupsAuthorizingGroupMembershipOrganizationalUnitOu
 }
 export interface GroupAuthorizedGroupsAuthorizingGroupMembershipPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#full Group#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#full Group#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#instances Group#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#instances Group#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#operations Group#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#operations Group#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#type_escaped Group#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#type_escaped Group#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -3822,11 +11162,11 @@ export class GroupAuthorizedGroupsAuthorizingGroupMembershipPermissionsList exte
 }
 export interface GroupAuthorizedGroupsAuthorizingGroupMembership {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#name Group#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#name Group#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#organizational_unit Group#organizational_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#organizational_unit Group#organizational_unit}
   */
   readonly organizationalUnit?: GroupAuthorizedGroupsAuthorizingGroupMembershipOrganizationalUnit;
 }
@@ -4148,19 +11488,19 @@ export class GroupAuthorizedGroupsAuthorizingGroupProvisioningOrganizationalUnit
 }
 export interface GroupAuthorizedGroupsAuthorizingGroupProvisioningOrganizationalUnitPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#full Group#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#full Group#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#instances Group#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#instances Group#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#operations Group#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#operations Group#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#type_escaped Group#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#type_escaped Group#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -4353,7 +11693,7 @@ export class GroupAuthorizedGroupsAuthorizingGroupProvisioningOrganizationalUnit
 }
 export interface GroupAuthorizedGroupsAuthorizingGroupProvisioningOrganizationalUnit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#name Group#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#name Group#name}
   */
   readonly name: string;
 }
@@ -4461,19 +11801,19 @@ export class GroupAuthorizedGroupsAuthorizingGroupProvisioningOrganizationalUnit
 }
 export interface GroupAuthorizedGroupsAuthorizingGroupProvisioningPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#full Group#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#full Group#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#instances Group#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#instances Group#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#operations Group#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#operations Group#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#type_escaped Group#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#type_escaped Group#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -4666,11 +12006,11 @@ export class GroupAuthorizedGroupsAuthorizingGroupProvisioningPermissionsList ex
 }
 export interface GroupAuthorizedGroupsAuthorizingGroupProvisioning {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#name Group#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#name Group#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#organizational_unit Group#organizational_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#organizational_unit Group#organizational_unit}
   */
   readonly organizationalUnit?: GroupAuthorizedGroupsAuthorizingGroupProvisioningOrganizationalUnit;
 }
@@ -4902,19 +12242,19 @@ export class GroupAuthorizedGroupsClassificationLinksList extends cdktf.ComplexL
 }
 export interface GroupAuthorizedGroupsClassificationPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#full Group#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#full Group#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#instances Group#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#instances Group#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#operations Group#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#operations Group#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#type_escaped Group#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#type_escaped Group#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -5107,7 +12447,7 @@ export class GroupAuthorizedGroupsClassificationPermissionsList extends cdktf.Co
 }
 export interface GroupAuthorizedGroupsClassification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#name Group#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#name Group#name}
   */
   readonly name: string;
 }
@@ -5485,19 +12825,19 @@ export class GroupAuthorizedGroupsNestedUnderOrganizationalUnitLinksList extends
 }
 export interface GroupAuthorizedGroupsNestedUnderOrganizationalUnitPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#full Group#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#full Group#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#instances Group#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#instances Group#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#operations Group#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#operations Group#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#type_escaped Group#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#type_escaped Group#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -5690,7 +13030,7 @@ export class GroupAuthorizedGroupsNestedUnderOrganizationalUnitPermissionsList e
 }
 export interface GroupAuthorizedGroupsNestedUnderOrganizationalUnit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#name Group#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#name Group#name}
   */
   readonly name: string;
 }
@@ -5798,19 +13138,19 @@ export class GroupAuthorizedGroupsNestedUnderOrganizationalUnitOutputReference e
 }
 export interface GroupAuthorizedGroupsNestedUnderPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#full Group#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#full Group#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#instances Group#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#instances Group#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#operations Group#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#operations Group#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#type_escaped Group#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#type_escaped Group#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -6003,11 +13343,11 @@ export class GroupAuthorizedGroupsNestedUnderPermissionsList extends cdktf.Compl
 }
 export interface GroupAuthorizedGroupsNestedUnder {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#name Group#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#name Group#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#organizational_unit Group#organizational_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#organizational_unit Group#organizational_unit}
   */
   readonly organizationalUnit?: GroupAuthorizedGroupsNestedUnderOrganizationalUnit;
 }
@@ -6239,19 +13579,19 @@ export class GroupAuthorizedGroupsOrganizationalUnitLinksList extends cdktf.Comp
 }
 export interface GroupAuthorizedGroupsOrganizationalUnitPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#full Group#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#full Group#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#instances Group#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#instances Group#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#operations Group#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#operations Group#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#type_escaped Group#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#type_escaped Group#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -6444,7 +13784,7 @@ export class GroupAuthorizedGroupsOrganizationalUnitPermissionsList extends cdkt
 }
 export interface GroupAuthorizedGroupsOrganizationalUnit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#name Group#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#name Group#name}
   */
   readonly name: string;
 }
@@ -6552,19 +13892,19 @@ export class GroupAuthorizedGroupsOrganizationalUnitOutputReference extends cdkt
 }
 export interface GroupAuthorizedGroupsPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#full Group#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#full Group#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#instances Group#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#instances Group#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#operations Group#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#operations Group#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#type_escaped Group#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#type_escaped Group#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -6757,83 +14097,83 @@ export class GroupAuthorizedGroupsPermissionsList extends cdktf.ComplexList {
 }
 export interface GroupAuthorizedGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#application_administration Group#application_administration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#application_administration Group#application_administration}
   */
   readonly applicationAdministration?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#audit_config Group#audit_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#audit_config Group#audit_config}
   */
   readonly auditConfig?: GroupAuthorizedGroupsAuditConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#authorizing_group_auditing Group#authorizing_group_auditing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#authorizing_group_auditing Group#authorizing_group_auditing}
   */
   readonly authorizingGroupAuditing?: GroupAuthorizedGroupsAuthorizingGroupAuditing;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#authorizing_group_delegation Group#authorizing_group_delegation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#authorizing_group_delegation Group#authorizing_group_delegation}
   */
   readonly authorizingGroupDelegation?: GroupAuthorizedGroupsAuthorizingGroupDelegation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#authorizing_group_membership Group#authorizing_group_membership}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#authorizing_group_membership Group#authorizing_group_membership}
   */
   readonly authorizingGroupMembership?: GroupAuthorizedGroupsAuthorizingGroupMembership;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#authorizing_group_provisioning Group#authorizing_group_provisioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#authorizing_group_provisioning Group#authorizing_group_provisioning}
   */
   readonly authorizingGroupProvisioning?: GroupAuthorizedGroupsAuthorizingGroupProvisioning;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#classification Group#classification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#classification Group#classification}
   */
   readonly classification?: GroupAuthorizedGroupsClassification;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#description Group#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#description Group#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#extended_access Group#extended_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#extended_access Group#extended_access}
   */
   readonly extendedAccess?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#hide_audit_trail Group#hide_audit_trail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#hide_audit_trail Group#hide_audit_trail}
   */
   readonly hideAuditTrail?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#name Group#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#name Group#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#nested_under Group#nested_under}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#nested_under Group#nested_under}
   */
   readonly nestedUnder?: GroupAuthorizedGroupsNestedUnder;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#organizational_unit Group#organizational_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#organizational_unit Group#organizational_unit}
   */
   readonly organizationalUnit?: GroupAuthorizedGroupsOrganizationalUnit;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#private_group Group#private_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#private_group Group#private_group}
   */
   readonly privateGroup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#profile_administration Group#profile_administration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#profile_administration Group#profile_administration}
   */
   readonly profileAdministration?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#record_trail Group#record_trail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#record_trail Group#record_trail}
   */
   readonly recordTrail?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#rotating_password_required Group#rotating_password_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#rotating_password_required Group#rotating_password_required}
   */
   readonly rotatingPasswordRequired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#single_managed Group#single_managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#single_managed Group#single_managed}
   */
   readonly singleManaged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#vault_recovery Group#vault_recovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#vault_recovery Group#vault_recovery}
   */
   readonly vaultRecovery?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#vault_requires_activation Group#vault_requires_activation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#vault_requires_activation Group#vault_requires_activation}
   */
   readonly vaultRequiresActivation?: boolean | cdktf.IResolvable;
 }
@@ -7609,19 +14949,19 @@ export class GroupClientPermissionsLinksList extends cdktf.ComplexList {
 }
 export interface GroupClientPermissionsPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#full Group#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#full Group#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#instances Group#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#instances Group#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#operations Group#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#operations Group#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#type_escaped Group#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#type_escaped Group#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -7814,19 +15154,19 @@ export class GroupClientPermissionsPermissionsList extends cdktf.ComplexList {
 }
 export interface GroupClientPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#client_uuid Group#client_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#client_uuid Group#client_uuid}
   */
   readonly clientUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#for_group_uuid Group#for_group_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#for_group_uuid Group#for_group_uuid}
   */
   readonly forGroupUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#for_system_uuid Group#for_system_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#for_system_uuid Group#for_system_uuid}
   */
   readonly forSystemUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#value Group#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#value Group#value}
   */
   readonly value: string;
 }
@@ -8128,19 +15468,19 @@ export class GroupClientsClientLinksList extends cdktf.ComplexList {
 }
 export interface GroupClientsClientPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#full Group#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#full Group#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#instances Group#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#instances Group#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#operations Group#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#operations Group#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#type_escaped Group#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#type_escaped Group#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -8333,15 +15673,15 @@ export class GroupClientsClientPermissionsList extends cdktf.ComplexList {
 }
 export interface GroupClientsClient {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#client_id Group#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#client_id Group#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#name Group#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#name Group#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#scopes Group#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#scopes Group#scopes}
   */
   readonly scopes?: string[];
 }
@@ -8687,19 +16027,19 @@ export class GroupClientsGroupOrganizationalUnitLinksList extends cdktf.ComplexL
 }
 export interface GroupClientsGroupOrganizationalUnitPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#full Group#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#full Group#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#instances Group#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#instances Group#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#operations Group#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#operations Group#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#type_escaped Group#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#type_escaped Group#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -8892,7 +16232,7 @@ export class GroupClientsGroupOrganizationalUnitPermissionsList extends cdktf.Co
 }
 export interface GroupClientsGroupOrganizationalUnit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#name Group#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#name Group#name}
   */
   readonly name: string;
 }
@@ -9000,19 +16340,19 @@ export class GroupClientsGroupOrganizationalUnitOutputReference extends cdktf.Co
 }
 export interface GroupClientsGroupPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#full Group#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#full Group#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#instances Group#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#instances Group#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#operations Group#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#operations Group#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#type_escaped Group#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#type_escaped Group#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -9205,11 +16545,11 @@ export class GroupClientsGroupPermissionsList extends cdktf.ComplexList {
 }
 export interface GroupClientsGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#name Group#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#name Group#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#organizational_unit Group#organizational_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#organizational_unit Group#organizational_unit}
   */
   readonly organizationalUnit?: GroupClientsGroupOrganizationalUnit;
 }
@@ -9611,19 +16951,19 @@ export class GroupClientsOwnerOrganizationalUnitLinksList extends cdktf.ComplexL
 }
 export interface GroupClientsOwnerOrganizationalUnitPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#full Group#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#full Group#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#instances Group#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#instances Group#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#operations Group#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#operations Group#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#type_escaped Group#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#type_escaped Group#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -9816,7 +17156,7 @@ export class GroupClientsOwnerOrganizationalUnitPermissionsList extends cdktf.Co
 }
 export interface GroupClientsOwnerOrganizationalUnit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#name Group#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#name Group#name}
   */
   readonly name: string;
 }
@@ -9924,19 +17264,19 @@ export class GroupClientsOwnerOrganizationalUnitOutputReference extends cdktf.Co
 }
 export interface GroupClientsOwnerPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#full Group#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#full Group#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#instances Group#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#instances Group#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#operations Group#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#operations Group#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#type_escaped Group#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#type_escaped Group#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -10129,11 +17469,11 @@ export class GroupClientsOwnerPermissionsList extends cdktf.ComplexList {
 }
 export interface GroupClientsOwner {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#name Group#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#name Group#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#organizational_unit Group#organizational_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#organizational_unit Group#organizational_unit}
   */
   readonly organizationalUnit?: GroupClientsOwnerOrganizationalUnit;
 }
@@ -10275,19 +17615,19 @@ export class GroupClientsOwnerOutputReference extends cdktf.ComplexObject {
 }
 export interface GroupClientsPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#full Group#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#full Group#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#instances Group#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#instances Group#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#operations Group#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#operations Group#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#type_escaped Group#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#type_escaped Group#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -10660,19 +18000,19 @@ export class GroupClientsTechnicalAdministratorOrganizationalUnitLinksList exten
 }
 export interface GroupClientsTechnicalAdministratorOrganizationalUnitPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#full Group#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#full Group#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#instances Group#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#instances Group#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#operations Group#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#operations Group#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#type_escaped Group#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#type_escaped Group#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -10865,7 +18205,7 @@ export class GroupClientsTechnicalAdministratorOrganizationalUnitPermissionsList
 }
 export interface GroupClientsTechnicalAdministratorOrganizationalUnit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#name Group#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#name Group#name}
   */
   readonly name: string;
 }
@@ -10973,19 +18313,19 @@ export class GroupClientsTechnicalAdministratorOrganizationalUnitOutputReference
 }
 export interface GroupClientsTechnicalAdministratorPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#full Group#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#full Group#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#instances Group#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#instances Group#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#operations Group#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#operations Group#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#type_escaped Group#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#type_escaped Group#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -11178,11 +18518,11 @@ export class GroupClientsTechnicalAdministratorPermissionsList extends cdktf.Com
 }
 export interface GroupClientsTechnicalAdministrator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#name Group#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#name Group#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#organizational_unit Group#organizational_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#organizational_unit Group#organizational_unit}
   */
   readonly organizationalUnit?: GroupClientsTechnicalAdministratorOrganizationalUnit;
 }
@@ -11324,19 +18664,19 @@ export class GroupClientsTechnicalAdministratorOutputReference extends cdktf.Com
 }
 export interface GroupClients {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#activation_required Group#activation_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#activation_required Group#activation_required}
   */
   readonly activationRequired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#group Group#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#group Group#group}
   */
   readonly group: GroupClientsGroup;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#owner Group#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#owner Group#owner}
   */
   readonly owner?: GroupClientsOwner;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#technical_administrator Group#technical_administrator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#technical_administrator Group#technical_administrator}
   */
   readonly technicalAdministrator?: GroupClientsTechnicalAdministrator;
 }
@@ -11634,19 +18974,19 @@ export class GroupContentAdministeredSystemsAbstractProvisionedLdapAttributesAtt
 }
 export interface GroupContentAdministeredSystemsAbstractProvisionedLdapAttributesAttributeDefinitionPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#full Group#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#full Group#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#instances Group#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#instances Group#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#operations Group#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#operations Group#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#type_escaped Group#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#type_escaped Group#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -11839,27 +19179,27 @@ export class GroupContentAdministeredSystemsAbstractProvisionedLdapAttributesAtt
 }
 export interface GroupContentAdministeredSystemsAbstractProvisionedLdapAttributesAttributeDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#format Group#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#format Group#format}
   */
   readonly format: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#freely_useable Group#freely_useable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#freely_useable Group#freely_useable}
   */
   readonly freelyUseable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#list Group#list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#list Group#list}
   */
   readonly list?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#name Group#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#name Group#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#required Group#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#required Group#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#unique Group#unique}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#unique Group#unique}
   */
   readonly unique?: boolean | cdktf.IResolvable;
 }
@@ -12109,15 +19449,15 @@ export class GroupContentAdministeredSystemsAbstractProvisionedLdapAttributesAtt
 }
 export interface GroupContentAdministeredSystemsAbstractProvisionedLdapAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#attribute_definition Group#attribute_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#attribute_definition Group#attribute_definition}
   */
   readonly attributeDefinition?: GroupContentAdministeredSystemsAbstractProvisionedLdapAttributesAttributeDefinition;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#name Group#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#name Group#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#script Group#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/group#script Group#script}
   */
   readonly script?: string;
 }
@@ -12374,6289 +19714,5 @@ export class GroupContentAdministeredSystemsAbstractProvisionedLdapClientCertifi
   */
   public get(index: number): GroupContentAdministeredSystemsAbstractProvisionedLdapClientCertificateLinksOutputReference {
     return new GroupContentAdministeredSystemsAbstractProvisionedLdapClientCertificateLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface GroupContentAdministeredSystemsAbstractProvisionedLdapClientCertificatePermissions {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#full Group#full}
-  */
-  readonly full?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#instances Group#instances}
-  */
-  readonly instances?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#operations Group#operations}
-  */
-  readonly operations?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#type_escaped Group#type_escaped}
-  */
-  readonly typeEscaped?: string;
-}
-
-export function groupContentAdministeredSystemsAbstractProvisionedLdapClientCertificatePermissionsToTerraform(struct?: GroupContentAdministeredSystemsAbstractProvisionedLdapClientCertificatePermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    full: cdktf.stringToTerraform(struct!.full),
-    instances: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.instances),
-    operations: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.operations),
-    type_escaped: cdktf.stringToTerraform(struct!.typeEscaped),
-  }
-}
-
-
-export function groupContentAdministeredSystemsAbstractProvisionedLdapClientCertificatePermissionsToHclTerraform(struct?: GroupContentAdministeredSystemsAbstractProvisionedLdapClientCertificatePermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    full: {
-      value: cdktf.stringToHclTerraform(struct!.full),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    instances: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.instances),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
-    },
-    operations: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.operations),
-      isBlock: false,
-      type: "set",
-      storageClassType: "stringList",
-    },
-    type_escaped: {
-      value: cdktf.stringToHclTerraform(struct!.typeEscaped),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GroupContentAdministeredSystemsAbstractProvisionedLdapClientCertificatePermissionsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsAbstractProvisionedLdapClientCertificatePermissions | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._full !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.full = this._full;
-    }
-    if (this._instances !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.instances = this._instances;
-    }
-    if (this._operations !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.operations = this._operations;
-    }
-    if (this._typeEscaped !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.typeEscaped = this._typeEscaped;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsAbstractProvisionedLdapClientCertificatePermissions | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._full = undefined;
-      this._instances = undefined;
-      this._operations = undefined;
-      this._typeEscaped = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._full = value.full;
-      this._instances = value.instances;
-      this._operations = value.operations;
-      this._typeEscaped = value.typeEscaped;
-    }
-  }
-
-  // full - computed: true, optional: true, required: false
-  private _full?: string; 
-  public get full() {
-    return this.getStringAttribute('full');
-  }
-  public set full(value: string) {
-    this._full = value;
-  }
-  public resetFull() {
-    this._full = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get fullInput() {
-    return this._full;
-  }
-
-  // instances - computed: true, optional: true, required: false
-  private _instances?: string[]; 
-  public get instances() {
-    return this.getListAttribute('instances');
-  }
-  public set instances(value: string[]) {
-    this._instances = value;
-  }
-  public resetInstances() {
-    this._instances = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get instancesInput() {
-    return this._instances;
-  }
-
-  // operations - computed: true, optional: true, required: false
-  private _operations?: string[]; 
-  public get operations() {
-    return cdktf.Fn.tolist(this.getListAttribute('operations'));
-  }
-  public set operations(value: string[]) {
-    this._operations = value;
-  }
-  public resetOperations() {
-    this._operations = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get operationsInput() {
-    return this._operations;
-  }
-
-  // type_escaped - computed: true, optional: true, required: false
-  private _typeEscaped?: string; 
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-  public set typeEscaped(value: string) {
-    this._typeEscaped = value;
-  }
-  public resetTypeEscaped() {
-    this._typeEscaped = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get typeEscapedInput() {
-    return this._typeEscaped;
-  }
-}
-
-export class GroupContentAdministeredSystemsAbstractProvisionedLdapClientCertificatePermissionsList extends cdktf.ComplexList {
-  public internalValue? : GroupContentAdministeredSystemsAbstractProvisionedLdapClientCertificatePermissions[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): GroupContentAdministeredSystemsAbstractProvisionedLdapClientCertificatePermissionsOutputReference {
-    return new GroupContentAdministeredSystemsAbstractProvisionedLdapClientCertificatePermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface GroupContentAdministeredSystemsAbstractProvisionedLdapClientCertificate {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#alias Group#alias}
-  */
-  readonly alias?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#certificate_data Group#certificate_data}
-  */
-  readonly certificateData?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#global Group#global}
-  */
-  readonly global?: boolean | cdktf.IResolvable;
-}
-
-export function groupContentAdministeredSystemsAbstractProvisionedLdapClientCertificateToTerraform(struct?: GroupContentAdministeredSystemsAbstractProvisionedLdapClientCertificate | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    alias: cdktf.stringToTerraform(struct!.alias),
-    certificate_data: cdktf.stringToTerraform(struct!.certificateData),
-    global: cdktf.booleanToTerraform(struct!.global),
-  }
-}
-
-
-export function groupContentAdministeredSystemsAbstractProvisionedLdapClientCertificateToHclTerraform(struct?: GroupContentAdministeredSystemsAbstractProvisionedLdapClientCertificate | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    alias: {
-      value: cdktf.stringToHclTerraform(struct!.alias),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    certificate_data: {
-      value: cdktf.stringToHclTerraform(struct!.certificateData),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    global: {
-      value: cdktf.booleanToHclTerraform(struct!.global),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GroupContentAdministeredSystemsAbstractProvisionedLdapClientCertificateOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsAbstractProvisionedLdapClientCertificate | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._alias !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.alias = this._alias;
-    }
-    if (this._certificateData !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.certificateData = this._certificateData;
-    }
-    if (this._global !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.global = this._global;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsAbstractProvisionedLdapClientCertificate | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._alias = undefined;
-      this._certificateData = undefined;
-      this._global = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._alias = value.alias;
-      this._certificateData = value.certificateData;
-      this._global = value.global;
-    }
-  }
-
-  // alias - computed: true, optional: true, required: false
-  private _alias?: string; 
-  public get alias() {
-    return this.getStringAttribute('alias');
-  }
-  public set alias(value: string) {
-    this._alias = value;
-  }
-  public resetAlias() {
-    this._alias = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get aliasInput() {
-    return this._alias;
-  }
-
-  // certificate_data - computed: true, optional: true, required: false
-  private _certificateData?: string; 
-  public get certificateData() {
-    return this.getStringAttribute('certificate_data');
-  }
-  public set certificateData(value: string) {
-    this._certificateData = value;
-  }
-  public resetCertificateData() {
-    this._certificateData = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get certificateDataInput() {
-    return this._certificateData;
-  }
-
-  // expiration - computed: true, optional: false, required: false
-  public get expiration() {
-    return this.getStringAttribute('expiration');
-  }
-
-  // fingerprint_sha1 - computed: true, optional: false, required: false
-  public get fingerprintSha1() {
-    return this.getStringAttribute('fingerprint_sha1');
-  }
-
-  // fingerprint_sha256 - computed: true, optional: false, required: false
-  public get fingerprintSha256() {
-    return this.getStringAttribute('fingerprint_sha256');
-  }
-
-  // global - computed: true, optional: true, required: false
-  private _global?: boolean | cdktf.IResolvable; 
-  public get global() {
-    return this.getBooleanAttribute('global');
-  }
-  public set global(value: boolean | cdktf.IResolvable) {
-    this._global = value;
-  }
-  public resetGlobal() {
-    this._global = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get globalInput() {
-    return this._global;
-  }
-
-  // links - computed: true, optional: false, required: false
-  private _links = new GroupContentAdministeredSystemsAbstractProvisionedLdapClientCertificateLinksList(this, "links", false);
-  public get links() {
-    return this._links;
-  }
-
-  // permissions - computed: true, optional: false, required: false
-  private _permissions = new GroupContentAdministeredSystemsAbstractProvisionedLdapClientCertificatePermissionsList(this, "permissions", false);
-  public get permissions() {
-    return this._permissions;
-  }
-
-  // subject_dn - computed: true, optional: false, required: false
-  public get subjectDn() {
-    return this.getStringAttribute('subject_dn');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-
-  // uuid - computed: true, optional: false, required: false
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-}
-export interface GroupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificateLinks {
-}
-
-export function groupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificateLinksToTerraform(struct?: GroupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificateLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function groupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificateLinksToHclTerraform(struct?: GroupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificateLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class GroupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificateLinksOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificateLinks | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificateLinks | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // href - computed: true, optional: false, required: false
-  public get href() {
-    return this.getStringAttribute('href');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getNumberAttribute('id');
-  }
-
-  // rel - computed: true, optional: false, required: false
-  public get rel() {
-    return this.getStringAttribute('rel');
-  }
-
-  // type_escaped - computed: true, optional: false, required: false
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-}
-
-export class GroupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificateLinksList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): GroupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificateLinksOutputReference {
-    return new GroupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificateLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface GroupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificatePermissions {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#full Group#full}
-  */
-  readonly full?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#instances Group#instances}
-  */
-  readonly instances?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#operations Group#operations}
-  */
-  readonly operations?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#type_escaped Group#type_escaped}
-  */
-  readonly typeEscaped?: string;
-}
-
-export function groupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificatePermissionsToTerraform(struct?: GroupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificatePermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    full: cdktf.stringToTerraform(struct!.full),
-    instances: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.instances),
-    operations: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.operations),
-    type_escaped: cdktf.stringToTerraform(struct!.typeEscaped),
-  }
-}
-
-
-export function groupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificatePermissionsToHclTerraform(struct?: GroupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificatePermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    full: {
-      value: cdktf.stringToHclTerraform(struct!.full),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    instances: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.instances),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
-    },
-    operations: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.operations),
-      isBlock: false,
-      type: "set",
-      storageClassType: "stringList",
-    },
-    type_escaped: {
-      value: cdktf.stringToHclTerraform(struct!.typeEscaped),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GroupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificatePermissionsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificatePermissions | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._full !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.full = this._full;
-    }
-    if (this._instances !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.instances = this._instances;
-    }
-    if (this._operations !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.operations = this._operations;
-    }
-    if (this._typeEscaped !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.typeEscaped = this._typeEscaped;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificatePermissions | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._full = undefined;
-      this._instances = undefined;
-      this._operations = undefined;
-      this._typeEscaped = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._full = value.full;
-      this._instances = value.instances;
-      this._operations = value.operations;
-      this._typeEscaped = value.typeEscaped;
-    }
-  }
-
-  // full - computed: true, optional: true, required: false
-  private _full?: string; 
-  public get full() {
-    return this.getStringAttribute('full');
-  }
-  public set full(value: string) {
-    this._full = value;
-  }
-  public resetFull() {
-    this._full = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get fullInput() {
-    return this._full;
-  }
-
-  // instances - computed: true, optional: true, required: false
-  private _instances?: string[]; 
-  public get instances() {
-    return this.getListAttribute('instances');
-  }
-  public set instances(value: string[]) {
-    this._instances = value;
-  }
-  public resetInstances() {
-    this._instances = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get instancesInput() {
-    return this._instances;
-  }
-
-  // operations - computed: true, optional: true, required: false
-  private _operations?: string[]; 
-  public get operations() {
-    return cdktf.Fn.tolist(this.getListAttribute('operations'));
-  }
-  public set operations(value: string[]) {
-    this._operations = value;
-  }
-  public resetOperations() {
-    this._operations = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get operationsInput() {
-    return this._operations;
-  }
-
-  // type_escaped - computed: true, optional: true, required: false
-  private _typeEscaped?: string; 
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-  public set typeEscaped(value: string) {
-    this._typeEscaped = value;
-  }
-  public resetTypeEscaped() {
-    this._typeEscaped = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get typeEscapedInput() {
-    return this._typeEscaped;
-  }
-}
-
-export class GroupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificatePermissionsList extends cdktf.ComplexList {
-  public internalValue? : GroupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificatePermissions[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): GroupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificatePermissionsOutputReference {
-    return new GroupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificatePermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface GroupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificate {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#alias Group#alias}
-  */
-  readonly alias?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#certificate_data Group#certificate_data}
-  */
-  readonly certificateData?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#global Group#global}
-  */
-  readonly global?: boolean | cdktf.IResolvable;
-}
-
-export function groupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificateToTerraform(struct?: GroupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificate | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    alias: cdktf.stringToTerraform(struct!.alias),
-    certificate_data: cdktf.stringToTerraform(struct!.certificateData),
-    global: cdktf.booleanToTerraform(struct!.global),
-  }
-}
-
-
-export function groupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificateToHclTerraform(struct?: GroupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificate | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    alias: {
-      value: cdktf.stringToHclTerraform(struct!.alias),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    certificate_data: {
-      value: cdktf.stringToHclTerraform(struct!.certificateData),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    global: {
-      value: cdktf.booleanToHclTerraform(struct!.global),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GroupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificateOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificate | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._alias !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.alias = this._alias;
-    }
-    if (this._certificateData !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.certificateData = this._certificateData;
-    }
-    if (this._global !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.global = this._global;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificate | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._alias = undefined;
-      this._certificateData = undefined;
-      this._global = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._alias = value.alias;
-      this._certificateData = value.certificateData;
-      this._global = value.global;
-    }
-  }
-
-  // alias - computed: true, optional: true, required: false
-  private _alias?: string; 
-  public get alias() {
-    return this.getStringAttribute('alias');
-  }
-  public set alias(value: string) {
-    this._alias = value;
-  }
-  public resetAlias() {
-    this._alias = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get aliasInput() {
-    return this._alias;
-  }
-
-  // certificate_data - computed: true, optional: true, required: false
-  private _certificateData?: string; 
-  public get certificateData() {
-    return this.getStringAttribute('certificate_data');
-  }
-  public set certificateData(value: string) {
-    this._certificateData = value;
-  }
-  public resetCertificateData() {
-    this._certificateData = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get certificateDataInput() {
-    return this._certificateData;
-  }
-
-  // expiration - computed: true, optional: false, required: false
-  public get expiration() {
-    return this.getStringAttribute('expiration');
-  }
-
-  // fingerprint_sha1 - computed: true, optional: false, required: false
-  public get fingerprintSha1() {
-    return this.getStringAttribute('fingerprint_sha1');
-  }
-
-  // fingerprint_sha256 - computed: true, optional: false, required: false
-  public get fingerprintSha256() {
-    return this.getStringAttribute('fingerprint_sha256');
-  }
-
-  // global - computed: true, optional: true, required: false
-  private _global?: boolean | cdktf.IResolvable; 
-  public get global() {
-    return this.getBooleanAttribute('global');
-  }
-  public set global(value: boolean | cdktf.IResolvable) {
-    this._global = value;
-  }
-  public resetGlobal() {
-    this._global = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get globalInput() {
-    return this._global;
-  }
-
-  // links - computed: true, optional: false, required: false
-  private _links = new GroupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificateLinksList(this, "links", false);
-  public get links() {
-    return this._links;
-  }
-
-  // permissions - computed: true, optional: false, required: false
-  private _permissions = new GroupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificatePermissionsList(this, "permissions", false);
-  public get permissions() {
-    return this._permissions;
-  }
-
-  // subject_dn - computed: true, optional: false, required: false
-  public get subjectDn() {
-    return this.getStringAttribute('subject_dn');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-
-  // uuid - computed: true, optional: false, required: false
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-}
-export interface GroupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificateLinks {
-}
-
-export function groupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificateLinksToTerraform(struct?: GroupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificateLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function groupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificateLinksToHclTerraform(struct?: GroupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificateLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class GroupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificateLinksOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificateLinks | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificateLinks | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // href - computed: true, optional: false, required: false
-  public get href() {
-    return this.getStringAttribute('href');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getNumberAttribute('id');
-  }
-
-  // rel - computed: true, optional: false, required: false
-  public get rel() {
-    return this.getStringAttribute('rel');
-  }
-
-  // type_escaped - computed: true, optional: false, required: false
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-}
-
-export class GroupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificateLinksList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): GroupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificateLinksOutputReference {
-    return new GroupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificateLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface GroupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificatePermissions {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#full Group#full}
-  */
-  readonly full?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#instances Group#instances}
-  */
-  readonly instances?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#operations Group#operations}
-  */
-  readonly operations?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#type_escaped Group#type_escaped}
-  */
-  readonly typeEscaped?: string;
-}
-
-export function groupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificatePermissionsToTerraform(struct?: GroupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificatePermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    full: cdktf.stringToTerraform(struct!.full),
-    instances: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.instances),
-    operations: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.operations),
-    type_escaped: cdktf.stringToTerraform(struct!.typeEscaped),
-  }
-}
-
-
-export function groupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificatePermissionsToHclTerraform(struct?: GroupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificatePermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    full: {
-      value: cdktf.stringToHclTerraform(struct!.full),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    instances: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.instances),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
-    },
-    operations: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.operations),
-      isBlock: false,
-      type: "set",
-      storageClassType: "stringList",
-    },
-    type_escaped: {
-      value: cdktf.stringToHclTerraform(struct!.typeEscaped),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GroupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificatePermissionsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificatePermissions | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._full !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.full = this._full;
-    }
-    if (this._instances !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.instances = this._instances;
-    }
-    if (this._operations !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.operations = this._operations;
-    }
-    if (this._typeEscaped !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.typeEscaped = this._typeEscaped;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificatePermissions | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._full = undefined;
-      this._instances = undefined;
-      this._operations = undefined;
-      this._typeEscaped = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._full = value.full;
-      this._instances = value.instances;
-      this._operations = value.operations;
-      this._typeEscaped = value.typeEscaped;
-    }
-  }
-
-  // full - computed: true, optional: true, required: false
-  private _full?: string; 
-  public get full() {
-    return this.getStringAttribute('full');
-  }
-  public set full(value: string) {
-    this._full = value;
-  }
-  public resetFull() {
-    this._full = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get fullInput() {
-    return this._full;
-  }
-
-  // instances - computed: true, optional: true, required: false
-  private _instances?: string[]; 
-  public get instances() {
-    return this.getListAttribute('instances');
-  }
-  public set instances(value: string[]) {
-    this._instances = value;
-  }
-  public resetInstances() {
-    this._instances = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get instancesInput() {
-    return this._instances;
-  }
-
-  // operations - computed: true, optional: true, required: false
-  private _operations?: string[]; 
-  public get operations() {
-    return cdktf.Fn.tolist(this.getListAttribute('operations'));
-  }
-  public set operations(value: string[]) {
-    this._operations = value;
-  }
-  public resetOperations() {
-    this._operations = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get operationsInput() {
-    return this._operations;
-  }
-
-  // type_escaped - computed: true, optional: true, required: false
-  private _typeEscaped?: string; 
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-  public set typeEscaped(value: string) {
-    this._typeEscaped = value;
-  }
-  public resetTypeEscaped() {
-    this._typeEscaped = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get typeEscapedInput() {
-    return this._typeEscaped;
-  }
-}
-
-export class GroupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificatePermissionsList extends cdktf.ComplexList {
-  public internalValue? : GroupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificatePermissions[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): GroupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificatePermissionsOutputReference {
-    return new GroupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificatePermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface GroupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificate {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#alias Group#alias}
-  */
-  readonly alias?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#certificate_data Group#certificate_data}
-  */
-  readonly certificateData?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#global Group#global}
-  */
-  readonly global?: boolean | cdktf.IResolvable;
-}
-
-export function groupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificateToTerraform(struct?: GroupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificate | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    alias: cdktf.stringToTerraform(struct!.alias),
-    certificate_data: cdktf.stringToTerraform(struct!.certificateData),
-    global: cdktf.booleanToTerraform(struct!.global),
-  }
-}
-
-
-export function groupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificateToHclTerraform(struct?: GroupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificate | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    alias: {
-      value: cdktf.stringToHclTerraform(struct!.alias),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    certificate_data: {
-      value: cdktf.stringToHclTerraform(struct!.certificateData),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    global: {
-      value: cdktf.booleanToHclTerraform(struct!.global),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GroupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificateOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificate | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._alias !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.alias = this._alias;
-    }
-    if (this._certificateData !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.certificateData = this._certificateData;
-    }
-    if (this._global !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.global = this._global;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificate | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._alias = undefined;
-      this._certificateData = undefined;
-      this._global = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._alias = value.alias;
-      this._certificateData = value.certificateData;
-      this._global = value.global;
-    }
-  }
-
-  // alias - computed: true, optional: true, required: false
-  private _alias?: string; 
-  public get alias() {
-    return this.getStringAttribute('alias');
-  }
-  public set alias(value: string) {
-    this._alias = value;
-  }
-  public resetAlias() {
-    this._alias = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get aliasInput() {
-    return this._alias;
-  }
-
-  // certificate_data - computed: true, optional: true, required: false
-  private _certificateData?: string; 
-  public get certificateData() {
-    return this.getStringAttribute('certificate_data');
-  }
-  public set certificateData(value: string) {
-    this._certificateData = value;
-  }
-  public resetCertificateData() {
-    this._certificateData = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get certificateDataInput() {
-    return this._certificateData;
-  }
-
-  // expiration - computed: true, optional: false, required: false
-  public get expiration() {
-    return this.getStringAttribute('expiration');
-  }
-
-  // fingerprint_sha1 - computed: true, optional: false, required: false
-  public get fingerprintSha1() {
-    return this.getStringAttribute('fingerprint_sha1');
-  }
-
-  // fingerprint_sha256 - computed: true, optional: false, required: false
-  public get fingerprintSha256() {
-    return this.getStringAttribute('fingerprint_sha256');
-  }
-
-  // global - computed: true, optional: true, required: false
-  private _global?: boolean | cdktf.IResolvable; 
-  public get global() {
-    return this.getBooleanAttribute('global');
-  }
-  public set global(value: boolean | cdktf.IResolvable) {
-    this._global = value;
-  }
-  public resetGlobal() {
-    this._global = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get globalInput() {
-    return this._global;
-  }
-
-  // links - computed: true, optional: false, required: false
-  private _links = new GroupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificateLinksList(this, "links", false);
-  public get links() {
-    return this._links;
-  }
-
-  // permissions - computed: true, optional: false, required: false
-  private _permissions = new GroupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificatePermissionsList(this, "permissions", false);
-  public get permissions() {
-    return this._permissions;
-  }
-
-  // subject_dn - computed: true, optional: false, required: false
-  public get subjectDn() {
-    return this.getStringAttribute('subject_dn');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-
-  // uuid - computed: true, optional: false, required: false
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-}
-export interface GroupContentAdministeredSystemsAbstractProvisionedLdap {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#attributes Group#attributes}
-  */
-  readonly attributes?: GroupContentAdministeredSystemsAbstractProvisionedLdapAttributes[] | cdktf.IResolvable;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#base_dn Group#base_dn}
-  */
-  readonly baseDn: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#bind_dn Group#bind_dn}
-  */
-  readonly bindDn?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#bind_password Group#bind_password}
-  */
-  readonly bindPassword?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#client_certificate Group#client_certificate}
-  */
-  readonly clientCertificate?: GroupContentAdministeredSystemsAbstractProvisionedLdapClientCertificate;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#failover_host Group#failover_host}
-  */
-  readonly failoverHost?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#failover_trusted_certificate Group#failover_trusted_certificate}
-  */
-  readonly failoverTrustedCertificate?: GroupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificate;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#group_dn Group#group_dn}
-  */
-  readonly groupDn?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#host Group#host}
-  */
-  readonly host: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#object_classes Group#object_classes}
-  */
-  readonly objectClasses?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#port Group#port}
-  */
-  readonly port?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#service_account_dn Group#service_account_dn}
-  */
-  readonly serviceAccountDn?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#ssh_public_key_support Group#ssh_public_key_support}
-  */
-  readonly sshPublicKeySupport?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#tls Group#tls}
-  */
-  readonly tls: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#trusted_certificate Group#trusted_certificate}
-  */
-  readonly trustedCertificate?: GroupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificate;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#user_dn Group#user_dn}
-  */
-  readonly userDn?: string;
-}
-
-export function groupContentAdministeredSystemsAbstractProvisionedLdapToTerraform(struct?: GroupContentAdministeredSystemsAbstractProvisionedLdap | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    attributes: cdktf.listMapper(groupContentAdministeredSystemsAbstractProvisionedLdapAttributesToTerraform, false)(struct!.attributes),
-    base_dn: cdktf.stringToTerraform(struct!.baseDn),
-    bind_dn: cdktf.stringToTerraform(struct!.bindDn),
-    bind_password: cdktf.stringToTerraform(struct!.bindPassword),
-    client_certificate: groupContentAdministeredSystemsAbstractProvisionedLdapClientCertificateToTerraform(struct!.clientCertificate),
-    failover_host: cdktf.stringToTerraform(struct!.failoverHost),
-    failover_trusted_certificate: groupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificateToTerraform(struct!.failoverTrustedCertificate),
-    group_dn: cdktf.stringToTerraform(struct!.groupDn),
-    host: cdktf.stringToTerraform(struct!.host),
-    object_classes: cdktf.stringToTerraform(struct!.objectClasses),
-    port: cdktf.numberToTerraform(struct!.port),
-    service_account_dn: cdktf.stringToTerraform(struct!.serviceAccountDn),
-    ssh_public_key_support: cdktf.stringToTerraform(struct!.sshPublicKeySupport),
-    tls: cdktf.stringToTerraform(struct!.tls),
-    trusted_certificate: groupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificateToTerraform(struct!.trustedCertificate),
-    user_dn: cdktf.stringToTerraform(struct!.userDn),
-  }
-}
-
-
-export function groupContentAdministeredSystemsAbstractProvisionedLdapToHclTerraform(struct?: GroupContentAdministeredSystemsAbstractProvisionedLdap | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    attributes: {
-      value: cdktf.listMapperHcl(groupContentAdministeredSystemsAbstractProvisionedLdapAttributesToHclTerraform, false)(struct!.attributes),
-      isBlock: true,
-      type: "list",
-      storageClassType: "GroupContentAdministeredSystemsAbstractProvisionedLdapAttributesList",
-    },
-    base_dn: {
-      value: cdktf.stringToHclTerraform(struct!.baseDn),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    bind_dn: {
-      value: cdktf.stringToHclTerraform(struct!.bindDn),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    bind_password: {
-      value: cdktf.stringToHclTerraform(struct!.bindPassword),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    client_certificate: {
-      value: groupContentAdministeredSystemsAbstractProvisionedLdapClientCertificateToHclTerraform(struct!.clientCertificate),
-      isBlock: true,
-      type: "struct",
-      storageClassType: "GroupContentAdministeredSystemsAbstractProvisionedLdapClientCertificate",
-    },
-    failover_host: {
-      value: cdktf.stringToHclTerraform(struct!.failoverHost),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    failover_trusted_certificate: {
-      value: groupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificateToHclTerraform(struct!.failoverTrustedCertificate),
-      isBlock: true,
-      type: "struct",
-      storageClassType: "GroupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificate",
-    },
-    group_dn: {
-      value: cdktf.stringToHclTerraform(struct!.groupDn),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    host: {
-      value: cdktf.stringToHclTerraform(struct!.host),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    object_classes: {
-      value: cdktf.stringToHclTerraform(struct!.objectClasses),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    port: {
-      value: cdktf.numberToHclTerraform(struct!.port),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    service_account_dn: {
-      value: cdktf.stringToHclTerraform(struct!.serviceAccountDn),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    ssh_public_key_support: {
-      value: cdktf.stringToHclTerraform(struct!.sshPublicKeySupport),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    tls: {
-      value: cdktf.stringToHclTerraform(struct!.tls),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    trusted_certificate: {
-      value: groupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificateToHclTerraform(struct!.trustedCertificate),
-      isBlock: true,
-      type: "struct",
-      storageClassType: "GroupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificate",
-    },
-    user_dn: {
-      value: cdktf.stringToHclTerraform(struct!.userDn),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GroupContentAdministeredSystemsAbstractProvisionedLdapOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsAbstractProvisionedLdap | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._attributes?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.attributes = this._attributes?.internalValue;
-    }
-    if (this._baseDn !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.baseDn = this._baseDn;
-    }
-    if (this._bindDn !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.bindDn = this._bindDn;
-    }
-    if (this._bindPassword !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.bindPassword = this._bindPassword;
-    }
-    if (this._clientCertificate?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.clientCertificate = this._clientCertificate?.internalValue;
-    }
-    if (this._failoverHost !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.failoverHost = this._failoverHost;
-    }
-    if (this._failoverTrustedCertificate?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.failoverTrustedCertificate = this._failoverTrustedCertificate?.internalValue;
-    }
-    if (this._groupDn !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.groupDn = this._groupDn;
-    }
-    if (this._host !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.host = this._host;
-    }
-    if (this._objectClasses !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.objectClasses = this._objectClasses;
-    }
-    if (this._port !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.port = this._port;
-    }
-    if (this._serviceAccountDn !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.serviceAccountDn = this._serviceAccountDn;
-    }
-    if (this._sshPublicKeySupport !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.sshPublicKeySupport = this._sshPublicKeySupport;
-    }
-    if (this._tls !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.tls = this._tls;
-    }
-    if (this._trustedCertificate?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.trustedCertificate = this._trustedCertificate?.internalValue;
-    }
-    if (this._userDn !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.userDn = this._userDn;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsAbstractProvisionedLdap | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._attributes.internalValue = undefined;
-      this._baseDn = undefined;
-      this._bindDn = undefined;
-      this._bindPassword = undefined;
-      this._clientCertificate.internalValue = undefined;
-      this._failoverHost = undefined;
-      this._failoverTrustedCertificate.internalValue = undefined;
-      this._groupDn = undefined;
-      this._host = undefined;
-      this._objectClasses = undefined;
-      this._port = undefined;
-      this._serviceAccountDn = undefined;
-      this._sshPublicKeySupport = undefined;
-      this._tls = undefined;
-      this._trustedCertificate.internalValue = undefined;
-      this._userDn = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._attributes.internalValue = value.attributes;
-      this._baseDn = value.baseDn;
-      this._bindDn = value.bindDn;
-      this._bindPassword = value.bindPassword;
-      this._clientCertificate.internalValue = value.clientCertificate;
-      this._failoverHost = value.failoverHost;
-      this._failoverTrustedCertificate.internalValue = value.failoverTrustedCertificate;
-      this._groupDn = value.groupDn;
-      this._host = value.host;
-      this._objectClasses = value.objectClasses;
-      this._port = value.port;
-      this._serviceAccountDn = value.serviceAccountDn;
-      this._sshPublicKeySupport = value.sshPublicKeySupport;
-      this._tls = value.tls;
-      this._trustedCertificate.internalValue = value.trustedCertificate;
-      this._userDn = value.userDn;
-    }
-  }
-
-  // attributes - computed: true, optional: true, required: false
-  private _attributes = new GroupContentAdministeredSystemsAbstractProvisionedLdapAttributesList(this, "attributes", false);
-  public get attributes() {
-    return this._attributes;
-  }
-  public putAttributes(value: GroupContentAdministeredSystemsAbstractProvisionedLdapAttributes[] | cdktf.IResolvable) {
-    this._attributes.internalValue = value;
-  }
-  public resetAttributes() {
-    this._attributes.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get attributesInput() {
-    return this._attributes.internalValue;
-  }
-
-  // base_dn - computed: true, optional: false, required: true
-  private _baseDn?: string; 
-  public get baseDn() {
-    return this.getStringAttribute('base_dn');
-  }
-  public set baseDn(value: string) {
-    this._baseDn = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get baseDnInput() {
-    return this._baseDn;
-  }
-
-  // bind_dn - computed: true, optional: true, required: false
-  private _bindDn?: string; 
-  public get bindDn() {
-    return this.getStringAttribute('bind_dn');
-  }
-  public set bindDn(value: string) {
-    this._bindDn = value;
-  }
-  public resetBindDn() {
-    this._bindDn = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get bindDnInput() {
-    return this._bindDn;
-  }
-
-  // bind_password - computed: true, optional: true, required: false
-  private _bindPassword?: string; 
-  public get bindPassword() {
-    return this.getStringAttribute('bind_password');
-  }
-  public set bindPassword(value: string) {
-    this._bindPassword = value;
-  }
-  public resetBindPassword() {
-    this._bindPassword = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get bindPasswordInput() {
-    return this._bindPassword;
-  }
-
-  // client_certificate - computed: true, optional: true, required: false
-  private _clientCertificate = new GroupContentAdministeredSystemsAbstractProvisionedLdapClientCertificateOutputReference(this, "client_certificate");
-  public get clientCertificate() {
-    return this._clientCertificate;
-  }
-  public putClientCertificate(value: GroupContentAdministeredSystemsAbstractProvisionedLdapClientCertificate) {
-    this._clientCertificate.internalValue = value;
-  }
-  public resetClientCertificate() {
-    this._clientCertificate.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get clientCertificateInput() {
-    return this._clientCertificate.internalValue;
-  }
-
-  // failover_host - computed: true, optional: true, required: false
-  private _failoverHost?: string; 
-  public get failoverHost() {
-    return this.getStringAttribute('failover_host');
-  }
-  public set failoverHost(value: string) {
-    this._failoverHost = value;
-  }
-  public resetFailoverHost() {
-    this._failoverHost = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get failoverHostInput() {
-    return this._failoverHost;
-  }
-
-  // failover_trusted_certificate - computed: true, optional: true, required: false
-  private _failoverTrustedCertificate = new GroupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificateOutputReference(this, "failover_trusted_certificate");
-  public get failoverTrustedCertificate() {
-    return this._failoverTrustedCertificate;
-  }
-  public putFailoverTrustedCertificate(value: GroupContentAdministeredSystemsAbstractProvisionedLdapFailoverTrustedCertificate) {
-    this._failoverTrustedCertificate.internalValue = value;
-  }
-  public resetFailoverTrustedCertificate() {
-    this._failoverTrustedCertificate.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get failoverTrustedCertificateInput() {
-    return this._failoverTrustedCertificate.internalValue;
-  }
-
-  // group_dn - computed: true, optional: true, required: false
-  private _groupDn?: string; 
-  public get groupDn() {
-    return this.getStringAttribute('group_dn');
-  }
-  public set groupDn(value: string) {
-    this._groupDn = value;
-  }
-  public resetGroupDn() {
-    this._groupDn = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get groupDnInput() {
-    return this._groupDn;
-  }
-
-  // host - computed: true, optional: false, required: true
-  private _host?: string; 
-  public get host() {
-    return this.getStringAttribute('host');
-  }
-  public set host(value: string) {
-    this._host = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get hostInput() {
-    return this._host;
-  }
-
-  // object_classes - computed: true, optional: true, required: false
-  private _objectClasses?: string; 
-  public get objectClasses() {
-    return this.getStringAttribute('object_classes');
-  }
-  public set objectClasses(value: string) {
-    this._objectClasses = value;
-  }
-  public resetObjectClasses() {
-    this._objectClasses = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get objectClassesInput() {
-    return this._objectClasses;
-  }
-
-  // port - computed: true, optional: true, required: false
-  private _port?: number; 
-  public get port() {
-    return this.getNumberAttribute('port');
-  }
-  public set port(value: number) {
-    this._port = value;
-  }
-  public resetPort() {
-    this._port = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get portInput() {
-    return this._port;
-  }
-
-  // service_account_dn - computed: true, optional: true, required: false
-  private _serviceAccountDn?: string; 
-  public get serviceAccountDn() {
-    return this.getStringAttribute('service_account_dn');
-  }
-  public set serviceAccountDn(value: string) {
-    this._serviceAccountDn = value;
-  }
-  public resetServiceAccountDn() {
-    this._serviceAccountDn = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get serviceAccountDnInput() {
-    return this._serviceAccountDn;
-  }
-
-  // ssh_public_key_support - computed: true, optional: true, required: false
-  private _sshPublicKeySupport?: string; 
-  public get sshPublicKeySupport() {
-    return this.getStringAttribute('ssh_public_key_support');
-  }
-  public set sshPublicKeySupport(value: string) {
-    this._sshPublicKeySupport = value;
-  }
-  public resetSshPublicKeySupport() {
-    this._sshPublicKeySupport = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get sshPublicKeySupportInput() {
-    return this._sshPublicKeySupport;
-  }
-
-  // tls - computed: true, optional: false, required: true
-  private _tls?: string; 
-  public get tls() {
-    return this.getStringAttribute('tls');
-  }
-  public set tls(value: string) {
-    this._tls = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get tlsInput() {
-    return this._tls;
-  }
-
-  // trusted_certificate - computed: true, optional: true, required: false
-  private _trustedCertificate = new GroupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificateOutputReference(this, "trusted_certificate");
-  public get trustedCertificate() {
-    return this._trustedCertificate;
-  }
-  public putTrustedCertificate(value: GroupContentAdministeredSystemsAbstractProvisionedLdapTrustedCertificate) {
-    this._trustedCertificate.internalValue = value;
-  }
-  public resetTrustedCertificate() {
-    this._trustedCertificate.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get trustedCertificateInput() {
-    return this._trustedCertificate.internalValue;
-  }
-
-  // user_dn - computed: true, optional: true, required: false
-  private _userDn?: string; 
-  public get userDn() {
-    return this.getStringAttribute('user_dn');
-  }
-  public set userDn(value: string) {
-    this._userDn = value;
-  }
-  public resetUserDn() {
-    this._userDn = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get userDnInput() {
-    return this._userDn;
-  }
-}
-export interface GroupContentAdministeredSystemsCleanupPeriod {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#days Group#days}
-  */
-  readonly days?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#months Group#months}
-  */
-  readonly months?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#years Group#years}
-  */
-  readonly years?: number;
-}
-
-export function groupContentAdministeredSystemsCleanupPeriodToTerraform(struct?: GroupContentAdministeredSystemsCleanupPeriod): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    days: cdktf.numberToTerraform(struct!.days),
-    months: cdktf.numberToTerraform(struct!.months),
-    years: cdktf.numberToTerraform(struct!.years),
-  }
-}
-
-
-export function groupContentAdministeredSystemsCleanupPeriodToHclTerraform(struct?: GroupContentAdministeredSystemsCleanupPeriod): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    days: {
-      value: cdktf.numberToHclTerraform(struct!.days),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    months: {
-      value: cdktf.numberToHclTerraform(struct!.months),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    years: {
-      value: cdktf.numberToHclTerraform(struct!.years),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GroupContentAdministeredSystemsCleanupPeriodOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsCleanupPeriod | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._days !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.days = this._days;
-    }
-    if (this._months !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.months = this._months;
-    }
-    if (this._years !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.years = this._years;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsCleanupPeriod | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._days = undefined;
-      this._months = undefined;
-      this._years = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._days = value.days;
-      this._months = value.months;
-      this._years = value.years;
-    }
-  }
-
-  // days - computed: true, optional: true, required: false
-  private _days?: number; 
-  public get days() {
-    return this.getNumberAttribute('days');
-  }
-  public set days(value: number) {
-    this._days = value;
-  }
-  public resetDays() {
-    this._days = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get daysInput() {
-    return this._days;
-  }
-
-  // months - computed: true, optional: true, required: false
-  private _months?: number; 
-  public get months() {
-    return this.getNumberAttribute('months');
-  }
-  public set months(value: number) {
-    this._months = value;
-  }
-  public resetMonths() {
-    this._months = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get monthsInput() {
-    return this._months;
-  }
-
-  // years - computed: true, optional: true, required: false
-  private _years?: number; 
-  public get years() {
-    return this.getNumberAttribute('years');
-  }
-  public set years(value: number) {
-    this._years = value;
-  }
-  public resetYears() {
-    this._years = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get yearsInput() {
-    return this._years;
-  }
-}
-export interface GroupContentAdministeredSystemsContentAdministratorLinks {
-}
-
-export function groupContentAdministeredSystemsContentAdministratorLinksToTerraform(struct?: GroupContentAdministeredSystemsContentAdministratorLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function groupContentAdministeredSystemsContentAdministratorLinksToHclTerraform(struct?: GroupContentAdministeredSystemsContentAdministratorLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class GroupContentAdministeredSystemsContentAdministratorLinksOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsContentAdministratorLinks | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsContentAdministratorLinks | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // href - computed: true, optional: false, required: false
-  public get href() {
-    return this.getStringAttribute('href');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getNumberAttribute('id');
-  }
-
-  // rel - computed: true, optional: false, required: false
-  public get rel() {
-    return this.getStringAttribute('rel');
-  }
-
-  // type_escaped - computed: true, optional: false, required: false
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-}
-
-export class GroupContentAdministeredSystemsContentAdministratorLinksList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): GroupContentAdministeredSystemsContentAdministratorLinksOutputReference {
-    return new GroupContentAdministeredSystemsContentAdministratorLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface GroupContentAdministeredSystemsContentAdministratorOrganizationalUnitLinks {
-}
-
-export function groupContentAdministeredSystemsContentAdministratorOrganizationalUnitLinksToTerraform(struct?: GroupContentAdministeredSystemsContentAdministratorOrganizationalUnitLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function groupContentAdministeredSystemsContentAdministratorOrganizationalUnitLinksToHclTerraform(struct?: GroupContentAdministeredSystemsContentAdministratorOrganizationalUnitLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class GroupContentAdministeredSystemsContentAdministratorOrganizationalUnitLinksOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsContentAdministratorOrganizationalUnitLinks | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsContentAdministratorOrganizationalUnitLinks | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // href - computed: true, optional: false, required: false
-  public get href() {
-    return this.getStringAttribute('href');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getNumberAttribute('id');
-  }
-
-  // rel - computed: true, optional: false, required: false
-  public get rel() {
-    return this.getStringAttribute('rel');
-  }
-
-  // type_escaped - computed: true, optional: false, required: false
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-}
-
-export class GroupContentAdministeredSystemsContentAdministratorOrganizationalUnitLinksList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): GroupContentAdministeredSystemsContentAdministratorOrganizationalUnitLinksOutputReference {
-    return new GroupContentAdministeredSystemsContentAdministratorOrganizationalUnitLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface GroupContentAdministeredSystemsContentAdministratorOrganizationalUnitPermissions {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#full Group#full}
-  */
-  readonly full?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#instances Group#instances}
-  */
-  readonly instances?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#operations Group#operations}
-  */
-  readonly operations?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#type_escaped Group#type_escaped}
-  */
-  readonly typeEscaped?: string;
-}
-
-export function groupContentAdministeredSystemsContentAdministratorOrganizationalUnitPermissionsToTerraform(struct?: GroupContentAdministeredSystemsContentAdministratorOrganizationalUnitPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    full: cdktf.stringToTerraform(struct!.full),
-    instances: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.instances),
-    operations: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.operations),
-    type_escaped: cdktf.stringToTerraform(struct!.typeEscaped),
-  }
-}
-
-
-export function groupContentAdministeredSystemsContentAdministratorOrganizationalUnitPermissionsToHclTerraform(struct?: GroupContentAdministeredSystemsContentAdministratorOrganizationalUnitPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    full: {
-      value: cdktf.stringToHclTerraform(struct!.full),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    instances: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.instances),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
-    },
-    operations: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.operations),
-      isBlock: false,
-      type: "set",
-      storageClassType: "stringList",
-    },
-    type_escaped: {
-      value: cdktf.stringToHclTerraform(struct!.typeEscaped),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GroupContentAdministeredSystemsContentAdministratorOrganizationalUnitPermissionsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsContentAdministratorOrganizationalUnitPermissions | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._full !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.full = this._full;
-    }
-    if (this._instances !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.instances = this._instances;
-    }
-    if (this._operations !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.operations = this._operations;
-    }
-    if (this._typeEscaped !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.typeEscaped = this._typeEscaped;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsContentAdministratorOrganizationalUnitPermissions | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._full = undefined;
-      this._instances = undefined;
-      this._operations = undefined;
-      this._typeEscaped = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._full = value.full;
-      this._instances = value.instances;
-      this._operations = value.operations;
-      this._typeEscaped = value.typeEscaped;
-    }
-  }
-
-  // full - computed: true, optional: true, required: false
-  private _full?: string; 
-  public get full() {
-    return this.getStringAttribute('full');
-  }
-  public set full(value: string) {
-    this._full = value;
-  }
-  public resetFull() {
-    this._full = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get fullInput() {
-    return this._full;
-  }
-
-  // instances - computed: true, optional: true, required: false
-  private _instances?: string[]; 
-  public get instances() {
-    return this.getListAttribute('instances');
-  }
-  public set instances(value: string[]) {
-    this._instances = value;
-  }
-  public resetInstances() {
-    this._instances = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get instancesInput() {
-    return this._instances;
-  }
-
-  // operations - computed: true, optional: true, required: false
-  private _operations?: string[]; 
-  public get operations() {
-    return cdktf.Fn.tolist(this.getListAttribute('operations'));
-  }
-  public set operations(value: string[]) {
-    this._operations = value;
-  }
-  public resetOperations() {
-    this._operations = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get operationsInput() {
-    return this._operations;
-  }
-
-  // type_escaped - computed: true, optional: true, required: false
-  private _typeEscaped?: string; 
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-  public set typeEscaped(value: string) {
-    this._typeEscaped = value;
-  }
-  public resetTypeEscaped() {
-    this._typeEscaped = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get typeEscapedInput() {
-    return this._typeEscaped;
-  }
-}
-
-export class GroupContentAdministeredSystemsContentAdministratorOrganizationalUnitPermissionsList extends cdktf.ComplexList {
-  public internalValue? : GroupContentAdministeredSystemsContentAdministratorOrganizationalUnitPermissions[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): GroupContentAdministeredSystemsContentAdministratorOrganizationalUnitPermissionsOutputReference {
-    return new GroupContentAdministeredSystemsContentAdministratorOrganizationalUnitPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface GroupContentAdministeredSystemsContentAdministratorOrganizationalUnit {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#name Group#name}
-  */
-  readonly name: string;
-}
-
-export function groupContentAdministeredSystemsContentAdministratorOrganizationalUnitToTerraform(struct?: GroupContentAdministeredSystemsContentAdministratorOrganizationalUnit | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    name: cdktf.stringToTerraform(struct!.name),
-  }
-}
-
-
-export function groupContentAdministeredSystemsContentAdministratorOrganizationalUnitToHclTerraform(struct?: GroupContentAdministeredSystemsContentAdministratorOrganizationalUnit | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GroupContentAdministeredSystemsContentAdministratorOrganizationalUnitOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsContentAdministratorOrganizationalUnit | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._name !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.name = this._name;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsContentAdministratorOrganizationalUnit | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._name = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._name = value.name;
-    }
-  }
-
-  // links - computed: true, optional: false, required: false
-  private _links = new GroupContentAdministeredSystemsContentAdministratorOrganizationalUnitLinksList(this, "links", false);
-  public get links() {
-    return this._links;
-  }
-
-  // name - computed: true, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
-  // permissions - computed: true, optional: false, required: false
-  private _permissions = new GroupContentAdministeredSystemsContentAdministratorOrganizationalUnitPermissionsList(this, "permissions", false);
-  public get permissions() {
-    return this._permissions;
-  }
-
-  // uuid - computed: true, optional: false, required: false
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-}
-export interface GroupContentAdministeredSystemsContentAdministratorPermissions {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#full Group#full}
-  */
-  readonly full?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#instances Group#instances}
-  */
-  readonly instances?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#operations Group#operations}
-  */
-  readonly operations?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#type_escaped Group#type_escaped}
-  */
-  readonly typeEscaped?: string;
-}
-
-export function groupContentAdministeredSystemsContentAdministratorPermissionsToTerraform(struct?: GroupContentAdministeredSystemsContentAdministratorPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    full: cdktf.stringToTerraform(struct!.full),
-    instances: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.instances),
-    operations: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.operations),
-    type_escaped: cdktf.stringToTerraform(struct!.typeEscaped),
-  }
-}
-
-
-export function groupContentAdministeredSystemsContentAdministratorPermissionsToHclTerraform(struct?: GroupContentAdministeredSystemsContentAdministratorPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    full: {
-      value: cdktf.stringToHclTerraform(struct!.full),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    instances: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.instances),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
-    },
-    operations: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.operations),
-      isBlock: false,
-      type: "set",
-      storageClassType: "stringList",
-    },
-    type_escaped: {
-      value: cdktf.stringToHclTerraform(struct!.typeEscaped),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GroupContentAdministeredSystemsContentAdministratorPermissionsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsContentAdministratorPermissions | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._full !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.full = this._full;
-    }
-    if (this._instances !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.instances = this._instances;
-    }
-    if (this._operations !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.operations = this._operations;
-    }
-    if (this._typeEscaped !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.typeEscaped = this._typeEscaped;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsContentAdministratorPermissions | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._full = undefined;
-      this._instances = undefined;
-      this._operations = undefined;
-      this._typeEscaped = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._full = value.full;
-      this._instances = value.instances;
-      this._operations = value.operations;
-      this._typeEscaped = value.typeEscaped;
-    }
-  }
-
-  // full - computed: true, optional: true, required: false
-  private _full?: string; 
-  public get full() {
-    return this.getStringAttribute('full');
-  }
-  public set full(value: string) {
-    this._full = value;
-  }
-  public resetFull() {
-    this._full = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get fullInput() {
-    return this._full;
-  }
-
-  // instances - computed: true, optional: true, required: false
-  private _instances?: string[]; 
-  public get instances() {
-    return this.getListAttribute('instances');
-  }
-  public set instances(value: string[]) {
-    this._instances = value;
-  }
-  public resetInstances() {
-    this._instances = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get instancesInput() {
-    return this._instances;
-  }
-
-  // operations - computed: true, optional: true, required: false
-  private _operations?: string[]; 
-  public get operations() {
-    return cdktf.Fn.tolist(this.getListAttribute('operations'));
-  }
-  public set operations(value: string[]) {
-    this._operations = value;
-  }
-  public resetOperations() {
-    this._operations = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get operationsInput() {
-    return this._operations;
-  }
-
-  // type_escaped - computed: true, optional: true, required: false
-  private _typeEscaped?: string; 
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-  public set typeEscaped(value: string) {
-    this._typeEscaped = value;
-  }
-  public resetTypeEscaped() {
-    this._typeEscaped = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get typeEscapedInput() {
-    return this._typeEscaped;
-  }
-}
-
-export class GroupContentAdministeredSystemsContentAdministratorPermissionsList extends cdktf.ComplexList {
-  public internalValue? : GroupContentAdministeredSystemsContentAdministratorPermissions[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): GroupContentAdministeredSystemsContentAdministratorPermissionsOutputReference {
-    return new GroupContentAdministeredSystemsContentAdministratorPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface GroupContentAdministeredSystemsContentAdministrator {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#name Group#name}
-  */
-  readonly name: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#organizational_unit Group#organizational_unit}
-  */
-  readonly organizationalUnit?: GroupContentAdministeredSystemsContentAdministratorOrganizationalUnit;
-}
-
-export function groupContentAdministeredSystemsContentAdministratorToTerraform(struct?: GroupContentAdministeredSystemsContentAdministrator | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    name: cdktf.stringToTerraform(struct!.name),
-    organizational_unit: groupContentAdministeredSystemsContentAdministratorOrganizationalUnitToTerraform(struct!.organizationalUnit),
-  }
-}
-
-
-export function groupContentAdministeredSystemsContentAdministratorToHclTerraform(struct?: GroupContentAdministeredSystemsContentAdministrator | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    organizational_unit: {
-      value: groupContentAdministeredSystemsContentAdministratorOrganizationalUnitToHclTerraform(struct!.organizationalUnit),
-      isBlock: true,
-      type: "struct",
-      storageClassType: "GroupContentAdministeredSystemsContentAdministratorOrganizationalUnit",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GroupContentAdministeredSystemsContentAdministratorOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsContentAdministrator | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._name !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.name = this._name;
-    }
-    if (this._organizationalUnit?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.organizationalUnit = this._organizationalUnit?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsContentAdministrator | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._name = undefined;
-      this._organizationalUnit.internalValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._name = value.name;
-      this._organizationalUnit.internalValue = value.organizationalUnit;
-    }
-  }
-
-  // admin - computed: true, optional: false, required: false
-  public get admin() {
-    return this.getBooleanAttribute('admin');
-  }
-
-  // links - computed: true, optional: false, required: false
-  private _links = new GroupContentAdministeredSystemsContentAdministratorLinksList(this, "links", false);
-  public get links() {
-    return this._links;
-  }
-
-  // name - computed: true, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
-  // organizational_unit - computed: true, optional: true, required: false
-  private _organizationalUnit = new GroupContentAdministeredSystemsContentAdministratorOrganizationalUnitOutputReference(this, "organizational_unit");
-  public get organizationalUnit() {
-    return this._organizationalUnit;
-  }
-  public putOrganizationalUnit(value: GroupContentAdministeredSystemsContentAdministratorOrganizationalUnit) {
-    this._organizationalUnit.internalValue = value;
-  }
-  public resetOrganizationalUnit() {
-    this._organizationalUnit.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get organizationalUnitInput() {
-    return this._organizationalUnit.internalValue;
-  }
-
-  // permissions - computed: true, optional: false, required: false
-  private _permissions = new GroupContentAdministeredSystemsContentAdministratorPermissionsList(this, "permissions", false);
-  public get permissions() {
-    return this._permissions;
-  }
-
-  // uuid - computed: true, optional: false, required: false
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-}
-export interface GroupContentAdministeredSystemsLinks {
-}
-
-export function groupContentAdministeredSystemsLinksToTerraform(struct?: GroupContentAdministeredSystemsLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function groupContentAdministeredSystemsLinksToHclTerraform(struct?: GroupContentAdministeredSystemsLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class GroupContentAdministeredSystemsLinksOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsLinks | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsLinks | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // href - computed: true, optional: false, required: false
-  public get href() {
-    return this.getStringAttribute('href');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getNumberAttribute('id');
-  }
-
-  // rel - computed: true, optional: false, required: false
-  public get rel() {
-    return this.getStringAttribute('rel');
-  }
-
-  // type_escaped - computed: true, optional: false, required: false
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-}
-
-export class GroupContentAdministeredSystemsLinksList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): GroupContentAdministeredSystemsLinksOutputReference {
-    return new GroupContentAdministeredSystemsLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface GroupContentAdministeredSystemsOrganizationalUnitLinks {
-}
-
-export function groupContentAdministeredSystemsOrganizationalUnitLinksToTerraform(struct?: GroupContentAdministeredSystemsOrganizationalUnitLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function groupContentAdministeredSystemsOrganizationalUnitLinksToHclTerraform(struct?: GroupContentAdministeredSystemsOrganizationalUnitLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class GroupContentAdministeredSystemsOrganizationalUnitLinksOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsOrganizationalUnitLinks | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsOrganizationalUnitLinks | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // href - computed: true, optional: false, required: false
-  public get href() {
-    return this.getStringAttribute('href');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getNumberAttribute('id');
-  }
-
-  // rel - computed: true, optional: false, required: false
-  public get rel() {
-    return this.getStringAttribute('rel');
-  }
-
-  // type_escaped - computed: true, optional: false, required: false
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-}
-
-export class GroupContentAdministeredSystemsOrganizationalUnitLinksList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): GroupContentAdministeredSystemsOrganizationalUnitLinksOutputReference {
-    return new GroupContentAdministeredSystemsOrganizationalUnitLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface GroupContentAdministeredSystemsOrganizationalUnitPermissions {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#full Group#full}
-  */
-  readonly full?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#instances Group#instances}
-  */
-  readonly instances?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#operations Group#operations}
-  */
-  readonly operations?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#type_escaped Group#type_escaped}
-  */
-  readonly typeEscaped?: string;
-}
-
-export function groupContentAdministeredSystemsOrganizationalUnitPermissionsToTerraform(struct?: GroupContentAdministeredSystemsOrganizationalUnitPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    full: cdktf.stringToTerraform(struct!.full),
-    instances: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.instances),
-    operations: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.operations),
-    type_escaped: cdktf.stringToTerraform(struct!.typeEscaped),
-  }
-}
-
-
-export function groupContentAdministeredSystemsOrganizationalUnitPermissionsToHclTerraform(struct?: GroupContentAdministeredSystemsOrganizationalUnitPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    full: {
-      value: cdktf.stringToHclTerraform(struct!.full),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    instances: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.instances),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
-    },
-    operations: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.operations),
-      isBlock: false,
-      type: "set",
-      storageClassType: "stringList",
-    },
-    type_escaped: {
-      value: cdktf.stringToHclTerraform(struct!.typeEscaped),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GroupContentAdministeredSystemsOrganizationalUnitPermissionsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsOrganizationalUnitPermissions | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._full !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.full = this._full;
-    }
-    if (this._instances !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.instances = this._instances;
-    }
-    if (this._operations !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.operations = this._operations;
-    }
-    if (this._typeEscaped !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.typeEscaped = this._typeEscaped;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsOrganizationalUnitPermissions | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._full = undefined;
-      this._instances = undefined;
-      this._operations = undefined;
-      this._typeEscaped = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._full = value.full;
-      this._instances = value.instances;
-      this._operations = value.operations;
-      this._typeEscaped = value.typeEscaped;
-    }
-  }
-
-  // full - computed: true, optional: true, required: false
-  private _full?: string; 
-  public get full() {
-    return this.getStringAttribute('full');
-  }
-  public set full(value: string) {
-    this._full = value;
-  }
-  public resetFull() {
-    this._full = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get fullInput() {
-    return this._full;
-  }
-
-  // instances - computed: true, optional: true, required: false
-  private _instances?: string[]; 
-  public get instances() {
-    return this.getListAttribute('instances');
-  }
-  public set instances(value: string[]) {
-    this._instances = value;
-  }
-  public resetInstances() {
-    this._instances = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get instancesInput() {
-    return this._instances;
-  }
-
-  // operations - computed: true, optional: true, required: false
-  private _operations?: string[]; 
-  public get operations() {
-    return cdktf.Fn.tolist(this.getListAttribute('operations'));
-  }
-  public set operations(value: string[]) {
-    this._operations = value;
-  }
-  public resetOperations() {
-    this._operations = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get operationsInput() {
-    return this._operations;
-  }
-
-  // type_escaped - computed: true, optional: true, required: false
-  private _typeEscaped?: string; 
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-  public set typeEscaped(value: string) {
-    this._typeEscaped = value;
-  }
-  public resetTypeEscaped() {
-    this._typeEscaped = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get typeEscapedInput() {
-    return this._typeEscaped;
-  }
-}
-
-export class GroupContentAdministeredSystemsOrganizationalUnitPermissionsList extends cdktf.ComplexList {
-  public internalValue? : GroupContentAdministeredSystemsOrganizationalUnitPermissions[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): GroupContentAdministeredSystemsOrganizationalUnitPermissionsOutputReference {
-    return new GroupContentAdministeredSystemsOrganizationalUnitPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface GroupContentAdministeredSystemsOrganizationalUnit {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#name Group#name}
-  */
-  readonly name: string;
-}
-
-export function groupContentAdministeredSystemsOrganizationalUnitToTerraform(struct?: GroupContentAdministeredSystemsOrganizationalUnit | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    name: cdktf.stringToTerraform(struct!.name),
-  }
-}
-
-
-export function groupContentAdministeredSystemsOrganizationalUnitToHclTerraform(struct?: GroupContentAdministeredSystemsOrganizationalUnit | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GroupContentAdministeredSystemsOrganizationalUnitOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsOrganizationalUnit | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._name !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.name = this._name;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsOrganizationalUnit | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._name = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._name = value.name;
-    }
-  }
-
-  // links - computed: true, optional: false, required: false
-  private _links = new GroupContentAdministeredSystemsOrganizationalUnitLinksList(this, "links", false);
-  public get links() {
-    return this._links;
-  }
-
-  // name - computed: true, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
-  // permissions - computed: true, optional: false, required: false
-  private _permissions = new GroupContentAdministeredSystemsOrganizationalUnitPermissionsList(this, "permissions", false);
-  public get permissions() {
-    return this._permissions;
-  }
-
-  // uuid - computed: true, optional: false, required: false
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-}
-export interface GroupContentAdministeredSystemsOwnerLinks {
-}
-
-export function groupContentAdministeredSystemsOwnerLinksToTerraform(struct?: GroupContentAdministeredSystemsOwnerLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function groupContentAdministeredSystemsOwnerLinksToHclTerraform(struct?: GroupContentAdministeredSystemsOwnerLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class GroupContentAdministeredSystemsOwnerLinksOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsOwnerLinks | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsOwnerLinks | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // href - computed: true, optional: false, required: false
-  public get href() {
-    return this.getStringAttribute('href');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getNumberAttribute('id');
-  }
-
-  // rel - computed: true, optional: false, required: false
-  public get rel() {
-    return this.getStringAttribute('rel');
-  }
-
-  // type_escaped - computed: true, optional: false, required: false
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-}
-
-export class GroupContentAdministeredSystemsOwnerLinksList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): GroupContentAdministeredSystemsOwnerLinksOutputReference {
-    return new GroupContentAdministeredSystemsOwnerLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface GroupContentAdministeredSystemsOwnerOrganizationalUnitLinks {
-}
-
-export function groupContentAdministeredSystemsOwnerOrganizationalUnitLinksToTerraform(struct?: GroupContentAdministeredSystemsOwnerOrganizationalUnitLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function groupContentAdministeredSystemsOwnerOrganizationalUnitLinksToHclTerraform(struct?: GroupContentAdministeredSystemsOwnerOrganizationalUnitLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class GroupContentAdministeredSystemsOwnerOrganizationalUnitLinksOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsOwnerOrganizationalUnitLinks | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsOwnerOrganizationalUnitLinks | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // href - computed: true, optional: false, required: false
-  public get href() {
-    return this.getStringAttribute('href');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getNumberAttribute('id');
-  }
-
-  // rel - computed: true, optional: false, required: false
-  public get rel() {
-    return this.getStringAttribute('rel');
-  }
-
-  // type_escaped - computed: true, optional: false, required: false
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-}
-
-export class GroupContentAdministeredSystemsOwnerOrganizationalUnitLinksList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): GroupContentAdministeredSystemsOwnerOrganizationalUnitLinksOutputReference {
-    return new GroupContentAdministeredSystemsOwnerOrganizationalUnitLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface GroupContentAdministeredSystemsOwnerOrganizationalUnitPermissions {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#full Group#full}
-  */
-  readonly full?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#instances Group#instances}
-  */
-  readonly instances?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#operations Group#operations}
-  */
-  readonly operations?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#type_escaped Group#type_escaped}
-  */
-  readonly typeEscaped?: string;
-}
-
-export function groupContentAdministeredSystemsOwnerOrganizationalUnitPermissionsToTerraform(struct?: GroupContentAdministeredSystemsOwnerOrganizationalUnitPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    full: cdktf.stringToTerraform(struct!.full),
-    instances: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.instances),
-    operations: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.operations),
-    type_escaped: cdktf.stringToTerraform(struct!.typeEscaped),
-  }
-}
-
-
-export function groupContentAdministeredSystemsOwnerOrganizationalUnitPermissionsToHclTerraform(struct?: GroupContentAdministeredSystemsOwnerOrganizationalUnitPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    full: {
-      value: cdktf.stringToHclTerraform(struct!.full),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    instances: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.instances),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
-    },
-    operations: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.operations),
-      isBlock: false,
-      type: "set",
-      storageClassType: "stringList",
-    },
-    type_escaped: {
-      value: cdktf.stringToHclTerraform(struct!.typeEscaped),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GroupContentAdministeredSystemsOwnerOrganizationalUnitPermissionsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsOwnerOrganizationalUnitPermissions | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._full !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.full = this._full;
-    }
-    if (this._instances !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.instances = this._instances;
-    }
-    if (this._operations !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.operations = this._operations;
-    }
-    if (this._typeEscaped !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.typeEscaped = this._typeEscaped;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsOwnerOrganizationalUnitPermissions | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._full = undefined;
-      this._instances = undefined;
-      this._operations = undefined;
-      this._typeEscaped = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._full = value.full;
-      this._instances = value.instances;
-      this._operations = value.operations;
-      this._typeEscaped = value.typeEscaped;
-    }
-  }
-
-  // full - computed: true, optional: true, required: false
-  private _full?: string; 
-  public get full() {
-    return this.getStringAttribute('full');
-  }
-  public set full(value: string) {
-    this._full = value;
-  }
-  public resetFull() {
-    this._full = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get fullInput() {
-    return this._full;
-  }
-
-  // instances - computed: true, optional: true, required: false
-  private _instances?: string[]; 
-  public get instances() {
-    return this.getListAttribute('instances');
-  }
-  public set instances(value: string[]) {
-    this._instances = value;
-  }
-  public resetInstances() {
-    this._instances = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get instancesInput() {
-    return this._instances;
-  }
-
-  // operations - computed: true, optional: true, required: false
-  private _operations?: string[]; 
-  public get operations() {
-    return cdktf.Fn.tolist(this.getListAttribute('operations'));
-  }
-  public set operations(value: string[]) {
-    this._operations = value;
-  }
-  public resetOperations() {
-    this._operations = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get operationsInput() {
-    return this._operations;
-  }
-
-  // type_escaped - computed: true, optional: true, required: false
-  private _typeEscaped?: string; 
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-  public set typeEscaped(value: string) {
-    this._typeEscaped = value;
-  }
-  public resetTypeEscaped() {
-    this._typeEscaped = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get typeEscapedInput() {
-    return this._typeEscaped;
-  }
-}
-
-export class GroupContentAdministeredSystemsOwnerOrganizationalUnitPermissionsList extends cdktf.ComplexList {
-  public internalValue? : GroupContentAdministeredSystemsOwnerOrganizationalUnitPermissions[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): GroupContentAdministeredSystemsOwnerOrganizationalUnitPermissionsOutputReference {
-    return new GroupContentAdministeredSystemsOwnerOrganizationalUnitPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface GroupContentAdministeredSystemsOwnerOrganizationalUnit {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#name Group#name}
-  */
-  readonly name: string;
-}
-
-export function groupContentAdministeredSystemsOwnerOrganizationalUnitToTerraform(struct?: GroupContentAdministeredSystemsOwnerOrganizationalUnit | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    name: cdktf.stringToTerraform(struct!.name),
-  }
-}
-
-
-export function groupContentAdministeredSystemsOwnerOrganizationalUnitToHclTerraform(struct?: GroupContentAdministeredSystemsOwnerOrganizationalUnit | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GroupContentAdministeredSystemsOwnerOrganizationalUnitOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsOwnerOrganizationalUnit | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._name !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.name = this._name;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsOwnerOrganizationalUnit | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._name = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._name = value.name;
-    }
-  }
-
-  // links - computed: true, optional: false, required: false
-  private _links = new GroupContentAdministeredSystemsOwnerOrganizationalUnitLinksList(this, "links", false);
-  public get links() {
-    return this._links;
-  }
-
-  // name - computed: true, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
-  // permissions - computed: true, optional: false, required: false
-  private _permissions = new GroupContentAdministeredSystemsOwnerOrganizationalUnitPermissionsList(this, "permissions", false);
-  public get permissions() {
-    return this._permissions;
-  }
-
-  // uuid - computed: true, optional: false, required: false
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-}
-export interface GroupContentAdministeredSystemsOwnerPermissions {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#full Group#full}
-  */
-  readonly full?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#instances Group#instances}
-  */
-  readonly instances?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#operations Group#operations}
-  */
-  readonly operations?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#type_escaped Group#type_escaped}
-  */
-  readonly typeEscaped?: string;
-}
-
-export function groupContentAdministeredSystemsOwnerPermissionsToTerraform(struct?: GroupContentAdministeredSystemsOwnerPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    full: cdktf.stringToTerraform(struct!.full),
-    instances: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.instances),
-    operations: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.operations),
-    type_escaped: cdktf.stringToTerraform(struct!.typeEscaped),
-  }
-}
-
-
-export function groupContentAdministeredSystemsOwnerPermissionsToHclTerraform(struct?: GroupContentAdministeredSystemsOwnerPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    full: {
-      value: cdktf.stringToHclTerraform(struct!.full),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    instances: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.instances),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
-    },
-    operations: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.operations),
-      isBlock: false,
-      type: "set",
-      storageClassType: "stringList",
-    },
-    type_escaped: {
-      value: cdktf.stringToHclTerraform(struct!.typeEscaped),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GroupContentAdministeredSystemsOwnerPermissionsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsOwnerPermissions | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._full !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.full = this._full;
-    }
-    if (this._instances !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.instances = this._instances;
-    }
-    if (this._operations !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.operations = this._operations;
-    }
-    if (this._typeEscaped !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.typeEscaped = this._typeEscaped;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsOwnerPermissions | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._full = undefined;
-      this._instances = undefined;
-      this._operations = undefined;
-      this._typeEscaped = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._full = value.full;
-      this._instances = value.instances;
-      this._operations = value.operations;
-      this._typeEscaped = value.typeEscaped;
-    }
-  }
-
-  // full - computed: true, optional: true, required: false
-  private _full?: string; 
-  public get full() {
-    return this.getStringAttribute('full');
-  }
-  public set full(value: string) {
-    this._full = value;
-  }
-  public resetFull() {
-    this._full = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get fullInput() {
-    return this._full;
-  }
-
-  // instances - computed: true, optional: true, required: false
-  private _instances?: string[]; 
-  public get instances() {
-    return this.getListAttribute('instances');
-  }
-  public set instances(value: string[]) {
-    this._instances = value;
-  }
-  public resetInstances() {
-    this._instances = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get instancesInput() {
-    return this._instances;
-  }
-
-  // operations - computed: true, optional: true, required: false
-  private _operations?: string[]; 
-  public get operations() {
-    return cdktf.Fn.tolist(this.getListAttribute('operations'));
-  }
-  public set operations(value: string[]) {
-    this._operations = value;
-  }
-  public resetOperations() {
-    this._operations = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get operationsInput() {
-    return this._operations;
-  }
-
-  // type_escaped - computed: true, optional: true, required: false
-  private _typeEscaped?: string; 
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-  public set typeEscaped(value: string) {
-    this._typeEscaped = value;
-  }
-  public resetTypeEscaped() {
-    this._typeEscaped = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get typeEscapedInput() {
-    return this._typeEscaped;
-  }
-}
-
-export class GroupContentAdministeredSystemsOwnerPermissionsList extends cdktf.ComplexList {
-  public internalValue? : GroupContentAdministeredSystemsOwnerPermissions[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): GroupContentAdministeredSystemsOwnerPermissionsOutputReference {
-    return new GroupContentAdministeredSystemsOwnerPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface GroupContentAdministeredSystemsOwner {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#name Group#name}
-  */
-  readonly name: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#organizational_unit Group#organizational_unit}
-  */
-  readonly organizationalUnit?: GroupContentAdministeredSystemsOwnerOrganizationalUnit;
-}
-
-export function groupContentAdministeredSystemsOwnerToTerraform(struct?: GroupContentAdministeredSystemsOwner): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    name: cdktf.stringToTerraform(struct!.name),
-    organizational_unit: groupContentAdministeredSystemsOwnerOrganizationalUnitToTerraform(struct!.organizationalUnit),
-  }
-}
-
-
-export function groupContentAdministeredSystemsOwnerToHclTerraform(struct?: GroupContentAdministeredSystemsOwner): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    organizational_unit: {
-      value: groupContentAdministeredSystemsOwnerOrganizationalUnitToHclTerraform(struct!.organizationalUnit),
-      isBlock: true,
-      type: "struct",
-      storageClassType: "GroupContentAdministeredSystemsOwnerOrganizationalUnit",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GroupContentAdministeredSystemsOwnerOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsOwner | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._name !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.name = this._name;
-    }
-    if (this._organizationalUnit?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.organizationalUnit = this._organizationalUnit?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsOwner | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._name = undefined;
-      this._organizationalUnit.internalValue = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._name = value.name;
-      this._organizationalUnit.internalValue = value.organizationalUnit;
-    }
-  }
-
-  // admin - computed: true, optional: false, required: false
-  public get admin() {
-    return this.getBooleanAttribute('admin');
-  }
-
-  // links - computed: true, optional: false, required: false
-  private _links = new GroupContentAdministeredSystemsOwnerLinksList(this, "links", false);
-  public get links() {
-    return this._links;
-  }
-
-  // name - computed: true, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
-  // organizational_unit - computed: true, optional: true, required: false
-  private _organizationalUnit = new GroupContentAdministeredSystemsOwnerOrganizationalUnitOutputReference(this, "organizational_unit");
-  public get organizationalUnit() {
-    return this._organizationalUnit;
-  }
-  public putOrganizationalUnit(value: GroupContentAdministeredSystemsOwnerOrganizationalUnit) {
-    this._organizationalUnit.internalValue = value;
-  }
-  public resetOrganizationalUnit() {
-    this._organizationalUnit.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get organizationalUnitInput() {
-    return this._organizationalUnit.internalValue;
-  }
-
-  // permissions - computed: true, optional: false, required: false
-  private _permissions = new GroupContentAdministeredSystemsOwnerPermissionsList(this, "permissions", false);
-  public get permissions() {
-    return this._permissions;
-  }
-
-  // uuid - computed: true, optional: false, required: false
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-}
-export interface GroupContentAdministeredSystemsPermissions {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#full Group#full}
-  */
-  readonly full?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#instances Group#instances}
-  */
-  readonly instances?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#operations Group#operations}
-  */
-  readonly operations?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#type_escaped Group#type_escaped}
-  */
-  readonly typeEscaped?: string;
-}
-
-export function groupContentAdministeredSystemsPermissionsToTerraform(struct?: GroupContentAdministeredSystemsPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    full: cdktf.stringToTerraform(struct!.full),
-    instances: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.instances),
-    operations: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.operations),
-    type_escaped: cdktf.stringToTerraform(struct!.typeEscaped),
-  }
-}
-
-
-export function groupContentAdministeredSystemsPermissionsToHclTerraform(struct?: GroupContentAdministeredSystemsPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    full: {
-      value: cdktf.stringToHclTerraform(struct!.full),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    instances: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.instances),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
-    },
-    operations: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.operations),
-      isBlock: false,
-      type: "set",
-      storageClassType: "stringList",
-    },
-    type_escaped: {
-      value: cdktf.stringToHclTerraform(struct!.typeEscaped),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GroupContentAdministeredSystemsPermissionsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsPermissions | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._full !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.full = this._full;
-    }
-    if (this._instances !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.instances = this._instances;
-    }
-    if (this._operations !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.operations = this._operations;
-    }
-    if (this._typeEscaped !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.typeEscaped = this._typeEscaped;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsPermissions | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._full = undefined;
-      this._instances = undefined;
-      this._operations = undefined;
-      this._typeEscaped = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._full = value.full;
-      this._instances = value.instances;
-      this._operations = value.operations;
-      this._typeEscaped = value.typeEscaped;
-    }
-  }
-
-  // full - computed: true, optional: true, required: false
-  private _full?: string; 
-  public get full() {
-    return this.getStringAttribute('full');
-  }
-  public set full(value: string) {
-    this._full = value;
-  }
-  public resetFull() {
-    this._full = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get fullInput() {
-    return this._full;
-  }
-
-  // instances - computed: true, optional: true, required: false
-  private _instances?: string[]; 
-  public get instances() {
-    return this.getListAttribute('instances');
-  }
-  public set instances(value: string[]) {
-    this._instances = value;
-  }
-  public resetInstances() {
-    this._instances = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get instancesInput() {
-    return this._instances;
-  }
-
-  // operations - computed: true, optional: true, required: false
-  private _operations?: string[]; 
-  public get operations() {
-    return cdktf.Fn.tolist(this.getListAttribute('operations'));
-  }
-  public set operations(value: string[]) {
-    this._operations = value;
-  }
-  public resetOperations() {
-    this._operations = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get operationsInput() {
-    return this._operations;
-  }
-
-  // type_escaped - computed: true, optional: true, required: false
-  private _typeEscaped?: string; 
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-  public set typeEscaped(value: string) {
-    this._typeEscaped = value;
-  }
-  public resetTypeEscaped() {
-    this._typeEscaped = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get typeEscapedInput() {
-    return this._typeEscaped;
-  }
-}
-
-export class GroupContentAdministeredSystemsPermissionsList extends cdktf.ComplexList {
-  public internalValue? : GroupContentAdministeredSystemsPermissions[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): GroupContentAdministeredSystemsPermissionsOutputReference {
-    return new GroupContentAdministeredSystemsPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface GroupContentAdministeredSystemsProvisionedAD {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#sam_account_name_scheme Group#sam_account_name_scheme}
-  */
-  readonly samAccountNameScheme: string;
-}
-
-export function groupContentAdministeredSystemsProvisionedADToTerraform(struct?: GroupContentAdministeredSystemsProvisionedAD | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    sam_account_name_scheme: cdktf.stringToTerraform(struct!.samAccountNameScheme),
-  }
-}
-
-
-export function groupContentAdministeredSystemsProvisionedADToHclTerraform(struct?: GroupContentAdministeredSystemsProvisionedAD | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    sam_account_name_scheme: {
-      value: cdktf.stringToHclTerraform(struct!.samAccountNameScheme),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GroupContentAdministeredSystemsProvisionedADOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsProvisionedAD | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._samAccountNameScheme !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.samAccountNameScheme = this._samAccountNameScheme;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsProvisionedAD | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._samAccountNameScheme = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._samAccountNameScheme = value.samAccountNameScheme;
-    }
-  }
-
-  // sam_account_name_scheme - computed: true, optional: false, required: true
-  private _samAccountNameScheme?: string; 
-  public get samAccountNameScheme() {
-    return this.getStringAttribute('sam_account_name_scheme');
-  }
-  public set samAccountNameScheme(value: string) {
-    this._samAccountNameScheme = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get samAccountNameSchemeInput() {
-    return this._samAccountNameScheme;
-  }
-}
-export interface GroupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectoryLinks {
-}
-
-export function groupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectoryLinksToTerraform(struct?: GroupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectoryLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function groupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectoryLinksToHclTerraform(struct?: GroupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectoryLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class GroupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectoryLinksOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectoryLinks | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectoryLinks | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // href - computed: true, optional: false, required: false
-  public get href() {
-    return this.getStringAttribute('href');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getNumberAttribute('id');
-  }
-
-  // rel - computed: true, optional: false, required: false
-  public get rel() {
-    return this.getStringAttribute('rel');
-  }
-
-  // type_escaped - computed: true, optional: false, required: false
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-}
-
-export class GroupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectoryLinksList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): GroupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectoryLinksOutputReference {
-    return new GroupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectoryLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface GroupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectoryPermissions {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#full Group#full}
-  */
-  readonly full?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#instances Group#instances}
-  */
-  readonly instances?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#operations Group#operations}
-  */
-  readonly operations?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#type_escaped Group#type_escaped}
-  */
-  readonly typeEscaped?: string;
-}
-
-export function groupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectoryPermissionsToTerraform(struct?: GroupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectoryPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    full: cdktf.stringToTerraform(struct!.full),
-    instances: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.instances),
-    operations: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.operations),
-    type_escaped: cdktf.stringToTerraform(struct!.typeEscaped),
-  }
-}
-
-
-export function groupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectoryPermissionsToHclTerraform(struct?: GroupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectoryPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    full: {
-      value: cdktf.stringToHclTerraform(struct!.full),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    instances: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.instances),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
-    },
-    operations: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.operations),
-      isBlock: false,
-      type: "set",
-      storageClassType: "stringList",
-    },
-    type_escaped: {
-      value: cdktf.stringToHclTerraform(struct!.typeEscaped),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GroupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectoryPermissionsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectoryPermissions | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._full !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.full = this._full;
-    }
-    if (this._instances !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.instances = this._instances;
-    }
-    if (this._operations !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.operations = this._operations;
-    }
-    if (this._typeEscaped !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.typeEscaped = this._typeEscaped;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectoryPermissions | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._full = undefined;
-      this._instances = undefined;
-      this._operations = undefined;
-      this._typeEscaped = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._full = value.full;
-      this._instances = value.instances;
-      this._operations = value.operations;
-      this._typeEscaped = value.typeEscaped;
-    }
-  }
-
-  // full - computed: true, optional: true, required: false
-  private _full?: string; 
-  public get full() {
-    return this.getStringAttribute('full');
-  }
-  public set full(value: string) {
-    this._full = value;
-  }
-  public resetFull() {
-    this._full = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get fullInput() {
-    return this._full;
-  }
-
-  // instances - computed: true, optional: true, required: false
-  private _instances?: string[]; 
-  public get instances() {
-    return this.getListAttribute('instances');
-  }
-  public set instances(value: string[]) {
-    this._instances = value;
-  }
-  public resetInstances() {
-    this._instances = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get instancesInput() {
-    return this._instances;
-  }
-
-  // operations - computed: true, optional: true, required: false
-  private _operations?: string[]; 
-  public get operations() {
-    return cdktf.Fn.tolist(this.getListAttribute('operations'));
-  }
-  public set operations(value: string[]) {
-    this._operations = value;
-  }
-  public resetOperations() {
-    this._operations = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get operationsInput() {
-    return this._operations;
-  }
-
-  // type_escaped - computed: true, optional: true, required: false
-  private _typeEscaped?: string; 
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-  public set typeEscaped(value: string) {
-    this._typeEscaped = value;
-  }
-  public resetTypeEscaped() {
-    this._typeEscaped = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get typeEscapedInput() {
-    return this._typeEscaped;
-  }
-}
-
-export class GroupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectoryPermissionsList extends cdktf.ComplexList {
-  public internalValue? : GroupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectoryPermissions[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): GroupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectoryPermissionsOutputReference {
-    return new GroupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectoryPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface GroupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectory {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#active Group#active}
-  */
-  readonly active?: boolean | cdktf.IResolvable;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#name Group#name}
-  */
-  readonly name: string;
-}
-
-export function groupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectoryToTerraform(struct?: GroupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectory): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    active: cdktf.booleanToTerraform(struct!.active),
-    name: cdktf.stringToTerraform(struct!.name),
-  }
-}
-
-
-export function groupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectoryToHclTerraform(struct?: GroupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectory): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    active: {
-      value: cdktf.booleanToHclTerraform(struct!.active),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GroupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectoryOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectory | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._active !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.active = this._active;
-    }
-    if (this._name !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.name = this._name;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectory | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._active = undefined;
-      this._name = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._active = value.active;
-      this._name = value.name;
-    }
-  }
-
-  // account_validity_supported - computed: true, optional: false, required: false
-  public get accountValiditySupported() {
-    return this.getBooleanAttribute('account_validity_supported');
-  }
-
-  // active - computed: true, optional: true, required: false
-  private _active?: boolean | cdktf.IResolvable; 
-  public get active() {
-    return this.getBooleanAttribute('active');
-  }
-  public set active(value: boolean | cdktf.IResolvable) {
-    this._active = value;
-  }
-  public resetActive() {
-    this._active = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get activeInput() {
-    return this._active;
-  }
-
-  // links - computed: true, optional: false, required: false
-  private _links = new GroupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectoryLinksList(this, "links", false);
-  public get links() {
-    return this._links;
-  }
-
-  // name - computed: true, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
-  // permissions - computed: true, optional: false, required: false
-  private _permissions = new GroupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectoryPermissionsList(this, "permissions", false);
-  public get permissions() {
-    return this._permissions;
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-
-  // uuid - computed: true, optional: false, required: false
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-}
-export interface GroupContentAdministeredSystemsProvisionedAzureOidcDirectory {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#accounts_writable Group#accounts_writable}
-  */
-  readonly accountsWritable?: boolean | cdktf.IResolvable;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#directory Group#directory}
-  */
-  readonly directory: GroupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectory;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#tenant Group#tenant}
-  */
-  readonly tenant: string;
-}
-
-export function groupContentAdministeredSystemsProvisionedAzureOidcDirectoryToTerraform(struct?: GroupContentAdministeredSystemsProvisionedAzureOidcDirectory | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    accounts_writable: cdktf.booleanToTerraform(struct!.accountsWritable),
-    directory: groupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectoryToTerraform(struct!.directory),
-    tenant: cdktf.stringToTerraform(struct!.tenant),
-  }
-}
-
-
-export function groupContentAdministeredSystemsProvisionedAzureOidcDirectoryToHclTerraform(struct?: GroupContentAdministeredSystemsProvisionedAzureOidcDirectory | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    accounts_writable: {
-      value: cdktf.booleanToHclTerraform(struct!.accountsWritable),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    directory: {
-      value: groupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectoryToHclTerraform(struct!.directory),
-      isBlock: true,
-      type: "struct",
-      storageClassType: "GroupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectory",
-    },
-    tenant: {
-      value: cdktf.stringToHclTerraform(struct!.tenant),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GroupContentAdministeredSystemsProvisionedAzureOidcDirectoryOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsProvisionedAzureOidcDirectory | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._accountsWritable !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.accountsWritable = this._accountsWritable;
-    }
-    if (this._directory?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.directory = this._directory?.internalValue;
-    }
-    if (this._tenant !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.tenant = this._tenant;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsProvisionedAzureOidcDirectory | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._accountsWritable = undefined;
-      this._directory.internalValue = undefined;
-      this._tenant = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._accountsWritable = value.accountsWritable;
-      this._directory.internalValue = value.directory;
-      this._tenant = value.tenant;
-    }
-  }
-
-  // accounts_writable - computed: true, optional: true, required: false
-  private _accountsWritable?: boolean | cdktf.IResolvable; 
-  public get accountsWritable() {
-    return this.getBooleanAttribute('accounts_writable');
-  }
-  public set accountsWritable(value: boolean | cdktf.IResolvable) {
-    this._accountsWritable = value;
-  }
-  public resetAccountsWritable() {
-    this._accountsWritable = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get accountsWritableInput() {
-    return this._accountsWritable;
-  }
-
-  // directory - computed: true, optional: false, required: true
-  private _directory = new GroupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectoryOutputReference(this, "directory");
-  public get directory() {
-    return this._directory;
-  }
-  public putDirectory(value: GroupContentAdministeredSystemsProvisionedAzureOidcDirectoryDirectory) {
-    this._directory.internalValue = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get directoryInput() {
-    return this._directory.internalValue;
-  }
-
-  // tenant - computed: true, optional: false, required: true
-  private _tenant?: string; 
-  public get tenant() {
-    return this.getStringAttribute('tenant');
-  }
-  public set tenant(value: string) {
-    this._tenant = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get tenantInput() {
-    return this._tenant;
-  }
-}
-export interface GroupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectoryLinks {
-}
-
-export function groupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectoryLinksToTerraform(struct?: GroupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectoryLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function groupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectoryLinksToHclTerraform(struct?: GroupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectoryLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class GroupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectoryLinksOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectoryLinks | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectoryLinks | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // href - computed: true, optional: false, required: false
-  public get href() {
-    return this.getStringAttribute('href');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getNumberAttribute('id');
-  }
-
-  // rel - computed: true, optional: false, required: false
-  public get rel() {
-    return this.getStringAttribute('rel');
-  }
-
-  // type_escaped - computed: true, optional: false, required: false
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-}
-
-export class GroupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectoryLinksList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): GroupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectoryLinksOutputReference {
-    return new GroupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectoryLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface GroupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectoryPermissions {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#full Group#full}
-  */
-  readonly full?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#instances Group#instances}
-  */
-  readonly instances?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#operations Group#operations}
-  */
-  readonly operations?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#type_escaped Group#type_escaped}
-  */
-  readonly typeEscaped?: string;
-}
-
-export function groupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectoryPermissionsToTerraform(struct?: GroupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectoryPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    full: cdktf.stringToTerraform(struct!.full),
-    instances: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.instances),
-    operations: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.operations),
-    type_escaped: cdktf.stringToTerraform(struct!.typeEscaped),
-  }
-}
-
-
-export function groupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectoryPermissionsToHclTerraform(struct?: GroupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectoryPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    full: {
-      value: cdktf.stringToHclTerraform(struct!.full),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    instances: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.instances),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
-    },
-    operations: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.operations),
-      isBlock: false,
-      type: "set",
-      storageClassType: "stringList",
-    },
-    type_escaped: {
-      value: cdktf.stringToHclTerraform(struct!.typeEscaped),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GroupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectoryPermissionsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectoryPermissions | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._full !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.full = this._full;
-    }
-    if (this._instances !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.instances = this._instances;
-    }
-    if (this._operations !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.operations = this._operations;
-    }
-    if (this._typeEscaped !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.typeEscaped = this._typeEscaped;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectoryPermissions | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._full = undefined;
-      this._instances = undefined;
-      this._operations = undefined;
-      this._typeEscaped = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._full = value.full;
-      this._instances = value.instances;
-      this._operations = value.operations;
-      this._typeEscaped = value.typeEscaped;
-    }
-  }
-
-  // full - computed: true, optional: true, required: false
-  private _full?: string; 
-  public get full() {
-    return this.getStringAttribute('full');
-  }
-  public set full(value: string) {
-    this._full = value;
-  }
-  public resetFull() {
-    this._full = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get fullInput() {
-    return this._full;
-  }
-
-  // instances - computed: true, optional: true, required: false
-  private _instances?: string[]; 
-  public get instances() {
-    return this.getListAttribute('instances');
-  }
-  public set instances(value: string[]) {
-    this._instances = value;
-  }
-  public resetInstances() {
-    this._instances = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get instancesInput() {
-    return this._instances;
-  }
-
-  // operations - computed: true, optional: true, required: false
-  private _operations?: string[]; 
-  public get operations() {
-    return cdktf.Fn.tolist(this.getListAttribute('operations'));
-  }
-  public set operations(value: string[]) {
-    this._operations = value;
-  }
-  public resetOperations() {
-    this._operations = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get operationsInput() {
-    return this._operations;
-  }
-
-  // type_escaped - computed: true, optional: true, required: false
-  private _typeEscaped?: string; 
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-  public set typeEscaped(value: string) {
-    this._typeEscaped = value;
-  }
-  public resetTypeEscaped() {
-    this._typeEscaped = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get typeEscapedInput() {
-    return this._typeEscaped;
-  }
-}
-
-export class GroupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectoryPermissionsList extends cdktf.ComplexList {
-  public internalValue? : GroupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectoryPermissions[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): GroupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectoryPermissionsOutputReference {
-    return new GroupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectoryPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface GroupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectory {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#active Group#active}
-  */
-  readonly active?: boolean | cdktf.IResolvable;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#name Group#name}
-  */
-  readonly name: string;
-}
-
-export function groupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectoryToTerraform(struct?: GroupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectory): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    active: cdktf.booleanToTerraform(struct!.active),
-    name: cdktf.stringToTerraform(struct!.name),
-  }
-}
-
-
-export function groupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectoryToHclTerraform(struct?: GroupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectory): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    active: {
-      value: cdktf.booleanToHclTerraform(struct!.active),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GroupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectoryOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectory | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._active !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.active = this._active;
-    }
-    if (this._name !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.name = this._name;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectory | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._active = undefined;
-      this._name = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._active = value.active;
-      this._name = value.name;
-    }
-  }
-
-  // account_validity_supported - computed: true, optional: false, required: false
-  public get accountValiditySupported() {
-    return this.getBooleanAttribute('account_validity_supported');
-  }
-
-  // active - computed: true, optional: true, required: false
-  private _active?: boolean | cdktf.IResolvable; 
-  public get active() {
-    return this.getBooleanAttribute('active');
-  }
-  public set active(value: boolean | cdktf.IResolvable) {
-    this._active = value;
-  }
-  public resetActive() {
-    this._active = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get activeInput() {
-    return this._active;
-  }
-
-  // links - computed: true, optional: false, required: false
-  private _links = new GroupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectoryLinksList(this, "links", false);
-  public get links() {
-    return this._links;
-  }
-
-  // name - computed: true, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
-  // permissions - computed: true, optional: false, required: false
-  private _permissions = new GroupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectoryPermissionsList(this, "permissions", false);
-  public get permissions() {
-    return this._permissions;
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-
-  // uuid - computed: true, optional: false, required: false
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-}
-export interface GroupContentAdministeredSystemsProvisionedAzureSyncLdapDirectory {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#client_id Group#client_id}
-  */
-  readonly clientId: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#client_secret Group#client_secret}
-  */
-  readonly clientSecret: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#directory Group#directory}
-  */
-  readonly directory: GroupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectory;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#tenant Group#tenant}
-  */
-  readonly tenant: string;
-}
-
-export function groupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryToTerraform(struct?: GroupContentAdministeredSystemsProvisionedAzureSyncLdapDirectory | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    client_id: cdktf.stringToTerraform(struct!.clientId),
-    client_secret: cdktf.stringToTerraform(struct!.clientSecret),
-    directory: groupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectoryToTerraform(struct!.directory),
-    tenant: cdktf.stringToTerraform(struct!.tenant),
-  }
-}
-
-
-export function groupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryToHclTerraform(struct?: GroupContentAdministeredSystemsProvisionedAzureSyncLdapDirectory | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    client_id: {
-      value: cdktf.stringToHclTerraform(struct!.clientId),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    client_secret: {
-      value: cdktf.stringToHclTerraform(struct!.clientSecret),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    directory: {
-      value: groupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectoryToHclTerraform(struct!.directory),
-      isBlock: true,
-      type: "struct",
-      storageClassType: "GroupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectory",
-    },
-    tenant: {
-      value: cdktf.stringToHclTerraform(struct!.tenant),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GroupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsProvisionedAzureSyncLdapDirectory | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._clientId !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.clientId = this._clientId;
-    }
-    if (this._clientSecret !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.clientSecret = this._clientSecret;
-    }
-    if (this._directory?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.directory = this._directory?.internalValue;
-    }
-    if (this._tenant !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.tenant = this._tenant;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsProvisionedAzureSyncLdapDirectory | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._clientId = undefined;
-      this._clientSecret = undefined;
-      this._directory.internalValue = undefined;
-      this._tenant = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._clientId = value.clientId;
-      this._clientSecret = value.clientSecret;
-      this._directory.internalValue = value.directory;
-      this._tenant = value.tenant;
-    }
-  }
-
-  // client_id - computed: true, optional: false, required: true
-  private _clientId?: string; 
-  public get clientId() {
-    return this.getStringAttribute('client_id');
-  }
-  public set clientId(value: string) {
-    this._clientId = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get clientIdInput() {
-    return this._clientId;
-  }
-
-  // client_secret - computed: true, optional: false, required: true
-  private _clientSecret?: string; 
-  public get clientSecret() {
-    return this.getStringAttribute('client_secret');
-  }
-  public set clientSecret(value: string) {
-    this._clientSecret = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get clientSecretInput() {
-    return this._clientSecret;
-  }
-
-  // directory - computed: true, optional: false, required: true
-  private _directory = new GroupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectoryOutputReference(this, "directory");
-  public get directory() {
-    return this._directory;
-  }
-  public putDirectory(value: GroupContentAdministeredSystemsProvisionedAzureSyncLdapDirectoryDirectory) {
-    this._directory.internalValue = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get directoryInput() {
-    return this._directory.internalValue;
-  }
-
-  // tenant - computed: true, optional: false, required: true
-  private _tenant?: string; 
-  public get tenant() {
-    return this.getStringAttribute('tenant');
-  }
-  public set tenant(value: string) {
-    this._tenant = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get tenantInput() {
-    return this._tenant;
-  }
-}
-export interface GroupContentAdministeredSystemsProvisionedAzureTenant {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#client_id Group#client_id}
-  */
-  readonly clientId: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#client_secret Group#client_secret}
-  */
-  readonly clientSecret: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#idp_domain Group#idp_domain}
-  */
-  readonly idpDomain?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#tenant Group#tenant}
-  */
-  readonly tenant: string;
-}
-
-export function groupContentAdministeredSystemsProvisionedAzureTenantToTerraform(struct?: GroupContentAdministeredSystemsProvisionedAzureTenant | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    client_id: cdktf.stringToTerraform(struct!.clientId),
-    client_secret: cdktf.stringToTerraform(struct!.clientSecret),
-    idp_domain: cdktf.stringToTerraform(struct!.idpDomain),
-    tenant: cdktf.stringToTerraform(struct!.tenant),
-  }
-}
-
-
-export function groupContentAdministeredSystemsProvisionedAzureTenantToHclTerraform(struct?: GroupContentAdministeredSystemsProvisionedAzureTenant | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    client_id: {
-      value: cdktf.stringToHclTerraform(struct!.clientId),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    client_secret: {
-      value: cdktf.stringToHclTerraform(struct!.clientSecret),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    idp_domain: {
-      value: cdktf.stringToHclTerraform(struct!.idpDomain),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    tenant: {
-      value: cdktf.stringToHclTerraform(struct!.tenant),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GroupContentAdministeredSystemsProvisionedAzureTenantOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsProvisionedAzureTenant | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._clientId !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.clientId = this._clientId;
-    }
-    if (this._clientSecret !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.clientSecret = this._clientSecret;
-    }
-    if (this._idpDomain !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.idpDomain = this._idpDomain;
-    }
-    if (this._tenant !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.tenant = this._tenant;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsProvisionedAzureTenant | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._clientId = undefined;
-      this._clientSecret = undefined;
-      this._idpDomain = undefined;
-      this._tenant = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._clientId = value.clientId;
-      this._clientSecret = value.clientSecret;
-      this._idpDomain = value.idpDomain;
-      this._tenant = value.tenant;
-    }
-  }
-
-  // client_id - computed: true, optional: false, required: true
-  private _clientId?: string; 
-  public get clientId() {
-    return this.getStringAttribute('client_id');
-  }
-  public set clientId(value: string) {
-    this._clientId = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get clientIdInput() {
-    return this._clientId;
-  }
-
-  // client_secret - computed: true, optional: false, required: true
-  private _clientSecret?: string; 
-  public get clientSecret() {
-    return this.getStringAttribute('client_secret');
-  }
-  public set clientSecret(value: string) {
-    this._clientSecret = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get clientSecretInput() {
-    return this._clientSecret;
-  }
-
-  // idp_domain - computed: true, optional: true, required: false
-  private _idpDomain?: string; 
-  public get idpDomain() {
-    return this.getStringAttribute('idp_domain');
-  }
-  public set idpDomain(value: string) {
-    this._idpDomain = value;
-  }
-  public resetIdpDomain() {
-    this._idpDomain = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get idpDomainInput() {
-    return this._idpDomain;
-  }
-
-  // tenant - computed: true, optional: false, required: true
-  private _tenant?: string; 
-  public get tenant() {
-    return this.getStringAttribute('tenant');
-  }
-  public set tenant(value: string) {
-    this._tenant = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get tenantInput() {
-    return this._tenant;
-  }
-}
-export interface GroupContentAdministeredSystemsProvisionedInternalLdapClientClientCertificateLinks {
-}
-
-export function groupContentAdministeredSystemsProvisionedInternalLdapClientClientCertificateLinksToTerraform(struct?: GroupContentAdministeredSystemsProvisionedInternalLdapClientClientCertificateLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function groupContentAdministeredSystemsProvisionedInternalLdapClientClientCertificateLinksToHclTerraform(struct?: GroupContentAdministeredSystemsProvisionedInternalLdapClientClientCertificateLinks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class GroupContentAdministeredSystemsProvisionedInternalLdapClientClientCertificateLinksOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsProvisionedInternalLdapClientClientCertificateLinks | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsProvisionedInternalLdapClientClientCertificateLinks | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // href - computed: true, optional: false, required: false
-  public get href() {
-    return this.getStringAttribute('href');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getNumberAttribute('id');
-  }
-
-  // rel - computed: true, optional: false, required: false
-  public get rel() {
-    return this.getStringAttribute('rel');
-  }
-
-  // type_escaped - computed: true, optional: false, required: false
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-}
-
-export class GroupContentAdministeredSystemsProvisionedInternalLdapClientClientCertificateLinksList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): GroupContentAdministeredSystemsProvisionedInternalLdapClientClientCertificateLinksOutputReference {
-    return new GroupContentAdministeredSystemsProvisionedInternalLdapClientClientCertificateLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface GroupContentAdministeredSystemsProvisionedInternalLdapClientClientCertificatePermissions {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#full Group#full}
-  */
-  readonly full?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#instances Group#instances}
-  */
-  readonly instances?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#operations Group#operations}
-  */
-  readonly operations?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/group#type_escaped Group#type_escaped}
-  */
-  readonly typeEscaped?: string;
-}
-
-export function groupContentAdministeredSystemsProvisionedInternalLdapClientClientCertificatePermissionsToTerraform(struct?: GroupContentAdministeredSystemsProvisionedInternalLdapClientClientCertificatePermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    full: cdktf.stringToTerraform(struct!.full),
-    instances: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.instances),
-    operations: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.operations),
-    type_escaped: cdktf.stringToTerraform(struct!.typeEscaped),
-  }
-}
-
-
-export function groupContentAdministeredSystemsProvisionedInternalLdapClientClientCertificatePermissionsToHclTerraform(struct?: GroupContentAdministeredSystemsProvisionedInternalLdapClientClientCertificatePermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    full: {
-      value: cdktf.stringToHclTerraform(struct!.full),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    instances: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.instances),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
-    },
-    operations: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.operations),
-      isBlock: false,
-      type: "set",
-      storageClassType: "stringList",
-    },
-    type_escaped: {
-      value: cdktf.stringToHclTerraform(struct!.typeEscaped),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class GroupContentAdministeredSystemsProvisionedInternalLdapClientClientCertificatePermissionsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): GroupContentAdministeredSystemsProvisionedInternalLdapClientClientCertificatePermissions | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._full !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.full = this._full;
-    }
-    if (this._instances !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.instances = this._instances;
-    }
-    if (this._operations !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.operations = this._operations;
-    }
-    if (this._typeEscaped !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.typeEscaped = this._typeEscaped;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: GroupContentAdministeredSystemsProvisionedInternalLdapClientClientCertificatePermissions | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._full = undefined;
-      this._instances = undefined;
-      this._operations = undefined;
-      this._typeEscaped = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._full = value.full;
-      this._instances = value.instances;
-      this._operations = value.operations;
-      this._typeEscaped = value.typeEscaped;
-    }
-  }
-
-  // full - computed: true, optional: true, required: false
-  private _full?: string; 
-  public get full() {
-    return this.getStringAttribute('full');
-  }
-  public set full(value: string) {
-    this._full = value;
-  }
-  public resetFull() {
-    this._full = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get fullInput() {
-    return this._full;
-  }
-
-  // instances - computed: true, optional: true, required: false
-  private _instances?: string[]; 
-  public get instances() {
-    return this.getListAttribute('instances');
-  }
-  public set instances(value: string[]) {
-    this._instances = value;
-  }
-  public resetInstances() {
-    this._instances = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get instancesInput() {
-    return this._instances;
-  }
-
-  // operations - computed: true, optional: true, required: false
-  private _operations?: string[]; 
-  public get operations() {
-    return cdktf.Fn.tolist(this.getListAttribute('operations'));
-  }
-  public set operations(value: string[]) {
-    this._operations = value;
-  }
-  public resetOperations() {
-    this._operations = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get operationsInput() {
-    return this._operations;
-  }
-
-  // type_escaped - computed: true, optional: true, required: false
-  private _typeEscaped?: string; 
-  public get typeEscaped() {
-    return this.getStringAttribute('type_escaped');
-  }
-  public set typeEscaped(value: string) {
-    this._typeEscaped = value;
-  }
-  public resetTypeEscaped() {
-    this._typeEscaped = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get typeEscapedInput() {
-    return this._typeEscaped;
-  }
-}
-
-export class GroupContentAdministeredSystemsProvisionedInternalLdapClientClientCertificatePermissionsList extends cdktf.ComplexList {
-  public internalValue? : GroupContentAdministeredSystemsProvisionedInternalLdapClientClientCertificatePermissions[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): GroupContentAdministeredSystemsProvisionedInternalLdapClientClientCertificatePermissionsOutputReference {
-    return new GroupContentAdministeredSystemsProvisionedInternalLdapClientClientCertificatePermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }

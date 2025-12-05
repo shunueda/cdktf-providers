@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/data-sources/account
+// https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/data-sources/account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataKeyhubAccountConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/data-sources/account#additional DataKeyhubAccount#additional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/data-sources/account#additional DataKeyhubAccount#additional}
   */
   readonly additional?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/data-sources/account#uuid DataKeyhubAccount#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/data-sources/account#uuid DataKeyhubAccount#uuid}
   */
   readonly uuid: string;
 }
@@ -2844,7 +2844,7 @@ export class DataKeyhubAccountVaultOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/data-sources/account keyhub_account}
+* Represents a {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/data-sources/account keyhub_account}
 */
 export class DataKeyhubAccount extends cdktf.TerraformDataSource {
 
@@ -2860,7 +2860,7 @@ export class DataKeyhubAccount extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataKeyhubAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataKeyhubAccount to import
-  * @param importFromId The id of the existing DataKeyhubAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/data-sources/account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataKeyhubAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/data-sources/account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataKeyhubAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2872,7 +2872,7 @@ export class DataKeyhubAccount extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/data-sources/account keyhub_account} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/data-sources/account keyhub_account} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2883,8 +2883,8 @@ export class DataKeyhubAccount extends cdktf.TerraformDataSource {
       terraformResourceType: 'keyhub_account',
       terraformGeneratorMetadata: {
         providerName: 'keyhub',
-        providerVersion: '2.44.0',
-        providerVersionConstraint: '2.44.0'
+        providerVersion: '2.45.0',
+        providerVersionConstraint: '2.45.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

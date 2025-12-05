@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication
+// https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,59 +8,59 @@ import * as cdktf from 'cdktf';
 
 export interface ClientapplicationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#accessprofileclients Clientapplication#accessprofileclients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#accessprofileclients Clientapplication#accessprofileclients}
   */
   readonly accessprofileclients?: ClientapplicationAccessprofileclients[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#additional Clientapplication#additional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#additional Clientapplication#additional}
   */
   readonly additional?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#client_id Clientapplication#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#client_id Clientapplication#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#delete_tile Clientapplication#delete_tile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#delete_tile Clientapplication#delete_tile}
   */
   readonly deleteTile?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#groupclients Clientapplication#groupclients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#generate_secret Clientapplication#generate_secret}
+  */
+  readonly generateSecret?: ClientapplicationGenerateSecret;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#groupclients Clientapplication#groupclients}
   */
   readonly groupclients?: ClientapplicationGroupclients[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#ldap_client Clientapplication#ldap_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#ldap_client Clientapplication#ldap_client}
   */
   readonly ldapClient?: ClientapplicationLdapClient;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#name Clientapplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#name Clientapplication#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#oauth2_client Clientapplication#oauth2_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#oauth2_client Clientapplication#oauth2_client}
   */
   readonly oauth2Client?: ClientapplicationOauth2Client;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#owner_uuid Clientapplication#owner_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#owner_uuid Clientapplication#owner_uuid}
   */
   readonly ownerUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#saml2_client Clientapplication#saml2_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#saml2_client Clientapplication#saml2_client}
   */
   readonly saml2Client?: ClientapplicationSaml2Client;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#scopes Clientapplication#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#scopes Clientapplication#scopes}
   */
   readonly scopes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#secret Clientapplication#secret}
-  */
-  readonly secret?: ClientapplicationSecret;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#technical_administrator_uuid Clientapplication#technical_administrator_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#technical_administrator_uuid Clientapplication#technical_administrator_uuid}
   */
   readonly technicalAdministratorUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#tile Clientapplication#tile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#tile Clientapplication#tile}
   */
   readonly tile?: ClientapplicationTile;
 }
@@ -156,19 +156,19 @@ export class ClientapplicationAccessprofileclientsClientLinksList extends cdktf.
 }
 export interface ClientapplicationAccessprofileclientsClientPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#full Clientapplication#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#full Clientapplication#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#instances Clientapplication#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#instances Clientapplication#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#operations Clientapplication#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#operations Clientapplication#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -361,15 +361,15 @@ export class ClientapplicationAccessprofileclientsClientPermissionsList extends 
 }
 export interface ClientapplicationAccessprofileclientsClient {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#client_id Clientapplication#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#client_id Clientapplication#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#name Clientapplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#name Clientapplication#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#scopes Clientapplication#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#scopes Clientapplication#scopes}
   */
   readonly scopes?: string[];
 }
@@ -625,19 +625,19 @@ export class ClientapplicationAccessprofileclientsLinksList extends cdktf.Comple
 }
 export interface ClientapplicationAccessprofileclientsPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#full Clientapplication#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#full Clientapplication#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#instances Clientapplication#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#instances Clientapplication#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#operations Clientapplication#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#operations Clientapplication#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -830,7 +830,7 @@ export class ClientapplicationAccessprofileclientsPermissionsList extends cdktf.
 }
 export interface ClientapplicationAccessprofileclients {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#access_profile_uuid Clientapplication#access_profile_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#access_profile_uuid Clientapplication#access_profile_uuid}
   */
   readonly accessProfileUuid: string;
 }
@@ -1028,6 +1028,133 @@ export class ClientapplicationAuditOutputReference extends cdktf.ComplexObject {
     return this.getStringAttribute('last_modified_by');
   }
 }
+export interface ClientapplicationGenerateSecret {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#old_secret Clientapplication#old_secret}
+  */
+  readonly oldSecret?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#regenerate Clientapplication#regenerate}
+  */
+  readonly regenerate?: boolean | cdktf.IResolvable;
+}
+
+export function clientapplicationGenerateSecretToTerraform(struct?: ClientapplicationGenerateSecret | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    old_secret: cdktf.stringToTerraform(struct!.oldSecret),
+    regenerate: cdktf.booleanToTerraform(struct!.regenerate),
+  }
+}
+
+
+export function clientapplicationGenerateSecretToHclTerraform(struct?: ClientapplicationGenerateSecret | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    old_secret: {
+      value: cdktf.stringToHclTerraform(struct!.oldSecret),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    regenerate: {
+      value: cdktf.booleanToHclTerraform(struct!.regenerate),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ClientapplicationGenerateSecretOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): ClientapplicationGenerateSecret | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._oldSecret !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.oldSecret = this._oldSecret;
+    }
+    if (this._regenerate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.regenerate = this._regenerate;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClientapplicationGenerateSecret | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._oldSecret = undefined;
+      this._regenerate = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._oldSecret = value.oldSecret;
+      this._regenerate = value.regenerate;
+    }
+  }
+
+  // old_secret - computed: false, optional: true, required: false
+  private _oldSecret?: string; 
+  public get oldSecret() {
+    return this.getStringAttribute('old_secret');
+  }
+  public set oldSecret(value: string) {
+    this._oldSecret = value;
+  }
+  public resetOldSecret() {
+    this._oldSecret = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get oldSecretInput() {
+    return this._oldSecret;
+  }
+
+  // regenerate - computed: false, optional: true, required: false
+  private _regenerate?: boolean | cdktf.IResolvable; 
+  public get regenerate() {
+    return this.getBooleanAttribute('regenerate');
+  }
+  public set regenerate(value: boolean | cdktf.IResolvable) {
+    this._regenerate = value;
+  }
+  public resetRegenerate() {
+    this._regenerate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get regenerateInput() {
+    return this._regenerate;
+  }
+}
 export interface ClientapplicationGroupclientsClientLinks {
 }
 
@@ -1120,19 +1247,19 @@ export class ClientapplicationGroupclientsClientLinksList extends cdktf.ComplexL
 }
 export interface ClientapplicationGroupclientsClientPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#full Clientapplication#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#full Clientapplication#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#instances Clientapplication#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#instances Clientapplication#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#operations Clientapplication#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#operations Clientapplication#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -1325,15 +1452,15 @@ export class ClientapplicationGroupclientsClientPermissionsList extends cdktf.Co
 }
 export interface ClientapplicationGroupclientsClient {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#client_id Clientapplication#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#client_id Clientapplication#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#name Clientapplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#name Clientapplication#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#scopes Clientapplication#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#scopes Clientapplication#scopes}
   */
   readonly scopes?: string[];
 }
@@ -1589,19 +1716,19 @@ export class ClientapplicationGroupclientsLinksList extends cdktf.ComplexList {
 }
 export interface ClientapplicationGroupclientsPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#full Clientapplication#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#full Clientapplication#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#instances Clientapplication#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#instances Clientapplication#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#operations Clientapplication#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#operations Clientapplication#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -1794,19 +1921,19 @@ export class ClientapplicationGroupclientsPermissionsList extends cdktf.ComplexL
 }
 export interface ClientapplicationGroupclients {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#activation_required Clientapplication#activation_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#activation_required Clientapplication#activation_required}
   */
   readonly activationRequired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#group_uuid Clientapplication#group_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#group_uuid Clientapplication#group_uuid}
   */
   readonly groupUuid: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#owner_uuid Clientapplication#owner_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#owner_uuid Clientapplication#owner_uuid}
   */
   readonly ownerUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#technical_administrator_uuid Clientapplication#technical_administrator_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#technical_administrator_uuid Clientapplication#technical_administrator_uuid}
   */
   readonly technicalAdministratorUuid?: string;
 }
@@ -2114,19 +2241,19 @@ export class ClientapplicationGroupsAuditConfigLinksList extends cdktf.ComplexLi
 }
 export interface ClientapplicationGroupsAuditConfigPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#full Clientapplication#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#full Clientapplication#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#instances Clientapplication#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#instances Clientapplication#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#operations Clientapplication#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#operations Clientapplication#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -2319,7 +2446,7 @@ export class ClientapplicationGroupsAuditConfigPermissionsList extends cdktf.Com
 }
 export interface ClientapplicationGroupsAuditConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#months Clientapplication#months}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#months Clientapplication#months}
   */
   readonly months?: string[];
 }
@@ -2605,19 +2732,19 @@ export class ClientapplicationGroupsAuthorizingGroupAuditingOrganizationalUnitLi
 }
 export interface ClientapplicationGroupsAuthorizingGroupAuditingOrganizationalUnitPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#full Clientapplication#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#full Clientapplication#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#instances Clientapplication#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#instances Clientapplication#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#operations Clientapplication#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#operations Clientapplication#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -2810,7 +2937,7 @@ export class ClientapplicationGroupsAuthorizingGroupAuditingOrganizationalUnitPe
 }
 export interface ClientapplicationGroupsAuthorizingGroupAuditingOrganizationalUnit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#name Clientapplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#name Clientapplication#name}
   */
   readonly name: string;
 }
@@ -2918,19 +3045,19 @@ export class ClientapplicationGroupsAuthorizingGroupAuditingOrganizationalUnitOu
 }
 export interface ClientapplicationGroupsAuthorizingGroupAuditingPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#full Clientapplication#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#full Clientapplication#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#instances Clientapplication#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#instances Clientapplication#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#operations Clientapplication#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#operations Clientapplication#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -3123,11 +3250,11 @@ export class ClientapplicationGroupsAuthorizingGroupAuditingPermissionsList exte
 }
 export interface ClientapplicationGroupsAuthorizingGroupAuditing {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#name Clientapplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#name Clientapplication#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#organizational_unit Clientapplication#organizational_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#organizational_unit Clientapplication#organizational_unit}
   */
   readonly organizationalUnit?: ClientapplicationGroupsAuthorizingGroupAuditingOrganizationalUnit;
 }
@@ -3449,19 +3576,19 @@ export class ClientapplicationGroupsAuthorizingGroupDelegationOrganizationalUnit
 }
 export interface ClientapplicationGroupsAuthorizingGroupDelegationOrganizationalUnitPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#full Clientapplication#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#full Clientapplication#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#instances Clientapplication#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#instances Clientapplication#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#operations Clientapplication#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#operations Clientapplication#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -3654,7 +3781,7 @@ export class ClientapplicationGroupsAuthorizingGroupDelegationOrganizationalUnit
 }
 export interface ClientapplicationGroupsAuthorizingGroupDelegationOrganizationalUnit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#name Clientapplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#name Clientapplication#name}
   */
   readonly name: string;
 }
@@ -3762,19 +3889,19 @@ export class ClientapplicationGroupsAuthorizingGroupDelegationOrganizationalUnit
 }
 export interface ClientapplicationGroupsAuthorizingGroupDelegationPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#full Clientapplication#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#full Clientapplication#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#instances Clientapplication#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#instances Clientapplication#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#operations Clientapplication#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#operations Clientapplication#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -3967,11 +4094,11 @@ export class ClientapplicationGroupsAuthorizingGroupDelegationPermissionsList ex
 }
 export interface ClientapplicationGroupsAuthorizingGroupDelegation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#name Clientapplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#name Clientapplication#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#organizational_unit Clientapplication#organizational_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#organizational_unit Clientapplication#organizational_unit}
   */
   readonly organizationalUnit?: ClientapplicationGroupsAuthorizingGroupDelegationOrganizationalUnit;
 }
@@ -4293,19 +4420,19 @@ export class ClientapplicationGroupsAuthorizingGroupMembershipOrganizationalUnit
 }
 export interface ClientapplicationGroupsAuthorizingGroupMembershipOrganizationalUnitPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#full Clientapplication#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#full Clientapplication#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#instances Clientapplication#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#instances Clientapplication#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#operations Clientapplication#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#operations Clientapplication#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -4498,7 +4625,7 @@ export class ClientapplicationGroupsAuthorizingGroupMembershipOrganizationalUnit
 }
 export interface ClientapplicationGroupsAuthorizingGroupMembershipOrganizationalUnit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#name Clientapplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#name Clientapplication#name}
   */
   readonly name: string;
 }
@@ -4606,19 +4733,19 @@ export class ClientapplicationGroupsAuthorizingGroupMembershipOrganizationalUnit
 }
 export interface ClientapplicationGroupsAuthorizingGroupMembershipPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#full Clientapplication#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#full Clientapplication#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#instances Clientapplication#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#instances Clientapplication#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#operations Clientapplication#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#operations Clientapplication#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -4811,11 +4938,11 @@ export class ClientapplicationGroupsAuthorizingGroupMembershipPermissionsList ex
 }
 export interface ClientapplicationGroupsAuthorizingGroupMembership {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#name Clientapplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#name Clientapplication#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#organizational_unit Clientapplication#organizational_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#organizational_unit Clientapplication#organizational_unit}
   */
   readonly organizationalUnit?: ClientapplicationGroupsAuthorizingGroupMembershipOrganizationalUnit;
 }
@@ -5137,19 +5264,19 @@ export class ClientapplicationGroupsAuthorizingGroupProvisioningOrganizationalUn
 }
 export interface ClientapplicationGroupsAuthorizingGroupProvisioningOrganizationalUnitPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#full Clientapplication#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#full Clientapplication#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#instances Clientapplication#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#instances Clientapplication#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#operations Clientapplication#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#operations Clientapplication#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -5342,7 +5469,7 @@ export class ClientapplicationGroupsAuthorizingGroupProvisioningOrganizationalUn
 }
 export interface ClientapplicationGroupsAuthorizingGroupProvisioningOrganizationalUnit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#name Clientapplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#name Clientapplication#name}
   */
   readonly name: string;
 }
@@ -5450,19 +5577,19 @@ export class ClientapplicationGroupsAuthorizingGroupProvisioningOrganizationalUn
 }
 export interface ClientapplicationGroupsAuthorizingGroupProvisioningPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#full Clientapplication#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#full Clientapplication#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#instances Clientapplication#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#instances Clientapplication#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#operations Clientapplication#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#operations Clientapplication#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -5655,11 +5782,11 @@ export class ClientapplicationGroupsAuthorizingGroupProvisioningPermissionsList 
 }
 export interface ClientapplicationGroupsAuthorizingGroupProvisioning {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#name Clientapplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#name Clientapplication#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#organizational_unit Clientapplication#organizational_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#organizational_unit Clientapplication#organizational_unit}
   */
   readonly organizationalUnit?: ClientapplicationGroupsAuthorizingGroupProvisioningOrganizationalUnit;
 }
@@ -5891,19 +6018,19 @@ export class ClientapplicationGroupsClassificationLinksList extends cdktf.Comple
 }
 export interface ClientapplicationGroupsClassificationPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#full Clientapplication#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#full Clientapplication#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#instances Clientapplication#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#instances Clientapplication#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#operations Clientapplication#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#operations Clientapplication#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -6096,7 +6223,7 @@ export class ClientapplicationGroupsClassificationPermissionsList extends cdktf.
 }
 export interface ClientapplicationGroupsClassification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#name Clientapplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#name Clientapplication#name}
   */
   readonly name: string;
 }
@@ -6474,19 +6601,19 @@ export class ClientapplicationGroupsNestedUnderOrganizationalUnitLinksList exten
 }
 export interface ClientapplicationGroupsNestedUnderOrganizationalUnitPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#full Clientapplication#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#full Clientapplication#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#instances Clientapplication#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#instances Clientapplication#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#operations Clientapplication#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#operations Clientapplication#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -6679,7 +6806,7 @@ export class ClientapplicationGroupsNestedUnderOrganizationalUnitPermissionsList
 }
 export interface ClientapplicationGroupsNestedUnderOrganizationalUnit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#name Clientapplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#name Clientapplication#name}
   */
   readonly name: string;
 }
@@ -6787,19 +6914,19 @@ export class ClientapplicationGroupsNestedUnderOrganizationalUnitOutputReference
 }
 export interface ClientapplicationGroupsNestedUnderPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#full Clientapplication#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#full Clientapplication#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#instances Clientapplication#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#instances Clientapplication#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#operations Clientapplication#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#operations Clientapplication#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -6992,11 +7119,11 @@ export class ClientapplicationGroupsNestedUnderPermissionsList extends cdktf.Com
 }
 export interface ClientapplicationGroupsNestedUnder {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#name Clientapplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#name Clientapplication#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#organizational_unit Clientapplication#organizational_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#organizational_unit Clientapplication#organizational_unit}
   */
   readonly organizationalUnit?: ClientapplicationGroupsNestedUnderOrganizationalUnit;
 }
@@ -7228,19 +7355,19 @@ export class ClientapplicationGroupsOrganizationalUnitLinksList extends cdktf.Co
 }
 export interface ClientapplicationGroupsOrganizationalUnitPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#full Clientapplication#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#full Clientapplication#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#instances Clientapplication#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#instances Clientapplication#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#operations Clientapplication#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#operations Clientapplication#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -7433,7 +7560,7 @@ export class ClientapplicationGroupsOrganizationalUnitPermissionsList extends cd
 }
 export interface ClientapplicationGroupsOrganizationalUnit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#name Clientapplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#name Clientapplication#name}
   */
   readonly name: string;
 }
@@ -7541,19 +7668,19 @@ export class ClientapplicationGroupsOrganizationalUnitOutputReference extends cd
 }
 export interface ClientapplicationGroupsPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#full Clientapplication#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#full Clientapplication#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#instances Clientapplication#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#instances Clientapplication#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#operations Clientapplication#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#operations Clientapplication#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -7746,83 +7873,83 @@ export class ClientapplicationGroupsPermissionsList extends cdktf.ComplexList {
 }
 export interface ClientapplicationGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#application_administration Clientapplication#application_administration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#application_administration Clientapplication#application_administration}
   */
   readonly applicationAdministration?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#audit_config Clientapplication#audit_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#audit_config Clientapplication#audit_config}
   */
   readonly auditConfig?: ClientapplicationGroupsAuditConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#authorizing_group_auditing Clientapplication#authorizing_group_auditing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#authorizing_group_auditing Clientapplication#authorizing_group_auditing}
   */
   readonly authorizingGroupAuditing?: ClientapplicationGroupsAuthorizingGroupAuditing;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#authorizing_group_delegation Clientapplication#authorizing_group_delegation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#authorizing_group_delegation Clientapplication#authorizing_group_delegation}
   */
   readonly authorizingGroupDelegation?: ClientapplicationGroupsAuthorizingGroupDelegation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#authorizing_group_membership Clientapplication#authorizing_group_membership}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#authorizing_group_membership Clientapplication#authorizing_group_membership}
   */
   readonly authorizingGroupMembership?: ClientapplicationGroupsAuthorizingGroupMembership;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#authorizing_group_provisioning Clientapplication#authorizing_group_provisioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#authorizing_group_provisioning Clientapplication#authorizing_group_provisioning}
   */
   readonly authorizingGroupProvisioning?: ClientapplicationGroupsAuthorizingGroupProvisioning;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#classification Clientapplication#classification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#classification Clientapplication#classification}
   */
   readonly classification?: ClientapplicationGroupsClassification;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#description Clientapplication#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#description Clientapplication#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#extended_access Clientapplication#extended_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#extended_access Clientapplication#extended_access}
   */
   readonly extendedAccess?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#hide_audit_trail Clientapplication#hide_audit_trail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#hide_audit_trail Clientapplication#hide_audit_trail}
   */
   readonly hideAuditTrail?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#name Clientapplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#name Clientapplication#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#nested_under Clientapplication#nested_under}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#nested_under Clientapplication#nested_under}
   */
   readonly nestedUnder?: ClientapplicationGroupsNestedUnder;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#organizational_unit Clientapplication#organizational_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#organizational_unit Clientapplication#organizational_unit}
   */
   readonly organizationalUnit?: ClientapplicationGroupsOrganizationalUnit;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#private_group Clientapplication#private_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#private_group Clientapplication#private_group}
   */
   readonly privateGroup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#profile_administration Clientapplication#profile_administration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#profile_administration Clientapplication#profile_administration}
   */
   readonly profileAdministration?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#record_trail Clientapplication#record_trail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#record_trail Clientapplication#record_trail}
   */
   readonly recordTrail?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#rotating_password_required Clientapplication#rotating_password_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#rotating_password_required Clientapplication#rotating_password_required}
   */
   readonly rotatingPasswordRequired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#single_managed Clientapplication#single_managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#single_managed Clientapplication#single_managed}
   */
   readonly singleManaged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#vault_recovery Clientapplication#vault_recovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#vault_recovery Clientapplication#vault_recovery}
   */
   readonly vaultRecovery?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#vault_requires_activation Clientapplication#vault_requires_activation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#vault_requires_activation Clientapplication#vault_requires_activation}
   */
   readonly vaultRequiresActivation?: boolean | cdktf.IResolvable;
 }
@@ -8598,19 +8725,19 @@ export class ClientapplicationLdapClientSharedSecretLinksList extends cdktf.Comp
 }
 export interface ClientapplicationLdapClientSharedSecretPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#full Clientapplication#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#full Clientapplication#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#instances Clientapplication#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#instances Clientapplication#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#operations Clientapplication#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#operations Clientapplication#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -8803,11 +8930,11 @@ export class ClientapplicationLdapClientSharedSecretPermissionsList extends cdkt
 }
 export interface ClientapplicationLdapClientSharedSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#color Clientapplication#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#color Clientapplication#color}
   */
   readonly color?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#name Clientapplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#name Clientapplication#name}
   */
   readonly name: string;
 }
@@ -8939,11 +9066,11 @@ export class ClientapplicationLdapClientSharedSecretOutputReference extends cdkt
 }
 export interface ClientapplicationLdapClient {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#client_certificate_uuid Clientapplication#client_certificate_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#client_certificate_uuid Clientapplication#client_certificate_uuid}
   */
   readonly clientCertificateUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#share_secret_in_vault Clientapplication#share_secret_in_vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#share_secret_in_vault Clientapplication#share_secret_in_vault}
   */
   readonly shareSecretInVault?: boolean | cdktf.IResolvable;
 }
@@ -9074,11 +9201,6 @@ export class ClientapplicationLdapClientOutputReference extends cdktf.ComplexObj
   public get sharedSecret() {
     return this._sharedSecret;
   }
-
-  // used_for_provisioning - computed: true, optional: false, required: false
-  public get usedForProvisioning() {
-    return this.getBooleanAttribute('used_for_provisioning');
-  }
 }
 export interface ClientapplicationLinks {
 }
@@ -9172,19 +9294,19 @@ export class ClientapplicationLinksList extends cdktf.ComplexList {
 }
 export interface ClientapplicationOauth2ClientAccountPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#full Clientapplication#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#full Clientapplication#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#instances Clientapplication#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#instances Clientapplication#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#operations Clientapplication#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#operations Clientapplication#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -9375,6 +9497,750 @@ export class ClientapplicationOauth2ClientAccountPermissionsList extends cdktf.C
     return new ClientapplicationOauth2ClientAccountPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface ClientapplicationOauth2ClientAttributesAttributeDefinitionLinks {
+}
+
+export function clientapplicationOauth2ClientAttributesAttributeDefinitionLinksToTerraform(struct?: ClientapplicationOauth2ClientAttributesAttributeDefinitionLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function clientapplicationOauth2ClientAttributesAttributeDefinitionLinksToHclTerraform(struct?: ClientapplicationOauth2ClientAttributesAttributeDefinitionLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class ClientapplicationOauth2ClientAttributesAttributeDefinitionLinksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ClientapplicationOauth2ClientAttributesAttributeDefinitionLinks | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClientapplicationOauth2ClientAttributesAttributeDefinitionLinks | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // href - computed: true, optional: false, required: false
+  public get href() {
+    return this.getStringAttribute('href');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getNumberAttribute('id');
+  }
+
+  // rel - computed: true, optional: false, required: false
+  public get rel() {
+    return this.getStringAttribute('rel');
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class ClientapplicationOauth2ClientAttributesAttributeDefinitionLinksList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ClientapplicationOauth2ClientAttributesAttributeDefinitionLinksOutputReference {
+    return new ClientapplicationOauth2ClientAttributesAttributeDefinitionLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ClientapplicationOauth2ClientAttributesAttributeDefinitionPermissions {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#full Clientapplication#full}
+  */
+  readonly full?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#instances Clientapplication#instances}
+  */
+  readonly instances?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#operations Clientapplication#operations}
+  */
+  readonly operations?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
+  */
+  readonly typeEscaped?: string;
+}
+
+export function clientapplicationOauth2ClientAttributesAttributeDefinitionPermissionsToTerraform(struct?: ClientapplicationOauth2ClientAttributesAttributeDefinitionPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    full: cdktf.stringToTerraform(struct!.full),
+    instances: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.instances),
+    operations: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.operations),
+    type_escaped: cdktf.stringToTerraform(struct!.typeEscaped),
+  }
+}
+
+
+export function clientapplicationOauth2ClientAttributesAttributeDefinitionPermissionsToHclTerraform(struct?: ClientapplicationOauth2ClientAttributesAttributeDefinitionPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    full: {
+      value: cdktf.stringToHclTerraform(struct!.full),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    instances: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.instances),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    operations: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.operations),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+    type_escaped: {
+      value: cdktf.stringToHclTerraform(struct!.typeEscaped),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ClientapplicationOauth2ClientAttributesAttributeDefinitionPermissionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ClientapplicationOauth2ClientAttributesAttributeDefinitionPermissions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._full !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.full = this._full;
+    }
+    if (this._instances !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.instances = this._instances;
+    }
+    if (this._operations !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.operations = this._operations;
+    }
+    if (this._typeEscaped !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.typeEscaped = this._typeEscaped;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClientapplicationOauth2ClientAttributesAttributeDefinitionPermissions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._full = undefined;
+      this._instances = undefined;
+      this._operations = undefined;
+      this._typeEscaped = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._full = value.full;
+      this._instances = value.instances;
+      this._operations = value.operations;
+      this._typeEscaped = value.typeEscaped;
+    }
+  }
+
+  // full - computed: true, optional: true, required: false
+  private _full?: string; 
+  public get full() {
+    return this.getStringAttribute('full');
+  }
+  public set full(value: string) {
+    this._full = value;
+  }
+  public resetFull() {
+    this._full = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fullInput() {
+    return this._full;
+  }
+
+  // instances - computed: true, optional: true, required: false
+  private _instances?: string[]; 
+  public get instances() {
+    return this.getListAttribute('instances');
+  }
+  public set instances(value: string[]) {
+    this._instances = value;
+  }
+  public resetInstances() {
+    this._instances = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instancesInput() {
+    return this._instances;
+  }
+
+  // operations - computed: true, optional: true, required: false
+  private _operations?: string[]; 
+  public get operations() {
+    return cdktf.Fn.tolist(this.getListAttribute('operations'));
+  }
+  public set operations(value: string[]) {
+    this._operations = value;
+  }
+  public resetOperations() {
+    this._operations = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get operationsInput() {
+    return this._operations;
+  }
+
+  // type_escaped - computed: true, optional: true, required: false
+  private _typeEscaped?: string; 
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+  public set typeEscaped(value: string) {
+    this._typeEscaped = value;
+  }
+  public resetTypeEscaped() {
+    this._typeEscaped = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeEscapedInput() {
+    return this._typeEscaped;
+  }
+}
+
+export class ClientapplicationOauth2ClientAttributesAttributeDefinitionPermissionsList extends cdktf.ComplexList {
+  public internalValue? : ClientapplicationOauth2ClientAttributesAttributeDefinitionPermissions[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ClientapplicationOauth2ClientAttributesAttributeDefinitionPermissionsOutputReference {
+    return new ClientapplicationOauth2ClientAttributesAttributeDefinitionPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ClientapplicationOauth2ClientAttributesAttributeDefinition {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#format Clientapplication#format}
+  */
+  readonly format: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#freely_useable Clientapplication#freely_useable}
+  */
+  readonly freelyUseable?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#list Clientapplication#list}
+  */
+  readonly list?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#name Clientapplication#name}
+  */
+  readonly name: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#required Clientapplication#required}
+  */
+  readonly required?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#unique Clientapplication#unique}
+  */
+  readonly unique?: boolean | cdktf.IResolvable;
+}
+
+export function clientapplicationOauth2ClientAttributesAttributeDefinitionToTerraform(struct?: ClientapplicationOauth2ClientAttributesAttributeDefinition | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    format: cdktf.stringToTerraform(struct!.format),
+    freely_useable: cdktf.booleanToTerraform(struct!.freelyUseable),
+    list: cdktf.booleanToTerraform(struct!.list),
+    name: cdktf.stringToTerraform(struct!.name),
+    required: cdktf.booleanToTerraform(struct!.required),
+    unique: cdktf.booleanToTerraform(struct!.unique),
+  }
+}
+
+
+export function clientapplicationOauth2ClientAttributesAttributeDefinitionToHclTerraform(struct?: ClientapplicationOauth2ClientAttributesAttributeDefinition | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    format: {
+      value: cdktf.stringToHclTerraform(struct!.format),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    freely_useable: {
+      value: cdktf.booleanToHclTerraform(struct!.freelyUseable),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    list: {
+      value: cdktf.booleanToHclTerraform(struct!.list),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    required: {
+      value: cdktf.booleanToHclTerraform(struct!.required),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    unique: {
+      value: cdktf.booleanToHclTerraform(struct!.unique),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ClientapplicationOauth2ClientAttributesAttributeDefinitionOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): ClientapplicationOauth2ClientAttributesAttributeDefinition | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._format !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.format = this._format;
+    }
+    if (this._freelyUseable !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.freelyUseable = this._freelyUseable;
+    }
+    if (this._list !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.list = this._list;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._required !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.required = this._required;
+    }
+    if (this._unique !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.unique = this._unique;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClientapplicationOauth2ClientAttributesAttributeDefinition | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._format = undefined;
+      this._freelyUseable = undefined;
+      this._list = undefined;
+      this._name = undefined;
+      this._required = undefined;
+      this._unique = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._format = value.format;
+      this._freelyUseable = value.freelyUseable;
+      this._list = value.list;
+      this._name = value.name;
+      this._required = value.required;
+      this._unique = value.unique;
+    }
+  }
+
+  // format - computed: true, optional: false, required: true
+  private _format?: string; 
+  public get format() {
+    return this.getStringAttribute('format');
+  }
+  public set format(value: string) {
+    this._format = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get formatInput() {
+    return this._format;
+  }
+
+  // freely_useable - computed: true, optional: true, required: false
+  private _freelyUseable?: boolean | cdktf.IResolvable; 
+  public get freelyUseable() {
+    return this.getBooleanAttribute('freely_useable');
+  }
+  public set freelyUseable(value: boolean | cdktf.IResolvable) {
+    this._freelyUseable = value;
+  }
+  public resetFreelyUseable() {
+    this._freelyUseable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get freelyUseableInput() {
+    return this._freelyUseable;
+  }
+
+  // links - computed: true, optional: false, required: false
+  private _links = new ClientapplicationOauth2ClientAttributesAttributeDefinitionLinksList(this, "links", false);
+  public get links() {
+    return this._links;
+  }
+
+  // list - computed: true, optional: true, required: false
+  private _list?: boolean | cdktf.IResolvable; 
+  public get list() {
+    return this.getBooleanAttribute('list');
+  }
+  public set list(value: boolean | cdktf.IResolvable) {
+    this._list = value;
+  }
+  public resetList() {
+    this._list = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get listInput() {
+    return this._list;
+  }
+
+  // name - computed: true, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // permissions - computed: true, optional: false, required: false
+  private _permissions = new ClientapplicationOauth2ClientAttributesAttributeDefinitionPermissionsList(this, "permissions", false);
+  public get permissions() {
+    return this._permissions;
+  }
+
+  // required - computed: true, optional: true, required: false
+  private _required?: boolean | cdktf.IResolvable; 
+  public get required() {
+    return this.getBooleanAttribute('required');
+  }
+  public set required(value: boolean | cdktf.IResolvable) {
+    this._required = value;
+  }
+  public resetRequired() {
+    this._required = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get requiredInput() {
+    return this._required;
+  }
+
+  // system_definition - computed: true, optional: false, required: false
+  public get systemDefinition() {
+    return this.getStringAttribute('system_definition');
+  }
+
+  // unique - computed: true, optional: true, required: false
+  private _unique?: boolean | cdktf.IResolvable; 
+  public get unique() {
+    return this.getBooleanAttribute('unique');
+  }
+  public set unique(value: boolean | cdktf.IResolvable) {
+    this._unique = value;
+  }
+  public resetUnique() {
+    this._unique = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uniqueInput() {
+    return this._unique;
+  }
+}
+export interface ClientapplicationOauth2ClientAttributes {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#attribute_definition Clientapplication#attribute_definition}
+  */
+  readonly attributeDefinition?: ClientapplicationOauth2ClientAttributesAttributeDefinition;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#name Clientapplication#name}
+  */
+  readonly name: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#script Clientapplication#script}
+  */
+  readonly script?: string;
+}
+
+export function clientapplicationOauth2ClientAttributesToTerraform(struct?: ClientapplicationOauth2ClientAttributes | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    attribute_definition: clientapplicationOauth2ClientAttributesAttributeDefinitionToTerraform(struct!.attributeDefinition),
+    name: cdktf.stringToTerraform(struct!.name),
+    script: cdktf.stringToTerraform(struct!.script),
+  }
+}
+
+
+export function clientapplicationOauth2ClientAttributesToHclTerraform(struct?: ClientapplicationOauth2ClientAttributes | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    attribute_definition: {
+      value: clientapplicationOauth2ClientAttributesAttributeDefinitionToHclTerraform(struct!.attributeDefinition),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "ClientapplicationOauth2ClientAttributesAttributeDefinition",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    script: {
+      value: cdktf.stringToHclTerraform(struct!.script),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ClientapplicationOauth2ClientAttributesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ClientapplicationOauth2ClientAttributes | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._attributeDefinition?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.attributeDefinition = this._attributeDefinition?.internalValue;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._script !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.script = this._script;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClientapplicationOauth2ClientAttributes | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._attributeDefinition.internalValue = undefined;
+      this._name = undefined;
+      this._script = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._attributeDefinition.internalValue = value.attributeDefinition;
+      this._name = value.name;
+      this._script = value.script;
+    }
+  }
+
+  // attribute_definition - computed: true, optional: true, required: false
+  private _attributeDefinition = new ClientapplicationOauth2ClientAttributesAttributeDefinitionOutputReference(this, "attribute_definition");
+  public get attributeDefinition() {
+    return this._attributeDefinition;
+  }
+  public putAttributeDefinition(value: ClientapplicationOauth2ClientAttributesAttributeDefinition) {
+    this._attributeDefinition.internalValue = value;
+  }
+  public resetAttributeDefinition() {
+    this._attributeDefinition.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get attributeDefinitionInput() {
+    return this._attributeDefinition.internalValue;
+  }
+
+  // name - computed: true, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // script - computed: true, optional: true, required: false
+  private _script?: string; 
+  public get script() {
+    return this.getStringAttribute('script');
+  }
+  public set script(value: string) {
+    this._script = value;
+  }
+  public resetScript() {
+    this._script = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scriptInput() {
+    return this._script;
+  }
+}
+
+export class ClientapplicationOauth2ClientAttributesList extends cdktf.ComplexList {
+  public internalValue? : ClientapplicationOauth2ClientAttributes[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ClientapplicationOauth2ClientAttributesOutputReference {
+    return new ClientapplicationOauth2ClientAttributesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ClientapplicationOauth2ClientSharedSecretLinks {
 }
 
@@ -9467,19 +10333,19 @@ export class ClientapplicationOauth2ClientSharedSecretLinksList extends cdktf.Co
 }
 export interface ClientapplicationOauth2ClientSharedSecretPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#full Clientapplication#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#full Clientapplication#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#instances Clientapplication#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#instances Clientapplication#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#operations Clientapplication#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#operations Clientapplication#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -9672,11 +10538,11 @@ export class ClientapplicationOauth2ClientSharedSecretPermissionsList extends cd
 }
 export interface ClientapplicationOauth2ClientSharedSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#color Clientapplication#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#color Clientapplication#color}
   */
   readonly color?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#name Clientapplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#name Clientapplication#name}
   */
   readonly name: string;
 }
@@ -9808,39 +10674,39 @@ export class ClientapplicationOauth2ClientSharedSecretOutputReference extends cd
 }
 export interface ClientapplicationOauth2Client {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#attributes Clientapplication#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#attributes Clientapplication#attributes}
   */
-  readonly attributes?: { [key: string]: string };
+  readonly attributes?: ClientapplicationOauth2ClientAttributes[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#callback_uri Clientapplication#callback_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#callback_uri Clientapplication#callback_uri}
   */
   readonly callbackUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#debug_mode Clientapplication#debug_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#debug_mode Clientapplication#debug_mode}
   */
   readonly debugMode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#id_token_claims Clientapplication#id_token_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#id_token_claims Clientapplication#id_token_claims}
   */
   readonly idTokenClaims?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#initiate_login_uri Clientapplication#initiate_login_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#initiate_login_uri Clientapplication#initiate_login_uri}
   */
   readonly initiateLoginUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#profile Clientapplication#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#profile Clientapplication#profile}
   */
   readonly profile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#resource_uris Clientapplication#resource_uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#resource_uris Clientapplication#resource_uris}
   */
   readonly resourceUris?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#share_secret_in_vault Clientapplication#share_secret_in_vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#share_secret_in_vault Clientapplication#share_secret_in_vault}
   */
   readonly shareSecretInVault?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#show_landing_page Clientapplication#show_landing_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#show_landing_page Clientapplication#show_landing_page}
   */
   readonly showLandingPage?: boolean | cdktf.IResolvable;
 }
@@ -9851,7 +10717,7 @@ export function clientapplicationOauth2ClientToTerraform(struct?: Clientapplicat
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    attributes: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.attributes),
+    attributes: cdktf.listMapper(clientapplicationOauth2ClientAttributesToTerraform, false)(struct!.attributes),
     callback_uri: cdktf.stringToTerraform(struct!.callbackUri),
     debug_mode: cdktf.booleanToTerraform(struct!.debugMode),
     id_token_claims: cdktf.stringToTerraform(struct!.idTokenClaims),
@@ -9871,10 +10737,10 @@ export function clientapplicationOauth2ClientToHclTerraform(struct?: Clientappli
   }
   const attrs = {
     attributes: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.attributes),
-      isBlock: false,
-      type: "map",
-      storageClassType: "stringMap",
+      value: cdktf.listMapperHcl(clientapplicationOauth2ClientAttributesToHclTerraform, false)(struct!.attributes),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ClientapplicationOauth2ClientAttributesList",
     },
     callback_uri: {
       value: cdktf.stringToHclTerraform(struct!.callbackUri),
@@ -9948,9 +10814,9 @@ export class ClientapplicationOauth2ClientOutputReference extends cdktf.ComplexO
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._attributes !== undefined) {
+    if (this._attributes?.internalValue !== undefined) {
       hasAnyValues = true;
-      internalValueResult.attributes = this._attributes;
+      internalValueResult.attributes = this._attributes?.internalValue;
     }
     if (this._callbackUri !== undefined) {
       hasAnyValues = true;
@@ -9991,7 +10857,7 @@ export class ClientapplicationOauth2ClientOutputReference extends cdktf.ComplexO
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
-      this._attributes = undefined;
+      this._attributes.internalValue = undefined;
       this._callbackUri = undefined;
       this._debugMode = undefined;
       this._idTokenClaims = undefined;
@@ -10008,7 +10874,7 @@ export class ClientapplicationOauth2ClientOutputReference extends cdktf.ComplexO
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
-      this._attributes = value.attributes;
+      this._attributes.internalValue = value.attributes;
       this._callbackUri = value.callbackUri;
       this._debugMode = value.debugMode;
       this._idTokenClaims = value.idTokenClaims;
@@ -10027,19 +10893,19 @@ export class ClientapplicationOauth2ClientOutputReference extends cdktf.ComplexO
   }
 
   // attributes - computed: true, optional: true, required: false
-  private _attributes?: { [key: string]: string }; 
+  private _attributes = new ClientapplicationOauth2ClientAttributesList(this, "attributes", false);
   public get attributes() {
-    return this.getStringMapAttribute('attributes');
+    return this._attributes;
   }
-  public set attributes(value: { [key: string]: string }) {
-    this._attributes = value;
+  public putAttributes(value: ClientapplicationOauth2ClientAttributes[] | cdktf.IResolvable) {
+    this._attributes.internalValue = value;
   }
   public resetAttributes() {
-    this._attributes = undefined;
+    this._attributes.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get attributesInput() {
-    return this._attributes;
+    return this._attributes.internalValue;
   }
 
   // callback_uri - computed: false, optional: true, required: false
@@ -10188,7 +11054,7 @@ export class ClientapplicationOauth2ClientOutputReference extends cdktf.ComplexO
 }
 export interface ClientapplicationOrganizationalUnits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#uuid Clientapplication#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#uuid Clientapplication#uuid}
   */
   readonly uuid: string;
 }
@@ -10291,19 +11157,19 @@ export class ClientapplicationOrganizationalUnitsList extends cdktf.ComplexList 
 }
 export interface ClientapplicationPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#full Clientapplication#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#full Clientapplication#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#instances Clientapplication#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#instances Clientapplication#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#operations Clientapplication#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#operations Clientapplication#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -10494,21 +11360,765 @@ export class ClientapplicationPermissionsList extends cdktf.ComplexList {
     return new ClientapplicationPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface ClientapplicationSaml2ClientAttributesAttributeDefinitionLinks {
+}
+
+export function clientapplicationSaml2ClientAttributesAttributeDefinitionLinksToTerraform(struct?: ClientapplicationSaml2ClientAttributesAttributeDefinitionLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function clientapplicationSaml2ClientAttributesAttributeDefinitionLinksToHclTerraform(struct?: ClientapplicationSaml2ClientAttributesAttributeDefinitionLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class ClientapplicationSaml2ClientAttributesAttributeDefinitionLinksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ClientapplicationSaml2ClientAttributesAttributeDefinitionLinks | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClientapplicationSaml2ClientAttributesAttributeDefinitionLinks | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // href - computed: true, optional: false, required: false
+  public get href() {
+    return this.getStringAttribute('href');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getNumberAttribute('id');
+  }
+
+  // rel - computed: true, optional: false, required: false
+  public get rel() {
+    return this.getStringAttribute('rel');
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class ClientapplicationSaml2ClientAttributesAttributeDefinitionLinksList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ClientapplicationSaml2ClientAttributesAttributeDefinitionLinksOutputReference {
+    return new ClientapplicationSaml2ClientAttributesAttributeDefinitionLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ClientapplicationSaml2ClientAttributesAttributeDefinitionPermissions {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#full Clientapplication#full}
+  */
+  readonly full?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#instances Clientapplication#instances}
+  */
+  readonly instances?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#operations Clientapplication#operations}
+  */
+  readonly operations?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
+  */
+  readonly typeEscaped?: string;
+}
+
+export function clientapplicationSaml2ClientAttributesAttributeDefinitionPermissionsToTerraform(struct?: ClientapplicationSaml2ClientAttributesAttributeDefinitionPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    full: cdktf.stringToTerraform(struct!.full),
+    instances: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.instances),
+    operations: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.operations),
+    type_escaped: cdktf.stringToTerraform(struct!.typeEscaped),
+  }
+}
+
+
+export function clientapplicationSaml2ClientAttributesAttributeDefinitionPermissionsToHclTerraform(struct?: ClientapplicationSaml2ClientAttributesAttributeDefinitionPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    full: {
+      value: cdktf.stringToHclTerraform(struct!.full),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    instances: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.instances),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    operations: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.operations),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+    type_escaped: {
+      value: cdktf.stringToHclTerraform(struct!.typeEscaped),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ClientapplicationSaml2ClientAttributesAttributeDefinitionPermissionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ClientapplicationSaml2ClientAttributesAttributeDefinitionPermissions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._full !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.full = this._full;
+    }
+    if (this._instances !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.instances = this._instances;
+    }
+    if (this._operations !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.operations = this._operations;
+    }
+    if (this._typeEscaped !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.typeEscaped = this._typeEscaped;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClientapplicationSaml2ClientAttributesAttributeDefinitionPermissions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._full = undefined;
+      this._instances = undefined;
+      this._operations = undefined;
+      this._typeEscaped = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._full = value.full;
+      this._instances = value.instances;
+      this._operations = value.operations;
+      this._typeEscaped = value.typeEscaped;
+    }
+  }
+
+  // full - computed: true, optional: true, required: false
+  private _full?: string; 
+  public get full() {
+    return this.getStringAttribute('full');
+  }
+  public set full(value: string) {
+    this._full = value;
+  }
+  public resetFull() {
+    this._full = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fullInput() {
+    return this._full;
+  }
+
+  // instances - computed: true, optional: true, required: false
+  private _instances?: string[]; 
+  public get instances() {
+    return this.getListAttribute('instances');
+  }
+  public set instances(value: string[]) {
+    this._instances = value;
+  }
+  public resetInstances() {
+    this._instances = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instancesInput() {
+    return this._instances;
+  }
+
+  // operations - computed: true, optional: true, required: false
+  private _operations?: string[]; 
+  public get operations() {
+    return cdktf.Fn.tolist(this.getListAttribute('operations'));
+  }
+  public set operations(value: string[]) {
+    this._operations = value;
+  }
+  public resetOperations() {
+    this._operations = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get operationsInput() {
+    return this._operations;
+  }
+
+  // type_escaped - computed: true, optional: true, required: false
+  private _typeEscaped?: string; 
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+  public set typeEscaped(value: string) {
+    this._typeEscaped = value;
+  }
+  public resetTypeEscaped() {
+    this._typeEscaped = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeEscapedInput() {
+    return this._typeEscaped;
+  }
+}
+
+export class ClientapplicationSaml2ClientAttributesAttributeDefinitionPermissionsList extends cdktf.ComplexList {
+  public internalValue? : ClientapplicationSaml2ClientAttributesAttributeDefinitionPermissions[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ClientapplicationSaml2ClientAttributesAttributeDefinitionPermissionsOutputReference {
+    return new ClientapplicationSaml2ClientAttributesAttributeDefinitionPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ClientapplicationSaml2ClientAttributesAttributeDefinition {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#format Clientapplication#format}
+  */
+  readonly format: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#freely_useable Clientapplication#freely_useable}
+  */
+  readonly freelyUseable?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#list Clientapplication#list}
+  */
+  readonly list?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#name Clientapplication#name}
+  */
+  readonly name: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#required Clientapplication#required}
+  */
+  readonly required?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#unique Clientapplication#unique}
+  */
+  readonly unique?: boolean | cdktf.IResolvable;
+}
+
+export function clientapplicationSaml2ClientAttributesAttributeDefinitionToTerraform(struct?: ClientapplicationSaml2ClientAttributesAttributeDefinition | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    format: cdktf.stringToTerraform(struct!.format),
+    freely_useable: cdktf.booleanToTerraform(struct!.freelyUseable),
+    list: cdktf.booleanToTerraform(struct!.list),
+    name: cdktf.stringToTerraform(struct!.name),
+    required: cdktf.booleanToTerraform(struct!.required),
+    unique: cdktf.booleanToTerraform(struct!.unique),
+  }
+}
+
+
+export function clientapplicationSaml2ClientAttributesAttributeDefinitionToHclTerraform(struct?: ClientapplicationSaml2ClientAttributesAttributeDefinition | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    format: {
+      value: cdktf.stringToHclTerraform(struct!.format),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    freely_useable: {
+      value: cdktf.booleanToHclTerraform(struct!.freelyUseable),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    list: {
+      value: cdktf.booleanToHclTerraform(struct!.list),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    required: {
+      value: cdktf.booleanToHclTerraform(struct!.required),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    unique: {
+      value: cdktf.booleanToHclTerraform(struct!.unique),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ClientapplicationSaml2ClientAttributesAttributeDefinitionOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): ClientapplicationSaml2ClientAttributesAttributeDefinition | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._format !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.format = this._format;
+    }
+    if (this._freelyUseable !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.freelyUseable = this._freelyUseable;
+    }
+    if (this._list !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.list = this._list;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._required !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.required = this._required;
+    }
+    if (this._unique !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.unique = this._unique;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClientapplicationSaml2ClientAttributesAttributeDefinition | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._format = undefined;
+      this._freelyUseable = undefined;
+      this._list = undefined;
+      this._name = undefined;
+      this._required = undefined;
+      this._unique = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._format = value.format;
+      this._freelyUseable = value.freelyUseable;
+      this._list = value.list;
+      this._name = value.name;
+      this._required = value.required;
+      this._unique = value.unique;
+    }
+  }
+
+  // format - computed: true, optional: false, required: true
+  private _format?: string; 
+  public get format() {
+    return this.getStringAttribute('format');
+  }
+  public set format(value: string) {
+    this._format = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get formatInput() {
+    return this._format;
+  }
+
+  // freely_useable - computed: true, optional: true, required: false
+  private _freelyUseable?: boolean | cdktf.IResolvable; 
+  public get freelyUseable() {
+    return this.getBooleanAttribute('freely_useable');
+  }
+  public set freelyUseable(value: boolean | cdktf.IResolvable) {
+    this._freelyUseable = value;
+  }
+  public resetFreelyUseable() {
+    this._freelyUseable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get freelyUseableInput() {
+    return this._freelyUseable;
+  }
+
+  // links - computed: true, optional: false, required: false
+  private _links = new ClientapplicationSaml2ClientAttributesAttributeDefinitionLinksList(this, "links", false);
+  public get links() {
+    return this._links;
+  }
+
+  // list - computed: true, optional: true, required: false
+  private _list?: boolean | cdktf.IResolvable; 
+  public get list() {
+    return this.getBooleanAttribute('list');
+  }
+  public set list(value: boolean | cdktf.IResolvable) {
+    this._list = value;
+  }
+  public resetList() {
+    this._list = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get listInput() {
+    return this._list;
+  }
+
+  // name - computed: true, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // permissions - computed: true, optional: false, required: false
+  private _permissions = new ClientapplicationSaml2ClientAttributesAttributeDefinitionPermissionsList(this, "permissions", false);
+  public get permissions() {
+    return this._permissions;
+  }
+
+  // required - computed: true, optional: true, required: false
+  private _required?: boolean | cdktf.IResolvable; 
+  public get required() {
+    return this.getBooleanAttribute('required');
+  }
+  public set required(value: boolean | cdktf.IResolvable) {
+    this._required = value;
+  }
+  public resetRequired() {
+    this._required = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get requiredInput() {
+    return this._required;
+  }
+
+  // system_definition - computed: true, optional: false, required: false
+  public get systemDefinition() {
+    return this.getStringAttribute('system_definition');
+  }
+
+  // unique - computed: true, optional: true, required: false
+  private _unique?: boolean | cdktf.IResolvable; 
+  public get unique() {
+    return this.getBooleanAttribute('unique');
+  }
+  public set unique(value: boolean | cdktf.IResolvable) {
+    this._unique = value;
+  }
+  public resetUnique() {
+    this._unique = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uniqueInput() {
+    return this._unique;
+  }
+}
+export interface ClientapplicationSaml2ClientAttributes {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#attribute_definition Clientapplication#attribute_definition}
+  */
+  readonly attributeDefinition?: ClientapplicationSaml2ClientAttributesAttributeDefinition;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#name Clientapplication#name}
+  */
+  readonly name: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#script Clientapplication#script}
+  */
+  readonly script?: string;
+}
+
+export function clientapplicationSaml2ClientAttributesToTerraform(struct?: ClientapplicationSaml2ClientAttributes | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    attribute_definition: clientapplicationSaml2ClientAttributesAttributeDefinitionToTerraform(struct!.attributeDefinition),
+    name: cdktf.stringToTerraform(struct!.name),
+    script: cdktf.stringToTerraform(struct!.script),
+  }
+}
+
+
+export function clientapplicationSaml2ClientAttributesToHclTerraform(struct?: ClientapplicationSaml2ClientAttributes | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    attribute_definition: {
+      value: clientapplicationSaml2ClientAttributesAttributeDefinitionToHclTerraform(struct!.attributeDefinition),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "ClientapplicationSaml2ClientAttributesAttributeDefinition",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    script: {
+      value: cdktf.stringToHclTerraform(struct!.script),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ClientapplicationSaml2ClientAttributesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ClientapplicationSaml2ClientAttributes | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._attributeDefinition?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.attributeDefinition = this._attributeDefinition?.internalValue;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._script !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.script = this._script;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClientapplicationSaml2ClientAttributes | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._attributeDefinition.internalValue = undefined;
+      this._name = undefined;
+      this._script = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._attributeDefinition.internalValue = value.attributeDefinition;
+      this._name = value.name;
+      this._script = value.script;
+    }
+  }
+
+  // attribute_definition - computed: true, optional: true, required: false
+  private _attributeDefinition = new ClientapplicationSaml2ClientAttributesAttributeDefinitionOutputReference(this, "attribute_definition");
+  public get attributeDefinition() {
+    return this._attributeDefinition;
+  }
+  public putAttributeDefinition(value: ClientapplicationSaml2ClientAttributesAttributeDefinition) {
+    this._attributeDefinition.internalValue = value;
+  }
+  public resetAttributeDefinition() {
+    this._attributeDefinition.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get attributeDefinitionInput() {
+    return this._attributeDefinition.internalValue;
+  }
+
+  // name - computed: true, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // script - computed: true, optional: true, required: false
+  private _script?: string; 
+  public get script() {
+    return this.getStringAttribute('script');
+  }
+  public set script(value: string) {
+    this._script = value;
+  }
+  public resetScript() {
+    this._script = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scriptInput() {
+    return this._script;
+  }
+}
+
+export class ClientapplicationSaml2ClientAttributesList extends cdktf.ComplexList {
+  public internalValue? : ClientapplicationSaml2ClientAttributes[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ClientapplicationSaml2ClientAttributesOutputReference {
+    return new ClientapplicationSaml2ClientAttributesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ClientapplicationSaml2Client {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#attributes Clientapplication#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#attributes Clientapplication#attributes}
   */
-  readonly attributes?: { [key: string]: string };
+  readonly attributes?: ClientapplicationSaml2ClientAttributes[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#metadata Clientapplication#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#metadata Clientapplication#metadata}
   */
   readonly metadata?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#metadata_url Clientapplication#metadata_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#metadata_url Clientapplication#metadata_url}
   */
   readonly metadataUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#subject_format Clientapplication#subject_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#subject_format Clientapplication#subject_format}
   */
   readonly subjectFormat: string;
 }
@@ -10519,7 +12129,7 @@ export function clientapplicationSaml2ClientToTerraform(struct?: Clientapplicati
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    attributes: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.attributes),
+    attributes: cdktf.listMapper(clientapplicationSaml2ClientAttributesToTerraform, false)(struct!.attributes),
     metadata: cdktf.stringToTerraform(struct!.metadata),
     metadata_url: cdktf.stringToTerraform(struct!.metadataUrl),
     subject_format: cdktf.stringToTerraform(struct!.subjectFormat),
@@ -10534,10 +12144,10 @@ export function clientapplicationSaml2ClientToHclTerraform(struct?: Clientapplic
   }
   const attrs = {
     attributes: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.attributes),
-      isBlock: false,
-      type: "map",
-      storageClassType: "stringMap",
+      value: cdktf.listMapperHcl(clientapplicationSaml2ClientAttributesToHclTerraform, false)(struct!.attributes),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ClientapplicationSaml2ClientAttributesList",
     },
     metadata: {
       value: cdktf.stringToHclTerraform(struct!.metadata),
@@ -10581,9 +12191,9 @@ export class ClientapplicationSaml2ClientOutputReference extends cdktf.ComplexOb
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._attributes !== undefined) {
+    if (this._attributes?.internalValue !== undefined) {
       hasAnyValues = true;
-      internalValueResult.attributes = this._attributes;
+      internalValueResult.attributes = this._attributes?.internalValue;
     }
     if (this._metadata !== undefined) {
       hasAnyValues = true;
@@ -10604,7 +12214,7 @@ export class ClientapplicationSaml2ClientOutputReference extends cdktf.ComplexOb
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
-      this._attributes = undefined;
+      this._attributes.internalValue = undefined;
       this._metadata = undefined;
       this._metadataUrl = undefined;
       this._subjectFormat = undefined;
@@ -10616,7 +12226,7 @@ export class ClientapplicationSaml2ClientOutputReference extends cdktf.ComplexOb
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
-      this._attributes = value.attributes;
+      this._attributes.internalValue = value.attributes;
       this._metadata = value.metadata;
       this._metadataUrl = value.metadataUrl;
       this._subjectFormat = value.subjectFormat;
@@ -10624,19 +12234,19 @@ export class ClientapplicationSaml2ClientOutputReference extends cdktf.ComplexOb
   }
 
   // attributes - computed: true, optional: true, required: false
-  private _attributes?: { [key: string]: string }; 
+  private _attributes = new ClientapplicationSaml2ClientAttributesList(this, "attributes", false);
   public get attributes() {
-    return this.getStringMapAttribute('attributes');
+    return this._attributes;
   }
-  public set attributes(value: { [key: string]: string }) {
-    this._attributes = value;
+  public putAttributes(value: ClientapplicationSaml2ClientAttributes[] | cdktf.IResolvable) {
+    this._attributes.internalValue = value;
   }
   public resetAttributes() {
-    this._attributes = undefined;
+    this._attributes.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get attributesInput() {
-    return this._attributes;
+    return this._attributes.internalValue;
   }
 
   // metadata - computed: false, optional: true, required: false
@@ -10685,45 +12295,200 @@ export class ClientapplicationSaml2ClientOutputReference extends cdktf.ComplexOb
   }
 }
 export interface ClientapplicationSecret {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#old_secret Clientapplication#old_secret}
-  */
-  readonly oldSecret?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#regenerate Clientapplication#regenerate}
-  */
-  readonly regenerate?: boolean | cdktf.IResolvable;
 }
 
-export function clientapplicationSecretToTerraform(struct?: ClientapplicationSecret | cdktf.IResolvable): any {
+export function clientapplicationSecretToTerraform(struct?: ClientapplicationSecret): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    old_secret: cdktf.stringToTerraform(struct!.oldSecret),
-    regenerate: cdktf.booleanToTerraform(struct!.regenerate),
   }
 }
 
 
-export function clientapplicationSecretToHclTerraform(struct?: ClientapplicationSecret | cdktf.IResolvable): any {
+export function clientapplicationSecretToHclTerraform(struct?: ClientapplicationSecret): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    old_secret: {
-      value: cdktf.stringToHclTerraform(struct!.oldSecret),
+  };
+  return attrs;
+}
+
+export class ClientapplicationSecretOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): ClientapplicationSecret | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClientapplicationSecret | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // secret - computed: true, optional: false, required: false
+  public get secret() {
+    return this.getStringAttribute('secret');
+  }
+}
+export interface ClientapplicationTileLinks {
+}
+
+export function clientapplicationTileLinksToTerraform(struct?: ClientapplicationTileLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function clientapplicationTileLinksToHclTerraform(struct?: ClientapplicationTileLinks): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class ClientapplicationTileLinksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ClientapplicationTileLinks | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClientapplicationTileLinks | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // href - computed: true, optional: false, required: false
+  public get href() {
+    return this.getStringAttribute('href');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getNumberAttribute('id');
+  }
+
+  // rel - computed: true, optional: false, required: false
+  public get rel() {
+    return this.getStringAttribute('rel');
+  }
+
+  // type_escaped - computed: true, optional: false, required: false
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+}
+
+export class ClientapplicationTileLinksList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ClientapplicationTileLinksOutputReference {
+    return new ClientapplicationTileLinksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ClientapplicationTileManualLaunchpadTile {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#group_uuid Clientapplication#group_uuid}
+  */
+  readonly groupUuid: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#title Clientapplication#title}
+  */
+  readonly title: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#uri Clientapplication#uri}
+  */
+  readonly uri: string;
+}
+
+export function clientapplicationTileManualLaunchpadTileToTerraform(struct?: ClientapplicationTileManualLaunchpadTile | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    group_uuid: cdktf.stringToTerraform(struct!.groupUuid),
+    title: cdktf.stringToTerraform(struct!.title),
+    uri: cdktf.stringToTerraform(struct!.uri),
+  }
+}
+
+
+export function clientapplicationTileManualLaunchpadTileToHclTerraform(struct?: ClientapplicationTileManualLaunchpadTile | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    group_uuid: {
+      value: cdktf.stringToHclTerraform(struct!.groupUuid),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
-    regenerate: {
-      value: cdktf.booleanToHclTerraform(struct!.regenerate),
+    title: {
+      value: cdktf.stringToHclTerraform(struct!.title),
       isBlock: false,
       type: "simple",
-      storageClassType: "boolean",
+      storageClassType: "string",
+    },
+    uri: {
+      value: cdktf.stringToHclTerraform(struct!.uri),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
   };
 
@@ -10731,7 +12496,7 @@ export function clientapplicationSecretToHclTerraform(struct?: Clientapplication
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class ClientapplicationSecretOutputReference extends cdktf.ComplexObject {
+export class ClientapplicationTileManualLaunchpadTileOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -10743,29 +12508,34 @@ export class ClientapplicationSecretOutputReference extends cdktf.ComplexObject 
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): ClientapplicationSecret | cdktf.IResolvable | undefined {
+  public get internalValue(): ClientapplicationTileManualLaunchpadTile | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._oldSecret !== undefined) {
+    if (this._groupUuid !== undefined) {
       hasAnyValues = true;
-      internalValueResult.oldSecret = this._oldSecret;
+      internalValueResult.groupUuid = this._groupUuid;
     }
-    if (this._regenerate !== undefined) {
+    if (this._title !== undefined) {
       hasAnyValues = true;
-      internalValueResult.regenerate = this._regenerate;
+      internalValueResult.title = this._title;
+    }
+    if (this._uri !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uri = this._uri;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: ClientapplicationSecret | cdktf.IResolvable | undefined) {
+  public set internalValue(value: ClientapplicationTileManualLaunchpadTile | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
-      this._oldSecret = undefined;
-      this._regenerate = undefined;
+      this._groupUuid = undefined;
+      this._title = undefined;
+      this._uri = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -10774,53 +12544,498 @@ export class ClientapplicationSecretOutputReference extends cdktf.ComplexObject 
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
-      this._oldSecret = value.oldSecret;
-      this._regenerate = value.regenerate;
+      this._groupUuid = value.groupUuid;
+      this._title = value.title;
+      this._uri = value.uri;
     }
   }
 
-  // generated_secret - computed: true, optional: false, required: false
-  public get generatedSecret() {
-    return this.getStringAttribute('generated_secret');
+  // group_uuid - computed: false, optional: false, required: true
+  private _groupUuid?: string; 
+  public get groupUuid() {
+    return this.getStringAttribute('group_uuid');
   }
-
-  // old_secret - computed: true, optional: true, required: false
-  private _oldSecret?: string; 
-  public get oldSecret() {
-    return this.getStringAttribute('old_secret');
-  }
-  public set oldSecret(value: string) {
-    this._oldSecret = value;
-  }
-  public resetOldSecret() {
-    this._oldSecret = undefined;
+  public set groupUuid(value: string) {
+    this._groupUuid = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get oldSecretInput() {
-    return this._oldSecret;
+  public get groupUuidInput() {
+    return this._groupUuid;
   }
 
-  // regenerate - computed: true, optional: true, required: false
-  private _regenerate?: boolean | cdktf.IResolvable; 
-  public get regenerate() {
-    return this.getBooleanAttribute('regenerate');
+  // title - computed: false, optional: false, required: true
+  private _title?: string; 
+  public get title() {
+    return this.getStringAttribute('title');
   }
-  public set regenerate(value: boolean | cdktf.IResolvable) {
-    this._regenerate = value;
-  }
-  public resetRegenerate() {
-    this._regenerate = undefined;
+  public set title(value: string) {
+    this._title = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get regenerateInput() {
-    return this._regenerate;
+  public get titleInput() {
+    return this._title;
+  }
+
+  // uri - computed: false, optional: false, required: true
+  private _uri?: string; 
+  public get uri() {
+    return this.getStringAttribute('uri');
+  }
+  public set uri(value: string) {
+    this._uri = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uriInput() {
+    return this._uri;
+  }
+}
+export interface ClientapplicationTilePermissions {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#full Clientapplication#full}
+  */
+  readonly full?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#instances Clientapplication#instances}
+  */
+  readonly instances?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#operations Clientapplication#operations}
+  */
+  readonly operations?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#type_escaped Clientapplication#type_escaped}
+  */
+  readonly typeEscaped?: string;
+}
+
+export function clientapplicationTilePermissionsToTerraform(struct?: ClientapplicationTilePermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    full: cdktf.stringToTerraform(struct!.full),
+    instances: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.instances),
+    operations: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.operations),
+    type_escaped: cdktf.stringToTerraform(struct!.typeEscaped),
+  }
+}
+
+
+export function clientapplicationTilePermissionsToHclTerraform(struct?: ClientapplicationTilePermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    full: {
+      value: cdktf.stringToHclTerraform(struct!.full),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    instances: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.instances),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    operations: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.operations),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+    type_escaped: {
+      value: cdktf.stringToHclTerraform(struct!.typeEscaped),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ClientapplicationTilePermissionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ClientapplicationTilePermissions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._full !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.full = this._full;
+    }
+    if (this._instances !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.instances = this._instances;
+    }
+    if (this._operations !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.operations = this._operations;
+    }
+    if (this._typeEscaped !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.typeEscaped = this._typeEscaped;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClientapplicationTilePermissions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._full = undefined;
+      this._instances = undefined;
+      this._operations = undefined;
+      this._typeEscaped = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._full = value.full;
+      this._instances = value.instances;
+      this._operations = value.operations;
+      this._typeEscaped = value.typeEscaped;
+    }
+  }
+
+  // full - computed: true, optional: true, required: false
+  private _full?: string; 
+  public get full() {
+    return this.getStringAttribute('full');
+  }
+  public set full(value: string) {
+    this._full = value;
+  }
+  public resetFull() {
+    this._full = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fullInput() {
+    return this._full;
+  }
+
+  // instances - computed: true, optional: true, required: false
+  private _instances?: string[]; 
+  public get instances() {
+    return this.getListAttribute('instances');
+  }
+  public set instances(value: string[]) {
+    this._instances = value;
+  }
+  public resetInstances() {
+    this._instances = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instancesInput() {
+    return this._instances;
+  }
+
+  // operations - computed: true, optional: true, required: false
+  private _operations?: string[]; 
+  public get operations() {
+    return cdktf.Fn.tolist(this.getListAttribute('operations'));
+  }
+  public set operations(value: string[]) {
+    this._operations = value;
+  }
+  public resetOperations() {
+    this._operations = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get operationsInput() {
+    return this._operations;
+  }
+
+  // type_escaped - computed: true, optional: true, required: false
+  private _typeEscaped?: string; 
+  public get typeEscaped() {
+    return this.getStringAttribute('type_escaped');
+  }
+  public set typeEscaped(value: string) {
+    this._typeEscaped = value;
+  }
+  public resetTypeEscaped() {
+    this._typeEscaped = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeEscapedInput() {
+    return this._typeEscaped;
+  }
+}
+
+export class ClientapplicationTilePermissionsList extends cdktf.ComplexList {
+  public internalValue? : ClientapplicationTilePermissions[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ClientapplicationTilePermissionsOutputReference {
+    return new ClientapplicationTilePermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ClientapplicationTileSsoApplicationLaunchpadTile {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#application_uuid Clientapplication#application_uuid}
+  */
+  readonly applicationUuid?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#uri Clientapplication#uri}
+  */
+  readonly uri?: string;
+}
+
+export function clientapplicationTileSsoApplicationLaunchpadTileToTerraform(struct?: ClientapplicationTileSsoApplicationLaunchpadTile | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    application_uuid: cdktf.stringToTerraform(struct!.applicationUuid),
+    uri: cdktf.stringToTerraform(struct!.uri),
+  }
+}
+
+
+export function clientapplicationTileSsoApplicationLaunchpadTileToHclTerraform(struct?: ClientapplicationTileSsoApplicationLaunchpadTile | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    application_uuid: {
+      value: cdktf.stringToHclTerraform(struct!.applicationUuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    uri: {
+      value: cdktf.stringToHclTerraform(struct!.uri),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ClientapplicationTileSsoApplicationLaunchpadTileOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): ClientapplicationTileSsoApplicationLaunchpadTile | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._applicationUuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.applicationUuid = this._applicationUuid;
+    }
+    if (this._uri !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uri = this._uri;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClientapplicationTileSsoApplicationLaunchpadTile | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._applicationUuid = undefined;
+      this._uri = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._applicationUuid = value.applicationUuid;
+      this._uri = value.uri;
+    }
+  }
+
+  // application_uuid - computed: true, optional: true, required: false
+  private _applicationUuid?: string; 
+  public get applicationUuid() {
+    return this.getStringAttribute('application_uuid');
+  }
+  public set applicationUuid(value: string) {
+    this._applicationUuid = value;
+  }
+  public resetApplicationUuid() {
+    this._applicationUuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get applicationUuidInput() {
+    return this._applicationUuid;
+  }
+
+  // uri - computed: false, optional: true, required: false
+  private _uri?: string; 
+  public get uri() {
+    return this.getStringAttribute('uri');
+  }
+  public set uri(value: string) {
+    this._uri = value;
+  }
+  public resetUri() {
+    this._uri = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uriInput() {
+    return this._uri;
+  }
+}
+export interface ClientapplicationTileVaultRecordLaunchpadTile {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#vault_record_uuid Clientapplication#vault_record_uuid}
+  */
+  readonly vaultRecordUuid?: string;
+}
+
+export function clientapplicationTileVaultRecordLaunchpadTileToTerraform(struct?: ClientapplicationTileVaultRecordLaunchpadTile | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    vault_record_uuid: cdktf.stringToTerraform(struct!.vaultRecordUuid),
+  }
+}
+
+
+export function clientapplicationTileVaultRecordLaunchpadTileToHclTerraform(struct?: ClientapplicationTileVaultRecordLaunchpadTile | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    vault_record_uuid: {
+      value: cdktf.stringToHclTerraform(struct!.vaultRecordUuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ClientapplicationTileVaultRecordLaunchpadTileOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): ClientapplicationTileVaultRecordLaunchpadTile | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._vaultRecordUuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultRecordUuid = this._vaultRecordUuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ClientapplicationTileVaultRecordLaunchpadTile | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._vaultRecordUuid = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._vaultRecordUuid = value.vaultRecordUuid;
+    }
+  }
+
+  // vault_record_uuid - computed: true, optional: true, required: false
+  private _vaultRecordUuid?: string; 
+  public get vaultRecordUuid() {
+    return this.getStringAttribute('vault_record_uuid');
+  }
+  public set vaultRecordUuid(value: string) {
+    this._vaultRecordUuid = value;
+  }
+  public resetVaultRecordUuid() {
+    this._vaultRecordUuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultRecordUuidInput() {
+    return this._vaultRecordUuid;
   }
 }
 export interface ClientapplicationTile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#uri Clientapplication#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#identicon_code Clientapplication#identicon_code}
   */
-  readonly uri?: string;
+  readonly identiconCode?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#logo Clientapplication#logo}
+  */
+  readonly logo?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#manual_launchpad_tile Clientapplication#manual_launchpad_tile}
+  */
+  readonly manualLaunchpadTile?: ClientapplicationTileManualLaunchpadTile;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#sso_application_launchpad_tile Clientapplication#sso_application_launchpad_tile}
+  */
+  readonly ssoApplicationLaunchpadTile?: ClientapplicationTileSsoApplicationLaunchpadTile;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#vault_record_launchpad_tile Clientapplication#vault_record_launchpad_tile}
+  */
+  readonly vaultRecordLaunchpadTile?: ClientapplicationTileVaultRecordLaunchpadTile;
 }
 
 export function clientapplicationTileToTerraform(struct?: ClientapplicationTile | cdktf.IResolvable): any {
@@ -10829,7 +13044,11 @@ export function clientapplicationTileToTerraform(struct?: ClientapplicationTile 
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    uri: cdktf.stringToTerraform(struct!.uri),
+    identicon_code: cdktf.numberToTerraform(struct!.identiconCode),
+    logo: cdktf.stringToTerraform(struct!.logo),
+    manual_launchpad_tile: clientapplicationTileManualLaunchpadTileToTerraform(struct!.manualLaunchpadTile),
+    sso_application_launchpad_tile: clientapplicationTileSsoApplicationLaunchpadTileToTerraform(struct!.ssoApplicationLaunchpadTile),
+    vault_record_launchpad_tile: clientapplicationTileVaultRecordLaunchpadTileToTerraform(struct!.vaultRecordLaunchpadTile),
   }
 }
 
@@ -10840,11 +13059,35 @@ export function clientapplicationTileToHclTerraform(struct?: ClientapplicationTi
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    uri: {
-      value: cdktf.stringToHclTerraform(struct!.uri),
+    identicon_code: {
+      value: cdktf.numberToHclTerraform(struct!.identiconCode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    logo: {
+      value: cdktf.stringToHclTerraform(struct!.logo),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    manual_launchpad_tile: {
+      value: clientapplicationTileManualLaunchpadTileToHclTerraform(struct!.manualLaunchpadTile),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "ClientapplicationTileManualLaunchpadTile",
+    },
+    sso_application_launchpad_tile: {
+      value: clientapplicationTileSsoApplicationLaunchpadTileToHclTerraform(struct!.ssoApplicationLaunchpadTile),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "ClientapplicationTileSsoApplicationLaunchpadTile",
+    },
+    vault_record_launchpad_tile: {
+      value: clientapplicationTileVaultRecordLaunchpadTileToHclTerraform(struct!.vaultRecordLaunchpadTile),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "ClientapplicationTileVaultRecordLaunchpadTile",
     },
   };
 
@@ -10870,9 +13113,25 @@ export class ClientapplicationTileOutputReference extends cdktf.ComplexObject {
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._uri !== undefined) {
+    if (this._identiconCode !== undefined) {
       hasAnyValues = true;
-      internalValueResult.uri = this._uri;
+      internalValueResult.identiconCode = this._identiconCode;
+    }
+    if (this._logo !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.logo = this._logo;
+    }
+    if (this._manualLaunchpadTile?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.manualLaunchpadTile = this._manualLaunchpadTile?.internalValue;
+    }
+    if (this._ssoApplicationLaunchpadTile?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ssoApplicationLaunchpadTile = this._ssoApplicationLaunchpadTile?.internalValue;
+    }
+    if (this._vaultRecordLaunchpadTile?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vaultRecordLaunchpadTile = this._vaultRecordLaunchpadTile?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -10881,7 +13140,11 @@ export class ClientapplicationTileOutputReference extends cdktf.ComplexObject {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
-      this._uri = undefined;
+      this._identiconCode = undefined;
+      this._logo = undefined;
+      this._manualLaunchpadTile.internalValue = undefined;
+      this._ssoApplicationLaunchpadTile.internalValue = undefined;
+      this._vaultRecordLaunchpadTile.internalValue = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -10890,29 +13153,114 @@ export class ClientapplicationTileOutputReference extends cdktf.ComplexObject {
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
-      this._uri = value.uri;
+      this._identiconCode = value.identiconCode;
+      this._logo = value.logo;
+      this._manualLaunchpadTile.internalValue = value.manualLaunchpadTile;
+      this._ssoApplicationLaunchpadTile.internalValue = value.ssoApplicationLaunchpadTile;
+      this._vaultRecordLaunchpadTile.internalValue = value.vaultRecordLaunchpadTile;
     }
   }
 
-  // uri - computed: false, optional: true, required: false
-  private _uri?: string; 
-  public get uri() {
-    return this.getStringAttribute('uri');
+  // identicon_code - computed: true, optional: true, required: false
+  private _identiconCode?: number; 
+  public get identiconCode() {
+    return this.getNumberAttribute('identicon_code');
   }
-  public set uri(value: string) {
-    this._uri = value;
+  public set identiconCode(value: number) {
+    this._identiconCode = value;
   }
-  public resetUri() {
-    this._uri = undefined;
+  public resetIdenticonCode() {
+    this._identiconCode = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get uriInput() {
-    return this._uri;
+  public get identiconCodeInput() {
+    return this._identiconCode;
+  }
+
+  // launchpad_launchpad_tile_type - computed: true, optional: false, required: false
+  public get launchpadLaunchpadTileType() {
+    return this.getStringAttribute('launchpad_launchpad_tile_type');
+  }
+
+  // links - computed: true, optional: false, required: false
+  private _links = new ClientapplicationTileLinksList(this, "links", false);
+  public get links() {
+    return this._links;
+  }
+
+  // logo - computed: true, optional: true, required: false
+  private _logo?: string; 
+  public get logo() {
+    return this.getStringAttribute('logo');
+  }
+  public set logo(value: string) {
+    this._logo = value;
+  }
+  public resetLogo() {
+    this._logo = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get logoInput() {
+    return this._logo;
+  }
+
+  // manual_launchpad_tile - computed: false, optional: true, required: false
+  private _manualLaunchpadTile = new ClientapplicationTileManualLaunchpadTileOutputReference(this, "manual_launchpad_tile");
+  public get manualLaunchpadTile() {
+    return this._manualLaunchpadTile;
+  }
+  public putManualLaunchpadTile(value: ClientapplicationTileManualLaunchpadTile) {
+    this._manualLaunchpadTile.internalValue = value;
+  }
+  public resetManualLaunchpadTile() {
+    this._manualLaunchpadTile.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get manualLaunchpadTileInput() {
+    return this._manualLaunchpadTile.internalValue;
+  }
+
+  // permissions - computed: true, optional: false, required: false
+  private _permissions = new ClientapplicationTilePermissionsList(this, "permissions", false);
+  public get permissions() {
+    return this._permissions;
+  }
+
+  // sso_application_launchpad_tile - computed: false, optional: true, required: false
+  private _ssoApplicationLaunchpadTile = new ClientapplicationTileSsoApplicationLaunchpadTileOutputReference(this, "sso_application_launchpad_tile");
+  public get ssoApplicationLaunchpadTile() {
+    return this._ssoApplicationLaunchpadTile;
+  }
+  public putSsoApplicationLaunchpadTile(value: ClientapplicationTileSsoApplicationLaunchpadTile) {
+    this._ssoApplicationLaunchpadTile.internalValue = value;
+  }
+  public resetSsoApplicationLaunchpadTile() {
+    this._ssoApplicationLaunchpadTile.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ssoApplicationLaunchpadTileInput() {
+    return this._ssoApplicationLaunchpadTile.internalValue;
+  }
+
+  // vault_record_launchpad_tile - computed: false, optional: true, required: false
+  private _vaultRecordLaunchpadTile = new ClientapplicationTileVaultRecordLaunchpadTileOutputReference(this, "vault_record_launchpad_tile");
+  public get vaultRecordLaunchpadTile() {
+    return this._vaultRecordLaunchpadTile;
+  }
+  public putVaultRecordLaunchpadTile(value: ClientapplicationTileVaultRecordLaunchpadTile) {
+    this._vaultRecordLaunchpadTile.internalValue = value;
+  }
+  public resetVaultRecordLaunchpadTile() {
+    this._vaultRecordLaunchpadTile.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultRecordLaunchpadTileInput() {
+    return this._vaultRecordLaunchpadTile.internalValue;
   }
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication keyhub_clientapplication}
+* Represents a {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication keyhub_clientapplication}
 */
 export class Clientapplication extends cdktf.TerraformResource {
 
@@ -10928,7 +13276,7 @@ export class Clientapplication extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Clientapplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Clientapplication to import
-  * @param importFromId The id of the existing Clientapplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Clientapplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Clientapplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -10940,7 +13288,7 @@ export class Clientapplication extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/clientapplication keyhub_clientapplication} Resource
+  * Create a new {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/clientapplication keyhub_clientapplication} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -10951,8 +13299,8 @@ export class Clientapplication extends cdktf.TerraformResource {
       terraformResourceType: 'keyhub_clientapplication',
       terraformGeneratorMetadata: {
         providerName: 'keyhub',
-        providerVersion: '2.44.0',
-        providerVersionConstraint: '2.44.0'
+        providerVersion: '2.45.0',
+        providerVersionConstraint: '2.45.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -10966,6 +13314,7 @@ export class Clientapplication extends cdktf.TerraformResource {
     this._additional = config.additional;
     this._clientId = config.clientId;
     this._deleteTile = config.deleteTile;
+    this._generateSecret.internalValue = config.generateSecret;
     this._groupclients.internalValue = config.groupclients;
     this._ldapClient.internalValue = config.ldapClient;
     this._name = config.name;
@@ -10973,7 +13322,6 @@ export class Clientapplication extends cdktf.TerraformResource {
     this._ownerUuid = config.ownerUuid;
     this._saml2Client.internalValue = config.saml2Client;
     this._scopes = config.scopes;
-    this._secret.internalValue = config.secret;
     this._technicalAdministratorUuid = config.technicalAdministratorUuid;
     this._tile.internalValue = config.tile;
   }
@@ -11050,6 +13398,22 @@ export class Clientapplication extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get deleteTileInput() {
     return this._deleteTile;
+  }
+
+  // generate_secret - computed: false, optional: true, required: false
+  private _generateSecret = new ClientapplicationGenerateSecretOutputReference(this, "generate_secret");
+  public get generateSecret() {
+    return this._generateSecret;
+  }
+  public putGenerateSecret(value: ClientapplicationGenerateSecret) {
+    this._generateSecret.internalValue = value;
+  }
+  public resetGenerateSecret() {
+    this._generateSecret.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get generateSecretInput() {
+    return this._generateSecret.internalValue;
   }
 
   // groupclients - computed: false, optional: true, required: false
@@ -11190,20 +13554,10 @@ export class Clientapplication extends cdktf.TerraformResource {
     return this._scopes;
   }
 
-  // secret - computed: true, optional: true, required: false
+  // secret - computed: true, optional: false, required: false
   private _secret = new ClientapplicationSecretOutputReference(this, "secret");
   public get secret() {
     return this._secret;
-  }
-  public putSecret(value: ClientapplicationSecret) {
-    this._secret.internalValue = value;
-  }
-  public resetSecret() {
-    this._secret.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get secretInput() {
-    return this._secret.internalValue;
   }
 
   // sso_application - computed: true, optional: false, required: false
@@ -11268,6 +13622,7 @@ export class Clientapplication extends cdktf.TerraformResource {
       additional: cdktf.listMapper(cdktf.stringToTerraform, false)(this._additional),
       client_id: cdktf.stringToTerraform(this._clientId),
       delete_tile: cdktf.booleanToTerraform(this._deleteTile),
+      generate_secret: clientapplicationGenerateSecretToTerraform(this._generateSecret.internalValue),
       groupclients: cdktf.listMapper(clientapplicationGroupclientsToTerraform, false)(this._groupclients.internalValue),
       ldap_client: clientapplicationLdapClientToTerraform(this._ldapClient.internalValue),
       name: cdktf.stringToTerraform(this._name),
@@ -11275,7 +13630,6 @@ export class Clientapplication extends cdktf.TerraformResource {
       owner_uuid: cdktf.stringToTerraform(this._ownerUuid),
       saml2_client: clientapplicationSaml2ClientToTerraform(this._saml2Client.internalValue),
       scopes: cdktf.listMapper(cdktf.stringToTerraform, false)(this._scopes),
-      secret: clientapplicationSecretToTerraform(this._secret.internalValue),
       technical_administrator_uuid: cdktf.stringToTerraform(this._technicalAdministratorUuid),
       tile: clientapplicationTileToTerraform(this._tile.internalValue),
     };
@@ -11306,6 +13660,12 @@ export class Clientapplication extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
+      },
+      generate_secret: {
+        value: clientapplicationGenerateSecretToHclTerraform(this._generateSecret.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "ClientapplicationGenerateSecret",
       },
       groupclients: {
         value: cdktf.listMapperHcl(clientapplicationGroupclientsToHclTerraform, false)(this._groupclients.internalValue),
@@ -11348,12 +13708,6 @@ export class Clientapplication extends cdktf.TerraformResource {
         isBlock: false,
         type: "list",
         storageClassType: "stringList",
-      },
-      secret: {
-        value: clientapplicationSecretToHclTerraform(this._secret.internalValue),
-        isBlock: true,
-        type: "struct",
-        storageClassType: "ClientapplicationSecret",
       },
       technical_administrator_uuid: {
         value: cdktf.stringToHclTerraform(this._technicalAdministratorUuid),

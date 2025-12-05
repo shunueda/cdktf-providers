@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/mariadb_database_table
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mariadb_database_table
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudMariadbDatabaseTableConfig extends cdktf.Terraf
   /**
   * database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/mariadb_database_table#db_name DataTencentcloudMariadbDatabaseTable#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mariadb_database_table#db_name DataTencentcloudMariadbDatabaseTable#db_name}
   */
   readonly dbName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/mariadb_database_table#id DataTencentcloudMariadbDatabaseTable#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mariadb_database_table#id DataTencentcloudMariadbDatabaseTable#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataTencentcloudMariadbDatabaseTableConfig extends cdktf.Terraf
   /**
   * instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/mariadb_database_table#instance_id DataTencentcloudMariadbDatabaseTable#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mariadb_database_table#instance_id DataTencentcloudMariadbDatabaseTable#instance_id}
   */
   readonly instanceId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/mariadb_database_table#result_output_file DataTencentcloudMariadbDatabaseTable#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mariadb_database_table#result_output_file DataTencentcloudMariadbDatabaseTable#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/mariadb_database_table#table DataTencentcloudMariadbDatabaseTable#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mariadb_database_table#table DataTencentcloudMariadbDatabaseTable#table}
   */
   readonly table: string;
 }
@@ -121,7 +121,7 @@ export class DataTencentcloudMariadbDatabaseTableColsList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/mariadb_database_table tencentcloud_mariadb_database_table}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mariadb_database_table tencentcloud_mariadb_database_table}
 */
 export class DataTencentcloudMariadbDatabaseTable extends cdktf.TerraformDataSource {
 
@@ -137,7 +137,7 @@ export class DataTencentcloudMariadbDatabaseTable extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataTencentcloudMariadbDatabaseTable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudMariadbDatabaseTable to import
-  * @param importFromId The id of the existing DataTencentcloudMariadbDatabaseTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/mariadb_database_table#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudMariadbDatabaseTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mariadb_database_table#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudMariadbDatabaseTable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -149,7 +149,7 @@ export class DataTencentcloudMariadbDatabaseTable extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/mariadb_database_table tencentcloud_mariadb_database_table} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/mariadb_database_table tencentcloud_mariadb_database_table} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -160,8 +160,8 @@ export class DataTencentcloudMariadbDatabaseTable extends cdktf.TerraformDataSou
       terraformResourceType: 'tencentcloud_mariadb_database_table',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

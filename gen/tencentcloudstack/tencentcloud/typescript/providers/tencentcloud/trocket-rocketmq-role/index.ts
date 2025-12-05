@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/trocket_rocketmq_role
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/trocket_rocketmq_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TrocketRocketmqRoleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/trocket_rocketmq_role#id TrocketRocketmqRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/trocket_rocketmq_role#id TrocketRocketmqRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface TrocketRocketmqRoleConfig extends cdktf.TerraformMetaArguments 
   /**
   * ID of instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/trocket_rocketmq_role#instance_id TrocketRocketmqRole#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/trocket_rocketmq_role#instance_id TrocketRocketmqRole#instance_id}
   */
   readonly instanceId: string;
   /**
   * Whether to enable consumption permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/trocket_rocketmq_role#perm_read TrocketRocketmqRole#perm_read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/trocket_rocketmq_role#perm_read TrocketRocketmqRole#perm_read}
   */
   readonly permRead: boolean | cdktf.IResolvable;
   /**
   * Whether to enable production permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/trocket_rocketmq_role#perm_write TrocketRocketmqRole#perm_write}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/trocket_rocketmq_role#perm_write TrocketRocketmqRole#perm_write}
   */
   readonly permWrite: boolean | cdktf.IResolvable;
   /**
   * remark.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/trocket_rocketmq_role#remark TrocketRocketmqRole#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/trocket_rocketmq_role#remark TrocketRocketmqRole#remark}
   */
   readonly remark: string;
   /**
   * Name of role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/trocket_rocketmq_role#role TrocketRocketmqRole#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/trocket_rocketmq_role#role TrocketRocketmqRole#role}
   */
   readonly role: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/trocket_rocketmq_role tencentcloud_trocket_rocketmq_role}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/trocket_rocketmq_role tencentcloud_trocket_rocketmq_role}
 */
 export class TrocketRocketmqRole extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class TrocketRocketmqRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TrocketRocketmqRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TrocketRocketmqRole to import
-  * @param importFromId The id of the existing TrocketRocketmqRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/trocket_rocketmq_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TrocketRocketmqRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/trocket_rocketmq_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TrocketRocketmqRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class TrocketRocketmqRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/trocket_rocketmq_role tencentcloud_trocket_rocketmq_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/trocket_rocketmq_role tencentcloud_trocket_rocketmq_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class TrocketRocketmqRole extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_trocket_rocketmq_role',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

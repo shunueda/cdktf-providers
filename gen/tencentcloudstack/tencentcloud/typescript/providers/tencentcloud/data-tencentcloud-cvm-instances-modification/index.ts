@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/cvm_instances_modification
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/cvm_instances_modification
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudCvmInstancesModificationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/cvm_instances_modification#id DataTencentcloudCvmInstancesModification#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/cvm_instances_modification#id DataTencentcloudCvmInstancesModification#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataTencentcloudCvmInstancesModificationConfig extends cdktf.Te
   /**
   * One or more instance ID to be queried. It can be obtained from the InstanceId in the returned value of API DescribeInstances. The maximum number of instances in batch for each request is 20.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/cvm_instances_modification#instance_ids DataTencentcloudCvmInstancesModification#instance_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/cvm_instances_modification#instance_ids DataTencentcloudCvmInstancesModification#instance_ids}
   */
   readonly instanceIds?: string[];
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/cvm_instances_modification#result_output_file DataTencentcloudCvmInstancesModification#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/cvm_instances_modification#result_output_file DataTencentcloudCvmInstancesModification#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/cvm_instances_modification#filters DataTencentcloudCvmInstancesModification#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/cvm_instances_modification#filters DataTencentcloudCvmInstancesModification#filters}
   */
   readonly filters?: DataTencentcloudCvmInstancesModificationFilters[] | cdktf.IResolvable;
 }
@@ -228,13 +228,13 @@ export interface DataTencentcloudCvmInstancesModificationFilters {
   /**
   * Fields to be filtered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/cvm_instances_modification#name DataTencentcloudCvmInstancesModification#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/cvm_instances_modification#name DataTencentcloudCvmInstancesModification#name}
   */
   readonly name: string;
   /**
   * Value of the field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/cvm_instances_modification#values DataTencentcloudCvmInstancesModification#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/cvm_instances_modification#values DataTencentcloudCvmInstancesModification#values}
   */
   readonly values: string[];
 }
@@ -373,7 +373,7 @@ export class DataTencentcloudCvmInstancesModificationFiltersList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/cvm_instances_modification tencentcloud_cvm_instances_modification}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/cvm_instances_modification tencentcloud_cvm_instances_modification}
 */
 export class DataTencentcloudCvmInstancesModification extends cdktf.TerraformDataSource {
 
@@ -389,7 +389,7 @@ export class DataTencentcloudCvmInstancesModification extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataTencentcloudCvmInstancesModification resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCvmInstancesModification to import
-  * @param importFromId The id of the existing DataTencentcloudCvmInstancesModification that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/cvm_instances_modification#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCvmInstancesModification that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/cvm_instances_modification#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCvmInstancesModification to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -401,7 +401,7 @@ export class DataTencentcloudCvmInstancesModification extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/cvm_instances_modification tencentcloud_cvm_instances_modification} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/cvm_instances_modification tencentcloud_cvm_instances_modification} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -412,8 +412,8 @@ export class DataTencentcloudCvmInstancesModification extends cdktf.TerraformDat
       terraformResourceType: 'tencentcloud_cvm_instances_modification',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/chdfs_life_cycle_rule
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/chdfs_life_cycle_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ChdfsLifeCycleRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * file system id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/chdfs_life_cycle_rule#file_system_id ChdfsLifeCycleRule#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/chdfs_life_cycle_rule#file_system_id ChdfsLifeCycleRule#file_system_id}
   */
   readonly fileSystemId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/chdfs_life_cycle_rule#id ChdfsLifeCycleRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/chdfs_life_cycle_rule#id ChdfsLifeCycleRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface ChdfsLifeCycleRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * life_cycle_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/chdfs_life_cycle_rule#life_cycle_rule ChdfsLifeCycleRule#life_cycle_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/chdfs_life_cycle_rule#life_cycle_rule ChdfsLifeCycleRule#life_cycle_rule}
   */
   readonly lifeCycleRule: ChdfsLifeCycleRuleLifeCycleRule;
 }
@@ -31,13 +31,13 @@ export interface ChdfsLifeCycleRuleLifeCycleRuleTransitions {
   /**
   * trigger days(n day).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/chdfs_life_cycle_rule#days ChdfsLifeCycleRule#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/chdfs_life_cycle_rule#days ChdfsLifeCycleRule#days}
   */
   readonly days: number;
   /**
   * transition type, 1: archive, 2: delete, 3: low rate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/chdfs_life_cycle_rule#type ChdfsLifeCycleRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/chdfs_life_cycle_rule#type ChdfsLifeCycleRule#type}
   */
   readonly type: number;
 }
@@ -178,25 +178,25 @@ export interface ChdfsLifeCycleRuleLifeCycleRule {
   /**
   * rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/chdfs_life_cycle_rule#life_cycle_rule_name ChdfsLifeCycleRule#life_cycle_rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/chdfs_life_cycle_rule#life_cycle_rule_name ChdfsLifeCycleRule#life_cycle_rule_name}
   */
   readonly lifeCycleRuleName?: string;
   /**
   * rule op path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/chdfs_life_cycle_rule#path ChdfsLifeCycleRule#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/chdfs_life_cycle_rule#path ChdfsLifeCycleRule#path}
   */
   readonly path?: string;
   /**
   * rule status, 1:open, 2:close.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/chdfs_life_cycle_rule#status ChdfsLifeCycleRule#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/chdfs_life_cycle_rule#status ChdfsLifeCycleRule#status}
   */
   readonly status?: number;
   /**
   * transitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/chdfs_life_cycle_rule#transitions ChdfsLifeCycleRule#transitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/chdfs_life_cycle_rule#transitions ChdfsLifeCycleRule#transitions}
   */
   readonly transitions?: ChdfsLifeCycleRuleLifeCycleRuleTransitions[] | cdktf.IResolvable;
 }
@@ -377,7 +377,7 @@ export class ChdfsLifeCycleRuleLifeCycleRuleOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/chdfs_life_cycle_rule tencentcloud_chdfs_life_cycle_rule}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/chdfs_life_cycle_rule tencentcloud_chdfs_life_cycle_rule}
 */
 export class ChdfsLifeCycleRule extends cdktf.TerraformResource {
 
@@ -393,7 +393,7 @@ export class ChdfsLifeCycleRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ChdfsLifeCycleRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ChdfsLifeCycleRule to import
-  * @param importFromId The id of the existing ChdfsLifeCycleRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/chdfs_life_cycle_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ChdfsLifeCycleRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/chdfs_life_cycle_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ChdfsLifeCycleRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -405,7 +405,7 @@ export class ChdfsLifeCycleRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/chdfs_life_cycle_rule tencentcloud_chdfs_life_cycle_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/chdfs_life_cycle_rule tencentcloud_chdfs_life_cycle_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -416,8 +416,8 @@ export class ChdfsLifeCycleRule extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_chdfs_life_cycle_rule',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

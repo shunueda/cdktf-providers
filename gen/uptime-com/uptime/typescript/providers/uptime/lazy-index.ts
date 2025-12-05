@@ -59,6 +59,7 @@ Object.defineProperty(exports, 'subaccount', { get: function () { return require
 Object.defineProperty(exports, 'tag', { get: function () { return require('./tag'); } });
 Object.defineProperty(exports, 'user', { get: function () { return require('./user'); } });
 Object.defineProperty(exports, 'dataUptimeAlerts', { get: function () { return require('./data-uptime-alerts'); } });
+Object.defineProperty(exports, 'dataUptimeCheckGroups', { get: function () { return require('./data-uptime-check-groups'); } });
 Object.defineProperty(exports, 'dataUptimeContacts', { get: function () { return require('./data-uptime-contacts'); } });
 Object.defineProperty(exports, 'dataUptimeCredentials', { get: function () { return require('./data-uptime-credentials'); } });
 Object.defineProperty(exports, 'dataUptimeDashboards', { get: function () { return require('./data-uptime-dashboards'); } });

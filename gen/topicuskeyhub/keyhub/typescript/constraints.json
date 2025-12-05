@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "keyhub": "2.44.0"
+    "keyhub": "2.45.0"
   }
 }

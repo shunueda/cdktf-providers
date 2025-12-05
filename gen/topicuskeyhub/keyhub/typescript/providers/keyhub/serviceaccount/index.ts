@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/serviceaccount
+// https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/serviceaccount
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,43 +8,43 @@ import * as cdktf from 'cdktf';
 
 export interface ServiceaccountConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/serviceaccount#active Serviceaccount#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/serviceaccount#active Serviceaccount#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/serviceaccount#additional Serviceaccount#additional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/serviceaccount#additional Serviceaccount#additional}
   */
   readonly additional?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/serviceaccount#description Serviceaccount#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/serviceaccount#description Serviceaccount#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/serviceaccount#name Serviceaccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/serviceaccount#generate_secret Serviceaccount#generate_secret}
+  */
+  readonly generateSecret?: ServiceaccountGenerateSecret;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/serviceaccount#name Serviceaccount#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/serviceaccount#password_rotation Serviceaccount#password_rotation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/serviceaccount#password_rotation Serviceaccount#password_rotation}
   */
   readonly passwordRotation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/serviceaccount#secret Serviceaccount#secret}
-  */
-  readonly secret?: ServiceaccountSecret;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/serviceaccount#ssh_public_key Serviceaccount#ssh_public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/serviceaccount#ssh_public_key Serviceaccount#ssh_public_key}
   */
   readonly sshPublicKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/serviceaccount#system_uuid Serviceaccount#system_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/serviceaccount#system_uuid Serviceaccount#system_uuid}
   */
   readonly systemUuid: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/serviceaccount#technical_administrator_uuid Serviceaccount#technical_administrator_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/serviceaccount#technical_administrator_uuid Serviceaccount#technical_administrator_uuid}
   */
   readonly technicalAdministratorUuid: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/serviceaccount#username Serviceaccount#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/serviceaccount#username Serviceaccount#username}
   */
   readonly username: string;
 }
@@ -115,6 +115,133 @@ export class ServiceaccountAuditOutputReference extends cdktf.ComplexObject {
   // last_modified_by - computed: true, optional: false, required: false
   public get lastModifiedBy() {
     return this.getStringAttribute('last_modified_by');
+  }
+}
+export interface ServiceaccountGenerateSecret {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/serviceaccount#old_secret Serviceaccount#old_secret}
+  */
+  readonly oldSecret?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/serviceaccount#regenerate Serviceaccount#regenerate}
+  */
+  readonly regenerate?: boolean | cdktf.IResolvable;
+}
+
+export function serviceaccountGenerateSecretToTerraform(struct?: ServiceaccountGenerateSecret | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    old_secret: cdktf.stringToTerraform(struct!.oldSecret),
+    regenerate: cdktf.booleanToTerraform(struct!.regenerate),
+  }
+}
+
+
+export function serviceaccountGenerateSecretToHclTerraform(struct?: ServiceaccountGenerateSecret | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    old_secret: {
+      value: cdktf.stringToHclTerraform(struct!.oldSecret),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    regenerate: {
+      value: cdktf.booleanToHclTerraform(struct!.regenerate),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ServiceaccountGenerateSecretOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): ServiceaccountGenerateSecret | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._oldSecret !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.oldSecret = this._oldSecret;
+    }
+    if (this._regenerate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.regenerate = this._regenerate;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ServiceaccountGenerateSecret | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._oldSecret = undefined;
+      this._regenerate = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._oldSecret = value.oldSecret;
+      this._regenerate = value.regenerate;
+    }
+  }
+
+  // old_secret - computed: false, optional: true, required: false
+  private _oldSecret?: string; 
+  public get oldSecret() {
+    return this.getStringAttribute('old_secret');
+  }
+  public set oldSecret(value: string) {
+    this._oldSecret = value;
+  }
+  public resetOldSecret() {
+    this._oldSecret = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get oldSecretInput() {
+    return this._oldSecret;
+  }
+
+  // regenerate - computed: false, optional: true, required: false
+  private _regenerate?: boolean | cdktf.IResolvable; 
+  public get regenerate() {
+    return this.getBooleanAttribute('regenerate');
+  }
+  public set regenerate(value: boolean | cdktf.IResolvable) {
+    this._regenerate = value;
+  }
+  public resetRegenerate() {
+    this._regenerate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get regenerateInput() {
+    return this._regenerate;
   }
 }
 export interface ServiceaccountGroupsLinks {
@@ -209,19 +336,19 @@ export class ServiceaccountGroupsLinksList extends cdktf.ComplexList {
 }
 export interface ServiceaccountGroupsPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/serviceaccount#full Serviceaccount#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/serviceaccount#full Serviceaccount#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/serviceaccount#instances Serviceaccount#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/serviceaccount#instances Serviceaccount#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/serviceaccount#operations Serviceaccount#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/serviceaccount#operations Serviceaccount#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/serviceaccount#type_escaped Serviceaccount#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/serviceaccount#type_escaped Serviceaccount#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -414,11 +541,11 @@ export class ServiceaccountGroupsPermissionsList extends cdktf.ComplexList {
 }
 export interface ServiceaccountGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/serviceaccount#name_in_system Serviceaccount#name_in_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/serviceaccount#name_in_system Serviceaccount#name_in_system}
   */
   readonly nameInSystem: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/serviceaccount#type Serviceaccount#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/serviceaccount#type Serviceaccount#type}
   */
   readonly type: string;
 }
@@ -545,6 +672,11 @@ export class ServiceaccountGroupsOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get typeInput() {
     return this._type;
+  }
+
+  // uuid - computed: true, optional: false, required: false
+  public get uuid() {
+    return this.getStringAttribute('uuid');
   }
 }
 
@@ -749,19 +881,19 @@ export class ServiceaccountPasswordLinksList extends cdktf.ComplexList {
 }
 export interface ServiceaccountPasswordPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/serviceaccount#full Serviceaccount#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/serviceaccount#full Serviceaccount#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/serviceaccount#instances Serviceaccount#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/serviceaccount#instances Serviceaccount#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/serviceaccount#operations Serviceaccount#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/serviceaccount#operations Serviceaccount#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/serviceaccount#type_escaped Serviceaccount#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/serviceaccount#type_escaped Serviceaccount#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -954,11 +1086,11 @@ export class ServiceaccountPasswordPermissionsList extends cdktf.ComplexList {
 }
 export interface ServiceaccountPassword {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/serviceaccount#color Serviceaccount#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/serviceaccount#color Serviceaccount#color}
   */
   readonly color?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/serviceaccount#name Serviceaccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/serviceaccount#name Serviceaccount#name}
   */
   readonly name: string;
 }
@@ -1090,19 +1222,19 @@ export class ServiceaccountPasswordOutputReference extends cdktf.ComplexObject {
 }
 export interface ServiceaccountPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/serviceaccount#full Serviceaccount#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/serviceaccount#full Serviceaccount#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/serviceaccount#instances Serviceaccount#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/serviceaccount#instances Serviceaccount#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/serviceaccount#operations Serviceaccount#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/serviceaccount#operations Serviceaccount#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/serviceaccount#type_escaped Serviceaccount#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/serviceaccount#type_escaped Serviceaccount#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -1294,55 +1426,30 @@ export class ServiceaccountPermissionsList extends cdktf.ComplexList {
   }
 }
 export interface ServiceaccountSecret {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/serviceaccount#old_secret Serviceaccount#old_secret}
-  */
-  readonly oldSecret?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/serviceaccount#regenerate Serviceaccount#regenerate}
-  */
-  readonly regenerate?: boolean | cdktf.IResolvable;
 }
 
-export function serviceaccountSecretToTerraform(struct?: ServiceaccountSecret | cdktf.IResolvable): any {
+export function serviceaccountSecretToTerraform(struct?: ServiceaccountSecret): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    old_secret: cdktf.stringToTerraform(struct!.oldSecret),
-    regenerate: cdktf.booleanToTerraform(struct!.regenerate),
   }
 }
 
 
-export function serviceaccountSecretToHclTerraform(struct?: ServiceaccountSecret | cdktf.IResolvable): any {
+export function serviceaccountSecretToHclTerraform(struct?: ServiceaccountSecret): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    old_secret: {
-      value: cdktf.stringToHclTerraform(struct!.oldSecret),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    regenerate: {
-      value: cdktf.booleanToHclTerraform(struct!.regenerate),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
   };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+  return attrs;
 }
 
 export class ServiceaccountSecretOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -1352,82 +1459,29 @@ export class ServiceaccountSecretOutputReference extends cdktf.ComplexObject {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): ServiceaccountSecret | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
+  public get internalValue(): ServiceaccountSecret | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._oldSecret !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.oldSecret = this._oldSecret;
-    }
-    if (this._regenerate !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.regenerate = this._regenerate;
-    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: ServiceaccountSecret | cdktf.IResolvable | undefined) {
+  public set internalValue(value: ServiceaccountSecret | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._oldSecret = undefined;
-      this._regenerate = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._oldSecret = value.oldSecret;
-      this._regenerate = value.regenerate;
     }
   }
 
-  // generated_secret - computed: true, optional: false, required: false
-  public get generatedSecret() {
-    return this.getStringAttribute('generated_secret');
-  }
-
-  // old_secret - computed: true, optional: true, required: false
-  private _oldSecret?: string; 
-  public get oldSecret() {
-    return this.getStringAttribute('old_secret');
-  }
-  public set oldSecret(value: string) {
-    this._oldSecret = value;
-  }
-  public resetOldSecret() {
-    this._oldSecret = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get oldSecretInput() {
-    return this._oldSecret;
-  }
-
-  // regenerate - computed: true, optional: true, required: false
-  private _regenerate?: boolean | cdktf.IResolvable; 
-  public get regenerate() {
-    return this.getBooleanAttribute('regenerate');
-  }
-  public set regenerate(value: boolean | cdktf.IResolvable) {
-    this._regenerate = value;
-  }
-  public resetRegenerate() {
-    this._regenerate = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get regenerateInput() {
-    return this._regenerate;
+  // secret - computed: true, optional: false, required: false
+  public get secret() {
+    return this.getStringAttribute('secret');
   }
 }
 export interface ServiceaccountSupportedFeatures {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/serviceaccount#ssh_public_key Serviceaccount#ssh_public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/serviceaccount#ssh_public_key Serviceaccount#ssh_public_key}
   */
   readonly sshPublicKey?: boolean | cdktf.IResolvable;
 }
@@ -1511,7 +1565,7 @@ export class ServiceaccountSupportedFeaturesOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/serviceaccount keyhub_serviceaccount}
+* Represents a {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/serviceaccount keyhub_serviceaccount}
 */
 export class Serviceaccount extends cdktf.TerraformResource {
 
@@ -1527,7 +1581,7 @@ export class Serviceaccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Serviceaccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Serviceaccount to import
-  * @param importFromId The id of the existing Serviceaccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/serviceaccount#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Serviceaccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/serviceaccount#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Serviceaccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1539,7 +1593,7 @@ export class Serviceaccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/serviceaccount keyhub_serviceaccount} Resource
+  * Create a new {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/serviceaccount keyhub_serviceaccount} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1550,8 +1604,8 @@ export class Serviceaccount extends cdktf.TerraformResource {
       terraformResourceType: 'keyhub_serviceaccount',
       terraformGeneratorMetadata: {
         providerName: 'keyhub',
-        providerVersion: '2.44.0',
-        providerVersionConstraint: '2.44.0'
+        providerVersion: '2.45.0',
+        providerVersionConstraint: '2.45.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1564,9 +1618,9 @@ export class Serviceaccount extends cdktf.TerraformResource {
     this._active = config.active;
     this._additional = config.additional;
     this._description = config.description;
+    this._generateSecret.internalValue = config.generateSecret;
     this._name = config.name;
     this._passwordRotation = config.passwordRotation;
-    this._secret.internalValue = config.secret;
     this._sshPublicKey = config.sshPublicKey;
     this._systemUuid = config.systemUuid;
     this._technicalAdministratorUuid = config.technicalAdministratorUuid;
@@ -1631,6 +1685,22 @@ export class Serviceaccount extends cdktf.TerraformResource {
     return this._description;
   }
 
+  // generate_secret - computed: false, optional: true, required: false
+  private _generateSecret = new ServiceaccountGenerateSecretOutputReference(this, "generate_secret");
+  public get generateSecret() {
+    return this._generateSecret;
+  }
+  public putGenerateSecret(value: ServiceaccountGenerateSecret) {
+    this._generateSecret.internalValue = value;
+  }
+  public resetGenerateSecret() {
+    this._generateSecret.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get generateSecretInput() {
+    return this._generateSecret.internalValue;
+  }
+
   // groups - computed: true, optional: false, required: false
   private _groups = new ServiceaccountGroupsList(this, "groups", false);
   public get groups() {
@@ -1684,20 +1754,10 @@ export class Serviceaccount extends cdktf.TerraformResource {
     return this._permissions;
   }
 
-  // secret - computed: true, optional: true, required: false
+  // secret - computed: true, optional: false, required: false
   private _secret = new ServiceaccountSecretOutputReference(this, "secret");
   public get secret() {
     return this._secret;
-  }
-  public putSecret(value: ServiceaccountSecret) {
-    this._secret.internalValue = value;
-  }
-  public resetSecret() {
-    this._secret.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get secretInput() {
-    return this._secret.internalValue;
   }
 
   // ssh_public_key - computed: false, optional: true, required: false
@@ -1775,9 +1835,9 @@ export class Serviceaccount extends cdktf.TerraformResource {
       active: cdktf.booleanToTerraform(this._active),
       additional: cdktf.listMapper(cdktf.stringToTerraform, false)(this._additional),
       description: cdktf.stringToTerraform(this._description),
+      generate_secret: serviceaccountGenerateSecretToTerraform(this._generateSecret.internalValue),
       name: cdktf.stringToTerraform(this._name),
       password_rotation: cdktf.stringToTerraform(this._passwordRotation),
-      secret: serviceaccountSecretToTerraform(this._secret.internalValue),
       ssh_public_key: cdktf.stringToTerraform(this._sshPublicKey),
       system_uuid: cdktf.stringToTerraform(this._systemUuid),
       technical_administrator_uuid: cdktf.stringToTerraform(this._technicalAdministratorUuid),
@@ -1805,6 +1865,12 @@ export class Serviceaccount extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      generate_secret: {
+        value: serviceaccountGenerateSecretToHclTerraform(this._generateSecret.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "ServiceaccountGenerateSecret",
+      },
       name: {
         value: cdktf.stringToHclTerraform(this._name),
         isBlock: false,
@@ -1816,12 +1882,6 @@ export class Serviceaccount extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
-      },
-      secret: {
-        value: serviceaccountSecretToHclTerraform(this._secret.internalValue),
-        isBlock: true,
-        type: "struct",
-        storageClassType: "ServiceaccountSecret",
       },
       ssh_public_key: {
         value: cdktf.stringToHclTerraform(this._sshPublicKey),

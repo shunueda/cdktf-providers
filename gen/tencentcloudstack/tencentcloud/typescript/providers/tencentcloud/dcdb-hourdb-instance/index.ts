@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_hourdb_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dcdb_hourdb_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DcdbHourdbInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * db engine version, default to Percona 5.7.17.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_hourdb_instance#db_version_id DcdbHourdbInstance#db_version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dcdb_hourdb_instance#db_version_id DcdbHourdbInstance#db_version_id}
   */
   readonly dbVersionId?: string;
   /**
   * DCN source instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_hourdb_instance#dcn_instance_id DcdbHourdbInstance#dcn_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dcdb_hourdb_instance#dcn_instance_id DcdbHourdbInstance#dcn_instance_id}
   */
   readonly dcnInstanceId?: string;
   /**
   * DCN source region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_hourdb_instance#dcn_region DcdbHourdbInstance#dcn_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dcdb_hourdb_instance#dcn_region DcdbHourdbInstance#dcn_region}
   */
   readonly dcnRegion?: string;
   /**
   * Whether to open the extranet access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_hourdb_instance#extranet_access DcdbHourdbInstance#extranet_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dcdb_hourdb_instance#extranet_access DcdbHourdbInstance#extranet_access}
   */
   readonly extranetAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_hourdb_instance#id DcdbHourdbInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dcdb_hourdb_instance#id DcdbHourdbInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,85 +41,85 @@ export interface DcdbHourdbInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * name of this instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_hourdb_instance#instance_name DcdbHourdbInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dcdb_hourdb_instance#instance_name DcdbHourdbInstance#instance_name}
   */
   readonly instanceName?: string;
   /**
   * Whether to support IPv6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_hourdb_instance#ipv6_flag DcdbHourdbInstance#ipv6_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dcdb_hourdb_instance#ipv6_flag DcdbHourdbInstance#ipv6_flag}
   */
   readonly ipv6Flag?: number;
   /**
   * project id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_hourdb_instance#project_id DcdbHourdbInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dcdb_hourdb_instance#project_id DcdbHourdbInstance#project_id}
   */
   readonly projectId?: number;
   /**
   * security group id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_hourdb_instance#security_group_id DcdbHourdbInstance#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dcdb_hourdb_instance#security_group_id DcdbHourdbInstance#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
   * instance shard count.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_hourdb_instance#shard_count DcdbHourdbInstance#shard_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dcdb_hourdb_instance#shard_count DcdbHourdbInstance#shard_count}
   */
   readonly shardCount: number;
   /**
   * memory(GB) for each shard. It can be obtained by querying api DescribeShardSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_hourdb_instance#shard_memory DcdbHourdbInstance#shard_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dcdb_hourdb_instance#shard_memory DcdbHourdbInstance#shard_memory}
   */
   readonly shardMemory: number;
   /**
   * node count for each shard. It can be obtained by querying api DescribeShardSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_hourdb_instance#shard_node_count DcdbHourdbInstance#shard_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dcdb_hourdb_instance#shard_node_count DcdbHourdbInstance#shard_node_count}
   */
   readonly shardNodeCount: number;
   /**
   * storage(GB) for each shard. It can be obtained by querying api DescribeShardSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_hourdb_instance#shard_storage DcdbHourdbInstance#shard_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dcdb_hourdb_instance#shard_storage DcdbHourdbInstance#shard_storage}
   */
   readonly shardStorage: number;
   /**
   * subnet id, its required when vpcId is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_hourdb_instance#subnet_id DcdbHourdbInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dcdb_hourdb_instance#subnet_id DcdbHourdbInstance#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * The field is required to specify VIP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_hourdb_instance#vip DcdbHourdbInstance#vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dcdb_hourdb_instance#vip DcdbHourdbInstance#vip}
   */
   readonly vip?: string;
   /**
   * The field is required to specify VIPv6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_hourdb_instance#vipv6 DcdbHourdbInstance#vipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dcdb_hourdb_instance#vipv6 DcdbHourdbInstance#vipv6}
   */
   readonly vipv6?: string;
   /**
   * vpc id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_hourdb_instance#vpc_id DcdbHourdbInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dcdb_hourdb_instance#vpc_id DcdbHourdbInstance#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * available zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_hourdb_instance#zones DcdbHourdbInstance#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dcdb_hourdb_instance#zones DcdbHourdbInstance#zones}
   */
   readonly zones?: string[];
   /**
   * resource_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_hourdb_instance#resource_tags DcdbHourdbInstance#resource_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dcdb_hourdb_instance#resource_tags DcdbHourdbInstance#resource_tags}
   */
   readonly resourceTags?: DcdbHourdbInstanceResourceTags[] | cdktf.IResolvable;
 }
@@ -127,13 +127,13 @@ export interface DcdbHourdbInstanceResourceTags {
   /**
   * tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_hourdb_instance#tag_key DcdbHourdbInstance#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dcdb_hourdb_instance#tag_key DcdbHourdbInstance#tag_key}
   */
   readonly tagKey: string;
   /**
   * tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_hourdb_instance#tag_value DcdbHourdbInstance#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dcdb_hourdb_instance#tag_value DcdbHourdbInstance#tag_value}
   */
   readonly tagValue: string;
 }
@@ -272,7 +272,7 @@ export class DcdbHourdbInstanceResourceTagsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_hourdb_instance tencentcloud_dcdb_hourdb_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dcdb_hourdb_instance tencentcloud_dcdb_hourdb_instance}
 */
 export class DcdbHourdbInstance extends cdktf.TerraformResource {
 
@@ -288,7 +288,7 @@ export class DcdbHourdbInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DcdbHourdbInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DcdbHourdbInstance to import
-  * @param importFromId The id of the existing DcdbHourdbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_hourdb_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DcdbHourdbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dcdb_hourdb_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DcdbHourdbInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -300,7 +300,7 @@ export class DcdbHourdbInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_hourdb_instance tencentcloud_dcdb_hourdb_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dcdb_hourdb_instance tencentcloud_dcdb_hourdb_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -311,8 +311,8 @@ export class DcdbHourdbInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dcdb_hourdb_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

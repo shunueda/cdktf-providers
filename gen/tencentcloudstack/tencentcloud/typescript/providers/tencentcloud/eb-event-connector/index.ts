@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_connector
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/eb_event_connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface EbEventConnectorConfig extends cdktf.TerraformMetaArguments {
   /**
   * connector name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_connector#connection_name EbEventConnector#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/eb_event_connector#connection_name EbEventConnector#connection_name}
   */
   readonly connectionName: string;
   /**
   * description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_connector#description EbEventConnector#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/eb_event_connector#description EbEventConnector#description}
   */
   readonly description?: string;
   /**
   * switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_connector#enable EbEventConnector#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/eb_event_connector#enable EbEventConnector#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * event bus Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_connector#event_bus_id EbEventConnector#event_bus_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/eb_event_connector#event_bus_id EbEventConnector#event_bus_id}
   */
   readonly eventBusId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_connector#id EbEventConnector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/eb_event_connector#id EbEventConnector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,13 +41,13 @@ export interface EbEventConnectorConfig extends cdktf.TerraformMetaArguments {
   /**
   * type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_connector#type EbEventConnector#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/eb_event_connector#type EbEventConnector#type}
   */
   readonly type?: string;
   /**
   * connection_description block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_connector#connection_description EbEventConnector#connection_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/eb_event_connector#connection_description EbEventConnector#connection_description}
   */
   readonly connectionDescription: EbEventConnectorConnectionDescription;
 }
@@ -55,13 +55,13 @@ export interface EbEventConnectorConnectionDescriptionApiGwParams {
   /**
   * POST.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_connector#method EbEventConnector#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/eb_event_connector#method EbEventConnector#method}
   */
   readonly method: string;
   /**
   * HTTPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_connector#protocol EbEventConnector#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/eb_event_connector#protocol EbEventConnector#protocol}
   */
   readonly protocol: string;
 }
@@ -170,13 +170,13 @@ export interface EbEventConnectorConnectionDescriptionCkafkaParams {
   /**
   * kafka offset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_connector#offset EbEventConnector#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/eb_event_connector#offset EbEventConnector#offset}
   */
   readonly offset: string;
   /**
   * ckafka  topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_connector#topic_name EbEventConnector#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/eb_event_connector#topic_name EbEventConnector#topic_name}
   */
   readonly topicName: string;
 }
@@ -285,19 +285,19 @@ export interface EbEventConnectorConnectionDescription {
   /**
   * Resource qcs six-segment style, more reference [resource six-segment style](https://cloud.tencent.com/document/product/598/10606).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_connector#resource_description EbEventConnector#resource_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/eb_event_connector#resource_description EbEventConnector#resource_description}
   */
   readonly resourceDescription: string;
   /**
   * api_gw_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_connector#api_gw_params EbEventConnector#api_gw_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/eb_event_connector#api_gw_params EbEventConnector#api_gw_params}
   */
   readonly apiGwParams?: EbEventConnectorConnectionDescriptionApiGwParams;
   /**
   * ckafka_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_connector#ckafka_params EbEventConnector#ckafka_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/eb_event_connector#ckafka_params EbEventConnector#ckafka_params}
   */
   readonly ckafkaParams?: EbEventConnectorConnectionDescriptionCkafkaParams;
 }
@@ -436,7 +436,7 @@ export class EbEventConnectorConnectionDescriptionOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_connector tencentcloud_eb_event_connector}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/eb_event_connector tencentcloud_eb_event_connector}
 */
 export class EbEventConnector extends cdktf.TerraformResource {
 
@@ -452,7 +452,7 @@ export class EbEventConnector extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EbEventConnector resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EbEventConnector to import
-  * @param importFromId The id of the existing EbEventConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EbEventConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/eb_event_connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EbEventConnector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -464,7 +464,7 @@ export class EbEventConnector extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_connector tencentcloud_eb_event_connector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/eb_event_connector tencentcloud_eb_event_connector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -475,8 +475,8 @@ export class EbEventConnector extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_eb_event_connector',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

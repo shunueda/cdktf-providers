@@ -1,3 +1,3 @@
 # `data_tencentcloud_igtm_monitors`
 
-Refer to the Terraform Registry for docs: [`data_tencentcloud_igtm_monitors`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/igtm_monitors).
+Refer to the Terraform Registry for docs: [`data_tencentcloud_igtm_monitors`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/igtm_monitors).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_sslcert
+// https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_sslcert
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,43 +12,44 @@ export interface CheckSslcertConfig extends cdktf.TerraformMetaArguments {
   * Must start and end with alphanumeric characters, can contain hyphens but not at the start or end, 
   * and must have at least one dot separator between valid DNS labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_sslcert#address CheckSslcert#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_sslcert#address CheckSslcert#address}
   */
   readonly address: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_sslcert#config CheckSslcert#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_sslcert#config CheckSslcert#config}
   */
   readonly config?: CheckSslcertConfigA;
   /**
-  * List of contact group names to receive notifications. 
-  * Each contact group can contain multiple contacts (email addresses, phone numbers, or integrations) 
+  * List of contact group names to receive notifications.
+  * Each contact group can contain multiple contacts (email addresses, phone numbers, or integrations)
   * that will be notified when alerts are triggered. Defaults to ['Default'] if not specified.
+  * Set to an empty list to disable notifications at this level and rely on parent check group notifications instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_sslcert#contact_groups CheckSslcert#contact_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_sslcert#contact_groups CheckSslcert#contact_groups}
   */
   readonly contactGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_sslcert#is_paused CheckSslcert#is_paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_sslcert#is_paused CheckSslcert#is_paused}
   */
   readonly isPaused?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_sslcert#name CheckSslcert#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_sslcert#name CheckSslcert#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_sslcert#notes CheckSslcert#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_sslcert#notes CheckSslcert#notes}
   */
   readonly notes?: string;
   /**
   * How many times the check should be retried before a location is considered down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_sslcert#num_retries CheckSslcert#num_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_sslcert#num_retries CheckSslcert#num_retries}
   */
   readonly numRetries?: number;
   /**
   * The port to check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_sslcert#port CheckSslcert#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_sslcert#port CheckSslcert#port}
   */
   readonly port?: number;
   /**
@@ -58,73 +59,73 @@ export interface CheckSslcertConfig extends cdktf.TerraformMetaArguments {
   * Common use cases include tagging by team ('dev-team', 'ops'), environment ('production', 'staging'), 
   * or purpose ('api', 'customer-facing'). Defaults to an empty list if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_sslcert#tags CheckSslcert#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_sslcert#tags CheckSslcert#tags}
   */
   readonly tags?: string[];
   /**
   * Raise an alert if there are less than this many days before the SSL certificate needs to be renewed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_sslcert#threshold CheckSslcert#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_sslcert#threshold CheckSslcert#threshold}
   */
   readonly threshold?: number;
 }
 export interface CheckSslcertConfigA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_sslcert#crl CheckSslcert#crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_sslcert#crl CheckSslcert#crl}
   */
   readonly crl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_sslcert#fingerprint CheckSslcert#fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_sslcert#fingerprint CheckSslcert#fingerprint}
   */
   readonly fingerprint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_sslcert#first_element_only CheckSslcert#first_element_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_sslcert#first_element_only CheckSslcert#first_element_only}
   */
   readonly firstElementOnly?: boolean | cdktf.IResolvable;
   /**
   * Ignore certificate authority warnings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_sslcert#ignore_authority_warnings CheckSslcert#ignore_authority_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_sslcert#ignore_authority_warnings CheckSslcert#ignore_authority_warnings}
   */
   readonly ignoreAuthorityWarnings?: boolean | cdktf.IResolvable;
   /**
   * Ignore signed certificate timestamp (SCT) validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_sslcert#ignore_sct CheckSslcert#ignore_sct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_sslcert#ignore_sct CheckSslcert#ignore_sct}
   */
   readonly ignoreSct?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_sslcert#issuer CheckSslcert#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_sslcert#issuer CheckSslcert#issuer}
   */
   readonly issuer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_sslcert#match CheckSslcert#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_sslcert#match CheckSslcert#match}
   */
   readonly match?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_sslcert#min_version CheckSslcert#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_sslcert#min_version CheckSslcert#min_version}
   */
   readonly minVersion?: string;
   /**
   * Application level protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_sslcert#protocol CheckSslcert#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_sslcert#protocol CheckSslcert#protocol}
   */
   readonly protocol?: string;
   /**
   * Force host IP address resolution. Format: hostname:port:ip_address (e.g., example.com:443:1.2.3.4)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_sslcert#resolve CheckSslcert#resolve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_sslcert#resolve CheckSslcert#resolve}
   */
   readonly resolve?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_sslcert#self_signed CheckSslcert#self_signed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_sslcert#self_signed CheckSslcert#self_signed}
   */
   readonly selfSigned?: boolean | cdktf.IResolvable;
   /**
   * Specify location of certificate or CRL file by URL, instead of retrieving from main domain address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_sslcert#url CheckSslcert#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_sslcert#url CheckSslcert#url}
   */
   readonly url?: string;
 }
@@ -537,7 +538,7 @@ export class CheckSslcertConfigAOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_sslcert uptime_check_sslcert}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_sslcert uptime_check_sslcert}
 */
 export class CheckSslcert extends cdktf.TerraformResource {
 
@@ -553,7 +554,7 @@ export class CheckSslcert extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CheckSslcert resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CheckSslcert to import
-  * @param importFromId The id of the existing CheckSslcert that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_sslcert#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CheckSslcert that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_sslcert#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CheckSslcert to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -565,7 +566,7 @@ export class CheckSslcert extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/check_sslcert uptime_check_sslcert} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/check_sslcert uptime_check_sslcert} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -576,8 +577,8 @@ export class CheckSslcert extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_check_sslcert',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.18.1',
-        providerVersionConstraint: '2.18.1'
+        providerVersion: '2.20.0',
+        providerVersionConstraint: '2.20.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

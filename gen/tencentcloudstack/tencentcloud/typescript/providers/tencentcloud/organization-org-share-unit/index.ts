@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/organization_org_share_unit
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/organization_org_share_unit
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface OrganizationOrgShareUnitConfig extends cdktf.TerraformMetaArgum
   /**
   * Shared unit region. The regions that support sharing can be obtained through the DescribeShareAreas interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/organization_org_share_unit#area OrganizationOrgShareUnit#area}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/organization_org_share_unit#area OrganizationOrgShareUnit#area}
   */
   readonly area: string;
   /**
   * Shared unit description. Up to 128 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/organization_org_share_unit#description OrganizationOrgShareUnit#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/organization_org_share_unit#description OrganizationOrgShareUnit#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/organization_org_share_unit#id OrganizationOrgShareUnit#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/organization_org_share_unit#id OrganizationOrgShareUnit#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface OrganizationOrgShareUnitConfig extends cdktf.TerraformMetaArgum
   /**
   * Shared unit name. It only supports a combination of uppercase and lowercase letters, numbers, -, and _, with a length of 3-128 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/organization_org_share_unit#name OrganizationOrgShareUnit#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/organization_org_share_unit#name OrganizationOrgShareUnit#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/organization_org_share_unit tencentcloud_organization_org_share_unit}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/organization_org_share_unit tencentcloud_organization_org_share_unit}
 */
 export class OrganizationOrgShareUnit extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class OrganizationOrgShareUnit extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationOrgShareUnit resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationOrgShareUnit to import
-  * @param importFromId The id of the existing OrganizationOrgShareUnit that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/organization_org_share_unit#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationOrgShareUnit that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/organization_org_share_unit#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationOrgShareUnit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class OrganizationOrgShareUnit extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/organization_org_share_unit tencentcloud_organization_org_share_unit} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/organization_org_share_unit tencentcloud_organization_org_share_unit} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class OrganizationOrgShareUnit extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_organization_org_share_unit',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

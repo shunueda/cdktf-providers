@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/clb_listener_rules
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clb_listener_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudClbListenerRulesConfig extends cdktf.TerraformM
   /**
   * ID of the CLB to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/clb_listener_rules#clb_id DataTencentcloudClbListenerRules#clb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clb_listener_rules#clb_id DataTencentcloudClbListenerRules#clb_id}
   */
   readonly clbId: string;
   /**
   * Domain name of the forwarding rule to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/clb_listener_rules#domain DataTencentcloudClbListenerRules#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clb_listener_rules#domain DataTencentcloudClbListenerRules#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/clb_listener_rules#id DataTencentcloudClbListenerRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clb_listener_rules#id DataTencentcloudClbListenerRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface DataTencentcloudClbListenerRulesConfig extends cdktf.TerraformM
   /**
   * ID of the CLB listener to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/clb_listener_rules#listener_id DataTencentcloudClbListenerRules#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clb_listener_rules#listener_id DataTencentcloudClbListenerRules#listener_id}
   */
   readonly listenerId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/clb_listener_rules#result_output_file DataTencentcloudClbListenerRules#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clb_listener_rules#result_output_file DataTencentcloudClbListenerRules#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * ID of the forwarding rule to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/clb_listener_rules#rule_id DataTencentcloudClbListenerRules#rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clb_listener_rules#rule_id DataTencentcloudClbListenerRules#rule_id}
   */
   readonly ruleId?: string;
   /**
   * Scheduling method of the forwarding rule of thr CLB listener, and available values include `WRR`, `IP HASH` and `LEAST_CONN`. The default is `WRR`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/clb_listener_rules#scheduler DataTencentcloudClbListenerRules#scheduler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clb_listener_rules#scheduler DataTencentcloudClbListenerRules#scheduler}
   */
   readonly scheduler?: string;
   /**
   * Url of the forwarding rule to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/clb_listener_rules#url DataTencentcloudClbListenerRules#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clb_listener_rules#url DataTencentcloudClbListenerRules#url}
   */
   readonly url?: string;
 }
@@ -224,7 +224,7 @@ export class DataTencentcloudClbListenerRulesRuleListStructList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/clb_listener_rules tencentcloud_clb_listener_rules}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clb_listener_rules tencentcloud_clb_listener_rules}
 */
 export class DataTencentcloudClbListenerRules extends cdktf.TerraformDataSource {
 
@@ -240,7 +240,7 @@ export class DataTencentcloudClbListenerRules extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataTencentcloudClbListenerRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudClbListenerRules to import
-  * @param importFromId The id of the existing DataTencentcloudClbListenerRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/clb_listener_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudClbListenerRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clb_listener_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudClbListenerRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -252,7 +252,7 @@ export class DataTencentcloudClbListenerRules extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/clb_listener_rules tencentcloud_clb_listener_rules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/data-sources/clb_listener_rules tencentcloud_clb_listener_rules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -263,8 +263,8 @@ export class DataTencentcloudClbListenerRules extends cdktf.TerraformDataSource 
       terraformResourceType: 'tencentcloud_clb_listener_rules',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

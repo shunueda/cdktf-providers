@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/postgres_flex_instance
+// https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/postgres_flex_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataStackitPostgresFlexInstanceConfig extends cdktf.TerraformMe
   /**
   * Specifies the instance name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/postgres_flex_instance#name DataStackitPostgresFlexInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/postgres_flex_instance#name DataStackitPostgresFlexInstance#name}
   */
   readonly name: string;
   /**
   * The project ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/postgres_flex_instance#project_id DataStackitPostgresFlexInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/postgres_flex_instance#project_id DataStackitPostgresFlexInstance#project_id}
   */
   readonly projectId: string;
 }
@@ -81,7 +81,7 @@ export class DataStackitPostgresFlexInstanceStorageOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/postgres_flex_instance stackit_postgres_flex_instance}
+* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/postgres_flex_instance stackit_postgres_flex_instance}
 */
 export class DataStackitPostgresFlexInstance extends cdktf.TerraformDataSource {
 
@@ -97,7 +97,7 @@ export class DataStackitPostgresFlexInstance extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataStackitPostgresFlexInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStackitPostgresFlexInstance to import
-  * @param importFromId The id of the existing DataStackitPostgresFlexInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/postgres_flex_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStackitPostgresFlexInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/postgres_flex_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStackitPostgresFlexInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -109,7 +109,7 @@ export class DataStackitPostgresFlexInstance extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/data-sources/postgres_flex_instance stackit_postgres_flex_instance} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/data-sources/postgres_flex_instance stackit_postgres_flex_instance} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -120,8 +120,8 @@ export class DataStackitPostgresFlexInstance extends cdktf.TerraformDataSource {
       terraformResourceType: 'stackit_postgres_flex_instance',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '1.34.3',
-        providerVersionConstraint: '1.34.3'
+        providerVersion: '1.34.4',
+        providerVersionConstraint: '1.34.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/restore
+// https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/restore
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface RestoreConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the managed backup from which data will be restored. If this value is not set, the restore job uses the most recent available backup on the source cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/restore#backup_id Restore#backup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/restore#backup_id Restore#backup_id}
   */
   readonly backupId?: string;
   /**
   * ID of the cluster where the backup will be restored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/restore#destination_cluster_id Restore#destination_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/restore#destination_cluster_id Restore#destination_cluster_id}
   */
   readonly destinationClusterId: string;
   /**
   * Additional options controlling the behavior of the restore job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/restore#restore_opts Restore#restore_opts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/restore#restore_opts Restore#restore_opts}
   */
   readonly restoreOpts?: RestoreRestoreOpts;
   /**
   * ID of the source cluster containing the managed backup to be restored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/restore#source_cluster_id Restore#source_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/restore#source_cluster_id Restore#source_cluster_id}
   */
   readonly sourceClusterId?: string;
   /**
   * Type describes the scope of the restore job. When using a DATABASE or TABLE restore, additional details must be passed in the objects attribute. Allowed values are: `CLUSTER` or `DATABASE` or `TABLE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/restore#type Restore#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/restore#type Restore#type}
   */
   readonly type: string;
   /**
   * objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/restore#objects Restore#objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/restore#objects Restore#objects}
   */
   readonly objects?: RestoreObjects[] | cdktf.IResolvable;
 }
@@ -48,39 +48,45 @@ export interface RestoreRestoreOpts {
   /**
   * Optionally specifies a target database to restore the table into during a table restore job. If not set, the table is restored into the database it belonged to in the source backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/restore#into_db Restore#into_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/restore#into_db Restore#into_db}
   */
   readonly intoDb?: string;
   /**
   * Optionally specifies the name of a new database to create as the target of a database restore job. If not set, the name defaults to the original database name from the source cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/restore#new_db_name Restore#new_db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/restore#new_db_name Restore#new_db_name}
   */
   readonly newDbName?: string;
   /**
   * If set, only the schema without any user data is restored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/restore#schema_only Restore#schema_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/restore#schema_only Restore#schema_only}
   */
   readonly schemaOnly?: boolean | cdktf.IResolvable;
   /**
   * Allows the restore job to continue in the event that there are mismatched localities between the backup and target cluster. Useful when restoring multi-region tables to a cluster missing some localities.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/restore#skip_localities_check Restore#skip_localities_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/restore#skip_localities_check Restore#skip_localities_check}
   */
   readonly skipLocalitiesCheck?: boolean | cdktf.IResolvable;
   /**
   * Allows a table to be restored even if it has foreign key constraints referencing rows that no longer exist in the target cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/restore#skip_missing_foreign_keys Restore#skip_missing_foreign_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/restore#skip_missing_foreign_keys Restore#skip_missing_foreign_keys}
   */
   readonly skipMissingForeignKeys?: boolean | cdktf.IResolvable;
   /**
   * Allows a table to be restored even if it contains a column whose `DEFAULT` value depends on a sequence. More information can be found [here](https://www.cockroachlabs.com/docs/stable/show-sequences).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/restore#skip_missing_sequences Restore#skip_missing_sequences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/restore#skip_missing_sequences Restore#skip_missing_sequences}
   */
   readonly skipMissingSequences?: boolean | cdktf.IResolvable;
+  /**
+  * Allows the job to skip restoring views that cannot be restored because their dependencies are not included in the current restore job.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/restore#skip_missing_views Restore#skip_missing_views}
+  */
+  readonly skipMissingViews?: boolean | cdktf.IResolvable;
 }
 
 export function restoreRestoreOptsToTerraform(struct?: RestoreRestoreOpts | cdktf.IResolvable): any {
@@ -95,6 +101,7 @@ export function restoreRestoreOptsToTerraform(struct?: RestoreRestoreOpts | cdkt
     skip_localities_check: cdktf.booleanToTerraform(struct!.skipLocalitiesCheck),
     skip_missing_foreign_keys: cdktf.booleanToTerraform(struct!.skipMissingForeignKeys),
     skip_missing_sequences: cdktf.booleanToTerraform(struct!.skipMissingSequences),
+    skip_missing_views: cdktf.booleanToTerraform(struct!.skipMissingViews),
   }
 }
 
@@ -137,6 +144,12 @@ export function restoreRestoreOptsToHclTerraform(struct?: RestoreRestoreOpts | c
     },
     skip_missing_sequences: {
       value: cdktf.booleanToHclTerraform(struct!.skipMissingSequences),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    skip_missing_views: {
+      value: cdktf.booleanToHclTerraform(struct!.skipMissingViews),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -189,6 +202,10 @@ export class RestoreRestoreOptsOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.skipMissingSequences = this._skipMissingSequences;
     }
+    if (this._skipMissingViews !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.skipMissingViews = this._skipMissingViews;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -202,6 +219,7 @@ export class RestoreRestoreOptsOutputReference extends cdktf.ComplexObject {
       this._skipLocalitiesCheck = undefined;
       this._skipMissingForeignKeys = undefined;
       this._skipMissingSequences = undefined;
+      this._skipMissingViews = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -216,6 +234,7 @@ export class RestoreRestoreOptsOutputReference extends cdktf.ComplexObject {
       this._skipLocalitiesCheck = value.skipLocalitiesCheck;
       this._skipMissingForeignKeys = value.skipMissingForeignKeys;
       this._skipMissingSequences = value.skipMissingSequences;
+      this._skipMissingViews = value.skipMissingViews;
     }
   }
 
@@ -314,24 +333,40 @@ export class RestoreRestoreOptsOutputReference extends cdktf.ComplexObject {
   public get skipMissingSequencesInput() {
     return this._skipMissingSequences;
   }
+
+  // skip_missing_views - computed: false, optional: true, required: false
+  private _skipMissingViews?: boolean | cdktf.IResolvable; 
+  public get skipMissingViews() {
+    return this.getBooleanAttribute('skip_missing_views');
+  }
+  public set skipMissingViews(value: boolean | cdktf.IResolvable) {
+    this._skipMissingViews = value;
+  }
+  public resetSkipMissingViews() {
+    this._skipMissingViews = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get skipMissingViewsInput() {
+    return this._skipMissingViews;
+  }
 }
 export interface RestoreObjects {
   /**
   * The database name in the fully qualified name of the objects to be restored. In the case of a job that restores `tpcc.public.warehouse`, this value would be `tpcc`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/restore#database Restore#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/restore#database Restore#database}
   */
   readonly database: string;
   /**
   * The schema name in the fully qualified name of the objects to be restored. In the case of a job that restores `tpcc.public.warehouse`, this value would be `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/restore#schema Restore#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/restore#schema Restore#schema}
   */
   readonly schema?: string;
   /**
   * The table name in the fully qualified name of the objects to be restored. In the case of a job that restores `tpcc.public.warehouse`, this would value be `warehouse`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/restore#tables Restore#tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/restore#tables Restore#tables}
   */
   readonly tables?: string[];
 }
@@ -502,7 +537,7 @@ export class RestoreObjectsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/restore cockroach_restore}
+* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/restore cockroach_restore}
 */
 export class Restore extends cdktf.TerraformResource {
 
@@ -518,7 +553,7 @@ export class Restore extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Restore resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Restore to import
-  * @param importFromId The id of the existing Restore that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/restore#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Restore that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/restore#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Restore to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -530,7 +565,7 @@ export class Restore extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/resources/restore cockroach_restore} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/resources/restore cockroach_restore} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -541,8 +576,8 @@ export class Restore extends cdktf.TerraformResource {
       terraformResourceType: 'cockroach_restore',
       terraformGeneratorMetadata: {
         providerName: 'cockroach',
-        providerVersion: '1.16.0',
-        providerVersionConstraint: '1.16.0'
+        providerVersion: '1.17.0',
+        providerVersionConstraint: '1.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -564,6 +599,11 @@ export class Restore extends cdktf.TerraformResource {
   // ATTRIBUTES
   // ==========
 
+  // backup_end_time - computed: true, optional: false, required: false
+  public get backupEndTime() {
+    return this.getStringAttribute('backup_end_time');
+  }
+
   // backup_id - computed: true, optional: true, required: false
   private _backupId?: string; 
   public get backupId() {
@@ -580,9 +620,29 @@ export class Restore extends cdktf.TerraformResource {
     return this._backupId;
   }
 
+  // client_error_code - computed: true, optional: false, required: false
+  public get clientErrorCode() {
+    return this.getNumberAttribute('client_error_code');
+  }
+
+  // client_error_message - computed: true, optional: false, required: false
+  public get clientErrorMessage() {
+    return this.getStringAttribute('client_error_message');
+  }
+
+  // completed_at - computed: true, optional: false, required: false
+  public get completedAt() {
+    return this.getStringAttribute('completed_at');
+  }
+
   // completion_percent - computed: true, optional: false, required: false
   public get completionPercent() {
     return this.getNumberAttribute('completion_percent');
+  }
+
+  // crdb_job_id - computed: true, optional: false, required: false
+  public get crdbJobId() {
+    return this.getStringAttribute('crdb_job_id');
   }
 
   // created_at - computed: true, optional: false, required: false
@@ -601,6 +661,11 @@ export class Restore extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get destinationClusterIdInput() {
     return this._destinationClusterId;
+  }
+
+  // destination_cluster_name - computed: true, optional: false, required: false
+  public get destinationClusterName() {
+    return this.getStringAttribute('destination_cluster_name');
   }
 
   // id - computed: true, optional: false, required: false
@@ -638,6 +703,11 @@ export class Restore extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get sourceClusterIdInput() {
     return this._sourceClusterId;
+  }
+
+  // source_cluster_name - computed: true, optional: false, required: false
+  public get sourceClusterName() {
+    return this.getStringAttribute('source_cluster_name');
   }
 
   // status - computed: true, optional: false, required: false

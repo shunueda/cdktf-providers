@@ -1,3 +1,3 @@
 # `tencentcloud_route_table_entry_config`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_route_table_entry_config`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/route_table_entry_config).
+Refer to the Terraform Registry for docs: [`tencentcloud_route_table_entry_config`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/route_table_entry_config).

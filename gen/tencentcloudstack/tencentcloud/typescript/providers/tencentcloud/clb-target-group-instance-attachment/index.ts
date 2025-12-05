@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/clb_target_group_instance_attachment
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/clb_target_group_instance_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ClbTargetGroupInstanceAttachmentConfig extends cdktf.TerraformM
   /**
   * The Intranet IP of the target group instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/clb_target_group_instance_attachment#bind_ip ClbTargetGroupInstanceAttachment#bind_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/clb_target_group_instance_attachment#bind_ip ClbTargetGroupInstanceAttachment#bind_ip}
   */
   readonly bindIp: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/clb_target_group_instance_attachment#id ClbTargetGroupInstanceAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/clb_target_group_instance_attachment#id ClbTargetGroupInstanceAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface ClbTargetGroupInstanceAttachmentConfig extends cdktf.TerraformM
   /**
   * Port of the target group instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/clb_target_group_instance_attachment#port ClbTargetGroupInstanceAttachment#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/clb_target_group_instance_attachment#port ClbTargetGroupInstanceAttachment#port}
   */
   readonly port: number;
   /**
   * Target group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/clb_target_group_instance_attachment#target_group_id ClbTargetGroupInstanceAttachment#target_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/clb_target_group_instance_attachment#target_group_id ClbTargetGroupInstanceAttachment#target_group_id}
   */
   readonly targetGroupId: string;
   /**
   * The weight of the target group instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/clb_target_group_instance_attachment#weight ClbTargetGroupInstanceAttachment#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/clb_target_group_instance_attachment#weight ClbTargetGroupInstanceAttachment#weight}
   */
   readonly weight: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/clb_target_group_instance_attachment tencentcloud_clb_target_group_instance_attachment}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/clb_target_group_instance_attachment tencentcloud_clb_target_group_instance_attachment}
 */
 export class ClbTargetGroupInstanceAttachment extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class ClbTargetGroupInstanceAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClbTargetGroupInstanceAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClbTargetGroupInstanceAttachment to import
-  * @param importFromId The id of the existing ClbTargetGroupInstanceAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/clb_target_group_instance_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClbTargetGroupInstanceAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/clb_target_group_instance_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClbTargetGroupInstanceAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class ClbTargetGroupInstanceAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/clb_target_group_instance_attachment tencentcloud_clb_target_group_instance_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/clb_target_group_instance_attachment tencentcloud_clb_target_group_instance_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class ClbTargetGroupInstanceAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_clb_target_group_instance_attachment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/argus_job
+// https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/argus_job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface ArgusJobConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the Argus Instance ID the job belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/argus_job#argus_instance_id ArgusJob#argus_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/argus_job#argus_instance_id ArgusJob#argus_instance_id}
   */
   readonly argusInstanceId: string;
   /**
   * A basic_auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/argus_job#basic_auth ArgusJob#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/argus_job#basic_auth ArgusJob#basic_auth}
   */
   readonly basicAuth?: ArgusJobBasicAuth;
   /**
   * Specifies the job scraping path. Defaults to `/metrics`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/argus_job#metrics_path ArgusJob#metrics_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/argus_job#metrics_path ArgusJob#metrics_path}
   */
   readonly metricsPath?: string;
   /**
   * Specifies the name of the scraping job
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/argus_job#name ArgusJob#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/argus_job#name ArgusJob#name}
   */
   readonly name: string;
   /**
   * Specifies the Project ID the Argus instance belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/argus_job#project_id ArgusJob#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/argus_job#project_id ArgusJob#project_id}
   */
   readonly projectId: string;
   /**
   * A saml2 configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/argus_job#saml2 ArgusJob#saml2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/argus_job#saml2 ArgusJob#saml2}
   */
   readonly saml2?: ArgusJobSaml2;
   /**
   * Specifies the scrape sample limit. Upper limit is depends on the service plan. Default is `5000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/argus_job#sample_limit ArgusJob#sample_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/argus_job#sample_limit ArgusJob#sample_limit}
   */
   readonly sampleLimit?: number;
   /**
   * Specifies the scheme. Default is `https`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/argus_job#scheme ArgusJob#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/argus_job#scheme ArgusJob#scheme}
   */
   readonly scheme?: string;
   /**
   * Specifies the scrape interval as duration string. Default is `5m`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/argus_job#scrape_interval ArgusJob#scrape_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/argus_job#scrape_interval ArgusJob#scrape_interval}
   */
   readonly scrapeInterval?: string;
   /**
   * Specifies the scrape timeout as duration string. Default is `2m`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/argus_job#scrape_timeout ArgusJob#scrape_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/argus_job#scrape_timeout ArgusJob#scrape_timeout}
   */
   readonly scrapeTimeout?: string;
   /**
   * targets list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/argus_job#targets ArgusJob#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/argus_job#targets ArgusJob#targets}
   */
   readonly targets: ArgusJobTargets[] | cdktf.IResolvable;
 }
@@ -78,13 +78,13 @@ export interface ArgusJobBasicAuth {
   /**
   * Specifies basic auth password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/argus_job#password ArgusJob#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/argus_job#password ArgusJob#password}
   */
   readonly password: string;
   /**
   * Specifies basic auth username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/argus_job#username ArgusJob#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/argus_job#username ArgusJob#username}
   */
   readonly username: string;
 }
@@ -203,7 +203,7 @@ export interface ArgusJobSaml2 {
   /**
   * Should URL parameters be enabled? Default is `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/argus_job#enable_url_parameters ArgusJob#enable_url_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/argus_job#enable_url_parameters ArgusJob#enable_url_parameters}
   */
   readonly enableUrlParameters?: boolean | cdktf.IResolvable;
 }
@@ -299,13 +299,13 @@ export interface ArgusJobTargets {
   /**
   * Specifies labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/argus_job#labels ArgusJob#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/argus_job#labels ArgusJob#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Specifies target URLs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/argus_job#urls ArgusJob#urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/argus_job#urls ArgusJob#urls}
   */
   readonly urls: string[];
 }
@@ -447,7 +447,7 @@ export class ArgusJobTargetsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/argus_job stackit_argus_job}
+* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/argus_job stackit_argus_job}
 */
 export class ArgusJob extends cdktf.TerraformResource {
 
@@ -463,7 +463,7 @@ export class ArgusJob extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ArgusJob resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ArgusJob to import
-  * @param importFromId The id of the existing ArgusJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/argus_job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ArgusJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/argus_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ArgusJob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -475,7 +475,7 @@ export class ArgusJob extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/argus_job stackit_argus_job} Resource
+  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/argus_job stackit_argus_job} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -486,8 +486,8 @@ export class ArgusJob extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_argus_job',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '1.34.3',
-        providerVersionConstraint: '1.34.3'
+        providerVersion: '1.34.4',
+        providerVersionConstraint: '1.34.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

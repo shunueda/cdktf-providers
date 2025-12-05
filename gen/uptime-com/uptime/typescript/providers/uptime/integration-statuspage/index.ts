@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_statuspage
+// https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_statuspage
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,44 @@ export interface IntegrationStatuspageConfig extends cdktf.TerraformMetaArgument
   /**
   * Statuspage.io API key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_statuspage#api_key IntegrationStatuspage#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_statuspage#api_key IntegrationStatuspage#api_key}
   */
   readonly apiKey: string;
   /**
   * Component ID to update
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_statuspage#component IntegrationStatuspage#component}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_statuspage#component IntegrationStatuspage#component}
   */
   readonly component?: string;
   /**
-  * List of contact group names to receive notifications. 
-  * Each contact group can contain multiple contacts (email addresses, phone numbers, or integrations) 
+  * List of contact group names to receive notifications.
+  * Each contact group can contain multiple contacts (email addresses, phone numbers, or integrations)
   * that will be notified when alerts are triggered. Defaults to ['Default'] if not specified.
+  * Set to an empty list to disable notifications at this level and rely on parent check group notifications instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_statuspage#contact_groups IntegrationStatuspage#contact_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_statuspage#contact_groups IntegrationStatuspage#contact_groups}
   */
   readonly contactGroups?: string[];
   /**
   * Metric ID to update
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_statuspage#metric IntegrationStatuspage#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_statuspage#metric IntegrationStatuspage#metric}
   */
   readonly metric?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_statuspage#name IntegrationStatuspage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_statuspage#name IntegrationStatuspage#name}
   */
   readonly name: string;
   /**
   * Statuspage.io page ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_statuspage#page IntegrationStatuspage#page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_statuspage#page IntegrationStatuspage#page}
   */
   readonly page: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_statuspage uptime_integration_statuspage}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_statuspage uptime_integration_statuspage}
 */
 export class IntegrationStatuspage extends cdktf.TerraformResource {
 
@@ -62,7 +63,7 @@ export class IntegrationStatuspage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationStatuspage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationStatuspage to import
-  * @param importFromId The id of the existing IntegrationStatuspage that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_statuspage#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationStatuspage that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_statuspage#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationStatuspage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +75,7 @@ export class IntegrationStatuspage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/integration_statuspage uptime_integration_statuspage} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/integration_statuspage uptime_integration_statuspage} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +86,8 @@ export class IntegrationStatuspage extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_integration_statuspage',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.18.1',
-        providerVersionConstraint: '2.18.1'
+        providerVersion: '2.20.0',
+        providerVersionConstraint: '2.20.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

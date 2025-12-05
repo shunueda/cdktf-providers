@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/statuspage_subscriber
+// https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage_subscriber
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,25 +8,25 @@ import * as cdktf from 'cdktf';
 
 export interface StatuspageSubscriberConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/statuspage_subscriber#force_validation_sms StatuspageSubscriber#force_validation_sms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage_subscriber#force_validation_sms StatuspageSubscriber#force_validation_sms}
   */
   readonly forceValidationSms?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/statuspage_subscriber#statuspage_id StatuspageSubscriber#statuspage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage_subscriber#statuspage_id StatuspageSubscriber#statuspage_id}
   */
   readonly statuspageId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/statuspage_subscriber#target StatuspageSubscriber#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage_subscriber#target StatuspageSubscriber#target}
   */
   readonly target?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/statuspage_subscriber#type StatuspageSubscriber#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage_subscriber#type StatuspageSubscriber#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/statuspage_subscriber uptime_statuspage_subscriber}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage_subscriber uptime_statuspage_subscriber}
 */
 export class StatuspageSubscriber extends cdktf.TerraformResource {
 
@@ -42,7 +42,7 @@ export class StatuspageSubscriber extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StatuspageSubscriber resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StatuspageSubscriber to import
-  * @param importFromId The id of the existing StatuspageSubscriber that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/statuspage_subscriber#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StatuspageSubscriber that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage_subscriber#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StatuspageSubscriber to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -54,7 +54,7 @@ export class StatuspageSubscriber extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/resources/statuspage_subscriber uptime_statuspage_subscriber} Resource
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/resources/statuspage_subscriber uptime_statuspage_subscriber} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -65,8 +65,8 @@ export class StatuspageSubscriber extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_statuspage_subscriber',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.18.1',
-        providerVersionConstraint: '2.18.1'
+        providerVersion: '2.20.0',
+        providerVersionConstraint: '2.20.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

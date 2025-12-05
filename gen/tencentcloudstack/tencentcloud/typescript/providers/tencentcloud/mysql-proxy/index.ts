@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mysql_proxy
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mysql_proxy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface MysqlProxyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Connection Pool Threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mysql_proxy#connection_pool_limit MysqlProxy#connection_pool_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mysql_proxy#connection_pool_limit MysqlProxy#connection_pool_limit}
   */
   readonly connectionPoolLimit?: number;
   /**
   * Describe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mysql_proxy#desc MysqlProxy#desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mysql_proxy#desc MysqlProxy#desc}
   */
   readonly desc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mysql_proxy#id MysqlProxy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mysql_proxy#id MysqlProxy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,55 +29,55 @@ export interface MysqlProxyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mysql_proxy#instance_id MysqlProxy#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mysql_proxy#instance_id MysqlProxy#instance_id}
   */
   readonly instanceId: string;
   /**
   * The current version of the database agent. No need to fill in when creating.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mysql_proxy#proxy_version MysqlProxy#proxy_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mysql_proxy#proxy_version MysqlProxy#proxy_version}
   */
   readonly proxyVersion?: string;
   /**
   * Security group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mysql_proxy#security_group MysqlProxy#security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mysql_proxy#security_group MysqlProxy#security_group}
   */
   readonly securityGroup?: string[];
   /**
   * Subnet id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mysql_proxy#uniq_subnet_id MysqlProxy#uniq_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mysql_proxy#uniq_subnet_id MysqlProxy#uniq_subnet_id}
   */
   readonly uniqSubnetId: string;
   /**
   * Vpc id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mysql_proxy#uniq_vpc_id MysqlProxy#uniq_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mysql_proxy#uniq_vpc_id MysqlProxy#uniq_vpc_id}
   */
   readonly uniqVpcId: string;
   /**
   * Upgrade time: nowTime (upgrade completed) timeWindow (instance maintenance time), Required when modifying the agent version, No need to fill in when creating.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mysql_proxy#upgrade_time MysqlProxy#upgrade_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mysql_proxy#upgrade_time MysqlProxy#upgrade_time}
   */
   readonly upgradeTime?: string;
   /**
   * IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mysql_proxy#vip MysqlProxy#vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mysql_proxy#vip MysqlProxy#vip}
   */
   readonly vip?: string;
   /**
   * Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mysql_proxy#vport MysqlProxy#vport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mysql_proxy#vport MysqlProxy#vport}
   */
   readonly vport?: number;
   /**
   * proxy_node_custom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mysql_proxy#proxy_node_custom MysqlProxy#proxy_node_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mysql_proxy#proxy_node_custom MysqlProxy#proxy_node_custom}
   */
   readonly proxyNodeCustom: MysqlProxyProxyNodeCustom[] | cdktf.IResolvable;
 }
@@ -85,31 +85,31 @@ export interface MysqlProxyProxyNodeCustom {
   /**
   * Number of CPU cores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mysql_proxy#cpu MysqlProxy#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mysql_proxy#cpu MysqlProxy#cpu}
   */
   readonly cpu: number;
   /**
   * Memory size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mysql_proxy#mem MysqlProxy#mem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mysql_proxy#mem MysqlProxy#mem}
   */
   readonly mem: number;
   /**
   * Number of nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mysql_proxy#node_count MysqlProxy#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mysql_proxy#node_count MysqlProxy#node_count}
   */
   readonly nodeCount: number;
   /**
   * Region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mysql_proxy#region MysqlProxy#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mysql_proxy#region MysqlProxy#region}
   */
   readonly region: string;
   /**
   * Zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mysql_proxy#zone MysqlProxy#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mysql_proxy#zone MysqlProxy#zone}
   */
   readonly zone: string;
 }
@@ -326,7 +326,7 @@ export class MysqlProxyProxyNodeCustomList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mysql_proxy tencentcloud_mysql_proxy}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mysql_proxy tencentcloud_mysql_proxy}
 */
 export class MysqlProxy extends cdktf.TerraformResource {
 
@@ -342,7 +342,7 @@ export class MysqlProxy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MysqlProxy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MysqlProxy to import
-  * @param importFromId The id of the existing MysqlProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mysql_proxy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MysqlProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mysql_proxy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MysqlProxy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -354,7 +354,7 @@ export class MysqlProxy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mysql_proxy tencentcloud_mysql_proxy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/mysql_proxy tencentcloud_mysql_proxy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -365,8 +365,8 @@ export class MysqlProxy extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mysql_proxy',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

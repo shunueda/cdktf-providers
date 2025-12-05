@@ -1,3 +1,3 @@
 # `tencentcloud_vpc`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_vpc`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vpc).
+Refer to the Terraform Registry for docs: [`tencentcloud_vpc`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/vpc).

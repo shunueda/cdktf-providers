@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface TeoRealtimeLogDeliveryConfig extends cdktf.TerraformMetaArgumen
   /**
   * Data delivery area, possible values are: `mainland`: within mainland China; `overseas`: worldwide (excluding mainland China).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#area TeoRealtimeLogDelivery#area}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#area TeoRealtimeLogDelivery#area}
   */
   readonly area: string;
   /**
   * The status of the real-time log delivery task. The values are: `enabled`: enabled; `disabled`: disabled. Leave it blank to keep the original configuration. Not required when creating.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#delivery_status TeoRealtimeLogDelivery#delivery_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#delivery_status TeoRealtimeLogDelivery#delivery_status}
   */
   readonly deliveryStatus?: string;
   /**
   * List of entities (seven-layer domain names or four-layer proxy instances) corresponding to real-time log delivery tasks. Example values are as follows: Seven-layer domain name: `domain.example.com`; four-layer proxy instance: sid-2s69eb5wcms7. For values, refer to: `https://cloud.tencent.com/document/api/1552/80690`, `https://cloud.tencent.com/document/api/1552/86336`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#entity_list TeoRealtimeLogDelivery#entity_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#entity_list TeoRealtimeLogDelivery#entity_list}
   */
   readonly entityList: string[];
   /**
   * A list of preset fields for delivery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#fields TeoRealtimeLogDelivery#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#fields TeoRealtimeLogDelivery#fields}
   */
   readonly fields: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#id TeoRealtimeLogDelivery#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#id TeoRealtimeLogDelivery#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,67 +41,67 @@ export interface TeoRealtimeLogDeliveryConfig extends cdktf.TerraformMetaArgumen
   /**
   * Data delivery type, the values are: `domain`: site acceleration log; `application`: four-layer proxy log; `web-rateLiming`: rate limit and CC attack protection log; `web-attack`: managed rule log; `web-rule`: custom rule log; `web-bot`: Bot management log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#log_type TeoRealtimeLogDelivery#log_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#log_type TeoRealtimeLogDelivery#log_type}
   */
   readonly logType: string;
   /**
   * The sampling ratio is in thousandths, with a value range of 1-1000. For example, filling in 605 means the sampling ratio is 60.5%. Leaving it blank means the sampling ratio is 100%.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#sample TeoRealtimeLogDelivery#sample}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#sample TeoRealtimeLogDelivery#sample}
   */
   readonly sample: number;
   /**
   * The name of the real-time log delivery task. The format is a combination of numbers, English, -, and _. The maximum length is 200 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#task_name TeoRealtimeLogDelivery#task_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#task_name TeoRealtimeLogDelivery#task_name}
   */
   readonly taskName: string;
   /**
   * The real-time log delivery task type. The possible values are: `cls`: push to Tencent Cloud CLS; `custom_endpoint`: push to a custom HTTP(S) address; `s3`: push to an AWS S3 compatible storage bucket address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#task_type TeoRealtimeLogDelivery#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#task_type TeoRealtimeLogDelivery#task_type}
   */
   readonly taskType: string;
   /**
   * ID of the site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#zone_id TeoRealtimeLogDelivery#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#zone_id TeoRealtimeLogDelivery#zone_id}
   */
   readonly zoneId: string;
   /**
   * cls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#cls TeoRealtimeLogDelivery#cls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#cls TeoRealtimeLogDelivery#cls}
   */
   readonly cls?: TeoRealtimeLogDeliveryCls;
   /**
   * custom_endpoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#custom_endpoint TeoRealtimeLogDelivery#custom_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#custom_endpoint TeoRealtimeLogDelivery#custom_endpoint}
   */
   readonly customEndpoint?: TeoRealtimeLogDeliveryCustomEndpoint;
   /**
   * custom_fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#custom_fields TeoRealtimeLogDelivery#custom_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#custom_fields TeoRealtimeLogDelivery#custom_fields}
   */
   readonly customFields?: TeoRealtimeLogDeliveryCustomFields[] | cdktf.IResolvable;
   /**
   * delivery_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#delivery_conditions TeoRealtimeLogDelivery#delivery_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#delivery_conditions TeoRealtimeLogDelivery#delivery_conditions}
   */
   readonly deliveryConditions?: TeoRealtimeLogDeliveryDeliveryConditions[] | cdktf.IResolvable;
   /**
   * log_format block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#log_format TeoRealtimeLogDelivery#log_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#log_format TeoRealtimeLogDelivery#log_format}
   */
   readonly logFormat?: TeoRealtimeLogDeliveryLogFormat;
   /**
   * s3 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#s3 TeoRealtimeLogDelivery#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#s3 TeoRealtimeLogDelivery#s3}
   */
   readonly s3?: TeoRealtimeLogDeliveryS3;
 }
@@ -109,19 +109,19 @@ export interface TeoRealtimeLogDeliveryCls {
   /**
   * Tencent Cloud CLS log set ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#log_set_id TeoRealtimeLogDelivery#log_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#log_set_id TeoRealtimeLogDelivery#log_set_id}
   */
   readonly logSetId: string;
   /**
   * The region where the Tencent Cloud CLS log set is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#log_set_region TeoRealtimeLogDelivery#log_set_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#log_set_region TeoRealtimeLogDelivery#log_set_region}
   */
   readonly logSetRegion: string;
   /**
   * Tencent Cloud CLS log topic ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#topic_id TeoRealtimeLogDelivery#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#topic_id TeoRealtimeLogDelivery#topic_id}
   */
   readonly topicId: string;
 }
@@ -256,13 +256,13 @@ export interface TeoRealtimeLogDeliveryCustomEndpointHeaders {
   /**
   * HTTP header name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#name TeoRealtimeLogDelivery#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#name TeoRealtimeLogDelivery#name}
   */
   readonly name: string;
   /**
   * HTTP header value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#value TeoRealtimeLogDelivery#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#value TeoRealtimeLogDelivery#value}
   */
   readonly value: string;
 }
@@ -403,37 +403,37 @@ export interface TeoRealtimeLogDeliveryCustomEndpoint {
   /**
   * Fill in a custom SecretId to generate an encrypted signature. This parameter is required if the source site requires authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#access_id TeoRealtimeLogDelivery#access_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#access_id TeoRealtimeLogDelivery#access_id}
   */
   readonly accessId?: string;
   /**
   * Fill in the custom SecretKey to generate the encrypted signature. This parameter is required if the source site requires authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#access_key TeoRealtimeLogDelivery#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#access_key TeoRealtimeLogDelivery#access_key}
   */
   readonly accessKey?: string;
   /**
   * Data compression type, the possible values are: `gzip`: use gzip compression. If it is not filled in, compression is not enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#compress_type TeoRealtimeLogDelivery#compress_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#compress_type TeoRealtimeLogDelivery#compress_type}
   */
   readonly compressType?: string;
   /**
   * When sending logs via POST request, the application layer protocol type used can be: `http`: HTTP protocol; `https`: HTTPS protocol. If not filled in, the protocol type will be parsed according to the filled in URL address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#protocol TeoRealtimeLogDelivery#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#protocol TeoRealtimeLogDelivery#protocol}
   */
   readonly protocol?: string;
   /**
   * The custom HTTP interface address for real-time log delivery. Currently, only HTTP/HTTPS protocols are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#url TeoRealtimeLogDelivery#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#url TeoRealtimeLogDelivery#url}
   */
   readonly url: string;
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#headers TeoRealtimeLogDelivery#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#headers TeoRealtimeLogDelivery#headers}
   */
   readonly headers?: TeoRealtimeLogDeliveryCustomEndpointHeaders[] | cdktf.IResolvable;
 }
@@ -661,19 +661,19 @@ export interface TeoRealtimeLogDeliveryCustomFields {
   /**
   * Whether to deliver this field. If left blank, this field will not be delivered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#enabled TeoRealtimeLogDelivery#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#enabled TeoRealtimeLogDelivery#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Extract data from the specified location in the HTTP request and response. The values are: `ReqHeader`: extract the specified field value from the HTTP request header; `RspHeader`: extract the specified field value from the HTTP response header; `Cookie`: extract the specified field value from the Cookie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#name TeoRealtimeLogDelivery#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#name TeoRealtimeLogDelivery#name}
   */
   readonly name: string;
   /**
   * The name of the parameter whose value needs to be extracted, for example: Accept-Language.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#value TeoRealtimeLogDelivery#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#value TeoRealtimeLogDelivery#value}
   */
   readonly value: string;
 }
@@ -843,19 +843,19 @@ export interface TeoRealtimeLogDeliveryDeliveryConditionsConditions {
   /**
   * The key of the filter condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#key TeoRealtimeLogDelivery#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#key TeoRealtimeLogDelivery#key}
   */
   readonly key: string;
   /**
   * Query condition operator, operation types are: `equals`: equal; `notEquals`: not equal; `include`: include; `notInclude`: not include; `startWith`: start with value; `notStartWith`: not start with value; `endWith`: end with value; `notEndWith`: not end with value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#operator TeoRealtimeLogDelivery#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#operator TeoRealtimeLogDelivery#operator}
   */
   readonly operator: string;
   /**
   * The value of the filter condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#value TeoRealtimeLogDelivery#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#value TeoRealtimeLogDelivery#value}
   */
   readonly value: string[];
 }
@@ -1022,7 +1022,7 @@ export interface TeoRealtimeLogDeliveryDeliveryConditions {
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#conditions TeoRealtimeLogDelivery#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#conditions TeoRealtimeLogDelivery#conditions}
   */
   readonly conditions?: TeoRealtimeLogDeliveryDeliveryConditionsConditions[] | cdktf.IResolvable;
 }
@@ -1140,44 +1140,44 @@ export interface TeoRealtimeLogDeliveryLogFormat {
   /**
   * A string to be added before each log delivery batch. Each log delivery batch may contain multiple log records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#batch_prefix TeoRealtimeLogDelivery#batch_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#batch_prefix TeoRealtimeLogDelivery#batch_prefix}
   */
   readonly batchPrefix?: string;
   /**
   * A string to append after each log delivery batch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#batch_suffix TeoRealtimeLogDelivery#batch_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#batch_suffix TeoRealtimeLogDelivery#batch_suffix}
   */
   readonly batchSuffix?: string;
   /**
   * In a single log record, a string is inserted between fields as a separator. The possible values are: `	`: tab character; `,`: comma; `;`: semicolon.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#field_delimiter TeoRealtimeLogDelivery#field_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#field_delimiter TeoRealtimeLogDelivery#field_delimiter}
   */
   readonly fieldDelimiter?: string;
   /**
   * The default output format type for log delivery. The possible values are: `json`: Use the default log output format JSON Lines. The fields in a single log are presented as key-value pairs; `csv`: Use the default log output format csv. Only field values are presented in a single log, without field names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#format_type TeoRealtimeLogDelivery#format_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#format_type TeoRealtimeLogDelivery#format_type}
   */
   readonly formatType: string;
   /**
   * The string inserted between log records as a separator. The possible values are: `
   * `: newline character; `	`: tab character; `,`: comma.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#record_delimiter TeoRealtimeLogDelivery#record_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#record_delimiter TeoRealtimeLogDelivery#record_delimiter}
   */
   readonly recordDelimiter?: string;
   /**
   * A string to prepend to each log record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#record_prefix TeoRealtimeLogDelivery#record_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#record_prefix TeoRealtimeLogDelivery#record_prefix}
   */
   readonly recordPrefix?: string;
   /**
   * A string to append to each log record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#record_suffix TeoRealtimeLogDelivery#record_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#record_suffix TeoRealtimeLogDelivery#record_suffix}
   */
   readonly recordSuffix?: string;
 }
@@ -1434,37 +1434,37 @@ export interface TeoRealtimeLogDeliveryS3 {
   /**
   * The Access Key ID used to access the bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#access_id TeoRealtimeLogDelivery#access_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#access_id TeoRealtimeLogDelivery#access_id}
   */
   readonly accessId: string;
   /**
   * The secret key used to access the bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#access_key TeoRealtimeLogDelivery#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#access_key TeoRealtimeLogDelivery#access_key}
   */
   readonly accessKey: string;
   /**
   * Bucket name and log storage directory, for example: `your_bucket_name/EO-logs/`. If this directory does not exist in the bucket, it will be created automatically.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#bucket TeoRealtimeLogDelivery#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#bucket TeoRealtimeLogDelivery#bucket}
   */
   readonly bucket: string;
   /**
   * Data compression type, the values are: gzip: gzip compression. If it is not filled in, compression is not enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#compress_type TeoRealtimeLogDelivery#compress_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#compress_type TeoRealtimeLogDelivery#compress_type}
   */
   readonly compressType?: string;
   /**
   * URLs that do not include bucket names or paths, for example: `https://storage.googleapis.com`, `https://s3.ap-northeast-2.amazonaws.com`, `https://cos.ap-nanjing.myqcloud.com`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#endpoint TeoRealtimeLogDelivery#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#endpoint TeoRealtimeLogDelivery#endpoint}
   */
   readonly endpoint: string;
   /**
   * The region where the bucket is located, for example: ap-northeast-2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#region TeoRealtimeLogDelivery#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#region TeoRealtimeLogDelivery#region}
   */
   readonly region: string;
 }
@@ -1678,7 +1678,7 @@ export class TeoRealtimeLogDeliveryS3OutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery tencentcloud_teo_realtime_log_delivery}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery tencentcloud_teo_realtime_log_delivery}
 */
 export class TeoRealtimeLogDelivery extends cdktf.TerraformResource {
 
@@ -1694,7 +1694,7 @@ export class TeoRealtimeLogDelivery extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeoRealtimeLogDelivery resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeoRealtimeLogDelivery to import
-  * @param importFromId The id of the existing TeoRealtimeLogDelivery that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeoRealtimeLogDelivery that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeoRealtimeLogDelivery to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1706,7 +1706,7 @@ export class TeoRealtimeLogDelivery extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_realtime_log_delivery tencentcloud_teo_realtime_log_delivery} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/teo_realtime_log_delivery tencentcloud_teo_realtime_log_delivery} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1717,8 +1717,8 @@ export class TeoRealtimeLogDelivery extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_teo_realtime_log_delivery',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/rabbitmq_instance
+// https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/rabbitmq_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface RabbitmqInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Access Control rules to whitelist IP addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/rabbitmq_instance#acl RabbitmqInstance#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/rabbitmq_instance#acl RabbitmqInstance#acl}
   */
   readonly acl?: string[];
   /**
   * Specifies the instance name. Changing this value requires the resource to be recreated. Changing this value requires the resource to be recreated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/rabbitmq_instance#name RabbitmqInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/rabbitmq_instance#name RabbitmqInstance#name}
   */
   readonly name: string;
   /**
   * The RabbitMQ Plan. Default is `stackit-rabbitmq-2.4.10-single`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/rabbitmq_instance#plan RabbitmqInstance#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/rabbitmq_instance#plan RabbitmqInstance#plan}
   */
   readonly plan?: string;
   /**
   * The project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/rabbitmq_instance#project_id RabbitmqInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/rabbitmq_instance#project_id RabbitmqInstance#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/rabbitmq_instance#timeouts RabbitmqInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/rabbitmq_instance#timeouts RabbitmqInstance#timeouts}
   */
   readonly timeouts?: RabbitmqInstanceTimeouts;
   /**
   * RabbitMQ version. Default is 3.10
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/rabbitmq_instance#version RabbitmqInstance#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/rabbitmq_instance#version RabbitmqInstance#version}
   */
   readonly version?: string;
 }
 export interface RabbitmqInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/rabbitmq_instance#create RabbitmqInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/rabbitmq_instance#create RabbitmqInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/rabbitmq_instance#delete RabbitmqInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/rabbitmq_instance#delete RabbitmqInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/rabbitmq_instance#update RabbitmqInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/rabbitmq_instance#update RabbitmqInstance#update}
   */
   readonly update?: string;
 }
@@ -204,7 +204,7 @@ export class RabbitmqInstanceTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/rabbitmq_instance stackit_rabbitmq_instance}
+* Represents a {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/rabbitmq_instance stackit_rabbitmq_instance}
 */
 export class RabbitmqInstance extends cdktf.TerraformResource {
 
@@ -220,7 +220,7 @@ export class RabbitmqInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RabbitmqInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RabbitmqInstance to import
-  * @param importFromId The id of the existing RabbitmqInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/rabbitmq_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RabbitmqInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/rabbitmq_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RabbitmqInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -232,7 +232,7 @@ export class RabbitmqInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.3/docs/resources/rabbitmq_instance stackit_rabbitmq_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/schwarzit/stackit/1.34.4/docs/resources/rabbitmq_instance stackit_rabbitmq_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -243,8 +243,8 @@ export class RabbitmqInstance extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_rabbitmq_instance',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '1.34.3',
-        providerVersionConstraint: '1.34.3'
+        providerVersion: '1.34.4',
+        providerVersionConstraint: '1.34.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

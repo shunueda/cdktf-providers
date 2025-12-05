@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/data-sources/scheduled_reports
+// https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/data-sources/scheduled_reports
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -135,7 +135,7 @@ export class DataUptimeScheduledReportsScheduledReportsList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/data-sources/scheduled_reports uptime_scheduled_reports}
+* Represents a {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/data-sources/scheduled_reports uptime_scheduled_reports}
 */
 export class DataUptimeScheduledReports extends cdktf.TerraformDataSource {
 
@@ -151,7 +151,7 @@ export class DataUptimeScheduledReports extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataUptimeScheduledReports resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataUptimeScheduledReports to import
-  * @param importFromId The id of the existing DataUptimeScheduledReports that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/data-sources/scheduled_reports#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataUptimeScheduledReports that should be imported. Refer to the {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/data-sources/scheduled_reports#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataUptimeScheduledReports to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -163,7 +163,7 @@ export class DataUptimeScheduledReports extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.18.1/docs/data-sources/scheduled_reports uptime_scheduled_reports} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/uptime-com/uptime/2.20.0/docs/data-sources/scheduled_reports uptime_scheduled_reports} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -174,8 +174,8 @@ export class DataUptimeScheduledReports extends cdktf.TerraformDataSource {
       terraformResourceType: 'uptime_scheduled_reports',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.18.1',
-        providerVersionConstraint: '2.18.1'
+        providerVersion: '2.20.0',
+        providerVersionConstraint: '2.20.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

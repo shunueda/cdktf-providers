@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_cc_http_policy
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_cc_http_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DayuCcHttpPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Action mode, only valid when `smode` is `matching`. Valid values are `alg` and `drop`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_cc_http_policy#action DayuCcHttpPolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_cc_http_policy#action DayuCcHttpPolicy#action}
   */
   readonly action?: string;
   /**
   * Max frequency per minute, only valid when `smode` is `speedlimit`, the valid value ranges from 1 to 10000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_cc_http_policy#frequency DayuCcHttpPolicy#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_cc_http_policy#frequency DayuCcHttpPolicy#frequency}
   */
   readonly frequency?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_cc_http_policy#id DayuCcHttpPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_cc_http_policy#id DayuCcHttpPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface DayuCcHttpPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Ip of the CC self-define http policy, only valid when `resource_type` is `bgp-multip`. The num of list items can only be set one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_cc_http_policy#ip DayuCcHttpPolicy#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_cc_http_policy#ip DayuCcHttpPolicy#ip}
   */
   readonly ip?: string;
   /**
   * Name of the CC self-define http policy. Length should between 1 and 20.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_cc_http_policy#name DayuCcHttpPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_cc_http_policy#name DayuCcHttpPolicy#name}
   */
   readonly name: string;
   /**
   * ID of the resource that the CC self-define http policy works for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_cc_http_policy#resource_id DayuCcHttpPolicy#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_cc_http_policy#resource_id DayuCcHttpPolicy#resource_id}
   */
   readonly resourceId: string;
   /**
   * Type of the resource that the CC self-define http policy works for, valid values are `bgpip`, `bgp`, `bgp-multip` and `net`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_cc_http_policy#resource_type DayuCcHttpPolicy#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_cc_http_policy#resource_type DayuCcHttpPolicy#resource_type}
   */
   readonly resourceType: string;
   /**
   * Match mode, and valid values are `matching`, `speedlimit`. Note: the speed limit type CC self-define policy can only set one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_cc_http_policy#smode DayuCcHttpPolicy#smode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_cc_http_policy#smode DayuCcHttpPolicy#smode}
   */
   readonly smode?: string;
   /**
   * Indicate the CC self-define http policy takes effect or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_cc_http_policy#switch DayuCcHttpPolicy#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_cc_http_policy#switch DayuCcHttpPolicy#switch}
   */
   readonly switch?: boolean | cdktf.IResolvable;
   /**
   * rule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_cc_http_policy#rule_list DayuCcHttpPolicy#rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_cc_http_policy#rule_list DayuCcHttpPolicy#rule_list}
   */
   readonly ruleList?: DayuCcHttpPolicyRuleListStruct[] | cdktf.IResolvable;
 }
@@ -73,19 +73,19 @@ export interface DayuCcHttpPolicyRuleListStruct {
   /**
   * Operator of the rule. Valid values: `include`, `not_include`, `equal`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_cc_http_policy#operator DayuCcHttpPolicy#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_cc_http_policy#operator DayuCcHttpPolicy#operator}
   */
   readonly operator?: string;
   /**
   * Key of the rule. Valid values: `host`, `cgi`, `ua`, `referer`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_cc_http_policy#skey DayuCcHttpPolicy#skey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_cc_http_policy#skey DayuCcHttpPolicy#skey}
   */
   readonly skey?: string;
   /**
   * Rule value, then length should be less than 31 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_cc_http_policy#value DayuCcHttpPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_cc_http_policy#value DayuCcHttpPolicy#value}
   */
   readonly value?: string;
 }
@@ -259,7 +259,7 @@ export class DayuCcHttpPolicyRuleListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_cc_http_policy tencentcloud_dayu_cc_http_policy}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_cc_http_policy tencentcloud_dayu_cc_http_policy}
 */
 export class DayuCcHttpPolicy extends cdktf.TerraformResource {
 
@@ -275,7 +275,7 @@ export class DayuCcHttpPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DayuCcHttpPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DayuCcHttpPolicy to import
-  * @param importFromId The id of the existing DayuCcHttpPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_cc_http_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DayuCcHttpPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_cc_http_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DayuCcHttpPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -287,7 +287,7 @@ export class DayuCcHttpPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dayu_cc_http_policy tencentcloud_dayu_cc_http_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/dayu_cc_http_policy tencentcloud_dayu_cc_http_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -298,8 +298,8 @@ export class DayuCcHttpPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dayu_cc_http_policy',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem
+// https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,39 +8,39 @@ import * as cdktf from 'cdktf';
 
 export interface GrouponsystemConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#access_profile_provisioning Grouponsystem#access_profile_provisioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#access_profile_provisioning Grouponsystem#access_profile_provisioning}
   */
   readonly accessProfileProvisioning?: GrouponsystemAccessProfileProvisioning[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#additional Grouponsystem#additional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#account_provisioning Grouponsystem#account_provisioning}
+  */
+  readonly accountProvisioning?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#additional Grouponsystem#additional}
   */
   readonly additional?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#name_in_system Grouponsystem#name_in_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#name_in_system Grouponsystem#name_in_system}
   */
   readonly nameInSystem: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#owner_uuid Grouponsystem#owner_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#owner_uuid Grouponsystem#owner_uuid}
   */
   readonly ownerUuid: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#provgroups Grouponsystem#provgroups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#provgroups Grouponsystem#provgroups}
   */
   readonly provgroups?: GrouponsystemProvgroups[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#provisioned_system_uuid Grouponsystem#provisioned_system_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#provisioned_system_uuid Grouponsystem#provisioned_system_uuid}
   */
   readonly provisionedSystemUuid: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#provisioning_enabled Grouponsystem#provisioning_enabled}
-  */
-  readonly provisioningEnabled?: boolean | cdktf.IResolvable;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#service_accounts_uuid Grouponsystem#service_accounts_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#service_accounts_uuid Grouponsystem#service_accounts_uuid}
   */
   readonly serviceAccountsUuid?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#type Grouponsystem#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#type Grouponsystem#type}
   */
   readonly type: string;
 }
@@ -136,19 +136,19 @@ export class GrouponsystemAccessProfileProvisioningAccessProfileLinksList extend
 }
 export interface GrouponsystemAccessProfileProvisioningAccessProfilePermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#full Grouponsystem#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#full Grouponsystem#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#instances Grouponsystem#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#instances Grouponsystem#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#operations Grouponsystem#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#operations Grouponsystem#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#type_escaped Grouponsystem#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#type_escaped Grouponsystem#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -341,7 +341,7 @@ export class GrouponsystemAccessProfileProvisioningAccessProfilePermissionsList 
 }
 export interface GrouponsystemAccessProfileProvisioningAccessProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#name Grouponsystem#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#name Grouponsystem#name}
   */
   readonly name: string;
 }
@@ -709,19 +709,19 @@ export class GrouponsystemAccessProfileProvisioningGroupOnSystemOwnerOrganizatio
 }
 export interface GrouponsystemAccessProfileProvisioningGroupOnSystemOwnerOrganizationalUnitPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#full Grouponsystem#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#full Grouponsystem#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#instances Grouponsystem#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#instances Grouponsystem#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#operations Grouponsystem#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#operations Grouponsystem#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#type_escaped Grouponsystem#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#type_escaped Grouponsystem#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -914,7 +914,7 @@ export class GrouponsystemAccessProfileProvisioningGroupOnSystemOwnerOrganizatio
 }
 export interface GrouponsystemAccessProfileProvisioningGroupOnSystemOwnerOrganizationalUnit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#name Grouponsystem#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#name Grouponsystem#name}
   */
   readonly name: string;
 }
@@ -1022,19 +1022,19 @@ export class GrouponsystemAccessProfileProvisioningGroupOnSystemOwnerOrganizatio
 }
 export interface GrouponsystemAccessProfileProvisioningGroupOnSystemOwnerPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#full Grouponsystem#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#full Grouponsystem#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#instances Grouponsystem#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#instances Grouponsystem#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#operations Grouponsystem#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#operations Grouponsystem#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#type_escaped Grouponsystem#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#type_escaped Grouponsystem#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -1227,11 +1227,11 @@ export class GrouponsystemAccessProfileProvisioningGroupOnSystemOwnerPermissions
 }
 export interface GrouponsystemAccessProfileProvisioningGroupOnSystemOwner {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#name Grouponsystem#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#name Grouponsystem#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#organizational_unit Grouponsystem#organizational_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#organizational_unit Grouponsystem#organizational_unit}
   */
   readonly organizationalUnit?: GrouponsystemAccessProfileProvisioningGroupOnSystemOwnerOrganizationalUnit;
 }
@@ -1363,19 +1363,19 @@ export class GrouponsystemAccessProfileProvisioningGroupOnSystemOwnerOutputRefer
 }
 export interface GrouponsystemAccessProfileProvisioningGroupOnSystemPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#full Grouponsystem#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#full Grouponsystem#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#instances Grouponsystem#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#instances Grouponsystem#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#operations Grouponsystem#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#operations Grouponsystem#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#type_escaped Grouponsystem#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#type_escaped Grouponsystem#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -1568,19 +1568,19 @@ export class GrouponsystemAccessProfileProvisioningGroupOnSystemPermissionsList 
 }
 export interface GrouponsystemAccessProfileProvisioningGroupOnSystem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#name_in_system Grouponsystem#name_in_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#account_provisioning Grouponsystem#account_provisioning}
+  */
+  readonly accountProvisioning?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#name_in_system Grouponsystem#name_in_system}
   */
   readonly nameInSystem: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#owner Grouponsystem#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#owner Grouponsystem#owner}
   */
   readonly owner: GrouponsystemAccessProfileProvisioningGroupOnSystemOwner;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#provisioning_enabled Grouponsystem#provisioning_enabled}
-  */
-  readonly provisioningEnabled?: boolean | cdktf.IResolvable;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#type Grouponsystem#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#type Grouponsystem#type}
   */
   readonly type: string;
 }
@@ -1591,9 +1591,9 @@ export function grouponsystemAccessProfileProvisioningGroupOnSystemToTerraform(s
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    account_provisioning: cdktf.stringToTerraform(struct!.accountProvisioning),
     name_in_system: cdktf.stringToTerraform(struct!.nameInSystem),
     owner: grouponsystemAccessProfileProvisioningGroupOnSystemOwnerToTerraform(struct!.owner),
-    provisioning_enabled: cdktf.booleanToTerraform(struct!.provisioningEnabled),
     type: cdktf.stringToTerraform(struct!.type),
   }
 }
@@ -1605,6 +1605,12 @@ export function grouponsystemAccessProfileProvisioningGroupOnSystemToHclTerrafor
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    account_provisioning: {
+      value: cdktf.stringToHclTerraform(struct!.accountProvisioning),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     name_in_system: {
       value: cdktf.stringToHclTerraform(struct!.nameInSystem),
       isBlock: false,
@@ -1616,12 +1622,6 @@ export function grouponsystemAccessProfileProvisioningGroupOnSystemToHclTerrafor
       isBlock: true,
       type: "struct",
       storageClassType: "GrouponsystemAccessProfileProvisioningGroupOnSystemOwner",
-    },
-    provisioning_enabled: {
-      value: cdktf.booleanToHclTerraform(struct!.provisioningEnabled),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
     },
     type: {
       value: cdktf.stringToHclTerraform(struct!.type),
@@ -1649,6 +1649,10 @@ export class GrouponsystemAccessProfileProvisioningGroupOnSystemOutputReference 
   public get internalValue(): GrouponsystemAccessProfileProvisioningGroupOnSystem | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._accountProvisioning !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.accountProvisioning = this._accountProvisioning;
+    }
     if (this._nameInSystem !== undefined) {
       hasAnyValues = true;
       internalValueResult.nameInSystem = this._nameInSystem;
@@ -1656,10 +1660,6 @@ export class GrouponsystemAccessProfileProvisioningGroupOnSystemOutputReference 
     if (this._owner?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.owner = this._owner?.internalValue;
-    }
-    if (this._provisioningEnabled !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.provisioningEnabled = this._provisioningEnabled;
     }
     if (this._type !== undefined) {
       hasAnyValues = true;
@@ -1671,18 +1671,34 @@ export class GrouponsystemAccessProfileProvisioningGroupOnSystemOutputReference 
   public set internalValue(value: GrouponsystemAccessProfileProvisioningGroupOnSystem | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._accountProvisioning = undefined;
       this._nameInSystem = undefined;
       this._owner.internalValue = undefined;
-      this._provisioningEnabled = undefined;
       this._type = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._accountProvisioning = value.accountProvisioning;
       this._nameInSystem = value.nameInSystem;
       this._owner.internalValue = value.owner;
-      this._provisioningEnabled = value.provisioningEnabled;
       this._type = value.type;
     }
+  }
+
+  // account_provisioning - computed: true, optional: true, required: false
+  private _accountProvisioning?: string; 
+  public get accountProvisioning() {
+    return this.getStringAttribute('account_provisioning');
+  }
+  public set accountProvisioning(value: string) {
+    this._accountProvisioning = value;
+  }
+  public resetAccountProvisioning() {
+    this._accountProvisioning = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get accountProvisioningInput() {
+    return this._accountProvisioning;
   }
 
   // display_name - computed: true, optional: false, required: false
@@ -1728,22 +1744,6 @@ export class GrouponsystemAccessProfileProvisioningGroupOnSystemOutputReference 
     return this._permissions;
   }
 
-  // provisioning_enabled - computed: true, optional: true, required: false
-  private _provisioningEnabled?: boolean | cdktf.IResolvable; 
-  public get provisioningEnabled() {
-    return this.getBooleanAttribute('provisioning_enabled');
-  }
-  public set provisioningEnabled(value: boolean | cdktf.IResolvable) {
-    this._provisioningEnabled = value;
-  }
-  public resetProvisioningEnabled() {
-    this._provisioningEnabled = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get provisioningEnabledInput() {
-    return this._provisioningEnabled;
-  }
-
   // short_name_in_system - computed: true, optional: false, required: false
   public get shortNameInSystem() {
     return this.getStringAttribute('short_name_in_system');
@@ -1760,6 +1760,11 @@ export class GrouponsystemAccessProfileProvisioningGroupOnSystemOutputReference 
   // Temporarily expose input value. Use with caution.
   public get typeInput() {
     return this._type;
+  }
+
+  // uuid - computed: true, optional: false, required: false
+  public get uuid() {
+    return this.getStringAttribute('uuid');
   }
 }
 export interface GrouponsystemAccessProfileProvisioningLinks {
@@ -1854,19 +1859,19 @@ export class GrouponsystemAccessProfileProvisioningLinksList extends cdktf.Compl
 }
 export interface GrouponsystemAccessProfileProvisioningPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#full Grouponsystem#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#full Grouponsystem#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#instances Grouponsystem#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#instances Grouponsystem#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#operations Grouponsystem#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#operations Grouponsystem#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#type_escaped Grouponsystem#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#type_escaped Grouponsystem#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -2323,19 +2328,19 @@ export class GrouponsystemLinksList extends cdktf.ComplexList {
 }
 export interface GrouponsystemPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#full Grouponsystem#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#full Grouponsystem#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#instances Grouponsystem#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#instances Grouponsystem#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#operations Grouponsystem#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#operations Grouponsystem#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#type_escaped Grouponsystem#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#type_escaped Grouponsystem#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -2798,19 +2803,19 @@ export class GrouponsystemProvgroupsGroupOnSystemOwnerOrganizationalUnitLinksLis
 }
 export interface GrouponsystemProvgroupsGroupOnSystemOwnerOrganizationalUnitPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#full Grouponsystem#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#full Grouponsystem#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#instances Grouponsystem#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#instances Grouponsystem#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#operations Grouponsystem#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#operations Grouponsystem#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#type_escaped Grouponsystem#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#type_escaped Grouponsystem#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -3003,7 +3008,7 @@ export class GrouponsystemProvgroupsGroupOnSystemOwnerOrganizationalUnitPermissi
 }
 export interface GrouponsystemProvgroupsGroupOnSystemOwnerOrganizationalUnit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#name Grouponsystem#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#name Grouponsystem#name}
   */
   readonly name: string;
 }
@@ -3111,19 +3116,19 @@ export class GrouponsystemProvgroupsGroupOnSystemOwnerOrganizationalUnitOutputRe
 }
 export interface GrouponsystemProvgroupsGroupOnSystemOwnerPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#full Grouponsystem#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#full Grouponsystem#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#instances Grouponsystem#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#instances Grouponsystem#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#operations Grouponsystem#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#operations Grouponsystem#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#type_escaped Grouponsystem#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#type_escaped Grouponsystem#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -3316,11 +3321,11 @@ export class GrouponsystemProvgroupsGroupOnSystemOwnerPermissionsList extends cd
 }
 export interface GrouponsystemProvgroupsGroupOnSystemOwner {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#name Grouponsystem#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#name Grouponsystem#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#organizational_unit Grouponsystem#organizational_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#organizational_unit Grouponsystem#organizational_unit}
   */
   readonly organizationalUnit?: GrouponsystemProvgroupsGroupOnSystemOwnerOrganizationalUnit;
 }
@@ -3452,19 +3457,19 @@ export class GrouponsystemProvgroupsGroupOnSystemOwnerOutputReference extends cd
 }
 export interface GrouponsystemProvgroupsGroupOnSystemPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#full Grouponsystem#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#full Grouponsystem#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#instances Grouponsystem#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#instances Grouponsystem#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#operations Grouponsystem#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#operations Grouponsystem#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#type_escaped Grouponsystem#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#type_escaped Grouponsystem#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -3657,19 +3662,19 @@ export class GrouponsystemProvgroupsGroupOnSystemPermissionsList extends cdktf.C
 }
 export interface GrouponsystemProvgroupsGroupOnSystem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#name_in_system Grouponsystem#name_in_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#account_provisioning Grouponsystem#account_provisioning}
+  */
+  readonly accountProvisioning?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#name_in_system Grouponsystem#name_in_system}
   */
   readonly nameInSystem: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#owner Grouponsystem#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#owner Grouponsystem#owner}
   */
   readonly owner: GrouponsystemProvgroupsGroupOnSystemOwner;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#provisioning_enabled Grouponsystem#provisioning_enabled}
-  */
-  readonly provisioningEnabled?: boolean | cdktf.IResolvable;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#type Grouponsystem#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#type Grouponsystem#type}
   */
   readonly type: string;
 }
@@ -3680,9 +3685,9 @@ export function grouponsystemProvgroupsGroupOnSystemToTerraform(struct?: Groupon
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    account_provisioning: cdktf.stringToTerraform(struct!.accountProvisioning),
     name_in_system: cdktf.stringToTerraform(struct!.nameInSystem),
     owner: grouponsystemProvgroupsGroupOnSystemOwnerToTerraform(struct!.owner),
-    provisioning_enabled: cdktf.booleanToTerraform(struct!.provisioningEnabled),
     type: cdktf.stringToTerraform(struct!.type),
   }
 }
@@ -3694,6 +3699,12 @@ export function grouponsystemProvgroupsGroupOnSystemToHclTerraform(struct?: Grou
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    account_provisioning: {
+      value: cdktf.stringToHclTerraform(struct!.accountProvisioning),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     name_in_system: {
       value: cdktf.stringToHclTerraform(struct!.nameInSystem),
       isBlock: false,
@@ -3705,12 +3716,6 @@ export function grouponsystemProvgroupsGroupOnSystemToHclTerraform(struct?: Grou
       isBlock: true,
       type: "struct",
       storageClassType: "GrouponsystemProvgroupsGroupOnSystemOwner",
-    },
-    provisioning_enabled: {
-      value: cdktf.booleanToHclTerraform(struct!.provisioningEnabled),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
     },
     type: {
       value: cdktf.stringToHclTerraform(struct!.type),
@@ -3738,6 +3743,10 @@ export class GrouponsystemProvgroupsGroupOnSystemOutputReference extends cdktf.C
   public get internalValue(): GrouponsystemProvgroupsGroupOnSystem | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._accountProvisioning !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.accountProvisioning = this._accountProvisioning;
+    }
     if (this._nameInSystem !== undefined) {
       hasAnyValues = true;
       internalValueResult.nameInSystem = this._nameInSystem;
@@ -3745,10 +3754,6 @@ export class GrouponsystemProvgroupsGroupOnSystemOutputReference extends cdktf.C
     if (this._owner?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.owner = this._owner?.internalValue;
-    }
-    if (this._provisioningEnabled !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.provisioningEnabled = this._provisioningEnabled;
     }
     if (this._type !== undefined) {
       hasAnyValues = true;
@@ -3760,18 +3765,34 @@ export class GrouponsystemProvgroupsGroupOnSystemOutputReference extends cdktf.C
   public set internalValue(value: GrouponsystemProvgroupsGroupOnSystem | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._accountProvisioning = undefined;
       this._nameInSystem = undefined;
       this._owner.internalValue = undefined;
-      this._provisioningEnabled = undefined;
       this._type = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._accountProvisioning = value.accountProvisioning;
       this._nameInSystem = value.nameInSystem;
       this._owner.internalValue = value.owner;
-      this._provisioningEnabled = value.provisioningEnabled;
       this._type = value.type;
     }
+  }
+
+  // account_provisioning - computed: true, optional: true, required: false
+  private _accountProvisioning?: string; 
+  public get accountProvisioning() {
+    return this.getStringAttribute('account_provisioning');
+  }
+  public set accountProvisioning(value: string) {
+    this._accountProvisioning = value;
+  }
+  public resetAccountProvisioning() {
+    this._accountProvisioning = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get accountProvisioningInput() {
+    return this._accountProvisioning;
   }
 
   // display_name - computed: true, optional: false, required: false
@@ -3817,22 +3838,6 @@ export class GrouponsystemProvgroupsGroupOnSystemOutputReference extends cdktf.C
     return this._permissions;
   }
 
-  // provisioning_enabled - computed: true, optional: true, required: false
-  private _provisioningEnabled?: boolean | cdktf.IResolvable; 
-  public get provisioningEnabled() {
-    return this.getBooleanAttribute('provisioning_enabled');
-  }
-  public set provisioningEnabled(value: boolean | cdktf.IResolvable) {
-    this._provisioningEnabled = value;
-  }
-  public resetProvisioningEnabled() {
-    this._provisioningEnabled = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get provisioningEnabledInput() {
-    return this._provisioningEnabled;
-  }
-
   // short_name_in_system - computed: true, optional: false, required: false
   public get shortNameInSystem() {
     return this.getStringAttribute('short_name_in_system');
@@ -3849,6 +3854,11 @@ export class GrouponsystemProvgroupsGroupOnSystemOutputReference extends cdktf.C
   // Temporarily expose input value. Use with caution.
   public get typeInput() {
     return this._type;
+  }
+
+  // uuid - computed: true, optional: false, required: false
+  public get uuid() {
+    return this.getStringAttribute('uuid');
   }
 }
 export interface GrouponsystemProvgroupsLinks {
@@ -3943,19 +3953,19 @@ export class GrouponsystemProvgroupsLinksList extends cdktf.ComplexList {
 }
 export interface GrouponsystemProvgroupsPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#full Grouponsystem#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#full Grouponsystem#full}
   */
   readonly full?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#instances Grouponsystem#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#instances Grouponsystem#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#operations Grouponsystem#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#operations Grouponsystem#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#type_escaped Grouponsystem#type_escaped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#type_escaped Grouponsystem#type_escaped}
   */
   readonly typeEscaped?: string;
 }
@@ -4148,11 +4158,11 @@ export class GrouponsystemProvgroupsPermissionsList extends cdktf.ComplexList {
 }
 export interface GrouponsystemProvgroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#activation_required Grouponsystem#activation_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#activation_required Grouponsystem#activation_required}
   */
   readonly activationRequired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#group_uuid Grouponsystem#group_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#group_uuid Grouponsystem#group_uuid}
   */
   readonly groupUuid: string;
 }
@@ -4312,7 +4322,7 @@ export class GrouponsystemProvgroupsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem keyhub_grouponsystem}
+* Represents a {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem keyhub_grouponsystem}
 */
 export class Grouponsystem extends cdktf.TerraformResource {
 
@@ -4328,7 +4338,7 @@ export class Grouponsystem extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Grouponsystem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Grouponsystem to import
-  * @param importFromId The id of the existing Grouponsystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Grouponsystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Grouponsystem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4340,7 +4350,7 @@ export class Grouponsystem extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/resources/grouponsystem keyhub_grouponsystem} Resource
+  * Create a new {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/resources/grouponsystem keyhub_grouponsystem} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4351,8 +4361,8 @@ export class Grouponsystem extends cdktf.TerraformResource {
       terraformResourceType: 'keyhub_grouponsystem',
       terraformGeneratorMetadata: {
         providerName: 'keyhub',
-        providerVersion: '2.44.0',
-        providerVersionConstraint: '2.44.0'
+        providerVersion: '2.45.0',
+        providerVersionConstraint: '2.45.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -4363,12 +4373,12 @@ export class Grouponsystem extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._accessProfileProvisioning.internalValue = config.accessProfileProvisioning;
+    this._accountProvisioning = config.accountProvisioning;
     this._additional = config.additional;
     this._nameInSystem = config.nameInSystem;
     this._ownerUuid = config.ownerUuid;
     this._provgroups.internalValue = config.provgroups;
     this._provisionedSystemUuid = config.provisionedSystemUuid;
-    this._provisioningEnabled = config.provisioningEnabled;
     this._serviceAccountsUuid = config.serviceAccountsUuid;
     this._type = config.type;
   }
@@ -4391,6 +4401,22 @@ export class Grouponsystem extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get accessProfileProvisioningInput() {
     return this._accessProfileProvisioning.internalValue;
+  }
+
+  // account_provisioning - computed: true, optional: true, required: false
+  private _accountProvisioning?: string; 
+  public get accountProvisioning() {
+    return this.getStringAttribute('account_provisioning');
+  }
+  public set accountProvisioning(value: string) {
+    this._accountProvisioning = value;
+  }
+  public resetAccountProvisioning() {
+    this._accountProvisioning = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get accountProvisioningInput() {
+    return this._accountProvisioning;
   }
 
   // additional - computed: false, optional: true, required: false
@@ -4487,22 +4513,6 @@ export class Grouponsystem extends cdktf.TerraformResource {
     return this._provisionedSystemUuid;
   }
 
-  // provisioning_enabled - computed: true, optional: true, required: false
-  private _provisioningEnabled?: boolean | cdktf.IResolvable; 
-  public get provisioningEnabled() {
-    return this.getBooleanAttribute('provisioning_enabled');
-  }
-  public set provisioningEnabled(value: boolean | cdktf.IResolvable) {
-    this._provisioningEnabled = value;
-  }
-  public resetProvisioningEnabled() {
-    this._provisioningEnabled = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get provisioningEnabledInput() {
-    return this._provisioningEnabled;
-  }
-
   // service_accounts_uuid - computed: false, optional: true, required: false
   private _serviceAccountsUuid?: string[]; 
   public get serviceAccountsUuid() {
@@ -4537,6 +4547,11 @@ export class Grouponsystem extends cdktf.TerraformResource {
     return this._type;
   }
 
+  // uuid - computed: true, optional: false, required: false
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -4544,12 +4559,12 @@ export class Grouponsystem extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       access_profile_provisioning: cdktf.listMapper(grouponsystemAccessProfileProvisioningToTerraform, false)(this._accessProfileProvisioning.internalValue),
+      account_provisioning: cdktf.stringToTerraform(this._accountProvisioning),
       additional: cdktf.listMapper(cdktf.stringToTerraform, false)(this._additional),
       name_in_system: cdktf.stringToTerraform(this._nameInSystem),
       owner_uuid: cdktf.stringToTerraform(this._ownerUuid),
       provgroups: cdktf.listMapper(grouponsystemProvgroupsToTerraform, false)(this._provgroups.internalValue),
       provisioned_system_uuid: cdktf.stringToTerraform(this._provisionedSystemUuid),
-      provisioning_enabled: cdktf.booleanToTerraform(this._provisioningEnabled),
       service_accounts_uuid: cdktf.listMapper(cdktf.stringToTerraform, false)(this._serviceAccountsUuid),
       type: cdktf.stringToTerraform(this._type),
     };
@@ -4562,6 +4577,12 @@ export class Grouponsystem extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "GrouponsystemAccessProfileProvisioningList",
+      },
+      account_provisioning: {
+        value: cdktf.stringToHclTerraform(this._accountProvisioning),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       additional: {
         value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._additional),
@@ -4592,12 +4613,6 @@ export class Grouponsystem extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
-      },
-      provisioning_enabled: {
-        value: cdktf.booleanToHclTerraform(this._provisioningEnabled),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "boolean",
       },
       service_accounts_uuid: {
         value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._serviceAccountsUuid),

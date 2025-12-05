@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/data-sources/organizationalunit
+// https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/data-sources/organizationalunit
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataKeyhubOrganizationalunitConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/data-sources/organizationalunit#additional DataKeyhubOrganizationalunit#additional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/data-sources/organizationalunit#additional DataKeyhubOrganizationalunit#additional}
   */
   readonly additional?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/data-sources/organizationalunit#uuid DataKeyhubOrganizationalunit#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/data-sources/organizationalunit#uuid DataKeyhubOrganizationalunit#uuid}
   */
   readonly uuid: string;
 }
@@ -5726,7 +5726,7 @@ export class DataKeyhubOrganizationalunitSettingsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/data-sources/organizationalunit keyhub_organizationalunit}
+* Represents a {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/data-sources/organizationalunit keyhub_organizationalunit}
 */
 export class DataKeyhubOrganizationalunit extends cdktf.TerraformDataSource {
 
@@ -5742,7 +5742,7 @@ export class DataKeyhubOrganizationalunit extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataKeyhubOrganizationalunit resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataKeyhubOrganizationalunit to import
-  * @param importFromId The id of the existing DataKeyhubOrganizationalunit that should be imported. Refer to the {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/data-sources/organizationalunit#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataKeyhubOrganizationalunit that should be imported. Refer to the {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/data-sources/organizationalunit#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataKeyhubOrganizationalunit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5754,7 +5754,7 @@ export class DataKeyhubOrganizationalunit extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.44.0/docs/data-sources/organizationalunit keyhub_organizationalunit} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/topicuskeyhub/keyhub/2.45.0/docs/data-sources/organizationalunit keyhub_organizationalunit} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5765,8 +5765,8 @@ export class DataKeyhubOrganizationalunit extends cdktf.TerraformDataSource {
       terraformResourceType: 'keyhub_organizationalunit',
       terraformGeneratorMetadata: {
         providerName: 'keyhub',
-        providerVersion: '2.44.0',
-        providerVersionConstraint: '2.44.0'
+        providerVersion: '2.45.0',
+        providerVersionConstraint: '2.45.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

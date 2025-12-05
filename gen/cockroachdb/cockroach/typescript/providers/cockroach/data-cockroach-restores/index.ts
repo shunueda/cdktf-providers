@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/data-sources/restores
+// https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/data-sources/restores
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,33 +10,202 @@ export interface DataCockroachRestoresConfig extends cdktf.TerraformMetaArgument
   /**
   * The ID of the cluster where the restore jobs ran or are currently running.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/data-sources/restores#cluster_id DataCockroachRestores#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/data-sources/restores#cluster_id DataCockroachRestores#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Ending timestamp of the range (exclusive) used to search for restore jobs based on their creation time. If this field is provided, start_time must also be included in the request. Uses a date format with optional timestamp, for example: `2023-01-15` or `2023-01-15T10:30:00Z`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/data-sources/restores#end_time DataCockroachRestores#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/data-sources/restores#end_time DataCockroachRestores#end_time}
   */
   readonly endTime?: string;
   /**
   * The maximum number of restore jobs to return. If not set, only the first 500 restore jobs will be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/data-sources/restores#limit DataCockroachRestores#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/data-sources/restores#limit DataCockroachRestores#limit}
   */
   readonly limit?: number;
   /**
   * Specifies the sort direction for the returned results. Use `ASC` for ascending or `DESC` for descending order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/data-sources/restores#sort_order DataCockroachRestores#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/data-sources/restores#sort_order DataCockroachRestores#sort_order}
   */
   readonly sortOrder?: string;
   /**
   * Beginning timestamp of the range (inclusive) used to search for restore jobs based on their creation time. If this field is provided, end_time must also be included in the request. Uses a date format with optional timestamp, for example: `2023-01-15` or `2023-01-15T10:30:00Z`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/data-sources/restores#start_time DataCockroachRestores#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/data-sources/restores#start_time DataCockroachRestores#start_time}
   */
   readonly startTime?: string;
+}
+export interface DataCockroachRestoresRestoresObjects {
+}
+
+export function dataCockroachRestoresRestoresObjectsToTerraform(struct?: DataCockroachRestoresRestoresObjects): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataCockroachRestoresRestoresObjectsToHclTerraform(struct?: DataCockroachRestoresRestoresObjects): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataCockroachRestoresRestoresObjectsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataCockroachRestoresRestoresObjects | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataCockroachRestoresRestoresObjects | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // database - computed: true, optional: false, required: false
+  public get database() {
+    return this.getStringAttribute('database');
+  }
+
+  // schema - computed: true, optional: false, required: false
+  public get schema() {
+    return this.getStringAttribute('schema');
+  }
+
+  // tables - computed: true, optional: false, required: false
+  public get tables() {
+    return this.getListAttribute('tables');
+  }
+}
+
+export class DataCockroachRestoresRestoresObjectsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataCockroachRestoresRestoresObjectsOutputReference {
+    return new DataCockroachRestoresRestoresObjectsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataCockroachRestoresRestoresRestoreOpts {
+}
+
+export function dataCockroachRestoresRestoresRestoreOptsToTerraform(struct?: DataCockroachRestoresRestoresRestoreOpts): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataCockroachRestoresRestoresRestoreOptsToHclTerraform(struct?: DataCockroachRestoresRestoresRestoreOpts): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataCockroachRestoresRestoresRestoreOptsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataCockroachRestoresRestoresRestoreOpts | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataCockroachRestoresRestoresRestoreOpts | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // into_db - computed: true, optional: false, required: false
+  public get intoDb() {
+    return this.getStringAttribute('into_db');
+  }
+
+  // new_db_name - computed: true, optional: false, required: false
+  public get newDbName() {
+    return this.getStringAttribute('new_db_name');
+  }
+
+  // schema_only - computed: true, optional: false, required: false
+  public get schemaOnly() {
+    return this.getBooleanAttribute('schema_only');
+  }
+
+  // skip_localities_check - computed: true, optional: false, required: false
+  public get skipLocalitiesCheck() {
+    return this.getBooleanAttribute('skip_localities_check');
+  }
+
+  // skip_missing_foreign_keys - computed: true, optional: false, required: false
+  public get skipMissingForeignKeys() {
+    return this.getBooleanAttribute('skip_missing_foreign_keys');
+  }
+
+  // skip_missing_sequences - computed: true, optional: false, required: false
+  public get skipMissingSequences() {
+    return this.getBooleanAttribute('skip_missing_sequences');
+  }
+
+  // skip_missing_views - computed: true, optional: false, required: false
+  public get skipMissingViews() {
+    return this.getBooleanAttribute('skip_missing_views');
+  }
 }
 export interface DataCockroachRestoresRestores {
 }
@@ -89,9 +258,29 @@ export class DataCockroachRestoresRestoresOutputReference extends cdktf.ComplexO
     }
   }
 
+  // backup_end_time - computed: true, optional: false, required: false
+  public get backupEndTime() {
+    return this.getStringAttribute('backup_end_time');
+  }
+
   // backup_id - computed: true, optional: false, required: false
   public get backupId() {
     return this.getStringAttribute('backup_id');
+  }
+
+  // client_error_code - computed: true, optional: false, required: false
+  public get clientErrorCode() {
+    return this.getNumberAttribute('client_error_code');
+  }
+
+  // client_error_message - computed: true, optional: false, required: false
+  public get clientErrorMessage() {
+    return this.getStringAttribute('client_error_message');
+  }
+
+  // completed_at - computed: true, optional: false, required: false
+  public get completedAt() {
+    return this.getStringAttribute('completed_at');
   }
 
   // completion_percent - computed: true, optional: false, required: false
@@ -99,14 +288,41 @@ export class DataCockroachRestoresRestoresOutputReference extends cdktf.ComplexO
     return this.getNumberAttribute('completion_percent');
   }
 
+  // crdb_job_id - computed: true, optional: false, required: false
+  public get crdbJobId() {
+    return this.getStringAttribute('crdb_job_id');
+  }
+
   // created_at - computed: true, optional: false, required: false
   public get createdAt() {
     return this.getStringAttribute('created_at');
   }
 
+  // destination_cluster_name - computed: true, optional: false, required: false
+  public get destinationClusterName() {
+    return this.getStringAttribute('destination_cluster_name');
+  }
+
   // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
+  }
+
+  // objects - computed: true, optional: false, required: false
+  private _objects = new DataCockroachRestoresRestoresObjectsList(this, "objects", false);
+  public get objects() {
+    return this._objects;
+  }
+
+  // restore_opts - computed: true, optional: false, required: false
+  private _restoreOpts = new DataCockroachRestoresRestoresRestoreOptsOutputReference(this, "restore_opts");
+  public get restoreOpts() {
+    return this._restoreOpts;
+  }
+
+  // source_cluster_name - computed: true, optional: false, required: false
+  public get sourceClusterName() {
+    return this.getStringAttribute('source_cluster_name');
   }
 
   // status - computed: true, optional: false, required: false
@@ -140,7 +356,7 @@ export class DataCockroachRestoresRestoresList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/data-sources/restores cockroach_restores}
+* Represents a {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/data-sources/restores cockroach_restores}
 */
 export class DataCockroachRestores extends cdktf.TerraformDataSource {
 
@@ -156,7 +372,7 @@ export class DataCockroachRestores extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCockroachRestores resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCockroachRestores to import
-  * @param importFromId The id of the existing DataCockroachRestores that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/data-sources/restores#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCockroachRestores that should be imported. Refer to the {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/data-sources/restores#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCockroachRestores to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -168,7 +384,7 @@ export class DataCockroachRestores extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.16.0/docs/data-sources/restores cockroach_restores} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/cockroachdb/cockroach/1.17.0/docs/data-sources/restores cockroach_restores} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -179,8 +395,8 @@ export class DataCockroachRestores extends cdktf.TerraformDataSource {
       terraformResourceType: 'cockroach_restores',
       terraformGeneratorMetadata: {
         providerName: 'cockroach',
-        providerVersion: '1.16.0',
-        providerVersionConstraint: '1.16.0'
+        providerVersion: '1.17.0',
+        providerVersionConstraint: '1.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,71 +10,71 @@ export interface ApmApplicationConfigConfig extends cdktf.TerraformMetaArguments
   /**
   * Whether agent is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#agent_enable ApmApplicationConfig#agent_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#agent_enable ApmApplicationConfig#agent_enable}
   */
   readonly agentEnable?: boolean | cdktf.IResolvable;
   /**
   * dashboard ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#dashboard_topic_id ApmApplicationConfig#dashboard_topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#dashboard_topic_id ApmApplicationConfig#dashboard_topic_id}
   */
   readonly dashboardTopicId?: string;
   /**
   * Specifies the CPU threshold for probe fusing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#disable_cpu_used ApmApplicationConfig#disable_cpu_used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#disable_cpu_used ApmApplicationConfig#disable_cpu_used}
   */
   readonly disableCpuUsed?: number;
   /**
   * Specifies the memory threshold for probe fusing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#disable_memory_used ApmApplicationConfig#disable_memory_used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#disable_memory_used ApmApplicationConfig#disable_memory_used}
   */
   readonly disableMemoryUsed?: number;
   /**
   * Whether to enable the dashboard configuration for applications. false: disabled (consistent with the business system configuration); true: enabled (application-level configuration).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#enable_dashboard_config ApmApplicationConfig#enable_dashboard_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#enable_dashboard_config ApmApplicationConfig#enable_dashboard_config}
   */
   readonly enableDashboardConfig?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable application log configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#enable_log_config ApmApplicationConfig#enable_log_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#enable_log_config ApmApplicationConfig#enable_log_config}
   */
   readonly enableLogConfig?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable application security configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#enable_security_config ApmApplicationConfig#enable_security_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#enable_security_config ApmApplicationConfig#enable_security_config}
   */
   readonly enableSecurityConfig?: boolean | cdktf.IResolvable;
   /**
   * Whether thread profiling is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#enable_snapshot ApmApplicationConfig#enable_snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#enable_snapshot ApmApplicationConfig#enable_snapshot}
   */
   readonly enableSnapshot?: boolean | cdktf.IResolvable;
   /**
   * Error code filtering, separated by commas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#error_code_filter ApmApplicationConfig#error_code_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#error_code_filter ApmApplicationConfig#error_code_filter}
   */
   readonly errorCodeFilter?: string;
   /**
   * Switch for enabling application diagnosis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#event_enable ApmApplicationConfig#event_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#event_enable ApmApplicationConfig#event_enable}
   */
   readonly eventEnable?: boolean | cdktf.IResolvable;
   /**
   * Regex rules for exception filtering, separated by commas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#exception_filter ApmApplicationConfig#exception_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#exception_filter ApmApplicationConfig#exception_filter}
   */
   readonly exceptionFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#id ApmApplicationConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#id ApmApplicationConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,229 +83,229 @@ export interface ApmApplicationConfigConfig extends cdktf.TerraformMetaArguments
   /**
   * APIs to be filtered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#ignore_operation_name ApmApplicationConfig#ignore_operation_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#ignore_operation_name ApmApplicationConfig#ignore_operation_name}
   */
   readonly ignoreOperationName?: string;
   /**
   * Business system ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#instance_id ApmApplicationConfig#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#instance_id ApmApplicationConfig#instance_id}
   */
   readonly instanceId: string;
   /**
   * Whether to enable the detection of deleting arbitrary files. (0 - disabled; 1: enabled.).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#is_delete_any_file_analysis ApmApplicationConfig#is_delete_any_file_analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#is_delete_any_file_analysis ApmApplicationConfig#is_delete_any_file_analysis}
   */
   readonly isDeleteAnyFileAnalysis?: number;
   /**
   * Whether to enable deserialization detection. (0 - disabled; 1 - enabled).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#is_deserialization_analysis ApmApplicationConfig#is_deserialization_analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#is_deserialization_analysis ApmApplicationConfig#is_deserialization_analysis}
   */
   readonly isDeserializationAnalysis?: number;
   /**
   * Whether to enable traversal detection of the directory. (0 - disabled; 1 - enabled).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#is_directory_traversal_analysis ApmApplicationConfig#is_directory_traversal_analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#is_directory_traversal_analysis ApmApplicationConfig#is_directory_traversal_analysis}
   */
   readonly isDirectoryTraversalAnalysis?: number;
   /**
   * Whether to enable expression injection detection. (0 - disabled; 1 - enabled.).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#is_expression_injection_analysis ApmApplicationConfig#is_expression_injection_analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#is_expression_injection_analysis ApmApplicationConfig#is_expression_injection_analysis}
   */
   readonly isExpressionInjectionAnalysis?: number;
   /**
   * Whether to enable the detection of the inclusion of arbitrary files. (0: disabled, 1: enabled.).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#is_include_any_file_analysis ApmApplicationConfig#is_include_any_file_analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#is_include_any_file_analysis ApmApplicationConfig#is_include_any_file_analysis}
   */
   readonly isIncludeAnyFileAnalysis?: number;
   /**
   * Whether to enable detection of component vulnerability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#is_instrumentation_vulnerability_scan ApmApplicationConfig#is_instrumentation_vulnerability_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#is_instrumentation_vulnerability_scan ApmApplicationConfig#is_instrumentation_vulnerability_scan}
   */
   readonly isInstrumentationVulnerabilityScan?: number;
   /**
   * Whether to enable JNDI injection detection. (0 - disabled; 1 - enabled.).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#is_jndi_injection_analysis ApmApplicationConfig#is_jndi_injection_analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#is_jndi_injection_analysis ApmApplicationConfig#is_jndi_injection_analysis}
   */
   readonly isJndiInjectionAnalysis?: number;
   /**
   * Whether to enable JNI injection detection. (0 - disabled, 1 - enabled).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#is_jni_injection_analysis ApmApplicationConfig#is_jni_injection_analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#is_jni_injection_analysis ApmApplicationConfig#is_jni_injection_analysis}
   */
   readonly isJniInjectionAnalysis?: number;
   /**
   * Whether to enable detection of Java webshell.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#is_memory_hijacking_analysis ApmApplicationConfig#is_memory_hijacking_analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#is_memory_hijacking_analysis ApmApplicationConfig#is_memory_hijacking_analysis}
   */
   readonly isMemoryHijackingAnalysis?: number;
   /**
   * Whether to enable the detection of reading arbitrary files. (0 - disabled; 1 - enabled.).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#is_read_any_file_analysis ApmApplicationConfig#is_read_any_file_analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#is_read_any_file_analysis ApmApplicationConfig#is_read_any_file_analysis}
   */
   readonly isReadAnyFileAnalysis?: number;
   /**
   * Whether to associate with Dashboard. 0: disabled; 1: enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#is_related_dashboard ApmApplicationConfig#is_related_dashboard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#is_related_dashboard ApmApplicationConfig#is_related_dashboard}
   */
   readonly isRelatedDashboard?: number;
   /**
   * Log switch. 0: Off; 1: On.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#is_related_log ApmApplicationConfig#is_related_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#is_related_log ApmApplicationConfig#is_related_log}
   */
   readonly isRelatedLog?: number;
   /**
   * Whether remote command detection is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#is_remote_command_execution_analysis ApmApplicationConfig#is_remote_command_execution_analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#is_remote_command_execution_analysis ApmApplicationConfig#is_remote_command_execution_analysis}
   */
   readonly isRemoteCommandExecutionAnalysis?: number;
   /**
   * Whether to enable script engine injection detection. (0 - disabled; 1 - enabled.).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#is_script_engine_injection_analysis ApmApplicationConfig#is_script_engine_injection_analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#is_script_engine_injection_analysis ApmApplicationConfig#is_script_engine_injection_analysis}
   */
   readonly isScriptEngineInjectionAnalysis?: number;
   /**
   * Whether to enable SQL injection analysis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#is_sql_injection_analysis ApmApplicationConfig#is_sql_injection_analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#is_sql_injection_analysis ApmApplicationConfig#is_sql_injection_analysis}
   */
   readonly isSqlInjectionAnalysis?: number;
   /**
   * Whether to enable template engine injection detection. (0: disabled; 1: enabled.).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#is_template_engine_injection_analysis ApmApplicationConfig#is_template_engine_injection_analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#is_template_engine_injection_analysis ApmApplicationConfig#is_template_engine_injection_analysis}
   */
   readonly isTemplateEngineInjectionAnalysis?: number;
   /**
   * Whether to enable the detection of uploading arbitrary files. (0 - disabled; 1 - enabled.).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#is_upload_any_file_analysis ApmApplicationConfig#is_upload_any_file_analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#is_upload_any_file_analysis ApmApplicationConfig#is_upload_any_file_analysis}
   */
   readonly isUploadAnyFileAnalysis?: number;
   /**
   * Whether to enable Webshell backdoor detection. (0 - disabled; 1 - enabled).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#is_webshell_backdoor_analysis ApmApplicationConfig#is_webshell_backdoor_analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#is_webshell_backdoor_analysis ApmApplicationConfig#is_webshell_backdoor_analysis}
   */
   readonly isWebshellBackdoorAnalysis?: number;
   /**
   * CLS index type. (0 = full-text index; 1 = key-value index).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#log_index_type ApmApplicationConfig#log_index_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#log_index_type ApmApplicationConfig#log_index_type}
   */
   readonly logIndexType?: number;
   /**
   * Log region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#log_region ApmApplicationConfig#log_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#log_region ApmApplicationConfig#log_region}
   */
   readonly logRegion?: string;
   /**
   * CLS log set/ES cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#log_set ApmApplicationConfig#log_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#log_set ApmApplicationConfig#log_set}
   */
   readonly logSet?: string;
   /**
   * Log source: CLS or ES.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#log_source ApmApplicationConfig#log_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#log_source ApmApplicationConfig#log_source}
   */
   readonly logSource?: string;
   /**
   * Log topic ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#log_topic_id ApmApplicationConfig#log_topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#log_topic_id ApmApplicationConfig#log_topic_id}
   */
   readonly logTopicId?: string;
   /**
   * Index key of traceId. It is valid when the CLS index type is key-value index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#log_trace_id_key ApmApplicationConfig#log_trace_id_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#log_trace_id_key ApmApplicationConfig#log_trace_id_key}
   */
   readonly logTraceIdKey?: string;
   /**
   * Application name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#service_name ApmApplicationConfig#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#service_name ApmApplicationConfig#service_name}
   */
   readonly serviceName: string;
   /**
   * Timeout threshold for thread profiling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#snapshot_timeout ApmApplicationConfig#snapshot_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#snapshot_timeout ApmApplicationConfig#snapshot_timeout}
   */
   readonly snapshotTimeout?: number;
   /**
   * Whether link compression is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#trace_squash ApmApplicationConfig#trace_squash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#trace_squash ApmApplicationConfig#trace_squash}
   */
   readonly traceSquash?: boolean | cdktf.IResolvable;
   /**
   * Automatic convergence switch for APIs. 0: disabled | 1: enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#url_auto_convergence_enable ApmApplicationConfig#url_auto_convergence_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#url_auto_convergence_enable ApmApplicationConfig#url_auto_convergence_enable}
   */
   readonly urlAutoConvergenceEnable?: boolean | cdktf.IResolvable;
   /**
   * Regex rules for URL convergence, separated by commas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#url_convergence ApmApplicationConfig#url_convergence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#url_convergence ApmApplicationConfig#url_convergence}
   */
   readonly urlConvergence?: string;
   /**
   * URL convergence switch. 0: Off; 1: On.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#url_convergence_switch ApmApplicationConfig#url_convergence_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#url_convergence_switch ApmApplicationConfig#url_convergence_switch}
   */
   readonly urlConvergenceSwitch: number;
   /**
   * URL convergence threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#url_convergence_threshold ApmApplicationConfig#url_convergence_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#url_convergence_threshold ApmApplicationConfig#url_convergence_threshold}
   */
   readonly urlConvergenceThreshold?: number;
   /**
   * Regex rules for URL exclusion, separated by commas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#url_exclude ApmApplicationConfig#url_exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#url_exclude ApmApplicationConfig#url_exclude}
   */
   readonly urlExclude?: string;
   /**
   * Convergence threshold for URL long segments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#url_long_segment_threshold ApmApplicationConfig#url_long_segment_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#url_long_segment_threshold ApmApplicationConfig#url_long_segment_threshold}
   */
   readonly urlLongSegmentThreshold?: number;
   /**
   * Convergence threshold for URL numerical segments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#url_number_segment_threshold ApmApplicationConfig#url_number_segment_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#url_number_segment_threshold ApmApplicationConfig#url_number_segment_threshold}
   */
   readonly urlNumberSegmentThreshold?: number;
   /**
   * agent_operation_config_view block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#agent_operation_config_view ApmApplicationConfig#agent_operation_config_view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#agent_operation_config_view ApmApplicationConfig#agent_operation_config_view}
   */
   readonly agentOperationConfigView?: ApmApplicationConfigAgentOperationConfigView;
   /**
   * instrument_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#instrument_list ApmApplicationConfig#instrument_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#instrument_list ApmApplicationConfig#instrument_list}
   */
   readonly instrumentList?: ApmApplicationConfigInstrumentListStruct[] | cdktf.IResolvable;
 }
@@ -314,21 +314,21 @@ export interface ApmApplicationConfigAgentOperationConfigView {
   * Effective when RetentionValid is false. It indicates blocklist configuration in API settings. The APIs specified in the configuration do not support collection.
   * Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#ignore_operation ApmApplicationConfig#ignore_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#ignore_operation ApmApplicationConfig#ignore_operation}
   */
   readonly ignoreOperation?: string;
   /**
   * Effective when RetentionValid is true. It indicates allowlist configuration in API settings. Only the APIs specified in the configuration support collection.
   * Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#retention_operation ApmApplicationConfig#retention_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#retention_operation ApmApplicationConfig#retention_operation}
   */
   readonly retentionOperation?: string;
   /**
   * Whether allowlist configuration is enabled for the current API.
   * Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#retention_valid ApmApplicationConfig#retention_valid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#retention_valid ApmApplicationConfig#retention_valid}
   */
   readonly retentionValid?: boolean | cdktf.IResolvable;
 }
@@ -472,13 +472,13 @@ export interface ApmApplicationConfigInstrumentListStruct {
   /**
   * Component switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#enable ApmApplicationConfig#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#enable ApmApplicationConfig#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Component name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#name ApmApplicationConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#name ApmApplicationConfig#name}
   */
   readonly name?: string;
 }
@@ -623,7 +623,7 @@ export class ApmApplicationConfigInstrumentListStructList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config tencentcloud_apm_application_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config tencentcloud_apm_application_config}
 */
 export class ApmApplicationConfig extends cdktf.TerraformResource {
 
@@ -639,7 +639,7 @@ export class ApmApplicationConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApmApplicationConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApmApplicationConfig to import
-  * @param importFromId The id of the existing ApmApplicationConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApmApplicationConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApmApplicationConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -651,7 +651,7 @@ export class ApmApplicationConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/apm_application_config tencentcloud_apm_application_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.42/docs/resources/apm_application_config tencentcloud_apm_application_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -662,8 +662,8 @@ export class ApmApplicationConfig extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_apm_application_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.41',
-        providerVersionConstraint: '1.82.41'
+        providerVersion: '1.82.42',
+        providerVersionConstraint: '1.82.42'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
