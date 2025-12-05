@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace
+// https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface WorkspaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the Fabric Capacity to assign to the Workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace#capacity_id Workspace#capacity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace#capacity_id Workspace#capacity_id}
   */
   readonly capacityId?: string;
   /**
   * The Workspace description. Value defaults to ``. String length must be at most 4000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace#description Workspace#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace#description Workspace#description}
   */
   readonly description?: string;
   /**
   * The Workspace display name. String length must be at most 256.Value must not be one of : .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace#display_name Workspace#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace#display_name Workspace#display_name}
   */
   readonly displayName: string;
   /**
   * A workspace identity (see [Workspace Identity](https://learn.microsoft.com/fabric/security/workspace-identity) for more information).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace#identity Workspace#identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace#identity Workspace#identity}
   */
   readonly identity?: WorkspaceIdentity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace#timeouts Workspace#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace#timeouts Workspace#timeouts}
   */
   readonly timeouts?: WorkspaceTimeouts;
 }
@@ -40,7 +40,7 @@ export interface WorkspaceIdentity {
   /**
   * The identity type. Value must be one of : `SystemAssigned`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace#type Workspace#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace#type Workspace#type}
   */
   readonly type: string;
 }
@@ -202,25 +202,25 @@ export interface WorkspaceTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace#create Workspace#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace#create Workspace#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace#delete Workspace#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace#delete Workspace#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace#read Workspace#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace#read Workspace#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace#update Workspace#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace#update Workspace#update}
   */
   readonly update?: string;
 }
@@ -401,7 +401,7 @@ export class WorkspaceTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace fabric_workspace}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace fabric_workspace}
 */
 export class Workspace extends cdktf.TerraformResource {
 
@@ -417,7 +417,7 @@ export class Workspace extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Workspace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Workspace to import
-  * @param importFromId The id of the existing Workspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Workspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Workspace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -429,7 +429,7 @@ export class Workspace extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace fabric_workspace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace fabric_workspace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -440,8 +440,8 @@ export class Workspace extends cdktf.TerraformResource {
       terraformResourceType: 'fabric_workspace',
       terraformGeneratorMetadata: {
         providerName: 'fabric',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

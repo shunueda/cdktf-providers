@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/data-sources/version
+// https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/data-sources/version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataVergeioVersionConfig extends cdktf.TerraformMetaArguments {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/data-sources/version vergeio_version}
+* Represents a {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/data-sources/version vergeio_version}
 */
 export class DataVergeioVersion extends cdktf.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataVergeioVersion extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVergeioVersion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVergeioVersion to import
-  * @param importFromId The id of the existing DataVergeioVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/data-sources/version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVergeioVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/data-sources/version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVergeioVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataVergeioVersion extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/data-sources/version vergeio_version} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/data-sources/version vergeio_version} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,8 +49,8 @@ export class DataVergeioVersion extends cdktf.TerraformDataSource {
       terraformResourceType: 'vergeio_version',
       terraformGeneratorMetadata: {
         providerName: 'vergeio',
-        providerVersion: '2.7.2',
-        providerVersionConstraint: '2.7.2'
+        providerVersion: '2.7.3',
+        providerVersionConstraint: '2.7.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

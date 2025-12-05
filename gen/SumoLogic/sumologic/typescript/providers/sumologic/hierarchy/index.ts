@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/hierarchy
+// https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/hierarchy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface HierarchyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/hierarchy#id Hierarchy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/hierarchy#id Hierarchy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/hierarchy#name Hierarchy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/hierarchy#name Hierarchy#name}
   */
   readonly name: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/hierarchy#filter Hierarchy#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/hierarchy#filter Hierarchy#filter}
   */
   readonly filter?: HierarchyFilter;
   /**
   * level block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/hierarchy#level Hierarchy#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/hierarchy#level Hierarchy#level}
   */
   readonly level: HierarchyLevel[] | cdktf.IResolvable;
 }
 export interface HierarchyFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/hierarchy#key Hierarchy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/hierarchy#key Hierarchy#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/hierarchy#value Hierarchy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/hierarchy#value Hierarchy#value}
   */
   readonly value: string;
 }
@@ -144,13 +144,13 @@ export class HierarchyFilterOutputReference extends cdktf.ComplexObject {
 }
 export interface HierarchyLevelNextLevelNextLevelsWithConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/hierarchy#condition Hierarchy#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/hierarchy#condition Hierarchy#condition}
   */
   readonly condition: string;
   /**
   * level block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/hierarchy#level Hierarchy#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/hierarchy#level Hierarchy#level}
   */
   readonly level: HierarchyLevel[] | cdktf.IResolvable;
 }
@@ -289,19 +289,19 @@ export class HierarchyLevelNextLevelNextLevelsWithConditionsList extends cdktf.C
 }
 export interface HierarchyLevelNextLevel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/hierarchy#entity_type Hierarchy#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/hierarchy#entity_type Hierarchy#entity_type}
   */
   readonly entityType: string;
   /**
   * next_level block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/hierarchy#next_level Hierarchy#next_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/hierarchy#next_level Hierarchy#next_level}
   */
   readonly nextLevel?: HierarchyLevelNextLevel;
   /**
   * next_levels_with_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/hierarchy#next_levels_with_conditions Hierarchy#next_levels_with_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/hierarchy#next_levels_with_conditions Hierarchy#next_levels_with_conditions}
   */
   readonly nextLevelsWithConditions?: HierarchyLevelNextLevelNextLevelsWithConditions[] | cdktf.IResolvable;
 }
@@ -440,13 +440,13 @@ export class HierarchyLevelNextLevelOutputReference extends cdktf.ComplexObject 
 }
 export interface HierarchyLevelNextLevelsWithConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/hierarchy#condition Hierarchy#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/hierarchy#condition Hierarchy#condition}
   */
   readonly condition: string;
   /**
   * level block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/hierarchy#level Hierarchy#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/hierarchy#level Hierarchy#level}
   */
   readonly level: HierarchyLevel[] | cdktf.IResolvable;
 }
@@ -585,19 +585,19 @@ export class HierarchyLevelNextLevelsWithConditionsList extends cdktf.ComplexLis
 }
 export interface HierarchyLevel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/hierarchy#entity_type Hierarchy#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/hierarchy#entity_type Hierarchy#entity_type}
   */
   readonly entityType: string;
   /**
   * next_level block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/hierarchy#next_level Hierarchy#next_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/hierarchy#next_level Hierarchy#next_level}
   */
   readonly nextLevel?: HierarchyLevelNextLevel;
   /**
   * next_levels_with_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/hierarchy#next_levels_with_conditions Hierarchy#next_levels_with_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/hierarchy#next_levels_with_conditions Hierarchy#next_levels_with_conditions}
   */
   readonly nextLevelsWithConditions?: HierarchyLevelNextLevelsWithConditions[] | cdktf.IResolvable;
 }
@@ -768,7 +768,7 @@ export class HierarchyLevelList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/hierarchy sumologic_hierarchy}
+* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/hierarchy sumologic_hierarchy}
 */
 export class Hierarchy extends cdktf.TerraformResource {
 
@@ -784,7 +784,7 @@ export class Hierarchy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Hierarchy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Hierarchy to import
-  * @param importFromId The id of the existing Hierarchy that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/hierarchy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Hierarchy that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/hierarchy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Hierarchy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -796,7 +796,7 @@ export class Hierarchy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/hierarchy sumologic_hierarchy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/hierarchy sumologic_hierarchy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -807,8 +807,8 @@ export class Hierarchy extends cdktf.TerraformResource {
       terraformResourceType: 'sumologic_hierarchy',
       terraformGeneratorMetadata: {
         providerName: 'sumologic',
-        providerVersion: '3.2.0',
-        providerVersionConstraint: '3.2.0'
+        providerVersion: '3.2.1',
+        providerVersionConstraint: '3.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

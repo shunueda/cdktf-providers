@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/data_pipeline
+// https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/data_pipeline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataFabricDataPipelineConfig extends cdktf.TerraformMetaArgumen
   /**
   * The Data Pipeline display name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/data_pipeline#display_name DataFabricDataPipeline#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/data_pipeline#display_name DataFabricDataPipeline#display_name}
   */
   readonly displayName?: string;
   /**
   * The Data Pipeline format. Possible values: `Default`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/data_pipeline#format DataFabricDataPipeline#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/data_pipeline#format DataFabricDataPipeline#format}
   */
   readonly format?: string;
   /**
   * The Data Pipeline ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/data_pipeline#id DataFabricDataPipeline#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/data_pipeline#id DataFabricDataPipeline#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,17 +33,17 @@ export interface DataFabricDataPipelineConfig extends cdktf.TerraformMetaArgumen
   * 
   * !> Your terraform state file may grow a lot if you output definition content. Only use it when you must use data from the definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/data_pipeline#output_definition DataFabricDataPipeline#output_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/data_pipeline#output_definition DataFabricDataPipeline#output_definition}
   */
   readonly outputDefinition?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/data_pipeline#timeouts DataFabricDataPipeline#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/data_pipeline#timeouts DataFabricDataPipeline#timeouts}
   */
   readonly timeouts?: DataFabricDataPipelineTimeouts;
   /**
   * The Workspace ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/data_pipeline#workspace_id DataFabricDataPipeline#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/data_pipeline#workspace_id DataFabricDataPipeline#workspace_id}
   */
   readonly workspaceId: string;
 }
@@ -124,7 +124,7 @@ export interface DataFabricDataPipelineTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/data_pipeline#read DataFabricDataPipeline#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/data_pipeline#read DataFabricDataPipeline#read}
   */
   readonly read?: string;
 }
@@ -218,7 +218,7 @@ export class DataFabricDataPipelineTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/data_pipeline fabric_data_pipeline}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/data_pipeline fabric_data_pipeline}
 */
 export class DataFabricDataPipeline extends cdktf.TerraformDataSource {
 
@@ -234,7 +234,7 @@ export class DataFabricDataPipeline extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFabricDataPipeline resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFabricDataPipeline to import
-  * @param importFromId The id of the existing DataFabricDataPipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/data_pipeline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFabricDataPipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/data_pipeline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFabricDataPipeline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -246,7 +246,7 @@ export class DataFabricDataPipeline extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/data_pipeline fabric_data_pipeline} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/data_pipeline fabric_data_pipeline} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -257,8 +257,8 @@ export class DataFabricDataPipeline extends cdktf.TerraformDataSource {
       terraformResourceType: 'fabric_data_pipeline',
       terraformGeneratorMetadata: {
         providerName: 'fabric',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -305,6 +305,11 @@ export class DataFabricDataPipeline extends cdktf.TerraformDataSource {
   // Temporarily expose input value. Use with caution.
   public get displayNameInput() {
     return this._displayName;
+  }
+
+  // folder_id - computed: true, optional: false, required: false
+  public get folderId() {
+    return this.getStringAttribute('folder_id');
   }
 
   // format - computed: false, optional: true, required: false

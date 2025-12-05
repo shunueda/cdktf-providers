@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/eventstream_source_connection
+// https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/eventstream_source_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataFabricEventstreamSourceConnectionConfig extends cdktf.Terra
   /**
   * The eventstream ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/eventstream_source_connection#eventstream_id DataFabricEventstreamSourceConnection#eventstream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/eventstream_source_connection#eventstream_id DataFabricEventstreamSourceConnection#eventstream_id}
   */
   readonly eventstreamId: string;
   /**
   * The source ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/eventstream_source_connection#source_id DataFabricEventstreamSourceConnection#source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/eventstream_source_connection#source_id DataFabricEventstreamSourceConnection#source_id}
   */
   readonly sourceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/eventstream_source_connection#timeouts DataFabricEventstreamSourceConnection#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/eventstream_source_connection#timeouts DataFabricEventstreamSourceConnection#timeouts}
   */
   readonly timeouts?: DataFabricEventstreamSourceConnectionTimeouts;
   /**
   * The workspace ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/eventstream_source_connection#workspace_id DataFabricEventstreamSourceConnection#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/eventstream_source_connection#workspace_id DataFabricEventstreamSourceConnection#workspace_id}
   */
   readonly workspaceId: string;
 }
@@ -103,7 +103,7 @@ export interface DataFabricEventstreamSourceConnectionTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/eventstream_source_connection#read DataFabricEventstreamSourceConnection#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/eventstream_source_connection#read DataFabricEventstreamSourceConnection#read}
   */
   readonly read?: string;
 }
@@ -197,7 +197,7 @@ export class DataFabricEventstreamSourceConnectionTimeoutsOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/eventstream_source_connection fabric_eventstream_source_connection}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/eventstream_source_connection fabric_eventstream_source_connection}
 */
 export class DataFabricEventstreamSourceConnection extends cdktf.TerraformDataSource {
 
@@ -213,7 +213,7 @@ export class DataFabricEventstreamSourceConnection extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataFabricEventstreamSourceConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFabricEventstreamSourceConnection to import
-  * @param importFromId The id of the existing DataFabricEventstreamSourceConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/eventstream_source_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFabricEventstreamSourceConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/eventstream_source_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFabricEventstreamSourceConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -225,7 +225,7 @@ export class DataFabricEventstreamSourceConnection extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/eventstream_source_connection fabric_eventstream_source_connection} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/eventstream_source_connection fabric_eventstream_source_connection} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -236,8 +236,8 @@ export class DataFabricEventstreamSourceConnection extends cdktf.TerraformDataSo
       terraformResourceType: 'fabric_eventstream_source_connection',
       terraformGeneratorMetadata: {
         providerName: 'fabric',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

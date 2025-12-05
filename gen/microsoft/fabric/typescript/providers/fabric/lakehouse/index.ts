@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/lakehouse
+// https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/lakehouse
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,29 +12,35 @@ export interface LakehouseConfig extends cdktf.TerraformMetaArguments {
   * 
   * Any changes to this configuration will result in recreation of the Lakehouse.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/lakehouse#configuration Lakehouse#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/lakehouse#configuration Lakehouse#configuration}
   */
   readonly configuration?: LakehouseConfiguration;
   /**
   * The Lakehouse description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/lakehouse#description Lakehouse#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/lakehouse#description Lakehouse#description}
   */
   readonly description?: string;
   /**
   * The Lakehouse display name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/lakehouse#display_name Lakehouse#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/lakehouse#display_name Lakehouse#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/lakehouse#timeouts Lakehouse#timeouts}
+  * The Folder ID.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/lakehouse#folder_id Lakehouse#folder_id}
+  */
+  readonly folderId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/lakehouse#timeouts Lakehouse#timeouts}
   */
   readonly timeouts?: LakehouseTimeouts;
   /**
   * The Workspace ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/lakehouse#workspace_id Lakehouse#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/lakehouse#workspace_id Lakehouse#workspace_id}
   */
   readonly workspaceId: string;
 }
@@ -42,7 +48,7 @@ export interface LakehouseConfiguration {
   /**
   * Schema enabled Lakehouse.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/lakehouse#enable_schemas Lakehouse#enable_schemas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/lakehouse#enable_schemas Lakehouse#enable_schemas}
   */
   readonly enableSchemas: boolean | cdktf.IResolvable;
 }
@@ -269,25 +275,25 @@ export interface LakehouseTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/lakehouse#create Lakehouse#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/lakehouse#create Lakehouse#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/lakehouse#delete Lakehouse#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/lakehouse#delete Lakehouse#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/lakehouse#read Lakehouse#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/lakehouse#read Lakehouse#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/lakehouse#update Lakehouse#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/lakehouse#update Lakehouse#update}
   */
   readonly update?: string;
 }
@@ -468,7 +474,7 @@ export class LakehouseTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/lakehouse fabric_lakehouse}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/lakehouse fabric_lakehouse}
 */
 export class Lakehouse extends cdktf.TerraformResource {
 
@@ -484,7 +490,7 @@ export class Lakehouse extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Lakehouse resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Lakehouse to import
-  * @param importFromId The id of the existing Lakehouse that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/lakehouse#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Lakehouse that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/lakehouse#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Lakehouse to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -496,7 +502,7 @@ export class Lakehouse extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/lakehouse fabric_lakehouse} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/lakehouse fabric_lakehouse} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -507,8 +513,8 @@ export class Lakehouse extends cdktf.TerraformResource {
       terraformResourceType: 'fabric_lakehouse',
       terraformGeneratorMetadata: {
         providerName: 'fabric',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -521,6 +527,7 @@ export class Lakehouse extends cdktf.TerraformResource {
     this._configuration.internalValue = config.configuration;
     this._description = config.description;
     this._displayName = config.displayName;
+    this._folderId = config.folderId;
     this._timeouts.internalValue = config.timeouts;
     this._workspaceId = config.workspaceId;
   }
@@ -574,6 +581,22 @@ export class Lakehouse extends cdktf.TerraformResource {
     return this._displayName;
   }
 
+  // folder_id - computed: false, optional: true, required: false
+  private _folderId?: string; 
+  public get folderId() {
+    return this.getStringAttribute('folder_id');
+  }
+  public set folderId(value: string) {
+    this._folderId = value;
+  }
+  public resetFolderId() {
+    this._folderId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get folderIdInput() {
+    return this._folderId;
+  }
+
   // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
@@ -623,6 +646,7 @@ export class Lakehouse extends cdktf.TerraformResource {
       configuration: lakehouseConfigurationToTerraform(this._configuration.internalValue),
       description: cdktf.stringToTerraform(this._description),
       display_name: cdktf.stringToTerraform(this._displayName),
+      folder_id: cdktf.stringToTerraform(this._folderId),
       timeouts: lakehouseTimeoutsToTerraform(this._timeouts.internalValue),
       workspace_id: cdktf.stringToTerraform(this._workspaceId),
     };
@@ -644,6 +668,12 @@ export class Lakehouse extends cdktf.TerraformResource {
       },
       display_name: {
         value: cdktf.stringToHclTerraform(this._displayName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      folder_id: {
+        value: cdktf.stringToHclTerraform(this._folderId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

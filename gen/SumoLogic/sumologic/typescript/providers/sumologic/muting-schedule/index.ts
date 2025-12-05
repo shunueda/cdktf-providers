@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/muting_schedule
+// https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/muting_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,86 +8,86 @@ import * as cdktf from 'cdktf';
 
 export interface MutingScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/muting_schedule#content_type MutingSchedule#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/muting_schedule#content_type MutingSchedule#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/muting_schedule#created_at MutingSchedule#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/muting_schedule#created_at MutingSchedule#created_at}
   */
   readonly createdAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/muting_schedule#created_by MutingSchedule#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/muting_schedule#created_by MutingSchedule#created_by}
   */
   readonly createdBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/muting_schedule#description MutingSchedule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/muting_schedule#description MutingSchedule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/muting_schedule#id MutingSchedule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/muting_schedule#id MutingSchedule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/muting_schedule#is_mutable MutingSchedule#is_mutable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/muting_schedule#is_mutable MutingSchedule#is_mutable}
   */
   readonly isMutable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/muting_schedule#is_system MutingSchedule#is_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/muting_schedule#is_system MutingSchedule#is_system}
   */
   readonly isSystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/muting_schedule#modified_at MutingSchedule#modified_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/muting_schedule#modified_at MutingSchedule#modified_at}
   */
   readonly modifiedAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/muting_schedule#modified_by MutingSchedule#modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/muting_schedule#modified_by MutingSchedule#modified_by}
   */
   readonly modifiedBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/muting_schedule#name MutingSchedule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/muting_schedule#name MutingSchedule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/muting_schedule#parent_id MutingSchedule#parent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/muting_schedule#parent_id MutingSchedule#parent_id}
   */
   readonly parentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/muting_schedule#type MutingSchedule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/muting_schedule#type MutingSchedule#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/muting_schedule#version MutingSchedule#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/muting_schedule#version MutingSchedule#version}
   */
   readonly version?: number;
   /**
   * monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/muting_schedule#monitor MutingSchedule#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/muting_schedule#monitor MutingSchedule#monitor}
   */
   readonly monitor?: MutingScheduleMonitor;
   /**
   * notification_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/muting_schedule#notification_groups MutingSchedule#notification_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/muting_schedule#notification_groups MutingSchedule#notification_groups}
   */
   readonly notificationGroups?: MutingScheduleNotificationGroups[] | cdktf.IResolvable;
   /**
   * schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/muting_schedule#schedule MutingSchedule#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/muting_schedule#schedule MutingSchedule#schedule}
   */
   readonly schedule: MutingScheduleSchedule;
 }
 export interface MutingScheduleMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/muting_schedule#all MutingSchedule#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/muting_schedule#all MutingSchedule#all}
   */
   readonly all?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/muting_schedule#ids MutingSchedule#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/muting_schedule#ids MutingSchedule#ids}
   */
   readonly ids?: string[];
 }
@@ -200,11 +200,11 @@ export class MutingScheduleMonitorOutputReference extends cdktf.ComplexObject {
 }
 export interface MutingScheduleNotificationGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/muting_schedule#group_key MutingSchedule#group_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/muting_schedule#group_key MutingSchedule#group_key}
   */
   readonly groupKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/muting_schedule#group_values MutingSchedule#group_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/muting_schedule#group_values MutingSchedule#group_values}
   */
   readonly groupValues: string[];
 }
@@ -343,23 +343,23 @@ export class MutingScheduleNotificationGroupsList extends cdktf.ComplexList {
 }
 export interface MutingScheduleSchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/muting_schedule#duration MutingSchedule#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/muting_schedule#duration MutingSchedule#duration}
   */
   readonly duration: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/muting_schedule#rrule MutingSchedule#rrule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/muting_schedule#rrule MutingSchedule#rrule}
   */
   readonly rrule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/muting_schedule#start_date MutingSchedule#start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/muting_schedule#start_date MutingSchedule#start_date}
   */
   readonly startDate: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/muting_schedule#start_time MutingSchedule#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/muting_schedule#start_time MutingSchedule#start_time}
   */
   readonly startTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/muting_schedule#timezone MutingSchedule#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/muting_schedule#timezone MutingSchedule#timezone}
   */
   readonly timezone: string;
 }
@@ -547,7 +547,7 @@ export class MutingScheduleScheduleOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/muting_schedule sumologic_muting_schedule}
+* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/muting_schedule sumologic_muting_schedule}
 */
 export class MutingSchedule extends cdktf.TerraformResource {
 
@@ -563,7 +563,7 @@ export class MutingSchedule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MutingSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MutingSchedule to import
-  * @param importFromId The id of the existing MutingSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/muting_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MutingSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/muting_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MutingSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -575,7 +575,7 @@ export class MutingSchedule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/muting_schedule sumologic_muting_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/muting_schedule sumologic_muting_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -586,8 +586,8 @@ export class MutingSchedule extends cdktf.TerraformResource {
       terraformResourceType: 'sumologic_muting_schedule',
       terraformGeneratorMetadata: {
         providerName: 'sumologic',
-        providerVersion: '3.2.0',
-        providerVersionConstraint: '3.2.0'
+        providerVersion: '3.2.1',
+        providerVersionConstraint: '3.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

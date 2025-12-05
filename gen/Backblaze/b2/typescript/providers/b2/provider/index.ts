@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs
+// https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface B2ProviderConfig {
   /**
   * B2 Application Key (B2_APPLICATION_KEY env).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs#application_key B2Provider#application_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs#application_key B2Provider#application_key}
   */
   readonly applicationKey?: string;
   /**
   * B2 Application Key ID (B2_APPLICATION_KEY_ID env).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs#application_key_id B2Provider#application_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs#application_key_id B2Provider#application_key_id}
   */
   readonly applicationKeyId?: string;
   /**
   * B2 endpoint - the string 'production' or a custom B2 API URL (B2_ENDPOINT env). You should not need to set this unless you work at Backblaze. Defaults to `production`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs#endpoint B2Provider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs#endpoint B2Provider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs#alias B2Provider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs#alias B2Provider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs b2}
+* Represents a {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs b2}
 */
 export class B2Provider extends cdktf.TerraformProvider {
 
@@ -50,7 +50,7 @@ export class B2Provider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a B2Provider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the B2Provider to import
-  * @param importFromId The id of the existing B2Provider that should be imported. Refer to the {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing B2Provider that should be imported. Refer to the {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the B2Provider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class B2Provider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs b2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs b2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class B2Provider extends cdktf.TerraformProvider {
       terraformResourceType: 'b2',
       terraformGeneratorMetadata: {
         providerName: 'b2',
-        providerVersion: '0.11.0',
-        providerVersionConstraint: '0.11.0'
+        providerVersion: '0.12.0',
+        providerVersionConstraint: '0.12.0'
       },
       terraformProviderSource: 'Backblaze/b2'
     });

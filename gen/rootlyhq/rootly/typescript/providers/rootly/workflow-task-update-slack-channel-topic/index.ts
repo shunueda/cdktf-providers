@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_slack_channel_topic
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_slack_channel_topic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskUpdateSlackChannelTopicConfig extends cdktf.Terrafo
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_slack_channel_topic#enabled WorkflowTaskUpdateSlackChannelTopic#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_slack_channel_topic#enabled WorkflowTaskUpdateSlackChannelTopic#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_slack_channel_topic#id WorkflowTaskUpdateSlackChannelTopic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_slack_channel_topic#id WorkflowTaskUpdateSlackChannelTopic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WorkflowTaskUpdateSlackChannelTopicConfig extends cdktf.Terrafo
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_slack_channel_topic#name WorkflowTaskUpdateSlackChannelTopic#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_slack_channel_topic#name WorkflowTaskUpdateSlackChannelTopic#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_slack_channel_topic#position WorkflowTaskUpdateSlackChannelTopic#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_slack_channel_topic#position WorkflowTaskUpdateSlackChannelTopic#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_slack_channel_topic#skip_on_failure WorkflowTaskUpdateSlackChannelTopic#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_slack_channel_topic#skip_on_failure WorkflowTaskUpdateSlackChannelTopic#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_slack_channel_topic#workflow_id WorkflowTaskUpdateSlackChannelTopic#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_slack_channel_topic#workflow_id WorkflowTaskUpdateSlackChannelTopic#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_slack_channel_topic#task_params WorkflowTaskUpdateSlackChannelTopic#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_slack_channel_topic#task_params WorkflowTaskUpdateSlackChannelTopic#task_params}
   */
   readonly taskParams: WorkflowTaskUpdateSlackChannelTopicTaskParams;
 }
@@ -55,15 +55,15 @@ export interface WorkflowTaskUpdateSlackChannelTopicTaskParams {
   /**
   * Map must contain two fields, `id` and `name`. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_slack_channel_topic#channel WorkflowTaskUpdateSlackChannelTopic#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_slack_channel_topic#channel WorkflowTaskUpdateSlackChannelTopic#channel}
   */
   readonly channel: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_slack_channel_topic#task_type WorkflowTaskUpdateSlackChannelTopic#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_slack_channel_topic#task_type WorkflowTaskUpdateSlackChannelTopic#task_type}
   */
   readonly taskType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_slack_channel_topic#topic WorkflowTaskUpdateSlackChannelTopic#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_slack_channel_topic#topic WorkflowTaskUpdateSlackChannelTopic#topic}
   */
   readonly topic: string;
 }
@@ -199,7 +199,7 @@ export class WorkflowTaskUpdateSlackChannelTopicTaskParamsOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_slack_channel_topic rootly_workflow_task_update_slack_channel_topic}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_slack_channel_topic rootly_workflow_task_update_slack_channel_topic}
 */
 export class WorkflowTaskUpdateSlackChannelTopic extends cdktf.TerraformResource {
 
@@ -215,7 +215,7 @@ export class WorkflowTaskUpdateSlackChannelTopic extends cdktf.TerraformResource
   * Generates CDKTF code for importing a WorkflowTaskUpdateSlackChannelTopic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskUpdateSlackChannelTopic to import
-  * @param importFromId The id of the existing WorkflowTaskUpdateSlackChannelTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_slack_channel_topic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskUpdateSlackChannelTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_slack_channel_topic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskUpdateSlackChannelTopic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -227,7 +227,7 @@ export class WorkflowTaskUpdateSlackChannelTopic extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_slack_channel_topic rootly_workflow_task_update_slack_channel_topic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_slack_channel_topic rootly_workflow_task_update_slack_channel_topic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -238,8 +238,8 @@ export class WorkflowTaskUpdateSlackChannelTopic extends cdktf.TerraformResource
       terraformResourceType: 'rootly_workflow_task_update_slack_channel_topic',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.11',
-        providerVersionConstraint: '4.3.11'
+        providerVersion: '4.3.13',
+        providerVersionConstraint: '4.3.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

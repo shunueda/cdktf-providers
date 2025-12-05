@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_zendesk_ticket
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zendesk_ticket
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskCreateZendeskTicketConfig extends cdktf.TerraformMe
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_zendesk_ticket#enabled WorkflowTaskCreateZendeskTicket#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zendesk_ticket#enabled WorkflowTaskCreateZendeskTicket#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_zendesk_ticket#id WorkflowTaskCreateZendeskTicket#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zendesk_ticket#id WorkflowTaskCreateZendeskTicket#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WorkflowTaskCreateZendeskTicketConfig extends cdktf.TerraformMe
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_zendesk_ticket#name WorkflowTaskCreateZendeskTicket#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zendesk_ticket#name WorkflowTaskCreateZendeskTicket#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_zendesk_ticket#position WorkflowTaskCreateZendeskTicket#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zendesk_ticket#position WorkflowTaskCreateZendeskTicket#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_zendesk_ticket#skip_on_failure WorkflowTaskCreateZendeskTicket#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zendesk_ticket#skip_on_failure WorkflowTaskCreateZendeskTicket#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_zendesk_ticket#workflow_id WorkflowTaskCreateZendeskTicket#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zendesk_ticket#workflow_id WorkflowTaskCreateZendeskTicket#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_zendesk_ticket#task_params WorkflowTaskCreateZendeskTicket#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zendesk_ticket#task_params WorkflowTaskCreateZendeskTicket#task_params}
   */
   readonly taskParams: WorkflowTaskCreateZendeskTicketTaskParams;
 }
@@ -55,53 +55,53 @@ export interface WorkflowTaskCreateZendeskTicketTaskParams {
   /**
   * The ticket comment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_zendesk_ticket#comment WorkflowTaskCreateZendeskTicket#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zendesk_ticket#comment WorkflowTaskCreateZendeskTicket#comment}
   */
   readonly comment?: string;
   /**
   * Map must contain two fields, `id` and `name`. The completion id and display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_zendesk_ticket#completion WorkflowTaskCreateZendeskTicket#completion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zendesk_ticket#completion WorkflowTaskCreateZendeskTicket#completion}
   */
   readonly completion?: { [key: string]: string };
   /**
   * Custom field mappings. Can contain liquid markup and need to be valid JSON
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_zendesk_ticket#custom_fields_mapping WorkflowTaskCreateZendeskTicket#custom_fields_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zendesk_ticket#custom_fields_mapping WorkflowTaskCreateZendeskTicket#custom_fields_mapping}
   */
   readonly customFieldsMapping?: string;
   /**
   * Value must be one of `problem`, `incident`, `question`, `task`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_zendesk_ticket#kind WorkflowTaskCreateZendeskTicket#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zendesk_ticket#kind WorkflowTaskCreateZendeskTicket#kind}
   */
   readonly kind: string;
   /**
   * Map must contain two fields, `id` and `name`. The priority id and display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_zendesk_ticket#priority WorkflowTaskCreateZendeskTicket#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zendesk_ticket#priority WorkflowTaskCreateZendeskTicket#priority}
   */
   readonly priority?: { [key: string]: string };
   /**
   * The ticket subject
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_zendesk_ticket#subject WorkflowTaskCreateZendeskTicket#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zendesk_ticket#subject WorkflowTaskCreateZendeskTicket#subject}
   */
   readonly subject: string;
   /**
   * The ticket tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_zendesk_ticket#tags WorkflowTaskCreateZendeskTicket#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zendesk_ticket#tags WorkflowTaskCreateZendeskTicket#tags}
   */
   readonly tags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_zendesk_ticket#task_type WorkflowTaskCreateZendeskTicket#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zendesk_ticket#task_type WorkflowTaskCreateZendeskTicket#task_type}
   */
   readonly taskType?: string;
   /**
   * Additional Zendesk ticket attributes. Will be merged into whatever was specified in this tasks current parameters. Can contain liquid markup and need to be valid JSON
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_zendesk_ticket#ticket_payload WorkflowTaskCreateZendeskTicket#ticket_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zendesk_ticket#ticket_payload WorkflowTaskCreateZendeskTicket#ticket_payload}
   */
   readonly ticketPayload?: string;
 }
@@ -411,7 +411,7 @@ export class WorkflowTaskCreateZendeskTicketTaskParamsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_zendesk_ticket rootly_workflow_task_create_zendesk_ticket}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zendesk_ticket rootly_workflow_task_create_zendesk_ticket}
 */
 export class WorkflowTaskCreateZendeskTicket extends cdktf.TerraformResource {
 
@@ -427,7 +427,7 @@ export class WorkflowTaskCreateZendeskTicket extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowTaskCreateZendeskTicket resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskCreateZendeskTicket to import
-  * @param importFromId The id of the existing WorkflowTaskCreateZendeskTicket that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_zendesk_ticket#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskCreateZendeskTicket that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zendesk_ticket#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskCreateZendeskTicket to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -439,7 +439,7 @@ export class WorkflowTaskCreateZendeskTicket extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_zendesk_ticket rootly_workflow_task_create_zendesk_ticket} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_zendesk_ticket rootly_workflow_task_create_zendesk_ticket} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -450,8 +450,8 @@ export class WorkflowTaskCreateZendeskTicket extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_create_zendesk_ticket',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.11',
-        providerVersionConstraint: '4.3.11'
+        providerVersion: '4.3.13',
+        providerVersionConstraint: '4.3.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

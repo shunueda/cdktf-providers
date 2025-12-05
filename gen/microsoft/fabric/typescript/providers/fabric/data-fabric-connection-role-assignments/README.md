@@ -1,0 +1,3 @@
+# `data_fabric_connection_role_assignments`
+
+Refer to the Terraform Registry for docs: [`data_fabric_connection_role_assignments`](https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/connection_role_assignments).

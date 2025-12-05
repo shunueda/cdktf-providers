@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/private_link_attachment_connection
+// https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/private_link_attachment_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataConfluentPrivateLinkAttachmentConnectionConfig extends cdkt
   /**
   * The ID of the Private Link Attachment Connection, for example, `plattc-61ovvd`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/private_link_attachment_connection#id DataConfluentPrivateLinkAttachmentConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/private_link_attachment_connection#id DataConfluentPrivateLinkAttachmentConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataConfluentPrivateLinkAttachmentConnectionConfig extends cdkt
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/private_link_attachment_connection#environment DataConfluentPrivateLinkAttachmentConnection#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/private_link_attachment_connection#environment DataConfluentPrivateLinkAttachmentConnection#environment}
   */
   readonly environment: DataConfluentPrivateLinkAttachmentConnectionEnvironment;
 }
@@ -325,7 +325,7 @@ export class DataConfluentPrivateLinkAttachmentConnectionPrivateLinkAttachmentLi
 }
 export interface DataConfluentPrivateLinkAttachmentConnectionEnvironment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/private_link_attachment_connection#id DataConfluentPrivateLinkAttachmentConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/private_link_attachment_connection#id DataConfluentPrivateLinkAttachmentConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -409,7 +409,7 @@ export class DataConfluentPrivateLinkAttachmentConnectionEnvironmentOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/private_link_attachment_connection confluent_private_link_attachment_connection}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/private_link_attachment_connection confluent_private_link_attachment_connection}
 */
 export class DataConfluentPrivateLinkAttachmentConnection extends cdktf.TerraformDataSource {
 
@@ -425,7 +425,7 @@ export class DataConfluentPrivateLinkAttachmentConnection extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataConfluentPrivateLinkAttachmentConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataConfluentPrivateLinkAttachmentConnection to import
-  * @param importFromId The id of the existing DataConfluentPrivateLinkAttachmentConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/private_link_attachment_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataConfluentPrivateLinkAttachmentConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/private_link_attachment_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataConfluentPrivateLinkAttachmentConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -437,7 +437,7 @@ export class DataConfluentPrivateLinkAttachmentConnection extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/private_link_attachment_connection confluent_private_link_attachment_connection} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/private_link_attachment_connection confluent_private_link_attachment_connection} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -448,8 +448,8 @@ export class DataConfluentPrivateLinkAttachmentConnection extends cdktf.Terrafor
       terraformResourceType: 'confluent_private_link_attachment_connection',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.54.0',
-        providerVersionConstraint: '2.54.0'
+        providerVersion: '2.55.0',
+        providerVersionConstraint: '2.55.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

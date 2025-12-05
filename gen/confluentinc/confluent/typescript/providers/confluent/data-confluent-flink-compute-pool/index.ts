@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/flink_compute_pool
+// https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/flink_compute_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface DataConfluentFlinkComputePoolConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/flink_compute_pool#display_name DataConfluentFlinkComputePool#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/flink_compute_pool#display_name DataConfluentFlinkComputePool#display_name}
   */
   readonly displayName?: string;
   /**
   * The ID of the Compute Pool, for example, `lfcp-abc123`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/flink_compute_pool#id DataConfluentFlinkComputePool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/flink_compute_pool#id DataConfluentFlinkComputePool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataConfluentFlinkComputePoolConfig extends cdktf.TerraformMeta
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/flink_compute_pool#environment DataConfluentFlinkComputePool#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/flink_compute_pool#environment DataConfluentFlinkComputePool#environment}
   */
   readonly environment: DataConfluentFlinkComputePoolEnvironment;
 }
 export interface DataConfluentFlinkComputePoolEnvironment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/flink_compute_pool#id DataConfluentFlinkComputePool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/flink_compute_pool#id DataConfluentFlinkComputePool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -113,7 +113,7 @@ export class DataConfluentFlinkComputePoolEnvironmentOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/flink_compute_pool confluent_flink_compute_pool}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/flink_compute_pool confluent_flink_compute_pool}
 */
 export class DataConfluentFlinkComputePool extends cdktf.TerraformDataSource {
 
@@ -129,7 +129,7 @@ export class DataConfluentFlinkComputePool extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataConfluentFlinkComputePool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataConfluentFlinkComputePool to import
-  * @param importFromId The id of the existing DataConfluentFlinkComputePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/flink_compute_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataConfluentFlinkComputePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/flink_compute_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataConfluentFlinkComputePool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -141,7 +141,7 @@ export class DataConfluentFlinkComputePool extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/data-sources/flink_compute_pool confluent_flink_compute_pool} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/data-sources/flink_compute_pool confluent_flink_compute_pool} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -152,8 +152,8 @@ export class DataConfluentFlinkComputePool extends cdktf.TerraformDataSource {
       terraformResourceType: 'confluent_flink_compute_pool',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.54.0',
-        providerVersionConstraint: '2.54.0'
+        providerVersion: '2.55.0',
+        providerVersionConstraint: '2.55.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

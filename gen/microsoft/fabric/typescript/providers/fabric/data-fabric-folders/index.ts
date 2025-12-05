@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/folders
+// https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/folders
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataFabricFoldersConfig extends cdktf.TerraformMetaArguments {
   /**
   * Lists folders in a folder and its nested folders, or just a folder only. True - All folders in the folder and its nested folders are listed, False - Only folders in the folder are listed. The default value is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/folders#recursive DataFabricFolders#recursive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/folders#recursive DataFabricFolders#recursive}
   */
   readonly recursive?: boolean | cdktf.IResolvable;
   /**
   * This parameter allows users to filter folders based on a specific root folder. If not provided, the workspace is used as the root folder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/folders#root_folder_id DataFabricFolders#root_folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/folders#root_folder_id DataFabricFolders#root_folder_id}
   */
   readonly rootFolderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/folders#timeouts DataFabricFolders#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/folders#timeouts DataFabricFolders#timeouts}
   */
   readonly timeouts?: DataFabricFoldersTimeouts;
   /**
   * The Workspace ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/folders#workspace_id DataFabricFolders#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/folders#workspace_id DataFabricFolders#workspace_id}
   */
   readonly workspaceId: string;
 }
@@ -34,7 +34,7 @@ export interface DataFabricFoldersTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/folders#read DataFabricFolders#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/folders#read DataFabricFolders#read}
   */
   readonly read?: string;
 }
@@ -130,7 +130,7 @@ export interface DataFabricFoldersValues {
   /**
   * The workspace ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/folders#workspace_id DataFabricFolders#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/folders#workspace_id DataFabricFolders#workspace_id}
   */
   readonly workspaceId: string;
 }
@@ -248,7 +248,7 @@ export class DataFabricFoldersValuesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/folders fabric_folders}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/folders fabric_folders}
 */
 export class DataFabricFolders extends cdktf.TerraformDataSource {
 
@@ -264,7 +264,7 @@ export class DataFabricFolders extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFabricFolders resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFabricFolders to import
-  * @param importFromId The id of the existing DataFabricFolders that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/folders#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFabricFolders that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/folders#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFabricFolders to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -276,7 +276,7 @@ export class DataFabricFolders extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/folders fabric_folders} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/folders fabric_folders} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -287,8 +287,8 @@ export class DataFabricFolders extends cdktf.TerraformDataSource {
       terraformResourceType: 'fabric_folders',
       terraformGeneratorMetadata: {
         providerName: 'fabric',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

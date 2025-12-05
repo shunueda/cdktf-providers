@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/domain_workspace_assignments
+// https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/domain_workspace_assignments
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataFabricDomainWorkspaceAssignmentsConfig extends cdktf.Terraf
   /**
   * The Domain ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/domain_workspace_assignments#domain_id DataFabricDomainWorkspaceAssignments#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/domain_workspace_assignments#domain_id DataFabricDomainWorkspaceAssignments#domain_id}
   */
   readonly domainId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/domain_workspace_assignments#timeouts DataFabricDomainWorkspaceAssignments#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/domain_workspace_assignments#timeouts DataFabricDomainWorkspaceAssignments#timeouts}
   */
   readonly timeouts?: DataFabricDomainWorkspaceAssignmentsTimeouts;
 }
@@ -22,7 +22,7 @@ export interface DataFabricDomainWorkspaceAssignmentsTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/domain_workspace_assignments#read DataFabricDomainWorkspaceAssignments#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/domain_workspace_assignments#read DataFabricDomainWorkspaceAssignments#read}
   */
   readonly read?: string;
 }
@@ -116,7 +116,7 @@ export class DataFabricDomainWorkspaceAssignmentsTimeoutsOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/domain_workspace_assignments fabric_domain_workspace_assignments}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/domain_workspace_assignments fabric_domain_workspace_assignments}
 */
 export class DataFabricDomainWorkspaceAssignments extends cdktf.TerraformDataSource {
 
@@ -132,7 +132,7 @@ export class DataFabricDomainWorkspaceAssignments extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataFabricDomainWorkspaceAssignments resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFabricDomainWorkspaceAssignments to import
-  * @param importFromId The id of the existing DataFabricDomainWorkspaceAssignments that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/domain_workspace_assignments#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFabricDomainWorkspaceAssignments that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/domain_workspace_assignments#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFabricDomainWorkspaceAssignments to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -144,7 +144,7 @@ export class DataFabricDomainWorkspaceAssignments extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/domain_workspace_assignments fabric_domain_workspace_assignments} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/domain_workspace_assignments fabric_domain_workspace_assignments} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -155,8 +155,8 @@ export class DataFabricDomainWorkspaceAssignments extends cdktf.TerraformDataSou
       terraformResourceType: 'fabric_domain_workspace_assignments',
       terraformGeneratorMetadata: {
         providerName: 'fabric',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

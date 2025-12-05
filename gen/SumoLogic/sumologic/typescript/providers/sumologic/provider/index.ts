@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs
+// https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,35 +8,35 @@ import * as cdktf from 'cdktf';
 
 export interface SumologicProviderConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs#access_id SumologicProvider#access_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs#access_id SumologicProvider#access_id}
   */
   readonly accessId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs#access_key SumologicProvider#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs#access_key SumologicProvider#access_key}
   */
   readonly accessKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs#admin_mode SumologicProvider#admin_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs#admin_mode SumologicProvider#admin_mode}
   */
   readonly adminMode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs#base_url SumologicProvider#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs#base_url SumologicProvider#base_url}
   */
   readonly baseUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs#environment SumologicProvider#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs#environment SumologicProvider#environment}
   */
   readonly environment?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs#alias SumologicProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs#alias SumologicProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs sumologic}
+* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs sumologic}
 */
 export class SumologicProvider extends cdktf.TerraformProvider {
 
@@ -52,7 +52,7 @@ export class SumologicProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a SumologicProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SumologicProvider to import
-  * @param importFromId The id of the existing SumologicProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SumologicProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SumologicProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -64,7 +64,7 @@ export class SumologicProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs sumologic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs sumologic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -75,8 +75,8 @@ export class SumologicProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'sumologic',
       terraformGeneratorMetadata: {
         providerName: 'sumologic',
-        providerVersion: '3.2.0',
-        providerVersionConstraint: '3.2.0'
+        providerVersion: '3.2.1',
+        providerVersionConstraint: '3.2.1'
       },
       terraformProviderSource: 'SumoLogic/sumologic'
     });

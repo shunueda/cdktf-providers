@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_zone
+// https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network_zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,25 +8,25 @@ import * as cdktf from 'cdktf';
 
 export interface DataIncusNetworkZoneConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_zone#description DataIncusNetworkZone#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network_zone#description DataIncusNetworkZone#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_zone#name DataIncusNetworkZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network_zone#name DataIncusNetworkZone#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_zone#project DataIncusNetworkZone#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network_zone#project DataIncusNetworkZone#project}
   */
   readonly project?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_zone#remote DataIncusNetworkZone#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network_zone#remote DataIncusNetworkZone#remote}
   */
   readonly remote?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_zone incus_network_zone}
+* Represents a {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network_zone incus_network_zone}
 */
 export class DataIncusNetworkZone extends cdktf.TerraformDataSource {
 
@@ -42,7 +42,7 @@ export class DataIncusNetworkZone extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIncusNetworkZone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIncusNetworkZone to import
-  * @param importFromId The id of the existing DataIncusNetworkZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIncusNetworkZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network_zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIncusNetworkZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -54,7 +54,7 @@ export class DataIncusNetworkZone extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_zone incus_network_zone} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network_zone incus_network_zone} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -65,8 +65,8 @@ export class DataIncusNetworkZone extends cdktf.TerraformDataSource {
       terraformResourceType: 'incus_network_zone',
       terraformGeneratorMetadata: {
         providerName: 'incus',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.0.1',
+        providerVersionConstraint: '1.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

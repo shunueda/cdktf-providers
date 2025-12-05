@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/lookup_table
+// https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/lookup_table
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface LookupTableConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/lookup_table#description LookupTable#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/lookup_table#description LookupTable#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/lookup_table#id LookupTable#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/lookup_table#id LookupTable#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/lookup_table#name LookupTable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/lookup_table#name LookupTable#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/lookup_table#parent_folder_id LookupTable#parent_folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/lookup_table#parent_folder_id LookupTable#parent_folder_id}
   */
   readonly parentFolderId?: string;
   /**
   * The primary key field names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/lookup_table#primary_keys LookupTable#primary_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/lookup_table#primary_keys LookupTable#primary_keys}
   */
   readonly primaryKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/lookup_table#size_limit_action LookupTable#size_limit_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/lookup_table#size_limit_action LookupTable#size_limit_action}
   */
   readonly sizeLimitAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/lookup_table#ttl LookupTable#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/lookup_table#ttl LookupTable#ttl}
   */
   readonly ttl?: number;
   /**
   * fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/lookup_table#fields LookupTable#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/lookup_table#fields LookupTable#fields}
   */
   readonly fields?: LookupTableFields[] | cdktf.IResolvable;
 }
 export interface LookupTableFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/lookup_table#field_name LookupTable#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/lookup_table#field_name LookupTable#field_name}
   */
   readonly fieldName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/lookup_table#field_type LookupTable#field_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/lookup_table#field_type LookupTable#field_type}
   */
   readonly fieldType: string;
 }
@@ -192,7 +192,7 @@ export class LookupTableFieldsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/lookup_table sumologic_lookup_table}
+* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/lookup_table sumologic_lookup_table}
 */
 export class LookupTable extends cdktf.TerraformResource {
 
@@ -208,7 +208,7 @@ export class LookupTable extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LookupTable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LookupTable to import
-  * @param importFromId The id of the existing LookupTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/lookup_table#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LookupTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/lookup_table#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LookupTable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -220,7 +220,7 @@ export class LookupTable extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/lookup_table sumologic_lookup_table} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/lookup_table sumologic_lookup_table} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,8 +231,8 @@ export class LookupTable extends cdktf.TerraformResource {
       terraformResourceType: 'sumologic_lookup_table',
       terraformGeneratorMetadata: {
         providerName: 'sumologic',
-        providerVersion: '3.2.0',
-        providerVersionConstraint: '3.2.0'
+        providerVersion: '3.2.1',
+        providerVersionConstraint: '3.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

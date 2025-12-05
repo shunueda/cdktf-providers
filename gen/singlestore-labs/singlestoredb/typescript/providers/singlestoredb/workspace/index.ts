@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.6/docs/resources/workspace
+// https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/workspace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface WorkspaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the autoscale setting (scale factor) for the workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.6/docs/resources/workspace#auto_scale Workspace#auto_scale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/workspace#auto_scale Workspace#auto_scale}
   */
   readonly autoScale?: WorkspaceAutoScale;
   /**
   * Auto suspend settings for the workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.6/docs/resources/workspace#auto_suspend Workspace#auto_suspend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/workspace#auto_suspend Workspace#auto_suspend}
   */
   readonly autoSuspend?: WorkspaceAutoSuspend;
   /**
   * Specifies the multiplier for the persistent cache associated with the workspace. It can have one of the following values: 1, 2, or 4. Default is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.6/docs/resources/workspace#cache_config Workspace#cache_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/workspace#cache_config Workspace#cache_config}
   */
   readonly cacheConfig?: number;
   /**
   * Whether the Kai API is enabled for the workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.6/docs/resources/workspace#kai_enabled Workspace#kai_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/workspace#kai_enabled Workspace#kai_enabled}
   */
   readonly kaiEnabled?: boolean | cdktf.IResolvable;
   /**
   * The name assigned to the workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.6/docs/resources/workspace#name Workspace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/workspace#name Workspace#name}
   */
   readonly name: string;
   /**
   * Specifies the scale factor for the workspace. The scale factor can be 1, 2 or 4. Default is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.6/docs/resources/workspace#scale_factor Workspace#scale_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/workspace#scale_factor Workspace#scale_factor}
   */
   readonly scaleFactor?: number;
   /**
   * The size of the workspace, specified in workspace size notation (S-00, S-0, S-1, S-2).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.6/docs/resources/workspace#size Workspace#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/workspace#size Workspace#size}
   */
   readonly size: string;
   /**
   * The status of the workspace. If true, the workspace is suspended.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.6/docs/resources/workspace#suspended Workspace#suspended}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/workspace#suspended Workspace#suspended}
   */
   readonly suspended?: boolean | cdktf.IResolvable;
   /**
   * The unique identifier of the workspace group that the workspace belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.6/docs/resources/workspace#workspace_group_id Workspace#workspace_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/workspace#workspace_group_id Workspace#workspace_group_id}
   */
   readonly workspaceGroupId: string;
 }
@@ -66,13 +66,13 @@ export interface WorkspaceAutoScale {
   /**
   * The maximum scale factor allowed for the workspace. It can have the following values: 1, 2, or 4. To disable autoscaling, set to 1. Default is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.6/docs/resources/workspace#max_scale_factor Workspace#max_scale_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/workspace#max_scale_factor Workspace#max_scale_factor}
   */
   readonly maxScaleFactor?: number;
   /**
   * Specifies the sensitivity of the autoscale operation to changes in the workload. It can have the following values: `LOW`, `NORMAL`, or `HIGH`. Default is `NORMAL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.6/docs/resources/workspace#sensitivity Workspace#sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/workspace#sensitivity Workspace#sensitivity}
   */
   readonly sensitivity?: string;
 }
@@ -197,13 +197,13 @@ export interface WorkspaceAutoSuspend {
   /**
   * When to suspend the workspace, according to the suspend type chosen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.6/docs/resources/workspace#suspend_after_seconds Workspace#suspend_after_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/workspace#suspend_after_seconds Workspace#suspend_after_seconds}
   */
   readonly suspendAfterSeconds?: number;
   /**
   * The auto suspend mode for the workspace can have the values `IDLE`, `SCHEDULED`, or `DISABLED` (to create the workspace with no auto suspend settings). Default is `DISABLED`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.6/docs/resources/workspace#suspend_type Workspace#suspend_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/workspace#suspend_type Workspace#suspend_type}
   */
   readonly suspendType?: string;
 }
@@ -326,7 +326,7 @@ export class WorkspaceAutoSuspendOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.6/docs/resources/workspace singlestoredb_workspace}
+* Represents a {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/workspace singlestoredb_workspace}
 */
 export class Workspace extends cdktf.TerraformResource {
 
@@ -342,7 +342,7 @@ export class Workspace extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Workspace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Workspace to import
-  * @param importFromId The id of the existing Workspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.6/docs/resources/workspace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Workspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/workspace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Workspace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -354,7 +354,7 @@ export class Workspace extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.6/docs/resources/workspace singlestoredb_workspace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/resources/workspace singlestoredb_workspace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -365,8 +365,8 @@ export class Workspace extends cdktf.TerraformResource {
       terraformResourceType: 'singlestoredb_workspace',
       terraformGeneratorMetadata: {
         providerName: 'singlestoredb',
-        providerVersion: '0.1.6',
-        providerVersionConstraint: '0.1.6'
+        providerVersion: '0.1.7',
+        providerVersionConstraint: '0.1.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

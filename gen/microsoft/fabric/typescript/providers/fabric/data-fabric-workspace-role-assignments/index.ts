@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/workspace_role_assignments
+// https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/workspace_role_assignments
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface DataFabricWorkspaceRoleAssignmentsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/workspace_role_assignments#timeouts DataFabricWorkspaceRoleAssignments#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/workspace_role_assignments#timeouts DataFabricWorkspaceRoleAssignments#timeouts}
   */
   readonly timeouts?: DataFabricWorkspaceRoleAssignmentsTimeouts;
   /**
   * The Workspace ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/workspace_role_assignments#workspace_id DataFabricWorkspaceRoleAssignments#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/workspace_role_assignments#workspace_id DataFabricWorkspaceRoleAssignments#workspace_id}
   */
   readonly workspaceId: string;
 }
@@ -22,7 +22,7 @@ export interface DataFabricWorkspaceRoleAssignmentsTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/workspace_role_assignments#read DataFabricWorkspaceRoleAssignments#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/workspace_role_assignments#read DataFabricWorkspaceRoleAssignments#read}
   */
   readonly read?: string;
 }
@@ -266,7 +266,7 @@ export class DataFabricWorkspaceRoleAssignmentsValuesList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/workspace_role_assignments fabric_workspace_role_assignments}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/workspace_role_assignments fabric_workspace_role_assignments}
 */
 export class DataFabricWorkspaceRoleAssignments extends cdktf.TerraformDataSource {
 
@@ -282,7 +282,7 @@ export class DataFabricWorkspaceRoleAssignments extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataFabricWorkspaceRoleAssignments resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFabricWorkspaceRoleAssignments to import
-  * @param importFromId The id of the existing DataFabricWorkspaceRoleAssignments that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/workspace_role_assignments#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFabricWorkspaceRoleAssignments that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/workspace_role_assignments#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFabricWorkspaceRoleAssignments to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -294,7 +294,7 @@ export class DataFabricWorkspaceRoleAssignments extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/workspace_role_assignments fabric_workspace_role_assignments} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/workspace_role_assignments fabric_workspace_role_assignments} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -305,8 +305,8 @@ export class DataFabricWorkspaceRoleAssignments extends cdktf.TerraformDataSourc
       terraformResourceType: 'fabric_workspace_role_assignments',
       terraformGeneratorMetadata: {
         providerName: 'fabric',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

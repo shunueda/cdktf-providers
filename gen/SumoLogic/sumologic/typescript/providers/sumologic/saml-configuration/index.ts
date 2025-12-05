@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/saml_configuration
+// https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/saml_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,94 +8,94 @@ import * as cdktf from 'cdktf';
 
 export interface SamlConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/saml_configuration#authn_request_url SamlConfiguration#authn_request_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/saml_configuration#authn_request_url SamlConfiguration#authn_request_url}
   */
   readonly authnRequestUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/saml_configuration#configuration_name SamlConfiguration#configuration_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/saml_configuration#configuration_name SamlConfiguration#configuration_name}
   */
   readonly configurationName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/saml_configuration#debug_mode SamlConfiguration#debug_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/saml_configuration#debug_mode SamlConfiguration#debug_mode}
   */
   readonly debugMode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/saml_configuration#disable_requested_authn_context SamlConfiguration#disable_requested_authn_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/saml_configuration#disable_requested_authn_context SamlConfiguration#disable_requested_authn_context}
   */
   readonly disableRequestedAuthnContext?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/saml_configuration#email_attribute SamlConfiguration#email_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/saml_configuration#email_attribute SamlConfiguration#email_attribute}
   */
   readonly emailAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/saml_configuration#id SamlConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/saml_configuration#id SamlConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/saml_configuration#is_redirect_binding SamlConfiguration#is_redirect_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/saml_configuration#is_redirect_binding SamlConfiguration#is_redirect_binding}
   */
   readonly isRedirectBinding?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/saml_configuration#issuer SamlConfiguration#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/saml_configuration#issuer SamlConfiguration#issuer}
   */
   readonly issuer: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/saml_configuration#logout_enabled SamlConfiguration#logout_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/saml_configuration#logout_enabled SamlConfiguration#logout_enabled}
   */
   readonly logoutEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/saml_configuration#logout_url SamlConfiguration#logout_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/saml_configuration#logout_url SamlConfiguration#logout_url}
   */
   readonly logoutUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/saml_configuration#roles_attribute SamlConfiguration#roles_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/saml_configuration#roles_attribute SamlConfiguration#roles_attribute}
   */
   readonly rolesAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/saml_configuration#sign_authn_request SamlConfiguration#sign_authn_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/saml_configuration#sign_authn_request SamlConfiguration#sign_authn_request}
   */
   readonly signAuthnRequest?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/saml_configuration#sp_initiated_login_enabled SamlConfiguration#sp_initiated_login_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/saml_configuration#sp_initiated_login_enabled SamlConfiguration#sp_initiated_login_enabled}
   */
   readonly spInitiatedLoginEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/saml_configuration#sp_initiated_login_path SamlConfiguration#sp_initiated_login_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/saml_configuration#sp_initiated_login_path SamlConfiguration#sp_initiated_login_path}
   */
   readonly spInitiatedLoginPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/saml_configuration#x509cert1 SamlConfiguration#x509cert1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/saml_configuration#x509cert1 SamlConfiguration#x509cert1}
   */
   readonly x509Cert1: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/saml_configuration#x509cert2 SamlConfiguration#x509cert2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/saml_configuration#x509cert2 SamlConfiguration#x509cert2}
   */
   readonly x509Cert2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/saml_configuration#x509cert3 SamlConfiguration#x509cert3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/saml_configuration#x509cert3 SamlConfiguration#x509cert3}
   */
   readonly x509Cert3?: string;
   /**
   * on_demand_provisioning_enabled block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/saml_configuration#on_demand_provisioning_enabled SamlConfiguration#on_demand_provisioning_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/saml_configuration#on_demand_provisioning_enabled SamlConfiguration#on_demand_provisioning_enabled}
   */
   readonly onDemandProvisioningEnabled?: SamlConfigurationOnDemandProvisioningEnabled;
 }
 export interface SamlConfigurationOnDemandProvisioningEnabled {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/saml_configuration#first_name_attribute SamlConfiguration#first_name_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/saml_configuration#first_name_attribute SamlConfiguration#first_name_attribute}
   */
   readonly firstNameAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/saml_configuration#last_name_attribute SamlConfiguration#last_name_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/saml_configuration#last_name_attribute SamlConfiguration#last_name_attribute}
   */
   readonly lastNameAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/saml_configuration#on_demand_provisioning_roles SamlConfiguration#on_demand_provisioning_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/saml_configuration#on_demand_provisioning_roles SamlConfiguration#on_demand_provisioning_roles}
   */
   readonly onDemandProvisioningRoles: string[];
 }
@@ -234,7 +234,7 @@ export class SamlConfigurationOnDemandProvisioningEnabledOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/saml_configuration sumologic_saml_configuration}
+* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/saml_configuration sumologic_saml_configuration}
 */
 export class SamlConfiguration extends cdktf.TerraformResource {
 
@@ -250,7 +250,7 @@ export class SamlConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SamlConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SamlConfiguration to import
-  * @param importFromId The id of the existing SamlConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/saml_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SamlConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/saml_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SamlConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -262,7 +262,7 @@ export class SamlConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/saml_configuration sumologic_saml_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/saml_configuration sumologic_saml_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -273,8 +273,8 @@ export class SamlConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'sumologic_saml_configuration',
       terraformGeneratorMetadata: {
         providerName: 'sumologic',
-        providerVersion: '3.2.0',
-        providerVersionConstraint: '3.2.0'
+        providerVersion: '3.2.1',
+        providerVersionConstraint: '3.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

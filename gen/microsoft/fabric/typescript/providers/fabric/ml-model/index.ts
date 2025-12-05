@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/ml_model
+// https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/ml_model
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,29 @@ export interface MlModelConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ML Model description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/ml_model#description MlModel#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/ml_model#description MlModel#description}
   */
   readonly description?: string;
   /**
   * The ML Model display name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/ml_model#display_name MlModel#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/ml_model#display_name MlModel#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/ml_model#timeouts MlModel#timeouts}
+  * The Folder ID.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/ml_model#folder_id MlModel#folder_id}
+  */
+  readonly folderId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/ml_model#timeouts MlModel#timeouts}
   */
   readonly timeouts?: MlModelTimeouts;
   /**
   * The Workspace ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/ml_model#workspace_id MlModel#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/ml_model#workspace_id MlModel#workspace_id}
   */
   readonly workspaceId: string;
 }
@@ -34,25 +40,25 @@ export interface MlModelTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/ml_model#create MlModel#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/ml_model#create MlModel#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/ml_model#delete MlModel#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/ml_model#delete MlModel#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/ml_model#read MlModel#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/ml_model#read MlModel#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/ml_model#update MlModel#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/ml_model#update MlModel#update}
   */
   readonly update?: string;
 }
@@ -233,7 +239,7 @@ export class MlModelTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/ml_model fabric_ml_model}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/ml_model fabric_ml_model}
 */
 export class MlModel extends cdktf.TerraformResource {
 
@@ -249,7 +255,7 @@ export class MlModel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MlModel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MlModel to import
-  * @param importFromId The id of the existing MlModel that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/ml_model#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MlModel that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/ml_model#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MlModel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -261,7 +267,7 @@ export class MlModel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/ml_model fabric_ml_model} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/ml_model fabric_ml_model} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -272,8 +278,8 @@ export class MlModel extends cdktf.TerraformResource {
       terraformResourceType: 'fabric_ml_model',
       terraformGeneratorMetadata: {
         providerName: 'fabric',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -285,6 +291,7 @@ export class MlModel extends cdktf.TerraformResource {
     });
     this._description = config.description;
     this._displayName = config.displayName;
+    this._folderId = config.folderId;
     this._timeouts.internalValue = config.timeouts;
     this._workspaceId = config.workspaceId;
   }
@@ -320,6 +327,22 @@ export class MlModel extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get displayNameInput() {
     return this._displayName;
+  }
+
+  // folder_id - computed: false, optional: true, required: false
+  private _folderId?: string; 
+  public get folderId() {
+    return this.getStringAttribute('folder_id');
+  }
+  public set folderId(value: string) {
+    this._folderId = value;
+  }
+  public resetFolderId() {
+    this._folderId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get folderIdInput() {
+    return this._folderId;
   }
 
   // id - computed: true, optional: false, required: false
@@ -364,6 +387,7 @@ export class MlModel extends cdktf.TerraformResource {
     return {
       description: cdktf.stringToTerraform(this._description),
       display_name: cdktf.stringToTerraform(this._displayName),
+      folder_id: cdktf.stringToTerraform(this._folderId),
       timeouts: mlModelTimeoutsToTerraform(this._timeouts.internalValue),
       workspace_id: cdktf.stringToTerraform(this._workspaceId),
     };
@@ -379,6 +403,12 @@ export class MlModel extends cdktf.TerraformResource {
       },
       display_name: {
         value: cdktf.stringToHclTerraform(this._displayName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      folder_id: {
+        value: cdktf.stringToHclTerraform(this._folderId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

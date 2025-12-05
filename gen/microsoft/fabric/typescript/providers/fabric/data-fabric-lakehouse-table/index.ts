@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/lakehouse_table
+// https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/lakehouse_table
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataFabricLakehouseTableConfig extends cdktf.TerraformMetaArgum
   /**
   * The Lakehouse ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/lakehouse_table#lakehouse_id DataFabricLakehouseTable#lakehouse_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/lakehouse_table#lakehouse_id DataFabricLakehouseTable#lakehouse_id}
   */
   readonly lakehouseId: string;
   /**
   * The Name of the table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/lakehouse_table#name DataFabricLakehouseTable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/lakehouse_table#name DataFabricLakehouseTable#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/lakehouse_table#timeouts DataFabricLakehouseTable#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/lakehouse_table#timeouts DataFabricLakehouseTable#timeouts}
   */
   readonly timeouts?: DataFabricLakehouseTableTimeouts;
   /**
   * The Workspace ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/lakehouse_table#workspace_id DataFabricLakehouseTable#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/lakehouse_table#workspace_id DataFabricLakehouseTable#workspace_id}
   */
   readonly workspaceId: string;
 }
@@ -34,7 +34,7 @@ export interface DataFabricLakehouseTableTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/lakehouse_table#read DataFabricLakehouseTable#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/lakehouse_table#read DataFabricLakehouseTable#read}
   */
   readonly read?: string;
 }
@@ -128,7 +128,7 @@ export class DataFabricLakehouseTableTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/lakehouse_table fabric_lakehouse_table}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/lakehouse_table fabric_lakehouse_table}
 */
 export class DataFabricLakehouseTable extends cdktf.TerraformDataSource {
 
@@ -144,7 +144,7 @@ export class DataFabricLakehouseTable extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFabricLakehouseTable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFabricLakehouseTable to import
-  * @param importFromId The id of the existing DataFabricLakehouseTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/lakehouse_table#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFabricLakehouseTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/lakehouse_table#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFabricLakehouseTable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -156,7 +156,7 @@ export class DataFabricLakehouseTable extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/lakehouse_table fabric_lakehouse_table} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/lakehouse_table fabric_lakehouse_table} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -167,8 +167,8 @@ export class DataFabricLakehouseTable extends cdktf.TerraformDataSource {
       terraformResourceType: 'fabric_lakehouse_table',
       terraformGeneratorMetadata: {
         providerName: 'fabric',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

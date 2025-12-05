@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/connections
+// https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/connections
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataFabricConnectionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/connections#timeouts DataFabricConnections#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/connections#timeouts DataFabricConnections#timeouts}
   */
   readonly timeouts?: DataFabricConnectionsTimeouts;
 }
@@ -16,7 +16,7 @@ export interface DataFabricConnectionsTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/connections#read DataFabricConnections#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/connections#read DataFabricConnections#read}
   */
   readonly read?: string;
 }
@@ -240,13 +240,13 @@ export interface DataFabricConnectionsValues {
   /**
   * Allow this connection to be utilized with either on-premises data gateways or VNet data gateways.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/connections#allow_connection_usage_in_gateway DataFabricConnections#allow_connection_usage_in_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/connections#allow_connection_usage_in_gateway DataFabricConnections#allow_connection_usage_in_gateway}
   */
   readonly allowConnectionUsageInGateway?: boolean | cdktf.IResolvable;
   /**
   * The Connection gateway object ID. If the value of [`connectivity_type`](#connectivity_type) attribute is `VirtualNetworkGateway` this attribute is **REQUIRED**. If the value of [`connectivity_type`](#connectivity_type) attribute is `ShareableCloud` this attribute is **NULL**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/connections#gateway_id DataFabricConnections#gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/connections#gateway_id DataFabricConnections#gateway_id}
   */
   readonly gatewayId?: string;
 }
@@ -413,7 +413,7 @@ export class DataFabricConnectionsValuesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/connections fabric_connections}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/connections fabric_connections}
 */
 export class DataFabricConnections extends cdktf.TerraformDataSource {
 
@@ -429,7 +429,7 @@ export class DataFabricConnections extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFabricConnections resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFabricConnections to import
-  * @param importFromId The id of the existing DataFabricConnections that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/connections#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFabricConnections that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/connections#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFabricConnections to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -441,7 +441,7 @@ export class DataFabricConnections extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/connections fabric_connections} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/connections fabric_connections} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -452,8 +452,8 @@ export class DataFabricConnections extends cdktf.TerraformDataSource {
       terraformResourceType: 'fabric_connections',
       terraformGeneratorMetadata: {
         providerName: 'fabric',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

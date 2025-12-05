@@ -2,6 +2,7 @@
 Object.defineProperty(exports, 'activator', { get: function () { return require('./activator'); } });
 Object.defineProperty(exports, 'apacheAirflowJob', { get: function () { return require('./apache-airflow-job'); } });
 Object.defineProperty(exports, 'connection', { get: function () { return require('./connection'); } });
+Object.defineProperty(exports, 'connectionRoleAssignment', { get: function () { return require('./connection-role-assignment'); } });
 Object.defineProperty(exports, 'copyJob', { get: function () { return require('./copy-job'); } });
 Object.defineProperty(exports, 'dataPipeline', { get: function () { return require('./data-pipeline'); } });
 Object.defineProperty(exports, 'dataflow', { get: function () { return require('./dataflow'); } });
@@ -18,6 +19,7 @@ Object.defineProperty(exports, 'folder', { get: function () { return require('./
 Object.defineProperty(exports, 'gateway', { get: function () { return require('./gateway'); } });
 Object.defineProperty(exports, 'gatewayRoleAssignment', { get: function () { return require('./gateway-role-assignment'); } });
 Object.defineProperty(exports, 'graphqlApi', { get: function () { return require('./graphql-api'); } });
+Object.defineProperty(exports, 'itemJobScheduler', { get: function () { return require('./item-job-scheduler'); } });
 Object.defineProperty(exports, 'kqlDashboard', { get: function () { return require('./kql-dashboard'); } });
 Object.defineProperty(exports, 'kqlDatabase', { get: function () { return require('./kql-database'); } });
 Object.defineProperty(exports, 'kqlQueryset', { get: function () { return require('./kql-queryset'); } });
@@ -49,6 +51,8 @@ Object.defineProperty(exports, 'dataFabricApacheAirflowJobs', { get: function ()
 Object.defineProperty(exports, 'dataFabricCapacities', { get: function () { return require('./data-fabric-capacities'); } });
 Object.defineProperty(exports, 'dataFabricCapacity', { get: function () { return require('./data-fabric-capacity'); } });
 Object.defineProperty(exports, 'dataFabricConnection', { get: function () { return require('./data-fabric-connection'); } });
+Object.defineProperty(exports, 'dataFabricConnectionRoleAssignment', { get: function () { return require('./data-fabric-connection-role-assignment'); } });
+Object.defineProperty(exports, 'dataFabricConnectionRoleAssignments', { get: function () { return require('./data-fabric-connection-role-assignments'); } });
 Object.defineProperty(exports, 'dataFabricConnections', { get: function () { return require('./data-fabric-connections'); } });
 Object.defineProperty(exports, 'dataFabricCopyJob', { get: function () { return require('./data-fabric-copy-job'); } });
 Object.defineProperty(exports, 'dataFabricCopyJobs', { get: function () { return require('./data-fabric-copy-jobs'); } });
@@ -81,6 +85,8 @@ Object.defineProperty(exports, 'dataFabricGatewayRoleAssignments', { get: functi
 Object.defineProperty(exports, 'dataFabricGateways', { get: function () { return require('./data-fabric-gateways'); } });
 Object.defineProperty(exports, 'dataFabricGraphqlApi', { get: function () { return require('./data-fabric-graphql-api'); } });
 Object.defineProperty(exports, 'dataFabricGraphqlApis', { get: function () { return require('./data-fabric-graphql-apis'); } });
+Object.defineProperty(exports, 'dataFabricItemJobScheduler', { get: function () { return require('./data-fabric-item-job-scheduler'); } });
+Object.defineProperty(exports, 'dataFabricItemJobSchedulers', { get: function () { return require('./data-fabric-item-job-schedulers'); } });
 Object.defineProperty(exports, 'dataFabricKqlDashboard', { get: function () { return require('./data-fabric-kql-dashboard'); } });
 Object.defineProperty(exports, 'dataFabricKqlDashboards', { get: function () { return require('./data-fabric-kql-dashboards'); } });
 Object.defineProperty(exports, 'dataFabricKqlDatabase', { get: function () { return require('./data-fabric-kql-database'); } });

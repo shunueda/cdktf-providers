@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/access_point
+// https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/access_point
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface AccessPointConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/access_point#display_name AccessPoint#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/access_point#display_name AccessPoint#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/access_point#id AccessPoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/access_point#id AccessPoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,37 +21,37 @@ export interface AccessPointConfig extends cdktf.TerraformMetaArguments {
   /**
   * aws_egress_private_link_endpoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/access_point#aws_egress_private_link_endpoint AccessPoint#aws_egress_private_link_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/access_point#aws_egress_private_link_endpoint AccessPoint#aws_egress_private_link_endpoint}
   */
   readonly awsEgressPrivateLinkEndpoint?: AccessPointAwsEgressPrivateLinkEndpoint;
   /**
   * aws_private_network_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/access_point#aws_private_network_interface AccessPoint#aws_private_network_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/access_point#aws_private_network_interface AccessPoint#aws_private_network_interface}
   */
   readonly awsPrivateNetworkInterface?: AccessPointAwsPrivateNetworkInterface;
   /**
   * azure_egress_private_link_endpoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/access_point#azure_egress_private_link_endpoint AccessPoint#azure_egress_private_link_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/access_point#azure_egress_private_link_endpoint AccessPoint#azure_egress_private_link_endpoint}
   */
   readonly azureEgressPrivateLinkEndpoint?: AccessPointAzureEgressPrivateLinkEndpoint;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/access_point#environment AccessPoint#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/access_point#environment AccessPoint#environment}
   */
   readonly environment: AccessPointEnvironment;
   /**
   * gateway block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/access_point#gateway AccessPoint#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/access_point#gateway AccessPoint#gateway}
   */
   readonly gateway: AccessPointGateway;
   /**
   * gcp_egress_private_service_connect_endpoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/access_point#gcp_egress_private_service_connect_endpoint AccessPoint#gcp_egress_private_service_connect_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/access_point#gcp_egress_private_service_connect_endpoint AccessPoint#gcp_egress_private_service_connect_endpoint}
   */
   readonly gcpEgressPrivateServiceConnectEndpoint?: AccessPointGcpEgressPrivateServiceConnectEndpoint;
 }
@@ -59,11 +59,11 @@ export interface AccessPointAwsEgressPrivateLinkEndpoint {
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/access_point#enable_high_availability AccessPoint#enable_high_availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/access_point#enable_high_availability AccessPoint#enable_high_availability}
   */
   readonly enableHighAvailability?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/access_point#vpc_endpoint_service_name AccessPoint#vpc_endpoint_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/access_point#vpc_endpoint_service_name AccessPoint#vpc_endpoint_service_name}
   */
   readonly vpcEndpointServiceName: string;
 }
@@ -185,13 +185,13 @@ export interface AccessPointAwsPrivateNetworkInterface {
   /**
   * The AWS account ID associated with the ENIs you are using for the Confluent Private Network Interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/access_point#account AccessPoint#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/access_point#account AccessPoint#account}
   */
   readonly account: string;
   /**
   * List of the IDs of the Elastic Network Interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/access_point#network_interfaces AccessPoint#network_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/access_point#network_interfaces AccessPoint#network_interfaces}
   */
   readonly networkInterfaces: string[];
 }
@@ -298,11 +298,11 @@ export class AccessPointAwsPrivateNetworkInterfaceOutputReference extends cdktf.
 }
 export interface AccessPointAzureEgressPrivateLinkEndpoint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/access_point#private_link_service_resource_id AccessPoint#private_link_service_resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/access_point#private_link_service_resource_id AccessPoint#private_link_service_resource_id}
   */
   readonly privateLinkServiceResourceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/access_point#private_link_subresource_name AccessPoint#private_link_subresource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/access_point#private_link_subresource_name AccessPoint#private_link_subresource_name}
   */
   readonly privateLinkSubresourceName?: string;
 }
@@ -434,7 +434,7 @@ export interface AccessPointEnvironment {
   /**
   * The unique identifier for the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/access_point#id AccessPoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/access_point#id AccessPoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -520,7 +520,7 @@ export interface AccessPointGateway {
   /**
   * The unique identifier for the gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/access_point#id AccessPoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/access_point#id AccessPoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -606,7 +606,7 @@ export interface AccessPointGcpEgressPrivateServiceConnectEndpoint {
   /**
   * URI of the service attachment for the published service that the Private Service Connect Endpoint connects to, or "all-google-apis" for global Google APIs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/access_point#private_service_connect_endpoint_target AccessPoint#private_service_connect_endpoint_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/access_point#private_service_connect_endpoint_target AccessPoint#private_service_connect_endpoint_target}
   */
   readonly privateServiceConnectEndpointTarget: string;
 }
@@ -702,7 +702,7 @@ export class AccessPointGcpEgressPrivateServiceConnectEndpointOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/access_point confluent_access_point}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/access_point confluent_access_point}
 */
 export class AccessPoint extends cdktf.TerraformResource {
 
@@ -718,7 +718,7 @@ export class AccessPoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AccessPoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AccessPoint to import
-  * @param importFromId The id of the existing AccessPoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/access_point#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AccessPoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/access_point#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AccessPoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -730,7 +730,7 @@ export class AccessPoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/access_point confluent_access_point} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/access_point confluent_access_point} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -741,8 +741,8 @@ export class AccessPoint extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_access_point',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.54.0',
-        providerVersionConstraint: '2.54.0'
+        providerVersion: '2.55.0',
+        providerVersionConstraint: '2.55.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

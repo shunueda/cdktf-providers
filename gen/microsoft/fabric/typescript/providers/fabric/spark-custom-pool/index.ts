@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_custom_pool
+// https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_custom_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface SparkCustomPoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * Auto-scale properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_custom_pool#auto_scale SparkCustomPool#auto_scale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_custom_pool#auto_scale SparkCustomPool#auto_scale}
   */
   readonly autoScale: SparkCustomPoolAutoScale;
   /**
   * Dynamic Executor Allocation properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_custom_pool#dynamic_executor_allocation SparkCustomPool#dynamic_executor_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_custom_pool#dynamic_executor_allocation SparkCustomPool#dynamic_executor_allocation}
   */
   readonly dynamicExecutorAllocation: SparkCustomPoolDynamicExecutorAllocation;
   /**
   * The Spark Custom Pool ID. String length must be at most 64. The name must contain only letters, numbers, dashes, underscores and spaces.Value must not be one of : .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_custom_pool#name SparkCustomPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_custom_pool#name SparkCustomPool#name}
   */
   readonly name: string;
   /**
   * The Node family. Value must be one of : `MemoryOptimized`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_custom_pool#node_family SparkCustomPool#node_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_custom_pool#node_family SparkCustomPool#node_family}
   */
   readonly nodeFamily: string;
   /**
   * The Node size. Value must be one of : `Large`, `Medium`, `Small`, `XLarge`, `XXLarge`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_custom_pool#node_size SparkCustomPool#node_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_custom_pool#node_size SparkCustomPool#node_size}
   */
   readonly nodeSize: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_custom_pool#timeouts SparkCustomPool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_custom_pool#timeouts SparkCustomPool#timeouts}
   */
   readonly timeouts?: SparkCustomPoolTimeouts;
   /**
   * The Spark Custom Pool type. Value must be one of : `Workspace`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_custom_pool#type SparkCustomPool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_custom_pool#type SparkCustomPool#type}
   */
   readonly type: string;
   /**
   * <i style="color:red;font-weight: bold">(ForceNew)</i> The Workspace ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_custom_pool#workspace_id SparkCustomPool#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_custom_pool#workspace_id SparkCustomPool#workspace_id}
   */
   readonly workspaceId: string;
 }
@@ -58,19 +58,19 @@ export interface SparkCustomPoolAutoScale {
   /**
   * The status of the auto scale: `false` - Disabled, `true` - Enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_custom_pool#enabled SparkCustomPool#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_custom_pool#enabled SparkCustomPool#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The maximum node count.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_custom_pool#max_node_count SparkCustomPool#max_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_custom_pool#max_node_count SparkCustomPool#max_node_count}
   */
   readonly maxNodeCount: number;
   /**
   * The minimum node count.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_custom_pool#min_node_count SparkCustomPool#min_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_custom_pool#min_node_count SparkCustomPool#min_node_count}
   */
   readonly minNodeCount: number;
 }
@@ -215,19 +215,19 @@ export interface SparkCustomPoolDynamicExecutorAllocation {
   /**
   * The status of the dynamic executor allocation: `false` - Disabled, `true` - Enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_custom_pool#enabled SparkCustomPool#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_custom_pool#enabled SparkCustomPool#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The maximum executors. If the value of [`dynamic_executor_allocation.enabled`](#dynamic_executor_allocation.enabled) attribute is `false` this attribute is **NULL**. If the value of [`dynamic_executor_allocation.enabled`](#dynamic_executor_allocation.enabled) attribute is `true` this attribute is **REQUIRED**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_custom_pool#max_executors SparkCustomPool#max_executors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_custom_pool#max_executors SparkCustomPool#max_executors}
   */
   readonly maxExecutors?: number;
   /**
   * The minimum executors. If the value of [`dynamic_executor_allocation.enabled`](#dynamic_executor_allocation.enabled) attribute is `false` this attribute is **NULL**. If the value of [`dynamic_executor_allocation.enabled`](#dynamic_executor_allocation.enabled) attribute is `true` this attribute is **REQUIRED**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_custom_pool#min_executors SparkCustomPool#min_executors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_custom_pool#min_executors SparkCustomPool#min_executors}
   */
   readonly minExecutors?: number;
 }
@@ -378,25 +378,25 @@ export interface SparkCustomPoolTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_custom_pool#create SparkCustomPool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_custom_pool#create SparkCustomPool#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_custom_pool#delete SparkCustomPool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_custom_pool#delete SparkCustomPool#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_custom_pool#read SparkCustomPool#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_custom_pool#read SparkCustomPool#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_custom_pool#update SparkCustomPool#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_custom_pool#update SparkCustomPool#update}
   */
   readonly update?: string;
 }
@@ -577,7 +577,7 @@ export class SparkCustomPoolTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_custom_pool fabric_spark_custom_pool}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_custom_pool fabric_spark_custom_pool}
 */
 export class SparkCustomPool extends cdktf.TerraformResource {
 
@@ -593,7 +593,7 @@ export class SparkCustomPool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SparkCustomPool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SparkCustomPool to import
-  * @param importFromId The id of the existing SparkCustomPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_custom_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SparkCustomPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_custom_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SparkCustomPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -605,7 +605,7 @@ export class SparkCustomPool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_custom_pool fabric_spark_custom_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_custom_pool fabric_spark_custom_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -616,8 +616,8 @@ export class SparkCustomPool extends cdktf.TerraformResource {
       terraformResourceType: 'fabric_spark_custom_pool',
       terraformGeneratorMetadata: {
         providerName: 'fabric',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

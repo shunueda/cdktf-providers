@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_role_assignment
+// https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_role_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface WorkspaceRoleAssignmentConfig extends cdktf.TerraformMetaArgume
   /**
   * The principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_role_assignment#principal WorkspaceRoleAssignment#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_role_assignment#principal WorkspaceRoleAssignment#principal}
   */
   readonly principal: WorkspaceRoleAssignmentPrincipal;
   /**
   * The workspace role of the principal. Value must be one of : `Admin`, `Contributor`, `Member`, `Viewer`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_role_assignment#role WorkspaceRoleAssignment#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_role_assignment#role WorkspaceRoleAssignment#role}
   */
   readonly role: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_role_assignment#timeouts WorkspaceRoleAssignment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_role_assignment#timeouts WorkspaceRoleAssignment#timeouts}
   */
   readonly timeouts?: WorkspaceRoleAssignmentTimeouts;
   /**
   * <i style="color:red;font-weight: bold">(ForceNew)</i> The Workspace ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_role_assignment#workspace_id WorkspaceRoleAssignment#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_role_assignment#workspace_id WorkspaceRoleAssignment#workspace_id}
   */
   readonly workspaceId: string;
 }
@@ -34,7 +34,7 @@ export interface WorkspaceRoleAssignmentPrincipal {
   /**
   * <i style="color:red;font-weight: bold">(ForceNew)</i> The principal ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_role_assignment#id WorkspaceRoleAssignment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_role_assignment#id WorkspaceRoleAssignment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,7 +43,7 @@ export interface WorkspaceRoleAssignmentPrincipal {
   /**
   * <i style="color:red;font-weight: bold">(ForceNew)</i> The type of the principal. Value must be one of : `Group`, `ServicePrincipal`, `ServicePrincipalProfile`, `User`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_role_assignment#type WorkspaceRoleAssignment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_role_assignment#type WorkspaceRoleAssignment#type}
   */
   readonly type: string;
 }
@@ -162,25 +162,25 @@ export interface WorkspaceRoleAssignmentTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_role_assignment#create WorkspaceRoleAssignment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_role_assignment#create WorkspaceRoleAssignment#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_role_assignment#delete WorkspaceRoleAssignment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_role_assignment#delete WorkspaceRoleAssignment#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_role_assignment#read WorkspaceRoleAssignment#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_role_assignment#read WorkspaceRoleAssignment#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_role_assignment#update WorkspaceRoleAssignment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_role_assignment#update WorkspaceRoleAssignment#update}
   */
   readonly update?: string;
 }
@@ -361,7 +361,7 @@ export class WorkspaceRoleAssignmentTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_role_assignment fabric_workspace_role_assignment}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_role_assignment fabric_workspace_role_assignment}
 */
 export class WorkspaceRoleAssignment extends cdktf.TerraformResource {
 
@@ -377,7 +377,7 @@ export class WorkspaceRoleAssignment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkspaceRoleAssignment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkspaceRoleAssignment to import
-  * @param importFromId The id of the existing WorkspaceRoleAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_role_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkspaceRoleAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_role_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkspaceRoleAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -389,7 +389,7 @@ export class WorkspaceRoleAssignment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_role_assignment fabric_workspace_role_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_role_assignment fabric_workspace_role_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -400,8 +400,8 @@ export class WorkspaceRoleAssignment extends cdktf.TerraformResource {
       terraformResourceType: 'fabric_workspace_role_assignment',
       terraformGeneratorMetadata: {
         providerName: 'fabric',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

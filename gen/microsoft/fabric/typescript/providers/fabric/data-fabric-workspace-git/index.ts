@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/workspace_git
+// https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/workspace_git
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface DataFabricWorkspaceGitConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/workspace_git#timeouts DataFabricWorkspaceGit#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/workspace_git#timeouts DataFabricWorkspaceGit#timeouts}
   */
   readonly timeouts?: DataFabricWorkspaceGitTimeouts;
   /**
   * The Workspace ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/workspace_git#workspace_id DataFabricWorkspaceGit#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/workspace_git#workspace_id DataFabricWorkspaceGit#workspace_id}
   */
   readonly workspaceId: string;
 }
@@ -224,7 +224,7 @@ export interface DataFabricWorkspaceGitTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/workspace_git#read DataFabricWorkspaceGit#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/workspace_git#read DataFabricWorkspaceGit#read}
   */
   readonly read?: string;
 }
@@ -318,7 +318,7 @@ export class DataFabricWorkspaceGitTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/workspace_git fabric_workspace_git}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/workspace_git fabric_workspace_git}
 */
 export class DataFabricWorkspaceGit extends cdktf.TerraformDataSource {
 
@@ -334,7 +334,7 @@ export class DataFabricWorkspaceGit extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFabricWorkspaceGit resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFabricWorkspaceGit to import
-  * @param importFromId The id of the existing DataFabricWorkspaceGit that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/workspace_git#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFabricWorkspaceGit that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/workspace_git#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFabricWorkspaceGit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -346,7 +346,7 @@ export class DataFabricWorkspaceGit extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/workspace_git fabric_workspace_git} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/workspace_git fabric_workspace_git} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -357,8 +357,8 @@ export class DataFabricWorkspaceGit extends cdktf.TerraformDataSource {
       terraformResourceType: 'fabric_workspace_git',
       terraformGeneratorMetadata: {
         providerName: 'fabric',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

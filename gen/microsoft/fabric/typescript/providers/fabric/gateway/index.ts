@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/gateway
+// https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface GatewayConfig extends cdktf.TerraformMetaArguments {
   /**
   * The capacity ID. If the value of [`type`](#type) attribute is `VirtualNetwork` this attribute is **REQUIRED**. If the value of [`type`](#type) attribute is one of `OnPremises` or `OnPremisesPersonal` this attribute is **NULL**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/gateway#capacity_id Gateway#capacity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/gateway#capacity_id Gateway#capacity_id}
   */
   readonly capacityId?: string;
   /**
   * The Gateway display name. String length must be at most 200. If the value of [`type`](#type) attribute is one of `OnPremises` or `VirtualNetwork` this attribute is **REQUIRED**. If the value of [`type`](#type) attribute is `OnPremisesPersonal` this attribute is **NULL**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/gateway#display_name Gateway#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/gateway#display_name Gateway#display_name}
   */
   readonly displayName?: string;
   /**
   * The inactivity minutes before sleep. Value must be one of : `30`, `60`, `90`, `120`, `150`, `240`, `360`, `480`, `720`, `1440`. If the value of [`type`](#type) attribute is `VirtualNetwork` this attribute is **REQUIRED**. If the value of [`type`](#type) attribute is one of `OnPremises` or `OnPremisesPersonal` this attribute is **NULL**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/gateway#inactivity_minutes_before_sleep Gateway#inactivity_minutes_before_sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/gateway#inactivity_minutes_before_sleep Gateway#inactivity_minutes_before_sleep}
   */
   readonly inactivityMinutesBeforeSleep?: number;
   /**
   * The number of member gateways. Value must be between 1 and 7. If the value of [`type`](#type) attribute is `VirtualNetwork` this attribute is **REQUIRED**. If the value of [`type`](#type) attribute is one of `OnPremises` or `OnPremisesPersonal` this attribute is **NULL**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/gateway#number_of_member_gateways Gateway#number_of_member_gateways}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/gateway#number_of_member_gateways Gateway#number_of_member_gateways}
   */
   readonly numberOfMemberGateways?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/gateway#timeouts Gateway#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/gateway#timeouts Gateway#timeouts}
   */
   readonly timeouts?: GatewayTimeouts;
   /**
   * <i style="color:red;font-weight: bold">(ForceNew)</i> The Gateway type. Value must be one of : `VirtualNetwork`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/gateway#type Gateway#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/gateway#type Gateway#type}
   */
   readonly type: string;
   /**
   * <i style="color:red;font-weight: bold">(ForceNew)</i> The Azure virtual network resource. If the value of [`type`](#type) attribute is `VirtualNetwork` this attribute is **REQUIRED**. If the value of [`type`](#type) attribute is one of `OnPremises` or `OnPremisesPersonal` this attribute is **NULL**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/gateway#virtual_network_azure_resource Gateway#virtual_network_azure_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/gateway#virtual_network_azure_resource Gateway#virtual_network_azure_resource}
   */
   readonly virtualNetworkAzureResource?: GatewayVirtualNetworkAzureResource;
 }
@@ -111,25 +111,25 @@ export interface GatewayTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/gateway#create Gateway#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/gateway#create Gateway#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/gateway#delete Gateway#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/gateway#delete Gateway#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/gateway#read Gateway#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/gateway#read Gateway#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/gateway#update Gateway#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/gateway#update Gateway#update}
   */
   readonly update?: string;
 }
@@ -312,25 +312,25 @@ export interface GatewayVirtualNetworkAzureResource {
   /**
   * The resource group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/gateway#resource_group_name Gateway#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/gateway#resource_group_name Gateway#resource_group_name}
   */
   readonly resourceGroupName: string;
   /**
   * The subnet name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/gateway#subnet_name Gateway#subnet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/gateway#subnet_name Gateway#subnet_name}
   */
   readonly subnetName: string;
   /**
   * The subscription ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/gateway#subscription_id Gateway#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/gateway#subscription_id Gateway#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * The virtual network name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/gateway#virtual_network_name Gateway#virtual_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/gateway#virtual_network_name Gateway#virtual_network_name}
   */
   readonly virtualNetworkName: string;
 }
@@ -499,7 +499,7 @@ export class GatewayVirtualNetworkAzureResourceOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/gateway fabric_gateway}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/gateway fabric_gateway}
 */
 export class Gateway extends cdktf.TerraformResource {
 
@@ -515,7 +515,7 @@ export class Gateway extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Gateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Gateway to import
-  * @param importFromId The id of the existing Gateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Gateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Gateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -527,7 +527,7 @@ export class Gateway extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/gateway fabric_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/gateway fabric_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -538,8 +538,8 @@ export class Gateway extends cdktf.TerraformResource {
       terraformResourceType: 'fabric_gateway',
       terraformGeneratorMetadata: {
         providerName: 'fabric',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/deployment_pipeline_role_assignments
+// https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/deployment_pipeline_role_assignments
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataFabricDeploymentPipelineRoleAssignmentsConfig extends cdktf
   /**
   * The Deployment Pipeline ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/deployment_pipeline_role_assignments#deployment_pipeline_id DataFabricDeploymentPipelineRoleAssignments#deployment_pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/deployment_pipeline_role_assignments#deployment_pipeline_id DataFabricDeploymentPipelineRoleAssignments#deployment_pipeline_id}
   */
   readonly deploymentPipelineId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/deployment_pipeline_role_assignments#timeouts DataFabricDeploymentPipelineRoleAssignments#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/deployment_pipeline_role_assignments#timeouts DataFabricDeploymentPipelineRoleAssignments#timeouts}
   */
   readonly timeouts?: DataFabricDeploymentPipelineRoleAssignmentsTimeouts;
 }
@@ -22,7 +22,7 @@ export interface DataFabricDeploymentPipelineRoleAssignmentsTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/deployment_pipeline_role_assignments#read DataFabricDeploymentPipelineRoleAssignments#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/deployment_pipeline_role_assignments#read DataFabricDeploymentPipelineRoleAssignments#read}
   */
   readonly read?: string;
 }
@@ -266,7 +266,7 @@ export class DataFabricDeploymentPipelineRoleAssignmentsValuesList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/deployment_pipeline_role_assignments fabric_deployment_pipeline_role_assignments}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/deployment_pipeline_role_assignments fabric_deployment_pipeline_role_assignments}
 */
 export class DataFabricDeploymentPipelineRoleAssignments extends cdktf.TerraformDataSource {
 
@@ -282,7 +282,7 @@ export class DataFabricDeploymentPipelineRoleAssignments extends cdktf.Terraform
   * Generates CDKTF code for importing a DataFabricDeploymentPipelineRoleAssignments resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFabricDeploymentPipelineRoleAssignments to import
-  * @param importFromId The id of the existing DataFabricDeploymentPipelineRoleAssignments that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/deployment_pipeline_role_assignments#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFabricDeploymentPipelineRoleAssignments that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/deployment_pipeline_role_assignments#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFabricDeploymentPipelineRoleAssignments to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -294,7 +294,7 @@ export class DataFabricDeploymentPipelineRoleAssignments extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/deployment_pipeline_role_assignments fabric_deployment_pipeline_role_assignments} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/deployment_pipeline_role_assignments fabric_deployment_pipeline_role_assignments} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -305,8 +305,8 @@ export class DataFabricDeploymentPipelineRoleAssignments extends cdktf.Terraform
       terraformResourceType: 'fabric_deployment_pipeline_role_assignments',
       terraformGeneratorMetadata: {
         providerName: 'fabric',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

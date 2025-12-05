@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/domain_workspace_assignments
+// https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/domain_workspace_assignments
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DomainWorkspaceAssignmentsConfig extends cdktf.TerraformMetaArg
   /**
   * <i style="color:red;font-weight: bold">(ForceNew)</i> The Domain ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/domain_workspace_assignments#domain_id DomainWorkspaceAssignments#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/domain_workspace_assignments#domain_id DomainWorkspaceAssignments#domain_id}
   */
   readonly domainId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/domain_workspace_assignments#timeouts DomainWorkspaceAssignments#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/domain_workspace_assignments#timeouts DomainWorkspaceAssignments#timeouts}
   */
   readonly timeouts?: DomainWorkspaceAssignmentsTimeouts;
   /**
   * The set of Workspace IDs. Set must contain at least 1 elements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/domain_workspace_assignments#workspace_ids DomainWorkspaceAssignments#workspace_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/domain_workspace_assignments#workspace_ids DomainWorkspaceAssignments#workspace_ids}
   */
   readonly workspaceIds: string[];
 }
@@ -28,25 +28,25 @@ export interface DomainWorkspaceAssignmentsTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/domain_workspace_assignments#create DomainWorkspaceAssignments#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/domain_workspace_assignments#create DomainWorkspaceAssignments#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/domain_workspace_assignments#delete DomainWorkspaceAssignments#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/domain_workspace_assignments#delete DomainWorkspaceAssignments#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/domain_workspace_assignments#read DomainWorkspaceAssignments#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/domain_workspace_assignments#read DomainWorkspaceAssignments#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/domain_workspace_assignments#update DomainWorkspaceAssignments#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/domain_workspace_assignments#update DomainWorkspaceAssignments#update}
   */
   readonly update?: string;
 }
@@ -227,7 +227,7 @@ export class DomainWorkspaceAssignmentsTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/domain_workspace_assignments fabric_domain_workspace_assignments}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/domain_workspace_assignments fabric_domain_workspace_assignments}
 */
 export class DomainWorkspaceAssignments extends cdktf.TerraformResource {
 
@@ -243,7 +243,7 @@ export class DomainWorkspaceAssignments extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DomainWorkspaceAssignments resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DomainWorkspaceAssignments to import
-  * @param importFromId The id of the existing DomainWorkspaceAssignments that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/domain_workspace_assignments#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DomainWorkspaceAssignments that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/domain_workspace_assignments#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DomainWorkspaceAssignments to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -255,7 +255,7 @@ export class DomainWorkspaceAssignments extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/domain_workspace_assignments fabric_domain_workspace_assignments} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/domain_workspace_assignments fabric_domain_workspace_assignments} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -266,8 +266,8 @@ export class DomainWorkspaceAssignments extends cdktf.TerraformResource {
       terraformResourceType: 'fabric_domain_workspace_assignments',
       terraformGeneratorMetadata: {
         providerName: 'fabric',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

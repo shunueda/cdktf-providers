@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/identity_pool
+// https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/identity_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface IdentityPoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * A description of the Identity Pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/identity_pool#description IdentityPool#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/identity_pool#description IdentityPool#description}
   */
   readonly description: string;
   /**
   * A name for the Identity Pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/identity_pool#display_name IdentityPool#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/identity_pool#display_name IdentityPool#display_name}
   */
   readonly displayName: string;
   /**
   * A filter expression that must be evaluated to be true to use this identity pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/identity_pool#filter IdentityPool#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/identity_pool#filter IdentityPool#filter}
   */
   readonly filter: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/identity_pool#id IdentityPool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/identity_pool#id IdentityPool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,13 +35,13 @@ export interface IdentityPoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * A JWT claim to extract the authenticating principal to Confluent resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/identity_pool#identity_claim IdentityPool#identity_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/identity_pool#identity_claim IdentityPool#identity_claim}
   */
   readonly identityClaim: string;
   /**
   * identity_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/identity_pool#identity_provider IdentityPool#identity_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/identity_pool#identity_provider IdentityPool#identity_provider}
   */
   readonly identityProvider: IdentityPoolIdentityProvider;
 }
@@ -49,7 +49,7 @@ export interface IdentityPoolIdentityProvider {
   /**
   * The unique identifier for the Identity Provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/identity_pool#id IdentityPool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/identity_pool#id IdentityPool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -133,7 +133,7 @@ export class IdentityPoolIdentityProviderOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/identity_pool confluent_identity_pool}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/identity_pool confluent_identity_pool}
 */
 export class IdentityPool extends cdktf.TerraformResource {
 
@@ -149,7 +149,7 @@ export class IdentityPool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IdentityPool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IdentityPool to import
-  * @param importFromId The id of the existing IdentityPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/identity_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IdentityPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/identity_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IdentityPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -161,7 +161,7 @@ export class IdentityPool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/identity_pool confluent_identity_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/identity_pool confluent_identity_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -172,8 +172,8 @@ export class IdentityPool extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_identity_pool',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.54.0',
-        providerVersionConstraint: '2.54.0'
+        providerVersion: '2.55.0',
+        providerVersionConstraint: '2.55.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

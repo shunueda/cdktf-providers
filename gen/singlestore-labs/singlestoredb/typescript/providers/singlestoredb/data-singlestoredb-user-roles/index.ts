@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.6/docs/data-sources/user_roles
+// https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/data-sources/user_roles
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataSinglestoredbUserRolesConfig extends cdktf.TerraformMetaArg
   /**
   * The unique identifier of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.6/docs/data-sources/user_roles#user_id DataSinglestoredbUserRoles#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/data-sources/user_roles#user_id DataSinglestoredbUserRoles#user_id}
   */
   readonly userId: string;
 }
@@ -101,7 +101,7 @@ export class DataSinglestoredbUserRolesRolesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.6/docs/data-sources/user_roles singlestoredb_user_roles}
+* Represents a {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/data-sources/user_roles singlestoredb_user_roles}
 */
 export class DataSinglestoredbUserRoles extends cdktf.TerraformDataSource {
 
@@ -117,7 +117,7 @@ export class DataSinglestoredbUserRoles extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSinglestoredbUserRoles resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSinglestoredbUserRoles to import
-  * @param importFromId The id of the existing DataSinglestoredbUserRoles that should be imported. Refer to the {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.6/docs/data-sources/user_roles#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSinglestoredbUserRoles that should be imported. Refer to the {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/data-sources/user_roles#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSinglestoredbUserRoles to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +129,7 @@ export class DataSinglestoredbUserRoles extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.6/docs/data-sources/user_roles singlestoredb_user_roles} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/data-sources/user_roles singlestoredb_user_roles} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,8 +140,8 @@ export class DataSinglestoredbUserRoles extends cdktf.TerraformDataSource {
       terraformResourceType: 'singlestoredb_user_roles',
       terraformGeneratorMetadata: {
         providerName: 'singlestoredb',
-        providerVersion: '0.1.6',
-        providerVersionConstraint: '0.1.6'
+        providerVersion: '0.1.7',
+        providerVersionConstraint: '0.1.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.6/docs/data-sources/users
+// https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/data-sources/users
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,13 +12,13 @@ export interface DataSinglestoredbUsersUsers {
   /**
   * The email address of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.6/docs/data-sources/users#email DataSinglestoredbUsers#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/data-sources/users#email DataSinglestoredbUsers#email}
   */
   readonly email?: string;
   /**
   * The unique identifier of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.6/docs/data-sources/users#id DataSinglestoredbUsers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/data-sources/users#id DataSinglestoredbUsers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -166,7 +166,7 @@ export class DataSinglestoredbUsersUsersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.6/docs/data-sources/users singlestoredb_users}
+* Represents a {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/data-sources/users singlestoredb_users}
 */
 export class DataSinglestoredbUsers extends cdktf.TerraformDataSource {
 
@@ -182,7 +182,7 @@ export class DataSinglestoredbUsers extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSinglestoredbUsers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSinglestoredbUsers to import
-  * @param importFromId The id of the existing DataSinglestoredbUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.6/docs/data-sources/users#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSinglestoredbUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/data-sources/users#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSinglestoredbUsers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -194,7 +194,7 @@ export class DataSinglestoredbUsers extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.6/docs/data-sources/users singlestoredb_users} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/data-sources/users singlestoredb_users} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -205,8 +205,8 @@ export class DataSinglestoredbUsers extends cdktf.TerraformDataSource {
       terraformResourceType: 'singlestoredb_users',
       terraformGeneratorMetadata: {
         providerName: 'singlestoredb',
-        providerVersion: '0.1.6',
-        providerVersionConstraint: '0.1.6'
+        providerVersion: '0.1.7',
+        providerVersionConstraint: '0.1.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

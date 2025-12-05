@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/warehouse_snapshot
+// https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/warehouse_snapshot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,29 +12,35 @@ export interface WarehouseSnapshotConfig extends cdktf.TerraformMetaArguments {
   * 
   * Any changes to this configuration will result in recreation of the Warehouse Snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/warehouse_snapshot#configuration WarehouseSnapshot#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/warehouse_snapshot#configuration WarehouseSnapshot#configuration}
   */
   readonly configuration: WarehouseSnapshotConfiguration;
   /**
   * The Warehouse Snapshot description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/warehouse_snapshot#description WarehouseSnapshot#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/warehouse_snapshot#description WarehouseSnapshot#description}
   */
   readonly description?: string;
   /**
   * The Warehouse Snapshot display name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/warehouse_snapshot#display_name WarehouseSnapshot#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/warehouse_snapshot#display_name WarehouseSnapshot#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/warehouse_snapshot#timeouts WarehouseSnapshot#timeouts}
+  * The Folder ID.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/warehouse_snapshot#folder_id WarehouseSnapshot#folder_id}
+  */
+  readonly folderId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/warehouse_snapshot#timeouts WarehouseSnapshot#timeouts}
   */
   readonly timeouts?: WarehouseSnapshotTimeouts;
   /**
   * The Workspace ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/warehouse_snapshot#workspace_id WarehouseSnapshot#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/warehouse_snapshot#workspace_id WarehouseSnapshot#workspace_id}
   */
   readonly workspaceId: string;
 }
@@ -42,13 +48,13 @@ export interface WarehouseSnapshotConfiguration {
   /**
   * The parent Warehouse ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/warehouse_snapshot#parent_warehouse_id WarehouseSnapshot#parent_warehouse_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/warehouse_snapshot#parent_warehouse_id WarehouseSnapshot#parent_warehouse_id}
   */
   readonly parentWarehouseId: string;
   /**
   * The date and time used for the Warehouse snapshot, if not provided the current date and time will be taken. If given it should be in UTC, using the YYYY-MM-DDTHH:mm:ssZ format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/warehouse_snapshot#snapshot_date_time WarehouseSnapshot#snapshot_date_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/warehouse_snapshot#snapshot_date_time WarehouseSnapshot#snapshot_date_time}
   */
   readonly snapshotDateTime?: string;
 }
@@ -234,25 +240,25 @@ export interface WarehouseSnapshotTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/warehouse_snapshot#create WarehouseSnapshot#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/warehouse_snapshot#create WarehouseSnapshot#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/warehouse_snapshot#delete WarehouseSnapshot#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/warehouse_snapshot#delete WarehouseSnapshot#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/warehouse_snapshot#read WarehouseSnapshot#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/warehouse_snapshot#read WarehouseSnapshot#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/warehouse_snapshot#update WarehouseSnapshot#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/warehouse_snapshot#update WarehouseSnapshot#update}
   */
   readonly update?: string;
 }
@@ -433,7 +439,7 @@ export class WarehouseSnapshotTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/warehouse_snapshot fabric_warehouse_snapshot}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/warehouse_snapshot fabric_warehouse_snapshot}
 */
 export class WarehouseSnapshot extends cdktf.TerraformResource {
 
@@ -449,7 +455,7 @@ export class WarehouseSnapshot extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WarehouseSnapshot resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WarehouseSnapshot to import
-  * @param importFromId The id of the existing WarehouseSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/warehouse_snapshot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WarehouseSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/warehouse_snapshot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WarehouseSnapshot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -461,7 +467,7 @@ export class WarehouseSnapshot extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/warehouse_snapshot fabric_warehouse_snapshot} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/warehouse_snapshot fabric_warehouse_snapshot} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -472,8 +478,8 @@ export class WarehouseSnapshot extends cdktf.TerraformResource {
       terraformResourceType: 'fabric_warehouse_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'fabric',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -486,6 +492,7 @@ export class WarehouseSnapshot extends cdktf.TerraformResource {
     this._configuration.internalValue = config.configuration;
     this._description = config.description;
     this._displayName = config.displayName;
+    this._folderId = config.folderId;
     this._timeouts.internalValue = config.timeouts;
     this._workspaceId = config.workspaceId;
   }
@@ -534,6 +541,22 @@ export class WarehouseSnapshot extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get displayNameInput() {
     return this._displayName;
+  }
+
+  // folder_id - computed: false, optional: true, required: false
+  private _folderId?: string; 
+  public get folderId() {
+    return this.getStringAttribute('folder_id');
+  }
+  public set folderId(value: string) {
+    this._folderId = value;
+  }
+  public resetFolderId() {
+    this._folderId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get folderIdInput() {
+    return this._folderId;
   }
 
   // id - computed: true, optional: false, required: false
@@ -585,6 +608,7 @@ export class WarehouseSnapshot extends cdktf.TerraformResource {
       configuration: warehouseSnapshotConfigurationToTerraform(this._configuration.internalValue),
       description: cdktf.stringToTerraform(this._description),
       display_name: cdktf.stringToTerraform(this._displayName),
+      folder_id: cdktf.stringToTerraform(this._folderId),
       timeouts: warehouseSnapshotTimeoutsToTerraform(this._timeouts.internalValue),
       workspace_id: cdktf.stringToTerraform(this._workspaceId),
     };
@@ -606,6 +630,12 @@ export class WarehouseSnapshot extends cdktf.TerraformResource {
       },
       display_name: {
         value: cdktf.stringToHclTerraform(this._displayName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      folder_id: {
+        value: cdktf.stringToHclTerraform(this._folderId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

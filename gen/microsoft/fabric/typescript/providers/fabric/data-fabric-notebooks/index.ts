@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/notebooks
+// https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/notebooks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface DataFabricNotebooksConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/notebooks#timeouts DataFabricNotebooks#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/notebooks#timeouts DataFabricNotebooks#timeouts}
   */
   readonly timeouts?: DataFabricNotebooksTimeouts;
   /**
   * The Workspace ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/notebooks#workspace_id DataFabricNotebooks#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/notebooks#workspace_id DataFabricNotebooks#workspace_id}
   */
   readonly workspaceId: string;
 }
@@ -22,7 +22,7 @@ export interface DataFabricNotebooksTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/notebooks#read DataFabricNotebooks#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/notebooks#read DataFabricNotebooks#read}
   */
   readonly read?: string;
 }
@@ -175,6 +175,11 @@ export class DataFabricNotebooksValuesOutputReference extends cdktf.ComplexObjec
     return this.getStringAttribute('display_name');
   }
 
+  // folder_id - computed: true, optional: false, required: false
+  public get folderId() {
+    return this.getStringAttribute('folder_id');
+  }
+
   // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
@@ -206,7 +211,7 @@ export class DataFabricNotebooksValuesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/notebooks fabric_notebooks}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/notebooks fabric_notebooks}
 */
 export class DataFabricNotebooks extends cdktf.TerraformDataSource {
 
@@ -222,7 +227,7 @@ export class DataFabricNotebooks extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFabricNotebooks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFabricNotebooks to import
-  * @param importFromId The id of the existing DataFabricNotebooks that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/notebooks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFabricNotebooks that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/notebooks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFabricNotebooks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -234,7 +239,7 @@ export class DataFabricNotebooks extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/notebooks fabric_notebooks} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/notebooks fabric_notebooks} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -245,8 +250,8 @@ export class DataFabricNotebooks extends cdktf.TerraformDataSource {
       terraformResourceType: 'fabric_notebooks',
       terraformGeneratorMetadata: {
         providerName: 'fabric',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

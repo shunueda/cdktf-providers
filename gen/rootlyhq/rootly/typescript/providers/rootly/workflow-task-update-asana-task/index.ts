@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_asana_task
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_asana_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskUpdateAsanaTaskConfig extends cdktf.TerraformMetaAr
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_asana_task#enabled WorkflowTaskUpdateAsanaTask#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_asana_task#enabled WorkflowTaskUpdateAsanaTask#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_asana_task#id WorkflowTaskUpdateAsanaTask#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_asana_task#id WorkflowTaskUpdateAsanaTask#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WorkflowTaskUpdateAsanaTaskConfig extends cdktf.TerraformMetaAr
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_asana_task#name WorkflowTaskUpdateAsanaTask#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_asana_task#name WorkflowTaskUpdateAsanaTask#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_asana_task#position WorkflowTaskUpdateAsanaTask#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_asana_task#position WorkflowTaskUpdateAsanaTask#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_asana_task#skip_on_failure WorkflowTaskUpdateAsanaTask#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_asana_task#skip_on_failure WorkflowTaskUpdateAsanaTask#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_asana_task#workflow_id WorkflowTaskUpdateAsanaTask#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_asana_task#workflow_id WorkflowTaskUpdateAsanaTask#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_asana_task#task_params WorkflowTaskUpdateAsanaTask#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_asana_task#task_params WorkflowTaskUpdateAsanaTask#task_params}
   */
   readonly taskParams: WorkflowTaskUpdateAsanaTaskTaskParams;
 }
@@ -55,57 +55,57 @@ export interface WorkflowTaskUpdateAsanaTaskTaskParams {
   /**
   * The assigned user's email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_asana_task#assign_user_email WorkflowTaskUpdateAsanaTask#assign_user_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_asana_task#assign_user_email WorkflowTaskUpdateAsanaTask#assign_user_email}
   */
   readonly assignUserEmail?: string;
   /**
   * Map must contain two fields, `id` and `name`. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_asana_task#completion WorkflowTaskUpdateAsanaTask#completion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_asana_task#completion WorkflowTaskUpdateAsanaTask#completion}
   */
   readonly completion: { [key: string]: string };
   /**
   * Custom field mappings. Can contain liquid markup and need to be valid JSON
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_asana_task#custom_fields_mapping WorkflowTaskUpdateAsanaTask#custom_fields_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_asana_task#custom_fields_mapping WorkflowTaskUpdateAsanaTask#custom_fields_mapping}
   */
   readonly customFieldsMapping?: string;
   /**
   * Value must be one of `blocking`, `blocked_by`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_asana_task#dependency_direction WorkflowTaskUpdateAsanaTask#dependency_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_asana_task#dependency_direction WorkflowTaskUpdateAsanaTask#dependency_direction}
   */
   readonly dependencyDirection?: string;
   /**
   * Dependent task ids. Supports liquid syntax
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_asana_task#dependent_task_ids WorkflowTaskUpdateAsanaTask#dependent_task_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_asana_task#dependent_task_ids WorkflowTaskUpdateAsanaTask#dependent_task_ids}
   */
   readonly dependentTaskIds?: string[];
   /**
   * The due date
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_asana_task#due_date WorkflowTaskUpdateAsanaTask#due_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_asana_task#due_date WorkflowTaskUpdateAsanaTask#due_date}
   */
   readonly dueDate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_asana_task#notes WorkflowTaskUpdateAsanaTask#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_asana_task#notes WorkflowTaskUpdateAsanaTask#notes}
   */
   readonly notes?: string;
   /**
   * The task id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_asana_task#task_id WorkflowTaskUpdateAsanaTask#task_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_asana_task#task_id WorkflowTaskUpdateAsanaTask#task_id}
   */
   readonly taskId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_asana_task#task_type WorkflowTaskUpdateAsanaTask#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_asana_task#task_type WorkflowTaskUpdateAsanaTask#task_type}
   */
   readonly taskType?: string;
   /**
   * The task title
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_asana_task#title WorkflowTaskUpdateAsanaTask#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_asana_task#title WorkflowTaskUpdateAsanaTask#title}
   */
   readonly title?: string;
 }
@@ -444,7 +444,7 @@ export class WorkflowTaskUpdateAsanaTaskTaskParamsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_asana_task rootly_workflow_task_update_asana_task}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_asana_task rootly_workflow_task_update_asana_task}
 */
 export class WorkflowTaskUpdateAsanaTask extends cdktf.TerraformResource {
 
@@ -460,7 +460,7 @@ export class WorkflowTaskUpdateAsanaTask extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowTaskUpdateAsanaTask resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskUpdateAsanaTask to import
-  * @param importFromId The id of the existing WorkflowTaskUpdateAsanaTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_asana_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskUpdateAsanaTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_asana_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskUpdateAsanaTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -472,7 +472,7 @@ export class WorkflowTaskUpdateAsanaTask extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_asana_task rootly_workflow_task_update_asana_task} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_asana_task rootly_workflow_task_update_asana_task} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -483,8 +483,8 @@ export class WorkflowTaskUpdateAsanaTask extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_update_asana_task',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.11',
-        providerVersionConstraint: '4.3.11'
+        providerVersion: '4.3.13',
+        providerVersionConstraint: '4.3.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

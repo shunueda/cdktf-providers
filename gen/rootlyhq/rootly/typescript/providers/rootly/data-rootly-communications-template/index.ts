@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/data-sources/communications_template
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/communications_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface DataRootlyCommunicationsTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/data-sources/communications_template#communication_type DataRootlyCommunicationsTemplate#communication_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/communications_template#communication_type DataRootlyCommunicationsTemplate#communication_type}
   */
   readonly communicationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/data-sources/communications_template#communication_type_id DataRootlyCommunicationsTemplate#communication_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/communications_template#communication_type_id DataRootlyCommunicationsTemplate#communication_type_id}
   */
   readonly communicationTypeId?: string;
   /**
   * Filter by date range using 'lt' and 'gt'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/data-sources/communications_template#created_at DataRootlyCommunicationsTemplate#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/communications_template#created_at DataRootlyCommunicationsTemplate#created_at}
   */
   readonly createdAt?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/data-sources/communications_template#name DataRootlyCommunicationsTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/communications_template#name DataRootlyCommunicationsTemplate#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/data-sources/communications_template#slug DataRootlyCommunicationsTemplate#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/communications_template#slug DataRootlyCommunicationsTemplate#slug}
   */
   readonly slug?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/data-sources/communications_template rootly_communications_template}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/communications_template rootly_communications_template}
 */
 export class DataRootlyCommunicationsTemplate extends cdktf.TerraformDataSource {
 
@@ -48,7 +48,7 @@ export class DataRootlyCommunicationsTemplate extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataRootlyCommunicationsTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRootlyCommunicationsTemplate to import
-  * @param importFromId The id of the existing DataRootlyCommunicationsTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/data-sources/communications_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRootlyCommunicationsTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/communications_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRootlyCommunicationsTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -60,7 +60,7 @@ export class DataRootlyCommunicationsTemplate extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/data-sources/communications_template rootly_communications_template} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/communications_template rootly_communications_template} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -71,8 +71,8 @@ export class DataRootlyCommunicationsTemplate extends cdktf.TerraformDataSource 
       terraformResourceType: 'rootly_communications_template',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.11',
-        providerVersionConstraint: '4.3.11'
+        providerVersion: '4.3.13',
+        providerVersionConstraint: '4.3.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

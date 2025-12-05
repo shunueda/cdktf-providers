@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_connection
+// https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/flink_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface FlinkConnectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * API key for the type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_connection#api_key FlinkConnection#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/flink_connection#api_key FlinkConnection#api_key}
   */
   readonly apiKey?: string;
   /**
   * Access key for the type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_connection#aws_access_key FlinkConnection#aws_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/flink_connection#aws_access_key FlinkConnection#aws_access_key}
   */
   readonly awsAccessKey?: string;
   /**
   * Secret key for the type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_connection#aws_secret_key FlinkConnection#aws_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/flink_connection#aws_secret_key FlinkConnection#aws_secret_key}
   */
   readonly awsSecretKey?: string;
   /**
   * Session token for the type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_connection#aws_session_token FlinkConnection#aws_session_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/flink_connection#aws_session_token FlinkConnection#aws_session_token}
   */
   readonly awsSessionToken?: string;
   /**
   * The unique name of the Flink Connection per organization, environment scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_connection#display_name FlinkConnection#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/flink_connection#display_name FlinkConnection#display_name}
   */
   readonly displayName: string;
   /**
   * The endpoint of the flink connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_connection#endpoint FlinkConnection#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/flink_connection#endpoint FlinkConnection#endpoint}
   */
   readonly endpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_connection#id FlinkConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/flink_connection#id FlinkConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,67 +53,67 @@ export interface FlinkConnectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Password for the type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_connection#password FlinkConnection#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/flink_connection#password FlinkConnection#password}
   */
   readonly password?: string;
   /**
   * The REST endpoint of the Flink Connection cluster, for example, `https://flink.us-east-1.aws.confluent.cloud/sql/v1/organizations/1111aaaa-11aa-11aa-11aa-111111aaaaaa/environments/env-abc123`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_connection#rest_endpoint FlinkConnection#rest_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/flink_connection#rest_endpoint FlinkConnection#rest_endpoint}
   */
   readonly restEndpoint?: string;
   /**
   * Service Key for the type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_connection#service_key FlinkConnection#service_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/flink_connection#service_key FlinkConnection#service_key}
   */
   readonly serviceKey?: string;
   /**
   * The type of the flink connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_connection#type FlinkConnection#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/flink_connection#type FlinkConnection#type}
   */
   readonly type: string;
   /**
   * Username for the type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_connection#username FlinkConnection#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/flink_connection#username FlinkConnection#username}
   */
   readonly username?: string;
   /**
   * compute_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_connection#compute_pool FlinkConnection#compute_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/flink_connection#compute_pool FlinkConnection#compute_pool}
   */
   readonly computePool?: FlinkConnectionComputePool;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_connection#credentials FlinkConnection#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/flink_connection#credentials FlinkConnection#credentials}
   */
   readonly credentials?: FlinkConnectionCredentials;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_connection#environment FlinkConnection#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/flink_connection#environment FlinkConnection#environment}
   */
   readonly environment?: FlinkConnectionEnvironment;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_connection#organization FlinkConnection#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/flink_connection#organization FlinkConnection#organization}
   */
   readonly organization?: FlinkConnectionOrganization;
   /**
   * principal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_connection#principal FlinkConnection#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/flink_connection#principal FlinkConnection#principal}
   */
   readonly principal?: FlinkConnectionPrincipal;
 }
 export interface FlinkConnectionComputePool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_connection#id FlinkConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/flink_connection#id FlinkConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -199,13 +199,13 @@ export interface FlinkConnectionCredentials {
   /**
   * The Cluster API Key for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_connection#key FlinkConnection#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/flink_connection#key FlinkConnection#key}
   */
   readonly key: string;
   /**
   * The Cluster API Secret for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_connection#secret FlinkConnection#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/flink_connection#secret FlinkConnection#secret}
   */
   readonly secret: string;
 }
@@ -312,7 +312,7 @@ export class FlinkConnectionCredentialsOutputReference extends cdktf.ComplexObje
 }
 export interface FlinkConnectionEnvironment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_connection#id FlinkConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/flink_connection#id FlinkConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -396,7 +396,7 @@ export class FlinkConnectionEnvironmentOutputReference extends cdktf.ComplexObje
 }
 export interface FlinkConnectionOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_connection#id FlinkConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/flink_connection#id FlinkConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -480,7 +480,7 @@ export class FlinkConnectionOrganizationOutputReference extends cdktf.ComplexObj
 }
 export interface FlinkConnectionPrincipal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_connection#id FlinkConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/flink_connection#id FlinkConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -564,7 +564,7 @@ export class FlinkConnectionPrincipalOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_connection confluent_flink_connection}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/flink_connection confluent_flink_connection}
 */
 export class FlinkConnection extends cdktf.TerraformResource {
 
@@ -580,7 +580,7 @@ export class FlinkConnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FlinkConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FlinkConnection to import
-  * @param importFromId The id of the existing FlinkConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FlinkConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/flink_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FlinkConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -592,7 +592,7 @@ export class FlinkConnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/flink_connection confluent_flink_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/flink_connection confluent_flink_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -603,8 +603,8 @@ export class FlinkConnection extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_flink_connection',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.54.0',
-        providerVersionConstraint: '2.54.0'
+        providerVersion: '2.55.0',
+        providerVersionConstraint: '2.55.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

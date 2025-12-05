@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/gateways
+// https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/gateways
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataFabricGatewaysConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/gateways#timeouts DataFabricGateways#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/gateways#timeouts DataFabricGateways#timeouts}
   */
   readonly timeouts?: DataFabricGatewaysTimeouts;
 }
@@ -16,7 +16,7 @@ export interface DataFabricGatewaysTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/gateways#read DataFabricGateways#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/gateways#read DataFabricGateways#read}
   */
   readonly read?: string;
 }
@@ -370,7 +370,7 @@ export class DataFabricGatewaysValuesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/gateways fabric_gateways}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/gateways fabric_gateways}
 */
 export class DataFabricGateways extends cdktf.TerraformDataSource {
 
@@ -386,7 +386,7 @@ export class DataFabricGateways extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFabricGateways resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFabricGateways to import
-  * @param importFromId The id of the existing DataFabricGateways that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/gateways#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFabricGateways that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/gateways#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFabricGateways to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -398,7 +398,7 @@ export class DataFabricGateways extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/gateways fabric_gateways} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/gateways fabric_gateways} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -409,8 +409,8 @@ export class DataFabricGateways extends cdktf.TerraformDataSource {
       terraformResourceType: 'fabric_gateways',
       terraformGeneratorMetadata: {
         providerName: 'fabric',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/deployment_pipeline_role_assignment
+// https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/deployment_pipeline_role_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DeploymentPipelineRoleAssignmentConfig extends cdktf.TerraformM
   /**
   * <i style="color:red;font-weight: bold">(ForceNew)</i> The Deployment Pipeline ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/deployment_pipeline_role_assignment#deployment_pipeline_id DeploymentPipelineRoleAssignment#deployment_pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/deployment_pipeline_role_assignment#deployment_pipeline_id DeploymentPipelineRoleAssignment#deployment_pipeline_id}
   */
   readonly deploymentPipelineId: string;
   /**
   * The principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/deployment_pipeline_role_assignment#principal DeploymentPipelineRoleAssignment#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/deployment_pipeline_role_assignment#principal DeploymentPipelineRoleAssignment#principal}
   */
   readonly principal: DeploymentPipelineRoleAssignmentPrincipal;
   /**
   * <i style="color:red;font-weight: bold">(ForceNew)</i> The deployment pipeline role of the principal. Value must be one of : `Admin`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/deployment_pipeline_role_assignment#role DeploymentPipelineRoleAssignment#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/deployment_pipeline_role_assignment#role DeploymentPipelineRoleAssignment#role}
   */
   readonly role: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/deployment_pipeline_role_assignment#timeouts DeploymentPipelineRoleAssignment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/deployment_pipeline_role_assignment#timeouts DeploymentPipelineRoleAssignment#timeouts}
   */
   readonly timeouts?: DeploymentPipelineRoleAssignmentTimeouts;
 }
@@ -34,7 +34,7 @@ export interface DeploymentPipelineRoleAssignmentPrincipal {
   /**
   * <i style="color:red;font-weight: bold">(ForceNew)</i> The principal ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/deployment_pipeline_role_assignment#id DeploymentPipelineRoleAssignment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/deployment_pipeline_role_assignment#id DeploymentPipelineRoleAssignment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,7 +43,7 @@ export interface DeploymentPipelineRoleAssignmentPrincipal {
   /**
   * <i style="color:red;font-weight: bold">(ForceNew)</i> The type of the principal. Value must be one of : `Group`, `ServicePrincipal`, `ServicePrincipalProfile`, `User`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/deployment_pipeline_role_assignment#type DeploymentPipelineRoleAssignment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/deployment_pipeline_role_assignment#type DeploymentPipelineRoleAssignment#type}
   */
   readonly type: string;
 }
@@ -162,25 +162,25 @@ export interface DeploymentPipelineRoleAssignmentTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/deployment_pipeline_role_assignment#create DeploymentPipelineRoleAssignment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/deployment_pipeline_role_assignment#create DeploymentPipelineRoleAssignment#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/deployment_pipeline_role_assignment#delete DeploymentPipelineRoleAssignment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/deployment_pipeline_role_assignment#delete DeploymentPipelineRoleAssignment#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/deployment_pipeline_role_assignment#read DeploymentPipelineRoleAssignment#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/deployment_pipeline_role_assignment#read DeploymentPipelineRoleAssignment#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/deployment_pipeline_role_assignment#update DeploymentPipelineRoleAssignment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/deployment_pipeline_role_assignment#update DeploymentPipelineRoleAssignment#update}
   */
   readonly update?: string;
 }
@@ -361,7 +361,7 @@ export class DeploymentPipelineRoleAssignmentTimeoutsOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/deployment_pipeline_role_assignment fabric_deployment_pipeline_role_assignment}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/deployment_pipeline_role_assignment fabric_deployment_pipeline_role_assignment}
 */
 export class DeploymentPipelineRoleAssignment extends cdktf.TerraformResource {
 
@@ -377,7 +377,7 @@ export class DeploymentPipelineRoleAssignment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DeploymentPipelineRoleAssignment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DeploymentPipelineRoleAssignment to import
-  * @param importFromId The id of the existing DeploymentPipelineRoleAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/deployment_pipeline_role_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DeploymentPipelineRoleAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/deployment_pipeline_role_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DeploymentPipelineRoleAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -389,7 +389,7 @@ export class DeploymentPipelineRoleAssignment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/deployment_pipeline_role_assignment fabric_deployment_pipeline_role_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/deployment_pipeline_role_assignment fabric_deployment_pipeline_role_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -400,8 +400,8 @@ export class DeploymentPipelineRoleAssignment extends cdktf.TerraformResource {
       terraformResourceType: 'fabric_deployment_pipeline_role_assignment',
       terraformGeneratorMetadata: {
         providerName: 'fabric',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/user
+// https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/resources/user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface UserConfig extends cdktf.TerraformMetaArguments {
   /**
   * Authentication source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/user#auth_source User#auth_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/resources/user#auth_source User#auth_source}
   */
   readonly authSource?: number;
   /**
   * Change password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/user#change_password User#change_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/resources/user#change_password User#change_password}
   */
   readonly changePassword?: boolean | cdktf.IResolvable;
   /**
   * Display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/user#displayname User#displayname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/resources/user#displayname User#displayname}
   */
   readonly displayname?: string;
   /**
   * Email address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/user#email User#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/resources/user#email User#email}
   */
   readonly email?: string;
   /**
   * User state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/user#enabled User#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/resources/user#enabled User#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Unique user name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/user#name User#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/resources/user#name User#name}
   */
   readonly name: string;
   /**
   * User password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/user#password User#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/resources/user#password User#password}
   */
   readonly password?: string;
   /**
   * Remote name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/user#remote_name User#remote_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/resources/user#remote_name User#remote_name}
   */
   readonly remoteName?: string;
   /**
   * User type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/user#type User#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/resources/user#type User#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/user vergeio_user}
+* Represents a {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/resources/user vergeio_user}
 */
 export class User extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class User extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a User resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the User to import
-  * @param importFromId The id of the existing User that should be imported. Refer to the {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing User that should be imported. Refer to the {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/resources/user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the User to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class User extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/user vergeio_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/resources/user vergeio_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class User extends cdktf.TerraformResource {
       terraformResourceType: 'vergeio_user',
       terraformGeneratorMetadata: {
         providerName: 'vergeio',
-        providerVersion: '2.7.2',
-        providerVersionConstraint: '2.7.2'
+        providerVersion: '2.7.3',
+        providerVersionConstraint: '2.7.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket_file_version
+// https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/bucket_file_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface BucketFileVersionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the bucket. **Modifying this attribute will force creation of a new resource.**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket_file_version#bucket_id BucketFileVersion#bucket_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/bucket_file_version#bucket_id BucketFileVersion#bucket_id}
   */
   readonly bucketId: string;
   /**
   * Content type. If not set, it will be set based on the file extension. **Modifying this attribute will force creation of a new resource.**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket_file_version#content_type BucketFileVersion#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/bucket_file_version#content_type BucketFileVersion#content_type}
   */
   readonly contentType?: string;
   /**
   * The custom information that is uploaded with the file. **Modifying this attribute will force creation of a new resource.**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket_file_version#file_info BucketFileVersion#file_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/bucket_file_version#file_info BucketFileVersion#file_info}
   */
   readonly fileInfo?: { [key: string]: string };
   /**
   * The name of the B2 file. **Modifying this attribute will force creation of a new resource.**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket_file_version#file_name BucketFileVersion#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/bucket_file_version#file_name BucketFileVersion#file_name}
   */
   readonly fileName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket_file_version#id BucketFileVersion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/bucket_file_version#id BucketFileVersion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,13 +41,13 @@ export interface BucketFileVersionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Path to the local file. **Modifying this attribute will force creation of a new resource.**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket_file_version#source BucketFileVersion#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/bucket_file_version#source BucketFileVersion#source}
   */
   readonly source: string;
   /**
   * server_side_encryption block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket_file_version#server_side_encryption BucketFileVersion#server_side_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/bucket_file_version#server_side_encryption BucketFileVersion#server_side_encryption}
   */
   readonly serverSideEncryption?: BucketFileVersionServerSideEncryption;
 }
@@ -55,13 +55,13 @@ export interface BucketFileVersionServerSideEncryptionKey {
   /**
   * Key identifier stored in file info metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket_file_version#key_id BucketFileVersion#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/bucket_file_version#key_id BucketFileVersion#key_id}
   */
   readonly keyId?: string;
   /**
   * Secret key value, in standard Base 64 encoding (RFC 4648).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket_file_version#secret_b64 BucketFileVersion#secret_b64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/bucket_file_version#secret_b64 BucketFileVersion#secret_b64}
   */
   readonly secretB64?: string;
 }
@@ -176,19 +176,19 @@ export interface BucketFileVersionServerSideEncryption {
   /**
   * Server-side encryption algorithm. AES256 is the only one supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket_file_version#algorithm BucketFileVersion#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/bucket_file_version#algorithm BucketFileVersion#algorithm}
   */
   readonly algorithm?: string;
   /**
   * Server-side encryption mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket_file_version#mode BucketFileVersion#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/bucket_file_version#mode BucketFileVersion#mode}
   */
   readonly mode?: string;
   /**
   * key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket_file_version#key BucketFileVersion#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/bucket_file_version#key BucketFileVersion#key}
   */
   readonly key?: BucketFileVersionServerSideEncryptionKey;
 }
@@ -330,7 +330,7 @@ export class BucketFileVersionServerSideEncryptionOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket_file_version b2_bucket_file_version}
+* Represents a {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/bucket_file_version b2_bucket_file_version}
 */
 export class BucketFileVersion extends cdktf.TerraformResource {
 
@@ -346,7 +346,7 @@ export class BucketFileVersion extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BucketFileVersion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BucketFileVersion to import
-  * @param importFromId The id of the existing BucketFileVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket_file_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BucketFileVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/bucket_file_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BucketFileVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -358,7 +358,7 @@ export class BucketFileVersion extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket_file_version b2_bucket_file_version} Resource
+  * Create a new {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/bucket_file_version b2_bucket_file_version} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -369,8 +369,8 @@ export class BucketFileVersion extends cdktf.TerraformResource {
       terraformResourceType: 'b2_bucket_file_version',
       terraformGeneratorMetadata: {
         providerName: 'b2',
-        providerVersion: '0.11.0',
-        providerVersionConstraint: '0.11.0'
+        providerVersion: '0.12.0',
+        providerVersionConstraint: '0.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

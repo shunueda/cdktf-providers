@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/application_key
+// https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/application_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,25 @@ import * as cdktf from 'cdktf';
 
 export interface ApplicationKeyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * When present, restricts access to one bucket. **Modifying this attribute will force creation of a new resource.**
+  * When present, restricts access to one bucket. Conflicts with `bucket_ids`. **Modifying this attribute will force creation of a new resource.**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/application_key#bucket_id ApplicationKey#bucket_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/application_key#bucket_id ApplicationKey#bucket_id}
   */
   readonly bucketId?: string;
   /**
+  * When provided, the new key can only access the specified buckets. **Modifying this attribute will force creation of a new resource.**
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/application_key#bucket_ids ApplicationKey#bucket_ids}
+  */
+  readonly bucketIds?: string[];
+  /**
   * A set of strings, each one naming a capability the key has. **Modifying this attribute will force creation of a new resource.**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/application_key#capabilities ApplicationKey#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/application_key#capabilities ApplicationKey#capabilities}
   */
   readonly capabilities: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/application_key#id ApplicationKey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/application_key#id ApplicationKey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +35,19 @@ export interface ApplicationKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the key. **Modifying this attribute will force creation of a new resource.**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/application_key#key_name ApplicationKey#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/application_key#key_name ApplicationKey#key_name}
   */
   readonly keyName: string;
   /**
-  * When present, restricts access to files whose names start with the prefix. Required when using `bucket_id`. **Modifying this attribute will force creation of a new resource.**
+  * When present, restricts access to files whose names start with the prefix. **Modifying this attribute will force creation of a new resource.**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/application_key#name_prefix ApplicationKey#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/application_key#name_prefix ApplicationKey#name_prefix}
   */
   readonly namePrefix?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/application_key b2_application_key}
+* Represents a {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/application_key b2_application_key}
 */
 export class ApplicationKey extends cdktf.TerraformResource {
 
@@ -57,7 +63,7 @@ export class ApplicationKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplicationKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplicationKey to import
-  * @param importFromId The id of the existing ApplicationKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/application_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplicationKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/application_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplicationKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +75,7 @@ export class ApplicationKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/application_key b2_application_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/application_key b2_application_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +86,8 @@ export class ApplicationKey extends cdktf.TerraformResource {
       terraformResourceType: 'b2_application_key',
       terraformGeneratorMetadata: {
         providerName: 'b2',
-        providerVersion: '0.11.0',
-        providerVersionConstraint: '0.11.0'
+        providerVersion: '0.12.0',
+        providerVersionConstraint: '0.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -92,6 +98,7 @@ export class ApplicationKey extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._bucketId = config.bucketId;
+    this._bucketIds = config.bucketIds;
     this._capabilities = config.capabilities;
     this._id = config.id;
     this._keyName = config.keyName;
@@ -126,6 +133,22 @@ export class ApplicationKey extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get bucketIdInput() {
     return this._bucketId;
+  }
+
+  // bucket_ids - computed: false, optional: true, required: false
+  private _bucketIds?: string[]; 
+  public get bucketIds() {
+    return cdktf.Fn.tolist(this.getListAttribute('bucket_ids'));
+  }
+  public set bucketIds(value: string[]) {
+    this._bucketIds = value;
+  }
+  public resetBucketIds() {
+    this._bucketIds = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bucketIdsInput() {
+    return this._bucketIds;
   }
 
   // capabilities - computed: false, optional: false, required: true
@@ -198,6 +221,7 @@ export class ApplicationKey extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       bucket_id: cdktf.stringToTerraform(this._bucketId),
+      bucket_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._bucketIds),
       capabilities: cdktf.listMapper(cdktf.stringToTerraform, false)(this._capabilities),
       id: cdktf.stringToTerraform(this._id),
       key_name: cdktf.stringToTerraform(this._keyName),
@@ -212,6 +236,12 @@ export class ApplicationKey extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      bucket_ids: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._bucketIds),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
       },
       capabilities: {
         value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._capabilities),

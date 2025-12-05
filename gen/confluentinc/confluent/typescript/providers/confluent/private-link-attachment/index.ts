@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/private_link_attachment
+// https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/private_link_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PrivateLinkAttachmentConfig extends cdktf.TerraformMetaArgument
   /**
   * The cloud service provider that hosts the resources to access with the PrivateLink attachment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/private_link_attachment#cloud PrivateLinkAttachment#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/private_link_attachment#cloud PrivateLinkAttachment#cloud}
   */
   readonly cloud: string;
   /**
   * The name of the Private Link Attachment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/private_link_attachment#display_name PrivateLinkAttachment#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/private_link_attachment#display_name PrivateLinkAttachment#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/private_link_attachment#id PrivateLinkAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/private_link_attachment#id PrivateLinkAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface PrivateLinkAttachmentConfig extends cdktf.TerraformMetaArgument
   /**
   * The cloud service provider region where the resources to be accessed using the PrivateLink attachment are located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/private_link_attachment#region PrivateLinkAttachment#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/private_link_attachment#region PrivateLinkAttachment#region}
   */
   readonly region: string;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/private_link_attachment#environment PrivateLinkAttachment#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/private_link_attachment#environment PrivateLinkAttachment#environment}
   */
   readonly environment: PrivateLinkAttachmentEnvironment;
 }
@@ -273,7 +273,7 @@ export interface PrivateLinkAttachmentEnvironment {
   /**
   * The unique identifier for the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/private_link_attachment#id PrivateLinkAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/private_link_attachment#id PrivateLinkAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -357,7 +357,7 @@ export class PrivateLinkAttachmentEnvironmentOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/private_link_attachment confluent_private_link_attachment}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/private_link_attachment confluent_private_link_attachment}
 */
 export class PrivateLinkAttachment extends cdktf.TerraformResource {
 
@@ -373,7 +373,7 @@ export class PrivateLinkAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PrivateLinkAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PrivateLinkAttachment to import
-  * @param importFromId The id of the existing PrivateLinkAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/private_link_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PrivateLinkAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/private_link_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PrivateLinkAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -385,7 +385,7 @@ export class PrivateLinkAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/private_link_attachment confluent_private_link_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/private_link_attachment confluent_private_link_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -396,8 +396,8 @@ export class PrivateLinkAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_private_link_attachment',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.54.0',
-        providerVersionConstraint: '2.54.0'
+        providerVersion: '2.55.0',
+        providerVersionConstraint: '2.55.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/incident_role
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/incident_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,21 +10,21 @@ export interface IncidentRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/incident_role#allow_multi_user_assignment IncidentRole#allow_multi_user_assignment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/incident_role#allow_multi_user_assignment IncidentRole#allow_multi_user_assignment}
   */
   readonly allowMultiUserAssignment?: boolean | cdktf.IResolvable;
   /**
   * The description of the incident role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/incident_role#description IncidentRole#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/incident_role#description IncidentRole#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/incident_role#enabled IncidentRole#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/incident_role#enabled IncidentRole#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/incident_role#id IncidentRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/incident_role#id IncidentRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,37 +33,37 @@ export interface IncidentRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the incident role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/incident_role#name IncidentRole#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/incident_role#name IncidentRole#name}
   */
   readonly name: string;
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/incident_role#optional IncidentRole#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/incident_role#optional IncidentRole#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
   * Position of the incident role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/incident_role#position IncidentRole#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/incident_role#position IncidentRole#position}
   */
   readonly position?: number;
   /**
   * The slug of the incident role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/incident_role#slug IncidentRole#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/incident_role#slug IncidentRole#slug}
   */
   readonly slug?: string;
   /**
   * The summary of the incident role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/incident_role#summary IncidentRole#summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/incident_role#summary IncidentRole#summary}
   */
   readonly summary?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/incident_role rootly_incident_role}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/incident_role rootly_incident_role}
 */
 export class IncidentRole extends cdktf.TerraformResource {
 
@@ -79,7 +79,7 @@ export class IncidentRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IncidentRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IncidentRole to import
-  * @param importFromId The id of the existing IncidentRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/incident_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IncidentRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/incident_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IncidentRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -91,7 +91,7 @@ export class IncidentRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/incident_role rootly_incident_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/incident_role rootly_incident_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -102,8 +102,8 @@ export class IncidentRole extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_incident_role',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.11',
-        providerVersionConstraint: '4.3.11'
+        providerVersion: '4.3.13',
+        providerVersionConstraint: '4.3.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

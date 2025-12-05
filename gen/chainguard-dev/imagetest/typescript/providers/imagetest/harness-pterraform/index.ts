@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/harness_pterraform
+// https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/harness_pterraform
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface HarnessPterraformConfig extends cdktf.TerraformMetaArguments {
   /**
   * The inventory this harness belongs to. This is received as a direct input from a data.imagetest_inventory data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/harness_pterraform#inventory HarnessPterraform#inventory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/harness_pterraform#inventory HarnessPterraform#inventory}
   */
   readonly inventory: HarnessPterraformInventory;
   /**
   * The name of the harness. This must be unique within the scope of the provided inventory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/harness_pterraform#name HarnessPterraform#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/harness_pterraform#name HarnessPterraform#name}
   */
   readonly name: string;
   /**
   * The path to the terraform source directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/harness_pterraform#path HarnessPterraform#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/harness_pterraform#path HarnessPterraform#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/harness_pterraform#timeouts HarnessPterraform#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/harness_pterraform#timeouts HarnessPterraform#timeouts}
   */
   readonly timeouts?: HarnessPterraformTimeouts;
   /**
   * A json encoded string of variables to pass to the terraform invocation. This will be passed in as a .tfvars.json var file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/harness_pterraform#vars HarnessPterraform#vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/harness_pterraform#vars HarnessPterraform#vars}
   */
   readonly vars?: string;
 }
 export interface HarnessPterraformInventory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/harness_pterraform#seed HarnessPterraform#seed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/harness_pterraform#seed HarnessPterraform#seed}
   */
   readonly seed: string;
 }
@@ -131,7 +131,7 @@ export interface HarnessPterraformTimeouts {
   /**
   * The maximum time to wait for the k3s harness to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/harness_pterraform#create HarnessPterraform#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/harness_pterraform#create HarnessPterraform#create}
   */
   readonly create?: string;
 }
@@ -225,7 +225,7 @@ export class HarnessPterraformTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/harness_pterraform imagetest_harness_pterraform}
+* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/harness_pterraform imagetest_harness_pterraform}
 */
 export class HarnessPterraform extends cdktf.TerraformResource {
 
@@ -241,7 +241,7 @@ export class HarnessPterraform extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HarnessPterraform resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HarnessPterraform to import
-  * @param importFromId The id of the existing HarnessPterraform that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/harness_pterraform#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HarnessPterraform that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/harness_pterraform#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HarnessPterraform to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -253,7 +253,7 @@ export class HarnessPterraform extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/harness_pterraform imagetest_harness_pterraform} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/harness_pterraform imagetest_harness_pterraform} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -264,8 +264,8 @@ export class HarnessPterraform extends cdktf.TerraformResource {
       terraformResourceType: 'imagetest_harness_pterraform',
       terraformGeneratorMetadata: {
         providerName: 'imagetest',
-        providerVersion: '0.0.104',
-        providerVersionConstraint: '0.0.104'
+        providerVersion: '0.0.106',
+        providerVersionConstraint: '0.0.106'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/custom_field_option
+// https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/custom_field_option
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface CustomFieldOptionConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the custom field this option belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/custom_field_option#custom_field_id CustomFieldOption#custom_field_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/custom_field_option#custom_field_id CustomFieldOption#custom_field_id}
   */
   readonly customFieldId: string;
   /**
   * Sort key used to order the custom field options correctly
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/custom_field_option#sort_key CustomFieldOption#sort_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/custom_field_option#sort_key CustomFieldOption#sort_key}
   */
   readonly sortKey?: number;
   /**
   * Human readable name for the custom field option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/custom_field_option#value CustomFieldOption#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/custom_field_option#value CustomFieldOption#value}
   */
   readonly value: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/custom_field_option incident_custom_field_option}
+* Represents a {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/custom_field_option incident_custom_field_option}
 */
 export class CustomFieldOption extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class CustomFieldOption extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomFieldOption resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomFieldOption to import
-  * @param importFromId The id of the existing CustomFieldOption that should be imported. Refer to the {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/custom_field_option#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomFieldOption that should be imported. Refer to the {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/custom_field_option#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomFieldOption to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class CustomFieldOption extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/custom_field_option incident_custom_field_option} Resource
+  * Create a new {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/custom_field_option incident_custom_field_option} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class CustomFieldOption extends cdktf.TerraformResource {
       terraformResourceType: 'incident_custom_field_option',
       terraformGeneratorMetadata: {
         providerName: 'incident',
-        providerVersion: '5.19.1',
-        providerVersionConstraint: '5.19.1'
+        providerVersion: '5.20.0',
+        providerVersionConstraint: '5.20.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

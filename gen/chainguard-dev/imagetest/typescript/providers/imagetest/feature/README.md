@@ -1,3 +1,3 @@
 # `imagetest_feature`
 
-Refer to the Terraform Registry for docs: [`imagetest_feature`](https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/feature).
+Refer to the Terraform Registry for docs: [`imagetest_feature`](https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/feature).

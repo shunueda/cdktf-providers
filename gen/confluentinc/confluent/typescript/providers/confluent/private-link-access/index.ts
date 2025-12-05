@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/private_link_access
+// https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/private_link_access
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PrivateLinkAccessConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the PrivateLink access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/private_link_access#display_name PrivateLinkAccess#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/private_link_access#display_name PrivateLinkAccess#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/private_link_access#id PrivateLinkAccess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/private_link_access#id PrivateLinkAccess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface PrivateLinkAccessConfig extends cdktf.TerraformMetaArguments {
   /**
   * aws block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/private_link_access#aws PrivateLinkAccess#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/private_link_access#aws PrivateLinkAccess#aws}
   */
   readonly aws?: PrivateLinkAccessAws;
   /**
   * azure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/private_link_access#azure PrivateLinkAccess#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/private_link_access#azure PrivateLinkAccess#azure}
   */
   readonly azure?: PrivateLinkAccessAzure;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/private_link_access#environment PrivateLinkAccess#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/private_link_access#environment PrivateLinkAccess#environment}
   */
   readonly environment: PrivateLinkAccessEnvironment;
   /**
   * gcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/private_link_access#gcp PrivateLinkAccess#gcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/private_link_access#gcp PrivateLinkAccess#gcp}
   */
   readonly gcp?: PrivateLinkAccessGcp;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/private_link_access#network PrivateLinkAccess#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/private_link_access#network PrivateLinkAccess#network}
   */
   readonly network: PrivateLinkAccessNetwork;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/private_link_access#timeouts PrivateLinkAccess#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/private_link_access#timeouts PrivateLinkAccess#timeouts}
   */
   readonly timeouts?: PrivateLinkAccessTimeouts;
 }
@@ -61,7 +61,7 @@ export interface PrivateLinkAccessAws {
   /**
   * AWS Account ID to allow for PrivateLink access. Find here (https://console.aws.amazon.com/billing/home?#/account) under My Account in your AWS Management Console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/private_link_access#account PrivateLinkAccess#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/private_link_access#account PrivateLinkAccess#account}
   */
   readonly account: string;
 }
@@ -144,7 +144,7 @@ export interface PrivateLinkAccessAzure {
   /**
   * Azure subscription to allow for PrivateLink access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/private_link_access#subscription PrivateLinkAccess#subscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/private_link_access#subscription PrivateLinkAccess#subscription}
   */
   readonly subscription: string;
 }
@@ -227,7 +227,7 @@ export interface PrivateLinkAccessEnvironment {
   /**
   * The unique identifier for the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/private_link_access#id PrivateLinkAccess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/private_link_access#id PrivateLinkAccess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -313,7 +313,7 @@ export interface PrivateLinkAccessGcp {
   /**
   * The GCP project ID to allow for Private Service Connect access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/private_link_access#project PrivateLinkAccess#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/private_link_access#project PrivateLinkAccess#project}
   */
   readonly project: string;
 }
@@ -396,7 +396,7 @@ export interface PrivateLinkAccessNetwork {
   /**
   * The unique identifier for the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/private_link_access#id PrivateLinkAccess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/private_link_access#id PrivateLinkAccess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -480,11 +480,11 @@ export class PrivateLinkAccessNetworkOutputReference extends cdktf.ComplexObject
 }
 export interface PrivateLinkAccessTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/private_link_access#create PrivateLinkAccess#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/private_link_access#create PrivateLinkAccess#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/private_link_access#delete PrivateLinkAccess#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/private_link_access#delete PrivateLinkAccess#delete}
   */
   readonly delete?: string;
 }
@@ -607,7 +607,7 @@ export class PrivateLinkAccessTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/private_link_access confluent_private_link_access}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/private_link_access confluent_private_link_access}
 */
 export class PrivateLinkAccess extends cdktf.TerraformResource {
 
@@ -623,7 +623,7 @@ export class PrivateLinkAccess extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PrivateLinkAccess resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PrivateLinkAccess to import
-  * @param importFromId The id of the existing PrivateLinkAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/private_link_access#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PrivateLinkAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/private_link_access#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PrivateLinkAccess to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -635,7 +635,7 @@ export class PrivateLinkAccess extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/private_link_access confluent_private_link_access} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/private_link_access confluent_private_link_access} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -646,8 +646,8 @@ export class PrivateLinkAccess extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_private_link_access',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.54.0',
-        providerVersionConstraint: '2.54.0'
+        providerVersion: '2.55.0',
+        providerVersionConstraint: '2.55.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

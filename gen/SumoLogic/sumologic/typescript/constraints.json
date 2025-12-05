@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "sumologic": "3.2.0"
+    "sumologic": "3.2.1"
   }
 }

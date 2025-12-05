@@ -2,6 +2,7 @@
 export * as activator from './activator';
 export * as apacheAirflowJob from './apache-airflow-job';
 export * as connection from './connection';
+export * as connectionRoleAssignment from './connection-role-assignment';
 export * as copyJob from './copy-job';
 export * as dataPipeline from './data-pipeline';
 export * as dataflow from './dataflow';
@@ -18,6 +19,7 @@ export * as folder from './folder';
 export * as gateway from './gateway';
 export * as gatewayRoleAssignment from './gateway-role-assignment';
 export * as graphqlApi from './graphql-api';
+export * as itemJobScheduler from './item-job-scheduler';
 export * as kqlDashboard from './kql-dashboard';
 export * as kqlDatabase from './kql-database';
 export * as kqlQueryset from './kql-queryset';
@@ -49,6 +51,8 @@ export * as dataFabricApacheAirflowJobs from './data-fabric-apache-airflow-jobs'
 export * as dataFabricCapacities from './data-fabric-capacities';
 export * as dataFabricCapacity from './data-fabric-capacity';
 export * as dataFabricConnection from './data-fabric-connection';
+export * as dataFabricConnectionRoleAssignment from './data-fabric-connection-role-assignment';
+export * as dataFabricConnectionRoleAssignments from './data-fabric-connection-role-assignments';
 export * as dataFabricConnections from './data-fabric-connections';
 export * as dataFabricCopyJob from './data-fabric-copy-job';
 export * as dataFabricCopyJobs from './data-fabric-copy-jobs';
@@ -81,6 +85,8 @@ export * as dataFabricGatewayRoleAssignments from './data-fabric-gateway-role-as
 export * as dataFabricGateways from './data-fabric-gateways';
 export * as dataFabricGraphqlApi from './data-fabric-graphql-api';
 export * as dataFabricGraphqlApis from './data-fabric-graphql-apis';
+export * as dataFabricItemJobScheduler from './data-fabric-item-job-scheduler';
+export * as dataFabricItemJobSchedulers from './data-fabric-item-job-schedulers';
 export * as dataFabricKqlDashboard from './data-fabric-kql-dashboard';
 export * as dataFabricKqlDashboards from './data-fabric-kql-dashboards';
 export * as dataFabricKqlDatabase from './data-fabric-kql-database';

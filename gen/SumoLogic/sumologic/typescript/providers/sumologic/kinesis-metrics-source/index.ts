@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source
+// https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,120 +8,120 @@ import * as cdktf from 'cdktf';
 
 export interface KinesisMetricsSourceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source#automatic_date_parsing KinesisMetricsSource#automatic_date_parsing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source#automatic_date_parsing KinesisMetricsSource#automatic_date_parsing}
   */
   readonly automaticDateParsing?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source#category KinesisMetricsSource#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source#category KinesisMetricsSource#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source#collector_id KinesisMetricsSource#collector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source#collector_id KinesisMetricsSource#collector_id}
   */
   readonly collectorId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source#content_type KinesisMetricsSource#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source#content_type KinesisMetricsSource#content_type}
   */
   readonly contentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source#cutoff_relative_time KinesisMetricsSource#cutoff_relative_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source#cutoff_relative_time KinesisMetricsSource#cutoff_relative_time}
   */
   readonly cutoffRelativeTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source#cutoff_timestamp KinesisMetricsSource#cutoff_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source#cutoff_timestamp KinesisMetricsSource#cutoff_timestamp}
   */
   readonly cutoffTimestamp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source#description KinesisMetricsSource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source#description KinesisMetricsSource#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source#fields KinesisMetricsSource#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source#fields KinesisMetricsSource#fields}
   */
   readonly fields?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source#force_timezone KinesisMetricsSource#force_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source#force_timezone KinesisMetricsSource#force_timezone}
   */
   readonly forceTimezone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source#hash_algorithm KinesisMetricsSource#hash_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source#hash_algorithm KinesisMetricsSource#hash_algorithm}
   */
   readonly hashAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source#host_name KinesisMetricsSource#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source#host_name KinesisMetricsSource#host_name}
   */
   readonly hostName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source#id KinesisMetricsSource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source#id KinesisMetricsSource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source#manual_prefix_regexp KinesisMetricsSource#manual_prefix_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source#manual_prefix_regexp KinesisMetricsSource#manual_prefix_regexp}
   */
   readonly manualPrefixRegexp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source#message_per_request KinesisMetricsSource#message_per_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source#message_per_request KinesisMetricsSource#message_per_request}
   */
   readonly messagePerRequest?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source#multiline_processing_enabled KinesisMetricsSource#multiline_processing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source#multiline_processing_enabled KinesisMetricsSource#multiline_processing_enabled}
   */
   readonly multilineProcessingEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source#name KinesisMetricsSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source#name KinesisMetricsSource#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source#timezone KinesisMetricsSource#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source#timezone KinesisMetricsSource#timezone}
   */
   readonly timezone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source#use_autoline_matching KinesisMetricsSource#use_autoline_matching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source#use_autoline_matching KinesisMetricsSource#use_autoline_matching}
   */
   readonly useAutolineMatching?: boolean | cdktf.IResolvable;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source#authentication KinesisMetricsSource#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source#authentication KinesisMetricsSource#authentication}
   */
   readonly authentication: KinesisMetricsSourceAuthentication;
   /**
   * default_date_formats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source#default_date_formats KinesisMetricsSource#default_date_formats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source#default_date_formats KinesisMetricsSource#default_date_formats}
   */
   readonly defaultDateFormats?: KinesisMetricsSourceDefaultDateFormats[] | cdktf.IResolvable;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source#filters KinesisMetricsSource#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source#filters KinesisMetricsSource#filters}
   */
   readonly filters?: KinesisMetricsSourceFilters[] | cdktf.IResolvable;
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source#path KinesisMetricsSource#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source#path KinesisMetricsSource#path}
   */
   readonly path: KinesisMetricsSourcePath;
 }
 export interface KinesisMetricsSourceAuthentication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source#access_key KinesisMetricsSource#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source#access_key KinesisMetricsSource#access_key}
   */
   readonly accessKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source#role_arn KinesisMetricsSource#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source#role_arn KinesisMetricsSource#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source#secret_key KinesisMetricsSource#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source#secret_key KinesisMetricsSource#secret_key}
   */
   readonly secretKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source#type KinesisMetricsSource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source#type KinesisMetricsSource#type}
   */
   readonly type: string;
 }
@@ -289,11 +289,11 @@ export class KinesisMetricsSourceAuthenticationOutputReference extends cdktf.Com
 }
 export interface KinesisMetricsSourceDefaultDateFormats {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source#format KinesisMetricsSource#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source#format KinesisMetricsSource#format}
   */
   readonly format: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source#locator KinesisMetricsSource#locator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source#locator KinesisMetricsSource#locator}
   */
   readonly locator?: string;
 }
@@ -435,19 +435,19 @@ export class KinesisMetricsSourceDefaultDateFormatsList extends cdktf.ComplexLis
 }
 export interface KinesisMetricsSourceFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source#filter_type KinesisMetricsSource#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source#filter_type KinesisMetricsSource#filter_type}
   */
   readonly filterType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source#mask KinesisMetricsSource#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source#mask KinesisMetricsSource#mask}
   */
   readonly mask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source#name KinesisMetricsSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source#name KinesisMetricsSource#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source#regexp KinesisMetricsSource#regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source#regexp KinesisMetricsSource#regexp}
   */
   readonly regexp: string;
 }
@@ -641,15 +641,15 @@ export class KinesisMetricsSourceFiltersList extends cdktf.ComplexList {
 }
 export interface KinesisMetricsSourcePathTagFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source#namespace KinesisMetricsSource#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source#namespace KinesisMetricsSource#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source#tags KinesisMetricsSource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source#tags KinesisMetricsSource#tags}
   */
   readonly tags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source#type KinesisMetricsSource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source#type KinesisMetricsSource#type}
   */
   readonly type?: string;
 }
@@ -823,13 +823,13 @@ export class KinesisMetricsSourcePathTagFiltersList extends cdktf.ComplexList {
 }
 export interface KinesisMetricsSourcePath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source#type KinesisMetricsSource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source#type KinesisMetricsSource#type}
   */
   readonly type: string;
   /**
   * tag_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source#tag_filters KinesisMetricsSource#tag_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source#tag_filters KinesisMetricsSource#tag_filters}
   */
   readonly tagFilters?: KinesisMetricsSourcePathTagFilters[] | cdktf.IResolvable;
 }
@@ -939,7 +939,7 @@ export class KinesisMetricsSourcePathOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source sumologic_kinesis_metrics_source}
+* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source sumologic_kinesis_metrics_source}
 */
 export class KinesisMetricsSource extends cdktf.TerraformResource {
 
@@ -955,7 +955,7 @@ export class KinesisMetricsSource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KinesisMetricsSource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KinesisMetricsSource to import
-  * @param importFromId The id of the existing KinesisMetricsSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KinesisMetricsSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KinesisMetricsSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -967,7 +967,7 @@ export class KinesisMetricsSource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/kinesis_metrics_source sumologic_kinesis_metrics_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/kinesis_metrics_source sumologic_kinesis_metrics_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -978,8 +978,8 @@ export class KinesisMetricsSource extends cdktf.TerraformResource {
       terraformResourceType: 'sumologic_kinesis_metrics_source',
       terraformGeneratorMetadata: {
         providerName: 'sumologic',
-        providerVersion: '3.2.0',
-        providerVersionConstraint: '3.2.0'
+        providerVersion: '3.2.1',
+        providerVersionConstraint: '3.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

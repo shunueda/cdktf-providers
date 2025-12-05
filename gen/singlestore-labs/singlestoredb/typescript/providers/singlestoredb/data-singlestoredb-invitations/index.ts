@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.6/docs/data-sources/invitations
+// https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/data-sources/invitations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataSinglestoredbInvitationsConfig extends cdktf.TerraformMetaA
   /**
   * The email address with which to filter the list of user invitations for a specific user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.6/docs/data-sources/invitations#email DataSinglestoredbInvitations#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/data-sources/invitations#email DataSinglestoredbInvitations#email}
   */
   readonly email?: string;
 }
@@ -111,7 +111,7 @@ export class DataSinglestoredbInvitationsInvitationsList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.6/docs/data-sources/invitations singlestoredb_invitations}
+* Represents a {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/data-sources/invitations singlestoredb_invitations}
 */
 export class DataSinglestoredbInvitations extends cdktf.TerraformDataSource {
 
@@ -127,7 +127,7 @@ export class DataSinglestoredbInvitations extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSinglestoredbInvitations resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSinglestoredbInvitations to import
-  * @param importFromId The id of the existing DataSinglestoredbInvitations that should be imported. Refer to the {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.6/docs/data-sources/invitations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSinglestoredbInvitations that should be imported. Refer to the {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/data-sources/invitations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSinglestoredbInvitations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -139,7 +139,7 @@ export class DataSinglestoredbInvitations extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.6/docs/data-sources/invitations singlestoredb_invitations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/data-sources/invitations singlestoredb_invitations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -150,8 +150,8 @@ export class DataSinglestoredbInvitations extends cdktf.TerraformDataSource {
       terraformResourceType: 'singlestoredb_invitations',
       terraformGeneratorMetadata: {
         providerName: 'singlestoredb',
-        providerVersion: '0.1.6',
-        providerVersionConstraint: '0.1.6'
+        providerVersion: '0.1.7',
+        providerVersionConstraint: '0.1.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

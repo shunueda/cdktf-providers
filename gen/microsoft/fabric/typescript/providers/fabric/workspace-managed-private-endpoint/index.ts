@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_managed_private_endpoint
+// https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_managed_private_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface WorkspaceManagedPrivateEndpointConfig extends cdktf.TerraformMe
   /**
   * <i style="color:red;font-weight: bold">(ForceNew)</i> The Workspace Managed Private Endpoint name. String length must be at most 64.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_managed_private_endpoint#name WorkspaceManagedPrivateEndpoint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_managed_private_endpoint#name WorkspaceManagedPrivateEndpoint#name}
   */
   readonly name: string;
   /**
   * <i style="color:red;font-weight: bold">(ForceNew)</i> Request message. String length must be at most 140.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_managed_private_endpoint#request_message WorkspaceManagedPrivateEndpoint#request_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_managed_private_endpoint#request_message WorkspaceManagedPrivateEndpoint#request_message}
   */
   readonly requestMessage: string;
   /**
   * <i style="color:red;font-weight: bold">(ForceNew)</i> Resource ID of data source for which private endpoint is created. Resource ID must be in the format `/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_managed_private_endpoint#target_private_link_resource_id WorkspaceManagedPrivateEndpoint#target_private_link_resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_managed_private_endpoint#target_private_link_resource_id WorkspaceManagedPrivateEndpoint#target_private_link_resource_id}
   */
   readonly targetPrivateLinkResourceId: string;
   /**
   * <i style="color:red;font-weight: bold">(ForceNew)</i> Sub-resource pointing to [Private-link resource](https://learn.microsoft.com/azure/private-link/private-endpoint-overview#private-link-resource).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_managed_private_endpoint#target_subresource_type WorkspaceManagedPrivateEndpoint#target_subresource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_managed_private_endpoint#target_subresource_type WorkspaceManagedPrivateEndpoint#target_subresource_type}
   */
   readonly targetSubresourceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_managed_private_endpoint#timeouts WorkspaceManagedPrivateEndpoint#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_managed_private_endpoint#timeouts WorkspaceManagedPrivateEndpoint#timeouts}
   */
   readonly timeouts?: WorkspaceManagedPrivateEndpointTimeouts;
   /**
   * <i style="color:red;font-weight: bold">(ForceNew)</i> The Workspace ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_managed_private_endpoint#workspace_id WorkspaceManagedPrivateEndpoint#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_managed_private_endpoint#workspace_id WorkspaceManagedPrivateEndpoint#workspace_id}
   */
   readonly workspaceId: string;
 }
@@ -110,25 +110,25 @@ export interface WorkspaceManagedPrivateEndpointTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_managed_private_endpoint#create WorkspaceManagedPrivateEndpoint#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_managed_private_endpoint#create WorkspaceManagedPrivateEndpoint#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_managed_private_endpoint#delete WorkspaceManagedPrivateEndpoint#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_managed_private_endpoint#delete WorkspaceManagedPrivateEndpoint#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_managed_private_endpoint#read WorkspaceManagedPrivateEndpoint#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_managed_private_endpoint#read WorkspaceManagedPrivateEndpoint#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_managed_private_endpoint#update WorkspaceManagedPrivateEndpoint#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_managed_private_endpoint#update WorkspaceManagedPrivateEndpoint#update}
   */
   readonly update?: string;
 }
@@ -309,7 +309,7 @@ export class WorkspaceManagedPrivateEndpointTimeoutsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_managed_private_endpoint fabric_workspace_managed_private_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_managed_private_endpoint fabric_workspace_managed_private_endpoint}
 */
 export class WorkspaceManagedPrivateEndpoint extends cdktf.TerraformResource {
 
@@ -325,7 +325,7 @@ export class WorkspaceManagedPrivateEndpoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkspaceManagedPrivateEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkspaceManagedPrivateEndpoint to import
-  * @param importFromId The id of the existing WorkspaceManagedPrivateEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_managed_private_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkspaceManagedPrivateEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_managed_private_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkspaceManagedPrivateEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -337,7 +337,7 @@ export class WorkspaceManagedPrivateEndpoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_managed_private_endpoint fabric_workspace_managed_private_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_managed_private_endpoint fabric_workspace_managed_private_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -348,8 +348,8 @@ export class WorkspaceManagedPrivateEndpoint extends cdktf.TerraformResource {
       terraformResourceType: 'fabric_workspace_managed_private_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'fabric',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

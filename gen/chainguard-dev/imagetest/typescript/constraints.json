@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "imagetest": "0.0.104"
+    "imagetest": "0.0.106"
   }
 }

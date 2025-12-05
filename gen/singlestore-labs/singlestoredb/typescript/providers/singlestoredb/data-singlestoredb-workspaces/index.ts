@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.6/docs/data-sources/workspaces
+// https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/data-sources/workspaces
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataSinglestoredbWorkspacesConfig extends cdktf.TerraformMetaAr
   /**
   * The unique identifier of the workspace group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.6/docs/data-sources/workspaces#workspace_group_id DataSinglestoredbWorkspaces#workspace_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/data-sources/workspaces#workspace_group_id DataSinglestoredbWorkspaces#workspace_group_id}
   */
   readonly workspaceGroupId: string;
 }
@@ -281,7 +281,7 @@ export class DataSinglestoredbWorkspacesWorkspacesList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.6/docs/data-sources/workspaces singlestoredb_workspaces}
+* Represents a {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/data-sources/workspaces singlestoredb_workspaces}
 */
 export class DataSinglestoredbWorkspaces extends cdktf.TerraformDataSource {
 
@@ -297,7 +297,7 @@ export class DataSinglestoredbWorkspaces extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSinglestoredbWorkspaces resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSinglestoredbWorkspaces to import
-  * @param importFromId The id of the existing DataSinglestoredbWorkspaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.6/docs/data-sources/workspaces#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSinglestoredbWorkspaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/data-sources/workspaces#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSinglestoredbWorkspaces to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -309,7 +309,7 @@ export class DataSinglestoredbWorkspaces extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.6/docs/data-sources/workspaces singlestoredb_workspaces} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/singlestore-labs/singlestoredb/0.1.7/docs/data-sources/workspaces singlestoredb_workspaces} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -320,8 +320,8 @@ export class DataSinglestoredbWorkspaces extends cdktf.TerraformDataSource {
       terraformResourceType: 'singlestoredb_workspaces',
       terraformGeneratorMetadata: {
         providerName: 'singlestoredb',
-        providerVersion: '0.1.6',
-        providerVersionConstraint: '0.1.6'
+        providerVersion: '0.1.7',
+        providerVersionConstraint: '0.1.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

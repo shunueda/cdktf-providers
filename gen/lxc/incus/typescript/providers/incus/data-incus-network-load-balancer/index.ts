@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_load_balancer
+// https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network_load_balancer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,53 +8,53 @@ import * as cdktf from 'cdktf';
 
 export interface DataIncusNetworkLoadBalancerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_load_balancer#backends DataIncusNetworkLoadBalancer#backends}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network_load_balancer#backends DataIncusNetworkLoadBalancer#backends}
   */
   readonly backends?: DataIncusNetworkLoadBalancerBackends[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_load_balancer#description DataIncusNetworkLoadBalancer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network_load_balancer#description DataIncusNetworkLoadBalancer#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_load_balancer#listen_address DataIncusNetworkLoadBalancer#listen_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network_load_balancer#listen_address DataIncusNetworkLoadBalancer#listen_address}
   */
   readonly listenAddress: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_load_balancer#location DataIncusNetworkLoadBalancer#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network_load_balancer#location DataIncusNetworkLoadBalancer#location}
   */
   readonly location?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_load_balancer#network DataIncusNetworkLoadBalancer#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network_load_balancer#network DataIncusNetworkLoadBalancer#network}
   */
   readonly network: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_load_balancer#ports DataIncusNetworkLoadBalancer#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network_load_balancer#ports DataIncusNetworkLoadBalancer#ports}
   */
   readonly ports?: DataIncusNetworkLoadBalancerPorts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_load_balancer#project DataIncusNetworkLoadBalancer#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network_load_balancer#project DataIncusNetworkLoadBalancer#project}
   */
   readonly project?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_load_balancer#remote DataIncusNetworkLoadBalancer#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network_load_balancer#remote DataIncusNetworkLoadBalancer#remote}
   */
   readonly remote?: string;
 }
 export interface DataIncusNetworkLoadBalancerBackends {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_load_balancer#description DataIncusNetworkLoadBalancer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network_load_balancer#description DataIncusNetworkLoadBalancer#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_load_balancer#name DataIncusNetworkLoadBalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network_load_balancer#name DataIncusNetworkLoadBalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_load_balancer#target_address DataIncusNetworkLoadBalancer#target_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network_load_balancer#target_address DataIncusNetworkLoadBalancer#target_address}
   */
   readonly targetAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_load_balancer#target_port DataIncusNetworkLoadBalancer#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network_load_balancer#target_port DataIncusNetworkLoadBalancer#target_port}
   */
   readonly targetPort?: string;
 }
@@ -257,19 +257,19 @@ export class DataIncusNetworkLoadBalancerBackendsList extends cdktf.ComplexList 
 }
 export interface DataIncusNetworkLoadBalancerPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_load_balancer#description DataIncusNetworkLoadBalancer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network_load_balancer#description DataIncusNetworkLoadBalancer#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_load_balancer#listen_port DataIncusNetworkLoadBalancer#listen_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network_load_balancer#listen_port DataIncusNetworkLoadBalancer#listen_port}
   */
   readonly listenPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_load_balancer#protocol DataIncusNetworkLoadBalancer#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network_load_balancer#protocol DataIncusNetworkLoadBalancer#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_load_balancer#target_backend DataIncusNetworkLoadBalancer#target_backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network_load_balancer#target_backend DataIncusNetworkLoadBalancer#target_backend}
   */
   readonly targetBackend?: string[];
 }
@@ -472,7 +472,7 @@ export class DataIncusNetworkLoadBalancerPortsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_load_balancer incus_network_load_balancer}
+* Represents a {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network_load_balancer incus_network_load_balancer}
 */
 export class DataIncusNetworkLoadBalancer extends cdktf.TerraformDataSource {
 
@@ -488,7 +488,7 @@ export class DataIncusNetworkLoadBalancer extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIncusNetworkLoadBalancer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIncusNetworkLoadBalancer to import
-  * @param importFromId The id of the existing DataIncusNetworkLoadBalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_load_balancer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIncusNetworkLoadBalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network_load_balancer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIncusNetworkLoadBalancer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -500,7 +500,7 @@ export class DataIncusNetworkLoadBalancer extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/data-sources/network_load_balancer incus_network_load_balancer} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network_load_balancer incus_network_load_balancer} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -511,8 +511,8 @@ export class DataIncusNetworkLoadBalancer extends cdktf.TerraformDataSource {
       terraformResourceType: 'incus_network_load_balancer',
       terraformGeneratorMetadata: {
         providerName: 'incus',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.0.1',
+        providerVersionConstraint: '1.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

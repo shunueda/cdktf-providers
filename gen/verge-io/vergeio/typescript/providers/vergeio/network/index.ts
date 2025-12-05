@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/network
+// https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/resources/network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,127 +10,127 @@ export interface NetworkConfig extends cdktf.TerraformMetaArguments {
   /**
   * Bonding interfaces arguments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/network#bond_interfaces_args Network#bond_interfaces_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/resources/network#bond_interfaces_args Network#bond_interfaces_args}
   */
   readonly bondInterfacesArgs?: number[];
   /**
   * Is DHCP enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/network#dhcp_enabled Network#dhcp_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/resources/network#dhcp_enabled Network#dhcp_enabled}
   */
   readonly dhcpEnabled?: boolean | cdktf.IResolvable;
   /**
   * Is DHCP sequential
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/network#dhcp_sequential Network#dhcp_sequential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/resources/network#dhcp_sequential Network#dhcp_sequential}
   */
   readonly dhcpSequential?: boolean | cdktf.IResolvable;
   /**
   * DHCP start address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/network#dhcp_start Network#dhcp_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/resources/network#dhcp_start Network#dhcp_start}
   */
   readonly dhcpStart?: string;
   /**
   * DHCP stop address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/network#dhcp_stop Network#dhcp_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/resources/network#dhcp_stop Network#dhcp_stop}
   */
   readonly dhcpStop?: string;
   /**
   * Is DHCP dynamic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/network#dynamic_dhcp Network#dynamic_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/resources/network#dynamic_dhcp Network#dynamic_dhcp}
   */
   readonly dynamicDhcp?: boolean | cdktf.IResolvable;
   /**
   * Enable bonding
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/network#enable_bonding Network#enable_bonding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/resources/network#enable_bonding Network#enable_bonding}
   */
   readonly enableBonding?: boolean | cdktf.IResolvable;
   /**
   * Network state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/network#enabled Network#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/resources/network#enabled Network#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Key/ID of the physical network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/network#interface_vnet Network#interface_vnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/resources/network#interface_vnet Network#interface_vnet}
   */
   readonly interfaceVnet?: number;
   /**
   * IP address assigned to network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/network#ipaddress Network#ipaddress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/resources/network#ipaddress Network#ipaddress}
   */
   readonly ipaddress?: string;
   /**
   * IP address type of the vnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/network#ipaddress_type Network#ipaddress_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/resources/network#ipaddress_type Network#ipaddress_type}
   */
   readonly ipaddressType?: string;
   /**
   * VLAN ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/network#layer2_id Network#layer2_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/resources/network#layer2_id Network#layer2_id}
   */
   readonly layer2Id?: number;
   /**
   * Layer2 type of the vnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/network#layer2_type Network#layer2_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/resources/network#layer2_type Network#layer2_type}
   */
   readonly layer2Type?: string;
   /**
   * Network MTU
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/network#mtu Network#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/resources/network#mtu Network#mtu}
   */
   readonly mtu?: number;
   /**
   * Unique network name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/network#name Network#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/resources/network#name Network#name}
   */
   readonly name: string;
   /**
   * Network address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/network#network Network#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/resources/network#network Network#network}
   */
   readonly network?: string;
   /**
   * What to do on power loss
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/network#on_power_loss Network#on_power_loss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/resources/network#on_power_loss Network#on_power_loss}
   */
   readonly onPowerLoss?: string;
   /**
   * Power state of the network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/network#powerstate Network#powerstate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/resources/network#powerstate Network#powerstate}
   */
   readonly powerstate?: string;
   /**
   * Type of Network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/network#type Network#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/resources/network#type Network#type}
   */
   readonly type?: string;
   /**
   * Vnet default gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/network#vnet_default_gateway Network#vnet_default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/resources/network#vnet_default_gateway Network#vnet_default_gateway}
   */
   readonly vnetDefaultGateway?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/network vergeio_network}
+* Represents a {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/resources/network vergeio_network}
 */
 export class Network extends cdktf.TerraformResource {
 
@@ -146,7 +146,7 @@ export class Network extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Network resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Network to import
-  * @param importFromId The id of the existing Network that should be imported. Refer to the {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Network that should be imported. Refer to the {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/resources/network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Network to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -158,7 +158,7 @@ export class Network extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/resources/network vergeio_network} Resource
+  * Create a new {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/resources/network vergeio_network} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -169,8 +169,8 @@ export class Network extends cdktf.TerraformResource {
       terraformResourceType: 'vergeio_network',
       terraformGeneratorMetadata: {
         providerName: 'vergeio',
-        providerVersion: '2.7.2',
-        providerVersionConstraint: '2.7.2'
+        providerVersion: '2.7.3',
+        providerVersionConstraint: '2.7.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

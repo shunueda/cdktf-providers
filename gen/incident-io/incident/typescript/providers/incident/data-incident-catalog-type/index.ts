@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/data-sources/catalog_type
+// https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/data-sources/catalog_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataIncidentCatalogTypeConfig extends cdktf.TerraformMetaArgume
   /**
   * The categories that this type belongs to, to be shown in the web dashboard. Possible values are: `customer`, `issue-tracker`, `product-feature`, `service`, `on-call`, `team`, `user`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/data-sources/catalog_type#categories DataIncidentCatalogType#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/data-sources/catalog_type#categories DataIncidentCatalogType#categories}
   */
   readonly categories?: string[];
   /**
   * Name is the human readable name of this type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/data-sources/catalog_type#name DataIncidentCatalogType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/data-sources/catalog_type#name DataIncidentCatalogType#name}
   */
   readonly name?: string;
   /**
   * The type name of this catalog type, to be used when defining attributes. This is immutable once a CatalogType has been created. For non-externally sync types, it must follow the pattern Custom["SomeName"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/data-sources/catalog_type#type_name DataIncidentCatalogType#type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/data-sources/catalog_type#type_name DataIncidentCatalogType#type_name}
   */
   readonly typeName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/data-sources/catalog_type incident_catalog_type}
+* Represents a {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/data-sources/catalog_type incident_catalog_type}
 */
 export class DataIncidentCatalogType extends cdktf.TerraformDataSource {
 
@@ -44,7 +44,7 @@ export class DataIncidentCatalogType extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIncidentCatalogType resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIncidentCatalogType to import
-  * @param importFromId The id of the existing DataIncidentCatalogType that should be imported. Refer to the {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/data-sources/catalog_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIncidentCatalogType that should be imported. Refer to the {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/data-sources/catalog_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIncidentCatalogType to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DataIncidentCatalogType extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/data-sources/catalog_type incident_catalog_type} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/data-sources/catalog_type incident_catalog_type} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class DataIncidentCatalogType extends cdktf.TerraformDataSource {
       terraformResourceType: 'incident_catalog_type',
       terraformGeneratorMetadata: {
         providerName: 'incident',
-        providerVersion: '5.19.1',
-        providerVersionConstraint: '5.19.1'
+        providerVersion: '5.20.0',
+        providerVersionConstraint: '5.20.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

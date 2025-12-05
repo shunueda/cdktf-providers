@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_workspace_settings
+// https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_workspace_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface SparkWorkspaceSettingsConfig extends cdktf.TerraformMetaArgumen
   /**
   * Automatic Log properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_workspace_settings#automatic_log SparkWorkspaceSettings#automatic_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_workspace_settings#automatic_log SparkWorkspaceSettings#automatic_log}
   */
   readonly automaticLog?: SparkWorkspaceSettingsAutomaticLog;
   /**
   * Environment properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_workspace_settings#environment SparkWorkspaceSettings#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_workspace_settings#environment SparkWorkspaceSettings#environment}
   */
   readonly environment?: SparkWorkspaceSettingsEnvironment;
   /**
   * High Concurrency properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_workspace_settings#high_concurrency SparkWorkspaceSettings#high_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_workspace_settings#high_concurrency SparkWorkspaceSettings#high_concurrency}
   */
   readonly highConcurrency?: SparkWorkspaceSettingsHighConcurrency;
   /**
   * Job properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_workspace_settings#job SparkWorkspaceSettings#job}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_workspace_settings#job SparkWorkspaceSettings#job}
   */
   readonly job?: SparkWorkspaceSettingsJob;
   /**
   * Pool properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_workspace_settings#pool SparkWorkspaceSettings#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_workspace_settings#pool SparkWorkspaceSettings#pool}
   */
   readonly pool?: SparkWorkspaceSettingsPool;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_workspace_settings#timeouts SparkWorkspaceSettings#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_workspace_settings#timeouts SparkWorkspaceSettings#timeouts}
   */
   readonly timeouts?: SparkWorkspaceSettingsTimeouts;
   /**
   * <i style="color:red;font-weight: bold">(ForceNew)</i> The Workspace ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_workspace_settings#workspace_id SparkWorkspaceSettings#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_workspace_settings#workspace_id SparkWorkspaceSettings#workspace_id}
   */
   readonly workspaceId: string;
 }
@@ -52,7 +52,7 @@ export interface SparkWorkspaceSettingsAutomaticLog {
   /**
   * The status of the automatic log: `false` - Disabled, `true` - Enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_workspace_settings#enabled SparkWorkspaceSettings#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_workspace_settings#enabled SparkWorkspaceSettings#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -148,13 +148,13 @@ export interface SparkWorkspaceSettingsEnvironment {
   /**
   * The name of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_workspace_settings#name SparkWorkspaceSettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_workspace_settings#name SparkWorkspaceSettings#name}
   */
   readonly name?: string;
   /**
   * [Runtime](https://review.learn.microsoft.com/fabric/data-engineering/runtime) version. Value must be one of : `1.1`, `1.2`, `1.3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_workspace_settings#runtime_version SparkWorkspaceSettings#runtime_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_workspace_settings#runtime_version SparkWorkspaceSettings#runtime_version}
   */
   readonly runtimeVersion?: string;
 }
@@ -279,13 +279,13 @@ export interface SparkWorkspaceSettingsHighConcurrency {
   /**
   * The status of the high concurrency for notebook interactive run: `false` - Disabled, `true` - Enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_workspace_settings#notebook_interactive_run_enabled SparkWorkspaceSettings#notebook_interactive_run_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_workspace_settings#notebook_interactive_run_enabled SparkWorkspaceSettings#notebook_interactive_run_enabled}
   */
   readonly notebookInteractiveRunEnabled?: boolean | cdktf.IResolvable;
   /**
   * The status of the high concurrency for notebook pipeline run: `false` - Disabled, `true` - Enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_workspace_settings#notebook_pipeline_run_enabled SparkWorkspaceSettings#notebook_pipeline_run_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_workspace_settings#notebook_pipeline_run_enabled SparkWorkspaceSettings#notebook_pipeline_run_enabled}
   */
   readonly notebookPipelineRunEnabled?: boolean | cdktf.IResolvable;
 }
@@ -410,13 +410,13 @@ export interface SparkWorkspaceSettingsJob {
   /**
   * Reserve maximum cores for active Spark jobs. When this setting is enabled, your Fabric capacity reserves the maximum number of cores needed for active Spark jobs, ensuring job reliability by making sure that cores are available if a job scales up. When this setting is disabled, jobs are started based on the minimum number of cores needed, letting more jobs run at the same time. `false` - Disabled, `true` - Enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_workspace_settings#conservative_job_admission_enabled SparkWorkspaceSettings#conservative_job_admission_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_workspace_settings#conservative_job_admission_enabled SparkWorkspaceSettings#conservative_job_admission_enabled}
   */
   readonly conservativeJobAdmissionEnabled?: boolean | cdktf.IResolvable;
   /**
   * Time to terminate inactive Spark sessions. The maximum is 14 days (20160 minutes). Value must be at most 20160.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_workspace_settings#session_timeout_in_minutes SparkWorkspaceSettings#session_timeout_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_workspace_settings#session_timeout_in_minutes SparkWorkspaceSettings#session_timeout_in_minutes}
   */
   readonly sessionTimeoutInMinutes?: number;
 }
@@ -541,7 +541,7 @@ export interface SparkWorkspaceSettingsPoolDefaultPool {
   /**
   * The Pool ID. `00000000-0000-0000-0000-000000000000` means use the starter pool. Ensure that if an attribute is set, these are not set: "[<.name,<.type]".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_workspace_settings#id SparkWorkspaceSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_workspace_settings#id SparkWorkspaceSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -550,13 +550,13 @@ export interface SparkWorkspaceSettingsPoolDefaultPool {
   /**
   * The Pool name. `Starter Pool` means use the starting pool. Ensure that if an attribute is set, also these are set: "[<.type]". Ensure that if an attribute is set, these are not set: "[<.id]".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_workspace_settings#name SparkWorkspaceSettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_workspace_settings#name SparkWorkspaceSettings#name}
   */
   readonly name?: string;
   /**
   * The Pool type. Value must be one of : `Capacity`, `Workspace`. Ensure that if an attribute is set, also these are set: "[<.name]". Ensure that if an attribute is set, these are not set: "[<.id]".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_workspace_settings#type SparkWorkspaceSettings#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_workspace_settings#type SparkWorkspaceSettings#type}
   */
   readonly type?: string;
 }
@@ -710,13 +710,13 @@ export interface SparkWorkspaceSettingsPoolStarterPool {
   /**
   * The maximum executors count.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_workspace_settings#max_executors SparkWorkspaceSettings#max_executors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_workspace_settings#max_executors SparkWorkspaceSettings#max_executors}
   */
   readonly maxExecutors?: number;
   /**
   * The maximum node count.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_workspace_settings#max_node_count SparkWorkspaceSettings#max_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_workspace_settings#max_node_count SparkWorkspaceSettings#max_node_count}
   */
   readonly maxNodeCount?: number;
 }
@@ -841,19 +841,19 @@ export interface SparkWorkspaceSettingsPool {
   /**
   * Customize compute configurations for items. `false` - Disabled, `true` - Enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_workspace_settings#customize_compute_enabled SparkWorkspaceSettings#customize_compute_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_workspace_settings#customize_compute_enabled SparkWorkspaceSettings#customize_compute_enabled}
   */
   readonly customizeComputeEnabled?: boolean | cdktf.IResolvable;
   /**
   * Default pool for workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_workspace_settings#default_pool SparkWorkspaceSettings#default_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_workspace_settings#default_pool SparkWorkspaceSettings#default_pool}
   */
   readonly defaultPool?: SparkWorkspaceSettingsPoolDefaultPool;
   /**
   * Starter pool for workspace. For more information about configuring starter pool, see [configuring starter pool](https://review.learn.microsoft.com/fabric/data-engineering/configure-starter-pools).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_workspace_settings#starter_pool SparkWorkspaceSettings#starter_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_workspace_settings#starter_pool SparkWorkspaceSettings#starter_pool}
   */
   readonly starterPool?: SparkWorkspaceSettingsPoolStarterPool;
 }
@@ -1007,25 +1007,25 @@ export interface SparkWorkspaceSettingsTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_workspace_settings#create SparkWorkspaceSettings#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_workspace_settings#create SparkWorkspaceSettings#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_workspace_settings#delete SparkWorkspaceSettings#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_workspace_settings#delete SparkWorkspaceSettings#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_workspace_settings#read SparkWorkspaceSettings#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_workspace_settings#read SparkWorkspaceSettings#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_workspace_settings#update SparkWorkspaceSettings#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_workspace_settings#update SparkWorkspaceSettings#update}
   */
   readonly update?: string;
 }
@@ -1206,7 +1206,7 @@ export class SparkWorkspaceSettingsTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_workspace_settings fabric_spark_workspace_settings}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_workspace_settings fabric_spark_workspace_settings}
 */
 export class SparkWorkspaceSettings extends cdktf.TerraformResource {
 
@@ -1222,7 +1222,7 @@ export class SparkWorkspaceSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SparkWorkspaceSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SparkWorkspaceSettings to import
-  * @param importFromId The id of the existing SparkWorkspaceSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_workspace_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SparkWorkspaceSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_workspace_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SparkWorkspaceSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1234,7 +1234,7 @@ export class SparkWorkspaceSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_workspace_settings fabric_spark_workspace_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_workspace_settings fabric_spark_workspace_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1245,8 +1245,8 @@ export class SparkWorkspaceSettings extends cdktf.TerraformResource {
       terraformResourceType: 'fabric_spark_workspace_settings',
       terraformGeneratorMetadata: {
         providerName: 'fabric',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

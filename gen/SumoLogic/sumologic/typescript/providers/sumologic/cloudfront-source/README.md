@@ -1,3 +1,3 @@
 # `sumologic_cloudfront_source`
 
-Refer to the Terraform Registry for docs: [`sumologic_cloudfront_source`](https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cloudfront_source).
+Refer to the Terraform Registry for docs: [`sumologic_cloudfront_source`](https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cloudfront_source).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_git
+// https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_git
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface WorkspaceGitConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Git credentials details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_git#git_credentials WorkspaceGit#git_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_git#git_credentials WorkspaceGit#git_credentials}
   */
   readonly gitCredentials: WorkspaceGitGitCredentials;
   /**
   * <i style="color:red;font-weight: bold">(ForceNew)</i> The Git provider details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_git#git_provider_details WorkspaceGit#git_provider_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_git#git_provider_details WorkspaceGit#git_provider_details}
   */
   readonly gitProviderDetails: WorkspaceGitGitProviderDetails;
   /**
   * <i style="color:red;font-weight: bold">(ForceNew)</i> The initialization strategy. Value must be one of : `PreferRemote`, `PreferWorkspace`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_git#initialization_strategy WorkspaceGit#initialization_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_git#initialization_strategy WorkspaceGit#initialization_strategy}
   */
   readonly initializationStrategy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_git#timeouts WorkspaceGit#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_git#timeouts WorkspaceGit#timeouts}
   */
   readonly timeouts?: WorkspaceGitTimeouts;
   /**
   * <i style="color:red;font-weight: bold">(ForceNew)</i> The Workspace ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_git#workspace_id WorkspaceGit#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_git#workspace_id WorkspaceGit#workspace_id}
   */
   readonly workspaceId: string;
 }
@@ -40,7 +40,7 @@ export interface WorkspaceGitGitCredentials {
   /**
   * The connection ID. If the value of [`git_credentials.source`](#git_credentials.source) attribute is `ConfiguredConnection` this attribute is **REQUIRED**. If the value of [`git_credentials.source`](#git_credentials.source) attribute is `Automatic` this attribute is **NULL**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_git#connection_id WorkspaceGit#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_git#connection_id WorkspaceGit#connection_id}
   */
   readonly connectionId?: string;
   /**
@@ -50,7 +50,7 @@ export interface WorkspaceGitGitCredentials {
   * 
   * -> **If the value of the attribute [`git_provider_details.git_provider_type`](#git_provider_details.git_provider_type) is `AzureDevOps` the value is one of** - `"ConfiguredConnection"` - ConfiguredConnection<br>- `"Automatic"` - Automatic<br>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_git#source WorkspaceGit#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_git#source WorkspaceGit#source}
   */
   readonly source: string;
 }
@@ -172,43 +172,43 @@ export interface WorkspaceGitGitProviderDetails {
   /**
   * The branch name. String length must be at most 250.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_git#branch_name WorkspaceGit#branch_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_git#branch_name WorkspaceGit#branch_name}
   */
   readonly branchName: string;
   /**
   * The directory name. String length must be at most 256. Directory name path must starts with forward slash '/'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_git#directory_name WorkspaceGit#directory_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_git#directory_name WorkspaceGit#directory_name}
   */
   readonly directoryName: string;
   /**
   * The git provider type. Value must be one of : `AzureDevOps`, `GitHub`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_git#git_provider_type WorkspaceGit#git_provider_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_git#git_provider_type WorkspaceGit#git_provider_type}
   */
   readonly gitProviderType: string;
   /**
   * The Azure DevOps organization name. String length must be at most 100. If the value of [`git_provider_details.git_provider_type`](#git_provider_details.git_provider_type) attribute is `GitHub` this attribute is **NULL**. If the value of [`git_provider_details.git_provider_type`](#git_provider_details.git_provider_type) attribute is `AzureDevOps` this attribute is **REQUIRED**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_git#organization_name WorkspaceGit#organization_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_git#organization_name WorkspaceGit#organization_name}
   */
   readonly organizationName?: string;
   /**
   * The GitHub owner name. String length must be at most 100. If the value of [`git_provider_details.git_provider_type`](#git_provider_details.git_provider_type) attribute is `AzureDevOps` this attribute is **NULL**. If the value of [`git_provider_details.git_provider_type`](#git_provider_details.git_provider_type) attribute is `GitHub` this attribute is **REQUIRED**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_git#owner_name WorkspaceGit#owner_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_git#owner_name WorkspaceGit#owner_name}
   */
   readonly ownerName?: string;
   /**
   * The Azure DevOps project name. String length must be at most 100. If the value of [`git_provider_details.git_provider_type`](#git_provider_details.git_provider_type) attribute is `GitHub` this attribute is **NULL**. If the value of [`git_provider_details.git_provider_type`](#git_provider_details.git_provider_type) attribute is `AzureDevOps` this attribute is **REQUIRED**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_git#project_name WorkspaceGit#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_git#project_name WorkspaceGit#project_name}
   */
   readonly projectName?: string;
   /**
   * The repository name. String length must be at most 128.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_git#repository_name WorkspaceGit#repository_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_git#repository_name WorkspaceGit#repository_name}
   */
   readonly repositoryName: string;
 }
@@ -525,25 +525,25 @@ export interface WorkspaceGitTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_git#create WorkspaceGit#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_git#create WorkspaceGit#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_git#delete WorkspaceGit#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_git#delete WorkspaceGit#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_git#read WorkspaceGit#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_git#read WorkspaceGit#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_git#update WorkspaceGit#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_git#update WorkspaceGit#update}
   */
   readonly update?: string;
 }
@@ -724,7 +724,7 @@ export class WorkspaceGitTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_git fabric_workspace_git}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_git fabric_workspace_git}
 */
 export class WorkspaceGit extends cdktf.TerraformResource {
 
@@ -740,7 +740,7 @@ export class WorkspaceGit extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkspaceGit resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkspaceGit to import
-  * @param importFromId The id of the existing WorkspaceGit that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_git#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkspaceGit that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_git#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkspaceGit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -752,7 +752,7 @@ export class WorkspaceGit extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/workspace_git fabric_workspace_git} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/workspace_git fabric_workspace_git} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -763,8 +763,8 @@ export class WorkspaceGit extends cdktf.TerraformResource {
       terraformResourceType: 'fabric_workspace_git',
       terraformGeneratorMetadata: {
         providerName: 'fabric',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

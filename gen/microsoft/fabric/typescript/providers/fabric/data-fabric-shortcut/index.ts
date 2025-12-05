@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/shortcut
+// https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/shortcut
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DataFabricShortcutConfig extends cdktf.TerraformMetaArguments {
   /**
   * Item ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/shortcut#item_id DataFabricShortcut#item_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/shortcut#item_id DataFabricShortcut#item_id}
   */
   readonly itemId: string;
   /**
   * Name of the shortcut.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/shortcut#name DataFabricShortcut#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/shortcut#name DataFabricShortcut#name}
   */
   readonly name: string;
   /**
   * A string representing the full path where the shortcut is created, including either "Files" or "Tables".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/shortcut#path DataFabricShortcut#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/shortcut#path DataFabricShortcut#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/shortcut#timeouts DataFabricShortcut#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/shortcut#timeouts DataFabricShortcut#timeouts}
   */
   readonly timeouts?: DataFabricShortcutTimeouts;
   /**
   * The Workspace ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/shortcut#workspace_id DataFabricShortcut#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/shortcut#workspace_id DataFabricShortcut#workspace_id}
   */
   readonly workspaceId: string;
 }
@@ -654,7 +654,7 @@ export interface DataFabricShortcutTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/shortcut#read DataFabricShortcut#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/shortcut#read DataFabricShortcut#read}
   */
   readonly read?: string;
 }
@@ -748,7 +748,7 @@ export class DataFabricShortcutTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/shortcut fabric_shortcut}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/shortcut fabric_shortcut}
 */
 export class DataFabricShortcut extends cdktf.TerraformDataSource {
 
@@ -764,7 +764,7 @@ export class DataFabricShortcut extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFabricShortcut resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFabricShortcut to import
-  * @param importFromId The id of the existing DataFabricShortcut that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/shortcut#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFabricShortcut that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/shortcut#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFabricShortcut to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -776,7 +776,7 @@ export class DataFabricShortcut extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/shortcut fabric_shortcut} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/shortcut fabric_shortcut} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -787,8 +787,8 @@ export class DataFabricShortcut extends cdktf.TerraformDataSource {
       terraformResourceType: 'fabric_shortcut',
       terraformGeneratorMetadata: {
         providerName: 'fabric',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

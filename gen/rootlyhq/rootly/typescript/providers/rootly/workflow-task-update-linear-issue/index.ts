@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_linear_issue
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_linear_issue
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskUpdateLinearIssueConfig extends cdktf.TerraformMeta
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_linear_issue#enabled WorkflowTaskUpdateLinearIssue#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_linear_issue#enabled WorkflowTaskUpdateLinearIssue#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_linear_issue#id WorkflowTaskUpdateLinearIssue#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_linear_issue#id WorkflowTaskUpdateLinearIssue#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,44 +23,44 @@ export interface WorkflowTaskUpdateLinearIssueConfig extends cdktf.TerraformMeta
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_linear_issue#name WorkflowTaskUpdateLinearIssue#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_linear_issue#name WorkflowTaskUpdateLinearIssue#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_linear_issue#position WorkflowTaskUpdateLinearIssue#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_linear_issue#position WorkflowTaskUpdateLinearIssue#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_linear_issue#skip_on_failure WorkflowTaskUpdateLinearIssue#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_linear_issue#skip_on_failure WorkflowTaskUpdateLinearIssue#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_linear_issue#workflow_id WorkflowTaskUpdateLinearIssue#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_linear_issue#workflow_id WorkflowTaskUpdateLinearIssue#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_linear_issue#task_params WorkflowTaskUpdateLinearIssue#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_linear_issue#task_params WorkflowTaskUpdateLinearIssue#task_params}
   */
   readonly taskParams: WorkflowTaskUpdateLinearIssueTaskParams;
 }
 export interface WorkflowTaskUpdateLinearIssueTaskParamsLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_linear_issue#id WorkflowTaskUpdateLinearIssue#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_linear_issue#id WorkflowTaskUpdateLinearIssue#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_linear_issue#name WorkflowTaskUpdateLinearIssue#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_linear_issue#name WorkflowTaskUpdateLinearIssue#name}
   */
   readonly name: string;
 }
@@ -201,53 +201,53 @@ export interface WorkflowTaskUpdateLinearIssueTaskParams {
   /**
   * The assigned user's email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_linear_issue#assign_user_email WorkflowTaskUpdateLinearIssue#assign_user_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_linear_issue#assign_user_email WorkflowTaskUpdateLinearIssue#assign_user_email}
   */
   readonly assignUserEmail?: string;
   /**
   * The issue description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_linear_issue#description WorkflowTaskUpdateLinearIssue#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_linear_issue#description WorkflowTaskUpdateLinearIssue#description}
   */
   readonly description?: string;
   /**
   * The issue id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_linear_issue#issue_id WorkflowTaskUpdateLinearIssue#issue_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_linear_issue#issue_id WorkflowTaskUpdateLinearIssue#issue_id}
   */
   readonly issueId: string;
   /**
   * Map must contain two fields, `id` and `name`. The priority id and display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_linear_issue#priority WorkflowTaskUpdateLinearIssue#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_linear_issue#priority WorkflowTaskUpdateLinearIssue#priority}
   */
   readonly priority?: { [key: string]: string };
   /**
   * Map must contain two fields, `id` and `name`. The project id and display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_linear_issue#project WorkflowTaskUpdateLinearIssue#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_linear_issue#project WorkflowTaskUpdateLinearIssue#project}
   */
   readonly project?: { [key: string]: string };
   /**
   * Map must contain two fields, `id` and `name`. The state id and display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_linear_issue#state WorkflowTaskUpdateLinearIssue#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_linear_issue#state WorkflowTaskUpdateLinearIssue#state}
   */
   readonly state?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_linear_issue#task_type WorkflowTaskUpdateLinearIssue#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_linear_issue#task_type WorkflowTaskUpdateLinearIssue#task_type}
   */
   readonly taskType?: string;
   /**
   * The issue title
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_linear_issue#title WorkflowTaskUpdateLinearIssue#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_linear_issue#title WorkflowTaskUpdateLinearIssue#title}
   */
   readonly title?: string;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_linear_issue#labels WorkflowTaskUpdateLinearIssue#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_linear_issue#labels WorkflowTaskUpdateLinearIssue#labels}
   */
   readonly labels?: WorkflowTaskUpdateLinearIssueTaskParamsLabels[] | cdktf.IResolvable;
 }
@@ -560,7 +560,7 @@ export class WorkflowTaskUpdateLinearIssueTaskParamsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_linear_issue rootly_workflow_task_update_linear_issue}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_linear_issue rootly_workflow_task_update_linear_issue}
 */
 export class WorkflowTaskUpdateLinearIssue extends cdktf.TerraformResource {
 
@@ -576,7 +576,7 @@ export class WorkflowTaskUpdateLinearIssue extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowTaskUpdateLinearIssue resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskUpdateLinearIssue to import
-  * @param importFromId The id of the existing WorkflowTaskUpdateLinearIssue that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_linear_issue#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskUpdateLinearIssue that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_linear_issue#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskUpdateLinearIssue to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -588,7 +588,7 @@ export class WorkflowTaskUpdateLinearIssue extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_linear_issue rootly_workflow_task_update_linear_issue} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_update_linear_issue rootly_workflow_task_update_linear_issue} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -599,8 +599,8 @@ export class WorkflowTaskUpdateLinearIssue extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_update_linear_issue',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.11',
-        providerVersionConstraint: '4.3.11'
+        providerVersion: '4.3.13',
+        providerVersionConstraint: '4.3.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

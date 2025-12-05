@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "fabric": "1.6.0"
+    "fabric": "1.7.0"
   }
 }

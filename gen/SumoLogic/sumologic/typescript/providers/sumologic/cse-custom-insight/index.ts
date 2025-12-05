@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_custom_insight
+// https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_custom_insight
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,62 +8,62 @@ import * as cdktf from 'cdktf';
 
 export interface CseCustomInsightConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_custom_insight#description CseCustomInsight#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_custom_insight#description CseCustomInsight#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_custom_insight#enabled CseCustomInsight#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_custom_insight#enabled CseCustomInsight#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_custom_insight#id CseCustomInsight#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_custom_insight#id CseCustomInsight#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_custom_insight#name CseCustomInsight#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_custom_insight#name CseCustomInsight#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_custom_insight#ordered CseCustomInsight#ordered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_custom_insight#ordered CseCustomInsight#ordered}
   */
   readonly ordered: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_custom_insight#rule_ids CseCustomInsight#rule_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_custom_insight#rule_ids CseCustomInsight#rule_ids}
   */
   readonly ruleIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_custom_insight#severity CseCustomInsight#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_custom_insight#severity CseCustomInsight#severity}
   */
   readonly severity: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_custom_insight#signal_match_strategy CseCustomInsight#signal_match_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_custom_insight#signal_match_strategy CseCustomInsight#signal_match_strategy}
   */
   readonly signalMatchStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_custom_insight#signal_names CseCustomInsight#signal_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_custom_insight#signal_names CseCustomInsight#signal_names}
   */
   readonly signalNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_custom_insight#tags CseCustomInsight#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_custom_insight#tags CseCustomInsight#tags}
   */
   readonly tags: string[];
   /**
   * dynamic_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_custom_insight#dynamic_severity CseCustomInsight#dynamic_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_custom_insight#dynamic_severity CseCustomInsight#dynamic_severity}
   */
   readonly dynamicSeverity?: CseCustomInsightDynamicSeverity[] | cdktf.IResolvable;
 }
 export interface CseCustomInsightDynamicSeverity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_custom_insight#insight_severity CseCustomInsight#insight_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_custom_insight#insight_severity CseCustomInsight#insight_severity}
   */
   readonly insightSeverity: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_custom_insight#minimum_signal_severity CseCustomInsight#minimum_signal_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_custom_insight#minimum_signal_severity CseCustomInsight#minimum_signal_severity}
   */
   readonly minimumSignalSeverity: number;
 }
@@ -202,7 +202,7 @@ export class CseCustomInsightDynamicSeverityList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_custom_insight sumologic_cse_custom_insight}
+* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_custom_insight sumologic_cse_custom_insight}
 */
 export class CseCustomInsight extends cdktf.TerraformResource {
 
@@ -218,7 +218,7 @@ export class CseCustomInsight extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CseCustomInsight resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CseCustomInsight to import
-  * @param importFromId The id of the existing CseCustomInsight that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_custom_insight#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CseCustomInsight that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_custom_insight#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CseCustomInsight to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -230,7 +230,7 @@ export class CseCustomInsight extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_custom_insight sumologic_cse_custom_insight} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_custom_insight sumologic_cse_custom_insight} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -241,8 +241,8 @@ export class CseCustomInsight extends cdktf.TerraformResource {
       terraformResourceType: 'sumologic_cse_custom_insight',
       terraformGeneratorMetadata: {
         providerName: 'sumologic',
-        providerVersion: '3.2.0',
-        providerVersionConstraint: '3.2.0'
+        providerVersion: '3.2.1',
+        providerVersionConstraint: '3.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

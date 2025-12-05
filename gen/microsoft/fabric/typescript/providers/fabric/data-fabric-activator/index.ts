@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/activator
+// https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/activator
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataFabricActivatorConfig extends cdktf.TerraformMetaArguments 
   /**
   * The Activator display name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/activator#display_name DataFabricActivator#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/activator#display_name DataFabricActivator#display_name}
   */
   readonly displayName?: string;
   /**
   * The Activator format. Possible values: `Default`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/activator#format DataFabricActivator#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/activator#format DataFabricActivator#format}
   */
   readonly format?: string;
   /**
   * The Activator ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/activator#id DataFabricActivator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/activator#id DataFabricActivator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,17 +33,17 @@ export interface DataFabricActivatorConfig extends cdktf.TerraformMetaArguments 
   * 
   * !> Your terraform state file may grow a lot if you output definition content. Only use it when you must use data from the definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/activator#output_definition DataFabricActivator#output_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/activator#output_definition DataFabricActivator#output_definition}
   */
   readonly outputDefinition?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/activator#timeouts DataFabricActivator#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/activator#timeouts DataFabricActivator#timeouts}
   */
   readonly timeouts?: DataFabricActivatorTimeouts;
   /**
   * The Workspace ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/activator#workspace_id DataFabricActivator#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/activator#workspace_id DataFabricActivator#workspace_id}
   */
   readonly workspaceId: string;
 }
@@ -124,7 +124,7 @@ export interface DataFabricActivatorTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/activator#read DataFabricActivator#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/activator#read DataFabricActivator#read}
   */
   readonly read?: string;
 }
@@ -218,7 +218,7 @@ export class DataFabricActivatorTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/activator fabric_activator}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/activator fabric_activator}
 */
 export class DataFabricActivator extends cdktf.TerraformDataSource {
 
@@ -234,7 +234,7 @@ export class DataFabricActivator extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFabricActivator resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFabricActivator to import
-  * @param importFromId The id of the existing DataFabricActivator that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/activator#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFabricActivator that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/activator#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFabricActivator to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -246,7 +246,7 @@ export class DataFabricActivator extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/activator fabric_activator} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/activator fabric_activator} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -257,8 +257,8 @@ export class DataFabricActivator extends cdktf.TerraformDataSource {
       terraformResourceType: 'fabric_activator',
       terraformGeneratorMetadata: {
         providerName: 'fabric',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -305,6 +305,11 @@ export class DataFabricActivator extends cdktf.TerraformDataSource {
   // Temporarily expose input value. Use with caution.
   public get displayNameInput() {
     return this._displayName;
+  }
+
+  // folder_id - computed: true, optional: false, required: false
+  public get folderId() {
+    return this.getStringAttribute('folder_id');
   }
 
   // format - computed: false, optional: true, required: false

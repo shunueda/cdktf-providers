@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_acl
+// https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/kafka_acl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface KafkaAclConfig extends cdktf.TerraformMetaArguments {
   /**
   * The host for the ACL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_acl#host KafkaAcl#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/kafka_acl#host KafkaAcl#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_acl#id KafkaAcl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/kafka_acl#id KafkaAcl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,55 +23,55 @@ export interface KafkaAclConfig extends cdktf.TerraformMetaArguments {
   /**
   * The operation type for the ACL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_acl#operation KafkaAcl#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/kafka_acl#operation KafkaAcl#operation}
   */
   readonly operation: string;
   /**
   * The pattern type for the ACL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_acl#pattern_type KafkaAcl#pattern_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/kafka_acl#pattern_type KafkaAcl#pattern_type}
   */
   readonly patternType: string;
   /**
   * The permission for the ACL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_acl#permission KafkaAcl#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/kafka_acl#permission KafkaAcl#permission}
   */
   readonly permission: string;
   /**
   * The principal for the ACL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_acl#principal KafkaAcl#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/kafka_acl#principal KafkaAcl#principal}
   */
   readonly principal: string;
   /**
   * The resource name for the ACL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_acl#resource_name KafkaAcl#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/kafka_acl#resource_name KafkaAcl#resource_name}
   */
   readonly resourceName: string;
   /**
   * The type of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_acl#resource_type KafkaAcl#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/kafka_acl#resource_type KafkaAcl#resource_type}
   */
   readonly resourceType: string;
   /**
   * The REST endpoint of the Kafka cluster (e.g., `https://pkc-00000.us-central1.gcp.confluent.cloud:443`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_acl#rest_endpoint KafkaAcl#rest_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/kafka_acl#rest_endpoint KafkaAcl#rest_endpoint}
   */
   readonly restEndpoint?: string;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_acl#credentials KafkaAcl#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/kafka_acl#credentials KafkaAcl#credentials}
   */
   readonly credentials?: KafkaAclCredentials;
   /**
   * kafka_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_acl#kafka_cluster KafkaAcl#kafka_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/kafka_acl#kafka_cluster KafkaAcl#kafka_cluster}
   */
   readonly kafkaCluster?: KafkaAclKafkaCluster;
 }
@@ -79,13 +79,13 @@ export interface KafkaAclCredentials {
   /**
   * The Cluster API Key for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_acl#key KafkaAcl#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/kafka_acl#key KafkaAcl#key}
   */
   readonly key: string;
   /**
   * The Cluster API Secret for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_acl#secret KafkaAcl#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/kafka_acl#secret KafkaAcl#secret}
   */
   readonly secret: string;
 }
@@ -194,7 +194,7 @@ export interface KafkaAclKafkaCluster {
   /**
   * The Kafka cluster ID (e.g., `lkc-12345`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_acl#id KafkaAcl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/kafka_acl#id KafkaAcl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -278,7 +278,7 @@ export class KafkaAclKafkaClusterOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_acl confluent_kafka_acl}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/kafka_acl confluent_kafka_acl}
 */
 export class KafkaAcl extends cdktf.TerraformResource {
 
@@ -294,7 +294,7 @@ export class KafkaAcl extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KafkaAcl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KafkaAcl to import
-  * @param importFromId The id of the existing KafkaAcl that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_acl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KafkaAcl that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/kafka_acl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KafkaAcl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -306,7 +306,7 @@ export class KafkaAcl extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.54.0/docs/resources/kafka_acl confluent_kafka_acl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.55.0/docs/resources/kafka_acl confluent_kafka_acl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -317,8 +317,8 @@ export class KafkaAcl extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_kafka_acl',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.54.0',
-        providerVersionConstraint: '2.54.0'
+        providerVersion: '2.55.0',
+        providerVersionConstraint: '2.55.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

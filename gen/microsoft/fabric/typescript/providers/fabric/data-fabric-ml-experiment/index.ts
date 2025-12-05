@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/ml_experiment
+// https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/ml_experiment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,26 +10,26 @@ export interface DataFabricMlExperimentConfig extends cdktf.TerraformMetaArgumen
   /**
   * The ML Experiment display name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/ml_experiment#display_name DataFabricMlExperiment#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/ml_experiment#display_name DataFabricMlExperiment#display_name}
   */
   readonly displayName?: string;
   /**
   * The ML Experiment ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/ml_experiment#id DataFabricMlExperiment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/ml_experiment#id DataFabricMlExperiment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/ml_experiment#timeouts DataFabricMlExperiment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/ml_experiment#timeouts DataFabricMlExperiment#timeouts}
   */
   readonly timeouts?: DataFabricMlExperimentTimeouts;
   /**
   * The Workspace ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/ml_experiment#workspace_id DataFabricMlExperiment#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/ml_experiment#workspace_id DataFabricMlExperiment#workspace_id}
   */
   readonly workspaceId: string;
 }
@@ -37,7 +37,7 @@ export interface DataFabricMlExperimentTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/ml_experiment#read DataFabricMlExperiment#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/ml_experiment#read DataFabricMlExperiment#read}
   */
   readonly read?: string;
 }
@@ -131,7 +131,7 @@ export class DataFabricMlExperimentTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/ml_experiment fabric_ml_experiment}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/ml_experiment fabric_ml_experiment}
 */
 export class DataFabricMlExperiment extends cdktf.TerraformDataSource {
 
@@ -147,7 +147,7 @@ export class DataFabricMlExperiment extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFabricMlExperiment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFabricMlExperiment to import
-  * @param importFromId The id of the existing DataFabricMlExperiment that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/ml_experiment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFabricMlExperiment that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/ml_experiment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFabricMlExperiment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -159,7 +159,7 @@ export class DataFabricMlExperiment extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/ml_experiment fabric_ml_experiment} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/ml_experiment fabric_ml_experiment} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -170,8 +170,8 @@ export class DataFabricMlExperiment extends cdktf.TerraformDataSource {
       terraformResourceType: 'fabric_ml_experiment',
       terraformGeneratorMetadata: {
         providerName: 'fabric',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -210,6 +210,11 @@ export class DataFabricMlExperiment extends cdktf.TerraformDataSource {
   // Temporarily expose input value. Use with caution.
   public get displayNameInput() {
     return this._displayName;
+  }
+
+  // folder_id - computed: true, optional: false, required: false
+  public get folderId() {
+    return this.getStringAttribute('folder_id');
   }
 
   // id - computed: true, optional: true, required: false

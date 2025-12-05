@@ -4,6 +4,7 @@ Object.defineProperty(exports, 'dashboard', { get: function () { return require(
 Object.defineProperty(exports, 'dataintegration', { get: function () { return require('./dataintegration'); } });
 Object.defineProperty(exports, 'ingestionkey', { get: function () { return require('./ingestionkey'); } });
 Object.defineProperty(exports, 'logspipeline', { get: function () { return require('./logspipeline'); } });
+Object.defineProperty(exports, 'metricsaggregation', { get: function () { return require('./metricsaggregation'); } });
 Object.defineProperty(exports, 'monitor', { get: function () { return require('./monitor'); } });
 Object.defineProperty(exports, 'policy', { get: function () { return require('./policy'); } });
 Object.defineProperty(exports, 'serviceaccount', { get: function () { return require('./serviceaccount'); } });

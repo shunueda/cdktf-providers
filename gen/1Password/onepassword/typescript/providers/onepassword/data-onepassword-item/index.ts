@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/data-sources/item
+// https://registry.terraform.io/providers/1password/onepassword/3.0.0/docs/data-sources/item
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DataOnepasswordItemConfig extends cdktf.TerraformMetaArguments 
   /**
   * Secure Note value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/data-sources/item#note_value DataOnepasswordItem#note_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/3.0.0/docs/data-sources/item#note_value DataOnepasswordItem#note_value}
   */
   readonly noteValue?: string;
   /**
   * The title of the item to retrieve. This field will be populated with the title of the item if the item it looked up by its UUID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/data-sources/item#title DataOnepasswordItem#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/3.0.0/docs/data-sources/item#title DataOnepasswordItem#title}
   */
   readonly title?: string;
   /**
   * The UUID of the item to retrieve. This field will be populated with the UUID of the item if the item it looked up by its title.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/data-sources/item#uuid DataOnepasswordItem#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/3.0.0/docs/data-sources/item#uuid DataOnepasswordItem#uuid}
   */
   readonly uuid?: string;
   /**
   * The UUID of the vault the item is in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/data-sources/item#vault DataOnepasswordItem#vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/3.0.0/docs/data-sources/item#vault DataOnepasswordItem#vault}
   */
   readonly vault: string;
   /**
   * file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/data-sources/item#file DataOnepasswordItem#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/3.0.0/docs/data-sources/item#file DataOnepasswordItem#file}
   */
   readonly file?: DataOnepasswordItemFile[] | cdktf.IResolvable;
   /**
   * section block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/data-sources/item#section DataOnepasswordItem#section}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/3.0.0/docs/data-sources/item#section DataOnepasswordItem#section}
   */
   readonly section?: DataOnepasswordItemSection[] | cdktf.IResolvable;
 }
@@ -356,13 +356,13 @@ export interface DataOnepasswordItemSection {
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/data-sources/item#field DataOnepasswordItem#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/3.0.0/docs/data-sources/item#field DataOnepasswordItem#field}
   */
   readonly field?: DataOnepasswordItemSectionField[] | cdktf.IResolvable;
   /**
   * file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/data-sources/item#file DataOnepasswordItem#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/3.0.0/docs/data-sources/item#file DataOnepasswordItem#file}
   */
   readonly file?: DataOnepasswordItemSectionFile[] | cdktf.IResolvable;
 }
@@ -517,7 +517,7 @@ export class DataOnepasswordItemSectionList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/data-sources/item onepassword_item}
+* Represents a {@link https://registry.terraform.io/providers/1password/onepassword/3.0.0/docs/data-sources/item onepassword_item}
 */
 export class DataOnepasswordItem extends cdktf.TerraformDataSource {
 
@@ -533,7 +533,7 @@ export class DataOnepasswordItem extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOnepasswordItem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOnepasswordItem to import
-  * @param importFromId The id of the existing DataOnepasswordItem that should be imported. Refer to the {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/data-sources/item#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOnepasswordItem that should be imported. Refer to the {@link https://registry.terraform.io/providers/1password/onepassword/3.0.0/docs/data-sources/item#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOnepasswordItem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -545,7 +545,7 @@ export class DataOnepasswordItem extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/data-sources/item onepassword_item} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/1password/onepassword/3.0.0/docs/data-sources/item onepassword_item} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -556,8 +556,8 @@ export class DataOnepasswordItem extends cdktf.TerraformDataSource {
       terraformResourceType: 'onepassword_item',
       terraformGeneratorMetadata: {
         providerName: 'onepassword',
-        providerVersion: '2.2.1',
-        providerVersionConstraint: '2.2.1'
+        providerVersion: '3.0.0',
+        providerVersionConstraint: '3.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/eventhouse
+// https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/eventhouse
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,47 +12,53 @@ export interface EventhouseConfig extends cdktf.TerraformMetaArguments {
   * 
   * Any changes to this configuration will result in recreation of the Eventhouse.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/eventhouse#configuration Eventhouse#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/eventhouse#configuration Eventhouse#configuration}
   */
   readonly configuration?: EventhouseConfiguration;
   /**
   * Definition parts. Read more about [Eventhouse definition part paths](https://learn.microsoft.com/rest/api/fabric/articles/item-management/definitions/eventhouse-definition). Accepted path keys: **Default** format: `EventhouseProperties.json`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/eventhouse#definition Eventhouse#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/eventhouse#definition Eventhouse#definition}
   */
   readonly definition?: { [key: string]: EventhouseDefinition } | cdktf.IResolvable;
   /**
   * Update definition on change of source content. Default: `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/eventhouse#definition_update_enabled Eventhouse#definition_update_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/eventhouse#definition_update_enabled Eventhouse#definition_update_enabled}
   */
   readonly definitionUpdateEnabled?: boolean | cdktf.IResolvable;
   /**
   * The Eventhouse description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/eventhouse#description Eventhouse#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/eventhouse#description Eventhouse#description}
   */
   readonly description?: string;
   /**
   * The Eventhouse display name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/eventhouse#display_name Eventhouse#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/eventhouse#display_name Eventhouse#display_name}
   */
   readonly displayName: string;
   /**
+  * The Folder ID.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/eventhouse#folder_id Eventhouse#folder_id}
+  */
+  readonly folderId?: string;
+  /**
   * The Eventhouse format. Possible values: `Default`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/eventhouse#format Eventhouse#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/eventhouse#format Eventhouse#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/eventhouse#timeouts Eventhouse#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/eventhouse#timeouts Eventhouse#timeouts}
   */
   readonly timeouts?: EventhouseTimeouts;
   /**
   * The Workspace ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/eventhouse#workspace_id Eventhouse#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/eventhouse#workspace_id Eventhouse#workspace_id}
   */
   readonly workspaceId: string;
 }
@@ -60,7 +66,7 @@ export interface EventhouseConfiguration {
   /**
   * When activated, the eventhouse is always available at the selected minimum level and you pay at least the minimum compute selected. Accepted values: `0`, `13`, `18`, `2.25`, `26`, `34`, `4.25`, `50`, `8.5` or any number between `51` and `322`. For more information, see [minimum consumption](https://learn.microsoft.com/fabric/real-time-intelligence/eventhouse#minimum-consumption)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/eventhouse#minimum_consumption_units Eventhouse#minimum_consumption_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/eventhouse#minimum_consumption_units Eventhouse#minimum_consumption_units}
   */
   readonly minimumConsumptionUnits: number;
 }
@@ -149,21 +155,218 @@ export class EventhouseConfigurationOutputReference extends cdktf.ComplexObject 
     return this._minimumConsumptionUnits;
   }
 }
+export interface EventhouseDefinitionParameters {
+  /**
+  * The find value of the parameter.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/eventhouse#find Eventhouse#find}
+  */
+  readonly find: string;
+  /**
+  * Processing type of the parameters. Possible values: `JsonPathReplace`, `TextReplace`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/eventhouse#type Eventhouse#type}
+  */
+  readonly type: string;
+  /**
+  * The value of the parameter.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/eventhouse#value Eventhouse#value}
+  */
+  readonly value: string;
+}
+
+export function eventhouseDefinitionParametersToTerraform(struct?: EventhouseDefinitionParameters | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    find: cdktf.stringToTerraform(struct!.find),
+    type: cdktf.stringToTerraform(struct!.type),
+    value: cdktf.stringToTerraform(struct!.value),
+  }
+}
+
+
+export function eventhouseDefinitionParametersToHclTerraform(struct?: EventhouseDefinitionParameters | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    find: {
+      value: cdktf.stringToHclTerraform(struct!.find),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value: {
+      value: cdktf.stringToHclTerraform(struct!.value),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class EventhouseDefinitionParametersOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): EventhouseDefinitionParameters | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._find !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.find = this._find;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: EventhouseDefinitionParameters | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._find = undefined;
+      this._type = undefined;
+      this._value = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._find = value.find;
+      this._type = value.type;
+      this._value = value.value;
+    }
+  }
+
+  // find - computed: false, optional: false, required: true
+  private _find?: string; 
+  public get find() {
+    return this.getStringAttribute('find');
+  }
+  public set find(value: string) {
+    this._find = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get findInput() {
+    return this._find;
+  }
+
+  // type - computed: false, optional: false, required: true
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+
+  // value - computed: false, optional: false, required: true
+  private _value?: string; 
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+  public set value(value: string) {
+    this._value = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class EventhouseDefinitionParametersList extends cdktf.ComplexList {
+  public internalValue? : EventhouseDefinitionParameters[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): EventhouseDefinitionParametersOutputReference {
+    return new EventhouseDefinitionParametersOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface EventhouseDefinition {
+  /**
+  * The set of parameters to be passed and processed in the source content.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/eventhouse#parameters Eventhouse#parameters}
+  */
+  readonly parameters?: EventhouseDefinitionParameters[] | cdktf.IResolvable;
+  /**
+  * Processing mode of the tokens/parameters. Possible values: `GoTemplate`, `None`, `Parameters`. Default `GoTemplate`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/eventhouse#processing_mode Eventhouse#processing_mode}
+  */
+  readonly processingMode?: string;
   /**
   * Path to the file with source of the definition part.
   * 
   * The source content may include placeholders for token substitution. Use the dot with the token name `{{ .TokenName }}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/eventhouse#source Eventhouse#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/eventhouse#source Eventhouse#source}
   */
   readonly source: string;
   /**
   * A map of key/value pairs of tokens substitutes in the source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/eventhouse#tokens Eventhouse#tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/eventhouse#tokens Eventhouse#tokens}
   */
   readonly tokens?: { [key: string]: string };
+  /**
+  * The delimiter for the tokens in the source content. Possible values: `<<>>`, `@{}@`, `____`, `{{}}`. Default: `{{}}`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/eventhouse#tokens_delimiter Eventhouse#tokens_delimiter}
+  */
+  readonly tokensDelimiter?: string;
 }
 
 export function eventhouseDefinitionToTerraform(struct?: EventhouseDefinition | cdktf.IResolvable): any {
@@ -172,8 +375,11 @@ export function eventhouseDefinitionToTerraform(struct?: EventhouseDefinition | 
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    parameters: cdktf.listMapper(eventhouseDefinitionParametersToTerraform, false)(struct!.parameters),
+    processing_mode: cdktf.stringToTerraform(struct!.processingMode),
     source: cdktf.stringToTerraform(struct!.source),
     tokens: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.tokens),
+    tokens_delimiter: cdktf.stringToTerraform(struct!.tokensDelimiter),
   }
 }
 
@@ -184,6 +390,18 @@ export function eventhouseDefinitionToHclTerraform(struct?: EventhouseDefinition
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    parameters: {
+      value: cdktf.listMapperHcl(eventhouseDefinitionParametersToHclTerraform, false)(struct!.parameters),
+      isBlock: true,
+      type: "set",
+      storageClassType: "EventhouseDefinitionParametersList",
+    },
+    processing_mode: {
+      value: cdktf.stringToHclTerraform(struct!.processingMode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     source: {
       value: cdktf.stringToHclTerraform(struct!.source),
       isBlock: false,
@@ -195,6 +413,12 @@ export function eventhouseDefinitionToHclTerraform(struct?: EventhouseDefinition
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
+    },
+    tokens_delimiter: {
+      value: cdktf.stringToHclTerraform(struct!.tokensDelimiter),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
   };
 
@@ -221,6 +445,14 @@ export class EventhouseDefinitionOutputReference extends cdktf.ComplexObject {
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._parameters?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.parameters = this._parameters?.internalValue;
+    }
+    if (this._processingMode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.processingMode = this._processingMode;
+    }
     if (this._source !== undefined) {
       hasAnyValues = true;
       internalValueResult.source = this._source;
@@ -229,6 +461,10 @@ export class EventhouseDefinitionOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.tokens = this._tokens;
     }
+    if (this._tokensDelimiter !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tokensDelimiter = this._tokensDelimiter;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -236,8 +472,11 @@ export class EventhouseDefinitionOutputReference extends cdktf.ComplexObject {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._parameters.internalValue = undefined;
+      this._processingMode = undefined;
       this._source = undefined;
       this._tokens = undefined;
+      this._tokensDelimiter = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -246,9 +485,44 @@ export class EventhouseDefinitionOutputReference extends cdktf.ComplexObject {
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._parameters.internalValue = value.parameters;
+      this._processingMode = value.processingMode;
       this._source = value.source;
       this._tokens = value.tokens;
+      this._tokensDelimiter = value.tokensDelimiter;
     }
+  }
+
+  // parameters - computed: false, optional: true, required: false
+  private _parameters = new EventhouseDefinitionParametersList(this, "parameters", true);
+  public get parameters() {
+    return this._parameters;
+  }
+  public putParameters(value: EventhouseDefinitionParameters[] | cdktf.IResolvable) {
+    this._parameters.internalValue = value;
+  }
+  public resetParameters() {
+    this._parameters.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get parametersInput() {
+    return this._parameters.internalValue;
+  }
+
+  // processing_mode - computed: true, optional: true, required: false
+  private _processingMode?: string; 
+  public get processingMode() {
+    return this.getStringAttribute('processing_mode');
+  }
+  public set processingMode(value: string) {
+    this._processingMode = value;
+  }
+  public resetProcessingMode() {
+    this._processingMode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get processingModeInput() {
+    return this._processingMode;
   }
 
   // source - computed: false, optional: false, required: true
@@ -283,6 +557,22 @@ export class EventhouseDefinitionOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get tokensInput() {
     return this._tokens;
+  }
+
+  // tokens_delimiter - computed: true, optional: true, required: false
+  private _tokensDelimiter?: string; 
+  public get tokensDelimiter() {
+    return this.getStringAttribute('tokens_delimiter');
+  }
+  public set tokensDelimiter(value: string) {
+    this._tokensDelimiter = value;
+  }
+  public resetTokensDelimiter() {
+    this._tokensDelimiter = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tokensDelimiterInput() {
+    return this._tokensDelimiter;
   }
 }
 
@@ -377,25 +667,25 @@ export interface EventhouseTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/eventhouse#create Eventhouse#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/eventhouse#create Eventhouse#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/eventhouse#delete Eventhouse#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/eventhouse#delete Eventhouse#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/eventhouse#read Eventhouse#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/eventhouse#read Eventhouse#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/eventhouse#update Eventhouse#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/eventhouse#update Eventhouse#update}
   */
   readonly update?: string;
 }
@@ -576,7 +866,7 @@ export class EventhouseTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/eventhouse fabric_eventhouse}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/eventhouse fabric_eventhouse}
 */
 export class Eventhouse extends cdktf.TerraformResource {
 
@@ -592,7 +882,7 @@ export class Eventhouse extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Eventhouse resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Eventhouse to import
-  * @param importFromId The id of the existing Eventhouse that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/eventhouse#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Eventhouse that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/eventhouse#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Eventhouse to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -604,7 +894,7 @@ export class Eventhouse extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/eventhouse fabric_eventhouse} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/eventhouse fabric_eventhouse} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -615,8 +905,8 @@ export class Eventhouse extends cdktf.TerraformResource {
       terraformResourceType: 'fabric_eventhouse',
       terraformGeneratorMetadata: {
         providerName: 'fabric',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -631,6 +921,7 @@ export class Eventhouse extends cdktf.TerraformResource {
     this._definitionUpdateEnabled = config.definitionUpdateEnabled;
     this._description = config.description;
     this._displayName = config.displayName;
+    this._folderId = config.folderId;
     this._format = config.format;
     this._timeouts.internalValue = config.timeouts;
     this._workspaceId = config.workspaceId;
@@ -717,6 +1008,22 @@ export class Eventhouse extends cdktf.TerraformResource {
     return this._displayName;
   }
 
+  // folder_id - computed: false, optional: true, required: false
+  private _folderId?: string; 
+  public get folderId() {
+    return this.getStringAttribute('folder_id');
+  }
+  public set folderId(value: string) {
+    this._folderId = value;
+  }
+  public resetFolderId() {
+    this._folderId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get folderIdInput() {
+    return this._folderId;
+  }
+
   // format - computed: false, optional: true, required: false
   private _format?: string; 
   public get format() {
@@ -784,6 +1091,7 @@ export class Eventhouse extends cdktf.TerraformResource {
       definition_update_enabled: cdktf.booleanToTerraform(this._definitionUpdateEnabled),
       description: cdktf.stringToTerraform(this._description),
       display_name: cdktf.stringToTerraform(this._displayName),
+      folder_id: cdktf.stringToTerraform(this._folderId),
       format: cdktf.stringToTerraform(this._format),
       timeouts: eventhouseTimeoutsToTerraform(this._timeouts.internalValue),
       workspace_id: cdktf.stringToTerraform(this._workspaceId),
@@ -818,6 +1126,12 @@ export class Eventhouse extends cdktf.TerraformResource {
       },
       display_name: {
         value: cdktf.stringToHclTerraform(this._displayName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      folder_id: {
+        value: cdktf.stringToHclTerraform(this._folderId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

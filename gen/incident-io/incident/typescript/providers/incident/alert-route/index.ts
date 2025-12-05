@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route
+// https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface AlertRouteConfig extends cdktf.TerraformMetaArguments {
   /**
   * Which alert sources should this alert route match?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#alert_sources AlertRoute#alert_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#alert_sources AlertRoute#alert_sources}
   */
   readonly alertSources: AlertRouteAlertSources[] | cdktf.IResolvable;
   /**
   * The channel configuration for this alert route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#channel_config AlertRoute#channel_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#channel_config AlertRoute#channel_config}
   */
   readonly channelConfig?: AlertRouteChannelConfig[] | cdktf.IResolvable;
   /**
   * Groups of prerequisite conditions. All conditions in at least one group must be satisfied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#condition_groups AlertRoute#condition_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#condition_groups AlertRoute#condition_groups}
   */
   readonly conditionGroups: AlertRouteConditionGroups[] | cdktf.IResolvable;
   /**
   * Whether this alert route is enabled or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#enabled AlertRoute#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#enabled AlertRoute#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#escalation_config AlertRoute#escalation_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#escalation_config AlertRoute#escalation_config}
   */
   readonly escalationConfig: AlertRouteEscalationConfig;
   /**
   * The expressions to be prepared for use by steps and conditions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#expressions AlertRoute#expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#expressions AlertRoute#expressions}
   */
   readonly expressions: AlertRouteExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#incident_config AlertRoute#incident_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#incident_config AlertRoute#incident_config}
   */
   readonly incidentConfig: AlertRouteIncidentConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#incident_template AlertRoute#incident_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#incident_template AlertRoute#incident_template}
   */
   readonly incidentTemplate: AlertRouteIncidentTemplate;
   /**
   * Whether this alert route is private. Private alert routes will only create private incidents from alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#is_private AlertRoute#is_private}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#is_private AlertRoute#is_private}
   */
   readonly isPrivate: boolean | cdktf.IResolvable;
   /**
   * The name of this alert route config, for the user's reference
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#name AlertRoute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#name AlertRoute#name}
   */
   readonly name: string;
 }
@@ -66,13 +66,13 @@ export interface AlertRouteAlertSourcesConditionGroupsConditionsParamBindingsArr
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -219,13 +219,13 @@ export interface AlertRouteAlertSourcesConditionGroupsConditionsParamBindingsVal
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -350,13 +350,13 @@ export interface AlertRouteAlertSourcesConditionGroupsConditionsParamBindings {
   /**
   * The array of literal or reference parameter values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#array_value AlertRoute#array_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#array_value AlertRoute#array_value}
   */
   readonly arrayValue?: AlertRouteAlertSourcesConditionGroupsConditionsParamBindingsArrayValue[] | cdktf.IResolvable;
   /**
   * The literal or reference parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#value AlertRoute#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#value AlertRoute#value}
   */
   readonly value?: AlertRouteAlertSourcesConditionGroupsConditionsParamBindingsValue;
 }
@@ -382,7 +382,7 @@ export function alertRouteAlertSourcesConditionGroupsConditionsParamBindingsToHc
     array_value: {
       value: cdktf.listMapperHcl(alertRouteAlertSourcesConditionGroupsConditionsParamBindingsArrayValueToHclTerraform, false)(struct!.arrayValue),
       isBlock: true,
-      type: "set",
+      type: "list",
       storageClassType: "AlertRouteAlertSourcesConditionGroupsConditionsParamBindingsArrayValueList",
     },
     value: {
@@ -448,7 +448,7 @@ export class AlertRouteAlertSourcesConditionGroupsConditionsParamBindingsOutputR
   }
 
   // array_value - computed: false, optional: true, required: false
-  private _arrayValue = new AlertRouteAlertSourcesConditionGroupsConditionsParamBindingsArrayValueList(this, "array_value", true);
+  private _arrayValue = new AlertRouteAlertSourcesConditionGroupsConditionsParamBindingsArrayValueList(this, "array_value", false);
   public get arrayValue() {
     return this._arrayValue;
   }
@@ -503,19 +503,19 @@ export interface AlertRouteAlertSourcesConditionGroupsConditions {
   /**
   * The logical operation to be applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#operation AlertRoute#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#operation AlertRoute#operation}
   */
   readonly operation: string;
   /**
   * Bindings for the operation parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#param_bindings AlertRoute#param_bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#param_bindings AlertRoute#param_bindings}
   */
   readonly paramBindings: AlertRouteAlertSourcesConditionGroupsConditionsParamBindings[] | cdktf.IResolvable;
   /**
   * The subject of the condition, on which the operation is applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#subject AlertRoute#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#subject AlertRoute#subject}
   */
   readonly subject: string;
 }
@@ -682,7 +682,7 @@ export interface AlertRouteAlertSourcesConditionGroups {
   /**
   * The prerequisite conditions that must all be satisfied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#conditions AlertRoute#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#conditions AlertRoute#conditions}
   */
   readonly conditions: AlertRouteAlertSourcesConditionGroupsConditions[] | cdktf.IResolvable;
 }
@@ -797,13 +797,13 @@ export interface AlertRouteAlertSources {
   /**
   * The alert source ID that will match for the route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#alert_source_id AlertRoute#alert_source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#alert_source_id AlertRoute#alert_source_id}
   */
   readonly alertSourceId: string;
   /**
   * Groups of prerequisite conditions. All conditions in at least one group must be satisfied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#condition_groups AlertRoute#condition_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#condition_groups AlertRoute#condition_groups}
   */
   readonly conditionGroups: AlertRouteAlertSourcesConditionGroups[] | cdktf.IResolvable;
 }
@@ -944,13 +944,13 @@ export interface AlertRouteChannelConfigConditionGroupsConditionsParamBindingsAr
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -1097,13 +1097,13 @@ export interface AlertRouteChannelConfigConditionGroupsConditionsParamBindingsVa
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -1228,13 +1228,13 @@ export interface AlertRouteChannelConfigConditionGroupsConditionsParamBindings {
   /**
   * The array of literal or reference parameter values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#array_value AlertRoute#array_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#array_value AlertRoute#array_value}
   */
   readonly arrayValue?: AlertRouteChannelConfigConditionGroupsConditionsParamBindingsArrayValue[] | cdktf.IResolvable;
   /**
   * The literal or reference parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#value AlertRoute#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#value AlertRoute#value}
   */
   readonly value?: AlertRouteChannelConfigConditionGroupsConditionsParamBindingsValue;
 }
@@ -1260,7 +1260,7 @@ export function alertRouteChannelConfigConditionGroupsConditionsParamBindingsToH
     array_value: {
       value: cdktf.listMapperHcl(alertRouteChannelConfigConditionGroupsConditionsParamBindingsArrayValueToHclTerraform, false)(struct!.arrayValue),
       isBlock: true,
-      type: "set",
+      type: "list",
       storageClassType: "AlertRouteChannelConfigConditionGroupsConditionsParamBindingsArrayValueList",
     },
     value: {
@@ -1326,7 +1326,7 @@ export class AlertRouteChannelConfigConditionGroupsConditionsParamBindingsOutput
   }
 
   // array_value - computed: false, optional: true, required: false
-  private _arrayValue = new AlertRouteChannelConfigConditionGroupsConditionsParamBindingsArrayValueList(this, "array_value", true);
+  private _arrayValue = new AlertRouteChannelConfigConditionGroupsConditionsParamBindingsArrayValueList(this, "array_value", false);
   public get arrayValue() {
     return this._arrayValue;
   }
@@ -1381,19 +1381,19 @@ export interface AlertRouteChannelConfigConditionGroupsConditions {
   /**
   * The logical operation to be applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#operation AlertRoute#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#operation AlertRoute#operation}
   */
   readonly operation: string;
   /**
   * Bindings for the operation parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#param_bindings AlertRoute#param_bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#param_bindings AlertRoute#param_bindings}
   */
   readonly paramBindings: AlertRouteChannelConfigConditionGroupsConditionsParamBindings[] | cdktf.IResolvable;
   /**
   * The subject of the condition, on which the operation is applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#subject AlertRoute#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#subject AlertRoute#subject}
   */
   readonly subject: string;
 }
@@ -1560,7 +1560,7 @@ export interface AlertRouteChannelConfigConditionGroups {
   /**
   * The prerequisite conditions that must all be satisfied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#conditions AlertRoute#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#conditions AlertRoute#conditions}
   */
   readonly conditions: AlertRouteChannelConfigConditionGroupsConditions[] | cdktf.IResolvable;
 }
@@ -1675,13 +1675,13 @@ export interface AlertRouteChannelConfigMsTeamsTargetsBindingArrayValue {
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -1828,13 +1828,13 @@ export interface AlertRouteChannelConfigMsTeamsTargetsBindingValue {
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -1959,13 +1959,13 @@ export interface AlertRouteChannelConfigMsTeamsTargetsBinding {
   /**
   * The array of literal or reference parameter values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#array_value AlertRoute#array_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#array_value AlertRoute#array_value}
   */
   readonly arrayValue?: AlertRouteChannelConfigMsTeamsTargetsBindingArrayValue[] | cdktf.IResolvable;
   /**
   * The literal or reference parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#value AlertRoute#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#value AlertRoute#value}
   */
   readonly value?: AlertRouteChannelConfigMsTeamsTargetsBindingValue;
 }
@@ -1991,7 +1991,7 @@ export function alertRouteChannelConfigMsTeamsTargetsBindingToHclTerraform(struc
     array_value: {
       value: cdktf.listMapperHcl(alertRouteChannelConfigMsTeamsTargetsBindingArrayValueToHclTerraform, false)(struct!.arrayValue),
       isBlock: true,
-      type: "set",
+      type: "list",
       storageClassType: "AlertRouteChannelConfigMsTeamsTargetsBindingArrayValueList",
     },
     value: {
@@ -2055,7 +2055,7 @@ export class AlertRouteChannelConfigMsTeamsTargetsBindingOutputReference extends
   }
 
   // array_value - computed: false, optional: true, required: false
-  private _arrayValue = new AlertRouteChannelConfigMsTeamsTargetsBindingArrayValueList(this, "array_value", true);
+  private _arrayValue = new AlertRouteChannelConfigMsTeamsTargetsBindingArrayValueList(this, "array_value", false);
   public get arrayValue() {
     return this._arrayValue;
   }
@@ -2088,13 +2088,13 @@ export class AlertRouteChannelConfigMsTeamsTargetsBindingOutputReference extends
 }
 export interface AlertRouteChannelConfigMsTeamsTargets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#binding AlertRoute#binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#binding AlertRoute#binding}
   */
   readonly binding: AlertRouteChannelConfigMsTeamsTargetsBinding;
   /**
   * The visibility of the channel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#channel_visibility AlertRoute#channel_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#channel_visibility AlertRoute#channel_visibility}
   */
   readonly channelVisibility: string;
 }
@@ -2213,13 +2213,13 @@ export interface AlertRouteChannelConfigSlackTargetsBindingArrayValue {
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -2366,13 +2366,13 @@ export interface AlertRouteChannelConfigSlackTargetsBindingValue {
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -2497,13 +2497,13 @@ export interface AlertRouteChannelConfigSlackTargetsBinding {
   /**
   * The array of literal or reference parameter values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#array_value AlertRoute#array_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#array_value AlertRoute#array_value}
   */
   readonly arrayValue?: AlertRouteChannelConfigSlackTargetsBindingArrayValue[] | cdktf.IResolvable;
   /**
   * The literal or reference parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#value AlertRoute#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#value AlertRoute#value}
   */
   readonly value?: AlertRouteChannelConfigSlackTargetsBindingValue;
 }
@@ -2529,7 +2529,7 @@ export function alertRouteChannelConfigSlackTargetsBindingToHclTerraform(struct?
     array_value: {
       value: cdktf.listMapperHcl(alertRouteChannelConfigSlackTargetsBindingArrayValueToHclTerraform, false)(struct!.arrayValue),
       isBlock: true,
-      type: "set",
+      type: "list",
       storageClassType: "AlertRouteChannelConfigSlackTargetsBindingArrayValueList",
     },
     value: {
@@ -2593,7 +2593,7 @@ export class AlertRouteChannelConfigSlackTargetsBindingOutputReference extends c
   }
 
   // array_value - computed: false, optional: true, required: false
-  private _arrayValue = new AlertRouteChannelConfigSlackTargetsBindingArrayValueList(this, "array_value", true);
+  private _arrayValue = new AlertRouteChannelConfigSlackTargetsBindingArrayValueList(this, "array_value", false);
   public get arrayValue() {
     return this._arrayValue;
   }
@@ -2626,13 +2626,13 @@ export class AlertRouteChannelConfigSlackTargetsBindingOutputReference extends c
 }
 export interface AlertRouteChannelConfigSlackTargets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#binding AlertRoute#binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#binding AlertRoute#binding}
   */
   readonly binding: AlertRouteChannelConfigSlackTargetsBinding;
   /**
   * The visibility of the channel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#channel_visibility AlertRoute#channel_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#channel_visibility AlertRoute#channel_visibility}
   */
   readonly channelVisibility: string;
 }
@@ -2751,15 +2751,15 @@ export interface AlertRouteChannelConfig {
   /**
   * Groups of prerequisite conditions. All conditions in at least one group must be satisfied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#condition_groups AlertRoute#condition_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#condition_groups AlertRoute#condition_groups}
   */
   readonly conditionGroups: AlertRouteChannelConfigConditionGroups[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#ms_teams_targets AlertRoute#ms_teams_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#ms_teams_targets AlertRoute#ms_teams_targets}
   */
   readonly msTeamsTargets?: AlertRouteChannelConfigMsTeamsTargets;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#slack_targets AlertRoute#slack_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#slack_targets AlertRoute#slack_targets}
   */
   readonly slackTargets?: AlertRouteChannelConfigSlackTargets;
 }
@@ -2932,13 +2932,13 @@ export interface AlertRouteConditionGroupsConditionsParamBindingsArrayValue {
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -3085,13 +3085,13 @@ export interface AlertRouteConditionGroupsConditionsParamBindingsValue {
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -3216,13 +3216,13 @@ export interface AlertRouteConditionGroupsConditionsParamBindings {
   /**
   * The array of literal or reference parameter values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#array_value AlertRoute#array_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#array_value AlertRoute#array_value}
   */
   readonly arrayValue?: AlertRouteConditionGroupsConditionsParamBindingsArrayValue[] | cdktf.IResolvable;
   /**
   * The literal or reference parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#value AlertRoute#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#value AlertRoute#value}
   */
   readonly value?: AlertRouteConditionGroupsConditionsParamBindingsValue;
 }
@@ -3248,7 +3248,7 @@ export function alertRouteConditionGroupsConditionsParamBindingsToHclTerraform(s
     array_value: {
       value: cdktf.listMapperHcl(alertRouteConditionGroupsConditionsParamBindingsArrayValueToHclTerraform, false)(struct!.arrayValue),
       isBlock: true,
-      type: "set",
+      type: "list",
       storageClassType: "AlertRouteConditionGroupsConditionsParamBindingsArrayValueList",
     },
     value: {
@@ -3314,7 +3314,7 @@ export class AlertRouteConditionGroupsConditionsParamBindingsOutputReference ext
   }
 
   // array_value - computed: false, optional: true, required: false
-  private _arrayValue = new AlertRouteConditionGroupsConditionsParamBindingsArrayValueList(this, "array_value", true);
+  private _arrayValue = new AlertRouteConditionGroupsConditionsParamBindingsArrayValueList(this, "array_value", false);
   public get arrayValue() {
     return this._arrayValue;
   }
@@ -3369,19 +3369,19 @@ export interface AlertRouteConditionGroupsConditions {
   /**
   * The logical operation to be applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#operation AlertRoute#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#operation AlertRoute#operation}
   */
   readonly operation: string;
   /**
   * Bindings for the operation parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#param_bindings AlertRoute#param_bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#param_bindings AlertRoute#param_bindings}
   */
   readonly paramBindings: AlertRouteConditionGroupsConditionsParamBindings[] | cdktf.IResolvable;
   /**
   * The subject of the condition, on which the operation is applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#subject AlertRoute#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#subject AlertRoute#subject}
   */
   readonly subject: string;
 }
@@ -3548,7 +3548,7 @@ export interface AlertRouteConditionGroups {
   /**
   * The prerequisite conditions that must all be satisfied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#conditions AlertRoute#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#conditions AlertRoute#conditions}
   */
   readonly conditions: AlertRouteConditionGroupsConditions[] | cdktf.IResolvable;
 }
@@ -3663,13 +3663,13 @@ export interface AlertRouteEscalationConfigEscalationTargetsEscalationPathsArray
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -3816,13 +3816,13 @@ export interface AlertRouteEscalationConfigEscalationTargetsEscalationPathsValue
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -3947,13 +3947,13 @@ export interface AlertRouteEscalationConfigEscalationTargetsEscalationPaths {
   /**
   * The array of literal or reference parameter values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#array_value AlertRoute#array_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#array_value AlertRoute#array_value}
   */
   readonly arrayValue?: AlertRouteEscalationConfigEscalationTargetsEscalationPathsArrayValue[] | cdktf.IResolvable;
   /**
   * The literal or reference parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#value AlertRoute#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#value AlertRoute#value}
   */
   readonly value?: AlertRouteEscalationConfigEscalationTargetsEscalationPathsValue;
 }
@@ -3979,7 +3979,7 @@ export function alertRouteEscalationConfigEscalationTargetsEscalationPathsToHclT
     array_value: {
       value: cdktf.listMapperHcl(alertRouteEscalationConfigEscalationTargetsEscalationPathsArrayValueToHclTerraform, false)(struct!.arrayValue),
       isBlock: true,
-      type: "set",
+      type: "list",
       storageClassType: "AlertRouteEscalationConfigEscalationTargetsEscalationPathsArrayValueList",
     },
     value: {
@@ -4043,7 +4043,7 @@ export class AlertRouteEscalationConfigEscalationTargetsEscalationPathsOutputRef
   }
 
   // array_value - computed: false, optional: true, required: false
-  private _arrayValue = new AlertRouteEscalationConfigEscalationTargetsEscalationPathsArrayValueList(this, "array_value", true);
+  private _arrayValue = new AlertRouteEscalationConfigEscalationTargetsEscalationPathsArrayValueList(this, "array_value", false);
   public get arrayValue() {
     return this._arrayValue;
   }
@@ -4078,13 +4078,13 @@ export interface AlertRouteEscalationConfigEscalationTargetsUsersArrayValue {
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -4231,13 +4231,13 @@ export interface AlertRouteEscalationConfigEscalationTargetsUsersValue {
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -4362,13 +4362,13 @@ export interface AlertRouteEscalationConfigEscalationTargetsUsers {
   /**
   * The array of literal or reference parameter values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#array_value AlertRoute#array_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#array_value AlertRoute#array_value}
   */
   readonly arrayValue?: AlertRouteEscalationConfigEscalationTargetsUsersArrayValue[] | cdktf.IResolvable;
   /**
   * The literal or reference parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#value AlertRoute#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#value AlertRoute#value}
   */
   readonly value?: AlertRouteEscalationConfigEscalationTargetsUsersValue;
 }
@@ -4394,7 +4394,7 @@ export function alertRouteEscalationConfigEscalationTargetsUsersToHclTerraform(s
     array_value: {
       value: cdktf.listMapperHcl(alertRouteEscalationConfigEscalationTargetsUsersArrayValueToHclTerraform, false)(struct!.arrayValue),
       isBlock: true,
-      type: "set",
+      type: "list",
       storageClassType: "AlertRouteEscalationConfigEscalationTargetsUsersArrayValueList",
     },
     value: {
@@ -4458,7 +4458,7 @@ export class AlertRouteEscalationConfigEscalationTargetsUsersOutputReference ext
   }
 
   // array_value - computed: false, optional: true, required: false
-  private _arrayValue = new AlertRouteEscalationConfigEscalationTargetsUsersArrayValueList(this, "array_value", true);
+  private _arrayValue = new AlertRouteEscalationConfigEscalationTargetsUsersArrayValueList(this, "array_value", false);
   public get arrayValue() {
     return this._arrayValue;
   }
@@ -4491,11 +4491,11 @@ export class AlertRouteEscalationConfigEscalationTargetsUsersOutputReference ext
 }
 export interface AlertRouteEscalationConfigEscalationTargets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#escalation_paths AlertRoute#escalation_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#escalation_paths AlertRoute#escalation_paths}
   */
   readonly escalationPaths?: AlertRouteEscalationConfigEscalationTargetsEscalationPaths;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#users AlertRoute#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#users AlertRoute#users}
   */
   readonly users?: AlertRouteEscalationConfigEscalationTargetsUsers;
 }
@@ -4642,13 +4642,13 @@ export interface AlertRouteEscalationConfig {
   /**
   * Should we auto cancel escalations when all alerts are resolved?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#auto_cancel_escalations AlertRoute#auto_cancel_escalations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#auto_cancel_escalations AlertRoute#auto_cancel_escalations}
   */
   readonly autoCancelEscalations: boolean | cdktf.IResolvable;
   /**
   * Targets for escalation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#escalation_targets AlertRoute#escalation_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#escalation_targets AlertRoute#escalation_targets}
   */
   readonly escalationTargets: AlertRouteEscalationConfigEscalationTargets[] | cdktf.IResolvable;
 }
@@ -4767,13 +4767,13 @@ export interface AlertRouteExpressionsElseBranchResultArrayValue {
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -4920,13 +4920,13 @@ export interface AlertRouteExpressionsElseBranchResultValue {
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -5051,13 +5051,13 @@ export interface AlertRouteExpressionsElseBranchResult {
   /**
   * The array of literal or reference parameter values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#array_value AlertRoute#array_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#array_value AlertRoute#array_value}
   */
   readonly arrayValue?: AlertRouteExpressionsElseBranchResultArrayValue[] | cdktf.IResolvable;
   /**
   * The literal or reference parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#value AlertRoute#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#value AlertRoute#value}
   */
   readonly value?: AlertRouteExpressionsElseBranchResultValue;
 }
@@ -5083,7 +5083,7 @@ export function alertRouteExpressionsElseBranchResultToHclTerraform(struct?: Ale
     array_value: {
       value: cdktf.listMapperHcl(alertRouteExpressionsElseBranchResultArrayValueToHclTerraform, false)(struct!.arrayValue),
       isBlock: true,
-      type: "set",
+      type: "list",
       storageClassType: "AlertRouteExpressionsElseBranchResultArrayValueList",
     },
     value: {
@@ -5147,7 +5147,7 @@ export class AlertRouteExpressionsElseBranchResultOutputReference extends cdktf.
   }
 
   // array_value - computed: false, optional: true, required: false
-  private _arrayValue = new AlertRouteExpressionsElseBranchResultArrayValueList(this, "array_value", true);
+  private _arrayValue = new AlertRouteExpressionsElseBranchResultArrayValueList(this, "array_value", false);
   public get arrayValue() {
     return this._arrayValue;
   }
@@ -5182,7 +5182,7 @@ export interface AlertRouteExpressionsElseBranch {
   /**
   * The result assumed if the else branch is reached
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#result AlertRoute#result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#result AlertRoute#result}
   */
   readonly result: AlertRouteExpressionsElseBranchResult;
 }
@@ -5275,13 +5275,13 @@ export interface AlertRouteExpressionsOperationsBranchesBranchesConditionGroupsC
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -5428,13 +5428,13 @@ export interface AlertRouteExpressionsOperationsBranchesBranchesConditionGroupsC
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -5559,13 +5559,13 @@ export interface AlertRouteExpressionsOperationsBranchesBranchesConditionGroupsC
   /**
   * The array of literal or reference parameter values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#array_value AlertRoute#array_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#array_value AlertRoute#array_value}
   */
   readonly arrayValue?: AlertRouteExpressionsOperationsBranchesBranchesConditionGroupsConditionsParamBindingsArrayValue[] | cdktf.IResolvable;
   /**
   * The literal or reference parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#value AlertRoute#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#value AlertRoute#value}
   */
   readonly value?: AlertRouteExpressionsOperationsBranchesBranchesConditionGroupsConditionsParamBindingsValue;
 }
@@ -5591,7 +5591,7 @@ export function alertRouteExpressionsOperationsBranchesBranchesConditionGroupsCo
     array_value: {
       value: cdktf.listMapperHcl(alertRouteExpressionsOperationsBranchesBranchesConditionGroupsConditionsParamBindingsArrayValueToHclTerraform, false)(struct!.arrayValue),
       isBlock: true,
-      type: "set",
+      type: "list",
       storageClassType: "AlertRouteExpressionsOperationsBranchesBranchesConditionGroupsConditionsParamBindingsArrayValueList",
     },
     value: {
@@ -5657,7 +5657,7 @@ export class AlertRouteExpressionsOperationsBranchesBranchesConditionGroupsCondi
   }
 
   // array_value - computed: false, optional: true, required: false
-  private _arrayValue = new AlertRouteExpressionsOperationsBranchesBranchesConditionGroupsConditionsParamBindingsArrayValueList(this, "array_value", true);
+  private _arrayValue = new AlertRouteExpressionsOperationsBranchesBranchesConditionGroupsConditionsParamBindingsArrayValueList(this, "array_value", false);
   public get arrayValue() {
     return this._arrayValue;
   }
@@ -5712,19 +5712,19 @@ export interface AlertRouteExpressionsOperationsBranchesBranchesConditionGroupsC
   /**
   * The logical operation to be applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#operation AlertRoute#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#operation AlertRoute#operation}
   */
   readonly operation: string;
   /**
   * Bindings for the operation parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#param_bindings AlertRoute#param_bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#param_bindings AlertRoute#param_bindings}
   */
   readonly paramBindings: AlertRouteExpressionsOperationsBranchesBranchesConditionGroupsConditionsParamBindings[] | cdktf.IResolvable;
   /**
   * The subject of the condition, on which the operation is applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#subject AlertRoute#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#subject AlertRoute#subject}
   */
   readonly subject: string;
 }
@@ -5891,7 +5891,7 @@ export interface AlertRouteExpressionsOperationsBranchesBranchesConditionGroups 
   /**
   * The prerequisite conditions that must all be satisfied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#conditions AlertRoute#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#conditions AlertRoute#conditions}
   */
   readonly conditions: AlertRouteExpressionsOperationsBranchesBranchesConditionGroupsConditions[] | cdktf.IResolvable;
 }
@@ -6006,13 +6006,13 @@ export interface AlertRouteExpressionsOperationsBranchesBranchesResultArrayValue
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -6159,13 +6159,13 @@ export interface AlertRouteExpressionsOperationsBranchesBranchesResultValue {
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -6290,13 +6290,13 @@ export interface AlertRouteExpressionsOperationsBranchesBranchesResult {
   /**
   * The array of literal or reference parameter values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#array_value AlertRoute#array_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#array_value AlertRoute#array_value}
   */
   readonly arrayValue?: AlertRouteExpressionsOperationsBranchesBranchesResultArrayValue[] | cdktf.IResolvable;
   /**
   * The literal or reference parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#value AlertRoute#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#value AlertRoute#value}
   */
   readonly value?: AlertRouteExpressionsOperationsBranchesBranchesResultValue;
 }
@@ -6322,7 +6322,7 @@ export function alertRouteExpressionsOperationsBranchesBranchesResultToHclTerraf
     array_value: {
       value: cdktf.listMapperHcl(alertRouteExpressionsOperationsBranchesBranchesResultArrayValueToHclTerraform, false)(struct!.arrayValue),
       isBlock: true,
-      type: "set",
+      type: "list",
       storageClassType: "AlertRouteExpressionsOperationsBranchesBranchesResultArrayValueList",
     },
     value: {
@@ -6386,7 +6386,7 @@ export class AlertRouteExpressionsOperationsBranchesBranchesResultOutputReferenc
   }
 
   // array_value - computed: false, optional: true, required: false
-  private _arrayValue = new AlertRouteExpressionsOperationsBranchesBranchesResultArrayValueList(this, "array_value", true);
+  private _arrayValue = new AlertRouteExpressionsOperationsBranchesBranchesResultArrayValueList(this, "array_value", false);
   public get arrayValue() {
     return this._arrayValue;
   }
@@ -6421,13 +6421,13 @@ export interface AlertRouteExpressionsOperationsBranchesBranches {
   /**
   * Groups of prerequisite conditions. All conditions in at least one group must be satisfied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#condition_groups AlertRoute#condition_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#condition_groups AlertRoute#condition_groups}
   */
   readonly conditionGroups: AlertRouteExpressionsOperationsBranchesBranchesConditionGroups[] | cdktf.IResolvable;
   /**
   * The result assumed if the condition groups are satisfied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#result AlertRoute#result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#result AlertRoute#result}
   */
   readonly result: AlertRouteExpressionsOperationsBranchesBranchesResult;
 }
@@ -6568,13 +6568,13 @@ export interface AlertRouteExpressionsOperationsBranchesReturns {
   /**
   * Whether the return value should be single or multi-value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#array AlertRoute#array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#array AlertRoute#array}
   */
   readonly array: boolean | cdktf.IResolvable;
   /**
   * Expected return type of this expression (what to try casting the result to)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#type AlertRoute#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#type AlertRoute#type}
   */
   readonly type: string;
 }
@@ -6693,13 +6693,13 @@ export interface AlertRouteExpressionsOperationsBranches {
   /**
   * The branches to apply for this operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#branches AlertRoute#branches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#branches AlertRoute#branches}
   */
   readonly branches: AlertRouteExpressionsOperationsBranchesBranches[] | cdktf.IResolvable;
   /**
   * The return type of an operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#returns AlertRoute#returns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#returns AlertRoute#returns}
   */
   readonly returns: AlertRouteExpressionsOperationsBranchesReturns;
 }
@@ -6818,13 +6818,13 @@ export interface AlertRouteExpressionsOperationsFilterConditionGroupsConditionsP
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -6971,13 +6971,13 @@ export interface AlertRouteExpressionsOperationsFilterConditionGroupsConditionsP
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -7102,13 +7102,13 @@ export interface AlertRouteExpressionsOperationsFilterConditionGroupsConditionsP
   /**
   * The array of literal or reference parameter values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#array_value AlertRoute#array_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#array_value AlertRoute#array_value}
   */
   readonly arrayValue?: AlertRouteExpressionsOperationsFilterConditionGroupsConditionsParamBindingsArrayValue[] | cdktf.IResolvable;
   /**
   * The literal or reference parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#value AlertRoute#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#value AlertRoute#value}
   */
   readonly value?: AlertRouteExpressionsOperationsFilterConditionGroupsConditionsParamBindingsValue;
 }
@@ -7134,7 +7134,7 @@ export function alertRouteExpressionsOperationsFilterConditionGroupsConditionsPa
     array_value: {
       value: cdktf.listMapperHcl(alertRouteExpressionsOperationsFilterConditionGroupsConditionsParamBindingsArrayValueToHclTerraform, false)(struct!.arrayValue),
       isBlock: true,
-      type: "set",
+      type: "list",
       storageClassType: "AlertRouteExpressionsOperationsFilterConditionGroupsConditionsParamBindingsArrayValueList",
     },
     value: {
@@ -7200,7 +7200,7 @@ export class AlertRouteExpressionsOperationsFilterConditionGroupsConditionsParam
   }
 
   // array_value - computed: false, optional: true, required: false
-  private _arrayValue = new AlertRouteExpressionsOperationsFilterConditionGroupsConditionsParamBindingsArrayValueList(this, "array_value", true);
+  private _arrayValue = new AlertRouteExpressionsOperationsFilterConditionGroupsConditionsParamBindingsArrayValueList(this, "array_value", false);
   public get arrayValue() {
     return this._arrayValue;
   }
@@ -7255,19 +7255,19 @@ export interface AlertRouteExpressionsOperationsFilterConditionGroupsConditions 
   /**
   * The logical operation to be applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#operation AlertRoute#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#operation AlertRoute#operation}
   */
   readonly operation: string;
   /**
   * Bindings for the operation parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#param_bindings AlertRoute#param_bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#param_bindings AlertRoute#param_bindings}
   */
   readonly paramBindings: AlertRouteExpressionsOperationsFilterConditionGroupsConditionsParamBindings[] | cdktf.IResolvable;
   /**
   * The subject of the condition, on which the operation is applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#subject AlertRoute#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#subject AlertRoute#subject}
   */
   readonly subject: string;
 }
@@ -7434,7 +7434,7 @@ export interface AlertRouteExpressionsOperationsFilterConditionGroups {
   /**
   * The prerequisite conditions that must all be satisfied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#conditions AlertRoute#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#conditions AlertRoute#conditions}
   */
   readonly conditions: AlertRouteExpressionsOperationsFilterConditionGroupsConditions[] | cdktf.IResolvable;
 }
@@ -7549,7 +7549,7 @@ export interface AlertRouteExpressionsOperationsFilter {
   /**
   * Groups of prerequisite conditions. All conditions in at least one group must be satisfied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#condition_groups AlertRoute#condition_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#condition_groups AlertRoute#condition_groups}
   */
   readonly conditionGroups: AlertRouteExpressionsOperationsFilterConditionGroups[] | cdktf.IResolvable;
 }
@@ -7640,7 +7640,7 @@ export class AlertRouteExpressionsOperationsFilterOutputReference extends cdktf.
 }
 export interface AlertRouteExpressionsOperationsNavigate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference: string;
 }
@@ -7733,13 +7733,13 @@ export interface AlertRouteExpressionsOperationsParseReturns {
   /**
   * Whether the return value should be single or multi-value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#array AlertRoute#array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#array AlertRoute#array}
   */
   readonly array: boolean | cdktf.IResolvable;
   /**
   * Expected return type of this expression (what to try casting the result to)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#type AlertRoute#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#type AlertRoute#type}
   */
   readonly type: string;
 }
@@ -7858,13 +7858,13 @@ export interface AlertRouteExpressionsOperationsParse {
   /**
   * The return type of an operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#returns AlertRoute#returns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#returns AlertRoute#returns}
   */
   readonly returns: AlertRouteExpressionsOperationsParseReturns;
   /**
   * The ES5 Javascript expression to execute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#source AlertRoute#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#source AlertRoute#source}
   */
   readonly source: string;
 }
@@ -7983,31 +7983,31 @@ export interface AlertRouteExpressionsOperations {
   /**
   * An operation type that allows for a value to be set conditionally by a series of logical branches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#branches AlertRoute#branches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#branches AlertRoute#branches}
   */
   readonly branches?: AlertRouteExpressionsOperationsBranches;
   /**
   * An operation type that allows values to be filtered out by conditions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#filter AlertRoute#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#filter AlertRoute#filter}
   */
   readonly filter?: AlertRouteExpressionsOperationsFilter;
   /**
   * An operation type that allows attributes of a type to be accessed by reference
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#navigate AlertRoute#navigate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#navigate AlertRoute#navigate}
   */
   readonly navigate?: AlertRouteExpressionsOperationsNavigate;
   /**
   * Indicates which operation type to execute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#operation_type AlertRoute#operation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#operation_type AlertRoute#operation_type}
   */
   readonly operationType: string;
   /**
   * An operation type that allows a value to parsed from within a JSON object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#parse AlertRoute#parse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#parse AlertRoute#parse}
   */
   readonly parse?: AlertRouteExpressionsOperationsParse;
 }
@@ -8238,31 +8238,31 @@ export interface AlertRouteExpressions {
   /**
   * The else branch to resort to if all operations fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#else_branch AlertRoute#else_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#else_branch AlertRoute#else_branch}
   */
   readonly elseBranch?: AlertRouteExpressionsElseBranch;
   /**
   * The human readable label of the expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#label AlertRoute#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#label AlertRoute#label}
   */
   readonly label: string;
   /**
   * The operations to execute in sequence for this expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#operations AlertRoute#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#operations AlertRoute#operations}
   */
   readonly operations: AlertRouteExpressionsOperations[] | cdktf.IResolvable;
   /**
   * A short ID that can be used to reference the expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference: string;
   /**
   * The root reference for this expression (i.e. where the expression starts)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#root_reference AlertRoute#root_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#root_reference AlertRoute#root_reference}
   */
   readonly rootReference: string;
 }
@@ -8484,13 +8484,13 @@ export interface AlertRouteIncidentConfigConditionGroupsConditionsParamBindingsA
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -8637,13 +8637,13 @@ export interface AlertRouteIncidentConfigConditionGroupsConditionsParamBindingsV
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -8768,13 +8768,13 @@ export interface AlertRouteIncidentConfigConditionGroupsConditionsParamBindings 
   /**
   * The array of literal or reference parameter values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#array_value AlertRoute#array_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#array_value AlertRoute#array_value}
   */
   readonly arrayValue?: AlertRouteIncidentConfigConditionGroupsConditionsParamBindingsArrayValue[] | cdktf.IResolvable;
   /**
   * The literal or reference parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#value AlertRoute#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#value AlertRoute#value}
   */
   readonly value?: AlertRouteIncidentConfigConditionGroupsConditionsParamBindingsValue;
 }
@@ -8800,7 +8800,7 @@ export function alertRouteIncidentConfigConditionGroupsConditionsParamBindingsTo
     array_value: {
       value: cdktf.listMapperHcl(alertRouteIncidentConfigConditionGroupsConditionsParamBindingsArrayValueToHclTerraform, false)(struct!.arrayValue),
       isBlock: true,
-      type: "set",
+      type: "list",
       storageClassType: "AlertRouteIncidentConfigConditionGroupsConditionsParamBindingsArrayValueList",
     },
     value: {
@@ -8866,7 +8866,7 @@ export class AlertRouteIncidentConfigConditionGroupsConditionsParamBindingsOutpu
   }
 
   // array_value - computed: false, optional: true, required: false
-  private _arrayValue = new AlertRouteIncidentConfigConditionGroupsConditionsParamBindingsArrayValueList(this, "array_value", true);
+  private _arrayValue = new AlertRouteIncidentConfigConditionGroupsConditionsParamBindingsArrayValueList(this, "array_value", false);
   public get arrayValue() {
     return this._arrayValue;
   }
@@ -8921,19 +8921,19 @@ export interface AlertRouteIncidentConfigConditionGroupsConditions {
   /**
   * The logical operation to be applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#operation AlertRoute#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#operation AlertRoute#operation}
   */
   readonly operation: string;
   /**
   * Bindings for the operation parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#param_bindings AlertRoute#param_bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#param_bindings AlertRoute#param_bindings}
   */
   readonly paramBindings: AlertRouteIncidentConfigConditionGroupsConditionsParamBindings[] | cdktf.IResolvable;
   /**
   * The subject of the condition, on which the operation is applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#subject AlertRoute#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#subject AlertRoute#subject}
   */
   readonly subject: string;
 }
@@ -9100,7 +9100,7 @@ export interface AlertRouteIncidentConfigConditionGroups {
   /**
   * The prerequisite conditions that must all be satisfied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#conditions AlertRoute#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#conditions AlertRoute#conditions}
   */
   readonly conditions: AlertRouteIncidentConfigConditionGroupsConditions[] | cdktf.IResolvable;
 }
@@ -9215,7 +9215,7 @@ export interface AlertRouteIncidentConfigGroupingKeys {
   /**
   * The alert attribute ID to use as a grouping key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference: string;
 }
@@ -9330,37 +9330,43 @@ export interface AlertRouteIncidentConfig {
   /**
   * Should triage incidents be declined when alerts are resolved?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#auto_decline_enabled AlertRoute#auto_decline_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#auto_decline_enabled AlertRoute#auto_decline_enabled}
   */
   readonly autoDeclineEnabled: boolean | cdktf.IResolvable;
   /**
+  * Should grouped alerts automatically be related to active incidents without confirmation?
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#auto_relate_grouped_alerts AlertRoute#auto_relate_grouped_alerts}
+  */
+  readonly autoRelateGroupedAlerts?: boolean | cdktf.IResolvable;
+  /**
   * Groups of prerequisite conditions. All conditions in at least one group must be satisfied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#condition_groups AlertRoute#condition_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#condition_groups AlertRoute#condition_groups}
   */
   readonly conditionGroups: AlertRouteIncidentConfigConditionGroups[] | cdktf.IResolvable;
   /**
   * How long should the escalation defer time be?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#defer_time_seconds AlertRoute#defer_time_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#defer_time_seconds AlertRoute#defer_time_seconds}
   */
   readonly deferTimeSeconds: number;
   /**
   * Whether incident creation is enabled for this alert route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#enabled AlertRoute#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#enabled AlertRoute#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Which attributes should this alert route use to group alerts?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#grouping_keys AlertRoute#grouping_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#grouping_keys AlertRoute#grouping_keys}
   */
   readonly groupingKeys: AlertRouteIncidentConfigGroupingKeys[] | cdktf.IResolvable;
   /**
   * How large should the grouping window be?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#grouping_window_seconds AlertRoute#grouping_window_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#grouping_window_seconds AlertRoute#grouping_window_seconds}
   */
   readonly groupingWindowSeconds: number;
 }
@@ -9372,6 +9378,7 @@ export function alertRouteIncidentConfigToTerraform(struct?: AlertRouteIncidentC
   }
   return {
     auto_decline_enabled: cdktf.booleanToTerraform(struct!.autoDeclineEnabled),
+    auto_relate_grouped_alerts: cdktf.booleanToTerraform(struct!.autoRelateGroupedAlerts),
     condition_groups: cdktf.listMapper(alertRouteIncidentConfigConditionGroupsToTerraform, false)(struct!.conditionGroups),
     defer_time_seconds: cdktf.numberToTerraform(struct!.deferTimeSeconds),
     enabled: cdktf.booleanToTerraform(struct!.enabled),
@@ -9389,6 +9396,12 @@ export function alertRouteIncidentConfigToHclTerraform(struct?: AlertRouteIncide
   const attrs = {
     auto_decline_enabled: {
       value: cdktf.booleanToHclTerraform(struct!.autoDeclineEnabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    auto_relate_grouped_alerts: {
+      value: cdktf.booleanToHclTerraform(struct!.autoRelateGroupedAlerts),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -9451,6 +9464,10 @@ export class AlertRouteIncidentConfigOutputReference extends cdktf.ComplexObject
       hasAnyValues = true;
       internalValueResult.autoDeclineEnabled = this._autoDeclineEnabled;
     }
+    if (this._autoRelateGroupedAlerts !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.autoRelateGroupedAlerts = this._autoRelateGroupedAlerts;
+    }
     if (this._conditionGroups?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.conditionGroups = this._conditionGroups?.internalValue;
@@ -9479,6 +9496,7 @@ export class AlertRouteIncidentConfigOutputReference extends cdktf.ComplexObject
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._autoDeclineEnabled = undefined;
+      this._autoRelateGroupedAlerts = undefined;
       this._conditionGroups.internalValue = undefined;
       this._deferTimeSeconds = undefined;
       this._enabled = undefined;
@@ -9493,6 +9511,7 @@ export class AlertRouteIncidentConfigOutputReference extends cdktf.ComplexObject
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._autoDeclineEnabled = value.autoDeclineEnabled;
+      this._autoRelateGroupedAlerts = value.autoRelateGroupedAlerts;
       this._conditionGroups.internalValue = value.conditionGroups;
       this._deferTimeSeconds = value.deferTimeSeconds;
       this._enabled = value.enabled;
@@ -9512,6 +9531,22 @@ export class AlertRouteIncidentConfigOutputReference extends cdktf.ComplexObject
   // Temporarily expose input value. Use with caution.
   public get autoDeclineEnabledInput() {
     return this._autoDeclineEnabled;
+  }
+
+  // auto_relate_grouped_alerts - computed: true, optional: true, required: false
+  private _autoRelateGroupedAlerts?: boolean | cdktf.IResolvable; 
+  public get autoRelateGroupedAlerts() {
+    return this.getBooleanAttribute('auto_relate_grouped_alerts');
+  }
+  public set autoRelateGroupedAlerts(value: boolean | cdktf.IResolvable) {
+    this._autoRelateGroupedAlerts = value;
+  }
+  public resetAutoRelateGroupedAlerts() {
+    this._autoRelateGroupedAlerts = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get autoRelateGroupedAlertsInput() {
+    return this._autoRelateGroupedAlerts;
   }
 
   // condition_groups - computed: false, optional: false, required: true
@@ -9583,13 +9618,13 @@ export interface AlertRouteIncidentTemplateCustomFieldsBindingArrayValue {
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -9736,13 +9771,13 @@ export interface AlertRouteIncidentTemplateCustomFieldsBindingValue {
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -9867,13 +9902,13 @@ export interface AlertRouteIncidentTemplateCustomFieldsBinding {
   /**
   * The array of literal or reference parameter values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#array_value AlertRoute#array_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#array_value AlertRoute#array_value}
   */
   readonly arrayValue?: AlertRouteIncidentTemplateCustomFieldsBindingArrayValue[] | cdktf.IResolvable;
   /**
   * The literal or reference parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#value AlertRoute#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#value AlertRoute#value}
   */
   readonly value?: AlertRouteIncidentTemplateCustomFieldsBindingValue;
 }
@@ -9899,7 +9934,7 @@ export function alertRouteIncidentTemplateCustomFieldsBindingToHclTerraform(stru
     array_value: {
       value: cdktf.listMapperHcl(alertRouteIncidentTemplateCustomFieldsBindingArrayValueToHclTerraform, false)(struct!.arrayValue),
       isBlock: true,
-      type: "set",
+      type: "list",
       storageClassType: "AlertRouteIncidentTemplateCustomFieldsBindingArrayValueList",
     },
     value: {
@@ -9963,7 +9998,7 @@ export class AlertRouteIncidentTemplateCustomFieldsBindingOutputReference extend
   }
 
   // array_value - computed: false, optional: true, required: false
-  private _arrayValue = new AlertRouteIncidentTemplateCustomFieldsBindingArrayValueList(this, "array_value", true);
+  private _arrayValue = new AlertRouteIncidentTemplateCustomFieldsBindingArrayValueList(this, "array_value", false);
   public get arrayValue() {
     return this._arrayValue;
   }
@@ -9998,19 +10033,19 @@ export interface AlertRouteIncidentTemplateCustomFields {
   /**
   * Binding for the custom field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#binding AlertRoute#binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#binding AlertRoute#binding}
   */
   readonly binding: AlertRouteIncidentTemplateCustomFieldsBinding;
   /**
   * ID of the custom field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#custom_field_id AlertRoute#custom_field_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#custom_field_id AlertRoute#custom_field_id}
   */
   readonly customFieldId: string;
   /**
   * The strategy to use when multiple alerts match this route. Possible values are: `first-wins`, `last-wins`, `append`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#merge_strategy AlertRoute#merge_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#merge_strategy AlertRoute#merge_strategy}
   */
   readonly mergeStrategy: string;
 }
@@ -10177,13 +10212,13 @@ export interface AlertRouteIncidentTemplateIncidentModeArrayValue {
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -10330,13 +10365,13 @@ export interface AlertRouteIncidentTemplateIncidentModeValue {
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -10461,13 +10496,13 @@ export interface AlertRouteIncidentTemplateIncidentMode {
   /**
   * The array of literal or reference parameter values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#array_value AlertRoute#array_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#array_value AlertRoute#array_value}
   */
   readonly arrayValue?: AlertRouteIncidentTemplateIncidentModeArrayValue[] | cdktf.IResolvable;
   /**
   * The literal or reference parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#value AlertRoute#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#value AlertRoute#value}
   */
   readonly value?: AlertRouteIncidentTemplateIncidentModeValue;
 }
@@ -10493,7 +10528,7 @@ export function alertRouteIncidentTemplateIncidentModeToHclTerraform(struct?: Al
     array_value: {
       value: cdktf.listMapperHcl(alertRouteIncidentTemplateIncidentModeArrayValueToHclTerraform, false)(struct!.arrayValue),
       isBlock: true,
-      type: "set",
+      type: "list",
       storageClassType: "AlertRouteIncidentTemplateIncidentModeArrayValueList",
     },
     value: {
@@ -10557,7 +10592,7 @@ export class AlertRouteIncidentTemplateIncidentModeOutputReference extends cdktf
   }
 
   // array_value - computed: false, optional: true, required: false
-  private _arrayValue = new AlertRouteIncidentTemplateIncidentModeArrayValueList(this, "array_value", true);
+  private _arrayValue = new AlertRouteIncidentTemplateIncidentModeArrayValueList(this, "array_value", false);
   public get arrayValue() {
     return this._arrayValue;
   }
@@ -10592,13 +10627,13 @@ export interface AlertRouteIncidentTemplateIncidentTypeArrayValue {
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -10745,13 +10780,13 @@ export interface AlertRouteIncidentTemplateIncidentTypeValue {
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -10876,13 +10911,13 @@ export interface AlertRouteIncidentTemplateIncidentType {
   /**
   * The array of literal or reference parameter values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#array_value AlertRoute#array_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#array_value AlertRoute#array_value}
   */
   readonly arrayValue?: AlertRouteIncidentTemplateIncidentTypeArrayValue[] | cdktf.IResolvable;
   /**
   * The literal or reference parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#value AlertRoute#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#value AlertRoute#value}
   */
   readonly value?: AlertRouteIncidentTemplateIncidentTypeValue;
 }
@@ -10908,7 +10943,7 @@ export function alertRouteIncidentTemplateIncidentTypeToHclTerraform(struct?: Al
     array_value: {
       value: cdktf.listMapperHcl(alertRouteIncidentTemplateIncidentTypeArrayValueToHclTerraform, false)(struct!.arrayValue),
       isBlock: true,
-      type: "set",
+      type: "list",
       storageClassType: "AlertRouteIncidentTemplateIncidentTypeArrayValueList",
     },
     value: {
@@ -10972,7 +11007,7 @@ export class AlertRouteIncidentTemplateIncidentTypeOutputReference extends cdktf
   }
 
   // array_value - computed: false, optional: true, required: false
-  private _arrayValue = new AlertRouteIncidentTemplateIncidentTypeArrayValueList(this, "array_value", true);
+  private _arrayValue = new AlertRouteIncidentTemplateIncidentTypeArrayValueList(this, "array_value", false);
   public get arrayValue() {
     return this._arrayValue;
   }
@@ -11007,13 +11042,13 @@ export interface AlertRouteIncidentTemplateNameArrayValue {
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -11160,13 +11195,13 @@ export interface AlertRouteIncidentTemplateNameValue {
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -11291,19 +11326,19 @@ export interface AlertRouteIncidentTemplateName {
   /**
   * The array of literal or reference parameter values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#array_value AlertRoute#array_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#array_value AlertRoute#array_value}
   */
   readonly arrayValue?: AlertRouteIncidentTemplateNameArrayValue[] | cdktf.IResolvable;
   /**
   * Whether this attribute should be autogenerated using AI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#autogenerated AlertRoute#autogenerated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#autogenerated AlertRoute#autogenerated}
   */
   readonly autogenerated?: boolean | cdktf.IResolvable;
   /**
   * The literal or reference parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#value AlertRoute#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#value AlertRoute#value}
   */
   readonly value?: AlertRouteIncidentTemplateNameValue;
 }
@@ -11457,13 +11492,13 @@ export interface AlertRouteIncidentTemplateSeverityBindingArrayValue {
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -11610,13 +11645,13 @@ export interface AlertRouteIncidentTemplateSeverityBindingValue {
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -11741,13 +11776,13 @@ export interface AlertRouteIncidentTemplateSeverityBinding {
   /**
   * The array of literal or reference parameter values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#array_value AlertRoute#array_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#array_value AlertRoute#array_value}
   */
   readonly arrayValue?: AlertRouteIncidentTemplateSeverityBindingArrayValue[] | cdktf.IResolvable;
   /**
   * The literal or reference parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#value AlertRoute#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#value AlertRoute#value}
   */
   readonly value?: AlertRouteIncidentTemplateSeverityBindingValue;
 }
@@ -11773,7 +11808,7 @@ export function alertRouteIncidentTemplateSeverityBindingToHclTerraform(struct?:
     array_value: {
       value: cdktf.listMapperHcl(alertRouteIncidentTemplateSeverityBindingArrayValueToHclTerraform, false)(struct!.arrayValue),
       isBlock: true,
-      type: "set",
+      type: "list",
       storageClassType: "AlertRouteIncidentTemplateSeverityBindingArrayValueList",
     },
     value: {
@@ -11837,7 +11872,7 @@ export class AlertRouteIncidentTemplateSeverityBindingOutputReference extends cd
   }
 
   // array_value - computed: true, optional: true, required: false
-  private _arrayValue = new AlertRouteIncidentTemplateSeverityBindingArrayValueList(this, "array_value", true);
+  private _arrayValue = new AlertRouteIncidentTemplateSeverityBindingArrayValueList(this, "array_value", false);
   public get arrayValue() {
     return this._arrayValue;
   }
@@ -11870,13 +11905,13 @@ export class AlertRouteIncidentTemplateSeverityBindingOutputReference extends cd
 }
 export interface AlertRouteIncidentTemplateSeverity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#binding AlertRoute#binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#binding AlertRoute#binding}
   */
   readonly binding?: AlertRouteIncidentTemplateSeverityBinding;
   /**
   * Strategy for merging severity when multiple alerts create/update the same incident. Possible values are: `first-wins`, `max`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#merge_strategy AlertRoute#merge_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#merge_strategy AlertRoute#merge_strategy}
   */
   readonly mergeStrategy: string;
 }
@@ -11998,13 +12033,13 @@ export interface AlertRouteIncidentTemplateStartInTriageArrayValue {
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -12151,13 +12186,13 @@ export interface AlertRouteIncidentTemplateStartInTriageValue {
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -12282,13 +12317,13 @@ export interface AlertRouteIncidentTemplateStartInTriage {
   /**
   * The array of literal or reference parameter values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#array_value AlertRoute#array_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#array_value AlertRoute#array_value}
   */
   readonly arrayValue?: AlertRouteIncidentTemplateStartInTriageArrayValue[] | cdktf.IResolvable;
   /**
   * The literal or reference parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#value AlertRoute#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#value AlertRoute#value}
   */
   readonly value?: AlertRouteIncidentTemplateStartInTriageValue;
 }
@@ -12314,7 +12349,7 @@ export function alertRouteIncidentTemplateStartInTriageToHclTerraform(struct?: A
     array_value: {
       value: cdktf.listMapperHcl(alertRouteIncidentTemplateStartInTriageArrayValueToHclTerraform, false)(struct!.arrayValue),
       isBlock: true,
-      type: "set",
+      type: "list",
       storageClassType: "AlertRouteIncidentTemplateStartInTriageArrayValueList",
     },
     value: {
@@ -12378,7 +12413,7 @@ export class AlertRouteIncidentTemplateStartInTriageOutputReference extends cdkt
   }
 
   // array_value - computed: false, optional: true, required: false
-  private _arrayValue = new AlertRouteIncidentTemplateStartInTriageArrayValueList(this, "array_value", true);
+  private _arrayValue = new AlertRouteIncidentTemplateStartInTriageArrayValueList(this, "array_value", false);
   public get arrayValue() {
     return this._arrayValue;
   }
@@ -12413,13 +12448,13 @@ export interface AlertRouteIncidentTemplateSummaryArrayValue {
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -12566,13 +12601,13 @@ export interface AlertRouteIncidentTemplateSummaryValue {
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -12697,19 +12732,19 @@ export interface AlertRouteIncidentTemplateSummary {
   /**
   * The array of literal or reference parameter values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#array_value AlertRoute#array_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#array_value AlertRoute#array_value}
   */
   readonly arrayValue?: AlertRouteIncidentTemplateSummaryArrayValue[] | cdktf.IResolvable;
   /**
   * Whether this attribute should be autogenerated using AI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#autogenerated AlertRoute#autogenerated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#autogenerated AlertRoute#autogenerated}
   */
   readonly autogenerated?: boolean | cdktf.IResolvable;
   /**
   * The literal or reference parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#value AlertRoute#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#value AlertRoute#value}
   */
   readonly value?: AlertRouteIncidentTemplateSummaryValue;
 }
@@ -12863,13 +12898,13 @@ export interface AlertRouteIncidentTemplateWorkspaceArrayValue {
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -13016,13 +13051,13 @@ export interface AlertRouteIncidentTemplateWorkspaceValue {
   /**
   * If set, this is the literal value of the step parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#literal AlertRoute#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#literal AlertRoute#literal}
   */
   readonly literal?: string;
   /**
   * If set, this is the reference into the trigger scope that is the value of this parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#reference AlertRoute#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#reference AlertRoute#reference}
   */
   readonly reference?: string;
 }
@@ -13147,13 +13182,13 @@ export interface AlertRouteIncidentTemplateWorkspace {
   /**
   * The array of literal or reference parameter values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#array_value AlertRoute#array_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#array_value AlertRoute#array_value}
   */
   readonly arrayValue?: AlertRouteIncidentTemplateWorkspaceArrayValue[] | cdktf.IResolvable;
   /**
   * The literal or reference parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#value AlertRoute#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#value AlertRoute#value}
   */
   readonly value?: AlertRouteIncidentTemplateWorkspaceValue;
 }
@@ -13179,7 +13214,7 @@ export function alertRouteIncidentTemplateWorkspaceToHclTerraform(struct?: Alert
     array_value: {
       value: cdktf.listMapperHcl(alertRouteIncidentTemplateWorkspaceArrayValueToHclTerraform, false)(struct!.arrayValue),
       isBlock: true,
-      type: "set",
+      type: "list",
       storageClassType: "AlertRouteIncidentTemplateWorkspaceArrayValueList",
     },
     value: {
@@ -13243,7 +13278,7 @@ export class AlertRouteIncidentTemplateWorkspaceOutputReference extends cdktf.Co
   }
 
   // array_value - computed: false, optional: true, required: false
-  private _arrayValue = new AlertRouteIncidentTemplateWorkspaceArrayValueList(this, "array_value", true);
+  private _arrayValue = new AlertRouteIncidentTemplateWorkspaceArrayValueList(this, "array_value", false);
   public get arrayValue() {
     return this._arrayValue;
   }
@@ -13278,35 +13313,35 @@ export interface AlertRouteIncidentTemplate {
   /**
   * Custom fields configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#custom_fields AlertRoute#custom_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#custom_fields AlertRoute#custom_fields}
   */
   readonly customFields?: AlertRouteIncidentTemplateCustomFields[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#incident_mode AlertRoute#incident_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#incident_mode AlertRoute#incident_mode}
   */
   readonly incidentMode?: AlertRouteIncidentTemplateIncidentMode;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#incident_type AlertRoute#incident_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#incident_type AlertRoute#incident_type}
   */
   readonly incidentType?: AlertRouteIncidentTemplateIncidentType;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#name AlertRoute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#name AlertRoute#name}
   */
   readonly name: AlertRouteIncidentTemplateName;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#severity AlertRoute#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#severity AlertRoute#severity}
   */
   readonly severity?: AlertRouteIncidentTemplateSeverity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#start_in_triage AlertRoute#start_in_triage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#start_in_triage AlertRoute#start_in_triage}
   */
   readonly startInTriage?: AlertRouteIncidentTemplateStartInTriage;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#summary AlertRoute#summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#summary AlertRoute#summary}
   */
   readonly summary: AlertRouteIncidentTemplateSummary;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#workspace AlertRoute#workspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#workspace AlertRoute#workspace}
   */
   readonly workspace?: AlertRouteIncidentTemplateWorkspace;
 }
@@ -13597,7 +13632,7 @@ export class AlertRouteIncidentTemplateOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route incident_alert_route}
+* Represents a {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route incident_alert_route}
 */
 export class AlertRoute extends cdktf.TerraformResource {
 
@@ -13613,7 +13648,7 @@ export class AlertRoute extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AlertRoute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlertRoute to import
-  * @param importFromId The id of the existing AlertRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlertRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlertRoute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -13625,7 +13660,7 @@ export class AlertRoute extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/incident-io/incident/5.19.1/docs/resources/alert_route incident_alert_route} Resource
+  * Create a new {@link https://registry.terraform.io/providers/incident-io/incident/5.20.0/docs/resources/alert_route incident_alert_route} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -13636,8 +13671,8 @@ export class AlertRoute extends cdktf.TerraformResource {
       terraformResourceType: 'incident_alert_route',
       terraformGeneratorMetadata: {
         providerName: 'incident',
-        providerVersion: '5.19.1',
-        providerVersionConstraint: '5.19.1'
+        providerVersion: '5.20.0',
+        providerVersionConstraint: '5.20.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

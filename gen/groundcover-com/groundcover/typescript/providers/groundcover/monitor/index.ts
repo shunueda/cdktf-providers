@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/groundcover-com/groundcover/1.3.0/docs/resources/monitor
+// https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.1/docs/resources/monitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface MonitorConfig extends cdktf.TerraformMetaArguments {
   /**
   * The monitor definition in YAML format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.3.0/docs/resources/monitor#monitor_yaml Monitor#monitor_yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.1/docs/resources/monitor#monitor_yaml Monitor#monitor_yaml}
   */
   readonly monitorYaml: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.3.0/docs/resources/monitor groundcover_monitor}
+* Represents a {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.1/docs/resources/monitor groundcover_monitor}
 */
 export class Monitor extends cdktf.TerraformResource {
 
@@ -32,7 +32,7 @@ export class Monitor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Monitor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Monitor to import
-  * @param importFromId The id of the existing Monitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.3.0/docs/resources/monitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Monitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.1/docs/resources/monitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Monitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class Monitor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.3.0/docs/resources/monitor groundcover_monitor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.1/docs/resources/monitor groundcover_monitor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class Monitor extends cdktf.TerraformResource {
       terraformResourceType: 'groundcover_monitor',
       terraformGeneratorMetadata: {
         providerName: 'groundcover',
-        providerVersion: '1.3.0',
-        providerVersionConstraint: '1.3.0'
+        providerVersion: '1.4.1',
+        providerVersionConstraint: '1.4.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_environment_settings
+// https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_environment_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface SparkEnvironmentSettingsConfig extends cdktf.TerraformMetaArgum
   /**
   * Publication status. Value must be one of : `4`, `8`, `16`, `32`, `64`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_environment_settings#driver_cores SparkEnvironmentSettings#driver_cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_environment_settings#driver_cores SparkEnvironmentSettings#driver_cores}
   */
   readonly driverCores?: number;
   /**
   * Spark driver memory. Value must be one of : `28g`, `56g`, `112g`, `224g`, `400g`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_environment_settings#driver_memory SparkEnvironmentSettings#driver_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_environment_settings#driver_memory SparkEnvironmentSettings#driver_memory}
   */
   readonly driverMemory?: string;
   /**
   * Dynamic Executor Allocation properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_environment_settings#dynamic_executor_allocation SparkEnvironmentSettings#dynamic_executor_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_environment_settings#dynamic_executor_allocation SparkEnvironmentSettings#dynamic_executor_allocation}
   */
   readonly dynamicExecutorAllocation?: SparkEnvironmentSettingsDynamicExecutorAllocation;
   /**
   * <i style="color:red;font-weight: bold">(ForceNew)</i> The Environment ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_environment_settings#environment_id SparkEnvironmentSettings#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_environment_settings#environment_id SparkEnvironmentSettings#environment_id}
   */
   readonly environmentId: string;
   /**
   * Spark executor core. Value must be one of : `4`, `8`, `16`, `32`, `64`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_environment_settings#executor_cores SparkEnvironmentSettings#executor_cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_environment_settings#executor_cores SparkEnvironmentSettings#executor_cores}
   */
   readonly executorCores?: number;
   /**
   * Spark executor memory. Value must be one of : `28g`, `56g`, `112g`, `224g`, `400g`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_environment_settings#executor_memory SparkEnvironmentSettings#executor_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_environment_settings#executor_memory SparkEnvironmentSettings#executor_memory}
   */
   readonly executorMemory?: string;
   /**
   * Environment pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_environment_settings#pool SparkEnvironmentSettings#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_environment_settings#pool SparkEnvironmentSettings#pool}
   */
   readonly pool?: SparkEnvironmentSettingsPool;
   /**
   * <i style="color:red;font-weight: bold">(ForceNew)</i> Publication status. Value must be one of : `Published`, `Staging`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_environment_settings#publication_status SparkEnvironmentSettings#publication_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_environment_settings#publication_status SparkEnvironmentSettings#publication_status}
   */
   readonly publicationStatus: string;
   /**
   * [Runtime](https://review.learn.microsoft.com/fabric/data-engineering/runtime) version. Value must be one of : `1.1`, `1.2`, `1.3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_environment_settings#runtime_version SparkEnvironmentSettings#runtime_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_environment_settings#runtime_version SparkEnvironmentSettings#runtime_version}
   */
   readonly runtimeVersion?: string;
   /**
@@ -67,17 +67,17 @@ export interface SparkEnvironmentSettingsConfig extends cdktf.TerraformMetaArgum
   * - cannot contains any white spaces
   * - dot '.' is allowed but not at the start or end of the property key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_environment_settings#spark_properties SparkEnvironmentSettings#spark_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_environment_settings#spark_properties SparkEnvironmentSettings#spark_properties}
   */
   readonly sparkProperties?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_environment_settings#timeouts SparkEnvironmentSettings#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_environment_settings#timeouts SparkEnvironmentSettings#timeouts}
   */
   readonly timeouts?: SparkEnvironmentSettingsTimeouts;
   /**
   * <i style="color:red;font-weight: bold">(ForceNew)</i> The Workspace ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_environment_settings#workspace_id SparkEnvironmentSettings#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_environment_settings#workspace_id SparkEnvironmentSettings#workspace_id}
   */
   readonly workspaceId: string;
 }
@@ -85,19 +85,19 @@ export interface SparkEnvironmentSettingsDynamicExecutorAllocation {
   /**
   * The status of the dynamic executor allocation: `false` - Disabled, `true` - Enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_environment_settings#enabled SparkEnvironmentSettings#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_environment_settings#enabled SparkEnvironmentSettings#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The maximum executors. Value must be at least 1. Ensure that if an attribute is set, also these are set: "[<.min_executors]".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_environment_settings#max_executors SparkEnvironmentSettings#max_executors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_environment_settings#max_executors SparkEnvironmentSettings#max_executors}
   */
   readonly maxExecutors?: number;
   /**
   * The minimum executors. Value must be at least 1. Ensure that if an attribute is set, also these are set: "[<.max_executors]".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_environment_settings#min_executors SparkEnvironmentSettings#min_executors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_environment_settings#min_executors SparkEnvironmentSettings#min_executors}
   */
   readonly minExecutors?: number;
 }
@@ -251,13 +251,13 @@ export interface SparkEnvironmentSettingsPool {
   /**
   * The Pool name. `Starter Pool` means using the starting pool. Ensure that if an attribute is set, also these are set: "[<.type]".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_environment_settings#name SparkEnvironmentSettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_environment_settings#name SparkEnvironmentSettings#name}
   */
   readonly name?: string;
   /**
   * The Pool type. Value must be one of : `Capacity`, `Workspace`. Ensure that if an attribute is set, also these are set: "[<.name]".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_environment_settings#type SparkEnvironmentSettings#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_environment_settings#type SparkEnvironmentSettings#type}
   */
   readonly type?: string;
 }
@@ -387,25 +387,25 @@ export interface SparkEnvironmentSettingsTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_environment_settings#create SparkEnvironmentSettings#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_environment_settings#create SparkEnvironmentSettings#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_environment_settings#delete SparkEnvironmentSettings#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_environment_settings#delete SparkEnvironmentSettings#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_environment_settings#read SparkEnvironmentSettings#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_environment_settings#read SparkEnvironmentSettings#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_environment_settings#update SparkEnvironmentSettings#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_environment_settings#update SparkEnvironmentSettings#update}
   */
   readonly update?: string;
 }
@@ -586,7 +586,7 @@ export class SparkEnvironmentSettingsTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_environment_settings fabric_spark_environment_settings}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_environment_settings fabric_spark_environment_settings}
 */
 export class SparkEnvironmentSettings extends cdktf.TerraformResource {
 
@@ -602,7 +602,7 @@ export class SparkEnvironmentSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SparkEnvironmentSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SparkEnvironmentSettings to import
-  * @param importFromId The id of the existing SparkEnvironmentSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_environment_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SparkEnvironmentSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_environment_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SparkEnvironmentSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -614,7 +614,7 @@ export class SparkEnvironmentSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/spark_environment_settings fabric_spark_environment_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/spark_environment_settings fabric_spark_environment_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -625,8 +625,8 @@ export class SparkEnvironmentSettings extends cdktf.TerraformResource {
       terraformResourceType: 'fabric_spark_environment_settings',
       terraformGeneratorMetadata: {
         providerName: 'fabric',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

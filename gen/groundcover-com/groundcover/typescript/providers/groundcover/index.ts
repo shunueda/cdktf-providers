@@ -4,6 +4,7 @@ export * as dashboard from './dashboard';
 export * as dataintegration from './dataintegration';
 export * as ingestionkey from './ingestionkey';
 export * as logspipeline from './logspipeline';
+export * as metricsaggregation from './metricsaggregation';
 export * as monitor from './monitor';
 export * as policy from './policy';
 export * as serviceaccount from './serviceaccount';

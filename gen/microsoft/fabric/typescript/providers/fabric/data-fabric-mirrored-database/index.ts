@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/mirrored_database
+// https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/mirrored_database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataFabricMirroredDatabaseConfig extends cdktf.TerraformMetaArg
   /**
   * The Mirrored Database display name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/mirrored_database#display_name DataFabricMirroredDatabase#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/mirrored_database#display_name DataFabricMirroredDatabase#display_name}
   */
   readonly displayName?: string;
   /**
   * The Mirrored Database format. Possible values: `Default`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/mirrored_database#format DataFabricMirroredDatabase#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/mirrored_database#format DataFabricMirroredDatabase#format}
   */
   readonly format?: string;
   /**
   * The Mirrored Database ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/mirrored_database#id DataFabricMirroredDatabase#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/mirrored_database#id DataFabricMirroredDatabase#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,17 +33,17 @@ export interface DataFabricMirroredDatabaseConfig extends cdktf.TerraformMetaArg
   * 
   * !> Your terraform state file may grow a lot if you output definition content. Only use it when you must use data from the definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/mirrored_database#output_definition DataFabricMirroredDatabase#output_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/mirrored_database#output_definition DataFabricMirroredDatabase#output_definition}
   */
   readonly outputDefinition?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/mirrored_database#timeouts DataFabricMirroredDatabase#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/mirrored_database#timeouts DataFabricMirroredDatabase#timeouts}
   */
   readonly timeouts?: DataFabricMirroredDatabaseTimeouts;
   /**
   * The Workspace ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/mirrored_database#workspace_id DataFabricMirroredDatabase#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/mirrored_database#workspace_id DataFabricMirroredDatabase#workspace_id}
   */
   readonly workspaceId: string;
 }
@@ -253,7 +253,7 @@ export interface DataFabricMirroredDatabaseTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/mirrored_database#read DataFabricMirroredDatabase#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/mirrored_database#read DataFabricMirroredDatabase#read}
   */
   readonly read?: string;
 }
@@ -347,7 +347,7 @@ export class DataFabricMirroredDatabaseTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/mirrored_database fabric_mirrored_database}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/mirrored_database fabric_mirrored_database}
 */
 export class DataFabricMirroredDatabase extends cdktf.TerraformDataSource {
 
@@ -363,7 +363,7 @@ export class DataFabricMirroredDatabase extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFabricMirroredDatabase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFabricMirroredDatabase to import
-  * @param importFromId The id of the existing DataFabricMirroredDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/mirrored_database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFabricMirroredDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/mirrored_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFabricMirroredDatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -375,7 +375,7 @@ export class DataFabricMirroredDatabase extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/mirrored_database fabric_mirrored_database} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/mirrored_database fabric_mirrored_database} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -386,8 +386,8 @@ export class DataFabricMirroredDatabase extends cdktf.TerraformDataSource {
       terraformResourceType: 'fabric_mirrored_database',
       terraformGeneratorMetadata: {
         providerName: 'fabric',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -434,6 +434,11 @@ export class DataFabricMirroredDatabase extends cdktf.TerraformDataSource {
   // Temporarily expose input value. Use with caution.
   public get displayNameInput() {
     return this._displayName;
+  }
+
+  // folder_id - computed: true, optional: false, required: false
+  public get folderId() {
+    return this.getStringAttribute('folder_id');
   }
 
   // format - computed: false, optional: true, required: false

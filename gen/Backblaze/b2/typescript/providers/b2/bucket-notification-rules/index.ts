@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket_notification_rules
+// https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/bucket_notification_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface BucketNotificationRulesConfig extends cdktf.TerraformMetaArgume
   /**
   * The ID of the bucket. **Modifying this attribute will force creation of a new resource.**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket_notification_rules#bucket_id BucketNotificationRules#bucket_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/bucket_notification_rules#bucket_id BucketNotificationRules#bucket_id}
   */
   readonly bucketId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket_notification_rules#id BucketNotificationRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/bucket_notification_rules#id BucketNotificationRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface BucketNotificationRulesConfig extends cdktf.TerraformMetaArgume
   /**
   * notification_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket_notification_rules#notification_rules BucketNotificationRules#notification_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/bucket_notification_rules#notification_rules BucketNotificationRules#notification_rules}
   */
   readonly notificationRules: BucketNotificationRulesNotificationRules[] | cdktf.IResolvable;
 }
@@ -31,13 +31,13 @@ export interface BucketNotificationRulesNotificationRulesTargetConfigurationCust
   /**
   * Name of the header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket_notification_rules#name BucketNotificationRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/bucket_notification_rules#name BucketNotificationRules#name}
   */
   readonly name: string;
   /**
   * Value of the header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket_notification_rules#value BucketNotificationRules#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/bucket_notification_rules#value BucketNotificationRules#value}
   */
   readonly value: string;
 }
@@ -178,25 +178,25 @@ export interface BucketNotificationRulesNotificationRulesTargetConfiguration {
   /**
   * The signing secret for use in verifying the X-Bz-Event-Notification-Signature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket_notification_rules#hmac_sha256_signing_secret BucketNotificationRules#hmac_sha256_signing_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/bucket_notification_rules#hmac_sha256_signing_secret BucketNotificationRules#hmac_sha256_signing_secret}
   */
   readonly hmacSha256SigningSecret?: string;
   /**
   * The type of the target configuration, currently "webhook" only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket_notification_rules#target_type BucketNotificationRules#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/bucket_notification_rules#target_type BucketNotificationRules#target_type}
   */
   readonly targetType: string;
   /**
   * The URL for the webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket_notification_rules#url BucketNotificationRules#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/bucket_notification_rules#url BucketNotificationRules#url}
   */
   readonly url: string;
   /**
   * custom_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket_notification_rules#custom_headers BucketNotificationRules#custom_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/bucket_notification_rules#custom_headers BucketNotificationRules#custom_headers}
   */
   readonly customHeaders?: BucketNotificationRulesNotificationRulesTargetConfigurationCustomHeaders[] | cdktf.IResolvable;
 }
@@ -363,31 +363,31 @@ export interface BucketNotificationRulesNotificationRules {
   /**
   * The list of event types for the event notification rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket_notification_rules#event_types BucketNotificationRules#event_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/bucket_notification_rules#event_types BucketNotificationRules#event_types}
   */
   readonly eventTypes: string[];
   /**
   * Whether the event notification rule is enabled. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket_notification_rules#is_enabled BucketNotificationRules#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/bucket_notification_rules#is_enabled BucketNotificationRules#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
   * A name for the event notification rule. The name must be unique among the bucket's notification rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket_notification_rules#name BucketNotificationRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/bucket_notification_rules#name BucketNotificationRules#name}
   */
   readonly name: string;
   /**
   * Specifies which object(s) in the bucket the event notification rule applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket_notification_rules#object_name_prefix BucketNotificationRules#object_name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/bucket_notification_rules#object_name_prefix BucketNotificationRules#object_name_prefix}
   */
   readonly objectNamePrefix?: string;
   /**
   * target_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket_notification_rules#target_configuration BucketNotificationRules#target_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/bucket_notification_rules#target_configuration BucketNotificationRules#target_configuration}
   */
   readonly targetConfiguration: BucketNotificationRulesNotificationRulesTargetConfiguration;
 }
@@ -620,7 +620,7 @@ export class BucketNotificationRulesNotificationRulesList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket_notification_rules b2_bucket_notification_rules}
+* Represents a {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/bucket_notification_rules b2_bucket_notification_rules}
 */
 export class BucketNotificationRules extends cdktf.TerraformResource {
 
@@ -636,7 +636,7 @@ export class BucketNotificationRules extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BucketNotificationRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BucketNotificationRules to import
-  * @param importFromId The id of the existing BucketNotificationRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket_notification_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BucketNotificationRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/bucket_notification_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BucketNotificationRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -648,7 +648,7 @@ export class BucketNotificationRules extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket_notification_rules b2_bucket_notification_rules} Resource
+  * Create a new {@link https://registry.terraform.io/providers/backblaze/b2/0.12.0/docs/resources/bucket_notification_rules b2_bucket_notification_rules} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -659,8 +659,8 @@ export class BucketNotificationRules extends cdktf.TerraformResource {
       terraformResourceType: 'b2_bucket_notification_rules',
       terraformGeneratorMetadata: {
         providerName: 'b2',
-        providerVersion: '0.11.0',
-        providerVersionConstraint: '0.11.0'
+        providerVersion: '0.12.0',
+        providerVersionConstraint: '0.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lxc/incus/1.0.0/docs
+// https://registry.terraform.io/providers/lxc/incus/1.0.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface IncusProviderConfig {
   /**
   * Accept the server certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs#accept_remote_certificate IncusProvider#accept_remote_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs#accept_remote_certificate IncusProvider#accept_remote_certificate}
   */
   readonly acceptRemoteCertificate?: boolean | cdktf.IResolvable;
   /**
   * The directory to look for existing Incus configuration. (default = $HOME/.config/incus)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs#config_dir IncusProvider#config_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs#config_dir IncusProvider#config_dir}
   */
   readonly configDir?: string;
   /**
   * The default remote to use when no other remote is defined in a resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs#default_remote IncusProvider#default_remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs#default_remote IncusProvider#default_remote}
   */
   readonly defaultRemote?: string;
   /**
   * Automatically generate the Incus client certificates if they don't exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs#generate_client_certificates IncusProvider#generate_client_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs#generate_client_certificates IncusProvider#generate_client_certificates}
   */
   readonly generateClientCertificates?: boolean | cdktf.IResolvable;
   /**
   * The project where project-scoped resources will be created. Can be overridden in individual resources. (default = default)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs#project IncusProvider#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs#project IncusProvider#project}
   */
   readonly project?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs#alias IncusProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs#alias IncusProvider#alias}
   */
   readonly alias?: string;
   /**
   * remote block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs#remote IncusProvider#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs#remote IncusProvider#remote}
   */
   readonly remote?: IncusProviderRemote[] | cdktf.IResolvable;
 }
@@ -54,37 +54,37 @@ export interface IncusProviderRemote {
   /**
   * The URL of the Incus host. The default will be the path to the local unix socket, or leaving it as an empty string will use the default socket path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs#address IncusProvider#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs#address IncusProvider#address}
   */
   readonly address?: string;
   /**
   * Server authentication type, tls or oidc. ( Only for the `incus` protocol )
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs#authentication_type IncusProvider#authentication_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs#authentication_type IncusProvider#authentication_type}
   */
   readonly authenticationType?: string;
   /**
   * Name of the Incus remote.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs#name IncusProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs#name IncusProvider#name}
   */
   readonly name: string;
   /**
   * Server protocol ( incus, oci or simplestreams )
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs#protocol IncusProvider#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs#protocol IncusProvider#protocol}
   */
   readonly protocol?: string;
   /**
   * Public image server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs#public IncusProvider#public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs#public IncusProvider#public}
   */
   readonly public?: boolean | cdktf.IResolvable;
   /**
   * The trust token used for initial authentication with the Incus remote.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs#token IncusProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs#token IncusProvider#token}
   */
   readonly token?: string;
 }
@@ -155,7 +155,7 @@ export function incusProviderRemoteToHclTerraform(struct?: IncusProviderRemote |
 
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs incus}
+* Represents a {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs incus}
 */
 export class IncusProvider extends cdktf.TerraformProvider {
 
@@ -171,7 +171,7 @@ export class IncusProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a IncusProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IncusProvider to import
-  * @param importFromId The id of the existing IncusProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IncusProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IncusProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -183,7 +183,7 @@ export class IncusProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs incus} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs incus} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -194,8 +194,8 @@ export class IncusProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'incus',
       terraformGeneratorMetadata: {
         providerName: 'incus',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.0.1',
+        providerVersionConstraint: '1.0.1'
       },
       terraformProviderSource: 'lxc/incus'
     });

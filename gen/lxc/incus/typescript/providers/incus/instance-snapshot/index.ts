@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/resources/instance_snapshot
+// https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/instance_snapshot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,29 +8,29 @@ import * as cdktf from 'cdktf';
 
 export interface InstanceSnapshotConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/resources/instance_snapshot#instance InstanceSnapshot#instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/instance_snapshot#instance InstanceSnapshot#instance}
   */
   readonly instance: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/resources/instance_snapshot#name InstanceSnapshot#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/instance_snapshot#name InstanceSnapshot#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/resources/instance_snapshot#project InstanceSnapshot#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/instance_snapshot#project InstanceSnapshot#project}
   */
   readonly project?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/resources/instance_snapshot#remote InstanceSnapshot#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/instance_snapshot#remote InstanceSnapshot#remote}
   */
   readonly remote?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/resources/instance_snapshot#stateful InstanceSnapshot#stateful}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/instance_snapshot#stateful InstanceSnapshot#stateful}
   */
   readonly stateful?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/resources/instance_snapshot incus_instance_snapshot}
+* Represents a {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/instance_snapshot incus_instance_snapshot}
 */
 export class InstanceSnapshot extends cdktf.TerraformResource {
 
@@ -46,7 +46,7 @@ export class InstanceSnapshot extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InstanceSnapshot resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InstanceSnapshot to import
-  * @param importFromId The id of the existing InstanceSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/resources/instance_snapshot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InstanceSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/instance_snapshot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InstanceSnapshot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -58,7 +58,7 @@ export class InstanceSnapshot extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/resources/instance_snapshot incus_instance_snapshot} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/instance_snapshot incus_instance_snapshot} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -69,8 +69,8 @@ export class InstanceSnapshot extends cdktf.TerraformResource {
       terraformResourceType: 'incus_instance_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'incus',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.0.1',
+        providerVersionConstraint: '1.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

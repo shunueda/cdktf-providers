@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_aggregation_rule
+// https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_aggregation_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,98 +8,98 @@ import * as cdktf from 'cdktf';
 
 export interface CseAggregationRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_aggregation_rule#description_expression CseAggregationRule#description_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_aggregation_rule#description_expression CseAggregationRule#description_expression}
   */
   readonly descriptionExpression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_aggregation_rule#enabled CseAggregationRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_aggregation_rule#enabled CseAggregationRule#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_aggregation_rule#group_by_entity CseAggregationRule#group_by_entity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_aggregation_rule#group_by_entity CseAggregationRule#group_by_entity}
   */
   readonly groupByEntity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_aggregation_rule#group_by_fields CseAggregationRule#group_by_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_aggregation_rule#group_by_fields CseAggregationRule#group_by_fields}
   */
   readonly groupByFields?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_aggregation_rule#id CseAggregationRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_aggregation_rule#id CseAggregationRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_aggregation_rule#is_prototype CseAggregationRule#is_prototype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_aggregation_rule#is_prototype CseAggregationRule#is_prototype}
   */
   readonly isPrototype?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_aggregation_rule#match_expression CseAggregationRule#match_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_aggregation_rule#match_expression CseAggregationRule#match_expression}
   */
   readonly matchExpression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_aggregation_rule#name CseAggregationRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_aggregation_rule#name CseAggregationRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_aggregation_rule#name_expression CseAggregationRule#name_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_aggregation_rule#name_expression CseAggregationRule#name_expression}
   */
   readonly nameExpression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_aggregation_rule#summary_expression CseAggregationRule#summary_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_aggregation_rule#summary_expression CseAggregationRule#summary_expression}
   */
   readonly summaryExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_aggregation_rule#suppression_window_size CseAggregationRule#suppression_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_aggregation_rule#suppression_window_size CseAggregationRule#suppression_window_size}
   */
   readonly suppressionWindowSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_aggregation_rule#tags CseAggregationRule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_aggregation_rule#tags CseAggregationRule#tags}
   */
   readonly tags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_aggregation_rule#trigger_expression CseAggregationRule#trigger_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_aggregation_rule#trigger_expression CseAggregationRule#trigger_expression}
   */
   readonly triggerExpression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_aggregation_rule#window_size CseAggregationRule#window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_aggregation_rule#window_size CseAggregationRule#window_size}
   */
   readonly windowSize: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_aggregation_rule#window_size_millis CseAggregationRule#window_size_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_aggregation_rule#window_size_millis CseAggregationRule#window_size_millis}
   */
   readonly windowSizeMillis?: string;
   /**
   * aggregation_functions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_aggregation_rule#aggregation_functions CseAggregationRule#aggregation_functions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_aggregation_rule#aggregation_functions CseAggregationRule#aggregation_functions}
   */
   readonly aggregationFunctions: CseAggregationRuleAggregationFunctions[] | cdktf.IResolvable;
   /**
   * entity_selectors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_aggregation_rule#entity_selectors CseAggregationRule#entity_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_aggregation_rule#entity_selectors CseAggregationRule#entity_selectors}
   */
   readonly entitySelectors: CseAggregationRuleEntitySelectors[] | cdktf.IResolvable;
   /**
   * severity_mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_aggregation_rule#severity_mapping CseAggregationRule#severity_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_aggregation_rule#severity_mapping CseAggregationRule#severity_mapping}
   */
   readonly severityMapping: CseAggregationRuleSeverityMapping;
 }
 export interface CseAggregationRuleAggregationFunctions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_aggregation_rule#arguments CseAggregationRule#arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_aggregation_rule#arguments CseAggregationRule#arguments}
   */
   readonly arguments: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_aggregation_rule#function CseAggregationRule#function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_aggregation_rule#function CseAggregationRule#function}
   */
   readonly function: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_aggregation_rule#name CseAggregationRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_aggregation_rule#name CseAggregationRule#name}
   */
   readonly name: string;
 }
@@ -264,11 +264,11 @@ export class CseAggregationRuleAggregationFunctionsList extends cdktf.ComplexLis
 }
 export interface CseAggregationRuleEntitySelectors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_aggregation_rule#entity_type CseAggregationRule#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_aggregation_rule#entity_type CseAggregationRule#entity_type}
   */
   readonly entityType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_aggregation_rule#expression CseAggregationRule#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_aggregation_rule#expression CseAggregationRule#expression}
   */
   readonly expression: string;
 }
@@ -407,15 +407,15 @@ export class CseAggregationRuleEntitySelectorsList extends cdktf.ComplexList {
 }
 export interface CseAggregationRuleSeverityMappingMapping {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_aggregation_rule#from CseAggregationRule#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_aggregation_rule#from CseAggregationRule#from}
   */
   readonly from: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_aggregation_rule#to CseAggregationRule#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_aggregation_rule#to CseAggregationRule#to}
   */
   readonly to: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_aggregation_rule#type CseAggregationRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_aggregation_rule#type CseAggregationRule#type}
   */
   readonly type: string;
 }
@@ -580,21 +580,21 @@ export class CseAggregationRuleSeverityMappingMappingList extends cdktf.ComplexL
 }
 export interface CseAggregationRuleSeverityMapping {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_aggregation_rule#default CseAggregationRule#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_aggregation_rule#default CseAggregationRule#default}
   */
   readonly default?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_aggregation_rule#field CseAggregationRule#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_aggregation_rule#field CseAggregationRule#field}
   */
   readonly field?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_aggregation_rule#type CseAggregationRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_aggregation_rule#type CseAggregationRule#type}
   */
   readonly type: string;
   /**
   * mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_aggregation_rule#mapping CseAggregationRule#mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_aggregation_rule#mapping CseAggregationRule#mapping}
   */
   readonly mapping?: CseAggregationRuleSeverityMappingMapping[] | cdktf.IResolvable;
 }
@@ -762,7 +762,7 @@ export class CseAggregationRuleSeverityMappingOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_aggregation_rule sumologic_cse_aggregation_rule}
+* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_aggregation_rule sumologic_cse_aggregation_rule}
 */
 export class CseAggregationRule extends cdktf.TerraformResource {
 
@@ -778,7 +778,7 @@ export class CseAggregationRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CseAggregationRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CseAggregationRule to import
-  * @param importFromId The id of the existing CseAggregationRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_aggregation_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CseAggregationRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_aggregation_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CseAggregationRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -790,7 +790,7 @@ export class CseAggregationRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/resources/cse_aggregation_rule sumologic_cse_aggregation_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/resources/cse_aggregation_rule sumologic_cse_aggregation_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -801,8 +801,8 @@ export class CseAggregationRule extends cdktf.TerraformResource {
       terraformResourceType: 'sumologic_cse_aggregation_rule',
       terraformGeneratorMetadata: {
         providerName: 'sumologic',
-        providerVersion: '3.2.0',
-        providerVersionConstraint: '3.2.0'
+        providerVersion: '3.2.1',
+        providerVersionConstraint: '3.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

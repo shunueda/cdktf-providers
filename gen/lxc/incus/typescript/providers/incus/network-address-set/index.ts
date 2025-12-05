@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/resources/network_address_set
+// https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/network_address_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,33 +8,33 @@ import * as cdktf from 'cdktf';
 
 export interface NetworkAddressSetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/resources/network_address_set#addresses NetworkAddressSet#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/network_address_set#addresses NetworkAddressSet#addresses}
   */
   readonly addresses: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/resources/network_address_set#config NetworkAddressSet#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/network_address_set#config NetworkAddressSet#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/resources/network_address_set#description NetworkAddressSet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/network_address_set#description NetworkAddressSet#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/resources/network_address_set#name NetworkAddressSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/network_address_set#name NetworkAddressSet#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/resources/network_address_set#project NetworkAddressSet#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/network_address_set#project NetworkAddressSet#project}
   */
   readonly project?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/resources/network_address_set#remote NetworkAddressSet#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/network_address_set#remote NetworkAddressSet#remote}
   */
   readonly remote?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/resources/network_address_set incus_network_address_set}
+* Represents a {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/network_address_set incus_network_address_set}
 */
 export class NetworkAddressSet extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class NetworkAddressSet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkAddressSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkAddressSet to import
-  * @param importFromId The id of the existing NetworkAddressSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/resources/network_address_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkAddressSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/network_address_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkAddressSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class NetworkAddressSet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lxc/incus/1.0.0/docs/resources/network_address_set incus_network_address_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/network_address_set incus_network_address_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class NetworkAddressSet extends cdktf.TerraformResource {
       terraformResourceType: 'incus_network_address_set',
       terraformGeneratorMetadata: {
         providerName: 'incus',
-        providerVersion: '1.0.0',
-        providerVersionConstraint: '1.0.0'
+        providerVersion: '1.0.1',
+        providerVersionConstraint: '1.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

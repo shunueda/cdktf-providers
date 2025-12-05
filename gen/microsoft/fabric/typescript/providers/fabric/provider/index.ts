@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs
+// https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,115 +10,115 @@ export interface FabricProviderConfig {
   /**
   * The Auxiliary Tenant IDs which should be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs#auxiliary_tenant_ids FabricProvider#auxiliary_tenant_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs#auxiliary_tenant_ids FabricProvider#auxiliary_tenant_ids}
   */
   readonly auxiliaryTenantIds?: string[];
   /**
   * The Azure DevOps Service Connection ID that uses Workload Identity Federation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs#azure_devops_service_connection_id FabricProvider#azure_devops_service_connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs#azure_devops_service_connection_id FabricProvider#azure_devops_service_connection_id}
   */
   readonly azureDevopsServiceConnectionId?: string;
   /**
   * Base64 encoded PKCS#12 certificate bundle. For use when authenticating as a Service Principal using a Client Certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs#client_certificate FabricProvider#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs#client_certificate FabricProvider#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
   * The path to the Client Certificate associated with the Service Principal for use when authenticating as a Service Principal using a Client Certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs#client_certificate_file_path FabricProvider#client_certificate_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs#client_certificate_file_path FabricProvider#client_certificate_file_path}
   */
   readonly clientCertificateFilePath?: string;
   /**
   * The password associated with the Client Certificate. For use when authenticating as a Service Principal using a Client Certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs#client_certificate_password FabricProvider#client_certificate_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs#client_certificate_password FabricProvider#client_certificate_password}
   */
   readonly clientCertificatePassword?: string;
   /**
   * The Client ID of the app registration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs#client_id FabricProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs#client_id FabricProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * The path to a file containing the Client ID which should be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs#client_id_file_path FabricProvider#client_id_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs#client_id_file_path FabricProvider#client_id_file_path}
   */
   readonly clientIdFilePath?: string;
   /**
   * The Client Secret of the app registration. For use when authenticating as a Service Principal using a Client Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs#client_secret FabricProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs#client_secret FabricProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * The path to a file containing the Client Secret which should be used. For use when authenticating as a Service Principal using a Client Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs#client_secret_file_path FabricProvider#client_secret_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs#client_secret_file_path FabricProvider#client_secret_file_path}
   */
   readonly clientSecretFilePath?: string;
   /**
   * Disable sending the Terraform Partner ID if a custom `partner_id` isn't specified, which allows Microsoft to better understand the usage of Terraform. The Partner ID does not give HashiCorp any direct access to usage information. This can also be sourced from the `FABRIC_DISABLE_TERRAFORM_PARTNER_ID` environment variable. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs#disable_terraform_partner_id FabricProvider#disable_terraform_partner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs#disable_terraform_partner_id FabricProvider#disable_terraform_partner_id}
   */
   readonly disableTerraformPartnerId?: boolean | cdktf.IResolvable;
   /**
   * The Endpoint of the Microsoft Fabric API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs#endpoint FabricProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs#endpoint FabricProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * The cloud environment which should be used. Possible values are 'public', 'usgovernment' and 'china'. Defaults to 'public'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs#environment FabricProvider#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs#environment FabricProvider#environment}
   */
   readonly environment?: string;
   /**
   * The bearer token for the request to the OIDC provider. For use when authenticating as a Service Principal using OpenID Connect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs#oidc_request_token FabricProvider#oidc_request_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs#oidc_request_token FabricProvider#oidc_request_token}
   */
   readonly oidcRequestToken?: string;
   /**
   * The URL for the OIDC provider from which to request an ID token. For use when authenticating as a Service Principal using OpenID Connect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs#oidc_request_url FabricProvider#oidc_request_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs#oidc_request_url FabricProvider#oidc_request_url}
   */
   readonly oidcRequestUrl?: string;
   /**
   * The OIDC token for use when authenticating as a Service Principal using OpenID Connect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs#oidc_token FabricProvider#oidc_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs#oidc_token FabricProvider#oidc_token}
   */
   readonly oidcToken?: string;
   /**
   * The path to a file containing an OIDC token for use when authenticating as a Service Principal using OpenID Connect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs#oidc_token_file_path FabricProvider#oidc_token_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs#oidc_token_file_path FabricProvider#oidc_token_file_path}
   */
   readonly oidcTokenFilePath?: string;
   /**
   * A GUID/UUID that is [registered](https://learn.microsoft.com/partner-center/marketplace-offers/azure-partner-customer-usage-attribution#register-guids-and-offers) with Microsoft to facilitate partner resource usage attribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs#partner_id FabricProvider#partner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs#partner_id FabricProvider#partner_id}
   */
   readonly partnerId?: string;
   /**
   * Enable preview mode to use preview features.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs#preview FabricProvider#preview}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs#preview FabricProvider#preview}
   */
   readonly preview?: boolean | cdktf.IResolvable;
   /**
   * The ID of the Microsoft Entra ID tenant that Fabric API uses to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs#tenant_id FabricProvider#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs#tenant_id FabricProvider#tenant_id}
   */
   readonly tenantId?: string;
   /**
@@ -126,43 +126,49 @@ export interface FabricProviderConfig {
   *    A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as `30s` or `2h45m`. Valid time units are "s" (seconds), "m" (minutes), "h" (hours)
   *    If not set, the default timeout is `10m`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs#timeout FabricProvider#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs#timeout FabricProvider#timeout}
   */
   readonly timeout?: string;
   /**
   * Allow Azure CLI to be used for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs#use_cli FabricProvider#use_cli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs#use_cli FabricProvider#use_cli}
   */
   readonly useCli?: boolean | cdktf.IResolvable;
   /**
   * Allow Azure Developer CLI to be used for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs#use_dev_cli FabricProvider#use_dev_cli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs#use_dev_cli FabricProvider#use_dev_cli}
   */
   readonly useDevCli?: boolean | cdktf.IResolvable;
   /**
   * Allow Managed Service Identity (MSI) to be used for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs#use_msi FabricProvider#use_msi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs#use_msi FabricProvider#use_msi}
   */
   readonly useMsi?: boolean | cdktf.IResolvable;
   /**
   * Allow OpenID Connect to be used for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs#use_oidc FabricProvider#use_oidc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs#use_oidc FabricProvider#use_oidc}
   */
   readonly useOidc?: boolean | cdktf.IResolvable;
   /**
+  * Use the workspace private link endpoint. When set to `true`, the provider routes all workspace-scoped API requests through the workspace's private link endpoint (workspace-specific hostname). This can also be sourced from the `FABRIC_USE_WORKSPACE_PRIVATE_LINK_ENDPOINT` environment variable. Defaults to `false`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs#use_workspace_private_link_endpoint FabricProvider#use_workspace_private_link_endpoint}
+  */
+  readonly useWorkspacePrivateLinkEndpoint?: boolean | cdktf.IResolvable;
+  /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs#alias FabricProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs#alias FabricProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs fabric}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs fabric}
 */
 export class FabricProvider extends cdktf.TerraformProvider {
 
@@ -178,7 +184,7 @@ export class FabricProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a FabricProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FabricProvider to import
-  * @param importFromId The id of the existing FabricProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FabricProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FabricProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -190,7 +196,7 @@ export class FabricProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs fabric} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs fabric} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -201,8 +207,8 @@ export class FabricProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'fabric',
       terraformGeneratorMetadata: {
         providerName: 'fabric',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       terraformProviderSource: 'microsoft/fabric'
     });
@@ -230,6 +236,7 @@ export class FabricProvider extends cdktf.TerraformProvider {
     this._useDevCli = config.useDevCli;
     this._useMsi = config.useMsi;
     this._useOidc = config.useOidc;
+    this._useWorkspacePrivateLinkEndpoint = config.useWorkspacePrivateLinkEndpoint;
     this._alias = config.alias;
   }
 
@@ -621,6 +628,22 @@ export class FabricProvider extends cdktf.TerraformProvider {
     return this._useOidc;
   }
 
+  // use_workspace_private_link_endpoint - computed: false, optional: true, required: false
+  private _useWorkspacePrivateLinkEndpoint?: boolean | cdktf.IResolvable; 
+  public get useWorkspacePrivateLinkEndpoint() {
+    return this._useWorkspacePrivateLinkEndpoint;
+  }
+  public set useWorkspacePrivateLinkEndpoint(value: boolean | cdktf.IResolvable | undefined) {
+    this._useWorkspacePrivateLinkEndpoint = value;
+  }
+  public resetUseWorkspacePrivateLinkEndpoint() {
+    this._useWorkspacePrivateLinkEndpoint = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get useWorkspacePrivateLinkEndpointInput() {
+    return this._useWorkspacePrivateLinkEndpoint;
+  }
+
   // alias - computed: false, optional: true, required: false
   private _alias?: string; 
   public get alias() {
@@ -667,6 +690,7 @@ export class FabricProvider extends cdktf.TerraformProvider {
       use_dev_cli: cdktf.booleanToTerraform(this._useDevCli),
       use_msi: cdktf.booleanToTerraform(this._useMsi),
       use_oidc: cdktf.booleanToTerraform(this._useOidc),
+      use_workspace_private_link_endpoint: cdktf.booleanToTerraform(this._useWorkspacePrivateLinkEndpoint),
       alias: cdktf.stringToTerraform(this._alias),
     };
   }
@@ -813,6 +837,12 @@ export class FabricProvider extends cdktf.TerraformProvider {
       },
       use_oidc: {
         value: cdktf.booleanToHclTerraform(this._useOidc),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      use_workspace_private_link_endpoint: {
+        value: cdktf.booleanToHclTerraform(this._useWorkspacePrivateLinkEndpoint),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",

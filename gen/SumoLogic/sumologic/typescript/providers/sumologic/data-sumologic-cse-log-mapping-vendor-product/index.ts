@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/data-sources/cse_log_mapping_vendor_product
+// https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/data-sources/cse_log_mapping_vendor_product
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DataSumologicCseLogMappingVendorProductConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/data-sources/cse_log_mapping_vendor_product#guid DataSumologicCseLogMappingVendorProduct#guid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/data-sources/cse_log_mapping_vendor_product#guid DataSumologicCseLogMappingVendorProduct#guid}
   */
   readonly guid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/data-sources/cse_log_mapping_vendor_product#id DataSumologicCseLogMappingVendorProduct#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/data-sources/cse_log_mapping_vendor_product#id DataSumologicCseLogMappingVendorProduct#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/data-sources/cse_log_mapping_vendor_product#product DataSumologicCseLogMappingVendorProduct#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/data-sources/cse_log_mapping_vendor_product#product DataSumologicCseLogMappingVendorProduct#product}
   */
   readonly product: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/data-sources/cse_log_mapping_vendor_product#vendor DataSumologicCseLogMappingVendorProduct#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/data-sources/cse_log_mapping_vendor_product#vendor DataSumologicCseLogMappingVendorProduct#vendor}
   */
   readonly vendor: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/data-sources/cse_log_mapping_vendor_product sumologic_cse_log_mapping_vendor_product}
+* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/data-sources/cse_log_mapping_vendor_product sumologic_cse_log_mapping_vendor_product}
 */
 export class DataSumologicCseLogMappingVendorProduct extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataSumologicCseLogMappingVendorProduct extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataSumologicCseLogMappingVendorProduct resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSumologicCseLogMappingVendorProduct to import
-  * @param importFromId The id of the existing DataSumologicCseLogMappingVendorProduct that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/data-sources/cse_log_mapping_vendor_product#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSumologicCseLogMappingVendorProduct that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/data-sources/cse_log_mapping_vendor_product#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSumologicCseLogMappingVendorProduct to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataSumologicCseLogMappingVendorProduct extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.0/docs/data-sources/cse_log_mapping_vendor_product sumologic_cse_log_mapping_vendor_product} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.2.1/docs/data-sources/cse_log_mapping_vendor_product sumologic_cse_log_mapping_vendor_product} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataSumologicCseLogMappingVendorProduct extends cdktf.TerraformData
       terraformResourceType: 'sumologic_cse_log_mapping_vendor_product',
       terraformGeneratorMetadata: {
         providerName: 'sumologic',
-        providerVersion: '3.2.0',
-        providerVersionConstraint: '3.2.0'
+        providerVersion: '3.2.1',
+        providerVersionConstraint: '3.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

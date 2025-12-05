@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs
+// https://registry.terraform.io/providers/1password/onepassword/3.0.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,45 +8,51 @@ import * as cdktf from 'cdktf';
 
 export interface OnepasswordProviderConfig {
   /**
-  * A valid account's sign-in address or ID to use biometrics unlock. Can also be sourced from `OP_ACCOUNT` environment variable. Provider will use the 1Password CLI if set.
+  * A valid account name or ID to use desktop app authentication. Can also be sourced from `OP_ACCOUNT` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs#account OnepasswordProvider#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/3.0.0/docs#account OnepasswordProvider#account}
   */
   readonly account?: string;
   /**
-  * The path to the 1Password CLI binary. Can also be sourced from `OP_CLI_PATH` environment variable. Defaults to `op`.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs#op_cli_path OnepasswordProvider#op_cli_path}
-  */
-  readonly opCliPath?: string;
-  /**
-  * A valid 1Password service account token. Can also be sourced from `OP_SERVICE_ACCOUNT_TOKEN` environment variable. Provider will use the 1Password CLI if set.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs#service_account_token OnepasswordProvider#service_account_token}
-  */
-  readonly serviceAccountToken?: string;
-  /**
   * A valid token for your 1Password Connect server. Can also be sourced from `OP_CONNECT_TOKEN` environment variable. Provider will use 1Password Connect server if set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs#token OnepasswordProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/3.0.0/docs#connect_token OnepasswordProvider#connect_token}
   */
-  readonly token?: string;
+  readonly connectToken?: string;
   /**
   * The HTTP(S) URL where your 1Password Connect server can be found. Can also be sourced `OP_CONNECT_HOST` environment variable. Provider will use 1Password Connect server if set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs#url OnepasswordProvider#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/3.0.0/docs#connect_url OnepasswordProvider#connect_url}
+  */
+  readonly connectUrl?: string;
+  /**
+  * A valid 1Password service account token. Can also be sourced from `OP_SERVICE_ACCOUNT_TOKEN` environment variable.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/3.0.0/docs#service_account_token OnepasswordProvider#service_account_token}
+  */
+  readonly serviceAccountToken?: string;
+  /**
+  * A valid token for your 1Password Connect server. Can also be sourced from `OP_CONNECT_TOKEN` environment variable. Provider will use 1Password Connect server if set. Deprecated: Use `connect_token` instead.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/3.0.0/docs#token OnepasswordProvider#token}
+  */
+  readonly token?: string;
+  /**
+  * The HTTP(S) URL where your 1Password Connect server can be found. Can also be sourced `OP_CONNECT_HOST` environment variable. Provider will use 1Password Connect server if set. Deprecated: Use `connect_url` instead.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/3.0.0/docs#url OnepasswordProvider#url}
   */
   readonly url?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs#alias OnepasswordProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/3.0.0/docs#alias OnepasswordProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs onepassword}
+* Represents a {@link https://registry.terraform.io/providers/1password/onepassword/3.0.0/docs onepassword}
 */
 export class OnepasswordProvider extends cdktf.TerraformProvider {
 
@@ -62,7 +68,7 @@ export class OnepasswordProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a OnepasswordProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OnepasswordProvider to import
-  * @param importFromId The id of the existing OnepasswordProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OnepasswordProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/1password/onepassword/3.0.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OnepasswordProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +80,7 @@ export class OnepasswordProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs onepassword} Resource
+  * Create a new {@link https://registry.terraform.io/providers/1password/onepassword/3.0.0/docs onepassword} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,13 +91,14 @@ export class OnepasswordProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'onepassword',
       terraformGeneratorMetadata: {
         providerName: 'onepassword',
-        providerVersion: '2.2.1',
-        providerVersionConstraint: '2.2.1'
+        providerVersion: '3.0.0',
+        providerVersionConstraint: '3.0.0'
       },
       terraformProviderSource: '1Password/onepassword'
     });
     this._account = config.account;
-    this._opCliPath = config.opCliPath;
+    this._connectToken = config.connectToken;
+    this._connectUrl = config.connectUrl;
     this._serviceAccountToken = config.serviceAccountToken;
     this._token = config.token;
     this._url = config.url;
@@ -118,20 +125,36 @@ export class OnepasswordProvider extends cdktf.TerraformProvider {
     return this._account;
   }
 
-  // op_cli_path - computed: false, optional: true, required: false
-  private _opCliPath?: string; 
-  public get opCliPath() {
-    return this._opCliPath;
+  // connect_token - computed: false, optional: true, required: false
+  private _connectToken?: string; 
+  public get connectToken() {
+    return this._connectToken;
   }
-  public set opCliPath(value: string | undefined) {
-    this._opCliPath = value;
+  public set connectToken(value: string | undefined) {
+    this._connectToken = value;
   }
-  public resetOpCliPath() {
-    this._opCliPath = undefined;
+  public resetConnectToken() {
+    this._connectToken = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get opCliPathInput() {
-    return this._opCliPath;
+  public get connectTokenInput() {
+    return this._connectToken;
+  }
+
+  // connect_url - computed: false, optional: true, required: false
+  private _connectUrl?: string; 
+  public get connectUrl() {
+    return this._connectUrl;
+  }
+  public set connectUrl(value: string | undefined) {
+    this._connectUrl = value;
+  }
+  public resetConnectUrl() {
+    this._connectUrl = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get connectUrlInput() {
+    return this._connectUrl;
   }
 
   // service_account_token - computed: false, optional: true, required: false
@@ -205,7 +228,8 @@ export class OnepasswordProvider extends cdktf.TerraformProvider {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       account: cdktf.stringToTerraform(this._account),
-      op_cli_path: cdktf.stringToTerraform(this._opCliPath),
+      connect_token: cdktf.stringToTerraform(this._connectToken),
+      connect_url: cdktf.stringToTerraform(this._connectUrl),
       service_account_token: cdktf.stringToTerraform(this._serviceAccountToken),
       token: cdktf.stringToTerraform(this._token),
       url: cdktf.stringToTerraform(this._url),
@@ -221,8 +245,14 @@ export class OnepasswordProvider extends cdktf.TerraformProvider {
         type: "simple",
         storageClassType: "string",
       },
-      op_cli_path: {
-        value: cdktf.stringToHclTerraform(this._opCliPath),
+      connect_token: {
+        value: cdktf.stringToHclTerraform(this._connectToken),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      connect_url: {
+        value: cdktf.stringToHclTerraform(this._connectUrl),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

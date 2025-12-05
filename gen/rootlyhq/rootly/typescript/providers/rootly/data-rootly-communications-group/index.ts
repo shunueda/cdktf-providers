@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/data-sources/communications_group
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/communications_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,35 +8,35 @@ import * as cdktf from 'cdktf';
 
 export interface DataRootlyCommunicationsGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/data-sources/communications_group#communication_type_id DataRootlyCommunicationsGroup#communication_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/communications_group#communication_type_id DataRootlyCommunicationsGroup#communication_type_id}
   */
   readonly communicationTypeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/data-sources/communications_group#condition_type DataRootlyCommunicationsGroup#condition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/communications_group#condition_type DataRootlyCommunicationsGroup#condition_type}
   */
   readonly conditionType?: string;
   /**
   * Filter by date range using 'lt' and 'gt'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/data-sources/communications_group#created_at DataRootlyCommunicationsGroup#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/communications_group#created_at DataRootlyCommunicationsGroup#created_at}
   */
   readonly createdAt?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/data-sources/communications_group#is_private DataRootlyCommunicationsGroup#is_private}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/communications_group#is_private DataRootlyCommunicationsGroup#is_private}
   */
   readonly isPrivate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/data-sources/communications_group#name DataRootlyCommunicationsGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/communications_group#name DataRootlyCommunicationsGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/data-sources/communications_group#slug DataRootlyCommunicationsGroup#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/communications_group#slug DataRootlyCommunicationsGroup#slug}
   */
   readonly slug?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/data-sources/communications_group rootly_communications_group}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/communications_group rootly_communications_group}
 */
 export class DataRootlyCommunicationsGroup extends cdktf.TerraformDataSource {
 
@@ -52,7 +52,7 @@ export class DataRootlyCommunicationsGroup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRootlyCommunicationsGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRootlyCommunicationsGroup to import
-  * @param importFromId The id of the existing DataRootlyCommunicationsGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/data-sources/communications_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRootlyCommunicationsGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/communications_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRootlyCommunicationsGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -64,7 +64,7 @@ export class DataRootlyCommunicationsGroup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/data-sources/communications_group rootly_communications_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/data-sources/communications_group rootly_communications_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -75,8 +75,8 @@ export class DataRootlyCommunicationsGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'rootly_communications_group',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.11',
-        providerVersionConstraint: '4.3.11'
+        providerVersion: '4.3.13',
+        providerVersionConstraint: '4.3.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

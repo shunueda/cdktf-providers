@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs
+// https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface VergeioProviderConfig {
   /**
   * Host Address of VergeOS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs#host VergeioProvider#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs#host VergeioProvider#host}
   */
   readonly host: string;
   /**
   * Allow insecure connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs#insecure VergeioProvider#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs#insecure VergeioProvider#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * Password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs#password VergeioProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs#password VergeioProvider#password}
   */
   readonly password: string;
   /**
   * Username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs#username VergeioProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs#username VergeioProvider#username}
   */
   readonly username: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs#alias VergeioProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs#alias VergeioProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs vergeio}
+* Represents a {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs vergeio}
 */
 export class VergeioProvider extends cdktf.TerraformProvider {
 
@@ -56,7 +56,7 @@ export class VergeioProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a VergeioProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VergeioProvider to import
-  * @param importFromId The id of the existing VergeioProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VergeioProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VergeioProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class VergeioProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs vergeio} Resource
+  * Create a new {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs vergeio} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class VergeioProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'vergeio',
       terraformGeneratorMetadata: {
         providerName: 'vergeio',
-        providerVersion: '2.7.2',
-        providerVersionConstraint: '2.7.2'
+        providerVersion: '2.7.3',
+        providerVersionConstraint: '2.7.3'
       },
       terraformProviderSource: 'verge-io/vergeio'
     });

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/domain_role_assignments
+// https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/domain_role_assignments
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DomainRoleAssignmentsConfig extends cdktf.TerraformMetaArgument
   /**
   * <i style="color:red;font-weight: bold">(ForceNew)</i> The Domain ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/domain_role_assignments#domain_id DomainRoleAssignments#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/domain_role_assignments#domain_id DomainRoleAssignments#domain_id}
   */
   readonly domainId: string;
   /**
   * <i style="color:red;font-weight: bold">(ForceNew)</i> The set of Principals.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/domain_role_assignments#principals DomainRoleAssignments#principals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/domain_role_assignments#principals DomainRoleAssignments#principals}
   */
   readonly principals: DomainRoleAssignmentsPrincipals[] | cdktf.IResolvable;
   /**
   * <i style="color:red;font-weight: bold">(ForceNew)</i> The Role of the principals. Value must be one of : `Admins`, `Contributors`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/domain_role_assignments#role DomainRoleAssignments#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/domain_role_assignments#role DomainRoleAssignments#role}
   */
   readonly role: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/domain_role_assignments#timeouts DomainRoleAssignments#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/domain_role_assignments#timeouts DomainRoleAssignments#timeouts}
   */
   readonly timeouts?: DomainRoleAssignmentsTimeouts;
 }
@@ -34,16 +34,16 @@ export interface DomainRoleAssignmentsPrincipals {
   /**
   * <i style="color:red;font-weight: bold">(ForceNew)</i> The Principal ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/domain_role_assignments#id DomainRoleAssignments#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/domain_role_assignments#id DomainRoleAssignments#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * <i style="color:red;font-weight: bold">(ForceNew)</i> The Principal type. Value must be one of : `Group`, `User`.
+  * <i style="color:red;font-weight: bold">(ForceNew)</i> The Principal type. Value must be one of : `EntireTenant`, `Group`, `User`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/domain_role_assignments#type DomainRoleAssignments#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/domain_role_assignments#type DomainRoleAssignments#type}
   */
   readonly type: string;
 }
@@ -184,25 +184,25 @@ export interface DomainRoleAssignmentsTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/domain_role_assignments#create DomainRoleAssignments#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/domain_role_assignments#create DomainRoleAssignments#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/domain_role_assignments#delete DomainRoleAssignments#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/domain_role_assignments#delete DomainRoleAssignments#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/domain_role_assignments#read DomainRoleAssignments#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/domain_role_assignments#read DomainRoleAssignments#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/domain_role_assignments#update DomainRoleAssignments#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/domain_role_assignments#update DomainRoleAssignments#update}
   */
   readonly update?: string;
 }
@@ -383,7 +383,7 @@ export class DomainRoleAssignmentsTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/domain_role_assignments fabric_domain_role_assignments}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/domain_role_assignments fabric_domain_role_assignments}
 */
 export class DomainRoleAssignments extends cdktf.TerraformResource {
 
@@ -399,7 +399,7 @@ export class DomainRoleAssignments extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DomainRoleAssignments resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DomainRoleAssignments to import
-  * @param importFromId The id of the existing DomainRoleAssignments that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/domain_role_assignments#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DomainRoleAssignments that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/domain_role_assignments#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DomainRoleAssignments to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -411,7 +411,7 @@ export class DomainRoleAssignments extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/domain_role_assignments fabric_domain_role_assignments} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/domain_role_assignments fabric_domain_role_assignments} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -422,8 +422,8 @@ export class DomainRoleAssignments extends cdktf.TerraformResource {
       terraformResourceType: 'fabric_domain_role_assignments',
       terraformGeneratorMetadata: {
         providerName: 'fabric',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/spark_workspace_settings
+// https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/spark_workspace_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface DataFabricSparkWorkspaceSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/spark_workspace_settings#timeouts DataFabricSparkWorkspaceSettings#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/spark_workspace_settings#timeouts DataFabricSparkWorkspaceSettings#timeouts}
   */
   readonly timeouts?: DataFabricSparkWorkspaceSettingsTimeouts;
   /**
   * The Workspace ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/spark_workspace_settings#workspace_id DataFabricSparkWorkspaceSettings#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/spark_workspace_settings#workspace_id DataFabricSparkWorkspaceSettings#workspace_id}
   */
   readonly workspaceId: string;
 }
@@ -442,7 +442,7 @@ export interface DataFabricSparkWorkspaceSettingsTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/spark_workspace_settings#read DataFabricSparkWorkspaceSettings#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/spark_workspace_settings#read DataFabricSparkWorkspaceSettings#read}
   */
   readonly read?: string;
 }
@@ -536,7 +536,7 @@ export class DataFabricSparkWorkspaceSettingsTimeoutsOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/spark_workspace_settings fabric_spark_workspace_settings}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/spark_workspace_settings fabric_spark_workspace_settings}
 */
 export class DataFabricSparkWorkspaceSettings extends cdktf.TerraformDataSource {
 
@@ -552,7 +552,7 @@ export class DataFabricSparkWorkspaceSettings extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataFabricSparkWorkspaceSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFabricSparkWorkspaceSettings to import
-  * @param importFromId The id of the existing DataFabricSparkWorkspaceSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/spark_workspace_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFabricSparkWorkspaceSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/spark_workspace_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFabricSparkWorkspaceSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -564,7 +564,7 @@ export class DataFabricSparkWorkspaceSettings extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/data-sources/spark_workspace_settings fabric_spark_workspace_settings} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/data-sources/spark_workspace_settings fabric_spark_workspace_settings} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -575,8 +575,8 @@ export class DataFabricSparkWorkspaceSettings extends cdktf.TerraformDataSource 
       terraformResourceType: 'fabric_spark_workspace_settings',
       terraformGeneratorMetadata: {
         providerName: 'fabric',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

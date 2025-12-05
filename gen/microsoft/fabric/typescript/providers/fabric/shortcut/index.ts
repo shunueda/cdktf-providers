@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut
+// https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface ShortcutConfig extends cdktf.TerraformMetaArguments {
   /**
   * <i style="color:red;font-weight: bold">(ForceNew)</i> Item ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#item_id Shortcut#item_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#item_id Shortcut#item_id}
   */
   readonly itemId: string;
   /**
-  * <i style="color:red;font-weight: bold">(ForceNew)</i> Name of the shortcut.
+  * <i style="color:red;font-weight: bold">(ForceNew)</i> Name of the shortcut. Name must contain at least one non-whitespace character.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#name Shortcut#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#name Shortcut#name}
   */
   readonly name: string;
   /**
   * <i style="color:red;font-weight: bold">(ForceNew)</i> A string representing the full path where the shortcut is created, including either "Files" or "Tables". String length must be at most 256. Shortcut path can't start with forward slash '/'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#path Shortcut#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#path Shortcut#path}
   */
   readonly path: string;
   /**
   * An object that contains the target datasource, and it must specify exactly one of the supported destinations: OneLake, Amazon S3, ADLS Gen2, Google Cloud Storage, S3 compatible or Dataverse.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#target Shortcut#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#target Shortcut#target}
   */
   readonly target: ShortcutTarget;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#timeouts Shortcut#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#timeouts Shortcut#timeouts}
   */
   readonly timeouts?: ShortcutTimeouts;
   /**
   * <i style="color:red;font-weight: bold">(ForceNew)</i> The Workspace ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#workspace_id Shortcut#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#workspace_id Shortcut#workspace_id}
   */
   readonly workspaceId: string;
 }
@@ -46,19 +46,19 @@ export interface ShortcutTargetAdlsGen2 {
   /**
   * A string representing the connection that is bound with the shortcut. The connectionId is a unique identifier used to establish a connection between the shortcut and the target datasource. To find this connection ID, first create a cloud connection to be used by the shortcut when connecting to the ADLS data location. Open the cloud connection's Settings view and copy the connection ID; this is a GUID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#connection_id Shortcut#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#connection_id Shortcut#connection_id}
   */
   readonly connectionId: string;
   /**
   * Specifies the location of the target ADLS container. The URI must be in the format https://[account-name].dfs.core.windows.net where [account-name] is the name of the target ADLS account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#location Shortcut#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#location Shortcut#location}
   */
   readonly location: string;
   /**
   * Specifies the container and subfolder within the ADLS account where the target folder is located. Must be of the format [container]/[subfolder] where [container] is the name of the container that holds the files and folders; [subfolder] is the name of the subfolder within the container (optional). For example: /mycontainer/mysubfolder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#subpath Shortcut#subpath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#subpath Shortcut#subpath}
   */
   readonly subpath: string;
 }
@@ -203,19 +203,19 @@ export interface ShortcutTargetAmazonS3 {
   /**
   * A string representing the connection that is bound with the shortcut. The connectionId is a unique identifier used to establish a connection between the shortcut and the target datasource. To find this connection ID, first create a cloud connection to be used by the shortcut when connecting to the Amazon S3 data location. Open the cloud connection's Settings view and copy the connection ID; this is a GUID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#connection_id Shortcut#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#connection_id Shortcut#connection_id}
   */
   readonly connectionId: string;
   /**
   * HTTP URL that points to the target bucket in S3. The URL should be in the format https://[bucket-name].s3.[region-code].amazonaws.com, where 'bucket-name' is the name of the S3 bucket you want to point to, and 'region-code' is the code for the region where the bucket is located. For example: https://my-s3-bucket.s3.us-west-2.amazonaws.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#location Shortcut#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#location Shortcut#location}
   */
   readonly location: string;
   /**
   * Specifies a target folder or subfolder within the S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#subpath Shortcut#subpath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#subpath Shortcut#subpath}
   */
   readonly subpath: string;
 }
@@ -360,19 +360,19 @@ export interface ShortcutTargetAzureBlobStorage {
   /**
   * A string representing the connection that is bound with the shortcut. The connectionId is a unique identifier used to establish a connection between the shortcut and the target datasource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#connection_id Shortcut#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#connection_id Shortcut#connection_id}
   */
   readonly connectionId: string;
   /**
   * HTTP URL that points to the target bucket in GCS. The URL should be in the format https://[bucket-name].storage.googleapis.com, where [bucket-name] is the name of the bucket you want to point to. For example: https://my-gcs-bucket.storage.googleapis.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#location Shortcut#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#location Shortcut#location}
   */
   readonly location: string;
   /**
   * Specifies a target folder or subfolder within the GCS bucket. For example: /folder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#subpath Shortcut#subpath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#subpath Shortcut#subpath}
   */
   readonly subpath: string;
 }
@@ -517,25 +517,25 @@ export interface ShortcutTargetDataverse {
   /**
   * A string representing the connection that is bound with the shortcut. The connectionId is a unique identifier used to establish a connection between the shortcut and the target datasource. To find this connection ID, first create a cloud connection to be used by the shortcut when connecting to the Dataverse data location. Open the cloud connection's Settings view and copy the connection ID; this is a GUID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#connection_id Shortcut#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#connection_id Shortcut#connection_id}
   */
   readonly connectionId: string;
   /**
   * Specifies the DeltaLake folder path where the target data is stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#deltalake_folder Shortcut#deltalake_folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#deltalake_folder Shortcut#deltalake_folder}
   */
   readonly deltalakeFolder: string;
   /**
   * URI that indicates the Dataverse target environment's domain name. The URI should be formatted as 'https://[orgname].crm[xx].dynamics.com', where [orgname] represents the name of your Dataverse organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#environment_domain Shortcut#environment_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#environment_domain Shortcut#environment_domain}
   */
   readonly environmentDomain: string;
   /**
   * Specifies the name of the target table in Dataverse.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#table_name Shortcut#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#table_name Shortcut#table_name}
   */
   readonly tableName: string;
 }
@@ -760,19 +760,19 @@ export interface ShortcutTargetGoogleCloudStorage {
   /**
   * A string representing the connection that is bound with the shortcut. The connectionId is a unique identifier used to establish a connection between the shortcut and the target datasource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#connection_id Shortcut#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#connection_id Shortcut#connection_id}
   */
   readonly connectionId: string;
   /**
   * HTTP URL that points to the target bucket in GCS. The URL should be in the format https://[bucket-name].storage.googleapis.com, where [bucket-name] is the name of the bucket you want to point to. For example: https://my-gcs-bucket.storage.googleapis.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#location Shortcut#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#location Shortcut#location}
   */
   readonly location: string;
   /**
   * Specifies a target folder or subfolder within the GCS bucket. For example: /folder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#subpath Shortcut#subpath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#subpath Shortcut#subpath}
   */
   readonly subpath: string;
 }
@@ -917,19 +917,19 @@ export interface ShortcutTargetOnelake {
   /**
   * The ID of the target in OneLake. The target can be an item of Lakehouse, KQLDatabase, or Warehouse.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#item_id Shortcut#item_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#item_id Shortcut#item_id}
   */
   readonly itemId: string;
   /**
   * A string representing the full path to the target folder within the Item. This path should be relative to the root of the OneLake directory structure. For example: 'Tables/myTablesFolder/someTableSubFolder'. String length must be at most 256. OneLake path can't start with forward slash '/'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#path Shortcut#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#path Shortcut#path}
   */
   readonly path: string;
   /**
   * The ID of the target workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#workspace_id Shortcut#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#workspace_id Shortcut#workspace_id}
   */
   readonly workspaceId: string;
 }
@@ -1074,25 +1074,25 @@ export interface ShortcutTargetS3Compatible {
   /**
   * Specifies the target bucket within the S3 compatible location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#bucket Shortcut#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#bucket Shortcut#bucket}
   */
   readonly bucket: string;
   /**
   * A string representing the connection that is bound with the shortcut. The connectionId is a unique identifier used to establish a connection between the shortcut and the target datasource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#connection_id Shortcut#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#connection_id Shortcut#connection_id}
   */
   readonly connectionId: string;
   /**
   * HTTP URL of the S3 compatible endpoint. This endpoint must be able to receive ListBuckets S3 API calls. The URL must be in the non-bucket specific format; no bucket should be specified here. For example: https://s3endpoint.contoso.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#location Shortcut#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#location Shortcut#location}
   */
   readonly location: string;
   /**
   * Specifies a target folder or subfolder within the S3 compatible bucket. For example: /folder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#subpath Shortcut#subpath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#subpath Shortcut#subpath}
   */
   readonly subpath: string;
 }
@@ -1263,43 +1263,43 @@ export interface ShortcutTarget {
   /**
   * An object containing the properties of the target ADLS Gen2 data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#adls_gen2 Shortcut#adls_gen2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#adls_gen2 Shortcut#adls_gen2}
   */
   readonly adlsGen2?: ShortcutTargetAdlsGen2;
   /**
   * An object containing the properties of the target Amazon S3 data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#amazon_s3 Shortcut#amazon_s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#amazon_s3 Shortcut#amazon_s3}
   */
   readonly amazonS3?: ShortcutTargetAmazonS3;
   /**
   * An object containing the properties of the target Google Cloud Storage data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#azure_blob_storage Shortcut#azure_blob_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#azure_blob_storage Shortcut#azure_blob_storage}
   */
   readonly azureBlobStorage?: ShortcutTargetAzureBlobStorage;
   /**
   * An object containing the properties of the target Dataverse data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#dataverse Shortcut#dataverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#dataverse Shortcut#dataverse}
   */
   readonly dataverse?: ShortcutTargetDataverse;
   /**
   * An object containing the properties of the target Google Cloud Storage data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#google_cloud_storage Shortcut#google_cloud_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#google_cloud_storage Shortcut#google_cloud_storage}
   */
   readonly googleCloudStorage?: ShortcutTargetGoogleCloudStorage;
   /**
   * An object containing the properties of the target OneLake data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#onelake Shortcut#onelake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#onelake Shortcut#onelake}
   */
   readonly onelake?: ShortcutTargetOnelake;
   /**
   * An object containing the properties of the target S3 compatible data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#s3_compatible Shortcut#s3_compatible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#s3_compatible Shortcut#s3_compatible}
   */
   readonly s3Compatible?: ShortcutTargetS3Compatible;
 }
@@ -1580,25 +1580,25 @@ export interface ShortcutTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#create Shortcut#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#create Shortcut#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#delete Shortcut#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#delete Shortcut#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#read Shortcut#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#read Shortcut#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#update Shortcut#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#update Shortcut#update}
   */
   readonly update?: string;
 }
@@ -1779,7 +1779,7 @@ export class ShortcutTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut fabric_shortcut}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut fabric_shortcut}
 */
 export class Shortcut extends cdktf.TerraformResource {
 
@@ -1795,7 +1795,7 @@ export class Shortcut extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Shortcut resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Shortcut to import
-  * @param importFromId The id of the existing Shortcut that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Shortcut that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Shortcut to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1807,7 +1807,7 @@ export class Shortcut extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/shortcut fabric_shortcut} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/shortcut fabric_shortcut} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1818,8 +1818,8 @@ export class Shortcut extends cdktf.TerraformResource {
       terraformResourceType: 'fabric_shortcut',
       terraformGeneratorMetadata: {
         providerName: 'fabric',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

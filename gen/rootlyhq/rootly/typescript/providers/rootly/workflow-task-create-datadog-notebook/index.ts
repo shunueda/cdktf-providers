@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_datadog_notebook
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_datadog_notebook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskCreateDatadogNotebookConfig extends cdktf.Terraform
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_datadog_notebook#enabled WorkflowTaskCreateDatadogNotebook#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_datadog_notebook#enabled WorkflowTaskCreateDatadogNotebook#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_datadog_notebook#id WorkflowTaskCreateDatadogNotebook#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_datadog_notebook#id WorkflowTaskCreateDatadogNotebook#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WorkflowTaskCreateDatadogNotebookConfig extends cdktf.Terraform
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_datadog_notebook#name WorkflowTaskCreateDatadogNotebook#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_datadog_notebook#name WorkflowTaskCreateDatadogNotebook#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_datadog_notebook#position WorkflowTaskCreateDatadogNotebook#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_datadog_notebook#position WorkflowTaskCreateDatadogNotebook#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_datadog_notebook#skip_on_failure WorkflowTaskCreateDatadogNotebook#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_datadog_notebook#skip_on_failure WorkflowTaskCreateDatadogNotebook#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_datadog_notebook#workflow_id WorkflowTaskCreateDatadogNotebook#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_datadog_notebook#workflow_id WorkflowTaskCreateDatadogNotebook#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_datadog_notebook#task_params WorkflowTaskCreateDatadogNotebook#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_datadog_notebook#task_params WorkflowTaskCreateDatadogNotebook#task_params}
   */
   readonly taskParams: WorkflowTaskCreateDatadogNotebookTaskParams;
 }
@@ -55,41 +55,41 @@ export interface WorkflowTaskCreateDatadogNotebookTaskParams {
   /**
   * The notebook content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_datadog_notebook#content WorkflowTaskCreateDatadogNotebook#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_datadog_notebook#content WorkflowTaskCreateDatadogNotebook#content}
   */
   readonly content?: string;
   /**
   * The notebook kind. Value must be one of `postmortem`, `runbook`, `investigation`, `documentation`, `report`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_datadog_notebook#kind WorkflowTaskCreateDatadogNotebook#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_datadog_notebook#kind WorkflowTaskCreateDatadogNotebook#kind}
   */
   readonly kind: string;
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_datadog_notebook#mark_post_mortem_as_published WorkflowTaskCreateDatadogNotebook#mark_post_mortem_as_published}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_datadog_notebook#mark_post_mortem_as_published WorkflowTaskCreateDatadogNotebook#mark_post_mortem_as_published}
   */
   readonly markPostMortemAsPublished?: boolean | cdktf.IResolvable;
   /**
   * Retrospective template to use when creating notebook, if desired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_datadog_notebook#post_mortem_template_id WorkflowTaskCreateDatadogNotebook#post_mortem_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_datadog_notebook#post_mortem_template_id WorkflowTaskCreateDatadogNotebook#post_mortem_template_id}
   */
   readonly postMortemTemplateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_datadog_notebook#task_type WorkflowTaskCreateDatadogNotebook#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_datadog_notebook#task_type WorkflowTaskCreateDatadogNotebook#task_type}
   */
   readonly taskType?: string;
   /**
   * Map must contain two fields, `id` and `name`. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_datadog_notebook#template WorkflowTaskCreateDatadogNotebook#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_datadog_notebook#template WorkflowTaskCreateDatadogNotebook#template}
   */
   readonly template?: { [key: string]: string };
   /**
   * The notebook title
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_datadog_notebook#title WorkflowTaskCreateDatadogNotebook#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_datadog_notebook#title WorkflowTaskCreateDatadogNotebook#title}
   */
   readonly title: string;
 }
@@ -341,7 +341,7 @@ export class WorkflowTaskCreateDatadogNotebookTaskParamsOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_datadog_notebook rootly_workflow_task_create_datadog_notebook}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_datadog_notebook rootly_workflow_task_create_datadog_notebook}
 */
 export class WorkflowTaskCreateDatadogNotebook extends cdktf.TerraformResource {
 
@@ -357,7 +357,7 @@ export class WorkflowTaskCreateDatadogNotebook extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowTaskCreateDatadogNotebook resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskCreateDatadogNotebook to import
-  * @param importFromId The id of the existing WorkflowTaskCreateDatadogNotebook that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_datadog_notebook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskCreateDatadogNotebook that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_datadog_notebook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskCreateDatadogNotebook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -369,7 +369,7 @@ export class WorkflowTaskCreateDatadogNotebook extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_datadog_notebook rootly_workflow_task_create_datadog_notebook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.13/docs/resources/workflow_task_create_datadog_notebook rootly_workflow_task_create_datadog_notebook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -380,8 +380,8 @@ export class WorkflowTaskCreateDatadogNotebook extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_create_datadog_notebook',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.11',
-        providerVersionConstraint: '4.3.11'
+        providerVersion: '4.3.13',
+        providerVersionConstraint: '4.3.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

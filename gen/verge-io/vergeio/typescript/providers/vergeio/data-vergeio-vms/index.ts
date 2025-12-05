@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/data-sources/vms
+// https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/data-sources/vms
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataVergeioVmsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Filter by name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/data-sources/vms#filter_name DataVergeioVms#filter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/data-sources/vms#filter_name DataVergeioVms#filter_name}
   */
   readonly filterName?: string;
   /**
   * Filter by snapshot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/data-sources/vms#is_snapshot DataVergeioVms#is_snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/data-sources/vms#is_snapshot DataVergeioVms#is_snapshot}
   */
   readonly isSnapshot?: boolean | cdktf.IResolvable;
 }
@@ -103,7 +103,7 @@ export interface DataVergeioVmsVmsDrives {
   /**
   * Mediasource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/data-sources/vms#media_source DataVergeioVms#media_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/data-sources/vms#media_source DataVergeioVms#media_source}
   */
   readonly mediaSource?: DataVergeioVmsVmsDrivesMediaSource;
 }
@@ -466,7 +466,7 @@ export class DataVergeioVmsVmsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/data-sources/vms vergeio_vms}
+* Represents a {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/data-sources/vms vergeio_vms}
 */
 export class DataVergeioVms extends cdktf.TerraformDataSource {
 
@@ -482,7 +482,7 @@ export class DataVergeioVms extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVergeioVms resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVergeioVms to import
-  * @param importFromId The id of the existing DataVergeioVms that should be imported. Refer to the {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/data-sources/vms#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVergeioVms that should be imported. Refer to the {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/data-sources/vms#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVergeioVms to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -494,7 +494,7 @@ export class DataVergeioVms extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.2/docs/data-sources/vms vergeio_vms} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/verge-io/vergeio/2.7.3/docs/data-sources/vms vergeio_vms} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -505,8 +505,8 @@ export class DataVergeioVms extends cdktf.TerraformDataSource {
       terraformResourceType: 'vergeio_vms',
       terraformGeneratorMetadata: {
         providerName: 'vergeio',
-        providerVersion: '2.7.2',
-        providerVersionConstraint: '2.7.2'
+        providerVersion: '2.7.3',
+        providerVersionConstraint: '2.7.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

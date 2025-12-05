@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project
+// https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ProjectConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#id Project#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#id Project#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface ProjectConfig extends cdktf.TerraformMetaArguments {
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#metadata Project#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#metadata Project#metadata}
   */
   readonly metadata: ProjectMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#spec Project#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#spec Project#spec}
   */
   readonly spec: ProjectSpec;
 }
@@ -31,25 +31,25 @@ export interface ProjectMetadata {
   /**
   * An unstructured key value map stored with the appprojects.argoproj.io that may be used to store arbitrary metadata. More info: http://kubernetes.io/docs/user-guide/annotations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#annotations Project#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#annotations Project#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) the appprojects.argoproj.io. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#labels Project#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#labels Project#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the appprojects.argoproj.io, must be unique. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#name Project#name}
   */
   readonly name?: string;
   /**
   * Namespace of the appprojects.argoproj.io, must be unique. Cannot be updated. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#namespace Project#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#namespace Project#namespace}
   */
   readonly namespace?: string;
 }
@@ -237,13 +237,13 @@ export interface ProjectSpecClusterResourceBlacklistStruct {
   /**
   * The Kubernetes resource Group to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#group Project#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#group Project#group}
   */
   readonly group?: string;
   /**
   * The Kubernetes resource Kind to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#kind Project#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#kind Project#kind}
   */
   readonly kind?: string;
 }
@@ -390,13 +390,13 @@ export interface ProjectSpecClusterResourceWhitelistStruct {
   /**
   * The Kubernetes resource Group to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#group Project#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#group Project#group}
   */
   readonly group?: string;
   /**
   * The Kubernetes resource Kind to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#kind Project#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#kind Project#kind}
   */
   readonly kind?: string;
 }
@@ -543,19 +543,19 @@ export interface ProjectSpecDestination {
   /**
   * Name of the destination cluster which can be used instead of server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#name Project#name}
   */
   readonly name?: string;
   /**
   * Target namespace for applications' resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#namespace Project#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#namespace Project#namespace}
   */
   readonly namespace: string;
   /**
   * URL of the target cluster and must be set to the Kubernetes control plane API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#server Project#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#server Project#server}
   */
   readonly server?: string;
 }
@@ -728,19 +728,19 @@ export interface ProjectSpecDestinationServiceAccount {
   /**
   * Used for impersonation during the sync operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#default_service_account Project#default_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#default_service_account Project#default_service_account}
   */
   readonly defaultServiceAccount: string;
   /**
   * Specifies the target namespace for the application's resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#namespace Project#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#namespace Project#namespace}
   */
   readonly namespace?: string;
   /**
   * Specifies the URL of the target cluster's Kubernetes control plane API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#server Project#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#server Project#server}
   */
   readonly server: string;
 }
@@ -910,13 +910,13 @@ export interface ProjectSpecNamespaceResourceBlacklistStruct {
   /**
   * The Kubernetes resource Group to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#group Project#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#group Project#group}
   */
   readonly group?: string;
   /**
   * The Kubernetes resource Kind to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#kind Project#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#kind Project#kind}
   */
   readonly kind?: string;
 }
@@ -1063,13 +1063,13 @@ export interface ProjectSpecNamespaceResourceWhitelistStruct {
   /**
   * The Kubernetes resource Group to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#group Project#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#group Project#group}
   */
   readonly group?: string;
   /**
   * The Kubernetes resource Kind to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#kind Project#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#kind Project#kind}
   */
   readonly kind?: string;
 }
@@ -1216,19 +1216,19 @@ export interface ProjectSpecOrphanedResourcesIgnore {
   /**
   * The Kubernetes resource Group to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#group Project#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#group Project#group}
   */
   readonly group?: string;
   /**
   * The Kubernetes resource Kind to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#kind Project#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#kind Project#kind}
   */
   readonly kind?: string;
   /**
   * The Kubernetes resource name to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#name Project#name}
   */
   readonly name?: string;
 }
@@ -1404,13 +1404,13 @@ export interface ProjectSpecOrphanedResources {
   /**
   * Whether a warning condition should be created for apps which have orphaned resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#warn Project#warn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#warn Project#warn}
   */
   readonly warn?: boolean | cdktf.IResolvable;
   /**
   * ignore block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#ignore Project#ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#ignore Project#ignore}
   */
   readonly ignore?: ProjectSpecOrphanedResourcesIgnore[] | cdktf.IResolvable;
 }
@@ -1525,25 +1525,25 @@ export interface ProjectSpecRole {
   /**
   * Description of the role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#description Project#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#description Project#description}
   */
   readonly description?: string;
   /**
   * List of OIDC group claims bound to this role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#groups Project#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#groups Project#groups}
   */
   readonly groups?: string[];
   /**
   * Name of the role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#name Project#name}
   */
   readonly name: string;
   /**
   * List of casbin formatted strings that define access policies for the role in the project. For more information, see the [ArgoCD RBAC reference](https://argoproj.github.io/argo-cd/operator-manual/rbac/#rbac-permission-structure).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#policies Project#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#policies Project#policies}
   */
   readonly policies: string[];
 }
@@ -1742,49 +1742,49 @@ export interface ProjectSpecSyncWindow {
   /**
   * List of applications that the window will apply to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#applications Project#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#applications Project#applications}
   */
   readonly applications?: string[];
   /**
   * List of clusters that the window will apply to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#clusters Project#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#clusters Project#clusters}
   */
   readonly clusters?: string[];
   /**
   * Amount of time the sync window will be open.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#duration Project#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#duration Project#duration}
   */
   readonly duration?: string;
   /**
   * Defines if the window allows or blocks syncs, allowed values are `allow` or `deny`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#kind Project#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#kind Project#kind}
   */
   readonly kind?: string;
   /**
   * Enables manual syncs when they would otherwise be blocked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#manual_sync Project#manual_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#manual_sync Project#manual_sync}
   */
   readonly manualSync?: boolean | cdktf.IResolvable;
   /**
   * List of namespaces that the window will apply to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#namespaces Project#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#namespaces Project#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Time the window will begin, specified in cron format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#schedule Project#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#schedule Project#schedule}
   */
   readonly schedule?: string;
   /**
   * Timezone that the schedule will be evaluated in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#timezone Project#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#timezone Project#timezone}
   */
   readonly timezone?: string;
 }
@@ -2105,79 +2105,79 @@ export interface ProjectSpec {
   /**
   * Project description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#description Project#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#description Project#description}
   */
   readonly description?: string;
   /**
   * List of PGP key IDs that commits in Git must be signed with in order to be allowed for sync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#signature_keys Project#signature_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#signature_keys Project#signature_keys}
   */
   readonly signatureKeys?: string[];
   /**
   * List of namespaces that application resources are allowed to be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#source_namespaces Project#source_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#source_namespaces Project#source_namespaces}
   */
   readonly sourceNamespaces?: string[];
   /**
   * List of repository URLs which can be used for deployment. Can be set to `["*"]` to allow all configured repositories configured in ArgoCD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#source_repos Project#source_repos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#source_repos Project#source_repos}
   */
   readonly sourceRepos: string[];
   /**
   * cluster_resource_blacklist block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#cluster_resource_blacklist Project#cluster_resource_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#cluster_resource_blacklist Project#cluster_resource_blacklist}
   */
   readonly clusterResourceBlacklist?: ProjectSpecClusterResourceBlacklistStruct[] | cdktf.IResolvable;
   /**
   * cluster_resource_whitelist block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#cluster_resource_whitelist Project#cluster_resource_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#cluster_resource_whitelist Project#cluster_resource_whitelist}
   */
   readonly clusterResourceWhitelist?: ProjectSpecClusterResourceWhitelistStruct[] | cdktf.IResolvable;
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#destination Project#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#destination Project#destination}
   */
   readonly destination: ProjectSpecDestination[] | cdktf.IResolvable;
   /**
   * destination_service_account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#destination_service_account Project#destination_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#destination_service_account Project#destination_service_account}
   */
   readonly destinationServiceAccount?: ProjectSpecDestinationServiceAccount[] | cdktf.IResolvable;
   /**
   * namespace_resource_blacklist block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#namespace_resource_blacklist Project#namespace_resource_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#namespace_resource_blacklist Project#namespace_resource_blacklist}
   */
   readonly namespaceResourceBlacklist?: ProjectSpecNamespaceResourceBlacklistStruct[] | cdktf.IResolvable;
   /**
   * namespace_resource_whitelist block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#namespace_resource_whitelist Project#namespace_resource_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#namespace_resource_whitelist Project#namespace_resource_whitelist}
   */
   readonly namespaceResourceWhitelist?: ProjectSpecNamespaceResourceWhitelistStruct[] | cdktf.IResolvable;
   /**
   * orphaned_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#orphaned_resources Project#orphaned_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#orphaned_resources Project#orphaned_resources}
   */
   readonly orphanedResources?: ProjectSpecOrphanedResources;
   /**
   * role block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#role Project#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#role Project#role}
   */
   readonly role?: ProjectSpecRole[] | cdktf.IResolvable;
   /**
   * sync_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#sync_window Project#sync_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#sync_window Project#sync_window}
   */
   readonly syncWindow?: ProjectSpecSyncWindow[] | cdktf.IResolvable;
 }
@@ -2603,7 +2603,7 @@ export class ProjectSpecOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project argocd_project}
+* Represents a {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project argocd_project}
 */
 export class Project extends cdktf.TerraformResource {
 
@@ -2619,7 +2619,7 @@ export class Project extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Project resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Project to import
-  * @param importFromId The id of the existing Project that should be imported. Refer to the {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Project that should be imported. Refer to the {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Project to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2631,7 +2631,7 @@ export class Project extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.0/docs/resources/project argocd_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project argocd_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2642,8 +2642,8 @@ export class Project extends cdktf.TerraformResource {
       terraformResourceType: 'argocd_project',
       terraformGeneratorMetadata: {
         providerName: 'argocd',
-        providerVersion: '7.12.0',
-        providerVersionConstraint: '7.12.0'
+        providerVersion: '7.12.1',
+        providerVersionConstraint: '7.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

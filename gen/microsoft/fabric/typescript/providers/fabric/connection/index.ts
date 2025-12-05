@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection
+// https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface ConnectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Allow this connection to be utilized with either on-premises data gateways or VNet data gateways. If the value of [`connectivity_type`](#connectivity_type) attribute is `VirtualNetworkGateway` this attribute is **NULL**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection#allow_connection_usage_in_gateway Connection#allow_connection_usage_in_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection#allow_connection_usage_in_gateway Connection#allow_connection_usage_in_gateway}
   */
   readonly allowConnectionUsageInGateway?: boolean | cdktf.IResolvable;
   /**
   * The Connection connection details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection#connection_details Connection#connection_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection#connection_details Connection#connection_details}
   */
   readonly connectionDetails: ConnectionConnectionDetails;
   /**
   * <i style="color:red;font-weight: bold">(ForceNew)</i> The Connection connectivity type. Value must be one of : `ShareableCloud`, `VirtualNetworkGateway`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection#connectivity_type Connection#connectivity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection#connectivity_type Connection#connectivity_type}
   */
   readonly connectivityType: string;
   /**
   * The Connection credential details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection#credential_details Connection#credential_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection#credential_details Connection#credential_details}
   */
   readonly credentialDetails: ConnectionCredentialDetails;
   /**
   * The Connection display name. String length must be at most 123.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection#display_name Connection#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection#display_name Connection#display_name}
   */
   readonly displayName: string;
   /**
   * <i style="color:red;font-weight: bold">(ForceNew)</i> The Connection gateway object ID. If the value of [`connectivity_type`](#connectivity_type) attribute is `VirtualNetworkGateway` this attribute is **REQUIRED**. If the value of [`connectivity_type`](#connectivity_type) attribute is `ShareableCloud` this attribute is **NULL**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection#gateway_id Connection#gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection#gateway_id Connection#gateway_id}
   */
   readonly gatewayId?: string;
   /**
   * The Connection privacy level. Value defaults to `Organizational`. Value must be one of : `None`, `Organizational`, `Private`, `Public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection#privacy_level Connection#privacy_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection#privacy_level Connection#privacy_level}
   */
   readonly privacyLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection#timeouts Connection#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection#timeouts Connection#timeouts}
   */
   readonly timeouts?: ConnectionTimeouts;
 }
 export interface ConnectionConnectionDetailsParameters {
   /**
-  * <i style="color:red;font-weight: bold">(ForceNew)</i> The name of the parameter.
+  * <i style="color:red;font-weight: bold">(ForceNew)</i> The name of the parameter. Name must contain at least one non-whitespace character.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection#name Connection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection#name Connection#name}
   */
   readonly name: string;
   /**
-  * <i style="color:red;font-weight: bold">(ForceNew)</i> The value of the parameter.
+  * <i style="color:red;font-weight: bold">(ForceNew)</i> The value of the parameter. Value must contain at least one non-whitespace character.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection#value Connection#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection#value Connection#value}
   */
   readonly value: string;
 }
@@ -210,19 +210,19 @@ export interface ConnectionConnectionDetails {
   /**
   * <i style="color:red;font-weight: bold">(ForceNew)</i> The creation method used to create the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection#creation_method Connection#creation_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection#creation_method Connection#creation_method}
   */
   readonly creationMethod: string;
   /**
   * <i style="color:red;font-weight: bold">(ForceNew)</i> A set of connection parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection#parameters Connection#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection#parameters Connection#parameters}
   */
   readonly parameters?: ConnectionConnectionDetailsParameters[] | cdktf.IResolvable;
   /**
   * <i style="color:red;font-weight: bold">(ForceNew)</i> The type of the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection#type Connection#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection#type Connection#type}
   */
   readonly type: string;
 }
@@ -375,19 +375,19 @@ export interface ConnectionCredentialDetailsBasicCredentials {
   /**
   * The password (WO).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection#password_wo Connection#password_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection#password_wo Connection#password_wo}
   */
   readonly passwordWo: string;
   /**
   * The version of the `password_wo`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection#password_wo_version Connection#password_wo_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection#password_wo_version Connection#password_wo_version}
   */
   readonly passwordWoVersion: number;
   /**
   * The username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection#username Connection#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection#username Connection#username}
   */
   readonly username: string;
 }
@@ -532,13 +532,13 @@ export interface ConnectionCredentialDetailsKeyCredentials {
   /**
   * The key (WO).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection#key_wo Connection#key_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection#key_wo Connection#key_wo}
   */
   readonly keyWo: string;
   /**
   * The version of the `key_wo`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection#key_wo_version Connection#key_wo_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection#key_wo_version Connection#key_wo_version}
   */
   readonly keyWoVersion: number;
 }
@@ -657,25 +657,25 @@ export interface ConnectionCredentialDetailsServicePrincipalCredentials {
   /**
   * The client ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection#client_id Connection#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection#client_id Connection#client_id}
   */
   readonly clientId: string;
   /**
   * The client secret (WO).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection#client_secret_wo Connection#client_secret_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection#client_secret_wo Connection#client_secret_wo}
   */
   readonly clientSecretWo: string;
   /**
   * The version of the `client_secret_wo`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection#client_secret_wo_version Connection#client_secret_wo_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection#client_secret_wo_version Connection#client_secret_wo_version}
   */
   readonly clientSecretWoVersion: number;
   /**
   * The tenant ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection#tenant_id Connection#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection#tenant_id Connection#tenant_id}
   */
   readonly tenantId: string;
 }
@@ -844,17 +844,17 @@ export class ConnectionCredentialDetailsServicePrincipalCredentialsOutputReferen
 }
 export interface ConnectionCredentialDetailsSharedAccessSignatureCredentials {
   /**
-  * The sas (WO).
+  * The token (WO).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection#sas_wo Connection#sas_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection#token_wo Connection#token_wo}
   */
-  readonly sasWo: string;
+  readonly tokenWo: string;
   /**
-  * The version of the `sas_wo`.
+  * The version of the `token_wo`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection#sas_wo_version Connection#sas_wo_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection#token_wo_version Connection#token_wo_version}
   */
-  readonly sasWoVersion: number;
+  readonly tokenWoVersion: number;
 }
 
 export function connectionCredentialDetailsSharedAccessSignatureCredentialsToTerraform(struct?: ConnectionCredentialDetailsSharedAccessSignatureCredentials | cdktf.IResolvable): any {
@@ -863,8 +863,8 @@ export function connectionCredentialDetailsSharedAccessSignatureCredentialsToTer
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    sas_wo: cdktf.stringToTerraform(struct!.sasWo),
-    sas_wo_version: cdktf.numberToTerraform(struct!.sasWoVersion),
+    token_wo: cdktf.stringToTerraform(struct!.tokenWo),
+    token_wo_version: cdktf.numberToTerraform(struct!.tokenWoVersion),
   }
 }
 
@@ -875,14 +875,14 @@ export function connectionCredentialDetailsSharedAccessSignatureCredentialsToHcl
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    sas_wo: {
-      value: cdktf.stringToHclTerraform(struct!.sasWo),
+    token_wo: {
+      value: cdktf.stringToHclTerraform(struct!.tokenWo),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
-    sas_wo_version: {
-      value: cdktf.numberToHclTerraform(struct!.sasWoVersion),
+    token_wo_version: {
+      value: cdktf.numberToHclTerraform(struct!.tokenWoVersion),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -911,13 +911,13 @@ export class ConnectionCredentialDetailsSharedAccessSignatureCredentialsOutputRe
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._sasWo !== undefined) {
+    if (this._tokenWo !== undefined) {
       hasAnyValues = true;
-      internalValueResult.sasWo = this._sasWo;
+      internalValueResult.tokenWo = this._tokenWo;
     }
-    if (this._sasWoVersion !== undefined) {
+    if (this._tokenWoVersion !== undefined) {
       hasAnyValues = true;
-      internalValueResult.sasWoVersion = this._sasWoVersion;
+      internalValueResult.tokenWoVersion = this._tokenWoVersion;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -926,8 +926,8 @@ export class ConnectionCredentialDetailsSharedAccessSignatureCredentialsOutputRe
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
-      this._sasWo = undefined;
-      this._sasWoVersion = undefined;
+      this._tokenWo = undefined;
+      this._tokenWoVersion = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -936,84 +936,84 @@ export class ConnectionCredentialDetailsSharedAccessSignatureCredentialsOutputRe
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
-      this._sasWo = value.sasWo;
-      this._sasWoVersion = value.sasWoVersion;
+      this._tokenWo = value.tokenWo;
+      this._tokenWoVersion = value.tokenWoVersion;
     }
   }
 
-  // sas_wo - computed: false, optional: false, required: true
-  private _sasWo?: string; 
-  public get sasWo() {
-    return this.getStringAttribute('sas_wo');
+  // token_wo - computed: false, optional: false, required: true
+  private _tokenWo?: string; 
+  public get tokenWo() {
+    return this.getStringAttribute('token_wo');
   }
-  public set sasWo(value: string) {
-    this._sasWo = value;
+  public set tokenWo(value: string) {
+    this._tokenWo = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get sasWoInput() {
-    return this._sasWo;
+  public get tokenWoInput() {
+    return this._tokenWo;
   }
 
-  // sas_wo_version - computed: false, optional: false, required: true
-  private _sasWoVersion?: number; 
-  public get sasWoVersion() {
-    return this.getNumberAttribute('sas_wo_version');
+  // token_wo_version - computed: false, optional: false, required: true
+  private _tokenWoVersion?: number; 
+  public get tokenWoVersion() {
+    return this.getNumberAttribute('token_wo_version');
   }
-  public set sasWoVersion(value: number) {
-    this._sasWoVersion = value;
+  public set tokenWoVersion(value: number) {
+    this._tokenWoVersion = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get sasWoVersionInput() {
-    return this._sasWoVersion;
+  public get tokenWoVersionInput() {
+    return this._tokenWoVersion;
   }
 }
 export interface ConnectionCredentialDetails {
   /**
   * The basic credentials. If the value of [`<.credential_type`](#<.credential_type) attribute is `Basic` this attribute is **REQUIRED**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection#basic_credentials Connection#basic_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection#basic_credentials Connection#basic_credentials}
   */
   readonly basicCredentials?: ConnectionCredentialDetailsBasicCredentials;
   /**
   * The connection encryption type. Value defaults to `NotEncrypted`. Value must be one of : `Any`, `Encrypted`, `NotEncrypted`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection#connection_encryption Connection#connection_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection#connection_encryption Connection#connection_encryption}
   */
   readonly connectionEncryption?: string;
   /**
-  * The credential type. Value must be one of : `Anonymous`, `Basic`, `Key`, `OAuth2`, `ServicePrincipal`, `SharedAccessSignature`, `Windows`, `WindowsWithoutImpersonation`, `WorkspaceIdentity`.
+  * The credential type. Value must be one of : `Anonymous`, `Basic`, `Key`, `ServicePrincipal`, `SharedAccessSignature`, `Windows`, `WindowsWithoutImpersonation`, `WorkspaceIdentity`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection#credential_type Connection#credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection#credential_type Connection#credential_type}
   */
   readonly credentialType: string;
   /**
   * The key credentials. If the value of [`<.credential_type`](#<.credential_type) attribute is `Key` this attribute is **REQUIRED**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection#key_credentials Connection#key_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection#key_credentials Connection#key_credentials}
   */
   readonly keyCredentials?: ConnectionCredentialDetailsKeyCredentials;
   /**
   * The service principal credentials. If the value of [`<.credential_type`](#<.credential_type) attribute is `ServicePrincipal` this attribute is **REQUIRED**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection#service_principal_credentials Connection#service_principal_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection#service_principal_credentials Connection#service_principal_credentials}
   */
   readonly servicePrincipalCredentials?: ConnectionCredentialDetailsServicePrincipalCredentials;
   /**
   * The shared access signature credentials. If the value of [`<.credential_type`](#<.credential_type) attribute is `SharedAccessSignature` this attribute is **REQUIRED**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection#shared_access_signature_credentials Connection#shared_access_signature_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection#shared_access_signature_credentials Connection#shared_access_signature_credentials}
   */
   readonly sharedAccessSignatureCredentials?: ConnectionCredentialDetailsSharedAccessSignatureCredentials;
   /**
   * The single sign-on type. Value defaults to `None`. Value must be one of : `Kerberos`, `KerberosDirectQueryAndRefresh`, `MicrosoftEntraID`, `None`, `SecurityAssertionMarkupLanguage`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection#single_sign_on_type Connection#single_sign_on_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection#single_sign_on_type Connection#single_sign_on_type}
   */
   readonly singleSignOnType?: string;
   /**
   * Whether the connection should skip the test connection during creation and update. `True` - Skip the test connection, `False` - Do not skip the test connection. Value defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection#skip_test_connection Connection#skip_test_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection#skip_test_connection Connection#skip_test_connection}
   */
   readonly skipTestConnection?: boolean | cdktf.IResolvable;
 }
@@ -1309,25 +1309,25 @@ export interface ConnectionTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection#create Connection#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection#create Connection#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection#delete Connection#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection#delete Connection#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection#read Connection#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection#read Connection#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection#update Connection#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection#update Connection#update}
   */
   readonly update?: string;
 }
@@ -1508,7 +1508,7 @@ export class ConnectionTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection fabric_connection}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection fabric_connection}
 */
 export class Connection extends cdktf.TerraformResource {
 
@@ -1524,7 +1524,7 @@ export class Connection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Connection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Connection to import
-  * @param importFromId The id of the existing Connection that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Connection that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Connection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1536,7 +1536,7 @@ export class Connection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.6.0/docs/resources/connection fabric_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/fabric/1.7.0/docs/resources/connection fabric_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1547,8 +1547,8 @@ export class Connection extends cdktf.TerraformResource {
       terraformResourceType: 'fabric_connection',
       terraformGeneratorMetadata: {
         providerName: 'fabric',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests
+// https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface TestsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The driver to use for the test suite. Only one driver can be used at a time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#driver Tests#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#driver Tests#driver}
   */
   readonly driver: string;
   /**
   * The resource specific driver configuration. This is merged with the provider scoped drivers configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#drivers Tests#drivers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#drivers Tests#drivers}
   */
   readonly drivers?: TestsDrivers;
   /**
   * Images to use for the test suite.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#images Tests#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#images Tests#images}
   */
   readonly images: { [key: string]: string };
   /**
   * Metadata to attach to the tests resource. Used for filtering and grouping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#labels Tests#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#labels Tests#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The name of the test. If one is not provided, a random name will be generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#name Tests#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#name Tests#name}
   */
   readonly name?: string;
   /**
   * The target repository the provider will use for pushing/pulling dynamically built images, overriding provider config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#repo Tests#repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#repo Tests#repo}
   */
   readonly repo?: string;
   /**
   * Whether or not the tests were skipped. This is set to true if the tests were skipped, and false otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#skipped Tests#skipped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#skipped Tests#skipped}
   */
   readonly skipped?: boolean | cdktf.IResolvable;
   /**
   * An ordered list of test suites to run
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#tests Tests#tests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#tests Tests#tests}
   */
   readonly tests?: TestsTests[] | cdktf.IResolvable;
   /**
   * The maximum amount of time to wait for all tests to complete. This includes the time it takes to start and destroy the driver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#timeout Tests#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#timeout Tests#timeout}
   */
   readonly timeout?: string;
 }
@@ -66,11 +66,11 @@ export interface TestsDriversDockerInDocker {
   /**
   * The image reference to use for the docker-in-docker driver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#image Tests#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#image Tests#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#mirrors Tests#mirrors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#mirrors Tests#mirrors}
   */
   readonly mirrors?: string[];
 }
@@ -191,76 +191,47 @@ export class TestsDriversDockerInDockerOutputReference extends cdktf.ComplexObje
     return this._mirrors;
   }
 }
-export interface TestsDriversEc2Exec {
+export interface TestsDriversEc2ExistingInstance {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#commands Tests#commands}
+  * IP address of the existing instance.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#ip Tests#ip}
   */
-  readonly commands?: string[];
+  readonly ip: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#env Tests#env}
+  * Path to the SSH private key file.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#ssh_key Tests#ssh_key}
   */
-  readonly env?: { [key: string]: string };
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#shell Tests#shell}
-  */
-  readonly shell?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#user Tests#user}
-  */
-  readonly user?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#user_data Tests#user_data}
-  */
-  readonly userData?: string;
+  readonly sshKey: string;
 }
 
-export function testsDriversEc2ExecToTerraform(struct?: TestsDriversEc2Exec | cdktf.IResolvable): any {
+export function testsDriversEc2ExistingInstanceToTerraform(struct?: TestsDriversEc2ExistingInstance | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    commands: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.commands),
-    env: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.env),
-    shell: cdktf.stringToTerraform(struct!.shell),
-    user: cdktf.stringToTerraform(struct!.user),
-    user_data: cdktf.stringToTerraform(struct!.userData),
+    ip: cdktf.stringToTerraform(struct!.ip),
+    ssh_key: cdktf.stringToTerraform(struct!.sshKey),
   }
 }
 
 
-export function testsDriversEc2ExecToHclTerraform(struct?: TestsDriversEc2Exec | cdktf.IResolvable): any {
+export function testsDriversEc2ExistingInstanceToHclTerraform(struct?: TestsDriversEc2ExistingInstance | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    commands: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.commands),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
-    },
-    env: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.env),
-      isBlock: false,
-      type: "map",
-      storageClassType: "stringMap",
-    },
-    shell: {
-      value: cdktf.stringToHclTerraform(struct!.shell),
+    ip: {
+      value: cdktf.stringToHclTerraform(struct!.ip),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
-    user: {
-      value: cdktf.stringToHclTerraform(struct!.user),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    user_data: {
-      value: cdktf.stringToHclTerraform(struct!.userData),
+    ssh_key: {
+      value: cdktf.stringToHclTerraform(struct!.sshKey),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -271,7 +242,7 @@ export function testsDriversEc2ExecToHclTerraform(struct?: TestsDriversEc2Exec |
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class TestsDriversEc2ExecOutputReference extends cdktf.ComplexObject {
+export class TestsDriversEc2ExistingInstanceOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -283,44 +254,29 @@ export class TestsDriversEc2ExecOutputReference extends cdktf.ComplexObject {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): TestsDriversEc2Exec | cdktf.IResolvable | undefined {
+  public get internalValue(): TestsDriversEc2ExistingInstance | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._commands !== undefined) {
+    if (this._ip !== undefined) {
       hasAnyValues = true;
-      internalValueResult.commands = this._commands;
+      internalValueResult.ip = this._ip;
     }
-    if (this._env !== undefined) {
+    if (this._sshKey !== undefined) {
       hasAnyValues = true;
-      internalValueResult.env = this._env;
-    }
-    if (this._shell !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.shell = this._shell;
-    }
-    if (this._user !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.user = this._user;
-    }
-    if (this._userData !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.userData = this._userData;
+      internalValueResult.sshKey = this._sshKey;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: TestsDriversEc2Exec | cdktf.IResolvable | undefined) {
+  public set internalValue(value: TestsDriversEc2ExistingInstance | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
-      this._commands = undefined;
-      this._env = undefined;
-      this._shell = undefined;
-      this._user = undefined;
-      this._userData = undefined;
+      this._ip = undefined;
+      this._sshKey = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -329,143 +285,146 @@ export class TestsDriversEc2ExecOutputReference extends cdktf.ComplexObject {
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
-      this._commands = value.commands;
-      this._env = value.env;
-      this._shell = value.shell;
-      this._user = value.user;
-      this._userData = value.userData;
+      this._ip = value.ip;
+      this._sshKey = value.sshKey;
     }
   }
 
-  // commands - computed: false, optional: true, required: false
-  private _commands?: string[]; 
-  public get commands() {
-    return this.getListAttribute('commands');
+  // ip - computed: false, optional: false, required: true
+  private _ip?: string; 
+  public get ip() {
+    return this.getStringAttribute('ip');
   }
-  public set commands(value: string[]) {
-    this._commands = value;
-  }
-  public resetCommands() {
-    this._commands = undefined;
+  public set ip(value: string) {
+    this._ip = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get commandsInput() {
-    return this._commands;
+  public get ipInput() {
+    return this._ip;
   }
 
-  // env - computed: false, optional: true, required: false
-  private _env?: { [key: string]: string }; 
-  public get env() {
-    return this.getStringMapAttribute('env');
+  // ssh_key - computed: false, optional: false, required: true
+  private _sshKey?: string; 
+  public get sshKey() {
+    return this.getStringAttribute('ssh_key');
   }
-  public set env(value: { [key: string]: string }) {
-    this._env = value;
-  }
-  public resetEnv() {
-    this._env = undefined;
+  public set sshKey(value: string) {
+    this._sshKey = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get envInput() {
-    return this._env;
-  }
-
-  // shell - computed: false, optional: true, required: false
-  private _shell?: string; 
-  public get shell() {
-    return this.getStringAttribute('shell');
-  }
-  public set shell(value: string) {
-    this._shell = value;
-  }
-  public resetShell() {
-    this._shell = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get shellInput() {
-    return this._shell;
-  }
-
-  // user - computed: false, optional: true, required: false
-  private _user?: string; 
-  public get user() {
-    return this.getStringAttribute('user');
-  }
-  public set user(value: string) {
-    this._user = value;
-  }
-  public resetUser() {
-    this._user = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get userInput() {
-    return this._user;
-  }
-
-  // user_data - computed: false, optional: true, required: false
-  private _userData?: string; 
-  public get userData() {
-    return this.getStringAttribute('user_data');
-  }
-  public set userData(value: string) {
-    this._userData = value;
-  }
-  public resetUserData() {
-    this._userData = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get userDataInput() {
-    return this._userData;
+  public get sshKeyInput() {
+    return this._sshKey;
   }
 }
 export interface TestsDriversEc2 {
   /**
-  * The AMI to use for the AMI driver (default is Ubuntu-24.04).
+  * The AMI ID to launch. Required unless using existing_instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#ami Tests#ami}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#ami Tests#ami}
   */
   readonly ami?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#device_mounts Tests#device_mounts}
+  * Device mounts for the test container (format: src:dst).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#device_mounts Tests#device_mounts}
   */
   readonly deviceMounts?: string[];
   /**
-  * Comamnds to execute on the EC2 instance after launch.
+  * Environment variables for setup commands and container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#exec Tests#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#env Tests#env}
   */
-  readonly exec?: TestsDriversEc2Exec;
+  readonly env?: { [key: string]: string };
   /**
-  * By default the EC2 driver will create and destroy many AWS resources (instance, VPC, IGW, etc.). To instead use an SSH-enabled environment provisioned outside of this driver, you may provide its IP address here. **NOTE**: This will override 'instance_type' and 'AMI'!
+  * Use an existing instance instead of creating new resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#instance_ip Tests#instance_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#existing_instance Tests#existing_instance}
   */
-  readonly instanceIp?: string;
+  readonly existingInstance?: TestsDriversEc2ExistingInstance;
   /**
-  * The AWS IAM instance profile name to attach to the EC2 instance. If not specified, a default IAM role and instance profile will be created with ECR read-only permissions for accessing container images.
+  * GPUs to mount in the test container. Use 'all' for all GPUs, or a number like '1' or '2'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#instance_profile_name Tests#instance_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#gpus Tests#gpus}
+  */
+  readonly gpus?: string;
+  /**
+  * IAM instance profile name. If not specified, one is created with ECR read-only permissions.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#instance_profile_name Tests#instance_profile_name}
   */
   readonly instanceProfileName?: string;
   /**
-  * The AWS EC2 instance type to launch (default is TODO).
+  * The EC2 instance type (default: t3.medium).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#instance_type Tests#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#instance_type Tests#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#mount_all_gpus Tests#mount_all_gpus}
+  * Deprecated: use gpus = 'all' instead.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#mount_all_gpus Tests#mount_all_gpus}
   */
   readonly mountAllGpus?: boolean | cdktf.IResolvable;
   /**
-  * The AWS region to use for the EC2 driver (default is us-west-2).
+  * The AWS region (default: us-west-2).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#region Tests#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#region Tests#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#volume_mounts Tests#volume_mounts}
+  * Root volume size in GB (default: 50).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#root_volume_size Tests#root_volume_size}
+  */
+  readonly rootVolumeSize?: number;
+  /**
+  * Commands to run on the instance before tests.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#setup_commands Tests#setup_commands}
+  */
+  readonly setupCommands?: string[];
+  /**
+  * Shell to use for commands (default: bash).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#shell Tests#shell}
+  */
+  readonly shell?: string;
+  /**
+  * SSH port for connecting to the instance (default: 22).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#ssh_port Tests#ssh_port}
+  */
+  readonly sshPort?: number;
+  /**
+  * SSH user for connecting to the instance (default: ubuntu).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#ssh_user Tests#ssh_user}
+  */
+  readonly sshUser?: string;
+  /**
+  * The CIDR block for the subnet. If not specified, an available /24 is auto-detected.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#subnet_cidr Tests#subnet_cidr}
+  */
+  readonly subnetCidr?: string;
+  /**
+  * Cloud-init user data (will be base64 encoded).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#user_data Tests#user_data}
+  */
+  readonly userData?: string;
+  /**
+  * Volume mounts for the test container (format: src:dst).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#volume_mounts Tests#volume_mounts}
   */
   readonly volumeMounts?: string[];
+  /**
+  * The VPC ID to create resources in. Required unless using existing_instance.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#vpc_id Tests#vpc_id}
+  */
+  readonly vpcId?: string;
 }
 
 export function testsDriversEc2ToTerraform(struct?: TestsDriversEc2 | cdktf.IResolvable): any {
@@ -476,13 +435,22 @@ export function testsDriversEc2ToTerraform(struct?: TestsDriversEc2 | cdktf.IRes
   return {
     ami: cdktf.stringToTerraform(struct!.ami),
     device_mounts: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.deviceMounts),
-    exec: testsDriversEc2ExecToTerraform(struct!.exec),
-    instance_ip: cdktf.stringToTerraform(struct!.instanceIp),
+    env: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.env),
+    existing_instance: testsDriversEc2ExistingInstanceToTerraform(struct!.existingInstance),
+    gpus: cdktf.stringToTerraform(struct!.gpus),
     instance_profile_name: cdktf.stringToTerraform(struct!.instanceProfileName),
     instance_type: cdktf.stringToTerraform(struct!.instanceType),
     mount_all_gpus: cdktf.booleanToTerraform(struct!.mountAllGpus),
     region: cdktf.stringToTerraform(struct!.region),
+    root_volume_size: cdktf.numberToTerraform(struct!.rootVolumeSize),
+    setup_commands: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.setupCommands),
+    shell: cdktf.stringToTerraform(struct!.shell),
+    ssh_port: cdktf.numberToTerraform(struct!.sshPort),
+    ssh_user: cdktf.stringToTerraform(struct!.sshUser),
+    subnet_cidr: cdktf.stringToTerraform(struct!.subnetCidr),
+    user_data: cdktf.stringToTerraform(struct!.userData),
     volume_mounts: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.volumeMounts),
+    vpc_id: cdktf.stringToTerraform(struct!.vpcId),
   }
 }
 
@@ -505,14 +473,20 @@ export function testsDriversEc2ToHclTerraform(struct?: TestsDriversEc2 | cdktf.I
       type: "list",
       storageClassType: "stringList",
     },
-    exec: {
-      value: testsDriversEc2ExecToHclTerraform(struct!.exec),
+    env: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.env),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    existing_instance: {
+      value: testsDriversEc2ExistingInstanceToHclTerraform(struct!.existingInstance),
       isBlock: true,
       type: "struct",
-      storageClassType: "TestsDriversEc2Exec",
+      storageClassType: "TestsDriversEc2ExistingInstance",
     },
-    instance_ip: {
-      value: cdktf.stringToHclTerraform(struct!.instanceIp),
+    gpus: {
+      value: cdktf.stringToHclTerraform(struct!.gpus),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -541,11 +515,59 @@ export function testsDriversEc2ToHclTerraform(struct?: TestsDriversEc2 | cdktf.I
       type: "simple",
       storageClassType: "string",
     },
+    root_volume_size: {
+      value: cdktf.numberToHclTerraform(struct!.rootVolumeSize),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    setup_commands: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.setupCommands),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    shell: {
+      value: cdktf.stringToHclTerraform(struct!.shell),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ssh_port: {
+      value: cdktf.numberToHclTerraform(struct!.sshPort),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    ssh_user: {
+      value: cdktf.stringToHclTerraform(struct!.sshUser),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    subnet_cidr: {
+      value: cdktf.stringToHclTerraform(struct!.subnetCidr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    user_data: {
+      value: cdktf.stringToHclTerraform(struct!.userData),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     volume_mounts: {
       value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.volumeMounts),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
+    },
+    vpc_id: {
+      value: cdktf.stringToHclTerraform(struct!.vpcId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
   };
 
@@ -579,13 +601,17 @@ export class TestsDriversEc2OutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.deviceMounts = this._deviceMounts;
     }
-    if (this._exec?.internalValue !== undefined) {
+    if (this._env !== undefined) {
       hasAnyValues = true;
-      internalValueResult.exec = this._exec?.internalValue;
+      internalValueResult.env = this._env;
     }
-    if (this._instanceIp !== undefined) {
+    if (this._existingInstance?.internalValue !== undefined) {
       hasAnyValues = true;
-      internalValueResult.instanceIp = this._instanceIp;
+      internalValueResult.existingInstance = this._existingInstance?.internalValue;
+    }
+    if (this._gpus !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gpus = this._gpus;
     }
     if (this._instanceProfileName !== undefined) {
       hasAnyValues = true;
@@ -603,9 +629,41 @@ export class TestsDriversEc2OutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.region = this._region;
     }
+    if (this._rootVolumeSize !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rootVolumeSize = this._rootVolumeSize;
+    }
+    if (this._setupCommands !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.setupCommands = this._setupCommands;
+    }
+    if (this._shell !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.shell = this._shell;
+    }
+    if (this._sshPort !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sshPort = this._sshPort;
+    }
+    if (this._sshUser !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sshUser = this._sshUser;
+    }
+    if (this._subnetCidr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.subnetCidr = this._subnetCidr;
+    }
+    if (this._userData !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.userData = this._userData;
+    }
     if (this._volumeMounts !== undefined) {
       hasAnyValues = true;
       internalValueResult.volumeMounts = this._volumeMounts;
+    }
+    if (this._vpcId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vpcId = this._vpcId;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -616,13 +674,22 @@ export class TestsDriversEc2OutputReference extends cdktf.ComplexObject {
       this.resolvableValue = undefined;
       this._ami = undefined;
       this._deviceMounts = undefined;
-      this._exec.internalValue = undefined;
-      this._instanceIp = undefined;
+      this._env = undefined;
+      this._existingInstance.internalValue = undefined;
+      this._gpus = undefined;
       this._instanceProfileName = undefined;
       this._instanceType = undefined;
       this._mountAllGpus = undefined;
       this._region = undefined;
+      this._rootVolumeSize = undefined;
+      this._setupCommands = undefined;
+      this._shell = undefined;
+      this._sshPort = undefined;
+      this._sshUser = undefined;
+      this._subnetCidr = undefined;
+      this._userData = undefined;
       this._volumeMounts = undefined;
+      this._vpcId = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -633,13 +700,22 @@ export class TestsDriversEc2OutputReference extends cdktf.ComplexObject {
       this.resolvableValue = undefined;
       this._ami = value.ami;
       this._deviceMounts = value.deviceMounts;
-      this._exec.internalValue = value.exec;
-      this._instanceIp = value.instanceIp;
+      this._env = value.env;
+      this._existingInstance.internalValue = value.existingInstance;
+      this._gpus = value.gpus;
       this._instanceProfileName = value.instanceProfileName;
       this._instanceType = value.instanceType;
       this._mountAllGpus = value.mountAllGpus;
       this._region = value.region;
+      this._rootVolumeSize = value.rootVolumeSize;
+      this._setupCommands = value.setupCommands;
+      this._shell = value.shell;
+      this._sshPort = value.sshPort;
+      this._sshUser = value.sshUser;
+      this._subnetCidr = value.subnetCidr;
+      this._userData = value.userData;
       this._volumeMounts = value.volumeMounts;
+      this._vpcId = value.vpcId;
     }
   }
 
@@ -675,36 +751,52 @@ export class TestsDriversEc2OutputReference extends cdktf.ComplexObject {
     return this._deviceMounts;
   }
 
-  // exec - computed: false, optional: true, required: false
-  private _exec = new TestsDriversEc2ExecOutputReference(this, "exec");
-  public get exec() {
-    return this._exec;
+  // env - computed: false, optional: true, required: false
+  private _env?: { [key: string]: string }; 
+  public get env() {
+    return this.getStringMapAttribute('env');
   }
-  public putExec(value: TestsDriversEc2Exec) {
-    this._exec.internalValue = value;
+  public set env(value: { [key: string]: string }) {
+    this._env = value;
   }
-  public resetExec() {
-    this._exec.internalValue = undefined;
+  public resetEnv() {
+    this._env = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get execInput() {
-    return this._exec.internalValue;
+  public get envInput() {
+    return this._env;
   }
 
-  // instance_ip - computed: false, optional: true, required: false
-  private _instanceIp?: string; 
-  public get instanceIp() {
-    return this.getStringAttribute('instance_ip');
+  // existing_instance - computed: false, optional: true, required: false
+  private _existingInstance = new TestsDriversEc2ExistingInstanceOutputReference(this, "existing_instance");
+  public get existingInstance() {
+    return this._existingInstance;
   }
-  public set instanceIp(value: string) {
-    this._instanceIp = value;
+  public putExistingInstance(value: TestsDriversEc2ExistingInstance) {
+    this._existingInstance.internalValue = value;
   }
-  public resetInstanceIp() {
-    this._instanceIp = undefined;
+  public resetExistingInstance() {
+    this._existingInstance.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get instanceIpInput() {
-    return this._instanceIp;
+  public get existingInstanceInput() {
+    return this._existingInstance.internalValue;
+  }
+
+  // gpus - computed: false, optional: true, required: false
+  private _gpus?: string; 
+  public get gpus() {
+    return this.getStringAttribute('gpus');
+  }
+  public set gpus(value: string) {
+    this._gpus = value;
+  }
+  public resetGpus() {
+    this._gpus = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gpusInput() {
+    return this._gpus;
   }
 
   // instance_profile_name - computed: false, optional: true, required: false
@@ -771,6 +863,118 @@ export class TestsDriversEc2OutputReference extends cdktf.ComplexObject {
     return this._region;
   }
 
+  // root_volume_size - computed: false, optional: true, required: false
+  private _rootVolumeSize?: number; 
+  public get rootVolumeSize() {
+    return this.getNumberAttribute('root_volume_size');
+  }
+  public set rootVolumeSize(value: number) {
+    this._rootVolumeSize = value;
+  }
+  public resetRootVolumeSize() {
+    this._rootVolumeSize = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rootVolumeSizeInput() {
+    return this._rootVolumeSize;
+  }
+
+  // setup_commands - computed: false, optional: true, required: false
+  private _setupCommands?: string[]; 
+  public get setupCommands() {
+    return this.getListAttribute('setup_commands');
+  }
+  public set setupCommands(value: string[]) {
+    this._setupCommands = value;
+  }
+  public resetSetupCommands() {
+    this._setupCommands = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get setupCommandsInput() {
+    return this._setupCommands;
+  }
+
+  // shell - computed: false, optional: true, required: false
+  private _shell?: string; 
+  public get shell() {
+    return this.getStringAttribute('shell');
+  }
+  public set shell(value: string) {
+    this._shell = value;
+  }
+  public resetShell() {
+    this._shell = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get shellInput() {
+    return this._shell;
+  }
+
+  // ssh_port - computed: false, optional: true, required: false
+  private _sshPort?: number; 
+  public get sshPort() {
+    return this.getNumberAttribute('ssh_port');
+  }
+  public set sshPort(value: number) {
+    this._sshPort = value;
+  }
+  public resetSshPort() {
+    this._sshPort = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sshPortInput() {
+    return this._sshPort;
+  }
+
+  // ssh_user - computed: false, optional: true, required: false
+  private _sshUser?: string; 
+  public get sshUser() {
+    return this.getStringAttribute('ssh_user');
+  }
+  public set sshUser(value: string) {
+    this._sshUser = value;
+  }
+  public resetSshUser() {
+    this._sshUser = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sshUserInput() {
+    return this._sshUser;
+  }
+
+  // subnet_cidr - computed: false, optional: true, required: false
+  private _subnetCidr?: string; 
+  public get subnetCidr() {
+    return this.getStringAttribute('subnet_cidr');
+  }
+  public set subnetCidr(value: string) {
+    this._subnetCidr = value;
+  }
+  public resetSubnetCidr() {
+    this._subnetCidr = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get subnetCidrInput() {
+    return this._subnetCidr;
+  }
+
+  // user_data - computed: false, optional: true, required: false
+  private _userData?: string; 
+  public get userData() {
+    return this.getStringAttribute('user_data');
+  }
+  public set userData(value: string) {
+    this._userData = value;
+  }
+  public resetUserData() {
+    this._userData = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get userDataInput() {
+    return this._userData;
+  }
+
   // volume_mounts - computed: false, optional: true, required: false
   private _volumeMounts?: string[]; 
   public get volumeMounts() {
@@ -786,24 +990,40 @@ export class TestsDriversEc2OutputReference extends cdktf.ComplexObject {
   public get volumeMountsInput() {
     return this._volumeMounts;
   }
+
+  // vpc_id - computed: false, optional: true, required: false
+  private _vpcId?: string; 
+  public get vpcId() {
+    return this.getStringAttribute('vpc_id');
+  }
+  public set vpcId(value: string) {
+    this._vpcId = value;
+  }
+  public resetVpcId() {
+    this._vpcId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vpcIdInput() {
+    return this._vpcId;
+  }
 }
 export interface TestsDriversEksWithEksctlPodIdentityAssociations {
   /**
   * Kubernetes namespace of the service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#namespace Tests#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#namespace Tests#namespace}
   */
   readonly namespace?: string;
   /**
   * ARN of the permission policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#permission_policy_arn Tests#permission_policy_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#permission_policy_arn Tests#permission_policy_arn}
   */
   readonly permissionPolicyArn?: string;
   /**
   * Name of the Kubernetes service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#service_account_name Tests#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#service_account_name Tests#service_account_name}
   */
   readonly serviceAccountName?: string;
 }
@@ -979,13 +1199,13 @@ export interface TestsDriversEksWithEksctlStorage {
   /**
   * The size of the storage volume (e.g., '20Gi')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#size Tests#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#size Tests#size}
   */
   readonly size?: string;
   /**
   * The type of storage to use (e.g., 'gp2', 'gp3')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#type Tests#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#type Tests#type}
   */
   readonly type?: string;
 }
@@ -1110,45 +1330,51 @@ export interface TestsDriversEksWithEksctl {
   /**
   * The AWS CLI profile to use for eksctl and AWS CLI commands
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#aws_profile Tests#aws_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#aws_profile Tests#aws_profile}
   */
   readonly awsProfile?: string;
   /**
   * The AMI to use for the eks_with_eksctl driver (default is the latest EKS optimized AMI)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#node_ami Tests#node_ami}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#node_ami Tests#node_ami}
   */
   readonly nodeAmi?: string;
   /**
   * The number of nodes to use for the eks_with_eksctl driver (default is 1)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#node_count Tests#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#node_count Tests#node_count}
   */
   readonly nodeCount?: number;
   /**
   * The instance type to use for the eks_with_eksctl driver (default is m5.large)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#node_type Tests#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#node_type Tests#node_type}
   */
   readonly nodeType?: string;
   /**
   * Pod Identity Associations for the EKS driver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#pod_identity_associations Tests#pod_identity_associations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#pod_identity_associations Tests#pod_identity_associations}
   */
   readonly podIdentityAssociations?: TestsDriversEksWithEksctlPodIdentityAssociations[] | cdktf.IResolvable;
   /**
   * The AWS region to use for the eks_with_eksctl driver (default is us-west-2)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#region Tests#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#region Tests#region}
   */
   readonly region?: string;
   /**
   * Storage configuration for the eks_with_eksctl driver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#storage Tests#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#storage Tests#storage}
   */
   readonly storage?: TestsDriversEksWithEksctlStorage;
+  /**
+  * Additional tags to apply to all AWS resources created by the driver. Auto-generated tags (imagetest, imagetest:test-name, imagetest:cluster-name) are always included.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#tags Tests#tags}
+  */
+  readonly tags?: { [key: string]: string };
 }
 
 export function testsDriversEksWithEksctlToTerraform(struct?: TestsDriversEksWithEksctl | cdktf.IResolvable): any {
@@ -1164,6 +1390,7 @@ export function testsDriversEksWithEksctlToTerraform(struct?: TestsDriversEksWit
     pod_identity_associations: cdktf.listMapper(testsDriversEksWithEksctlPodIdentityAssociationsToTerraform, false)(struct!.podIdentityAssociations),
     region: cdktf.stringToTerraform(struct!.region),
     storage: testsDriversEksWithEksctlStorageToTerraform(struct!.storage),
+    tags: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.tags),
   }
 }
 
@@ -1215,6 +1442,12 @@ export function testsDriversEksWithEksctlToHclTerraform(struct?: TestsDriversEks
       isBlock: true,
       type: "struct",
       storageClassType: "TestsDriversEksWithEksctlStorage",
+    },
+    tags: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.tags),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
     },
   };
 
@@ -1268,6 +1501,10 @@ export class TestsDriversEksWithEksctlOutputReference extends cdktf.ComplexObjec
       hasAnyValues = true;
       internalValueResult.storage = this._storage?.internalValue;
     }
+    if (this._tags !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tags = this._tags;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -1282,6 +1519,7 @@ export class TestsDriversEksWithEksctlOutputReference extends cdktf.ComplexObjec
       this._podIdentityAssociations.internalValue = undefined;
       this._region = undefined;
       this._storage.internalValue = undefined;
+      this._tags = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -1297,6 +1535,7 @@ export class TestsDriversEksWithEksctlOutputReference extends cdktf.ComplexObjec
       this._podIdentityAssociations.internalValue = value.podIdentityAssociations;
       this._region = value.region;
       this._storage.internalValue = value.storage;
+      this._tags = value.tags;
     }
   }
 
@@ -1411,10 +1650,26 @@ export class TestsDriversEksWithEksctlOutputReference extends cdktf.ComplexObjec
   public get storageInput() {
     return this._storage.internalValue;
   }
+
+  // tags - computed: false, optional: true, required: false
+  private _tags?: { [key: string]: string }; 
+  public get tags() {
+    return this.getStringMapAttribute('tags');
+  }
+  public set tags(value: { [key: string]: string }) {
+    this._tags = value;
+  }
+  public resetTags() {
+    this._tags = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tagsInput() {
+    return this._tags;
+  }
 }
 export interface TestsDriversK3SInDockerHooks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#post_start Tests#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#post_start Tests#post_start}
   */
   readonly postStart?: string[];
 }
@@ -1508,7 +1763,7 @@ export class TestsDriversK3SInDockerHooksOutputReference extends cdktf.ComplexOb
 }
 export interface TestsDriversK3SInDockerRegistriesMirrors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#endpoints Tests#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#endpoints Tests#endpoints}
   */
   readonly endpoints?: string[];
 }
@@ -1604,7 +1859,7 @@ export interface TestsDriversK3SInDockerRegistries {
   /**
   * A map of registries containing configuration for optional auth, tls, and mirror configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#mirrors Tests#mirrors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#mirrors Tests#mirrors}
   */
   readonly mirrors?: TestsDriversK3SInDockerRegistriesMirrors;
 }
@@ -1720,49 +1975,49 @@ export interface TestsDriversK3SInDocker {
   /**
   * Enable the CNI plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#cni Tests#cni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#cni Tests#cni}
   */
   readonly cni?: boolean | cdktf.IResolvable;
   /**
   * Run commands at various lifecycle events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#hooks Tests#hooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#hooks Tests#hooks}
   */
   readonly hooks?: TestsDriversK3SInDockerHooks;
   /**
   * The image reference to use for the k3s_in_docker driver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#image Tests#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#image Tests#image}
   */
   readonly image?: string;
   /**
   * Enable the metrics server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#metrics_server Tests#metrics_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#metrics_server Tests#metrics_server}
   */
   readonly metricsServer?: boolean | cdktf.IResolvable;
   /**
   * Enable the network policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#network_policy Tests#network_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#network_policy Tests#network_policy}
   */
   readonly networkPolicy?: boolean | cdktf.IResolvable;
   /**
   * A map of registries containing configuration for optional auth, tls, and mirror configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#registries Tests#registries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#registries Tests#registries}
   */
   readonly registries?: { [key: string]: TestsDriversK3SInDockerRegistries } | cdktf.IResolvable;
   /**
   * The snapshotter to use for the k3s_in_docker driver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#snapshotter Tests#snapshotter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#snapshotter Tests#snapshotter}
   */
   readonly snapshotter?: string;
   /**
   * Enable the traefik ingress controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#traefik Tests#traefik}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#traefik Tests#traefik}
   */
   readonly traefik?: boolean | cdktf.IResolvable;
 }
@@ -2061,25 +2316,25 @@ export interface TestsDrivers {
   /**
   * The docker_in_docker driver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#docker_in_docker Tests#docker_in_docker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#docker_in_docker Tests#docker_in_docker}
   */
   readonly dockerInDocker?: TestsDriversDockerInDocker;
   /**
   * The AWS EC2 driver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#ec2 Tests#ec2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#ec2 Tests#ec2}
   */
   readonly ec2?: TestsDriversEc2;
   /**
   * The eks_with_eksctl driver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#eks_with_eksctl Tests#eks_with_eksctl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#eks_with_eksctl Tests#eks_with_eksctl}
   */
   readonly eksWithEksctl?: TestsDriversEksWithEksctl;
   /**
   * The k3s_in_docker driver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#k3s_in_docker Tests#k3s_in_docker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#k3s_in_docker Tests#k3s_in_docker}
   */
   readonly k3SInDocker?: TestsDriversK3SInDocker;
 }
@@ -2331,13 +2586,13 @@ export interface TestsTestsContent {
   /**
   * The source path to use for the test
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#source Tests#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#source Tests#source}
   */
   readonly source: string;
   /**
   * The target path to use for the test
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#target Tests#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#target Tests#target}
   */
   readonly target?: string;
 }
@@ -2481,43 +2736,43 @@ export interface TestsTests {
   /**
   * The bundled artifact generated by the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#artifact Tests#artifact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#artifact Tests#artifact}
   */
   readonly artifact?: TestsTestsArtifact;
   /**
   * When specified, will override the sandbox image's CMD (oci config).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#cmd Tests#cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#cmd Tests#cmd}
   */
   readonly cmd?: string;
   /**
   * The content to use for the test
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#content Tests#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#content Tests#content}
   */
   readonly content?: TestsTestsContent[] | cdktf.IResolvable;
   /**
   * Environment variables to set on the test container. These will overwrite the environment variables set in the image's config on conflicts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#envs Tests#envs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#envs Tests#envs}
   */
   readonly envs?: { [key: string]: string };
   /**
   * The image reference to use as the base image for the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#image Tests#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#image Tests#image}
   */
   readonly image: string;
   /**
   * The name of the test
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#name Tests#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#name Tests#name}
   */
   readonly name: string;
   /**
   * The maximum amount of time to wait for the individual test to complete. This is encompassed by the overall timeout of the parent tests resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#timeout Tests#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#timeout Tests#timeout}
   */
   readonly timeout?: string;
 }
@@ -2801,7 +3056,7 @@ export class TestsTestsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests imagetest_tests}
+* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests imagetest_tests}
 */
 export class Tests extends cdktf.TerraformResource {
 
@@ -2817,7 +3072,7 @@ export class Tests extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Tests resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Tests to import
-  * @param importFromId The id of the existing Tests that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Tests that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Tests to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2829,7 +3084,7 @@ export class Tests extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests imagetest_tests} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.106/docs/resources/tests imagetest_tests} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2840,8 +3095,8 @@ export class Tests extends cdktf.TerraformResource {
       terraformResourceType: 'imagetest_tests',
       terraformGeneratorMetadata: {
         providerName: 'imagetest',
-        providerVersion: '0.0.104',
-        providerVersionConstraint: '0.0.104'
+        providerVersion: '0.0.106',
+        providerVersionConstraint: '0.0.106'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
