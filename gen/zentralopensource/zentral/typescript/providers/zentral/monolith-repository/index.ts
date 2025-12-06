@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_repository
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_repository
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface MonolithRepositoryConfig extends cdktf.TerraformMetaArguments {
   /**
   * Azure Blob Storage backend parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_repository#azure MonolithRepository#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_repository#azure MonolithRepository#azure}
   */
   readonly azure?: MonolithRepositoryAzure;
   /**
   * Repository backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_repository#backend MonolithRepository#backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_repository#backend MonolithRepository#backend}
   */
   readonly backend: string;
   /**
   * The `ID` of the meta business unit this repository is restricted to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_repository#meta_business_unit_id MonolithRepository#meta_business_unit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_repository#meta_business_unit_id MonolithRepository#meta_business_unit_id}
   */
   readonly metaBusinessUnitId?: number;
   /**
   * Name of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_repository#name MonolithRepository#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_repository#name MonolithRepository#name}
   */
   readonly name: string;
   /**
   * S3 backend parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_repository#s3 MonolithRepository#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_repository#s3 MonolithRepository#s3}
   */
   readonly s3?: MonolithRepositoryS3;
 }
@@ -42,37 +42,37 @@ export interface MonolithRepositoryAzure {
   /**
   * Client ID of the Azure app registration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_repository#client_id MonolithRepository#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_repository#client_id MonolithRepository#client_id}
   */
   readonly clientId?: string;
   /**
   * Client secret of the Azure app registration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_repository#client_secret MonolithRepository#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_repository#client_secret MonolithRepository#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Name of the blob container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_repository#container MonolithRepository#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_repository#container MonolithRepository#container}
   */
   readonly container: string;
   /**
   * Prefix of the Munki repository in the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_repository#prefix MonolithRepository#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_repository#prefix MonolithRepository#prefix}
   */
   readonly prefix?: string;
   /**
   * Name of the storage account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_repository#storage_account MonolithRepository#storage_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_repository#storage_account MonolithRepository#storage_account}
   */
   readonly storageAccount: string;
   /**
   * Azure tenant ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_repository#tenant_id MonolithRepository#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_repository#tenant_id MonolithRepository#tenant_id}
   */
   readonly tenantId?: string;
 }
@@ -307,67 +307,67 @@ export interface MonolithRepositoryS3 {
   /**
   * AWS access key ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_repository#access_key_id MonolithRepository#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_repository#access_key_id MonolithRepository#access_key_id}
   */
   readonly accessKeyId?: string;
   /**
   * ARN of the IAM role to assume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_repository#assume_role_arn MonolithRepository#assume_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_repository#assume_role_arn MonolithRepository#assume_role_arn}
   */
   readonly assumeRoleArn?: string;
   /**
   * Name of the S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_repository#bucket MonolithRepository#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_repository#bucket MonolithRepository#bucket}
   */
   readonly bucket: string;
   /**
   * Cloudfront domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_repository#cloudfront_domain MonolithRepository#cloudfront_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_repository#cloudfront_domain MonolithRepository#cloudfront_domain}
   */
   readonly cloudfrontDomain?: string;
   /**
   * Cloudfront key ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_repository#cloudfront_key_id MonolithRepository#cloudfront_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_repository#cloudfront_key_id MonolithRepository#cloudfront_key_id}
   */
   readonly cloudfrontKeyId?: string;
   /**
   * Cloudfront private key in PEM form.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_repository#cloudfront_privkey_pem MonolithRepository#cloudfront_privkey_pem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_repository#cloudfront_privkey_pem MonolithRepository#cloudfront_privkey_pem}
   */
   readonly cloudfrontPrivkeyPem?: string;
   /**
   * S3 endpoint URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_repository#endpoint_url MonolithRepository#endpoint_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_repository#endpoint_url MonolithRepository#endpoint_url}
   */
   readonly endpointUrl?: string;
   /**
   * Prefix of the Munki repository in the S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_repository#prefix MonolithRepository#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_repository#prefix MonolithRepository#prefix}
   */
   readonly prefix?: string;
   /**
   * Name of the S3 bucket region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_repository#region_name MonolithRepository#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_repository#region_name MonolithRepository#region_name}
   */
   readonly regionName?: string;
   /**
   * AWS secret access key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_repository#secret_access_key MonolithRepository#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_repository#secret_access_key MonolithRepository#secret_access_key}
   */
   readonly secretAccessKey?: string;
   /**
   * Version of the AWS request signature to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_repository#signature_version MonolithRepository#signature_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_repository#signature_version MonolithRepository#signature_version}
   */
   readonly signatureVersion?: string;
 }
@@ -748,7 +748,7 @@ export class MonolithRepositoryS3OutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_repository zentral_monolith_repository}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_repository zentral_monolith_repository}
 */
 export class MonolithRepository extends cdktf.TerraformResource {
 
@@ -764,7 +764,7 @@ export class MonolithRepository extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MonolithRepository resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MonolithRepository to import
-  * @param importFromId The id of the existing MonolithRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_repository#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MonolithRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MonolithRepository to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -776,7 +776,7 @@ export class MonolithRepository extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_repository zentral_monolith_repository} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_repository zentral_monolith_repository} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -787,8 +787,8 @@ export class MonolithRepository extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_monolith_repository',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.65',
-        providerVersionConstraint: '0.1.65'
+        providerVersion: '0.1.67',
+        providerVersionConstraint: '0.1.67'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

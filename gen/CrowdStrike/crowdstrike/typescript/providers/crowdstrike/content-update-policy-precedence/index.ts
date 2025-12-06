@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/content_update_policy_precedence
+// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/content_update_policy_precedence
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ContentUpdatePolicyPrecedenceConfig extends cdktf.TerraformMeta
   /**
   * The enforcement type for this resource. `strict` requires all non-default content update policy ids to be provided. `dynamic` will ensure the provided policies have precedence over others. When using dynamic, policy ids not included in `ids` will retain their current ordering after the managed ids.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/content_update_policy_precedence#enforcement ContentUpdatePolicyPrecedence#enforcement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/content_update_policy_precedence#enforcement ContentUpdatePolicyPrecedence#enforcement}
   */
   readonly enforcement: string;
   /**
   * The policy ids in order. The first ID specified will have the highest precedence and the last ID specified will have the lowest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/content_update_policy_precedence#ids ContentUpdatePolicyPrecedence#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/content_update_policy_precedence#ids ContentUpdatePolicyPrecedence#ids}
   */
   readonly ids: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/content_update_policy_precedence crowdstrike_content_update_policy_precedence}
+* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/content_update_policy_precedence crowdstrike_content_update_policy_precedence}
 */
 export class ContentUpdatePolicyPrecedence extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class ContentUpdatePolicyPrecedence extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ContentUpdatePolicyPrecedence resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ContentUpdatePolicyPrecedence to import
-  * @param importFromId The id of the existing ContentUpdatePolicyPrecedence that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/content_update_policy_precedence#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ContentUpdatePolicyPrecedence that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/content_update_policy_precedence#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ContentUpdatePolicyPrecedence to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class ContentUpdatePolicyPrecedence extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/content_update_policy_precedence crowdstrike_content_update_policy_precedence} Resource
+  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/content_update_policy_precedence crowdstrike_content_update_policy_precedence} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class ContentUpdatePolicyPrecedence extends cdktf.TerraformResource {
       terraformResourceType: 'crowdstrike_content_update_policy_precedence',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.49',
-        providerVersionConstraint: '0.0.49'
+        providerVersion: '0.0.50',
+        providerVersionConstraint: '0.0.50'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

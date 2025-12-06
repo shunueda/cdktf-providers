@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/dbaas_clusters
+// https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/dbaas_clusters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface DbaasClustersConfig extends cdktf.TerraformMetaArguments {
   /**
   * Number of days to retain automated backups (1-35 days). Default is 7 days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/dbaas_clusters#backup_retention_days DbaasClusters#backup_retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/dbaas_clusters#backup_retention_days DbaasClusters#backup_retention_days}
   */
   readonly backupRetentionDays?: number;
   /**
   * Time to initiate the daily backup in UTC (format: 'HH:MM:SS'). Default is '04:00:00'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/dbaas_clusters#backup_start_at DbaasClusters#backup_start_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/dbaas_clusters#backup_start_at DbaasClusters#backup_start_at}
   */
   readonly backupStartAt?: string;
   /**
   * Type of database engine to use (e.g., 'mysql', 'postgresql'). Cannot be changed after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/dbaas_clusters#engine_name DbaasClusters#engine_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/dbaas_clusters#engine_name DbaasClusters#engine_name}
   */
   readonly engineName: string;
   /**
   * Version of the database engine (e.g., '8.0', '13.3'). Must be compatible with the selected engine_name. Cannot be changed after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/dbaas_clusters#engine_version DbaasClusters#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/dbaas_clusters#engine_version DbaasClusters#engine_version}
   */
   readonly engineVersion: string;
   /**
-  * Compute and memory capacity of the cluster nodes (e.g., 'DP2-16-40'). Can be changed to scale the instance.
+  * Compute and memory capacity of the cluster determined by the instance-type field label (e.g., 'DP2-16-40'). Can be changed to scale the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/dbaas_clusters#instance_type DbaasClusters#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/dbaas_clusters#instance_type DbaasClusters#instance_type}
   */
   readonly instanceType: string;
   /**
   * Name of the DBaaS cluster. Must be unique. Cannot be changed after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/dbaas_clusters#name DbaasClusters#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/dbaas_clusters#name DbaasClusters#name}
   */
   readonly name: string;
   /**
   * ID of the parameter group to associate with the cluster.  Cannot be changed after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/dbaas_clusters#parameter_group DbaasClusters#parameter_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/dbaas_clusters#parameter_group DbaasClusters#parameter_group}
   */
   readonly parameterGroup?: string;
   /**
   * Master password for the database cluster. Must be at least 8 characters long.  Cannot be changed after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/dbaas_clusters#password DbaasClusters#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/dbaas_clusters#password DbaasClusters#password}
   */
   readonly password: string;
   /**
   * Master username for the database cluster. Must start with a letter and contain only alphanumeric characters.  Cannot be changed after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/dbaas_clusters#user DbaasClusters#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/dbaas_clusters#user DbaasClusters#user}
   */
   readonly user: string;
   /**
   * Size of the storage volume in GB. Can be increased but not decreased after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/dbaas_clusters#volume_size DbaasClusters#volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/dbaas_clusters#volume_size DbaasClusters#volume_size}
   */
   readonly volumeSize: number;
   /**
   * Type of the storage volume (e.g., 'CLOUD_NVME15K' or 'CLOUD_NVME20K'). Cannot be changed after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/dbaas_clusters#volume_type DbaasClusters#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/dbaas_clusters#volume_type DbaasClusters#volume_type}
   */
   readonly volumeType?: string;
 }
@@ -171,7 +171,7 @@ export class DbaasClustersAddressesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/dbaas_clusters mgc_dbaas_clusters}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/dbaas_clusters mgc_dbaas_clusters}
 */
 export class DbaasClusters extends cdktf.TerraformResource {
 
@@ -187,7 +187,7 @@ export class DbaasClusters extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbaasClusters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbaasClusters to import
-  * @param importFromId The id of the existing DbaasClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/dbaas_clusters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbaasClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/dbaas_clusters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbaasClusters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -199,7 +199,7 @@ export class DbaasClusters extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/dbaas_clusters mgc_dbaas_clusters} Resource
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/dbaas_clusters mgc_dbaas_clusters} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -210,8 +210,8 @@ export class DbaasClusters extends cdktf.TerraformResource {
       terraformResourceType: 'mgc_dbaas_clusters',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.40.1',
-        providerVersionConstraint: '0.40.1'
+        providerVersion: '0.40.2',
+        providerVersionConstraint: '0.40.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

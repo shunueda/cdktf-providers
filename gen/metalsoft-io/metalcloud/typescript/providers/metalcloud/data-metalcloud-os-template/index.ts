@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/data-sources/os_template
+// https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/data-sources/os_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataMetalcloudOsTemplateConfig extends cdktf.TerraformMetaArgum
   /**
   * OS template label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/data-sources/os_template#label DataMetalcloudOsTemplate#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/data-sources/os_template#label DataMetalcloudOsTemplate#label}
   */
   readonly label: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/data-sources/os_template metalcloud_os_template}
+* Represents a {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/data-sources/os_template metalcloud_os_template}
 */
 export class DataMetalcloudOsTemplate extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataMetalcloudOsTemplate extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMetalcloudOsTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMetalcloudOsTemplate to import
-  * @param importFromId The id of the existing DataMetalcloudOsTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/data-sources/os_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMetalcloudOsTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/data-sources/os_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMetalcloudOsTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataMetalcloudOsTemplate extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/data-sources/os_template metalcloud_os_template} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/data-sources/os_template metalcloud_os_template} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataMetalcloudOsTemplate extends cdktf.TerraformDataSource {
       terraformResourceType: 'metalcloud_os_template',
       terraformGeneratorMetadata: {
         providerName: 'metalcloud',
-        providerVersion: '7.0.10',
-        providerVersionConstraint: '7.0.10'
+        providerVersion: '7.1.0',
+        providerVersionConstraint: '7.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

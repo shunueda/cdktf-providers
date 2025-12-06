@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/helm_release
+// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/helm_release
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface HelmReleaseConfig extends cdktf.TerraformMetaArguments {
   /**
   * when specified, ensures clean up of this Terraform resource from the state file by creating a dependency on the Helm feature when the Helm feature is disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/helm_release#feature_ref HelmRelease#feature_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/helm_release#feature_ref HelmRelease#feature_ref}
   */
   readonly featureRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/helm_release#id HelmRelease#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/helm_release#id HelmRelease#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface HelmReleaseConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the Repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/helm_release#name HelmRelease#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/helm_release#name HelmRelease#name}
   */
   readonly name: string;
   /**
   * Name of Namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/helm_release#namespace_name HelmRelease#namespace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/helm_release#namespace_name HelmRelease#namespace_name}
   */
   readonly namespaceName: string;
   /**
   * meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/helm_release#meta HelmRelease#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/helm_release#meta HelmRelease#meta}
   */
   readonly meta?: HelmReleaseMeta;
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/helm_release#scope HelmRelease#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/helm_release#scope HelmRelease#scope}
   */
   readonly scope: HelmReleaseScope;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/helm_release#spec HelmRelease#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/helm_release#spec HelmRelease#spec}
   */
   readonly spec: HelmReleaseSpec;
 }
@@ -221,19 +221,19 @@ export interface HelmReleaseMeta {
   /**
   * Annotations for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/helm_release#annotations HelmRelease#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/helm_release#annotations HelmRelease#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/helm_release#description HelmRelease#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/helm_release#description HelmRelease#description}
   */
   readonly description?: string;
   /**
   * Labels for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/helm_release#labels HelmRelease#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/helm_release#labels HelmRelease#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -387,19 +387,19 @@ export interface HelmReleaseScopeCluster {
   /**
   * Name of the management cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/helm_release#management_cluster_name HelmRelease#management_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/helm_release#management_cluster_name HelmRelease#management_cluster_name}
   */
   readonly managementClusterName?: string;
   /**
   * Name of this cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/helm_release#name HelmRelease#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/helm_release#name HelmRelease#name}
   */
   readonly name: string;
   /**
   * Provisioner of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/helm_release#provisioner_name HelmRelease#provisioner_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/helm_release#provisioner_name HelmRelease#provisioner_name}
   */
   readonly provisionerName?: string;
 }
@@ -540,7 +540,7 @@ export interface HelmReleaseScopeClusterGroup {
   /**
   * Name of the cluster group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/helm_release#name HelmRelease#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/helm_release#name HelmRelease#name}
   */
   readonly name: string;
 }
@@ -623,13 +623,13 @@ export interface HelmReleaseScope {
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/helm_release#cluster HelmRelease#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/helm_release#cluster HelmRelease#cluster}
   */
   readonly cluster?: HelmReleaseScopeCluster;
   /**
   * cluster_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/helm_release#cluster_group HelmRelease#cluster_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/helm_release#cluster_group HelmRelease#cluster_group}
   */
   readonly clusterGroup?: HelmReleaseScopeClusterGroup;
 }
@@ -744,19 +744,19 @@ export interface HelmReleaseSpecChartRefGitRepository {
   /**
   * Path of the chart in the git repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/helm_release#chart_path HelmRelease#chart_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/helm_release#chart_path HelmRelease#chart_path}
   */
   readonly chartPath: string;
   /**
   * Name of the Git repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/helm_release#repository_name HelmRelease#repository_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/helm_release#repository_name HelmRelease#repository_name}
   */
   readonly repositoryName: string;
   /**
   * Namespace Name for the Git repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/helm_release#repository_namespace HelmRelease#repository_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/helm_release#repository_namespace HelmRelease#repository_namespace}
   */
   readonly repositoryNamespace: string;
 }
@@ -891,25 +891,25 @@ export interface HelmReleaseSpecChartRefHelmRepository {
   /**
   * Name of the chart in the helm repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/helm_release#chart_name HelmRelease#chart_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/helm_release#chart_name HelmRelease#chart_name}
   */
   readonly chartName: string;
   /**
   * Name of the Helm repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/helm_release#repository_name HelmRelease#repository_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/helm_release#repository_name HelmRelease#repository_name}
   */
   readonly repositoryName: string;
   /**
   * Namespace Name for the Helm repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/helm_release#repository_namespace HelmRelease#repository_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/helm_release#repository_namespace HelmRelease#repository_namespace}
   */
   readonly repositoryNamespace: string;
   /**
   * Chart version, applicable for helm repository type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/helm_release#version HelmRelease#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/helm_release#version HelmRelease#version}
   */
   readonly version: string;
 }
@@ -1070,13 +1070,13 @@ export interface HelmReleaseSpecChartRef {
   /**
   * git_repository block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/helm_release#git_repository HelmRelease#git_repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/helm_release#git_repository HelmRelease#git_repository}
   */
   readonly gitRepository?: HelmReleaseSpecChartRefGitRepository;
   /**
   * helm_repository block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/helm_release#helm_repository HelmRelease#helm_repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/helm_release#helm_repository HelmRelease#helm_repository}
   */
   readonly helmRepository?: HelmReleaseSpecChartRefHelmRepository;
 }
@@ -1191,25 +1191,25 @@ export interface HelmReleaseSpec {
   /**
   * File to read inline values from (in yaml format).User need to specify the file path for inline config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/helm_release#inline_config HelmRelease#inline_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/helm_release#inline_config HelmRelease#inline_config}
   */
   readonly inlineConfig?: string;
   /**
   * Interval at which to reconcile the Helm release. This is the interval at which Tanzu Mission Control will attempt to reconcile changes in the helm release to the cluster. A sync interval of 0 would result in no future syncs. If no value is entered, a default interval of 5 minutes will be applied as `5m`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/helm_release#interval HelmRelease#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/helm_release#interval HelmRelease#interval}
   */
   readonly interval?: string;
   /**
   * TargetNamespace sets or overrides the namespaces of resources yaml while applying on cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/helm_release#target_namespace HelmRelease#target_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/helm_release#target_namespace HelmRelease#target_namespace}
   */
   readonly targetNamespace?: string;
   /**
   * chart_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/helm_release#chart_ref HelmRelease#chart_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/helm_release#chart_ref HelmRelease#chart_ref}
   */
   readonly chartRef: HelmReleaseSpecChartRef;
 }
@@ -1377,7 +1377,7 @@ export class HelmReleaseSpecOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/helm_release tanzu-mission-control_helm_release}
+* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/helm_release tanzu-mission-control_helm_release}
 */
 export class HelmRelease extends cdktf.TerraformResource {
 
@@ -1393,7 +1393,7 @@ export class HelmRelease extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HelmRelease resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HelmRelease to import
-  * @param importFromId The id of the existing HelmRelease that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/helm_release#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HelmRelease that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/helm_release#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HelmRelease to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1405,7 +1405,7 @@ export class HelmRelease extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/helm_release tanzu-mission-control_helm_release} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/helm_release tanzu-mission-control_helm_release} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1416,8 +1416,8 @@ export class HelmRelease extends cdktf.TerraformResource {
       terraformResourceType: 'tanzu-mission-control_helm_release',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9',
-        providerVersionConstraint: '1.4.9'
+        providerVersion: '1.4.10',
+        providerVersionConstraint: '1.4.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

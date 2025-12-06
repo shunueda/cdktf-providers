@@ -43,6 +43,7 @@ export * as sourceLoadGenerator from './source-load-generator';
 export * as sourceMysql from './source-mysql';
 export * as sourcePostgres from './source-postgres';
 export * as sourceSqlserver from './source-sqlserver';
+export * as sourceTablePostgres from './source-table-postgres';
 export * as sourceWebhook from './source-webhook';
 export * as ssoConfig from './sso-config';
 export * as ssoDefaultRoles from './sso-default-roles';

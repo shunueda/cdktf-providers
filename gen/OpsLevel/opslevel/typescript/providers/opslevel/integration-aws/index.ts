@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/integration_aws
+// https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/integration_aws
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface IntegrationAwsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The External ID defined in the trust relationship to ensure OpsLevel is the only third party assuming this role (See https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-user_externalid.html for more details).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/integration_aws#external_id IntegrationAws#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/integration_aws#external_id IntegrationAws#external_id}
   */
   readonly externalId: string;
   /**
   * The IAM role OpsLevel uses in order to access the AWS account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/integration_aws#iam_role IntegrationAws#iam_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/integration_aws#iam_role IntegrationAws#iam_role}
   */
   readonly iamRole: string;
   /**
   * The name of the integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/integration_aws#name IntegrationAws#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/integration_aws#name IntegrationAws#name}
   */
   readonly name: string;
   /**
   * Allow tags imported from AWS to override ownership set in OpsLevel directly. Max 5 (default = ["owner"])
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/integration_aws#ownership_tag_keys IntegrationAws#ownership_tag_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/integration_aws#ownership_tag_keys IntegrationAws#ownership_tag_keys}
   */
   readonly ownershipTagKeys?: string[];
   /**
   * Allow tags imported from AWS to override ownership set in OpsLevel directly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/integration_aws#ownership_tag_overrides IntegrationAws#ownership_tag_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/integration_aws#ownership_tag_overrides IntegrationAws#ownership_tag_overrides}
   */
   readonly ownershipTagOverrides?: boolean | cdktf.IResolvable;
   /**
   * Overrides the AWS region(s) that will be synchronized by this integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/integration_aws#region_override IntegrationAws#region_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/integration_aws#region_override IntegrationAws#region_override}
   */
   readonly regionOverride?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/integration_aws opslevel_integration_aws}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/integration_aws opslevel_integration_aws}
 */
 export class IntegrationAws extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class IntegrationAws extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationAws resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationAws to import
-  * @param importFromId The id of the existing IntegrationAws that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/integration_aws#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationAws that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/integration_aws#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationAws to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class IntegrationAws extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/integration_aws opslevel_integration_aws} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/integration_aws opslevel_integration_aws} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class IntegrationAws extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_integration_aws',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.6.3',
-        providerVersionConstraint: '1.6.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

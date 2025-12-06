@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "lumen": "3.0.0"
+    "lumen": "3.0.1"
   }
 }

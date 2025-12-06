@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/secret
+// https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/secret
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface SecretConfig extends cdktf.TerraformMetaArguments {
   /**
   * The alias for this secret. Can only be set at create time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/secret#alias Secret#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/secret#alias Secret#alias}
   */
   readonly alias: string;
   /**
   * The owner of this secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/secret#owner Secret#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/secret#owner Secret#owner}
   */
   readonly owner: string;
   /**
   * A sensitive value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/secret#value Secret#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/secret#value Secret#value}
   */
   readonly value: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/secret opslevel_secret}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/secret opslevel_secret}
 */
 export class Secret extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class Secret extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Secret resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Secret to import
-  * @param importFromId The id of the existing Secret that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/secret#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Secret that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/secret#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Secret to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class Secret extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/secret opslevel_secret} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/secret opslevel_secret} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class Secret extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_secret',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.6.3',
-        providerVersionConstraint: '1.6.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

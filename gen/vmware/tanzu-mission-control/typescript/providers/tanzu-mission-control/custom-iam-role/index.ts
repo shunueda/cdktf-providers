@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_iam_role
+// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_iam_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface CustomIamRoleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_iam_role#id CustomIamRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_iam_role#id CustomIamRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface CustomIamRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the iam role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_iam_role#name CustomIamRole#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_iam_role#name CustomIamRole#name}
   */
   readonly name: string;
   /**
   * meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_iam_role#meta CustomIamRole#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_iam_role#meta CustomIamRole#meta}
   */
   readonly meta?: CustomIamRoleMeta;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_iam_role#spec CustomIamRole#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_iam_role#spec CustomIamRole#spec}
   */
   readonly spec: CustomIamRoleSpec;
 }
@@ -37,19 +37,19 @@ export interface CustomIamRoleMeta {
   /**
   * Annotations for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_iam_role#annotations CustomIamRole#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_iam_role#annotations CustomIamRole#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_iam_role#description CustomIamRole#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_iam_role#description CustomIamRole#description}
   */
   readonly description?: string;
   /**
   * Labels for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_iam_role#labels CustomIamRole#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_iam_role#labels CustomIamRole#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -203,14 +203,14 @@ export interface CustomIamRoleSpecAggregationRuleClusterRoleSelectorMatchExpress
   /**
   * Key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_iam_role#key CustomIamRole#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_iam_role#key CustomIamRole#key}
   */
   readonly key: string;
   /**
   * Operator represents a key's relationship to a set of values.
   * Valid operators are "In", "NotIn", "Exists" and "DoesNotExist".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_iam_role#operator CustomIamRole#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_iam_role#operator CustomIamRole#operator}
   */
   readonly operator: string;
   /**
@@ -219,7 +219,7 @@ export interface CustomIamRoleSpecAggregationRuleClusterRoleSelectorMatchExpress
   * If the operator is "Exists" or "DoesNotExist", the values array must be empty.
   * This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_iam_role#values CustomIamRole#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_iam_role#values CustomIamRole#values}
   */
   readonly values?: string[];
 }
@@ -391,13 +391,13 @@ export interface CustomIamRoleSpecAggregationRuleClusterRoleSelector {
   * A single {key,value} in the match_labels map is equivalent to an element of match_expression, whose key field is "key", the operator is "In", and the values array contains only "value". 
   * The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_iam_role#match_labels CustomIamRole#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_iam_role#match_labels CustomIamRole#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expression block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_iam_role#match_expression CustomIamRole#match_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_iam_role#match_expression CustomIamRole#match_expression}
   */
   readonly matchExpression?: CustomIamRoleSpecAggregationRuleClusterRoleSelectorMatchExpression[] | cdktf.IResolvable;
 }
@@ -544,7 +544,7 @@ export interface CustomIamRoleSpecAggregationRule {
   /**
   * cluster_role_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_iam_role#cluster_role_selector CustomIamRole#cluster_role_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_iam_role#cluster_role_selector CustomIamRole#cluster_role_selector}
   */
   readonly clusterRoleSelector: CustomIamRoleSpecAggregationRuleClusterRoleSelector[] | cdktf.IResolvable;
 }
@@ -627,31 +627,31 @@ export interface CustomIamRoleSpecKubernetesPermissionsRule {
   /**
   * API groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_iam_role#api_groups CustomIamRole#api_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_iam_role#api_groups CustomIamRole#api_groups}
   */
   readonly apiGroups?: string[];
   /**
   * Restricts the rule to resources by name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_iam_role#resource_names CustomIamRole#resource_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_iam_role#resource_names CustomIamRole#resource_names}
   */
   readonly resourceNames?: string[];
   /**
   * Resources for the role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_iam_role#resources CustomIamRole#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_iam_role#resources CustomIamRole#resources}
   */
   readonly resources?: string[];
   /**
   * Non-resource urls for the role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_iam_role#url_paths CustomIamRole#url_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_iam_role#url_paths CustomIamRole#url_paths}
   */
   readonly urlPaths?: string[];
   /**
   * Verbs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_iam_role#verbs CustomIamRole#verbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_iam_role#verbs CustomIamRole#verbs}
   */
   readonly verbs: string[];
 }
@@ -882,7 +882,7 @@ export interface CustomIamRoleSpecKubernetesPermissions {
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_iam_role#rule CustomIamRole#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_iam_role#rule CustomIamRole#rule}
   */
   readonly rule: CustomIamRoleSpecKubernetesPermissionsRule[] | cdktf.IResolvable;
 }
@@ -966,31 +966,31 @@ export interface CustomIamRoleSpec {
   * The allowed scopes for the iam role.
   * Valid values are (ORGANIZATION, MANAGEMENT_CLUSTER, PROVISIONER, CLUSTER_GROUP, CLUSTER, WORKSPACE, NAMESPACE)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_iam_role#allowed_scopes CustomIamRole#allowed_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_iam_role#allowed_scopes CustomIamRole#allowed_scopes}
   */
   readonly allowedScopes: string[];
   /**
   * Flag representing whether role is deprecated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_iam_role#is_deprecated CustomIamRole#is_deprecated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_iam_role#is_deprecated CustomIamRole#is_deprecated}
   */
   readonly isDeprecated?: boolean | cdktf.IResolvable;
   /**
   * Tanzu-specific permissions for the role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_iam_role#tanzu_permissions CustomIamRole#tanzu_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_iam_role#tanzu_permissions CustomIamRole#tanzu_permissions}
   */
   readonly tanzuPermissions?: string[];
   /**
   * aggregation_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_iam_role#aggregation_rule CustomIamRole#aggregation_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_iam_role#aggregation_rule CustomIamRole#aggregation_rule}
   */
   readonly aggregationRule?: CustomIamRoleSpecAggregationRule;
   /**
   * kubernetes_permissions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_iam_role#kubernetes_permissions CustomIamRole#kubernetes_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_iam_role#kubernetes_permissions CustomIamRole#kubernetes_permissions}
   */
   readonly kubernetesPermissions?: CustomIamRoleSpecKubernetesPermissions;
 }
@@ -1187,7 +1187,7 @@ export class CustomIamRoleSpecOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_iam_role tanzu-mission-control_custom_iam_role}
+* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_iam_role tanzu-mission-control_custom_iam_role}
 */
 export class CustomIamRole extends cdktf.TerraformResource {
 
@@ -1203,7 +1203,7 @@ export class CustomIamRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomIamRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomIamRole to import
-  * @param importFromId The id of the existing CustomIamRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_iam_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomIamRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_iam_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomIamRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1215,7 +1215,7 @@ export class CustomIamRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_iam_role tanzu-mission-control_custom_iam_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_iam_role tanzu-mission-control_custom_iam_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1226,8 +1226,8 @@ export class CustomIamRole extends cdktf.TerraformResource {
       terraformResourceType: 'tanzu-mission-control_custom_iam_role',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9',
-        providerVersionConstraint: '1.4.9'
+        providerVersion: '1.4.10',
+        providerVersionConstraint: '1.4.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

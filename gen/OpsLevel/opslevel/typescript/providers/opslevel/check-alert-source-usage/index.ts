@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_alert_source_usage
+// https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_alert_source_usage
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface CheckAlertSourceUsageConfig extends cdktf.TerraformMetaArgument
   /**
   * A condition that should be satisfied. One of `belongs_to`, `contains`, `does_not_contain`, `does_not_equal`, `does_not_exist`, `does_not_match`, `does_not_match_regex`, `ends_with`, `equals`, `exists`, `greater_than_or_equal_to`, `less_than_or_equal_to`, `matches`, `matches_regex`, `satisfies_jq_expression`, `satisfies_version_constraint`, `starts_with`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_alert_source_usage#alert_name_predicate CheckAlertSourceUsage#alert_name_predicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_alert_source_usage#alert_name_predicate CheckAlertSourceUsage#alert_name_predicate}
   */
   readonly alertNamePredicate?: CheckAlertSourceUsageAlertNamePredicate;
   /**
   * The type of the alert source. One of `custom`, `datadog`, `fire_hydrant`, `incident_io`, `new_relic`, `opsgenie`, `pagerduty`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_alert_source_usage#alert_type CheckAlertSourceUsage#alert_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_alert_source_usage#alert_type CheckAlertSourceUsage#alert_type}
   */
   readonly alertType: string;
   /**
   * The id of the category the check belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_alert_source_usage#category CheckAlertSourceUsage#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_alert_source_usage#category CheckAlertSourceUsage#category}
   */
   readonly category: string;
   /**
@@ -31,43 +31,43 @@ export interface CheckAlertSourceUsageConfig extends cdktf.TerraformMetaArgument
   *  See example in opslevel_check_manual for proper configuration.
   *  
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_alert_source_usage#enable_on CheckAlertSourceUsage#enable_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_alert_source_usage#enable_on CheckAlertSourceUsage#enable_on}
   */
   readonly enableOn?: string;
   /**
   * Whether the check is enabled or not.  Do not use this field in tandem with 'enable_on'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_alert_source_usage#enabled CheckAlertSourceUsage#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_alert_source_usage#enabled CheckAlertSourceUsage#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The id of the filter of the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_alert_source_usage#filter CheckAlertSourceUsage#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_alert_source_usage#filter CheckAlertSourceUsage#filter}
   */
   readonly filter?: string;
   /**
   * The id of the level the check belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_alert_source_usage#level CheckAlertSourceUsage#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_alert_source_usage#level CheckAlertSourceUsage#level}
   */
   readonly level: string;
   /**
   * The display name of the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_alert_source_usage#name CheckAlertSourceUsage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_alert_source_usage#name CheckAlertSourceUsage#name}
   */
   readonly name: string;
   /**
   * Additional information to display to the service owner about the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_alert_source_usage#notes CheckAlertSourceUsage#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_alert_source_usage#notes CheckAlertSourceUsage#notes}
   */
   readonly notes?: string;
   /**
   * The id of the team that owns the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_alert_source_usage#owner CheckAlertSourceUsage#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_alert_source_usage#owner CheckAlertSourceUsage#owner}
   */
   readonly owner?: string;
 }
@@ -75,13 +75,13 @@ export interface CheckAlertSourceUsageAlertNamePredicate {
   /**
   * A condition that should be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_alert_source_usage#type CheckAlertSourceUsage#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_alert_source_usage#type CheckAlertSourceUsage#type}
   */
   readonly type: string;
   /**
   * The condition value used by the predicate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_alert_source_usage#value CheckAlertSourceUsage#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_alert_source_usage#value CheckAlertSourceUsage#value}
   */
   readonly value?: string;
 }
@@ -201,7 +201,7 @@ export class CheckAlertSourceUsageAlertNamePredicateOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_alert_source_usage opslevel_check_alert_source_usage}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_alert_source_usage opslevel_check_alert_source_usage}
 */
 export class CheckAlertSourceUsage extends cdktf.TerraformResource {
 
@@ -217,7 +217,7 @@ export class CheckAlertSourceUsage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CheckAlertSourceUsage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CheckAlertSourceUsage to import
-  * @param importFromId The id of the existing CheckAlertSourceUsage that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_alert_source_usage#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CheckAlertSourceUsage that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_alert_source_usage#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CheckAlertSourceUsage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -229,7 +229,7 @@ export class CheckAlertSourceUsage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_alert_source_usage opslevel_check_alert_source_usage} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_alert_source_usage opslevel_check_alert_source_usage} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -240,8 +240,8 @@ export class CheckAlertSourceUsage extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_check_alert_source_usage',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.6.3',
-        providerVersionConstraint: '1.6.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

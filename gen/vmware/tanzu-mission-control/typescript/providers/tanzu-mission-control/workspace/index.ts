@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/workspace
+// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/workspace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,20 +8,20 @@ import * as cdktf from 'cdktf';
 
 export interface WorkspaceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/workspace#id Workspace#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/workspace#id Workspace#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/workspace#name Workspace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/workspace#name Workspace#name}
   */
   readonly name: string;
   /**
   * meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/workspace#meta Workspace#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/workspace#meta Workspace#meta}
   */
   readonly meta?: WorkspaceMeta;
 }
@@ -29,19 +29,19 @@ export interface WorkspaceMeta {
   /**
   * Annotations for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/workspace#annotations Workspace#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/workspace#annotations Workspace#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/workspace#description Workspace#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/workspace#description Workspace#description}
   */
   readonly description?: string;
   /**
   * Labels for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/workspace#labels Workspace#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/workspace#labels Workspace#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -193,7 +193,7 @@ export class WorkspaceMetaOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/workspace tanzu-mission-control_workspace}
+* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/workspace tanzu-mission-control_workspace}
 */
 export class Workspace extends cdktf.TerraformResource {
 
@@ -209,7 +209,7 @@ export class Workspace extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Workspace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Workspace to import
-  * @param importFromId The id of the existing Workspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/workspace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Workspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/workspace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Workspace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -221,7 +221,7 @@ export class Workspace extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/workspace tanzu-mission-control_workspace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/workspace tanzu-mission-control_workspace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -232,8 +232,8 @@ export class Workspace extends cdktf.TerraformResource {
       terraformResourceType: 'tanzu-mission-control_workspace',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9',
-        providerVersionConstraint: '1.4.9'
+        providerVersion: '1.4.10',
+        providerVersionConstraint: '1.4.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

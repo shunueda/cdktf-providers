@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/backup_schedule
+// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/backup_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTanzuMissionControlBackupScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/backup_schedule#id DataTanzuMissionControlBackupSchedule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/backup_schedule#id DataTanzuMissionControlBackupSchedule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -18,31 +18,31 @@ export interface DataTanzuMissionControlBackupScheduleConfig extends cdktf.Terra
   * Whether to include total count of backups.
   * (Default: True)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/backup_schedule#include_total_count DataTanzuMissionControlBackupSchedule#include_total_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/backup_schedule#include_total_count DataTanzuMissionControlBackupSchedule#include_total_count}
   */
   readonly includeTotalCount?: boolean | cdktf.IResolvable;
   /**
   * The name of the backup schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/backup_schedule#name DataTanzuMissionControlBackupSchedule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/backup_schedule#name DataTanzuMissionControlBackupSchedule#name}
   */
   readonly name?: string;
   /**
   * Define a query for listing backups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/backup_schedule#query DataTanzuMissionControlBackupSchedule#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/backup_schedule#query DataTanzuMissionControlBackupSchedule#query}
   */
   readonly query?: string;
   /**
   * Sort backups by field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/backup_schedule#sort_by DataTanzuMissionControlBackupSchedule#sort_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/backup_schedule#sort_by DataTanzuMissionControlBackupSchedule#sort_by}
   */
   readonly sortBy?: string;
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/backup_schedule#scope DataTanzuMissionControlBackupSchedule#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/backup_schedule#scope DataTanzuMissionControlBackupSchedule#scope}
   */
   readonly scope: DataTanzuMissionControlBackupScheduleScope;
 }
@@ -2104,19 +2104,19 @@ export interface DataTanzuMissionControlBackupScheduleScopeCluster {
   /**
   * Cluster name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/backup_schedule#cluster_name DataTanzuMissionControlBackupSchedule#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/backup_schedule#cluster_name DataTanzuMissionControlBackupSchedule#cluster_name}
   */
   readonly clusterName: string;
   /**
   * Management cluster name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/backup_schedule#management_cluster_name DataTanzuMissionControlBackupSchedule#management_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/backup_schedule#management_cluster_name DataTanzuMissionControlBackupSchedule#management_cluster_name}
   */
   readonly managementClusterName?: string;
   /**
   * Cluster provisioner name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/backup_schedule#provisioner_name DataTanzuMissionControlBackupSchedule#provisioner_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/backup_schedule#provisioner_name DataTanzuMissionControlBackupSchedule#provisioner_name}
   */
   readonly provisionerName?: string;
 }
@@ -2257,7 +2257,7 @@ export interface DataTanzuMissionControlBackupScheduleScopeClusterGroup {
   /**
   * Cluster group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/backup_schedule#cluster_group_name DataTanzuMissionControlBackupSchedule#cluster_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/backup_schedule#cluster_group_name DataTanzuMissionControlBackupSchedule#cluster_group_name}
   */
   readonly clusterGroupName: string;
 }
@@ -2340,13 +2340,13 @@ export interface DataTanzuMissionControlBackupScheduleScope {
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/backup_schedule#cluster DataTanzuMissionControlBackupSchedule#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/backup_schedule#cluster DataTanzuMissionControlBackupSchedule#cluster}
   */
   readonly cluster?: DataTanzuMissionControlBackupScheduleScopeCluster;
   /**
   * cluster_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/backup_schedule#cluster_group DataTanzuMissionControlBackupSchedule#cluster_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/backup_schedule#cluster_group DataTanzuMissionControlBackupSchedule#cluster_group}
   */
   readonly clusterGroup?: DataTanzuMissionControlBackupScheduleScopeClusterGroup;
 }
@@ -2459,7 +2459,7 @@ export class DataTanzuMissionControlBackupScheduleScopeOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/backup_schedule tanzu-mission-control_backup_schedule}
+* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/backup_schedule tanzu-mission-control_backup_schedule}
 */
 export class DataTanzuMissionControlBackupSchedule extends cdktf.TerraformDataSource {
 
@@ -2475,7 +2475,7 @@ export class DataTanzuMissionControlBackupSchedule extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataTanzuMissionControlBackupSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTanzuMissionControlBackupSchedule to import
-  * @param importFromId The id of the existing DataTanzuMissionControlBackupSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/backup_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTanzuMissionControlBackupSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/backup_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTanzuMissionControlBackupSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2487,7 +2487,7 @@ export class DataTanzuMissionControlBackupSchedule extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/backup_schedule tanzu-mission-control_backup_schedule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/backup_schedule tanzu-mission-control_backup_schedule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2498,8 +2498,8 @@ export class DataTanzuMissionControlBackupSchedule extends cdktf.TerraformDataSo
       terraformResourceType: 'tanzu-mission-control_backup_schedule',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9',
-        providerVersionConstraint: '1.4.9'
+        providerVersion: '1.4.10',
+        providerVersionConstraint: '1.4.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/trigger_definition
+// https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/trigger_definition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,91 @@ export interface TriggerDefinitionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The set of users that should be able to use the Trigger Definition. One of `admins`, `everyone`, `service_owners`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/trigger_definition#access_control TriggerDefinition#access_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/trigger_definition#access_control TriggerDefinition#access_control}
   */
   readonly accessControl: string;
   /**
   * The action that will be triggered by the Trigger Definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/trigger_definition#action TriggerDefinition#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/trigger_definition#action TriggerDefinition#action}
   */
   readonly action: string;
   /**
   * Flag indicating approval is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/trigger_definition#approval_required TriggerDefinition#approval_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/trigger_definition#approval_required TriggerDefinition#approval_required}
   */
   readonly approvalRequired?: boolean | cdktf.IResolvable;
   /**
   * Teams that can approve this Trigger Definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/trigger_definition#approval_teams TriggerDefinition#approval_teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/trigger_definition#approval_teams TriggerDefinition#approval_teams}
   */
   readonly approvalTeams?: string[];
   /**
   * Users that can approve this Trigger Definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/trigger_definition#approval_users TriggerDefinition#approval_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/trigger_definition#approval_users TriggerDefinition#approval_users}
   */
   readonly approvalUsers?: string[];
   /**
   * The description of what the Trigger Definition will do.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/trigger_definition#description TriggerDefinition#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/trigger_definition#description TriggerDefinition#description}
   */
   readonly description?: string;
   /**
   * The entity type to associate with the Trigger Definition. One of `GLOBAL`, `SERVICE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/trigger_definition#entity_type TriggerDefinition#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/trigger_definition#entity_type TriggerDefinition#entity_type}
   */
   readonly entityType?: string;
   /**
   * The set of additional teams who can invoke this Trigger Definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/trigger_definition#extended_team_access TriggerDefinition#extended_team_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/trigger_definition#extended_team_access TriggerDefinition#extended_team_access}
   */
   readonly extendedTeamAccess?: string[];
   /**
   * A filter defining which services this Trigger Definition applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/trigger_definition#filter TriggerDefinition#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/trigger_definition#filter TriggerDefinition#filter}
   */
   readonly filter?: string;
   /**
   * The YAML definition of any custom inputs for this Trigger Definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/trigger_definition#manual_inputs_definition TriggerDefinition#manual_inputs_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/trigger_definition#manual_inputs_definition TriggerDefinition#manual_inputs_definition}
   */
   readonly manualInputsDefinition?: string;
   /**
   * The name of the Trigger Definition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/trigger_definition#name TriggerDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/trigger_definition#name TriggerDefinition#name}
   */
   readonly name: string;
   /**
   * The owner of the Trigger Definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/trigger_definition#owner TriggerDefinition#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/trigger_definition#owner TriggerDefinition#owner}
   */
   readonly owner: string;
   /**
   * The published state of the Custom Action; true if the Trigger Definition is ready for use; false if it is a draft.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/trigger_definition#published TriggerDefinition#published}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/trigger_definition#published TriggerDefinition#published}
   */
   readonly published: boolean | cdktf.IResolvable;
   /**
   * The liquid template used to parse the response from the Webhook Action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/trigger_definition#response_template TriggerDefinition#response_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/trigger_definition#response_template TriggerDefinition#response_template}
   */
   readonly responseTemplate?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/trigger_definition opslevel_trigger_definition}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/trigger_definition opslevel_trigger_definition}
 */
 export class TriggerDefinition extends cdktf.TerraformResource {
 
@@ -110,7 +110,7 @@ export class TriggerDefinition extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TriggerDefinition resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TriggerDefinition to import
-  * @param importFromId The id of the existing TriggerDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/trigger_definition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TriggerDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/trigger_definition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TriggerDefinition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -122,7 +122,7 @@ export class TriggerDefinition extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/trigger_definition opslevel_trigger_definition} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/trigger_definition opslevel_trigger_definition} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -133,8 +133,8 @@ export class TriggerDefinition extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_trigger_definition',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.6.3',
-        providerVersionConstraint: '1.6.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

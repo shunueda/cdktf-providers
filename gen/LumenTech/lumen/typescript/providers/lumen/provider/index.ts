@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lumentech/lumen/3.0.0/docs
+// https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface LumenProviderConfig {
   /**
   * Lumen customer account number (required for new versions of bare metal resources/data sources)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.0/docs#account_number LumenProvider#account_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs#account_number LumenProvider#account_number}
   */
   readonly accountNumber: string;
   /**
   * Consumer key for Lumen API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.0/docs#consumer_key LumenProvider#consumer_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs#consumer_key LumenProvider#consumer_key}
   */
   readonly consumerKey: string;
   /**
   * Consumer secret for Lumen API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.0/docs#consumer_secret LumenProvider#consumer_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs#consumer_secret LumenProvider#consumer_secret}
   */
   readonly consumerSecret: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.0/docs#alias LumenProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs#alias LumenProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.0/docs lumen}
+* Represents a {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs lumen}
 */
 export class LumenProvider extends cdktf.TerraformProvider {
 
@@ -50,7 +50,7 @@ export class LumenProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a LumenProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LumenProvider to import
-  * @param importFromId The id of the existing LumenProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LumenProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LumenProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class LumenProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.0/docs lumen} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lumentech/lumen/3.0.1/docs lumen} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class LumenProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'lumen',
       terraformGeneratorMetadata: {
         providerName: 'lumen',
-        providerVersion: '3.0.0',
-        providerVersionConstraint: '3.0.0'
+        providerVersion: '3.0.1',
+        providerVersionConstraint: '3.0.1'
       },
       terraformProviderSource: 'LumenTech/lumen'
     });

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_service_configuration
+// https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_service_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface CheckServiceConfigurationConfig extends cdktf.TerraformMetaArgu
   /**
   * The id of the category the check belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_service_configuration#category CheckServiceConfiguration#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_service_configuration#category CheckServiceConfiguration#category}
   */
   readonly category: string;
   /**
@@ -19,49 +19,49 @@ export interface CheckServiceConfigurationConfig extends cdktf.TerraformMetaArgu
   *  See example in opslevel_check_manual for proper configuration.
   *  
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_service_configuration#enable_on CheckServiceConfiguration#enable_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_service_configuration#enable_on CheckServiceConfiguration#enable_on}
   */
   readonly enableOn?: string;
   /**
   * Whether the check is enabled or not.  Do not use this field in tandem with 'enable_on'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_service_configuration#enabled CheckServiceConfiguration#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_service_configuration#enabled CheckServiceConfiguration#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The id of the filter of the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_service_configuration#filter CheckServiceConfiguration#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_service_configuration#filter CheckServiceConfiguration#filter}
   */
   readonly filter?: string;
   /**
   * The id of the level the check belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_service_configuration#level CheckServiceConfiguration#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_service_configuration#level CheckServiceConfiguration#level}
   */
   readonly level: string;
   /**
   * The display name of the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_service_configuration#name CheckServiceConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_service_configuration#name CheckServiceConfiguration#name}
   */
   readonly name: string;
   /**
   * Additional information to display to the service owner about the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_service_configuration#notes CheckServiceConfiguration#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_service_configuration#notes CheckServiceConfiguration#notes}
   */
   readonly notes?: string;
   /**
   * The id of the team that owns the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_service_configuration#owner CheckServiceConfiguration#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_service_configuration#owner CheckServiceConfiguration#owner}
   */
   readonly owner?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_service_configuration opslevel_check_service_configuration}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_service_configuration opslevel_check_service_configuration}
 */
 export class CheckServiceConfiguration extends cdktf.TerraformResource {
 
@@ -77,7 +77,7 @@ export class CheckServiceConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CheckServiceConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CheckServiceConfiguration to import
-  * @param importFromId The id of the existing CheckServiceConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_service_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CheckServiceConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_service_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CheckServiceConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -89,7 +89,7 @@ export class CheckServiceConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_service_configuration opslevel_check_service_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_service_configuration opslevel_check_service_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -100,8 +100,8 @@ export class CheckServiceConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_check_service_configuration',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.6.3',
-        providerVersionConstraint: '1.6.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

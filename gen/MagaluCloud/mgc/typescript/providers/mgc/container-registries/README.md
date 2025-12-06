@@ -1,3 +1,3 @@
 # `mgc_container_registries`
 
-Refer to the Terraform Registry for docs: [`mgc_container_registries`](https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/container_registries).
+Refer to the Terraform Registry for docs: [`mgc_container_registries`](https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/container_registries).

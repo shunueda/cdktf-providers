@@ -1,3 +1,3 @@
 # `infisical_secret_sync_github`
 
-Refer to the Terraform Registry for docs: [`infisical_secret_sync_github`](https://registry.terraform.io/providers/infisical/infisical/0.15.52/docs/resources/secret_sync_github).
+Refer to the Terraform Registry for docs: [`infisical_secret_sync_github`](https://registry.terraform.io/providers/infisical/infisical/0.15.53/docs/resources/secret_sync_github).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs
+// https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface MetalcloudProviderConfig {
   /**
   * MetalCloud API key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs#api_key MetalcloudProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs#api_key MetalcloudProvider#api_key}
   */
   readonly apiKey: string;
   /**
   * MetalCloud API endpoint URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs#endpoint MetalcloudProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs#endpoint MetalcloudProvider#endpoint}
   */
   readonly endpoint: string;
   /**
   * Allow insecure connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs#insecure MetalcloudProvider#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs#insecure MetalcloudProvider#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * Logging level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs#logging MetalcloudProvider#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs#logging MetalcloudProvider#logging}
   */
   readonly logging?: string;
   /**
   * MetalCloud user email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs#user_email MetalcloudProvider#user_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs#user_email MetalcloudProvider#user_email}
   */
   readonly userEmail?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs#alias MetalcloudProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs#alias MetalcloudProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs metalcloud}
+* Represents a {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs metalcloud}
 */
 export class MetalcloudProvider extends cdktf.TerraformProvider {
 
@@ -62,7 +62,7 @@ export class MetalcloudProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a MetalcloudProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MetalcloudProvider to import
-  * @param importFromId The id of the existing MetalcloudProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MetalcloudProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MetalcloudProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class MetalcloudProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs metalcloud} Resource
+  * Create a new {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs metalcloud} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class MetalcloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'metalcloud',
       terraformGeneratorMetadata: {
         providerName: 'metalcloud',
-        providerVersion: '7.0.10',
-        providerVersionConstraint: '7.0.10'
+        providerVersion: '7.1.0',
+        providerVersionConstraint: '7.1.0'
       },
       terraformProviderSource: 'metalsoft-io/metalcloud'
     });

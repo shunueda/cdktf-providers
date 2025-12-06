@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule
+// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,11 +11,11 @@ export interface BackupScheduleConfig extends cdktf.TerraformMetaArguments {
   * Scope for backup schedule.
   * Valid values are (FULL_CLUSTER, SET_NAMESPACES, LABEL_SELECTOR)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#backup_scope BackupSchedule#backup_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#backup_scope BackupSchedule#backup_scope}
   */
   readonly backupScope: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#id BackupSchedule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#id BackupSchedule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -24,31 +24,31 @@ export interface BackupScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the backup schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#name BackupSchedule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#name BackupSchedule#name}
   */
   readonly name: string;
   /**
   * meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#meta BackupSchedule#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#meta BackupSchedule#meta}
   */
   readonly meta?: BackupScheduleMeta;
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#scope BackupSchedule#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#scope BackupSchedule#scope}
   */
   readonly scope: BackupScheduleScope;
   /**
   * selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#selector BackupSchedule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#selector BackupSchedule#selector}
   */
   readonly selector?: BackupScheduleSelector[] | cdktf.IResolvable;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#spec BackupSchedule#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#spec BackupSchedule#spec}
   */
   readonly spec: BackupScheduleSpec;
 }
@@ -56,19 +56,19 @@ export interface BackupScheduleMeta {
   /**
   * Annotations for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#annotations BackupSchedule#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#annotations BackupSchedule#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#description BackupSchedule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#description BackupSchedule#description}
   */
   readonly description?: string;
   /**
   * Labels for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#labels BackupSchedule#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#labels BackupSchedule#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -222,19 +222,19 @@ export interface BackupScheduleScopeCluster {
   /**
   * Cluster name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#cluster_name BackupSchedule#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#cluster_name BackupSchedule#cluster_name}
   */
   readonly clusterName: string;
   /**
   * Management cluster name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#management_cluster_name BackupSchedule#management_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#management_cluster_name BackupSchedule#management_cluster_name}
   */
   readonly managementClusterName: string;
   /**
   * Cluster provisioner name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#provisioner_name BackupSchedule#provisioner_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#provisioner_name BackupSchedule#provisioner_name}
   */
   readonly provisionerName: string;
 }
@@ -369,7 +369,7 @@ export interface BackupScheduleScopeClusterGroup {
   /**
   * Cluster group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#cluster_group_name BackupSchedule#cluster_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#cluster_group_name BackupSchedule#cluster_group_name}
   */
   readonly clusterGroupName: string;
 }
@@ -452,13 +452,13 @@ export interface BackupScheduleScope {
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#cluster BackupSchedule#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#cluster BackupSchedule#cluster}
   */
   readonly cluster?: BackupScheduleScopeCluster;
   /**
   * cluster_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#cluster_group BackupSchedule#cluster_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#cluster_group BackupSchedule#cluster_group}
   */
   readonly clusterGroup?: BackupScheduleScopeClusterGroup;
 }
@@ -573,14 +573,14 @@ export interface BackupScheduleSelectorLabelSelectorMatchExpression {
   /**
   * Key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#key BackupSchedule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#key BackupSchedule#key}
   */
   readonly key: string;
   /**
   * Operator represents a key's relationship to a set of values.
   * Valid operators are "In", "NotIn", "Exists" and "DoesNotExist".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#operator BackupSchedule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#operator BackupSchedule#operator}
   */
   readonly operator: string;
   /**
@@ -589,7 +589,7 @@ export interface BackupScheduleSelectorLabelSelectorMatchExpression {
   * If the operator is "Exists" or "DoesNotExist", the values array must be empty.
   * This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#values BackupSchedule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#values BackupSchedule#values}
   */
   readonly values?: string[];
 }
@@ -760,13 +760,13 @@ export interface BackupScheduleSelectorLabelSelector {
   * A map of {key,value} pairs. A single {key,value} in the map is equivalent to an element of match_expressions, whose key field is "key", the operator is "In" and the values array contains only "value".
   * The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#match_labels BackupSchedule#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#match_labels BackupSchedule#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expression block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#match_expression BackupSchedule#match_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#match_expression BackupSchedule#match_expression}
   */
   readonly matchExpression?: BackupScheduleSelectorLabelSelectorMatchExpression[] | cdktf.IResolvable;
 }
@@ -881,19 +881,19 @@ export interface BackupScheduleSelector {
   /**
   * Specifies the name of excluded clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#excluded_names BackupSchedule#excluded_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#excluded_names BackupSchedule#excluded_names}
   */
   readonly excludedNames?: string[];
   /**
   * Specifies name of cluster to be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#names BackupSchedule#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#names BackupSchedule#names}
   */
   readonly names?: string[];
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#label_selector BackupSchedule#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#label_selector BackupSchedule#label_selector}
   */
   readonly labelSelector?: BackupScheduleSelectorLabelSelector;
 }
@@ -1069,7 +1069,7 @@ export interface BackupScheduleSpecSchedule {
   /**
   * Cron expression of backup schedule rate/interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#rate BackupSchedule#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#rate BackupSchedule#rate}
   */
   readonly rate: string;
 }
@@ -1152,14 +1152,14 @@ export interface BackupScheduleSpecTemplateHooksResourceLabelSelectorMatchExpres
   /**
   * Key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#key BackupSchedule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#key BackupSchedule#key}
   */
   readonly key: string;
   /**
   * Operator represents a key's relationship to a set of values.
   * Valid operators are "In", "NotIn", "Exists" and "DoesNotExist".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#operator BackupSchedule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#operator BackupSchedule#operator}
   */
   readonly operator: string;
   /**
@@ -1168,7 +1168,7 @@ export interface BackupScheduleSpecTemplateHooksResourceLabelSelectorMatchExpres
   * If the operator is "Exists" or "DoesNotExist", the values array must be empty.
   * This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#values BackupSchedule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#values BackupSchedule#values}
   */
   readonly values?: string[];
 }
@@ -1339,13 +1339,13 @@ export interface BackupScheduleSpecTemplateHooksResourceLabelSelector {
   * A map of {key,value} pairs. A single {key,value} in the map is equivalent to an element of match_expressions, whose key field is "key", the operator is "In" and the values array contains only "value".
   * The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#match_labels BackupSchedule#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#match_labels BackupSchedule#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expression block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#match_expression BackupSchedule#match_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#match_expression BackupSchedule#match_expression}
   */
   readonly matchExpression?: BackupScheduleSpecTemplateHooksResourceLabelSelectorMatchExpression[] | cdktf.IResolvable;
 }
@@ -1460,27 +1460,27 @@ export interface BackupScheduleSpecTemplateHooksResourcePostHookExec {
   /**
   * The command and arguments to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#command BackupSchedule#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#command BackupSchedule#command}
   */
   readonly command: string[];
   /**
   * The container in the pod where the command should be executed.
   * If not specified, the pod's first container is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#container BackupSchedule#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#container BackupSchedule#container}
   */
   readonly container: string;
   /**
   * Specifies how Velero should behave if it encounters an error executing this hook.
   * Valid values are (FAIL, CONTINUE)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#on_error BackupSchedule#on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#on_error BackupSchedule#on_error}
   */
   readonly onError?: string;
   /**
   * Defines the maximum amount of time Velero should wait for the hook to complete before considering the execution a failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#timeout BackupSchedule#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#timeout BackupSchedule#timeout}
   */
   readonly timeout?: string;
 }
@@ -1647,7 +1647,7 @@ export interface BackupScheduleSpecTemplateHooksResourcePostHook {
   /**
   * exec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#exec BackupSchedule#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#exec BackupSchedule#exec}
   */
   readonly exec: BackupScheduleSpecTemplateHooksResourcePostHookExec;
 }
@@ -1762,27 +1762,27 @@ export interface BackupScheduleSpecTemplateHooksResourcePreHookExec {
   /**
   * The command and arguments to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#command BackupSchedule#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#command BackupSchedule#command}
   */
   readonly command: string[];
   /**
   * The container in the pod where the command should be executed.
   * If not specified, the pod's first container is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#container BackupSchedule#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#container BackupSchedule#container}
   */
   readonly container: string;
   /**
   * Specifies how Velero should behave if it encounters an error executing this hook.
   * Valid values are (FAIL, CONTINUE)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#on_error BackupSchedule#on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#on_error BackupSchedule#on_error}
   */
   readonly onError?: string;
   /**
   * Defines the maximum amount of time Velero should wait for the hook to complete before considering the execution a failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#timeout BackupSchedule#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#timeout BackupSchedule#timeout}
   */
   readonly timeout?: string;
 }
@@ -1949,7 +1949,7 @@ export interface BackupScheduleSpecTemplateHooksResourcePreHook {
   /**
   * exec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#exec BackupSchedule#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#exec BackupSchedule#exec}
   */
   readonly exec: BackupScheduleSpecTemplateHooksResourcePreHookExec;
 }
@@ -2064,38 +2064,38 @@ export interface BackupScheduleSpecTemplateHooksResource {
   /**
   * Specifies the namespaces to which this hook spec does not apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#excluded_namespaces BackupSchedule#excluded_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#excluded_namespaces BackupSchedule#excluded_namespaces}
   */
   readonly excludedNamespaces?: string[];
   /**
   * Specifies the namespaces to which this hook spec applies.
   * If empty, it applies to all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#included_namespaces BackupSchedule#included_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#included_namespaces BackupSchedule#included_namespaces}
   */
   readonly includedNamespaces?: string[];
   /**
   * The name of the hook resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#name BackupSchedule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#name BackupSchedule#name}
   */
   readonly name: string;
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#label_selector BackupSchedule#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#label_selector BackupSchedule#label_selector}
   */
   readonly labelSelector?: BackupScheduleSpecTemplateHooksResourceLabelSelector;
   /**
   * post_hook block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#post_hook BackupSchedule#post_hook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#post_hook BackupSchedule#post_hook}
   */
   readonly postHook?: BackupScheduleSpecTemplateHooksResourcePostHook[] | cdktf.IResolvable;
   /**
   * pre_hook block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#pre_hook BackupSchedule#pre_hook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#pre_hook BackupSchedule#pre_hook}
   */
   readonly preHook?: BackupScheduleSpecTemplateHooksResourcePreHook[] | cdktf.IResolvable;
 }
@@ -2355,7 +2355,7 @@ export interface BackupScheduleSpecTemplateHooks {
   /**
   * resource block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#resource BackupSchedule#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#resource BackupSchedule#resource}
   */
   readonly resource?: BackupScheduleSpecTemplateHooksResource[] | cdktf.IResolvable;
 }
@@ -2441,14 +2441,14 @@ export interface BackupScheduleSpecTemplateLabelSelectorMatchExpression {
   /**
   * Key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#key BackupSchedule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#key BackupSchedule#key}
   */
   readonly key: string;
   /**
   * Operator represents a key's relationship to a set of values.
   * Valid operators are "In", "NotIn", "Exists" and "DoesNotExist".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#operator BackupSchedule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#operator BackupSchedule#operator}
   */
   readonly operator: string;
   /**
@@ -2457,7 +2457,7 @@ export interface BackupScheduleSpecTemplateLabelSelectorMatchExpression {
   * If the operator is "Exists" or "DoesNotExist", the values array must be empty.
   * This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#values BackupSchedule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#values BackupSchedule#values}
   */
   readonly values?: string[];
 }
@@ -2628,13 +2628,13 @@ export interface BackupScheduleSpecTemplateLabelSelector {
   * A map of {key,value} pairs. A single {key,value} in the map is equivalent to an element of match_expressions, whose key field is "key", the operator is "In" and the values array contains only "value".
   * The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#match_labels BackupSchedule#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#match_labels BackupSchedule#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expression block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#match_expression BackupSchedule#match_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#match_expression BackupSchedule#match_expression}
   */
   readonly matchExpression?: BackupScheduleSpecTemplateLabelSelectorMatchExpression[] | cdktf.IResolvable;
 }
@@ -2749,14 +2749,14 @@ export interface BackupScheduleSpecTemplateOrLabelSelectorMatchExpression {
   /**
   * Key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#key BackupSchedule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#key BackupSchedule#key}
   */
   readonly key: string;
   /**
   * Operator represents a key's relationship to a set of values.
   * Valid operators are "In", "NotIn", "Exists" and "DoesNotExist".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#operator BackupSchedule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#operator BackupSchedule#operator}
   */
   readonly operator: string;
   /**
@@ -2765,7 +2765,7 @@ export interface BackupScheduleSpecTemplateOrLabelSelectorMatchExpression {
   * If the operator is "Exists" or "DoesNotExist", the values array must be empty.
   * This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#values BackupSchedule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#values BackupSchedule#values}
   */
   readonly values?: string[];
 }
@@ -2936,13 +2936,13 @@ export interface BackupScheduleSpecTemplateOrLabelSelector {
   * A map of {key,value} pairs. A single {key,value} in the map is equivalent to an element of match_expressions, whose key field is "key", the operator is "In" and the values array contains only "value".
   * The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#match_labels BackupSchedule#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#match_labels BackupSchedule#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expression block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#match_expression BackupSchedule#match_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#match_expression BackupSchedule#match_expression}
   */
   readonly matchExpression?: BackupScheduleSpecTemplateOrLabelSelectorMatchExpression[] | cdktf.IResolvable;
 }
@@ -3089,7 +3089,7 @@ export interface BackupScheduleSpecTemplate {
   /**
   * The backup retention period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#backup_ttl BackupSchedule#backup_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#backup_ttl BackupSchedule#backup_ttl}
   */
   readonly backupTtl?: string;
   /**
@@ -3097,48 +3097,48 @@ export interface BackupScheduleSpecTemplate {
   * The default value is 10 minute.
   * Format is the time number and time sign, example: "50s" (50 seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#csi_snapshot_timeout BackupSchedule#csi_snapshot_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#csi_snapshot_timeout BackupSchedule#csi_snapshot_timeout}
   */
   readonly csiSnapshotTimeout?: string;
   /**
   * Specifies whether all pod volumes should be backed up via file system backup by default.
   * (Default: True)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#default_volumes_to_fs_backup BackupSchedule#default_volumes_to_fs_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#default_volumes_to_fs_backup BackupSchedule#default_volumes_to_fs_backup}
   */
   readonly defaultVolumesToFsBackup?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether restic should be used to take a backup of all pod volumes by default.
   * (Default: False)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#default_volumes_to_restic BackupSchedule#default_volumes_to_restic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#default_volumes_to_restic BackupSchedule#default_volumes_to_restic}
   */
   readonly defaultVolumesToRestic?: boolean | cdktf.IResolvable;
   /**
   * List of cluster-scoped resource type names to exclude from the backup.
   * If set to "*", all cluster-scoped resource types are excluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#excluded_cluster_scoped_resources BackupSchedule#excluded_cluster_scoped_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#excluded_cluster_scoped_resources BackupSchedule#excluded_cluster_scoped_resources}
   */
   readonly excludedClusterScopedResources?: string[];
   /**
   * List of of namespace-scoped resource type names to exclude from the backup.
   * If set to "*", all namespace-scoped resource types are excluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#excluded_namespace_scoped_resources BackupSchedule#excluded_namespace_scoped_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#excluded_namespace_scoped_resources BackupSchedule#excluded_namespace_scoped_resources}
   */
   readonly excludedNamespaceScopedResources?: string[];
   /**
   * The namespaces to be excluded in the backup.
   * Can't be used if scope is SET_NAMESPACES.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#excluded_namespaces BackupSchedule#excluded_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#excluded_namespaces BackupSchedule#excluded_namespaces}
   */
   readonly excludedNamespaces?: string[];
   /**
   * The name list for the resources to be excluded in backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#excluded_resources BackupSchedule#excluded_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#excluded_resources BackupSchedule#excluded_resources}
   */
   readonly excludedResources?: string[];
   /**
@@ -3149,7 +3149,7 @@ export interface BackupScheduleSpecTemplate {
   * For example, if a PersistentVolumeClaim is included in the backup, its associated PersistentVolume (which is cluster-scoped) would also be backed up.
   * (Default: False)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#include_cluster_resources BackupSchedule#include_cluster_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#include_cluster_resources BackupSchedule#include_cluster_resources}
   */
   readonly includeClusterResources?: boolean | cdktf.IResolvable;
   /**
@@ -3157,14 +3157,14 @@ export interface BackupScheduleSpecTemplate {
   * If set to "*", all cluster-scoped resource types are included.
   *   The default value is empty, which means only related cluster-scoped resources are included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#included_cluster_scoped_resources BackupSchedule#included_cluster_scoped_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#included_cluster_scoped_resources BackupSchedule#included_cluster_scoped_resources}
   */
   readonly includedClusterScopedResources?: string[];
   /**
   * List of of namespace-scoped resource type names to include in the backup.
   * The default value is "*".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#included_namespace_scoped_resources BackupSchedule#included_namespace_scoped_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#included_namespace_scoped_resources BackupSchedule#included_namespace_scoped_resources}
   */
   readonly includedNamespaceScopedResources?: string[];
   /**
@@ -3173,13 +3173,13 @@ export interface BackupScheduleSpecTemplate {
   * Can't be used if scope is FULL_CLUSTER.
   * Required if scope is SET_NAMESPACES.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#included_namespaces BackupSchedule#included_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#included_namespaces BackupSchedule#included_namespaces}
   */
   readonly includedNamespaces?: string[];
   /**
   * The name list for the resources to be included into backup. If empty, all resources are included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#included_resources BackupSchedule#included_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#included_resources BackupSchedule#included_resources}
   */
   readonly includedResources?: string[];
   /**
@@ -3187,13 +3187,13 @@ export interface BackupScheduleSpecTemplate {
   * Each resource name has format "namespace/resourcename".
   * For cluster resources, simply use "resourcename".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#ordered_resources BackupSchedule#ordered_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#ordered_resources BackupSchedule#ordered_resources}
   */
   readonly orderedResources?: { [key: string]: string };
   /**
   * Specifies whether snapshot data should be moved to the target location.(Default:False)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#snapshot_move_data BackupSchedule#snapshot_move_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#snapshot_move_data BackupSchedule#snapshot_move_data}
   */
   readonly snapshotMoveData?: boolean | cdktf.IResolvable;
   /**
@@ -3201,37 +3201,37 @@ export interface BackupScheduleSpecTemplate {
   * If set to true, snapshots will be taken, otherwise, snapshots will be skipped.
   * If left unset, snapshots will be attempted if volume snapshots are configured for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#snapshot_volumes BackupSchedule#snapshot_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#snapshot_volumes BackupSchedule#snapshot_volumes}
   */
   readonly snapshotVolumes?: boolean | cdktf.IResolvable;
   /**
   * The name of a BackupStorageLocation where the backup should be stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#storage_location BackupSchedule#storage_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#storage_location BackupSchedule#storage_location}
   */
   readonly storageLocation?: string;
   /**
   * A list containing names of VolumeSnapshotLocations associated with this backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#volume_snapshot_locations BackupSchedule#volume_snapshot_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#volume_snapshot_locations BackupSchedule#volume_snapshot_locations}
   */
   readonly volumeSnapshotLocations?: string[];
   /**
   * hooks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#hooks BackupSchedule#hooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#hooks BackupSchedule#hooks}
   */
   readonly hooks?: BackupScheduleSpecTemplateHooks;
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#label_selector BackupSchedule#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#label_selector BackupSchedule#label_selector}
   */
   readonly labelSelector?: BackupScheduleSpecTemplateLabelSelector;
   /**
   * or_label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#or_label_selector BackupSchedule#or_label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#or_label_selector BackupSchedule#or_label_selector}
   */
   readonly orLabelSelector?: BackupScheduleSpecTemplateOrLabelSelector[] | cdktf.IResolvable;
 }
@@ -3902,19 +3902,19 @@ export interface BackupScheduleSpec {
   /**
   * Paused specifies whether the schedule is paused or not. (Default: False)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#paused BackupSchedule#paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#paused BackupSchedule#paused}
   */
   readonly paused?: boolean | cdktf.IResolvable;
   /**
   * schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#schedule BackupSchedule#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#schedule BackupSchedule#schedule}
   */
   readonly schedule: BackupScheduleSpecSchedule;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#template BackupSchedule#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#template BackupSchedule#template}
   */
   readonly template?: BackupScheduleSpecTemplate;
 }
@@ -4053,7 +4053,7 @@ export class BackupScheduleSpecOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule tanzu-mission-control_backup_schedule}
+* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule tanzu-mission-control_backup_schedule}
 */
 export class BackupSchedule extends cdktf.TerraformResource {
 
@@ -4069,7 +4069,7 @@ export class BackupSchedule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BackupSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BackupSchedule to import
-  * @param importFromId The id of the existing BackupSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BackupSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BackupSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4081,7 +4081,7 @@ export class BackupSchedule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/backup_schedule tanzu-mission-control_backup_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/backup_schedule tanzu-mission-control_backup_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4092,8 +4092,8 @@ export class BackupSchedule extends cdktf.TerraformResource {
       terraformResourceType: 'tanzu-mission-control_backup_schedule',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9',
-        providerVersionConstraint: '1.4.9'
+        providerVersion: '1.4.10',
+        providerVersionConstraint: '1.4.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

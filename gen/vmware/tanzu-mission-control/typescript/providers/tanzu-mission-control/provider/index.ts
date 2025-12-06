@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs
+// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,59 +8,59 @@ import * as cdktf from 'cdktf';
 
 export interface TanzuMissionControlProviderConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs#ca_cert TanzuMissionControlProvider#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs#ca_cert TanzuMissionControlProvider#ca_cert}
   */
   readonly caCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs#ca_file TanzuMissionControlProvider#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs#ca_file TanzuMissionControlProvider#ca_file}
   */
   readonly caFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs#client_auth_cert TanzuMissionControlProvider#client_auth_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs#client_auth_cert TanzuMissionControlProvider#client_auth_cert}
   */
   readonly clientAuthCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs#client_auth_cert_file TanzuMissionControlProvider#client_auth_cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs#client_auth_cert_file TanzuMissionControlProvider#client_auth_cert_file}
   */
   readonly clientAuthCertFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs#client_auth_key TanzuMissionControlProvider#client_auth_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs#client_auth_key TanzuMissionControlProvider#client_auth_key}
   */
   readonly clientAuthKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs#client_auth_key_file TanzuMissionControlProvider#client_auth_key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs#client_auth_key_file TanzuMissionControlProvider#client_auth_key_file}
   */
   readonly clientAuthKeyFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs#endpoint TanzuMissionControlProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs#endpoint TanzuMissionControlProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs#insecure_allow_unverified_ssl TanzuMissionControlProvider#insecure_allow_unverified_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs#insecure_allow_unverified_ssl TanzuMissionControlProvider#insecure_allow_unverified_ssl}
   */
   readonly insecureAllowUnverifiedSsl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs#project_id TanzuMissionControlProvider#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs#project_id TanzuMissionControlProvider#project_id}
   */
   readonly projectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs#vmw_cloud_api_token TanzuMissionControlProvider#vmw_cloud_api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs#vmw_cloud_api_token TanzuMissionControlProvider#vmw_cloud_api_token}
   */
   readonly vmwCloudApiToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs#vmw_cloud_endpoint TanzuMissionControlProvider#vmw_cloud_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs#vmw_cloud_endpoint TanzuMissionControlProvider#vmw_cloud_endpoint}
   */
   readonly vmwCloudEndpoint?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs#alias TanzuMissionControlProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs#alias TanzuMissionControlProvider#alias}
   */
   readonly alias?: string;
   /**
   * self_managed block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs#self_managed TanzuMissionControlProvider#self_managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs#self_managed TanzuMissionControlProvider#self_managed}
   */
   readonly selfManaged?: TanzuMissionControlProviderSelfManaged;
 }
@@ -68,19 +68,19 @@ export interface TanzuMissionControlProviderSelfManaged {
   /**
   * URL of the OpenID Connect (OIDC) issuer configured with self-managed Taznu mission control instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs#oidc_issuer TanzuMissionControlProvider#oidc_issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs#oidc_issuer TanzuMissionControlProvider#oidc_issuer}
   */
   readonly oidcIssuer?: string;
   /**
   * Password for the above mentioned Username field configured in the OIDC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs#password TanzuMissionControlProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs#password TanzuMissionControlProvider#password}
   */
   readonly password?: string;
   /**
   * Username configured in the OIDC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs#username TanzuMissionControlProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs#username TanzuMissionControlProvider#username}
   */
   readonly username?: string;
 }
@@ -130,7 +130,7 @@ export function tanzuMissionControlProviderSelfManagedToHclTerraform(struct?: Ta
 
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs tanzu-mission-control}
+* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs tanzu-mission-control}
 */
 export class TanzuMissionControlProvider extends cdktf.TerraformProvider {
 
@@ -146,7 +146,7 @@ export class TanzuMissionControlProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a TanzuMissionControlProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TanzuMissionControlProvider to import
-  * @param importFromId The id of the existing TanzuMissionControlProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TanzuMissionControlProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TanzuMissionControlProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -158,7 +158,7 @@ export class TanzuMissionControlProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs tanzu-mission-control} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs tanzu-mission-control} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -169,8 +169,8 @@ export class TanzuMissionControlProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'tanzu-mission-control',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9',
-        providerVersionConstraint: '1.4.9'
+        providerVersion: '1.4.10',
+        providerVersionConstraint: '1.4.10'
       },
       terraformProviderSource: 'vmware/tanzu-mission-control'
     });

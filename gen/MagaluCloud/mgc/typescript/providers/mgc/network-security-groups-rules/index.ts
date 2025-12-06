@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/network_security_groups_rules
+// https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_security_groups_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface NetworkSecurityGroupsRulesConfig extends cdktf.TerraformMetaArg
   /**
   * Description of the security group rule. Example: 'Allow incoming SSH traffic'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/network_security_groups_rules#description NetworkSecurityGroupsRules#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_security_groups_rules#description NetworkSecurityGroupsRules#description}
   */
   readonly description?: string;
   /**
   * Direction of traffic flow. Allowed values: 'ingress' or 'egress'. Example: 'ingress'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/network_security_groups_rules#direction NetworkSecurityGroupsRules#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_security_groups_rules#direction NetworkSecurityGroupsRules#direction}
   */
   readonly direction: string;
   /**
   * Network protocol version. Allowed values: 'IPv4' or 'IPv6'. Example: 'IPv4'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/network_security_groups_rules#ethertype NetworkSecurityGroupsRules#ethertype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_security_groups_rules#ethertype NetworkSecurityGroupsRules#ethertype}
   */
   readonly ethertype: string;
   /**
   * Maximum port number in the range. Valid values: 1-65535. Example: 22
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/network_security_groups_rules#port_range_max NetworkSecurityGroupsRules#port_range_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_security_groups_rules#port_range_max NetworkSecurityGroupsRules#port_range_max}
   */
   readonly portRangeMax?: number;
   /**
   * Minimum port number in the range. Valid values: 1-65535. Example: 22
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/network_security_groups_rules#port_range_min NetworkSecurityGroupsRules#port_range_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_security_groups_rules#port_range_min NetworkSecurityGroupsRules#port_range_min}
   */
   readonly portRangeMin?: number;
   /**
   * IP protocol. Allowed values: tcp, udp, icmp, icmpv6. Example: 'tcp'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/network_security_groups_rules#protocol NetworkSecurityGroupsRules#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_security_groups_rules#protocol NetworkSecurityGroupsRules#protocol}
   */
   readonly protocol?: string;
   /**
   * CIDR notation of remote IPv4 and IPv6 range. Example: '192.168.1.0/24', '0.0.0.0/0', '::/0' or '2001:db8::/32'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/network_security_groups_rules#remote_ip_prefix NetworkSecurityGroupsRules#remote_ip_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_security_groups_rules#remote_ip_prefix NetworkSecurityGroupsRules#remote_ip_prefix}
   */
   readonly remoteIpPrefix?: string;
   /**
   * ID of the security group to which this rule will be added. Example: 'sg-0123456789abcdef0'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/network_security_groups_rules#security_group_id NetworkSecurityGroupsRules#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_security_groups_rules#security_group_id NetworkSecurityGroupsRules#security_group_id}
   */
   readonly securityGroupId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/network_security_groups_rules mgc_network_security_groups_rules}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_security_groups_rules mgc_network_security_groups_rules}
 */
 export class NetworkSecurityGroupsRules extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class NetworkSecurityGroupsRules extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkSecurityGroupsRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkSecurityGroupsRules to import
-  * @param importFromId The id of the existing NetworkSecurityGroupsRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/network_security_groups_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkSecurityGroupsRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_security_groups_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkSecurityGroupsRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class NetworkSecurityGroupsRules extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/network_security_groups_rules mgc_network_security_groups_rules} Resource
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_security_groups_rules mgc_network_security_groups_rules} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class NetworkSecurityGroupsRules extends cdktf.TerraformResource {
       terraformResourceType: 'mgc_network_security_groups_rules',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.40.1',
-        providerVersionConstraint: '0.40.1'
+        providerVersion: '0.40.2',
+        providerVersionConstraint: '0.40.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

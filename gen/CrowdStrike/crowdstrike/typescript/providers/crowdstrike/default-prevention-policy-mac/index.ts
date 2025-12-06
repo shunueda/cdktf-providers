@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/default_prevention_policy_mac
+// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/default_prevention_policy_mac
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,133 +10,133 @@ export interface DefaultPreventionPolicyMacConfig extends cdktf.TerraformMetaArg
   /**
   * Whether to enable the setting. Execution of a command shell was blocked and is indicative of the system hosting a Chopper web page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/default_prevention_policy_mac#chopper_webshell DefaultPreventionPolicyMac#chopper_webshell}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/default_prevention_policy_mac#chopper_webshell DefaultPreventionPolicyMac#chopper_webshell}
   */
   readonly chopperWebshell?: boolean | cdktf.IResolvable;
   /**
   * Use cloud-based machine learning informed by global analysis of executables to detect and prevent adware and potentially unwanted programs (PUP) for your online hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/default_prevention_policy_mac#cloud_adware_and_pup DefaultPreventionPolicyMac#cloud_adware_and_pup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/default_prevention_policy_mac#cloud_adware_and_pup DefaultPreventionPolicyMac#cloud_adware_and_pup}
   */
   readonly cloudAdwareAndPup?: DefaultPreventionPolicyMacCloudAdwareAndPup;
   /**
   * Use cloud-based machine learning informed by global analysis of executables to detect and prevent known malware for your online hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/default_prevention_policy_mac#cloud_anti_malware DefaultPreventionPolicyMac#cloud_anti_malware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/default_prevention_policy_mac#cloud_anti_malware DefaultPreventionPolicyMac#cloud_anti_malware}
   */
   readonly cloudAntiMalware?: DefaultPreventionPolicyMacCloudAntiMalware;
   /**
   * Whether to enable the setting. Block processes matching hashes that you add to IOC Management with the action set to "Block" or "Block, hide detection".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/default_prevention_policy_mac#custom_blocking DefaultPreventionPolicyMac#custom_blocking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/default_prevention_policy_mac#custom_blocking DefaultPreventionPolicyMac#custom_blocking}
   */
   readonly customBlocking?: boolean | cdktf.IResolvable;
   /**
   * Description of the prevention policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/default_prevention_policy_mac#description DefaultPreventionPolicyMac#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/default_prevention_policy_mac#description DefaultPreventionPolicyMac#description}
   */
   readonly description?: string;
   /**
   * Whether to enable the setting. Use machine learning to analyze suspicious files when they're written to disk. To adjust detection sensitivity, change Anti-malware Detection levels in Sensor Machine Learning and Cloud Machine Learning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/default_prevention_policy_mac#detect_on_write DefaultPreventionPolicyMac#detect_on_write}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/default_prevention_policy_mac#detect_on_write DefaultPreventionPolicyMac#detect_on_write}
   */
   readonly detectOnWrite?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. A process with behaviors indicative of the Empyre Backdoor was terminated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/default_prevention_policy_mac#empyre_backdoor DefaultPreventionPolicyMac#empyre_backdoor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/default_prevention_policy_mac#empyre_backdoor DefaultPreventionPolicyMac#empyre_backdoor}
   */
   readonly empyreBackdoor?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. An attempt to dump a user’s hashed password was blocked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/default_prevention_policy_mac#hash_collector DefaultPreventionPolicyMac#hash_collector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/default_prevention_policy_mac#hash_collector DefaultPreventionPolicyMac#hash_collector}
   */
   readonly hashCollector?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Block processes that CrowdStrike Intelligence analysts classify as malicious. These are focused on static hash-based IOCs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/default_prevention_policy_mac#intelligence_sourced_threats DefaultPreventionPolicyMac#intelligence_sourced_threats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/default_prevention_policy_mac#intelligence_sourced_threats DefaultPreventionPolicyMac#intelligence_sourced_threats}
   */
   readonly intelligenceSourcedThreats?: boolean | cdktf.IResolvable;
   /**
   * IOA Rule Group to attach to the prevention policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/default_prevention_policy_mac#ioa_rule_groups DefaultPreventionPolicyMac#ioa_rule_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/default_prevention_policy_mac#ioa_rule_groups DefaultPreventionPolicyMac#ioa_rule_groups}
   */
   readonly ioaRuleGroups: string[];
   /**
   * Whether to enable the setting. An attempt to recover a plaintext password via the kcpassword file was blocked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/default_prevention_policy_mac#kc_password_decoded DefaultPreventionPolicyMac#kc_password_decoded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/default_prevention_policy_mac#kc_password_decoded DefaultPreventionPolicyMac#kc_password_decoded}
   */
   readonly kcPasswordDecoded?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Show a pop-up notification to the end user when the Falcon sensor blocks, kills, or quarantines. See these messages in Console.app by searching for Process: Falcon Notifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/default_prevention_policy_mac#notify_end_users DefaultPreventionPolicyMac#notify_end_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/default_prevention_policy_mac#notify_end_users DefaultPreventionPolicyMac#notify_end_users}
   */
   readonly notifyEndUsers?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Block processes that CrowdStrike analysts classify as suspicious. These are focused on dynamic IOAs, such as malware, exploits and other threats.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/default_prevention_policy_mac#prevent_suspicious_processes DefaultPreventionPolicyMac#prevent_suspicious_processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/default_prevention_policy_mac#prevent_suspicious_processes DefaultPreventionPolicyMac#prevent_suspicious_processes}
   */
   readonly preventSuspiciousProcesses?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Quarantine executable files after they’re prevented by NGAV. When this is enabled, we recommend setting anti-malware prevention levels to Moderate or higher and not using other antivirus solutions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/default_prevention_policy_mac#quarantine DefaultPreventionPolicyMac#quarantine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/default_prevention_policy_mac#quarantine DefaultPreventionPolicyMac#quarantine}
   */
   readonly quarantine?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Use machine learning to quarantine suspicious files when they're written to disk. To adjust quarantine sensitivity, change Anti-malware Prevention levels in Sensor Machine Learning and Cloud Machine Learning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/default_prevention_policy_mac#quarantine_on_write DefaultPreventionPolicyMac#quarantine_on_write}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/default_prevention_policy_mac#quarantine_on_write DefaultPreventionPolicyMac#quarantine_on_write}
   */
   readonly quarantineOnWrite?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Provides visibility into suspicious scripts, including shell and other scripting languages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/default_prevention_policy_mac#script_based_execution_monitoring DefaultPreventionPolicyMac#script_based_execution_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/default_prevention_policy_mac#script_based_execution_monitoring DefaultPreventionPolicyMac#script_based_execution_monitoring}
   */
   readonly scriptBasedExecutionMonitoring?: boolean | cdktf.IResolvable;
   /**
   * For offline and online hosts, use sensor-based machine learning to identify and analyze unknown executables as they run to detect and prevent adware and potentially unwanted programs (PUP).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/default_prevention_policy_mac#sensor_adware_and_pup DefaultPreventionPolicyMac#sensor_adware_and_pup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/default_prevention_policy_mac#sensor_adware_and_pup DefaultPreventionPolicyMac#sensor_adware_and_pup}
   */
   readonly sensorAdwareAndPup?: DefaultPreventionPolicyMacSensorAdwareAndPup;
   /**
   * For offline and online hosts, use sensor-based machine learning to identify and analyze unknown executables as they run to detect and prevent malware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/default_prevention_policy_mac#sensor_anti_malware DefaultPreventionPolicyMac#sensor_anti_malware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/default_prevention_policy_mac#sensor_anti_malware DefaultPreventionPolicyMac#sensor_anti_malware}
   */
   readonly sensorAntiMalware?: DefaultPreventionPolicyMacSensorAntiMalware;
   /**
   * Whether to enable the setting. Blocks attempts to tamper with the sensor. If disabled, the sensor still creates detections for tampering attempts but doesn’t block them. Disabling not recommended.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/default_prevention_policy_mac#sensor_tampering_protection DefaultPreventionPolicyMac#sensor_tampering_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/default_prevention_policy_mac#sensor_tampering_protection DefaultPreventionPolicyMac#sensor_tampering_protection}
   */
   readonly sensorTamperingProtection?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Upload all unknown detection-related executables for advanced analysis in the cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/default_prevention_policy_mac#upload_unknown_detection_related_executables DefaultPreventionPolicyMac#upload_unknown_detection_related_executables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/default_prevention_policy_mac#upload_unknown_detection_related_executables DefaultPreventionPolicyMac#upload_unknown_detection_related_executables}
   */
   readonly uploadUnknownDetectionRelatedExecutables?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Upload all unknown executables for advanced analysis in the cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/default_prevention_policy_mac#upload_unknown_executables DefaultPreventionPolicyMac#upload_unknown_executables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/default_prevention_policy_mac#upload_unknown_executables DefaultPreventionPolicyMac#upload_unknown_executables}
   */
   readonly uploadUnknownExecutables?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. The execution of an XPCOM shell was blocked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/default_prevention_policy_mac#xpcom_shell DefaultPreventionPolicyMac#xpcom_shell}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/default_prevention_policy_mac#xpcom_shell DefaultPreventionPolicyMac#xpcom_shell}
   */
   readonly xpcomShell?: boolean | cdktf.IResolvable;
 }
@@ -144,13 +144,13 @@ export interface DefaultPreventionPolicyMacCloudAdwareAndPup {
   /**
   * Machine learning level for detection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/default_prevention_policy_mac#detection DefaultPreventionPolicyMac#detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/default_prevention_policy_mac#detection DefaultPreventionPolicyMac#detection}
   */
   readonly detection: string;
   /**
   * Machine learning level for prevention.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/default_prevention_policy_mac#prevention DefaultPreventionPolicyMac#prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/default_prevention_policy_mac#prevention DefaultPreventionPolicyMac#prevention}
   */
   readonly prevention: string;
 }
@@ -269,13 +269,13 @@ export interface DefaultPreventionPolicyMacCloudAntiMalware {
   /**
   * Machine learning level for detection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/default_prevention_policy_mac#detection DefaultPreventionPolicyMac#detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/default_prevention_policy_mac#detection DefaultPreventionPolicyMac#detection}
   */
   readonly detection: string;
   /**
   * Machine learning level for prevention.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/default_prevention_policy_mac#prevention DefaultPreventionPolicyMac#prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/default_prevention_policy_mac#prevention DefaultPreventionPolicyMac#prevention}
   */
   readonly prevention: string;
 }
@@ -394,13 +394,13 @@ export interface DefaultPreventionPolicyMacSensorAdwareAndPup {
   /**
   * Machine learning level for detection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/default_prevention_policy_mac#detection DefaultPreventionPolicyMac#detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/default_prevention_policy_mac#detection DefaultPreventionPolicyMac#detection}
   */
   readonly detection: string;
   /**
   * Machine learning level for prevention.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/default_prevention_policy_mac#prevention DefaultPreventionPolicyMac#prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/default_prevention_policy_mac#prevention DefaultPreventionPolicyMac#prevention}
   */
   readonly prevention: string;
 }
@@ -519,13 +519,13 @@ export interface DefaultPreventionPolicyMacSensorAntiMalware {
   /**
   * Machine learning level for detection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/default_prevention_policy_mac#detection DefaultPreventionPolicyMac#detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/default_prevention_policy_mac#detection DefaultPreventionPolicyMac#detection}
   */
   readonly detection: string;
   /**
   * Machine learning level for prevention.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/default_prevention_policy_mac#prevention DefaultPreventionPolicyMac#prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/default_prevention_policy_mac#prevention DefaultPreventionPolicyMac#prevention}
   */
   readonly prevention: string;
 }
@@ -642,7 +642,7 @@ export class DefaultPreventionPolicyMacSensorAntiMalwareOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/default_prevention_policy_mac crowdstrike_default_prevention_policy_mac}
+* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/default_prevention_policy_mac crowdstrike_default_prevention_policy_mac}
 */
 export class DefaultPreventionPolicyMac extends cdktf.TerraformResource {
 
@@ -658,7 +658,7 @@ export class DefaultPreventionPolicyMac extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DefaultPreventionPolicyMac resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DefaultPreventionPolicyMac to import
-  * @param importFromId The id of the existing DefaultPreventionPolicyMac that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/default_prevention_policy_mac#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DefaultPreventionPolicyMac that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/default_prevention_policy_mac#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DefaultPreventionPolicyMac to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -670,7 +670,7 @@ export class DefaultPreventionPolicyMac extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/default_prevention_policy_mac crowdstrike_default_prevention_policy_mac} Resource
+  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/default_prevention_policy_mac crowdstrike_default_prevention_policy_mac} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -681,8 +681,8 @@ export class DefaultPreventionPolicyMac extends cdktf.TerraformResource {
       terraformResourceType: 'crowdstrike_default_prevention_policy_mac',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.49',
-        providerVersionConstraint: '0.0.49'
+        providerVersion: '0.0.50',
+        providerVersionConstraint: '0.0.50'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_azure_tenant_eventhub_settings
+// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_azure_tenant_eventhub_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface CloudAzureTenantEventhubSettingsConfig extends cdktf.TerraformM
   /**
   * Eventhub settings for an Azure tenant registration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_azure_tenant_eventhub_settings#settings CloudAzureTenantEventhubSettings#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_azure_tenant_eventhub_settings#settings CloudAzureTenantEventhubSettings#settings}
   */
   readonly settings?: CloudAzureTenantEventhubSettingsSettings[] | cdktf.IResolvable;
   /**
   * The Azure Tenant ID to attach the eventhub settings to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_azure_tenant_eventhub_settings#tenant_id CloudAzureTenantEventhubSettings#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_azure_tenant_eventhub_settings#tenant_id CloudAzureTenantEventhubSettings#tenant_id}
   */
   readonly tenantId: string;
 }
@@ -24,13 +24,13 @@ export interface CloudAzureTenantEventhubSettingsSettings {
   /**
   * The Azure Event Hub consumer group name used to read events from the Event Hub.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_azure_tenant_eventhub_settings#consumer_group CloudAzureTenantEventhubSettings#consumer_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_azure_tenant_eventhub_settings#consumer_group CloudAzureTenantEventhubSettings#consumer_group}
   */
   readonly consumerGroup: string;
   /**
   * The Azure eventhub ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_azure_tenant_eventhub_settings#id CloudAzureTenantEventhubSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_azure_tenant_eventhub_settings#id CloudAzureTenantEventhubSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,7 +39,7 @@ export interface CloudAzureTenantEventhubSettingsSettings {
   /**
   * The type of eventhub.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_azure_tenant_eventhub_settings#type CloudAzureTenantEventhubSettings#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_azure_tenant_eventhub_settings#type CloudAzureTenantEventhubSettings#type}
   */
   readonly type: string;
 }
@@ -204,7 +204,7 @@ export class CloudAzureTenantEventhubSettingsSettingsList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_azure_tenant_eventhub_settings crowdstrike_cloud_azure_tenant_eventhub_settings}
+* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_azure_tenant_eventhub_settings crowdstrike_cloud_azure_tenant_eventhub_settings}
 */
 export class CloudAzureTenantEventhubSettings extends cdktf.TerraformResource {
 
@@ -220,7 +220,7 @@ export class CloudAzureTenantEventhubSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudAzureTenantEventhubSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudAzureTenantEventhubSettings to import
-  * @param importFromId The id of the existing CloudAzureTenantEventhubSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_azure_tenant_eventhub_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudAzureTenantEventhubSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_azure_tenant_eventhub_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudAzureTenantEventhubSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -232,7 +232,7 @@ export class CloudAzureTenantEventhubSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/cloud_azure_tenant_eventhub_settings crowdstrike_cloud_azure_tenant_eventhub_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_azure_tenant_eventhub_settings crowdstrike_cloud_azure_tenant_eventhub_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -243,8 +243,8 @@ export class CloudAzureTenantEventhubSettings extends cdktf.TerraformResource {
       terraformResourceType: 'crowdstrike_cloud_azure_tenant_eventhub_settings',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.49',
-        providerVersionConstraint: '0.0.49'
+        providerVersion: '0.0.50',
+        providerVersionConstraint: '0.0.50'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

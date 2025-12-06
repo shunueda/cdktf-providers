@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/vm_instance_group
+// https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/vm_instance_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface VmInstanceGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Custom variables for the VM instance group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/vm_instance_group#custom_variables VmInstanceGroup#custom_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/vm_instance_group#custom_variables VmInstanceGroup#custom_variables}
   */
   readonly customVariables?: VmInstanceGroupCustomVariables[] | cdktf.IResolvable;
   /**
   * Disk size in GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/vm_instance_group#disk_size_gbytes VmInstanceGroup#disk_size_gbytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/vm_instance_group#disk_size_gbytes VmInstanceGroup#disk_size_gbytes}
   */
   readonly diskSizeGbytes: number;
   /**
   * Infrastructure Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/vm_instance_group#infrastructure_id VmInstanceGroup#infrastructure_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/vm_instance_group#infrastructure_id VmInstanceGroup#infrastructure_id}
   */
   readonly infrastructureId: string;
   /**
   * VM Instance Group instance count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/vm_instance_group#instance_count VmInstanceGroup#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/vm_instance_group#instance_count VmInstanceGroup#instance_count}
   */
   readonly instanceCount: number;
   /**
   * VM Instance Group label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/vm_instance_group#label VmInstanceGroup#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/vm_instance_group#label VmInstanceGroup#label}
   */
   readonly label: string;
   /**
   * Network connections for the VM instance group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/vm_instance_group#network_connections VmInstanceGroup#network_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/vm_instance_group#network_connections VmInstanceGroup#network_connections}
   */
   readonly networkConnections?: VmInstanceGroupNetworkConnections[] | cdktf.IResolvable;
   /**
   * OS template Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/vm_instance_group#os_template_id VmInstanceGroup#os_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/vm_instance_group#os_template_id VmInstanceGroup#os_template_id}
   */
   readonly osTemplateId: string;
   /**
   * VM Type Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/vm_instance_group#vm_type_id VmInstanceGroup#vm_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/vm_instance_group#vm_type_id VmInstanceGroup#vm_type_id}
   */
   readonly vmTypeId: string;
 }
@@ -60,13 +60,13 @@ export interface VmInstanceGroupCustomVariables {
   /**
   * Name of the custom variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/vm_instance_group#name VmInstanceGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/vm_instance_group#name VmInstanceGroup#name}
   */
   readonly name: string;
   /**
   * Value of the custom variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/vm_instance_group#value VmInstanceGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/vm_instance_group#value VmInstanceGroup#value}
   */
   readonly value: string;
 }
@@ -207,25 +207,25 @@ export interface VmInstanceGroupNetworkConnections {
   /**
   * Access mode for the network connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/vm_instance_group#access_mode VmInstanceGroup#access_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/vm_instance_group#access_mode VmInstanceGroup#access_mode}
   */
   readonly accessMode: string;
   /**
   * Logical Network Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/vm_instance_group#logical_network_id VmInstanceGroup#logical_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/vm_instance_group#logical_network_id VmInstanceGroup#logical_network_id}
   */
   readonly logicalNetworkId: string;
   /**
   * MTU for the network connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/vm_instance_group#mtu VmInstanceGroup#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/vm_instance_group#mtu VmInstanceGroup#mtu}
   */
   readonly mtu?: number;
   /**
   * Whether the network connection is tagged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/vm_instance_group#tagged VmInstanceGroup#tagged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/vm_instance_group#tagged VmInstanceGroup#tagged}
   */
   readonly tagged: boolean | cdktf.IResolvable;
 }
@@ -419,7 +419,7 @@ export class VmInstanceGroupNetworkConnectionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/vm_instance_group metalcloud_vm_instance_group}
+* Represents a {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/vm_instance_group metalcloud_vm_instance_group}
 */
 export class VmInstanceGroup extends cdktf.TerraformResource {
 
@@ -435,7 +435,7 @@ export class VmInstanceGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VmInstanceGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VmInstanceGroup to import
-  * @param importFromId The id of the existing VmInstanceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/vm_instance_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VmInstanceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/vm_instance_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VmInstanceGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -447,7 +447,7 @@ export class VmInstanceGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/vm_instance_group metalcloud_vm_instance_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/vm_instance_group metalcloud_vm_instance_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -458,8 +458,8 @@ export class VmInstanceGroup extends cdktf.TerraformResource {
       terraformResourceType: 'metalcloud_vm_instance_group',
       terraformGeneratorMetadata: {
         providerName: 'metalcloud',
-        providerVersion: '7.0.10',
-        providerVersionConstraint: '7.0.10'
+        providerVersion: '7.1.0',
+        providerVersionConstraint: '7.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka
+// https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface SinkKafkaConfig extends cdktf.TerraformMetaArguments {
   /**
   * The cluster to maintain this sink.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#cluster_name SinkKafka#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#cluster_name SinkKafka#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * Comment on an object in the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#comment SinkKafka#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#comment SinkKafka#comment}
   */
   readonly comment?: string;
   /**
   * The type of compression to apply to messages before they are sent to Kafka.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#compression_type SinkKafka#compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#compression_type SinkKafka#compression_type}
   */
   readonly compressionType?: string;
   /**
   * The identifier for the sink database in Materialize. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#database_name SinkKafka#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#database_name SinkKafka#database_name}
   */
   readonly databaseName?: string;
   /**
   * The name of a column containing additional headers to add to each message emitted by the sink. The column must be of type map[text => text] or map[text => bytea].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#headers SinkKafka#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#headers SinkKafka#headers}
   */
   readonly headers?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#id SinkKafka#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#id SinkKafka#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,97 +47,97 @@ export interface SinkKafkaConfig extends cdktf.TerraformMetaArguments {
   /**
   * An optional list of columns to use for the Kafka key. If unspecified, the Kafka key is left unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#key SinkKafka#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#key SinkKafka#key}
   */
   readonly key?: string[];
   /**
   * Disable Materialize's validation of the key's uniqueness.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#key_not_enforced SinkKafka#key_not_enforced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#key_not_enforced SinkKafka#key_not_enforced}
   */
   readonly keyNotEnforced?: boolean | cdktf.IResolvable;
   /**
   * The identifier for the sink.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#name SinkKafka#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#name SinkKafka#name}
   */
   readonly name: string;
   /**
   * The owernship role of the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#ownership_role SinkKafka#ownership_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#ownership_role SinkKafka#ownership_role}
   */
   readonly ownershipRole?: string;
   /**
   * A SQL expression used to partition the data in the Kafka sink. Can only be used with `ENVELOPE UPSERT`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#partition_by SinkKafka#partition_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#partition_by SinkKafka#partition_by}
   */
   readonly partitionBy?: string;
   /**
   * The region to use for the resource connection. If not set, the default region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#region SinkKafka#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#region SinkKafka#region}
   */
   readonly region?: string;
   /**
   * The identifier for the sink schema in Materialize. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#schema_name SinkKafka#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#schema_name SinkKafka#schema_name}
   */
   readonly schemaName?: string;
   /**
   * Whether to emit the consolidated results of the query before the sink was created at the start of the sink.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#snapshot SinkKafka#snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#snapshot SinkKafka#snapshot}
   */
   readonly snapshot?: boolean | cdktf.IResolvable;
   /**
   * The Kafka topic you want to subscribe to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#topic SinkKafka#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#topic SinkKafka#topic}
   */
   readonly topic: string;
   /**
   * Any topic-level configs to use when creating the Kafka topic (if the Kafka topic does not already exist).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#topic_config SinkKafka#topic_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#topic_config SinkKafka#topic_config}
   */
   readonly topicConfig?: { [key: string]: string };
   /**
   * The partition count to use when creating the Kafka topic (if the Kafka topic does not already exist).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#topic_partition_count SinkKafka#topic_partition_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#topic_partition_count SinkKafka#topic_partition_count}
   */
   readonly topicPartitionCount?: number;
   /**
   * The replication factor to use when creating the Kafka topic (if the Kafka topic does not already exist).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#topic_replication_factor SinkKafka#topic_replication_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#topic_replication_factor SinkKafka#topic_replication_factor}
   */
   readonly topicReplicationFactor?: number;
   /**
   * envelope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#envelope SinkKafka#envelope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#envelope SinkKafka#envelope}
   */
   readonly envelope?: SinkKafkaEnvelope;
   /**
   * format block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#format SinkKafka#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#format SinkKafka#format}
   */
   readonly format?: SinkKafkaFormat;
   /**
   * from block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#from SinkKafka#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#from SinkKafka#from}
   */
   readonly from: SinkKafkaFrom;
   /**
   * kafka_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#kafka_connection SinkKafka#kafka_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#kafka_connection SinkKafka#kafka_connection}
   */
   readonly kafkaConnection: SinkKafkaKafkaConnection;
 }
@@ -145,13 +145,13 @@ export interface SinkKafkaEnvelope {
   /**
   * The generated schemas have a Debezium-style diff envelope to capture changes in the input view or source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#debezium SinkKafka#debezium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#debezium SinkKafka#debezium}
   */
   readonly debezium?: boolean | cdktf.IResolvable;
   /**
   * The sink emits data with upsert semantics: updates and inserts for the given key are expressed as a value, and deletes are expressed as a null value payload in Kafka.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#upsert SinkKafka#upsert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#upsert SinkKafka#upsert}
   */
   readonly upsert?: boolean | cdktf.IResolvable;
 }
@@ -266,19 +266,19 @@ export interface SinkKafkaFormatAvroAvroDocColumnObject {
   /**
   * The object database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#database_name SinkKafka#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#database_name SinkKafka#database_name}
   */
   readonly databaseName?: string;
   /**
   * The object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#name SinkKafka#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#name SinkKafka#name}
   */
   readonly name: string;
   /**
   * The object schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#schema_name SinkKafka#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#schema_name SinkKafka#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -419,31 +419,31 @@ export interface SinkKafkaFormatAvroAvroDocColumn {
   /**
   * Name of the column in the Avro schema to apply to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#column SinkKafka#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#column SinkKafka#column}
   */
   readonly column: string;
   /**
   * Documentation string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#doc SinkKafka#doc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#doc SinkKafka#doc}
   */
   readonly doc: string;
   /**
   * Applies to the key schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#key SinkKafka#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#key SinkKafka#key}
   */
   readonly key?: boolean | cdktf.IResolvable;
   /**
   * Applies to the value schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#value SinkKafka#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#value SinkKafka#value}
   */
   readonly value?: boolean | cdktf.IResolvable;
   /**
   * object block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#object SinkKafka#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#object SinkKafka#object}
   */
   readonly object: SinkKafkaFormatAvroAvroDocColumnObject;
 }
@@ -668,19 +668,19 @@ export interface SinkKafkaFormatAvroAvroDocTypeObject {
   /**
   * The object database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#database_name SinkKafka#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#database_name SinkKafka#database_name}
   */
   readonly databaseName?: string;
   /**
   * The object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#name SinkKafka#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#name SinkKafka#name}
   */
   readonly name: string;
   /**
   * The object schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#schema_name SinkKafka#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#schema_name SinkKafka#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -821,25 +821,25 @@ export interface SinkKafkaFormatAvroAvroDocType {
   /**
   * Documentation string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#doc SinkKafka#doc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#doc SinkKafka#doc}
   */
   readonly doc: string;
   /**
   * Applies to the key schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#key SinkKafka#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#key SinkKafka#key}
   */
   readonly key?: boolean | cdktf.IResolvable;
   /**
   * Applies to the value schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#value SinkKafka#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#value SinkKafka#value}
   */
   readonly value?: boolean | cdktf.IResolvable;
   /**
   * object block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#object SinkKafka#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#object SinkKafka#object}
   */
   readonly object: SinkKafkaFormatAvroAvroDocTypeObject;
 }
@@ -1006,19 +1006,19 @@ export interface SinkKafkaFormatAvroSchemaRegistryConnection {
   /**
   * The schema_registry_connection database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#database_name SinkKafka#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#database_name SinkKafka#database_name}
   */
   readonly databaseName?: string;
   /**
   * The schema_registry_connection name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#name SinkKafka#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#name SinkKafka#name}
   */
   readonly name: string;
   /**
   * The schema_registry_connection schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#schema_name SinkKafka#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#schema_name SinkKafka#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -1159,43 +1159,43 @@ export interface SinkKafkaFormatAvro {
   /**
   * The full name of the Avro key schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#avro_key_fullname SinkKafka#avro_key_fullname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#avro_key_fullname SinkKafka#avro_key_fullname}
   */
   readonly avroKeyFullname?: string;
   /**
   * The full name of the Avro value schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#avro_value_fullname SinkKafka#avro_value_fullname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#avro_value_fullname SinkKafka#avro_value_fullname}
   */
   readonly avroValueFullname?: string;
   /**
   * If specified, set the Compatibility Level for the generated key schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#key_compatibility_level SinkKafka#key_compatibility_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#key_compatibility_level SinkKafka#key_compatibility_level}
   */
   readonly keyCompatibilityLevel?: string;
   /**
   * If specified, set the Compatibility Level for the generated value schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#value_compatibility_level SinkKafka#value_compatibility_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#value_compatibility_level SinkKafka#value_compatibility_level}
   */
   readonly valueCompatibilityLevel?: string;
   /**
   * avro_doc_column block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#avro_doc_column SinkKafka#avro_doc_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#avro_doc_column SinkKafka#avro_doc_column}
   */
   readonly avroDocColumn?: SinkKafkaFormatAvroAvroDocColumn[] | cdktf.IResolvable;
   /**
   * avro_doc_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#avro_doc_type SinkKafka#avro_doc_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#avro_doc_type SinkKafka#avro_doc_type}
   */
   readonly avroDocType?: SinkKafkaFormatAvroAvroDocType;
   /**
   * schema_registry_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#schema_registry_connection SinkKafka#schema_registry_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#schema_registry_connection SinkKafka#schema_registry_connection}
   */
   readonly schemaRegistryConnection: SinkKafkaFormatAvroSchemaRegistryConnection;
 }
@@ -1452,13 +1452,13 @@ export interface SinkKafkaFormat {
   /**
   * JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#json SinkKafka#json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#json SinkKafka#json}
   */
   readonly json?: boolean | cdktf.IResolvable;
   /**
   * avro block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#avro SinkKafka#avro}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#avro SinkKafka#avro}
   */
   readonly avro?: SinkKafkaFormatAvro;
 }
@@ -1573,19 +1573,19 @@ export interface SinkKafkaFrom {
   /**
   * The from database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#database_name SinkKafka#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#database_name SinkKafka#database_name}
   */
   readonly databaseName?: string;
   /**
   * The from name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#name SinkKafka#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#name SinkKafka#name}
   */
   readonly name: string;
   /**
   * The from schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#schema_name SinkKafka#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#schema_name SinkKafka#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -1726,19 +1726,19 @@ export interface SinkKafkaKafkaConnection {
   /**
   * The kafka_connection database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#database_name SinkKafka#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#database_name SinkKafka#database_name}
   */
   readonly databaseName?: string;
   /**
   * The kafka_connection name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#name SinkKafka#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#name SinkKafka#name}
   */
   readonly name: string;
   /**
   * The kafka_connection schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#schema_name SinkKafka#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#schema_name SinkKafka#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -1877,7 +1877,7 @@ export class SinkKafkaKafkaConnectionOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka materialize_sink_kafka}
+* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka materialize_sink_kafka}
 */
 export class SinkKafka extends cdktf.TerraformResource {
 
@@ -1893,7 +1893,7 @@ export class SinkKafka extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SinkKafka resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SinkKafka to import
-  * @param importFromId The id of the existing SinkKafka that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SinkKafka that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SinkKafka to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1905,7 +1905,7 @@ export class SinkKafka extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/sink_kafka materialize_sink_kafka} Resource
+  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/sink_kafka materialize_sink_kafka} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1916,8 +1916,8 @@ export class SinkKafka extends cdktf.TerraformResource {
       terraformResourceType: 'materialize_sink_kafka',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.5',
-        providerVersionConstraint: '0.9.5'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

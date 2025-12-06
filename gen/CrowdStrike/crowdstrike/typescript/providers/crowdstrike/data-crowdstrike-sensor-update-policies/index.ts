@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/sensor_update_policies
+// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/sensor_update_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface DataCrowdstrikeSensorUpdatePoliciesConfig extends cdktf.Terrafo
   /**
   * Filter policies by the user who created them. All provided filter attributes must match for a policy to be returned (omitted attributes are ignored). Supports wildcard matching with '*' where '*' matches any sequence of characters until the end of the string or until the next literal character in the pattern is found. Multiple wildcards can be used in a single pattern. Matching is case insensitive. Cannot be used together with 'filter' or 'ids'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/sensor_update_policies#created_by DataCrowdstrikeSensorUpdatePolicies#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/sensor_update_policies#created_by DataCrowdstrikeSensorUpdatePolicies#created_by}
   */
   readonly createdBy?: string;
   /**
   * Filter policies by description. All provided filter attributes must match for a policy to be returned (omitted attributes are ignored). Supports wildcard matching with '*' where '*' matches any sequence of characters until the end of the string or until the next literal character in the pattern is found. Multiple wildcards can be used in a single pattern. Matching is case insensitive. Cannot be used together with 'filter' or 'ids'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/sensor_update_policies#description DataCrowdstrikeSensorUpdatePolicies#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/sensor_update_policies#description DataCrowdstrikeSensorUpdatePolicies#description}
   */
   readonly description?: string;
   /**
   * Filter policies by enabled status. All provided filter attributes must match for a policy to be returned (omitted attributes are ignored). Cannot be used together with 'filter' or 'ids'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/sensor_update_policies#enabled DataCrowdstrikeSensorUpdatePolicies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/sensor_update_policies#enabled DataCrowdstrikeSensorUpdatePolicies#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * FQL filter to apply to the sensor update policies query. When specified, only policies matching the filter will be returned. Cannot be used together with 'ids' or other filter attributes. Example: `platform_name:'Windows'`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/sensor_update_policies#filter DataCrowdstrikeSensorUpdatePolicies#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/sensor_update_policies#filter DataCrowdstrikeSensorUpdatePolicies#filter}
   */
   readonly filter?: string;
   /**
   * List of sensor update policy IDs to retrieve. When specified, only policies with matching IDs will be returned. Cannot be used together with 'filter' or other filter attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/sensor_update_policies#ids DataCrowdstrikeSensorUpdatePolicies#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/sensor_update_policies#ids DataCrowdstrikeSensorUpdatePolicies#ids}
   */
   readonly ids?: string[];
   /**
   * Filter policies by the user who last modified them. All provided filter attributes must match for a policy to be returned (omitted attributes are ignored). Supports wildcard matching with '*' where '*' matches any sequence of characters until the end of the string or until the next literal character in the pattern is found. Multiple wildcards can be used in a single pattern. Matching is case insensitive. Cannot be used together with 'filter' or 'ids'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/sensor_update_policies#modified_by DataCrowdstrikeSensorUpdatePolicies#modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/sensor_update_policies#modified_by DataCrowdstrikeSensorUpdatePolicies#modified_by}
   */
   readonly modifiedBy?: string;
   /**
   * Filter policies by name. All provided filter attributes must match for a policy to be returned (omitted attributes are ignored). Supports wildcard matching with '*' where '*' matches any sequence of characters until the end of the string or until the next literal character in the pattern is found. Multiple wildcards can be used in a single pattern. Matching is case insensitive. Cannot be used together with 'filter' or 'ids'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/sensor_update_policies#name DataCrowdstrikeSensorUpdatePolicies#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/sensor_update_policies#name DataCrowdstrikeSensorUpdatePolicies#name}
   */
   readonly name?: string;
   /**
   * Filter policies by platform_name (Windows, Linux, Mac). All provided filter attributes must match for a policy to be returned (omitted attributes are ignored). Cannot be used together with 'filter' or 'ids'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/sensor_update_policies#platform_name DataCrowdstrikeSensorUpdatePolicies#platform_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/sensor_update_policies#platform_name DataCrowdstrikeSensorUpdatePolicies#platform_name}
   */
   readonly platformName?: string;
   /**
   * Sort order for the results. Valid values include field names with optional '.asc' or '.desc' suffix. Example: 'name.asc', 'precedence.desc'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/sensor_update_policies#sort DataCrowdstrikeSensorUpdatePolicies#sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/sensor_update_policies#sort DataCrowdstrikeSensorUpdatePolicies#sort}
   */
   readonly sort?: string;
 }
@@ -355,7 +355,7 @@ export class DataCrowdstrikeSensorUpdatePoliciesPoliciesList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/sensor_update_policies crowdstrike_sensor_update_policies}
+* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/sensor_update_policies crowdstrike_sensor_update_policies}
 */
 export class DataCrowdstrikeSensorUpdatePolicies extends cdktf.TerraformDataSource {
 
@@ -371,7 +371,7 @@ export class DataCrowdstrikeSensorUpdatePolicies extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataCrowdstrikeSensorUpdatePolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCrowdstrikeSensorUpdatePolicies to import
-  * @param importFromId The id of the existing DataCrowdstrikeSensorUpdatePolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/sensor_update_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCrowdstrikeSensorUpdatePolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/sensor_update_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCrowdstrikeSensorUpdatePolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -383,7 +383,7 @@ export class DataCrowdstrikeSensorUpdatePolicies extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/sensor_update_policies crowdstrike_sensor_update_policies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/sensor_update_policies crowdstrike_sensor_update_policies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -394,8 +394,8 @@ export class DataCrowdstrikeSensorUpdatePolicies extends cdktf.TerraformDataSour
       terraformResourceType: 'crowdstrike_sensor_update_policies',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.49',
-        providerVersionConstraint: '0.0.49'
+        providerVersion: '0.0.50',
+        providerVersionConstraint: '0.0.50'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

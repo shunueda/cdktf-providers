@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_grant
+// https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_grant
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface SourceGrantConfig extends cdktf.TerraformMetaArguments {
   /**
   * The database that the view belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_grant#database_name SourceGrant#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_grant#database_name SourceGrant#database_name}
   */
   readonly databaseName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_grant#id SourceGrant#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_grant#id SourceGrant#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface SourceGrantConfig extends cdktf.TerraformMetaArguments {
   /**
   * The privilege to grant to the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_grant#privilege SourceGrant#privilege}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_grant#privilege SourceGrant#privilege}
   */
   readonly privilege: string;
   /**
   * The region to use for the resource connection. If not set, the default region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_grant#region SourceGrant#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_grant#region SourceGrant#region}
   */
   readonly region?: string;
   /**
   * The name of the role to grant privilege to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_grant#role_name SourceGrant#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_grant#role_name SourceGrant#role_name}
   */
   readonly roleName: string;
   /**
   * The schema that the view being to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_grant#schema_name SourceGrant#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_grant#schema_name SourceGrant#schema_name}
   */
   readonly schemaName: string;
   /**
   * The source that is being granted on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_grant#source_name SourceGrant#source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_grant#source_name SourceGrant#source_name}
   */
   readonly sourceName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_grant materialize_source_grant}
+* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_grant materialize_source_grant}
 */
 export class SourceGrant extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class SourceGrant extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SourceGrant resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SourceGrant to import
-  * @param importFromId The id of the existing SourceGrant that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_grant#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SourceGrant that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_grant#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SourceGrant to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class SourceGrant extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_grant materialize_source_grant} Resource
+  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_grant materialize_source_grant} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class SourceGrant extends cdktf.TerraformResource {
       terraformResourceType: 'materialize_source_grant',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.5',
-        providerVersionConstraint: '0.9.5'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

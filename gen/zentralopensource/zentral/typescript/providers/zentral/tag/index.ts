@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/tag
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/tag
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface TagConfig extends cdktf.TerraformMetaArguments {
   /**
   * Color of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/tag#color Tag#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/tag#color Tag#color}
   */
   readonly color?: string;
   /**
   * Name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/tag#name Tag#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/tag#name Tag#name}
   */
   readonly name: string;
   /**
   * `ID` of the tag taxonomy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/tag#taxonomy_id Tag#taxonomy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/tag#taxonomy_id Tag#taxonomy_id}
   */
   readonly taxonomyId?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/tag zentral_tag}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/tag zentral_tag}
 */
 export class Tag extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class Tag extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Tag resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Tag to import
-  * @param importFromId The id of the existing Tag that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/tag#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Tag that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/tag#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Tag to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class Tag extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/tag zentral_tag} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/tag zentral_tag} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class Tag extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_tag',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.65',
-        providerVersionConstraint: '0.1.65'
+        providerVersion: '0.1.67',
+        providerVersionConstraint: '0.1.67'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

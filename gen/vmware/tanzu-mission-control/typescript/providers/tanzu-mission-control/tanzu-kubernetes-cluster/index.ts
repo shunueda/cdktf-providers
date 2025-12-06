@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster
+// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TanzuKubernetesClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#id TanzuKubernetesCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#id TanzuKubernetesCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface TanzuKubernetesClusterConfig extends cdktf.TerraformMetaArgumen
   /**
   * Management cluster name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#management_cluster_name TanzuKubernetesCluster#management_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#management_cluster_name TanzuKubernetesCluster#management_cluster_name}
   */
   readonly managementClusterName: string;
   /**
   * Cluster name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#name TanzuKubernetesCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#name TanzuKubernetesCluster#name}
   */
   readonly name: string;
   /**
   * Cluster provisioner name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#provisioner_name TanzuKubernetesCluster#provisioner_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#provisioner_name TanzuKubernetesCluster#provisioner_name}
   */
   readonly provisionerName: string;
   /**
   * meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#meta TanzuKubernetesCluster#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#meta TanzuKubernetesCluster#meta}
   */
   readonly meta?: TanzuKubernetesClusterMeta;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#spec TanzuKubernetesCluster#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#spec TanzuKubernetesCluster#spec}
   */
   readonly spec?: TanzuKubernetesClusterSpec;
   /**
   * timeout_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#timeout_policy TanzuKubernetesCluster#timeout_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#timeout_policy TanzuKubernetesCluster#timeout_policy}
   */
   readonly timeoutPolicy?: TanzuKubernetesClusterTimeoutPolicy;
 }
@@ -55,19 +55,19 @@ export interface TanzuKubernetesClusterMeta {
   /**
   * Annotations for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#annotations TanzuKubernetesCluster#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#annotations TanzuKubernetesCluster#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#description TanzuKubernetesCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#description TanzuKubernetesCluster#description}
   */
   readonly description?: string;
   /**
   * Labels for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#labels TanzuKubernetesCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#labels TanzuKubernetesCluster#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -221,19 +221,19 @@ export interface TanzuKubernetesClusterSpecTopologyControlPlaneMeta {
   /**
   * Annotations for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#annotations TanzuKubernetesCluster#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#annotations TanzuKubernetesCluster#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#description TanzuKubernetesCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#description TanzuKubernetesCluster#description}
   */
   readonly description?: string;
   /**
   * Labels for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#labels TanzuKubernetesCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#labels TanzuKubernetesCluster#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -387,19 +387,19 @@ export interface TanzuKubernetesClusterSpecTopologyControlPlaneOsImage {
   /**
   * The architecture of the OS image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#arch TanzuKubernetesCluster#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#arch TanzuKubernetesCluster#arch}
   */
   readonly arch: string;
   /**
   * The name of the OS image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#name TanzuKubernetesCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#name TanzuKubernetesCluster#name}
   */
   readonly name: string;
   /**
   * The version of the OS image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#version TanzuKubernetesCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#version TanzuKubernetesCluster#version}
   */
   readonly version: string;
 }
@@ -534,25 +534,25 @@ export interface TanzuKubernetesClusterSpecTopologyControlPlane {
   /**
   * Overrides can be used to override cluster level variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#overrides TanzuKubernetesCluster#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#overrides TanzuKubernetesCluster#overrides}
   */
   readonly overrides?: string;
   /**
   * Number of replicas
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#replicas TanzuKubernetesCluster#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#replicas TanzuKubernetesCluster#replicas}
   */
   readonly replicas: number;
   /**
   * meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#meta TanzuKubernetesCluster#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#meta TanzuKubernetesCluster#meta}
   */
   readonly meta?: TanzuKubernetesClusterSpecTopologyControlPlaneMeta;
   /**
   * os_image block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#os_image TanzuKubernetesCluster#os_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#os_image TanzuKubernetesCluster#os_image}
   */
   readonly osImage?: TanzuKubernetesClusterSpecTopologyControlPlaneOsImage;
 }
@@ -722,13 +722,13 @@ export interface TanzuKubernetesClusterSpecTopologyCoreAddon {
   /**
   * Provider of core add on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#provider TanzuKubernetesCluster#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#provider TanzuKubernetesCluster#provider}
   */
   readonly provider: string;
   /**
   * Type of core add on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#type TanzuKubernetesCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#type TanzuKubernetesCluster#type}
   */
   readonly type: string;
 }
@@ -869,19 +869,19 @@ export interface TanzuKubernetesClusterSpecTopologyNetwork {
   /**
   * Pod CIDR for Kubernetes pods defaults to 192.168.0.0/16.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#pod_cidr_blocks TanzuKubernetesCluster#pod_cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#pod_cidr_blocks TanzuKubernetesCluster#pod_cidr_blocks}
   */
   readonly podCidrBlocks?: string[];
   /**
   * Service CIDR for kubernetes services defaults to 10.96.0.0/12.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#service_cidr_blocks TanzuKubernetesCluster#service_cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#service_cidr_blocks TanzuKubernetesCluster#service_cidr_blocks}
   */
   readonly serviceCidrBlocks?: string[];
   /**
   * Domain name for services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#service_domain TanzuKubernetesCluster#service_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#service_domain TanzuKubernetesCluster#service_domain}
   */
   readonly serviceDomain?: string;
 }
@@ -1025,13 +1025,13 @@ export interface TanzuKubernetesClusterSpecTopologyNodepoolSpecMeta {
   /**
   * Annotations for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#annotations TanzuKubernetesCluster#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#annotations TanzuKubernetesCluster#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#labels TanzuKubernetesCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#labels TanzuKubernetesCluster#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -1146,19 +1146,19 @@ export interface TanzuKubernetesClusterSpecTopologyNodepoolSpecOsImage {
   /**
   * The architecture of the OS image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#arch TanzuKubernetesCluster#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#arch TanzuKubernetesCluster#arch}
   */
   readonly arch: string;
   /**
   * The name of the OS image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#name TanzuKubernetesCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#name TanzuKubernetesCluster#name}
   */
   readonly name: string;
   /**
   * The version of the OS image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#version TanzuKubernetesCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#version TanzuKubernetesCluster#version}
   */
   readonly version: string;
 }
@@ -1293,37 +1293,37 @@ export interface TanzuKubernetesClusterSpecTopologyNodepoolSpec {
   /**
   * The failure domain the machines will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#failure_domain TanzuKubernetesCluster#failure_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#failure_domain TanzuKubernetesCluster#failure_domain}
   */
   readonly failureDomain?: string;
   /**
   * Overrides can be used to override cluster level variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#overrides TanzuKubernetesCluster#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#overrides TanzuKubernetesCluster#overrides}
   */
   readonly overrides?: string;
   /**
   * Number of replicas
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#replicas TanzuKubernetesCluster#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#replicas TanzuKubernetesCluster#replicas}
   */
   readonly replicas: number;
   /**
   * The name of the machine deployment class used to create the node pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#worker_class TanzuKubernetesCluster#worker_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#worker_class TanzuKubernetesCluster#worker_class}
   */
   readonly workerClass: string;
   /**
   * meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#meta TanzuKubernetesCluster#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#meta TanzuKubernetesCluster#meta}
   */
   readonly meta?: TanzuKubernetesClusterSpecTopologyNodepoolSpecMeta;
   /**
   * os_image block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#os_image TanzuKubernetesCluster#os_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#os_image TanzuKubernetesCluster#os_image}
   */
   readonly osImage?: TanzuKubernetesClusterSpecTopologyNodepoolSpecOsImage;
 }
@@ -1580,19 +1580,19 @@ export interface TanzuKubernetesClusterSpecTopologyNodepool {
   /**
   * Description of the node pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#description TanzuKubernetesCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#description TanzuKubernetesCluster#description}
   */
   readonly description?: string;
   /**
   * Name of the node pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#name TanzuKubernetesCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#name TanzuKubernetesCluster#name}
   */
   readonly name: string;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#spec TanzuKubernetesCluster#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#spec TanzuKubernetesCluster#spec}
   */
   readonly spec: TanzuKubernetesClusterSpecTopologyNodepoolSpec[] | cdktf.IResolvable;
 }
@@ -1762,43 +1762,43 @@ export interface TanzuKubernetesClusterSpecTopology {
   /**
   * The name of the cluster class for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#cluster_class TanzuKubernetesCluster#cluster_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#cluster_class TanzuKubernetesCluster#cluster_class}
   */
   readonly clusterClass?: string;
   /**
   * Variables configuration for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#cluster_variables TanzuKubernetesCluster#cluster_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#cluster_variables TanzuKubernetesCluster#cluster_variables}
   */
   readonly clusterVariables: string;
   /**
   * Kubernetes version of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#version TanzuKubernetesCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#version TanzuKubernetesCluster#version}
   */
   readonly version: string;
   /**
   * control_plane block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#control_plane TanzuKubernetesCluster#control_plane}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#control_plane TanzuKubernetesCluster#control_plane}
   */
   readonly controlPlane: TanzuKubernetesClusterSpecTopologyControlPlane;
   /**
   * core_addon block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#core_addon TanzuKubernetesCluster#core_addon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#core_addon TanzuKubernetesCluster#core_addon}
   */
   readonly coreAddon?: TanzuKubernetesClusterSpecTopologyCoreAddon[] | cdktf.IResolvable;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#network TanzuKubernetesCluster#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#network TanzuKubernetesCluster#network}
   */
   readonly network?: TanzuKubernetesClusterSpecTopologyNetwork;
   /**
   * nodepool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#nodepool TanzuKubernetesCluster#nodepool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#nodepool TanzuKubernetesCluster#nodepool}
   */
   readonly nodepool: TanzuKubernetesClusterSpecTopologyNodepool[] | cdktf.IResolvable;
 }
@@ -2046,25 +2046,25 @@ export interface TanzuKubernetesClusterSpec {
   /**
   * Name of the cluster group to which this cluster belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#cluster_group_name TanzuKubernetesCluster#cluster_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#cluster_group_name TanzuKubernetesCluster#cluster_group_name}
   */
   readonly clusterGroupName?: string;
   /**
   * Name of the image registry configuration to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#image_registry TanzuKubernetesCluster#image_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#image_registry TanzuKubernetesCluster#image_registry}
   */
   readonly imageRegistry?: string;
   /**
   * Name of the proxy configuration to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#proxy_name TanzuKubernetesCluster#proxy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#proxy_name TanzuKubernetesCluster#proxy_name}
   */
   readonly proxyName?: string;
   /**
   * topology block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#topology TanzuKubernetesCluster#topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#topology TanzuKubernetesCluster#topology}
   */
   readonly topology: TanzuKubernetesClusterSpecTopology;
 }
@@ -2244,19 +2244,19 @@ export interface TanzuKubernetesClusterTimeoutPolicy {
   /**
   * Fail on timeout if timeout is reached and cluster is not ready. (Default = true)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#fail_on_timeout TanzuKubernetesCluster#fail_on_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#fail_on_timeout TanzuKubernetesCluster#fail_on_timeout}
   */
   readonly failOnTimeout?: boolean | cdktf.IResolvable;
   /**
   * Timeout in minutes for tanzu kubernetes creation process. A value of 0 means that no timeout is set. (Default: 60)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#timeout TanzuKubernetesCluster#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#timeout TanzuKubernetesCluster#timeout}
   */
   readonly timeout?: number;
   /**
   * Wait for kubeconfig. (Default = true)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#wait_for_kubeconfig TanzuKubernetesCluster#wait_for_kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#wait_for_kubeconfig TanzuKubernetesCluster#wait_for_kubeconfig}
   */
   readonly waitForKubeconfig?: boolean | cdktf.IResolvable;
 }
@@ -2398,7 +2398,7 @@ export class TanzuKubernetesClusterTimeoutPolicyOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster tanzu-mission-control_tanzu_kubernetes_cluster}
+* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster tanzu-mission-control_tanzu_kubernetes_cluster}
 */
 export class TanzuKubernetesCluster extends cdktf.TerraformResource {
 
@@ -2414,7 +2414,7 @@ export class TanzuKubernetesCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TanzuKubernetesCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TanzuKubernetesCluster to import
-  * @param importFromId The id of the existing TanzuKubernetesCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TanzuKubernetesCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TanzuKubernetesCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2426,7 +2426,7 @@ export class TanzuKubernetesCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/tanzu_kubernetes_cluster tanzu-mission-control_tanzu_kubernetes_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/tanzu_kubernetes_cluster tanzu-mission-control_tanzu_kubernetes_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2437,8 +2437,8 @@ export class TanzuKubernetesCluster extends cdktf.TerraformResource {
       terraformResourceType: 'tanzu-mission-control_tanzu_kubernetes_cluster',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9',
-        providerVersionConstraint: '1.4.9'
+        providerVersion: '1.4.10',
+        providerVersionConstraint: '1.4.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

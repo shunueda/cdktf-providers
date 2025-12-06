@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/data-sources/rubric_level
+// https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/rubric_level
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataOpslevelRubricLevelConfig extends cdktf.TerraformMetaArgume
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/data-sources/rubric_level#filter DataOpslevelRubricLevel#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/rubric_level#filter DataOpslevelRubricLevel#filter}
   */
   readonly filter: DataOpslevelRubricLevelFilter;
 }
@@ -18,13 +18,13 @@ export interface DataOpslevelRubricLevelFilter {
   /**
   * The field of the target resource to filter upon. One of `alias`, `id`, `index`, `name`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/data-sources/rubric_level#field DataOpslevelRubricLevel#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/rubric_level#field DataOpslevelRubricLevel#field}
   */
   readonly field: string;
   /**
   * The field value of the target resource to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/data-sources/rubric_level#value DataOpslevelRubricLevel#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/rubric_level#value DataOpslevelRubricLevel#value}
   */
   readonly value: string;
 }
@@ -141,7 +141,7 @@ export class DataOpslevelRubricLevelFilterOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/data-sources/rubric_level opslevel_rubric_level}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/rubric_level opslevel_rubric_level}
 */
 export class DataOpslevelRubricLevel extends cdktf.TerraformDataSource {
 
@@ -157,7 +157,7 @@ export class DataOpslevelRubricLevel extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOpslevelRubricLevel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOpslevelRubricLevel to import
-  * @param importFromId The id of the existing DataOpslevelRubricLevel that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/data-sources/rubric_level#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOpslevelRubricLevel that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/rubric_level#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOpslevelRubricLevel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -169,7 +169,7 @@ export class DataOpslevelRubricLevel extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/data-sources/rubric_level opslevel_rubric_level} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/rubric_level opslevel_rubric_level} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -180,8 +180,8 @@ export class DataOpslevelRubricLevel extends cdktf.TerraformDataSource {
       terraformResourceType: 'opslevel_rubric_level',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.6.3',
-        providerVersionConstraint: '1.6.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

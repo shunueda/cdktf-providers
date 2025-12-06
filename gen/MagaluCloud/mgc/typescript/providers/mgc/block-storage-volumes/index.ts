@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/block_storage_volumes
+// https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/block_storage_volumes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface BlockStorageVolumesConfig extends cdktf.TerraformMetaArguments 
   /**
   * The availability zones where the volume is available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/block_storage_volumes#availability_zone BlockStorageVolumes#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/block_storage_volumes#availability_zone BlockStorageVolumes#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * Indicates if the volume is encrypted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/block_storage_volumes#encrypted BlockStorageVolumes#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/block_storage_volumes#encrypted BlockStorageVolumes#encrypted}
   */
   readonly encrypted?: boolean | cdktf.IResolvable;
   /**
   * The name of the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/block_storage_volumes#name BlockStorageVolumes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/block_storage_volumes#name BlockStorageVolumes#name}
   */
   readonly name: string;
   /**
   * The size of the volume in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/block_storage_volumes#size BlockStorageVolumes#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/block_storage_volumes#size BlockStorageVolumes#size}
   */
   readonly size: number;
   /**
   * Create a volume from a snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/block_storage_volumes#snapshot_id BlockStorageVolumes#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/block_storage_volumes#snapshot_id BlockStorageVolumes#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
   * The name of the volume type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/block_storage_volumes#type BlockStorageVolumes#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/block_storage_volumes#type BlockStorageVolumes#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/block_storage_volumes mgc_block_storage_volumes}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/block_storage_volumes mgc_block_storage_volumes}
 */
 export class BlockStorageVolumes extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class BlockStorageVolumes extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BlockStorageVolumes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BlockStorageVolumes to import
-  * @param importFromId The id of the existing BlockStorageVolumes that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/block_storage_volumes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BlockStorageVolumes that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/block_storage_volumes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BlockStorageVolumes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class BlockStorageVolumes extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/block_storage_volumes mgc_block_storage_volumes} Resource
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/block_storage_volumes mgc_block_storage_volumes} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class BlockStorageVolumes extends cdktf.TerraformResource {
       terraformResourceType: 'mgc_block_storage_volumes',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.40.1',
-        providerVersionConstraint: '0.40.1'
+        providerVersion: '0.40.2',
+        providerVersionConstraint: '0.40.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

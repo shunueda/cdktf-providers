@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/virtual_machine_instances
+// https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/virtual_machine_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -14,13 +14,13 @@ export interface VirtualMachineInstancesConfig extends cdktf.TerraformMetaArgume
   * Default is false.
   * This attribute can only be used when "network_interface_id" is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/virtual_machine_instances#allocate_public_ipv4 VirtualMachineInstances#allocate_public_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/virtual_machine_instances#allocate_public_ipv4 VirtualMachineInstances#allocate_public_ipv4}
   */
   readonly allocatePublicIpv4?: boolean | cdktf.IResolvable;
   /**
   * The availability zone of the virtual machine instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/virtual_machine_instances#availability_zone VirtualMachineInstances#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/virtual_machine_instances#availability_zone VirtualMachineInstances#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
@@ -30,7 +30,7 @@ export interface VirtualMachineInstancesConfig extends cdktf.TerraformMetaArgume
   * Find out more in the documentation guides.
   * This attribute can only be used when "network_interface_id" is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/virtual_machine_instances#creation_security_groups VirtualMachineInstances#creation_security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/virtual_machine_instances#creation_security_groups VirtualMachineInstances#creation_security_groups}
   */
   readonly creationSecurityGroups?: string[];
   /**
@@ -38,43 +38,43 @@ export interface VirtualMachineInstancesConfig extends cdktf.TerraformMetaArgume
   * 			 This attribute is required when not creating the instance from a snapshot (i.e., when "snapshot_id" is not set).
   * 			 If "snapshot_id" is provided, the snapshot will be used instead of an image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/virtual_machine_instances#image VirtualMachineInstances#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/virtual_machine_instances#image VirtualMachineInstances#image}
   */
   readonly image?: string;
   /**
   * The machine type name of the virtual machine instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/virtual_machine_instances#machine_type VirtualMachineInstances#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/virtual_machine_instances#machine_type VirtualMachineInstances#machine_type}
   */
   readonly machineType: string;
   /**
   * The name of the virtual machine instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/virtual_machine_instances#name VirtualMachineInstances#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/virtual_machine_instances#name VirtualMachineInstances#name}
   */
   readonly name: string;
   /**
   * The snapshot ID used to create the virtual machine instance. If set, the snapshot will be used instead of an image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/virtual_machine_instances#snapshot_id VirtualMachineInstances#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/virtual_machine_instances#snapshot_id VirtualMachineInstances#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
   * The name of the SSH key associated with the virtual machine instance. Not required for Windows instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/virtual_machine_instances#ssh_key_name VirtualMachineInstances#ssh_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/virtual_machine_instances#ssh_key_name VirtualMachineInstances#ssh_key_name}
   */
   readonly sshKeyName?: string;
   /**
   * User data for instance initialization (encoded in base64).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/virtual_machine_instances#user_data VirtualMachineInstances#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/virtual_machine_instances#user_data VirtualMachineInstances#user_data}
   */
   readonly userData?: string;
   /**
   * The VPC ID where the primary network interface will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/virtual_machine_instances#vpc_id VirtualMachineInstances#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/virtual_machine_instances#vpc_id VirtualMachineInstances#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -180,7 +180,7 @@ export class VirtualMachineInstancesNetworkInterfacesList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/virtual_machine_instances mgc_virtual_machine_instances}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/virtual_machine_instances mgc_virtual_machine_instances}
 */
 export class VirtualMachineInstances extends cdktf.TerraformResource {
 
@@ -196,7 +196,7 @@ export class VirtualMachineInstances extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualMachineInstances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualMachineInstances to import
-  * @param importFromId The id of the existing VirtualMachineInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/virtual_machine_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualMachineInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/virtual_machine_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualMachineInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -208,7 +208,7 @@ export class VirtualMachineInstances extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/virtual_machine_instances mgc_virtual_machine_instances} Resource
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/virtual_machine_instances mgc_virtual_machine_instances} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -219,8 +219,8 @@ export class VirtualMachineInstances extends cdktf.TerraformResource {
       terraformResourceType: 'mgc_virtual_machine_instances',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.40.1',
-        providerVersionConstraint: '0.40.1'
+        providerVersion: '0.40.2',
+        providerVersionConstraint: '0.40.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/management_cluster
+// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/management_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTanzuMissionControlManagementClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/management_cluster#id DataTanzuMissionControlManagementCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/management_cluster#id DataTanzuMissionControlManagementCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface DataTanzuMissionControlManagementClusterConfig extends cdktf.Te
   /**
   * Name of this management cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/management_cluster#name DataTanzuMissionControlManagementCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/management_cluster#name DataTanzuMissionControlManagementCluster#name}
   */
   readonly name: string;
   /**
   * ID of Organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/management_cluster#org_id DataTanzuMissionControlManagementCluster#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/management_cluster#org_id DataTanzuMissionControlManagementCluster#org_id}
   */
   readonly orgId?: string;
   /**
   * Wait timeout duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/management_cluster#ready_wait_timeout DataTanzuMissionControlManagementCluster#ready_wait_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/management_cluster#ready_wait_timeout DataTanzuMissionControlManagementCluster#ready_wait_timeout}
   */
   readonly readyWaitTimeout?: string;
   /**
   * meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/management_cluster#meta DataTanzuMissionControlManagementCluster#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/management_cluster#meta DataTanzuMissionControlManagementCluster#meta}
   */
   readonly meta?: DataTanzuMissionControlManagementClusterMeta;
   /**
   * register_management_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/management_cluster#register_management_cluster DataTanzuMissionControlManagementCluster#register_management_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/management_cluster#register_management_cluster DataTanzuMissionControlManagementCluster#register_management_cluster}
   */
   readonly registerManagementCluster?: DataTanzuMissionControlManagementClusterRegisterManagementCluster;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/management_cluster#spec DataTanzuMissionControlManagementCluster#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/management_cluster#spec DataTanzuMissionControlManagementCluster#spec}
   */
   readonly spec?: DataTanzuMissionControlManagementClusterSpec;
 }
@@ -55,19 +55,19 @@ export interface DataTanzuMissionControlManagementClusterMeta {
   /**
   * Annotations for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/management_cluster#annotations DataTanzuMissionControlManagementCluster#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/management_cluster#annotations DataTanzuMissionControlManagementCluster#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/management_cluster#description DataTanzuMissionControlManagementCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/management_cluster#description DataTanzuMissionControlManagementCluster#description}
   */
   readonly description?: string;
   /**
   * Labels for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/management_cluster#labels DataTanzuMissionControlManagementCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/management_cluster#labels DataTanzuMissionControlManagementCluster#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -221,19 +221,19 @@ export interface DataTanzuMissionControlManagementClusterRegisterManagementClust
   /**
   * Register management cluster description for only TKGm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/management_cluster#tkgm_description DataTanzuMissionControlManagementCluster#tkgm_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/management_cluster#tkgm_description DataTanzuMissionControlManagementCluster#tkgm_description}
   */
   readonly tkgmDescription?: string;
   /**
   * Register management cluster KUBECONFIG path for only TKGm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/management_cluster#tkgm_kubeconfig_file DataTanzuMissionControlManagementCluster#tkgm_kubeconfig_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/management_cluster#tkgm_kubeconfig_file DataTanzuMissionControlManagementCluster#tkgm_kubeconfig_file}
   */
   readonly tkgmKubeconfigFile?: string;
   /**
   * Register management cluster KUBECONFIG for only TKGm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/management_cluster#tkgm_kubeconfig_raw DataTanzuMissionControlManagementCluster#tkgm_kubeconfig_raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/management_cluster#tkgm_kubeconfig_raw DataTanzuMissionControlManagementCluster#tkgm_kubeconfig_raw}
   */
   readonly tkgmKubeconfigRaw?: string;
 }
@@ -377,37 +377,37 @@ export interface DataTanzuMissionControlManagementClusterSpec {
   /**
   * Cluster group name to be used by default for workload clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/management_cluster#cluster_group DataTanzuMissionControlManagementCluster#cluster_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/management_cluster#cluster_group DataTanzuMissionControlManagementCluster#cluster_group}
   */
   readonly clusterGroup: string;
   /**
   * Image registry which is only allowed for TKGm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/management_cluster#image_registry DataTanzuMissionControlManagementCluster#image_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/management_cluster#image_registry DataTanzuMissionControlManagementCluster#image_registry}
   */
   readonly imageRegistry?: string;
   /**
   * Kubernetes provider type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/management_cluster#kubernetes_provider_type DataTanzuMissionControlManagementCluster#kubernetes_provider_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/management_cluster#kubernetes_provider_type DataTanzuMissionControlManagementCluster#kubernetes_provider_type}
   */
   readonly kubernetesProviderType: string;
   /**
   * Managed workload cluster image registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/management_cluster#managed_workload_cluster_image_registry DataTanzuMissionControlManagementCluster#managed_workload_cluster_image_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/management_cluster#managed_workload_cluster_image_registry DataTanzuMissionControlManagementCluster#managed_workload_cluster_image_registry}
   */
   readonly managedWorkloadClusterImageRegistry?: string;
   /**
   * Managed workload cluster proxy name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/management_cluster#managed_workload_cluster_proxy_name DataTanzuMissionControlManagementCluster#managed_workload_cluster_proxy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/management_cluster#managed_workload_cluster_proxy_name DataTanzuMissionControlManagementCluster#managed_workload_cluster_proxy_name}
   */
   readonly managedWorkloadClusterProxyName?: string;
   /**
   * Management cluster proxy name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/management_cluster#management_proxy_name DataTanzuMissionControlManagementCluster#management_proxy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/management_cluster#management_proxy_name DataTanzuMissionControlManagementCluster#management_proxy_name}
   */
   readonly managementProxyName?: string;
 }
@@ -630,7 +630,7 @@ export class DataTanzuMissionControlManagementClusterSpecOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/management_cluster tanzu-mission-control_management_cluster}
+* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/management_cluster tanzu-mission-control_management_cluster}
 */
 export class DataTanzuMissionControlManagementCluster extends cdktf.TerraformDataSource {
 
@@ -646,7 +646,7 @@ export class DataTanzuMissionControlManagementCluster extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataTanzuMissionControlManagementCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTanzuMissionControlManagementCluster to import
-  * @param importFromId The id of the existing DataTanzuMissionControlManagementCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/management_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTanzuMissionControlManagementCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/management_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTanzuMissionControlManagementCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -658,7 +658,7 @@ export class DataTanzuMissionControlManagementCluster extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/management_cluster tanzu-mission-control_management_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/management_cluster tanzu-mission-control_management_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -669,8 +669,8 @@ export class DataTanzuMissionControlManagementCluster extends cdktf.TerraformDat
       terraformResourceType: 'tanzu-mission-control_management_cluster',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9',
-        providerVersionConstraint: '1.4.9'
+        providerVersion: '1.4.10',
+        providerVersionConstraint: '1.4.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

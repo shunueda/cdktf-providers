@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_webhook
+// https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_webhook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface SourceWebhookConfig extends cdktf.TerraformMetaArguments {
   /**
   * The body format of the webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_webhook#body_format SourceWebhook#body_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_webhook#body_format SourceWebhook#body_format}
   */
   readonly bodyFormat: string;
   /**
   * The check expression for the webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_webhook#check_expression SourceWebhook#check_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_webhook#check_expression SourceWebhook#check_expression}
   */
   readonly checkExpression?: string;
   /**
   * The cluster to maintain this source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_webhook#cluster_name SourceWebhook#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_webhook#cluster_name SourceWebhook#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * Comment on an object in the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_webhook#comment SourceWebhook#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_webhook#comment SourceWebhook#comment}
   */
   readonly comment?: string;
   /**
   * The identifier for the source database in Materialize. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_webhook#database_name SourceWebhook#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_webhook#database_name SourceWebhook#database_name}
   */
   readonly databaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_webhook#id SourceWebhook#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_webhook#id SourceWebhook#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,43 +47,43 @@ export interface SourceWebhookConfig extends cdktf.TerraformMetaArguments {
   /**
   * The identifier for the source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_webhook#name SourceWebhook#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_webhook#name SourceWebhook#name}
   */
   readonly name: string;
   /**
   * The owernship role of the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_webhook#ownership_role SourceWebhook#ownership_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_webhook#ownership_role SourceWebhook#ownership_role}
   */
   readonly ownershipRole?: string;
   /**
   * The region to use for the resource connection. If not set, the default region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_webhook#region SourceWebhook#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_webhook#region SourceWebhook#region}
   */
   readonly region?: string;
   /**
   * The identifier for the source schema in Materialize. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_webhook#schema_name SourceWebhook#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_webhook#schema_name SourceWebhook#schema_name}
   */
   readonly schemaName?: string;
   /**
   * check_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_webhook#check_options SourceWebhook#check_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_webhook#check_options SourceWebhook#check_options}
   */
   readonly checkOptions?: SourceWebhookCheckOptions[] | cdktf.IResolvable;
   /**
   * include_header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_webhook#include_header SourceWebhook#include_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_webhook#include_header SourceWebhook#include_header}
   */
   readonly includeHeader?: SourceWebhookIncludeHeader[] | cdktf.IResolvable;
   /**
   * include_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_webhook#include_headers SourceWebhook#include_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_webhook#include_headers SourceWebhook#include_headers}
   */
   readonly includeHeaders?: SourceWebhookIncludeHeaders;
 }
@@ -91,19 +91,19 @@ export interface SourceWebhookCheckOptionsFieldSecret {
   /**
   * The secret database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_webhook#database_name SourceWebhook#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_webhook#database_name SourceWebhook#database_name}
   */
   readonly databaseName?: string;
   /**
   * The secret name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_webhook#name SourceWebhook#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_webhook#name SourceWebhook#name}
   */
   readonly name: string;
   /**
   * The secret schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_webhook#schema_name SourceWebhook#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_webhook#schema_name SourceWebhook#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -244,19 +244,19 @@ export interface SourceWebhookCheckOptionsField {
   /**
   * The body for the check options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_webhook#body SourceWebhook#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_webhook#body SourceWebhook#body}
   */
   readonly body?: boolean | cdktf.IResolvable;
   /**
   * The headers for the check options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_webhook#headers SourceWebhook#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_webhook#headers SourceWebhook#headers}
   */
   readonly headers?: boolean | cdktf.IResolvable;
   /**
   * secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_webhook#secret SourceWebhook#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_webhook#secret SourceWebhook#secret}
   */
   readonly secret?: SourceWebhookCheckOptionsFieldSecret;
 }
@@ -400,19 +400,19 @@ export interface SourceWebhookCheckOptions {
   /**
   * The alias for the check options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_webhook#alias SourceWebhook#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_webhook#alias SourceWebhook#alias}
   */
   readonly alias?: string;
   /**
   * Change type to `bytea`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_webhook#bytes SourceWebhook#bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_webhook#bytes SourceWebhook#bytes}
   */
   readonly bytes?: boolean | cdktf.IResolvable;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_webhook#field SourceWebhook#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_webhook#field SourceWebhook#field}
   */
   readonly field: SourceWebhookCheckOptionsField;
 }
@@ -585,19 +585,19 @@ export interface SourceWebhookIncludeHeader {
   /**
   * The alias for the header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_webhook#alias SourceWebhook#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_webhook#alias SourceWebhook#alias}
   */
   readonly alias?: string;
   /**
   * Change type to `bytea`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_webhook#bytes SourceWebhook#bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_webhook#bytes SourceWebhook#bytes}
   */
   readonly bytes?: boolean | cdktf.IResolvable;
   /**
   * The name for the header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_webhook#header SourceWebhook#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_webhook#header SourceWebhook#header}
   */
   readonly header: string;
 }
@@ -770,19 +770,19 @@ export interface SourceWebhookIncludeHeaders {
   /**
   * Include all headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_webhook#all SourceWebhook#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_webhook#all SourceWebhook#all}
   */
   readonly all?: boolean | cdktf.IResolvable;
   /**
   * Headers that should be excluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_webhook#not SourceWebhook#not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_webhook#not SourceWebhook#not}
   */
   readonly not?: string[];
   /**
   * Headers that should be included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_webhook#only SourceWebhook#only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_webhook#only SourceWebhook#only}
   */
   readonly only?: string[];
 }
@@ -924,7 +924,7 @@ export class SourceWebhookIncludeHeadersOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_webhook materialize_source_webhook}
+* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_webhook materialize_source_webhook}
 */
 export class SourceWebhook extends cdktf.TerraformResource {
 
@@ -940,7 +940,7 @@ export class SourceWebhook extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SourceWebhook resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SourceWebhook to import
-  * @param importFromId The id of the existing SourceWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_webhook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SourceWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_webhook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SourceWebhook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -952,7 +952,7 @@ export class SourceWebhook extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_webhook materialize_source_webhook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_webhook materialize_source_webhook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -963,8 +963,8 @@ export class SourceWebhook extends cdktf.TerraformResource {
       terraformResourceType: 'materialize_source_webhook',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.5',
-        providerVersionConstraint: '0.9.5'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

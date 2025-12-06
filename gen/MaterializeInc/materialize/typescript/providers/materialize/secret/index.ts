@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/secret
+// https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/secret
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface SecretConfig extends cdktf.TerraformMetaArguments {
   /**
   * Comment on an object in the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/secret#comment Secret#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/secret#comment Secret#comment}
   */
   readonly comment?: string;
   /**
   * The identifier for the secret database in Materialize. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/secret#database_name Secret#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/secret#database_name Secret#database_name}
   */
   readonly databaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/secret#id Secret#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/secret#id Secret#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,49 +29,49 @@ export interface SecretConfig extends cdktf.TerraformMetaArguments {
   /**
   * The identifier for the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/secret#name Secret#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/secret#name Secret#name}
   */
   readonly name: string;
   /**
   * The owernship role of the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/secret#ownership_role Secret#ownership_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/secret#ownership_role Secret#ownership_role}
   */
   readonly ownershipRole?: string;
   /**
   * The region to use for the resource connection. If not set, the default region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/secret#region Secret#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/secret#region Secret#region}
   */
   readonly region?: string;
   /**
   * The identifier for the secret schema in Materialize. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/secret#schema_name Secret#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/secret#schema_name Secret#schema_name}
   */
   readonly schemaName?: string;
   /**
   * The value for the secret. The value expression may not reference any relations, and must be a bytea string literal. Use value_wo for write-only ephemeral values that won't be stored in state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/secret#value Secret#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/secret#value Secret#value}
   */
   readonly value?: string;
   /**
   * Write-only value for the secret that supports ephemeral values and won't be stored in Terraform state or plan. The value expression may not reference any relations, and must be a bytea string literal. Requires Terraform 1.11+. Must be used with value_wo_version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/secret#value_wo Secret#value_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/secret#value_wo Secret#value_wo}
   */
   readonly valueWo?: string;
   /**
   * Version number for the write-only value. Increment this to trigger an update of the secret value when using value_wo. Must be used with value_wo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/secret#value_wo_version Secret#value_wo_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/secret#value_wo_version Secret#value_wo_version}
   */
   readonly valueWoVersion?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/secret materialize_secret}
+* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/secret materialize_secret}
 */
 export class Secret extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class Secret extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Secret resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Secret to import
-  * @param importFromId The id of the existing Secret that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/secret#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Secret that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/secret#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Secret to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class Secret extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/secret materialize_secret} Resource
+  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/secret materialize_secret} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class Secret extends cdktf.TerraformResource {
       terraformResourceType: 'materialize_secret',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.5',
-        providerVersionConstraint: '0.9.5'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

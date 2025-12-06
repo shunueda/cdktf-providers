@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/source_dynamodb
+// https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_dynamodb
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,103 +10,103 @@ export interface SourceDynamodbConfig extends cdktf.TerraformMetaArguments {
   /**
   * Force nested lists as JSON string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/source_dynamodb#array_encoding_json SourceDynamodb#array_encoding_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_dynamodb#array_encoding_json SourceDynamodb#array_encoding_json}
   */
   readonly arrayEncodingJson?: boolean | cdktf.IResolvable;
   /**
   * AWS Access Key ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/source_dynamodb#aws_access_key_id SourceDynamodb#aws_access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_dynamodb#aws_access_key_id SourceDynamodb#aws_access_key_id}
   */
   readonly awsAccessKeyId: string;
   /**
   * AWS Region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/source_dynamodb#aws_region SourceDynamodb#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_dynamodb#aws_region SourceDynamodb#aws_region}
   */
   readonly awsRegion: string;
   /**
   * AWS Secret Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/source_dynamodb#aws_secret_key SourceDynamodb#aws_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_dynamodb#aws_secret_key SourceDynamodb#aws_secret_key}
   */
   readonly awsSecretKey: string;
   /**
   * Batch size to fetch records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/source_dynamodb#batch_size SourceDynamodb#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_dynamodb#batch_size SourceDynamodb#batch_size}
   */
   readonly batchSize?: number;
   /**
   * Dynamodb Service Endpoint (optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/source_dynamodb#dynamodb_service_endpoint SourceDynamodb#dynamodb_service_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_dynamodb#dynamodb_service_endpoint SourceDynamodb#dynamodb_service_endpoint}
   */
   readonly dynamodbServiceEndpoint?: string;
   /**
   * Full Export Expiration Time (ms)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/source_dynamodb#full_export_expiration_time_ms SourceDynamodb#full_export_expiration_time_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_dynamodb#full_export_expiration_time_ms SourceDynamodb#full_export_expiration_time_ms}
   */
   readonly fullExportExpirationTimeMs?: number;
   /**
   * Incremental snapshot chunk size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/source_dynamodb#incremental_snapshot_chunk_size SourceDynamodb#incremental_snapshot_chunk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_dynamodb#incremental_snapshot_chunk_size SourceDynamodb#incremental_snapshot_chunk_size}
   */
   readonly incrementalSnapshotChunkSize?: number;
   /**
   * Incremental snapshot max threads
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/source_dynamodb#incremental_snapshot_max_threads SourceDynamodb#incremental_snapshot_max_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_dynamodb#incremental_snapshot_max_threads SourceDynamodb#incremental_snapshot_max_threads}
   */
   readonly incrementalSnapshotMaxThreads?: number;
   /**
   * Source name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/source_dynamodb#name SourceDynamodb#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_dynamodb#name SourceDynamodb#name}
   */
   readonly name: string;
   /**
   * Poll Timeout (ms)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/source_dynamodb#poll_timeout_ms SourceDynamodb#poll_timeout_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_dynamodb#poll_timeout_ms SourceDynamodb#poll_timeout_ms}
   */
   readonly pollTimeoutMs?: number;
   /**
   * used for backfill (snapshot)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/source_dynamodb#s3_export_bucket_name SourceDynamodb#s3_export_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_dynamodb#s3_export_bucket_name SourceDynamodb#s3_export_bucket_name}
   */
   readonly s3ExportBucketName: string;
   /**
   * Signal Kafka Poll Timeout (ms)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/source_dynamodb#signal_kafka_poll_timeout_ms SourceDynamodb#signal_kafka_poll_timeout_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_dynamodb#signal_kafka_poll_timeout_ms SourceDynamodb#signal_kafka_poll_timeout_ms}
   */
   readonly signalKafkaPollTimeoutMs?: number;
   /**
   * Force nested maps as JSON string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/source_dynamodb#struct_encoding_json SourceDynamodb#struct_encoding_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_dynamodb#struct_encoding_json SourceDynamodb#struct_encoding_json}
   */
   readonly structEncodingJson?: boolean | cdktf.IResolvable;
   /**
   * Source tables to sync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/source_dynamodb#table_include_list_user_defined SourceDynamodb#table_include_list_user_defined}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_dynamodb#table_include_list_user_defined SourceDynamodb#table_include_list_user_defined}
   */
   readonly tableIncludeListUserDefined: string;
   /**
   * The maximum number of active task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/source_dynamodb#tasks_max SourceDynamodb#tasks_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_dynamodb#tasks_max SourceDynamodb#tasks_max}
   */
   readonly tasksMax?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/source_dynamodb streamkap_source_dynamodb}
+* Represents a {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_dynamodb streamkap_source_dynamodb}
 */
 export class SourceDynamodb extends cdktf.TerraformResource {
 
@@ -122,7 +122,7 @@ export class SourceDynamodb extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SourceDynamodb resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SourceDynamodb to import
-  * @param importFromId The id of the existing SourceDynamodb that should be imported. Refer to the {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/source_dynamodb#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SourceDynamodb that should be imported. Refer to the {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_dynamodb#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SourceDynamodb to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -134,7 +134,7 @@ export class SourceDynamodb extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/source_dynamodb streamkap_source_dynamodb} Resource
+  * Create a new {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/source_dynamodb streamkap_source_dynamodb} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -145,8 +145,8 @@ export class SourceDynamodb extends cdktf.TerraformResource {
       terraformResourceType: 'streamkap_source_dynamodb',
       terraformGeneratorMetadata: {
         providerName: 'streamkap',
-        providerVersion: '2.1.15',
-        providerVersionConstraint: '2.1.15'
+        providerVersion: '2.1.16',
+        providerVersionConstraint: '2.1.16'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/package_repository
+// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/package_repository
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTanzuMissionControlPackageRepositoryConfig extends cdktf.Te
   /**
   * If true, Package Repository is disabled for cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/package_repository#disabled DataTanzuMissionControlPackageRepository#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/package_repository#disabled DataTanzuMissionControlPackageRepository#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/package_repository#id DataTanzuMissionControlPackageRepository#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/package_repository#id DataTanzuMissionControlPackageRepository#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataTanzuMissionControlPackageRepositoryConfig extends cdktf.Te
   /**
   * Name of the package repository resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/package_repository#name DataTanzuMissionControlPackageRepository#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/package_repository#name DataTanzuMissionControlPackageRepository#name}
   */
   readonly name: string;
   /**
   * meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/package_repository#meta DataTanzuMissionControlPackageRepository#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/package_repository#meta DataTanzuMissionControlPackageRepository#meta}
   */
   readonly meta?: DataTanzuMissionControlPackageRepositoryMeta;
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/package_repository#scope DataTanzuMissionControlPackageRepository#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/package_repository#scope DataTanzuMissionControlPackageRepository#scope}
   */
   readonly scope: DataTanzuMissionControlPackageRepositoryScope;
 }
@@ -284,19 +284,19 @@ export interface DataTanzuMissionControlPackageRepositoryMeta {
   /**
   * Annotations for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/package_repository#annotations DataTanzuMissionControlPackageRepository#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/package_repository#annotations DataTanzuMissionControlPackageRepository#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/package_repository#description DataTanzuMissionControlPackageRepository#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/package_repository#description DataTanzuMissionControlPackageRepository#description}
   */
   readonly description?: string;
   /**
   * Labels for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/package_repository#labels DataTanzuMissionControlPackageRepository#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/package_repository#labels DataTanzuMissionControlPackageRepository#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -450,19 +450,19 @@ export interface DataTanzuMissionControlPackageRepositoryScopeCluster {
   /**
   * Name of the management cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/package_repository#management_cluster_name DataTanzuMissionControlPackageRepository#management_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/package_repository#management_cluster_name DataTanzuMissionControlPackageRepository#management_cluster_name}
   */
   readonly managementClusterName?: string;
   /**
   * Name of this cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/package_repository#name DataTanzuMissionControlPackageRepository#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/package_repository#name DataTanzuMissionControlPackageRepository#name}
   */
   readonly name: string;
   /**
   * Provisioner of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/package_repository#provisioner_name DataTanzuMissionControlPackageRepository#provisioner_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/package_repository#provisioner_name DataTanzuMissionControlPackageRepository#provisioner_name}
   */
   readonly provisionerName?: string;
 }
@@ -603,7 +603,7 @@ export interface DataTanzuMissionControlPackageRepositoryScope {
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/package_repository#cluster DataTanzuMissionControlPackageRepository#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/package_repository#cluster DataTanzuMissionControlPackageRepository#cluster}
   */
   readonly cluster?: DataTanzuMissionControlPackageRepositoryScopeCluster;
 }
@@ -687,7 +687,7 @@ export class DataTanzuMissionControlPackageRepositoryScopeOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/package_repository tanzu-mission-control_package_repository}
+* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/package_repository tanzu-mission-control_package_repository}
 */
 export class DataTanzuMissionControlPackageRepository extends cdktf.TerraformDataSource {
 
@@ -703,7 +703,7 @@ export class DataTanzuMissionControlPackageRepository extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataTanzuMissionControlPackageRepository resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTanzuMissionControlPackageRepository to import
-  * @param importFromId The id of the existing DataTanzuMissionControlPackageRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/package_repository#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTanzuMissionControlPackageRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/package_repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTanzuMissionControlPackageRepository to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -715,7 +715,7 @@ export class DataTanzuMissionControlPackageRepository extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/package_repository tanzu-mission-control_package_repository} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/package_repository tanzu-mission-control_package_repository} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -726,8 +726,8 @@ export class DataTanzuMissionControlPackageRepository extends cdktf.TerraformDat
       terraformResourceType: 'tanzu-mission-control_package_repository',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9',
-        providerVersionConstraint: '1.4.9'
+        providerVersion: '1.4.10',
+        providerVersionConstraint: '1.4.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

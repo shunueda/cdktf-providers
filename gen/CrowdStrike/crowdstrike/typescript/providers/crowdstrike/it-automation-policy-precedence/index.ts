@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/it_automation_policy_precedence
+// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/it_automation_policy_precedence
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ItAutomationPolicyPrecedenceConfig extends cdktf.TerraformMetaA
   /**
   * The enforcement type for this resource. `strict` requires all policy IDs for the platform to be specified. `dynamic` allows managing a subset of policies with precedence over unmanaged policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/it_automation_policy_precedence#enforcement ItAutomationPolicyPrecedence#enforcement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/it_automation_policy_precedence#enforcement ItAutomationPolicyPrecedence#enforcement}
   */
   readonly enforcement: string;
   /**
   * The policy IDs in order. The first ID specified will have the highest precedence and the last ID specified will have the lowest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/it_automation_policy_precedence#ids ItAutomationPolicyPrecedence#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/it_automation_policy_precedence#ids ItAutomationPolicyPrecedence#ids}
   */
   readonly ids: string[];
   /**
   * The platform of the IT automation policies (Windows, Linux, Mac).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/it_automation_policy_precedence#platform_name ItAutomationPolicyPrecedence#platform_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/it_automation_policy_precedence#platform_name ItAutomationPolicyPrecedence#platform_name}
   */
   readonly platformName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/it_automation_policy_precedence crowdstrike_it_automation_policy_precedence}
+* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/it_automation_policy_precedence crowdstrike_it_automation_policy_precedence}
 */
 export class ItAutomationPolicyPrecedence extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class ItAutomationPolicyPrecedence extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ItAutomationPolicyPrecedence resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ItAutomationPolicyPrecedence to import
-  * @param importFromId The id of the existing ItAutomationPolicyPrecedence that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/it_automation_policy_precedence#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ItAutomationPolicyPrecedence that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/it_automation_policy_precedence#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ItAutomationPolicyPrecedence to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class ItAutomationPolicyPrecedence extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/it_automation_policy_precedence crowdstrike_it_automation_policy_precedence} Resource
+  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/it_automation_policy_precedence crowdstrike_it_automation_policy_precedence} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class ItAutomationPolicyPrecedence extends cdktf.TerraformResource {
       terraformResourceType: 'crowdstrike_it_automation_policy_precedence',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.49',
-        providerVersionConstraint: '0.0.49'
+        providerVersion: '0.0.50',
+        providerVersionConstraint: '0.0.50'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

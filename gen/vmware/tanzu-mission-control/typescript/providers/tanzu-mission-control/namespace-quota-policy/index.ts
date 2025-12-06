@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy
+// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface NamespaceQuotaPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy#id NamespaceQuotaPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy#id NamespaceQuotaPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface NamespaceQuotaPolicyConfig extends cdktf.TerraformMetaArguments
   /**
   * Name of the namespace quota policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy#name NamespaceQuotaPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy#name NamespaceQuotaPolicy#name}
   */
   readonly name: string;
   /**
   * meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy#meta NamespaceQuotaPolicy#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy#meta NamespaceQuotaPolicy#meta}
   */
   readonly meta?: NamespaceQuotaPolicyMeta;
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy#scope NamespaceQuotaPolicy#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy#scope NamespaceQuotaPolicy#scope}
   */
   readonly scope: NamespaceQuotaPolicyScope;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy#spec NamespaceQuotaPolicy#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy#spec NamespaceQuotaPolicy#spec}
   */
   readonly spec: NamespaceQuotaPolicySpec;
 }
@@ -43,19 +43,19 @@ export interface NamespaceQuotaPolicyMeta {
   /**
   * Annotations for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy#annotations NamespaceQuotaPolicy#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy#annotations NamespaceQuotaPolicy#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy#description NamespaceQuotaPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy#description NamespaceQuotaPolicy#description}
   */
   readonly description?: string;
   /**
   * Labels for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy#labels NamespaceQuotaPolicy#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy#labels NamespaceQuotaPolicy#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -209,19 +209,19 @@ export interface NamespaceQuotaPolicyScopeCluster {
   /**
   * Name of the management cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy#management_cluster_name NamespaceQuotaPolicy#management_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy#management_cluster_name NamespaceQuotaPolicy#management_cluster_name}
   */
   readonly managementClusterName?: string;
   /**
   * Name of this cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy#name NamespaceQuotaPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy#name NamespaceQuotaPolicy#name}
   */
   readonly name: string;
   /**
   * Provisioner of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy#provisioner_name NamespaceQuotaPolicy#provisioner_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy#provisioner_name NamespaceQuotaPolicy#provisioner_name}
   */
   readonly provisionerName?: string;
 }
@@ -362,7 +362,7 @@ export interface NamespaceQuotaPolicyScopeClusterGroup {
   /**
   * Name of this cluster group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy#cluster_group NamespaceQuotaPolicy#cluster_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy#cluster_group NamespaceQuotaPolicy#cluster_group}
   */
   readonly clusterGroup: string;
 }
@@ -445,7 +445,7 @@ export interface NamespaceQuotaPolicyScopeOrganization {
   /**
   * ID of this organization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy#organization NamespaceQuotaPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy#organization NamespaceQuotaPolicy#organization}
   */
   readonly organization: string;
 }
@@ -528,7 +528,7 @@ export interface NamespaceQuotaPolicyScopeWorkspace {
   /**
   * Name of this workspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy#workspace NamespaceQuotaPolicy#workspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy#workspace NamespaceQuotaPolicy#workspace}
   */
   readonly workspace: string;
 }
@@ -611,25 +611,25 @@ export interface NamespaceQuotaPolicyScope {
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy#cluster NamespaceQuotaPolicy#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy#cluster NamespaceQuotaPolicy#cluster}
   */
   readonly cluster?: NamespaceQuotaPolicyScopeCluster;
   /**
   * cluster_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy#cluster_group NamespaceQuotaPolicy#cluster_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy#cluster_group NamespaceQuotaPolicy#cluster_group}
   */
   readonly clusterGroup?: NamespaceQuotaPolicyScopeClusterGroup;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy#organization NamespaceQuotaPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy#organization NamespaceQuotaPolicy#organization}
   */
   readonly organization?: NamespaceQuotaPolicyScopeOrganization;
   /**
   * workspace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy#workspace NamespaceQuotaPolicy#workspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy#workspace NamespaceQuotaPolicy#workspace}
   */
   readonly workspace?: NamespaceQuotaPolicyScopeWorkspace;
 }
@@ -802,55 +802,55 @@ export interface NamespaceQuotaPolicySpecInputCustom {
   /**
   * The sum of CPU limits across all pods in a non-terminal state cannot exceed this value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy#limits_cpu NamespaceQuotaPolicy#limits_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy#limits_cpu NamespaceQuotaPolicy#limits_cpu}
   */
   readonly limitsCpu?: string;
   /**
   * The sum of memory limits across all pods in a non-terminal state cannot exceed this value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy#limits_memory NamespaceQuotaPolicy#limits_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy#limits_memory NamespaceQuotaPolicy#limits_memory}
   */
   readonly limitsMemory?: string;
   /**
   * The total number of PersistentVolumeClaims that can exist in a namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy#persistent_volume_claims NamespaceQuotaPolicy#persistent_volume_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy#persistent_volume_claims NamespaceQuotaPolicy#persistent_volume_claims}
   */
   readonly persistentVolumeClaims?: number;
   /**
   * Across all persistent volume claims associated with each storage class, the total number of persistent volume claims that can exist in the namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy#persistent_volume_claims_per_class NamespaceQuotaPolicy#persistent_volume_claims_per_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy#persistent_volume_claims_per_class NamespaceQuotaPolicy#persistent_volume_claims_per_class}
   */
   readonly persistentVolumeClaimsPerClass?: { [key: string]: number };
   /**
   * The sum of CPU requests across all pods in a non-terminal state cannot exceed this value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy#requests_cpu NamespaceQuotaPolicy#requests_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy#requests_cpu NamespaceQuotaPolicy#requests_cpu}
   */
   readonly requestsCpu?: string;
   /**
   * The sum of memory requests across all pods in a non-terminal state cannot exceed this value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy#requests_memory NamespaceQuotaPolicy#requests_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy#requests_memory NamespaceQuotaPolicy#requests_memory}
   */
   readonly requestsMemory?: string;
   /**
   * The sum of storage requests across all persistent volume claims cannot exceed this value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy#requests_storage NamespaceQuotaPolicy#requests_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy#requests_storage NamespaceQuotaPolicy#requests_storage}
   */
   readonly requestsStorage?: string;
   /**
   * Across all persistent volume claims associated with each storage class, the sum of storage requests cannot exceed this value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy#requests_storage_per_class NamespaceQuotaPolicy#requests_storage_per_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy#requests_storage_per_class NamespaceQuotaPolicy#requests_storage_per_class}
   */
   readonly requestsStoragePerClass?: { [key: string]: string };
   /**
   * The total number of Services of the given type that can exist in a namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy#resource_counts NamespaceQuotaPolicy#resource_counts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy#resource_counts NamespaceQuotaPolicy#resource_counts}
   */
   readonly resourceCounts?: { [key: string]: number };
 }
@@ -1315,25 +1315,25 @@ export interface NamespaceQuotaPolicySpecInput {
   /**
   * custom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy#custom NamespaceQuotaPolicy#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy#custom NamespaceQuotaPolicy#custom}
   */
   readonly custom?: NamespaceQuotaPolicySpecInputCustom;
   /**
   * large block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy#large NamespaceQuotaPolicy#large}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy#large NamespaceQuotaPolicy#large}
   */
   readonly large?: NamespaceQuotaPolicySpecInputLarge;
   /**
   * medium block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy#medium NamespaceQuotaPolicy#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy#medium NamespaceQuotaPolicy#medium}
   */
   readonly medium?: NamespaceQuotaPolicySpecInputMedium;
   /**
   * small block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy#small NamespaceQuotaPolicy#small}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy#small NamespaceQuotaPolicy#small}
   */
   readonly small?: NamespaceQuotaPolicySpecInputSmall;
 }
@@ -1506,19 +1506,19 @@ export interface NamespaceQuotaPolicySpecNamespaceSelectorMatchExpressions {
   /**
   * Key is the label key that the selector applies to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy#key NamespaceQuotaPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy#key NamespaceQuotaPolicy#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to a set of values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy#operator NamespaceQuotaPolicy#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy#operator NamespaceQuotaPolicy#operator}
   */
   readonly operator?: string;
   /**
   * Values is an array of string values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy#values NamespaceQuotaPolicy#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy#values NamespaceQuotaPolicy#values}
   */
   readonly values: string[];
 }
@@ -1691,7 +1691,7 @@ export interface NamespaceQuotaPolicySpecNamespaceSelector {
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy#match_expressions NamespaceQuotaPolicy#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy#match_expressions NamespaceQuotaPolicy#match_expressions}
   */
   readonly matchExpressions: NamespaceQuotaPolicySpecNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -1774,13 +1774,13 @@ export interface NamespaceQuotaPolicySpec {
   /**
   * input block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy#input NamespaceQuotaPolicy#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy#input NamespaceQuotaPolicy#input}
   */
   readonly input: NamespaceQuotaPolicySpecInput;
   /**
   * namespace_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy#namespace_selector NamespaceQuotaPolicy#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy#namespace_selector NamespaceQuotaPolicy#namespace_selector}
   */
   readonly namespaceSelector?: NamespaceQuotaPolicySpecNamespaceSelector;
 }
@@ -1890,7 +1890,7 @@ export class NamespaceQuotaPolicySpecOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy tanzu-mission-control_namespace_quota_policy}
+* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy tanzu-mission-control_namespace_quota_policy}
 */
 export class NamespaceQuotaPolicy extends cdktf.TerraformResource {
 
@@ -1906,7 +1906,7 @@ export class NamespaceQuotaPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NamespaceQuotaPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NamespaceQuotaPolicy to import
-  * @param importFromId The id of the existing NamespaceQuotaPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NamespaceQuotaPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NamespaceQuotaPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1918,7 +1918,7 @@ export class NamespaceQuotaPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/namespace_quota_policy tanzu-mission-control_namespace_quota_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/namespace_quota_policy tanzu-mission-control_namespace_quota_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1929,8 +1929,8 @@ export class NamespaceQuotaPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'tanzu-mission-control_namespace_quota_policy',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9',
-        providerVersionConstraint: '1.4.9'
+        providerVersion: '1.4.10',
+        providerVersionConstraint: '1.4.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

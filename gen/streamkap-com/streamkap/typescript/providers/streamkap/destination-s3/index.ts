@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_s3
+// https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_s3
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface DestinationS3Config extends cdktf.TerraformMetaArguments {
   /**
   * The AWS Access Key ID used to connect to S3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_s3#aws_access_key DestinationS3#aws_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_s3#aws_access_key DestinationS3#aws_access_key}
   */
   readonly awsAccessKey: string;
   /**
   * The AWS region to be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_s3#aws_region DestinationS3#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_s3#aws_region DestinationS3#aws_region}
   */
   readonly awsRegion?: string;
   /**
   * The AWS Secret Access Key used to connect to S3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_s3#aws_secret_key DestinationS3#aws_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_s3#aws_secret_key DestinationS3#aws_secret_key}
   */
   readonly awsSecretKey: string;
   /**
   * The S3 Bucket to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_s3#bucket_name DestinationS3#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_s3#bucket_name DestinationS3#bucket_name}
   */
   readonly bucketName: string;
   /**
   * Compression type for files written to S3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_s3#compression_type DestinationS3#compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_s3#compression_type DestinationS3#compression_type}
   */
   readonly compressionType?: string;
   /**
   * Prefix for the filename. Prefixes can be used to specify a directory for the file (e.g. dir1/dir2/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_s3#filename_prefix DestinationS3#filename_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_s3#filename_prefix DestinationS3#filename_prefix}
   */
   readonly filenamePrefix?: string;
   /**
   * The format of the filename. See documentation for more information about formatting options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_s3#filename_template DestinationS3#filename_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_s3#filename_template DestinationS3#filename_template}
   */
   readonly filenameTemplate?: string;
   /**
   * The format to use when writing data to the store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_s3#format DestinationS3#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_s3#format DestinationS3#format}
   */
   readonly format?: string;
   /**
   * Destination name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_s3#name DestinationS3#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_s3#name DestinationS3#name}
   */
   readonly name: string;
   /**
   * A comma separated list of fields to include in output? Options to include key, offset, timestamp, value, headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_s3#output_fields DestinationS3#output_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_s3#output_fields DestinationS3#output_fields}
   */
   readonly outputFields?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_s3 streamkap_destination_s3}
+* Represents a {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_s3 streamkap_destination_s3}
 */
 export class DestinationS3 extends cdktf.TerraformResource {
 
@@ -86,7 +86,7 @@ export class DestinationS3 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DestinationS3 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DestinationS3 to import
-  * @param importFromId The id of the existing DestinationS3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_s3#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DestinationS3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_s3#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DestinationS3 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class DestinationS3 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_s3 streamkap_destination_s3} Resource
+  * Create a new {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_s3 streamkap_destination_s3} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class DestinationS3 extends cdktf.TerraformResource {
       terraformResourceType: 'streamkap_destination_s3',
       terraformGeneratorMetadata: {
         providerName: 'streamkap',
-        providerVersion: '2.1.15',
-        providerVersionConstraint: '2.1.15'
+        providerVersion: '2.1.16',
+        providerVersionConstraint: '2.1.16'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

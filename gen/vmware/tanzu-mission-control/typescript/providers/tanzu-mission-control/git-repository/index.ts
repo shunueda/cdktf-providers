@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/git_repository
+// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/git_repository
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface GitRepositoryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/git_repository#id GitRepository#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/git_repository#id GitRepository#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface GitRepositoryConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the Repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/git_repository#name GitRepository#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/git_repository#name GitRepository#name}
   */
   readonly name: string;
   /**
   * Name of Namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/git_repository#namespace_name GitRepository#namespace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/git_repository#namespace_name GitRepository#namespace_name}
   */
   readonly namespaceName: string;
   /**
   * meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/git_repository#meta GitRepository#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/git_repository#meta GitRepository#meta}
   */
   readonly meta?: GitRepositoryMeta;
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/git_repository#scope GitRepository#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/git_repository#scope GitRepository#scope}
   */
   readonly scope: GitRepositoryScope;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/git_repository#spec GitRepository#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/git_repository#spec GitRepository#spec}
   */
   readonly spec: GitRepositorySpec;
 }
@@ -49,19 +49,19 @@ export interface GitRepositoryMeta {
   /**
   * Annotations for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/git_repository#annotations GitRepository#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/git_repository#annotations GitRepository#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/git_repository#description GitRepository#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/git_repository#description GitRepository#description}
   */
   readonly description?: string;
   /**
   * Labels for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/git_repository#labels GitRepository#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/git_repository#labels GitRepository#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -215,19 +215,19 @@ export interface GitRepositoryScopeCluster {
   /**
   * Name of the management cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/git_repository#management_cluster_name GitRepository#management_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/git_repository#management_cluster_name GitRepository#management_cluster_name}
   */
   readonly managementClusterName?: string;
   /**
   * Name of this cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/git_repository#name GitRepository#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/git_repository#name GitRepository#name}
   */
   readonly name: string;
   /**
   * Provisioner of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/git_repository#provisioner_name GitRepository#provisioner_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/git_repository#provisioner_name GitRepository#provisioner_name}
   */
   readonly provisionerName?: string;
 }
@@ -368,7 +368,7 @@ export interface GitRepositoryScopeClusterGroup {
   /**
   * Name of the cluster group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/git_repository#name GitRepository#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/git_repository#name GitRepository#name}
   */
   readonly name: string;
 }
@@ -451,13 +451,13 @@ export interface GitRepositoryScope {
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/git_repository#cluster GitRepository#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/git_repository#cluster GitRepository#cluster}
   */
   readonly cluster?: GitRepositoryScopeCluster;
   /**
   * cluster_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/git_repository#cluster_group GitRepository#cluster_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/git_repository#cluster_group GitRepository#cluster_group}
   */
   readonly clusterGroup?: GitRepositoryScopeClusterGroup;
 }
@@ -572,25 +572,25 @@ export interface GitRepositorySpecRef {
   /**
   * Branch from git to checkout. When branch is given, then that branch from the git repository will be checked out. If the given branch doesn’t exist in the git repository, then adding the git repository will fail. If no branch is given, the `master` branch will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/git_repository#branch GitRepository#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/git_repository#branch GitRepository#branch}
   */
   readonly branch?: string;
   /**
   * Commit SHA to checkout. Takes precedence over all other reference fields. When git_implementation is `GO_GIT`, this can be combined with branch to shallow clone branch in which the commit is expected to exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/git_repository#commit GitRepository#commit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/git_repository#commit GitRepository#commit}
   */
   readonly commit?: string;
   /**
   * SemVer expression to checkout from git tags. Takes precedence over tag. When semver is given, then the latest tag matching that semver will be checked out from the git repository. If no tag in the git repository matches semver, then adding the git repository will fail. If semver is given, tag and branch will be ignored if they are populated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/git_repository#semver GitRepository#semver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/git_repository#semver GitRepository#semver}
   */
   readonly semver?: string;
   /**
   * Tag from git to checkout. Takes precedence over branch. When a tag is given, that tag from the git repository will be checked out. If the given tag doesn’t exist in the git repository, then adding the git repository will fail. If both tag and branch are given, tag overrides branch and the branch value will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/git_repository#tag GitRepository#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/git_repository#tag GitRepository#tag}
   */
   readonly tag?: string;
 }
@@ -763,31 +763,31 @@ export interface GitRepositorySpec {
   /**
   * GitImplementation specifies which client library implementation to use. go-git is the default git implementation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/git_repository#git_implementation GitRepository#git_implementation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/git_repository#git_implementation GitRepository#git_implementation}
   */
   readonly gitImplementation?: string;
   /**
   * Interval at which to check gitrepository for updates. This is the interval at which Tanzu Mission Control will attempt to reconcile changes in the repository to the cluster. A sync interval of 0 would result in no future syncs. If no value is entered, a default interval of 5 minutes will be applied as `5m`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/git_repository#interval GitRepository#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/git_repository#interval GitRepository#interval}
   */
   readonly interval?: string;
   /**
   * Reference to the secret. Repository credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/git_repository#secret_ref GitRepository#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/git_repository#secret_ref GitRepository#secret_ref}
   */
   readonly secretRef?: string;
   /**
   * URL of the git repository. Repository URL should begin with http, https, or ssh
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/git_repository#url GitRepository#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/git_repository#url GitRepository#url}
   */
   readonly url: string;
   /**
   * ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/git_repository#ref GitRepository#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/git_repository#ref GitRepository#ref}
   */
   readonly ref?: GitRepositorySpecRef;
 }
@@ -984,7 +984,7 @@ export class GitRepositorySpecOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/git_repository tanzu-mission-control_git_repository}
+* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/git_repository tanzu-mission-control_git_repository}
 */
 export class GitRepository extends cdktf.TerraformResource {
 
@@ -1000,7 +1000,7 @@ export class GitRepository extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GitRepository resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GitRepository to import
-  * @param importFromId The id of the existing GitRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/git_repository#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GitRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/git_repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GitRepository to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1012,7 +1012,7 @@ export class GitRepository extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/git_repository tanzu-mission-control_git_repository} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/git_repository tanzu-mission-control_git_repository} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1023,8 +1023,8 @@ export class GitRepository extends cdktf.TerraformResource {
       terraformResourceType: 'tanzu-mission-control_git_repository',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9',
-        providerVersionConstraint: '1.4.9'
+        providerVersion: '1.4.10',
+        providerVersionConstraint: '1.4.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

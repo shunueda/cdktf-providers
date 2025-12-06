@@ -2,11 +2,13 @@
 export * as destinationClickhouse from './destination-clickhouse';
 export * as destinationDatabricks from './destination-databricks';
 export * as destinationIceberg from './destination-iceberg';
+export * as destinationKafka from './destination-kafka';
 export * as destinationPostgresql from './destination-postgresql';
 export * as destinationS3 from './destination-s3';
 export * as destinationSnowflake from './destination-snowflake';
 export * as pipeline from './pipeline';
 export * as sourceDynamodb from './source-dynamodb';
+export * as sourceKafkadirect from './source-kafkadirect';
 export * as sourceMongodb from './source-mongodb';
 export * as sourceMysql from './source-mysql';
 export * as sourcePostgresql from './source-postgresql';

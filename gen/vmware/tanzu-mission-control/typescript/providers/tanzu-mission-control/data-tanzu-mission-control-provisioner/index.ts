@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/provisioner
+// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/provisioner
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTanzuMissionControlProvisionerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/provisioner#id DataTanzuMissionControlProvisioner#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/provisioner#id DataTanzuMissionControlProvisioner#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataTanzuMissionControlProvisionerConfig extends cdktf.Terrafor
   /**
   * provisioners block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/provisioner#provisioners DataTanzuMissionControlProvisioner#provisioners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/provisioner#provisioners DataTanzuMissionControlProvisioner#provisioners}
   */
   readonly provisioners?: DataTanzuMissionControlProvisionerProvisioners[] | cdktf.IResolvable;
 }
@@ -25,19 +25,19 @@ export interface DataTanzuMissionControlProvisionerProvisionersMeta {
   /**
   * Annotations for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/provisioner#annotations DataTanzuMissionControlProvisioner#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/provisioner#annotations DataTanzuMissionControlProvisioner#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/provisioner#description DataTanzuMissionControlProvisioner#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/provisioner#description DataTanzuMissionControlProvisioner#description}
   */
   readonly description?: string;
   /**
   * Labels for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/provisioner#labels DataTanzuMissionControlProvisioner#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/provisioner#labels DataTanzuMissionControlProvisioner#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -191,25 +191,25 @@ export interface DataTanzuMissionControlProvisionerProvisioners {
   /**
   * Name of the management cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/provisioner#management_cluster DataTanzuMissionControlProvisioner#management_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/provisioner#management_cluster DataTanzuMissionControlProvisioner#management_cluster}
   */
   readonly managementCluster: string;
   /**
   * Name of the provisioner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/provisioner#name DataTanzuMissionControlProvisioner#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/provisioner#name DataTanzuMissionControlProvisioner#name}
   */
   readonly name?: string;
   /**
   * ID of the organization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/provisioner#org_id DataTanzuMissionControlProvisioner#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/provisioner#org_id DataTanzuMissionControlProvisioner#org_id}
   */
   readonly orgId?: string;
   /**
   * meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/provisioner#meta DataTanzuMissionControlProvisioner#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/provisioner#meta DataTanzuMissionControlProvisioner#meta}
   */
   readonly meta?: DataTanzuMissionControlProvisionerProvisionersMeta;
 }
@@ -409,7 +409,7 @@ export class DataTanzuMissionControlProvisionerProvisionersList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/provisioner tanzu-mission-control_provisioner}
+* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/provisioner tanzu-mission-control_provisioner}
 */
 export class DataTanzuMissionControlProvisioner extends cdktf.TerraformDataSource {
 
@@ -425,7 +425,7 @@ export class DataTanzuMissionControlProvisioner extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataTanzuMissionControlProvisioner resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTanzuMissionControlProvisioner to import
-  * @param importFromId The id of the existing DataTanzuMissionControlProvisioner that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/provisioner#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTanzuMissionControlProvisioner that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/provisioner#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTanzuMissionControlProvisioner to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -437,7 +437,7 @@ export class DataTanzuMissionControlProvisioner extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/provisioner tanzu-mission-control_provisioner} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/provisioner tanzu-mission-control_provisioner} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -448,8 +448,8 @@ export class DataTanzuMissionControlProvisioner extends cdktf.TerraformDataSourc
       terraformResourceType: 'tanzu-mission-control_provisioner',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9',
-        providerVersionConstraint: '1.4.9'
+        providerVersion: '1.4.10',
+        providerVersionConstraint: '1.4.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

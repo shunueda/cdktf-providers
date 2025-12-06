@@ -1,3 +1,3 @@
 # `data_zentral_osquery_query`
 
-Refer to the Terraform Registry for docs: [`data_zentral_osquery_query`](https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/data-sources/osquery_query).
+Refer to the Terraform Registry for docs: [`data_zentral_osquery_query`](https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/data-sources/osquery_query).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/namespace
+// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/namespace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface DataTanzuMissionControlNamespaceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/namespace#cluster_name DataTanzuMissionControlNamespace#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/namespace#cluster_name DataTanzuMissionControlNamespace#cluster_name}
   */
   readonly clusterName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/namespace#id DataTanzuMissionControlNamespace#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/namespace#id DataTanzuMissionControlNamespace#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/namespace#management_cluster_name DataTanzuMissionControlNamespace#management_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/namespace#management_cluster_name DataTanzuMissionControlNamespace#management_cluster_name}
   */
   readonly managementClusterName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/namespace#name DataTanzuMissionControlNamespace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/namespace#name DataTanzuMissionControlNamespace#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/namespace#provisioner_name DataTanzuMissionControlNamespace#provisioner_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/namespace#provisioner_name DataTanzuMissionControlNamespace#provisioner_name}
   */
   readonly provisionerName?: string;
   /**
   * meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/namespace#meta DataTanzuMissionControlNamespace#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/namespace#meta DataTanzuMissionControlNamespace#meta}
   */
   readonly meta?: DataTanzuMissionControlNamespaceMeta;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/namespace#spec DataTanzuMissionControlNamespace#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/namespace#spec DataTanzuMissionControlNamespace#spec}
   */
   readonly spec?: DataTanzuMissionControlNamespaceSpec;
 }
@@ -47,19 +47,19 @@ export interface DataTanzuMissionControlNamespaceMeta {
   /**
   * Annotations for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/namespace#annotations DataTanzuMissionControlNamespace#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/namespace#annotations DataTanzuMissionControlNamespace#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/namespace#description DataTanzuMissionControlNamespace#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/namespace#description DataTanzuMissionControlNamespace#description}
   */
   readonly description?: string;
   /**
   * Labels for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/namespace#labels DataTanzuMissionControlNamespace#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/namespace#labels DataTanzuMissionControlNamespace#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -211,11 +211,11 @@ export class DataTanzuMissionControlNamespaceMetaOutputReference extends cdktf.C
 }
 export interface DataTanzuMissionControlNamespaceSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/namespace#attach DataTanzuMissionControlNamespace#attach}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/namespace#attach DataTanzuMissionControlNamespace#attach}
   */
   readonly attach?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/namespace#workspace_name DataTanzuMissionControlNamespace#workspace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/namespace#workspace_name DataTanzuMissionControlNamespace#workspace_name}
   */
   readonly workspaceName?: string;
 }
@@ -328,7 +328,7 @@ export class DataTanzuMissionControlNamespaceSpecOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/namespace tanzu-mission-control_namespace}
+* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/namespace tanzu-mission-control_namespace}
 */
 export class DataTanzuMissionControlNamespace extends cdktf.TerraformDataSource {
 
@@ -344,7 +344,7 @@ export class DataTanzuMissionControlNamespace extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataTanzuMissionControlNamespace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTanzuMissionControlNamespace to import
-  * @param importFromId The id of the existing DataTanzuMissionControlNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/namespace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTanzuMissionControlNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/namespace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTanzuMissionControlNamespace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -356,7 +356,7 @@ export class DataTanzuMissionControlNamespace extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/namespace tanzu-mission-control_namespace} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/namespace tanzu-mission-control_namespace} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -367,8 +367,8 @@ export class DataTanzuMissionControlNamespace extends cdktf.TerraformDataSource 
       terraformResourceType: 'tanzu-mission-control_namespace',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9',
-        providerVersionConstraint: '1.4.9'
+        providerVersion: '1.4.10',
+        providerVersionConstraint: '1.4.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/infrastructure_deployer
+// https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/infrastructure_deployer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface InfrastructureDeployerConfig extends cdktf.TerraformMetaArgumen
   /**
   * Allow data loss
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/infrastructure_deployer#allow_data_loss InfrastructureDeployer#allow_data_loss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/infrastructure_deployer#allow_data_loss InfrastructureDeployer#allow_data_loss}
   */
   readonly allowDataLoss?: boolean | cdktf.IResolvable;
   /**
   * Await deploy finish
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/infrastructure_deployer#await_deploy_finish InfrastructureDeployer#await_deploy_finish}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/infrastructure_deployer#await_deploy_finish InfrastructureDeployer#await_deploy_finish}
   */
   readonly awaitDeployFinish?: boolean | cdktf.IResolvable;
   /**
   * Infrastructure Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/infrastructure_deployer#infrastructure_id InfrastructureDeployer#infrastructure_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/infrastructure_deployer#infrastructure_id InfrastructureDeployer#infrastructure_id}
   */
   readonly infrastructureId: string;
   /**
   * Prevent infrastructure deploy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/infrastructure_deployer#prevent_deploy InfrastructureDeployer#prevent_deploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/infrastructure_deployer#prevent_deploy InfrastructureDeployer#prevent_deploy}
   */
   readonly preventDeploy?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/infrastructure_deployer metalcloud_infrastructure_deployer}
+* Represents a {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/infrastructure_deployer metalcloud_infrastructure_deployer}
 */
 export class InfrastructureDeployer extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class InfrastructureDeployer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InfrastructureDeployer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InfrastructureDeployer to import
-  * @param importFromId The id of the existing InfrastructureDeployer that should be imported. Refer to the {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/infrastructure_deployer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InfrastructureDeployer that should be imported. Refer to the {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/infrastructure_deployer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InfrastructureDeployer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class InfrastructureDeployer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/infrastructure_deployer metalcloud_infrastructure_deployer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/infrastructure_deployer metalcloud_infrastructure_deployer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class InfrastructureDeployer extends cdktf.TerraformResource {
       terraformResourceType: 'metalcloud_infrastructure_deployer',
       terraformGeneratorMetadata: {
         providerName: 'metalcloud',
-        providerVersion: '7.0.10',
-        providerVersionConstraint: '7.0.10'
+        providerVersion: '7.1.0',
+        providerVersionConstraint: '7.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

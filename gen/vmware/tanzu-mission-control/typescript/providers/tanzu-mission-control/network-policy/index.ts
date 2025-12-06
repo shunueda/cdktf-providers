@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy
+// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface NetworkPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#id NetworkPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#id NetworkPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface NetworkPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the network policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#name NetworkPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#name NetworkPolicy#name}
   */
   readonly name: string;
   /**
   * meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#meta NetworkPolicy#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#meta NetworkPolicy#meta}
   */
   readonly meta?: NetworkPolicyMeta;
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#scope NetworkPolicy#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#scope NetworkPolicy#scope}
   */
   readonly scope: NetworkPolicyScope;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#spec NetworkPolicy#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#spec NetworkPolicy#spec}
   */
   readonly spec: NetworkPolicySpec;
 }
@@ -43,19 +43,19 @@ export interface NetworkPolicyMeta {
   /**
   * Annotations for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#annotations NetworkPolicy#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#annotations NetworkPolicy#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#description NetworkPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#description NetworkPolicy#description}
   */
   readonly description?: string;
   /**
   * Labels for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#labels NetworkPolicy#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#labels NetworkPolicy#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -209,19 +209,19 @@ export interface NetworkPolicyScopeCluster {
   /**
   * Name of the management cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#management_cluster_name NetworkPolicy#management_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#management_cluster_name NetworkPolicy#management_cluster_name}
   */
   readonly managementClusterName?: string;
   /**
   * Name of this cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#name NetworkPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#name NetworkPolicy#name}
   */
   readonly name: string;
   /**
   * Provisioner of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#provisioner_name NetworkPolicy#provisioner_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#provisioner_name NetworkPolicy#provisioner_name}
   */
   readonly provisionerName?: string;
 }
@@ -362,7 +362,7 @@ export interface NetworkPolicyScopeClusterGroup {
   /**
   * Name of this cluster group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#cluster_group NetworkPolicy#cluster_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#cluster_group NetworkPolicy#cluster_group}
   */
   readonly clusterGroup: string;
 }
@@ -445,7 +445,7 @@ export interface NetworkPolicyScopeOrganization {
   /**
   * ID of this organization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#organization NetworkPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#organization NetworkPolicy#organization}
   */
   readonly organization: string;
 }
@@ -528,7 +528,7 @@ export interface NetworkPolicyScopeWorkspace {
   /**
   * Name of this workspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#workspace NetworkPolicy#workspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#workspace NetworkPolicy#workspace}
   */
   readonly workspace: string;
 }
@@ -611,25 +611,25 @@ export interface NetworkPolicyScope {
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#cluster NetworkPolicy#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#cluster NetworkPolicy#cluster}
   */
   readonly cluster?: NetworkPolicyScopeCluster;
   /**
   * cluster_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#cluster_group NetworkPolicy#cluster_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#cluster_group NetworkPolicy#cluster_group}
   */
   readonly clusterGroup?: NetworkPolicyScopeClusterGroup;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#organization NetworkPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#organization NetworkPolicy#organization}
   */
   readonly organization?: NetworkPolicyScopeOrganization;
   /**
   * workspace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#workspace NetworkPolicy#workspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#workspace NetworkPolicy#workspace}
   */
   readonly workspace?: NetworkPolicyScopeWorkspace;
 }
@@ -802,7 +802,7 @@ export interface NetworkPolicySpecInputAllowAll {
   /**
   * Allow traffic only from own namespace. Allow traffic only from pods in the same namespace as the destination pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#from_own_namespace NetworkPolicy#from_own_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#from_own_namespace NetworkPolicy#from_own_namespace}
   */
   readonly fromOwnNamespace?: boolean | cdktf.IResolvable;
 }
@@ -937,13 +937,13 @@ export interface NetworkPolicySpecInputAllowAllToPods {
   /**
   * Allow traffic only from own namespace. Allow traffic only from pods in the same namespace as the destination pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#from_own_namespace NetworkPolicy#from_own_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#from_own_namespace NetworkPolicy#from_own_namespace}
   */
   readonly fromOwnNamespace?: boolean | cdktf.IResolvable;
   /**
   * Pod Labels on which traffic should be allowed/denied. Use a label selector to identify the pods to which the policy applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#to_pod_labels NetworkPolicy#to_pod_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#to_pod_labels NetworkPolicy#to_pod_labels}
   */
   readonly toPodLabels?: { [key: string]: string };
 }
@@ -1058,13 +1058,13 @@ export interface NetworkPolicySpecInputCustomEgressRulesPorts {
   /**
   * The port on the given protocol. This can either be a numerical or named port on a pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#port NetworkPolicy#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#port NetworkPolicy#port}
   */
   readonly port?: string;
   /**
   * The protocol (TCP or UDP) which traffic must match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#protocol NetworkPolicy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#protocol NetworkPolicy#protocol}
   */
   readonly protocol?: string;
 }
@@ -1211,13 +1211,13 @@ export interface NetworkPolicySpecInputCustomEgressRulesRuleSpecCustomIpIpBlock 
   /**
   * CIDR is a string representing the IP Block Valid examples are "192.168.1.1/24" or "2001:db9::/64"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#cidr NetworkPolicy#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#cidr NetworkPolicy#cidr}
   */
   readonly cidr: string;
   /**
   * Except is a slice of CIDRs that should not be included within an IP Block Valid examples are "192.168.1.1/24" or "2001:db9::/64" Except values will be rejected if they are outside the CIDR range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#except NetworkPolicy#except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#except NetworkPolicy#except}
   */
   readonly except?: string[];
 }
@@ -1361,7 +1361,7 @@ export interface NetworkPolicySpecInputCustomEgressRulesRuleSpecCustomIp {
   /**
   * ip_block block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#ip_block NetworkPolicy#ip_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#ip_block NetworkPolicy#ip_block}
   */
   readonly ipBlock?: NetworkPolicySpecInputCustomEgressRulesRuleSpecCustomIpIpBlock[] | cdktf.IResolvable;
 }
@@ -1479,13 +1479,13 @@ export interface NetworkPolicySpecInputCustomEgressRulesRuleSpecCustomSelector {
   /**
   * Use a label selector to identify the namespaces to allow as egress destinations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#namespace_selector NetworkPolicy#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#namespace_selector NetworkPolicy#namespace_selector}
   */
   readonly namespaceSelector?: { [key: string]: string };
   /**
   * Use a label selector to identify the pods to allow as egress destinations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#pod_selector NetworkPolicy#pod_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#pod_selector NetworkPolicy#pod_selector}
   */
   readonly podSelector?: { [key: string]: string };
 }
@@ -1632,13 +1632,13 @@ export interface NetworkPolicySpecInputCustomEgressRulesRuleSpec {
   /**
   * custom_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#custom_ip NetworkPolicy#custom_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#custom_ip NetworkPolicy#custom_ip}
   */
   readonly customIp?: NetworkPolicySpecInputCustomEgressRulesRuleSpecCustomIp[] | cdktf.IResolvable;
   /**
   * custom_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#custom_selector NetworkPolicy#custom_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#custom_selector NetworkPolicy#custom_selector}
   */
   readonly customSelector?: NetworkPolicySpecInputCustomEgressRulesRuleSpecCustomSelector[] | cdktf.IResolvable;
 }
@@ -1785,13 +1785,13 @@ export interface NetworkPolicySpecInputCustomEgressRules {
   /**
   * ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#ports NetworkPolicy#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#ports NetworkPolicy#ports}
   */
   readonly ports: NetworkPolicySpecInputCustomEgressRulesPorts[] | cdktf.IResolvable;
   /**
   * rule_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#rule_spec NetworkPolicy#rule_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#rule_spec NetworkPolicy#rule_spec}
   */
   readonly ruleSpec: NetworkPolicySpecInputCustomEgressRulesRuleSpec[] | cdktf.IResolvable;
 }
@@ -1932,13 +1932,13 @@ export interface NetworkPolicySpecInputCustomEgress {
   /**
   * Pod Labels on which traffic should be allowed/denied. Use a label selector to identify the pods to which the policy applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#to_pod_labels NetworkPolicy#to_pod_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#to_pod_labels NetworkPolicy#to_pod_labels}
   */
   readonly toPodLabels?: { [key: string]: string };
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#rules NetworkPolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#rules NetworkPolicy#rules}
   */
   readonly rules: NetworkPolicySpecInputCustomEgressRules[] | cdktf.IResolvable;
 }
@@ -2050,13 +2050,13 @@ export interface NetworkPolicySpecInputCustomIngressRulesPorts {
   /**
   * The port on the given protocol. This can either be a numerical or named port on a pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#port NetworkPolicy#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#port NetworkPolicy#port}
   */
   readonly port?: string;
   /**
   * The protocol (TCP or UDP) which traffic must match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#protocol NetworkPolicy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#protocol NetworkPolicy#protocol}
   */
   readonly protocol?: string;
 }
@@ -2203,13 +2203,13 @@ export interface NetworkPolicySpecInputCustomIngressRulesRuleSpecCustomIpIpBlock
   /**
   * CIDR is a string representing the IP Block Valid examples are "192.168.1.1/24" or "2001:db9::/64"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#cidr NetworkPolicy#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#cidr NetworkPolicy#cidr}
   */
   readonly cidr: string;
   /**
   * Except is a slice of CIDRs that should not be included within an IP Block Valid examples are "192.168.1.1/24" or "2001:db9::/64" Except values will be rejected if they are outside the CIDR range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#except NetworkPolicy#except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#except NetworkPolicy#except}
   */
   readonly except?: string[];
 }
@@ -2353,7 +2353,7 @@ export interface NetworkPolicySpecInputCustomIngressRulesRuleSpecCustomIp {
   /**
   * ip_block block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#ip_block NetworkPolicy#ip_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#ip_block NetworkPolicy#ip_block}
   */
   readonly ipBlock?: NetworkPolicySpecInputCustomIngressRulesRuleSpecCustomIpIpBlock[] | cdktf.IResolvable;
 }
@@ -2471,13 +2471,13 @@ export interface NetworkPolicySpecInputCustomIngressRulesRuleSpecCustomSelector 
   /**
   * Use a label selector to identify the namespaces to allow as egress destinations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#namespace_selector NetworkPolicy#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#namespace_selector NetworkPolicy#namespace_selector}
   */
   readonly namespaceSelector?: { [key: string]: string };
   /**
   * Use a label selector to identify the pods to allow as egress destinations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#pod_selector NetworkPolicy#pod_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#pod_selector NetworkPolicy#pod_selector}
   */
   readonly podSelector?: { [key: string]: string };
 }
@@ -2624,13 +2624,13 @@ export interface NetworkPolicySpecInputCustomIngressRulesRuleSpec {
   /**
   * custom_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#custom_ip NetworkPolicy#custom_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#custom_ip NetworkPolicy#custom_ip}
   */
   readonly customIp?: NetworkPolicySpecInputCustomIngressRulesRuleSpecCustomIp[] | cdktf.IResolvable;
   /**
   * custom_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#custom_selector NetworkPolicy#custom_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#custom_selector NetworkPolicy#custom_selector}
   */
   readonly customSelector?: NetworkPolicySpecInputCustomIngressRulesRuleSpecCustomSelector[] | cdktf.IResolvable;
 }
@@ -2777,13 +2777,13 @@ export interface NetworkPolicySpecInputCustomIngressRules {
   /**
   * ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#ports NetworkPolicy#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#ports NetworkPolicy#ports}
   */
   readonly ports: NetworkPolicySpecInputCustomIngressRulesPorts[] | cdktf.IResolvable;
   /**
   * rule_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#rule_spec NetworkPolicy#rule_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#rule_spec NetworkPolicy#rule_spec}
   */
   readonly ruleSpec: NetworkPolicySpecInputCustomIngressRulesRuleSpec[] | cdktf.IResolvable;
 }
@@ -2924,13 +2924,13 @@ export interface NetworkPolicySpecInputCustomIngress {
   /**
   * Pod Labels on which traffic should be allowed/denied. Use a label selector to identify the pods to which the policy applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#to_pod_labels NetworkPolicy#to_pod_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#to_pod_labels NetworkPolicy#to_pod_labels}
   */
   readonly toPodLabels?: { [key: string]: string };
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#rules NetworkPolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#rules NetworkPolicy#rules}
   */
   readonly rules: NetworkPolicySpecInputCustomIngressRules[] | cdktf.IResolvable;
 }
@@ -3140,7 +3140,7 @@ export interface NetworkPolicySpecInputDenyAllToPods {
   /**
   * Pod Labels on which traffic should be allowed/denied. Use a label selector to identify the pods to which the policy applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#to_pod_labels NetworkPolicy#to_pod_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#to_pod_labels NetworkPolicy#to_pod_labels}
   */
   readonly toPodLabels?: { [key: string]: string };
 }
@@ -3226,49 +3226,49 @@ export interface NetworkPolicySpecInput {
   /**
   * allow_all block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#allow_all NetworkPolicy#allow_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#allow_all NetworkPolicy#allow_all}
   */
   readonly allowAll?: NetworkPolicySpecInputAllowAll;
   /**
   * allow_all_egress block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#allow_all_egress NetworkPolicy#allow_all_egress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#allow_all_egress NetworkPolicy#allow_all_egress}
   */
   readonly allowAllEgress?: NetworkPolicySpecInputAllowAllEgress;
   /**
   * allow_all_to_pods block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#allow_all_to_pods NetworkPolicy#allow_all_to_pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#allow_all_to_pods NetworkPolicy#allow_all_to_pods}
   */
   readonly allowAllToPods?: NetworkPolicySpecInputAllowAllToPods;
   /**
   * custom_egress block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#custom_egress NetworkPolicy#custom_egress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#custom_egress NetworkPolicy#custom_egress}
   */
   readonly customEgress?: NetworkPolicySpecInputCustomEgress;
   /**
   * custom_ingress block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#custom_ingress NetworkPolicy#custom_ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#custom_ingress NetworkPolicy#custom_ingress}
   */
   readonly customIngress?: NetworkPolicySpecInputCustomIngress;
   /**
   * deny_all block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#deny_all NetworkPolicy#deny_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#deny_all NetworkPolicy#deny_all}
   */
   readonly denyAll?: NetworkPolicySpecInputDenyAll;
   /**
   * deny_all_egress block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#deny_all_egress NetworkPolicy#deny_all_egress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#deny_all_egress NetworkPolicy#deny_all_egress}
   */
   readonly denyAllEgress?: NetworkPolicySpecInputDenyAllEgress;
   /**
   * deny_all_to_pods block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#deny_all_to_pods NetworkPolicy#deny_all_to_pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#deny_all_to_pods NetworkPolicy#deny_all_to_pods}
   */
   readonly denyAllToPods?: NetworkPolicySpecInputDenyAllToPods;
 }
@@ -3557,19 +3557,19 @@ export interface NetworkPolicySpecNamespaceSelectorMatchExpressions {
   /**
   * Key is the label key that the selector applies to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#key NetworkPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#key NetworkPolicy#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to a set of values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#operator NetworkPolicy#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#operator NetworkPolicy#operator}
   */
   readonly operator?: string;
   /**
   * Values is an array of string values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#values NetworkPolicy#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#values NetworkPolicy#values}
   */
   readonly values: string[];
 }
@@ -3742,7 +3742,7 @@ export interface NetworkPolicySpecNamespaceSelector {
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#match_expressions NetworkPolicy#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#match_expressions NetworkPolicy#match_expressions}
   */
   readonly matchExpressions: NetworkPolicySpecNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -3825,13 +3825,13 @@ export interface NetworkPolicySpec {
   /**
   * input block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#input NetworkPolicy#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#input NetworkPolicy#input}
   */
   readonly input: NetworkPolicySpecInput;
   /**
   * namespace_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#namespace_selector NetworkPolicy#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#namespace_selector NetworkPolicy#namespace_selector}
   */
   readonly namespaceSelector?: NetworkPolicySpecNamespaceSelector;
 }
@@ -3941,7 +3941,7 @@ export class NetworkPolicySpecOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy tanzu-mission-control_network_policy}
+* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy tanzu-mission-control_network_policy}
 */
 export class NetworkPolicy extends cdktf.TerraformResource {
 
@@ -3957,7 +3957,7 @@ export class NetworkPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkPolicy to import
-  * @param importFromId The id of the existing NetworkPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3969,7 +3969,7 @@ export class NetworkPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/network_policy tanzu-mission-control_network_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/network_policy tanzu-mission-control_network_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3980,8 +3980,8 @@ export class NetworkPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'tanzu-mission-control_network_policy',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9',
-        providerVersionConstraint: '1.4.9'
+        providerVersion: '1.4.10',
+        providerVersionConstraint: '1.4.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

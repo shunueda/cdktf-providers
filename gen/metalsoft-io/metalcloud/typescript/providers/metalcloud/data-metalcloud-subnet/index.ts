@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/data-sources/subnet
+// https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/data-sources/subnet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataMetalcloudSubnetConfig extends cdktf.TerraformMetaArguments
   /**
   * Subnet label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/data-sources/subnet#label DataMetalcloudSubnet#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/data-sources/subnet#label DataMetalcloudSubnet#label}
   */
   readonly label: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/data-sources/subnet metalcloud_subnet}
+* Represents a {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/data-sources/subnet metalcloud_subnet}
 */
 export class DataMetalcloudSubnet extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataMetalcloudSubnet extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMetalcloudSubnet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMetalcloudSubnet to import
-  * @param importFromId The id of the existing DataMetalcloudSubnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/data-sources/subnet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMetalcloudSubnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/data-sources/subnet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMetalcloudSubnet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataMetalcloudSubnet extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/data-sources/subnet metalcloud_subnet} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/data-sources/subnet metalcloud_subnet} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataMetalcloudSubnet extends cdktf.TerraformDataSource {
       terraformResourceType: 'metalcloud_subnet',
       terraformGeneratorMetadata: {
         providerName: 'metalcloud',
-        providerVersion: '7.0.10',
-        providerVersionConstraint: '7.0.10'
+        providerVersion: '7.1.0',
+        providerVersionConstraint: '7.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

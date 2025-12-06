@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/data-sources/mdm_acme_issuer
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/data-sources/mdm_acme_issuer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataZentralMdmAcmeIssuerConfig extends cdktf.TerraformMetaArgum
   /**
   * `ID` of the MDM ACME issuer (UUID).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/data-sources/mdm_acme_issuer#id DataZentralMdmAcmeIssuer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/data-sources/mdm_acme_issuer#id DataZentralMdmAcmeIssuer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataZentralMdmAcmeIssuerConfig extends cdktf.TerraformMetaArgum
   /**
   * Name of the ACME issuer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/data-sources/mdm_acme_issuer#name DataZentralMdmAcmeIssuer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/data-sources/mdm_acme_issuer#name DataZentralMdmAcmeIssuer#name}
   */
   readonly name?: string;
 }
@@ -276,7 +276,7 @@ export class DataZentralMdmAcmeIssuerStaticChallengeOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/data-sources/mdm_acme_issuer zentral_mdm_acme_issuer}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/data-sources/mdm_acme_issuer zentral_mdm_acme_issuer}
 */
 export class DataZentralMdmAcmeIssuer extends cdktf.TerraformDataSource {
 
@@ -292,7 +292,7 @@ export class DataZentralMdmAcmeIssuer extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZentralMdmAcmeIssuer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZentralMdmAcmeIssuer to import
-  * @param importFromId The id of the existing DataZentralMdmAcmeIssuer that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/data-sources/mdm_acme_issuer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZentralMdmAcmeIssuer that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/data-sources/mdm_acme_issuer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZentralMdmAcmeIssuer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -304,7 +304,7 @@ export class DataZentralMdmAcmeIssuer extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/data-sources/mdm_acme_issuer zentral_mdm_acme_issuer} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/data-sources/mdm_acme_issuer zentral_mdm_acme_issuer} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -315,8 +315,8 @@ export class DataZentralMdmAcmeIssuer extends cdktf.TerraformDataSource {
       terraformResourceType: 'zentral_mdm_acme_issuer',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.65',
-        providerVersionConstraint: '0.1.65'
+        providerVersion: '0.1.67',
+        providerVersionConstraint: '0.1.67'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

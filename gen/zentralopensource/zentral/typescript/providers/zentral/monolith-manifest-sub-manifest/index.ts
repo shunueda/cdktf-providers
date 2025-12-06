@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_manifest_sub_manifest
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_manifest_sub_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface MonolithManifestSubManifestConfig extends cdktf.TerraformMetaAr
   /**
   * ID of the manifest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_manifest_sub_manifest#manifest_id MonolithManifestSubManifest#manifest_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_manifest_sub_manifest#manifest_id MonolithManifestSubManifest#manifest_id}
   */
   readonly manifestId: number;
   /**
   * ID of the sub manifest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_manifest_sub_manifest#sub_manifest_id MonolithManifestSubManifest#sub_manifest_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_manifest_sub_manifest#sub_manifest_id MonolithManifestSubManifest#sub_manifest_id}
   */
   readonly subManifestId: number;
   /**
   * The `ID`s of the tags used to scope the sub manifest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_manifest_sub_manifest#tag_ids MonolithManifestSubManifest#tag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_manifest_sub_manifest#tag_ids MonolithManifestSubManifest#tag_ids}
   */
   readonly tagIds?: number[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_manifest_sub_manifest zentral_monolith_manifest_sub_manifest}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_manifest_sub_manifest zentral_monolith_manifest_sub_manifest}
 */
 export class MonolithManifestSubManifest extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class MonolithManifestSubManifest extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MonolithManifestSubManifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MonolithManifestSubManifest to import
-  * @param importFromId The id of the existing MonolithManifestSubManifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_manifest_sub_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MonolithManifestSubManifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_manifest_sub_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MonolithManifestSubManifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class MonolithManifestSubManifest extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_manifest_sub_manifest zentral_monolith_manifest_sub_manifest} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_manifest_sub_manifest zentral_monolith_manifest_sub_manifest} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class MonolithManifestSubManifest extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_monolith_manifest_sub_manifest',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.65',
-        providerVersionConstraint: '0.1.65'
+        providerVersion: '0.1.67',
+        providerVersionConstraint: '0.1.67'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

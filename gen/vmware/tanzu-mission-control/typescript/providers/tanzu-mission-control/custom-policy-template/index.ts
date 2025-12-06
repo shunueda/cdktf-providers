@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy_template
+// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface CustomPolicyTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy_template#id CustomPolicyTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy_template#id CustomPolicyTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface CustomPolicyTemplateConfig extends cdktf.TerraformMetaArguments
   /**
   * The name of the custom policy template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy_template#name CustomPolicyTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy_template#name CustomPolicyTemplate#name}
   */
   readonly name: string;
   /**
   * meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy_template#meta CustomPolicyTemplate#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy_template#meta CustomPolicyTemplate#meta}
   */
   readonly meta?: CustomPolicyTemplateMeta;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy_template#spec CustomPolicyTemplate#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy_template#spec CustomPolicyTemplate#spec}
   */
   readonly spec: CustomPolicyTemplateSpec;
 }
@@ -37,19 +37,19 @@ export interface CustomPolicyTemplateMeta {
   /**
   * Annotations for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy_template#annotations CustomPolicyTemplate#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy_template#annotations CustomPolicyTemplate#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy_template#description CustomPolicyTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy_template#description CustomPolicyTemplate#description}
   */
   readonly description?: string;
   /**
   * Labels for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy_template#labels CustomPolicyTemplate#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy_template#labels CustomPolicyTemplate#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -203,19 +203,19 @@ export interface CustomPolicyTemplateSpecDataInventory {
   /**
   * API resource group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy_template#group CustomPolicyTemplate#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy_template#group CustomPolicyTemplate#group}
   */
   readonly group: string;
   /**
   * API resource kind
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy_template#kind CustomPolicyTemplate#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy_template#kind CustomPolicyTemplate#kind}
   */
   readonly kind: string;
   /**
   * API resource version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy_template#version CustomPolicyTemplate#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy_template#version CustomPolicyTemplate#version}
   */
   readonly version: string;
 }
@@ -382,14 +382,14 @@ export interface CustomPolicyTemplateSpec {
   /**
   * Flag representing whether the custom policy template is deprecated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy_template#is_deprecated CustomPolicyTemplate#is_deprecated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy_template#is_deprecated CustomPolicyTemplate#is_deprecated}
   */
   readonly isDeprecated?: boolean | cdktf.IResolvable;
   /**
   * The type of Kubernetes resource encoded in Object.
   * Currently, we only support OPAGatekeeper based 'ConstraintTemplate' object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy_template#object_type CustomPolicyTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy_template#object_type CustomPolicyTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -399,20 +399,20 @@ export interface CustomPolicyTemplateSpec {
   * This will be applied on the cluster after a policy is created using this version of the template.
   * This contains the latest version of the object. For previous versions, check Versions API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy_template#template_manifest CustomPolicyTemplate#template_manifest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy_template#template_manifest CustomPolicyTemplate#template_manifest}
   */
   readonly templateManifest: string;
   /**
   * The type of policy template.
   * Currently, we only support 'OPAGatekeeper' based policy templates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy_template#template_type CustomPolicyTemplate#template_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy_template#template_type CustomPolicyTemplate#template_type}
   */
   readonly templateType?: string;
   /**
   * data_inventory block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy_template#data_inventory CustomPolicyTemplate#data_inventory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy_template#data_inventory CustomPolicyTemplate#data_inventory}
   */
   readonly dataInventory?: CustomPolicyTemplateSpecDataInventory[] | cdktf.IResolvable;
 }
@@ -609,7 +609,7 @@ export class CustomPolicyTemplateSpecOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy_template tanzu-mission-control_custom_policy_template}
+* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy_template tanzu-mission-control_custom_policy_template}
 */
 export class CustomPolicyTemplate extends cdktf.TerraformResource {
 
@@ -625,7 +625,7 @@ export class CustomPolicyTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomPolicyTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomPolicyTemplate to import
-  * @param importFromId The id of the existing CustomPolicyTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomPolicyTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomPolicyTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -637,7 +637,7 @@ export class CustomPolicyTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy_template tanzu-mission-control_custom_policy_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy_template tanzu-mission-control_custom_policy_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -648,8 +648,8 @@ export class CustomPolicyTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tanzu-mission-control_custom_policy_template',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9',
-        providerVersionConstraint: '1.4.9'
+        providerVersion: '1.4.10',
+        providerVersionConstraint: '1.4.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

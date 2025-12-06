@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_databricks
+// https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_databricks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface DestinationDatabricksConfig extends cdktf.TerraformMetaArgument
   /**
   * JDBC URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_databricks#connection_url DestinationDatabricks#connection_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_databricks#connection_url DestinationDatabricks#connection_url}
   */
   readonly connectionUrl: string;
   /**
   * Catalog Name. Make sure to change this to the correct cataog name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_databricks#databricks_catalog DestinationDatabricks#databricks_catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_databricks#databricks_catalog DestinationDatabricks#databricks_catalog}
   */
   readonly databricksCatalog?: string;
   /**
   * Token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_databricks#databricks_token DestinationDatabricks#databricks_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_databricks#databricks_token DestinationDatabricks#databricks_token}
   */
   readonly databricksToken: string;
   /**
   * Specifies whether the connector processes DELETE or tombstone events and removes the corresponding row from the database (applies to `upsert` only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_databricks#hard_delete DestinationDatabricks#hard_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_databricks#hard_delete DestinationDatabricks#hard_delete}
   */
   readonly hardDelete?: boolean | cdktf.IResolvable;
   /**
   * `upsert` or `append` modes are available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_databricks#ingestion_mode DestinationDatabricks#ingestion_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_databricks#ingestion_mode DestinationDatabricks#ingestion_mode}
   */
   readonly ingestionMode?: string;
   /**
   * Destination name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_databricks#name DestinationDatabricks#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_databricks#name DestinationDatabricks#name}
   */
   readonly name: string;
   /**
   * Partition tables or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_databricks#partition_mode DestinationDatabricks#partition_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_databricks#partition_mode DestinationDatabricks#partition_mode}
   */
   readonly partitionMode?: string;
   /**
   * Controls how schema evolution is handled by the sink connector. For pipelines with pre-created destination tables, set to `none`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_databricks#schema_evolution DestinationDatabricks#schema_evolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_databricks#schema_evolution DestinationDatabricks#schema_evolution}
   */
   readonly schemaEvolution?: string;
   /**
   * Schema for the associated table name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_databricks#table_name_prefix DestinationDatabricks#table_name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_databricks#table_name_prefix DestinationDatabricks#table_name_prefix}
   */
   readonly tableNamePrefix: string;
   /**
   * The maximum number of active task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_databricks#tasks_max DestinationDatabricks#tasks_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_databricks#tasks_max DestinationDatabricks#tasks_max}
   */
   readonly tasksMax?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_databricks streamkap_destination_databricks}
+* Represents a {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_databricks streamkap_destination_databricks}
 */
 export class DestinationDatabricks extends cdktf.TerraformResource {
 
@@ -86,7 +86,7 @@ export class DestinationDatabricks extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DestinationDatabricks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DestinationDatabricks to import
-  * @param importFromId The id of the existing DestinationDatabricks that should be imported. Refer to the {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_databricks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DestinationDatabricks that should be imported. Refer to the {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_databricks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DestinationDatabricks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class DestinationDatabricks extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_databricks streamkap_destination_databricks} Resource
+  * Create a new {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_databricks streamkap_destination_databricks} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class DestinationDatabricks extends cdktf.TerraformResource {
       terraformResourceType: 'streamkap_destination_databricks',
       terraformGeneratorMetadata: {
         providerName: 'streamkap',
-        providerVersion: '2.1.15',
-        providerVersionConstraint: '2.1.15'
+        providerVersion: '2.1.16',
+        providerVersionConstraint: '2.1.16'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

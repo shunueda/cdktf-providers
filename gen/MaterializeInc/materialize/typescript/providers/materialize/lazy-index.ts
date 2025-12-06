@@ -43,6 +43,7 @@ Object.defineProperty(exports, 'sourceLoadGenerator', { get: function () { retur
 Object.defineProperty(exports, 'sourceMysql', { get: function () { return require('./source-mysql'); } });
 Object.defineProperty(exports, 'sourcePostgres', { get: function () { return require('./source-postgres'); } });
 Object.defineProperty(exports, 'sourceSqlserver', { get: function () { return require('./source-sqlserver'); } });
+Object.defineProperty(exports, 'sourceTablePostgres', { get: function () { return require('./source-table-postgres'); } });
 Object.defineProperty(exports, 'sourceWebhook', { get: function () { return require('./source-webhook'); } });
 Object.defineProperty(exports, 'ssoConfig', { get: function () { return require('./sso-config'); } });
 Object.defineProperty(exports, 'ssoDefaultRoles', { get: function () { return require('./sso-default-roles'); } });

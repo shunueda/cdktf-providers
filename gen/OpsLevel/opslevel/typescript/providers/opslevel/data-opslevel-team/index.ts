@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/data-sources/team
+// https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/team
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataOpslevelTeamConfig extends cdktf.TerraformMetaArguments {
   /**
   * The alias attached to the Team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/data-sources/team#alias DataOpslevelTeam#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/team#alias DataOpslevelTeam#alias}
   */
   readonly alias?: string;
   /**
   * The ID of this Team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/data-sources/team#id DataOpslevelTeam#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/team#id DataOpslevelTeam#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -210,7 +210,7 @@ export class DataOpslevelTeamMembersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/data-sources/team opslevel_team}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/team opslevel_team}
 */
 export class DataOpslevelTeam extends cdktf.TerraformDataSource {
 
@@ -226,7 +226,7 @@ export class DataOpslevelTeam extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOpslevelTeam resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOpslevelTeam to import
-  * @param importFromId The id of the existing DataOpslevelTeam that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/data-sources/team#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOpslevelTeam that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/team#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOpslevelTeam to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -238,7 +238,7 @@ export class DataOpslevelTeam extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/data-sources/team opslevel_team} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/team opslevel_team} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -249,8 +249,8 @@ export class DataOpslevelTeam extends cdktf.TerraformDataSource {
       terraformResourceType: 'opslevel_team',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.6.3',
-        providerVersionConstraint: '1.6.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

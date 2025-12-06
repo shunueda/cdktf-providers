@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/osquery_configuration_pack
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_configuration_pack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface OsqueryConfigurationPackConfig extends cdktf.TerraformMetaArgum
   /**
   * ID of the configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/osquery_configuration_pack#configuration_id OsqueryConfigurationPack#configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_configuration_pack#configuration_id OsqueryConfigurationPack#configuration_id}
   */
   readonly configurationId: number;
   /**
   * The `ID`s of the tags used to put the pack out of scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/osquery_configuration_pack#excluded_tag_ids OsqueryConfigurationPack#excluded_tag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_configuration_pack#excluded_tag_ids OsqueryConfigurationPack#excluded_tag_ids}
   */
   readonly excludedTagIds?: number[];
   /**
   * ID of the pack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/osquery_configuration_pack#pack_id OsqueryConfigurationPack#pack_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_configuration_pack#pack_id OsqueryConfigurationPack#pack_id}
   */
   readonly packId: number;
   /**
   * The `ID`s of the tags used to scope the pack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/osquery_configuration_pack#tag_ids OsqueryConfigurationPack#tag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_configuration_pack#tag_ids OsqueryConfigurationPack#tag_ids}
   */
   readonly tagIds?: number[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/osquery_configuration_pack zentral_osquery_configuration_pack}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_configuration_pack zentral_osquery_configuration_pack}
 */
 export class OsqueryConfigurationPack extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class OsqueryConfigurationPack extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OsqueryConfigurationPack resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OsqueryConfigurationPack to import
-  * @param importFromId The id of the existing OsqueryConfigurationPack that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/osquery_configuration_pack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OsqueryConfigurationPack that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_configuration_pack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OsqueryConfigurationPack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class OsqueryConfigurationPack extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/osquery_configuration_pack zentral_osquery_configuration_pack} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_configuration_pack zentral_osquery_configuration_pack} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class OsqueryConfigurationPack extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_osquery_configuration_pack',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.65',
-        providerVersionConstraint: '0.1.65'
+        providerVersion: '0.1.67',
+        providerVersionConstraint: '0.1.67'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

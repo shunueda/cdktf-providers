@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/app_password
+// https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/app_password
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AppPasswordConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/app_password#id AppPassword#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/app_password#id AppPassword#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface AppPasswordConfig extends cdktf.TerraformMetaArguments {
   /**
   * A human-readable name for the app password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/app_password#name AppPassword#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/app_password#name AppPassword#name}
   */
   readonly name: string;
   /**
   * The roles to assign to the app password. Allowed values are 'Member' and 'Admin'. Only valid with service-type app passwords.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/app_password#roles AppPassword#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/app_password#roles AppPassword#roles}
   */
   readonly roles?: string[];
   /**
   * The type of the app password: personal or service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/app_password#type AppPassword#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/app_password#type AppPassword#type}
   */
   readonly type?: string;
   /**
   * The user to associate with the app password. Only valid with service-type app passwords.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/app_password#user AppPassword#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/app_password#user AppPassword#user}
   */
   readonly user?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/app_password materialize_app_password}
+* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/app_password materialize_app_password}
 */
 export class AppPassword extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class AppPassword extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppPassword resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppPassword to import
-  * @param importFromId The id of the existing AppPassword that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/app_password#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppPassword that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/app_password#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppPassword to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class AppPassword extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/app_password materialize_app_password} Resource
+  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/app_password materialize_app_password} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class AppPassword extends cdktf.TerraformResource {
       terraformResourceType: 'materialize_app_password',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.5',
-        providerVersionConstraint: '0.9.5'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

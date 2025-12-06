@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/data-sources/lbaas_network_listeners
+// https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/data-sources/lbaas_network_listeners
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataMgcLbaasNetworkListenersConfig extends cdktf.TerraformMetaA
   /**
   * The Network Load Balancer ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/data-sources/lbaas_network_listeners#lb_id DataMgcLbaasNetworkListeners#lb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/data-sources/lbaas_network_listeners#lb_id DataMgcLbaasNetworkListeners#lb_id}
   */
   readonly lbId: string;
 }
@@ -121,7 +121,7 @@ export class DataMgcLbaasNetworkListenersListenersList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/data-sources/lbaas_network_listeners mgc_lbaas_network_listeners}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/data-sources/lbaas_network_listeners mgc_lbaas_network_listeners}
 */
 export class DataMgcLbaasNetworkListeners extends cdktf.TerraformDataSource {
 
@@ -137,7 +137,7 @@ export class DataMgcLbaasNetworkListeners extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMgcLbaasNetworkListeners resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMgcLbaasNetworkListeners to import
-  * @param importFromId The id of the existing DataMgcLbaasNetworkListeners that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/data-sources/lbaas_network_listeners#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMgcLbaasNetworkListeners that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/data-sources/lbaas_network_listeners#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMgcLbaasNetworkListeners to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -149,7 +149,7 @@ export class DataMgcLbaasNetworkListeners extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/data-sources/lbaas_network_listeners mgc_lbaas_network_listeners} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/data-sources/lbaas_network_listeners mgc_lbaas_network_listeners} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -160,8 +160,8 @@ export class DataMgcLbaasNetworkListeners extends cdktf.TerraformDataSource {
       terraformResourceType: 'mgc_lbaas_network_listeners',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.40.1',
-        providerVersionConstraint: '0.40.1'
+        providerVersion: '0.40.2',
+        providerVersionConstraint: '0.40.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

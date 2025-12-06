@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_service_ownership
+// https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_service_ownership
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface CheckServiceOwnershipConfig extends cdktf.TerraformMetaArgument
   /**
   * The id of the category the check belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_service_ownership#category CheckServiceOwnership#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_service_ownership#category CheckServiceOwnership#category}
   */
   readonly category: string;
   /**
   * The type of contact method that is required. One of `email`, `github`, `microsoft_teams`, `slack`, `slack_handle`, `web`, `any`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_service_ownership#contact_method CheckServiceOwnership#contact_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_service_ownership#contact_method CheckServiceOwnership#contact_method}
   */
   readonly contactMethod?: string;
   /**
@@ -25,61 +25,61 @@ export interface CheckServiceOwnershipConfig extends cdktf.TerraformMetaArgument
   *  See example in opslevel_check_manual for proper configuration.
   *  
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_service_ownership#enable_on CheckServiceOwnership#enable_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_service_ownership#enable_on CheckServiceOwnership#enable_on}
   */
   readonly enableOn?: string;
   /**
   * Whether the check is enabled or not.  Do not use this field in tandem with 'enable_on'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_service_ownership#enabled CheckServiceOwnership#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_service_ownership#enabled CheckServiceOwnership#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The id of the filter of the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_service_ownership#filter CheckServiceOwnership#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_service_ownership#filter CheckServiceOwnership#filter}
   */
   readonly filter?: string;
   /**
   * The id of the level the check belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_service_ownership#level CheckServiceOwnership#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_service_ownership#level CheckServiceOwnership#level}
   */
   readonly level: string;
   /**
   * The display name of the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_service_ownership#name CheckServiceOwnership#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_service_ownership#name CheckServiceOwnership#name}
   */
   readonly name: string;
   /**
   * Additional information to display to the service owner about the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_service_ownership#notes CheckServiceOwnership#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_service_ownership#notes CheckServiceOwnership#notes}
   */
   readonly notes?: string;
   /**
   * The id of the team that owns the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_service_ownership#owner CheckServiceOwnership#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_service_ownership#owner CheckServiceOwnership#owner}
   */
   readonly owner?: string;
   /**
   * True if a service's owner must have a contact method, False otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_service_ownership#require_contact_method CheckServiceOwnership#require_contact_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_service_ownership#require_contact_method CheckServiceOwnership#require_contact_method}
   */
   readonly requireContactMethod?: boolean | cdktf.IResolvable;
   /**
   * The tag key where the tag predicate should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_service_ownership#tag_key CheckServiceOwnership#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_service_ownership#tag_key CheckServiceOwnership#tag_key}
   */
   readonly tagKey?: string;
   /**
   * A condition that should be satisfied. One of `belongs_to`, `contains`, `does_not_contain`, `does_not_equal`, `does_not_exist`, `does_not_match`, `does_not_match_regex`, `ends_with`, `equals`, `exists`, `greater_than_or_equal_to`, `less_than_or_equal_to`, `matches`, `matches_regex`, `satisfies_jq_expression`, `satisfies_version_constraint`, `starts_with`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_service_ownership#tag_predicate CheckServiceOwnership#tag_predicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_service_ownership#tag_predicate CheckServiceOwnership#tag_predicate}
   */
   readonly tagPredicate?: CheckServiceOwnershipTagPredicate;
 }
@@ -87,13 +87,13 @@ export interface CheckServiceOwnershipTagPredicate {
   /**
   * A condition that should be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_service_ownership#type CheckServiceOwnership#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_service_ownership#type CheckServiceOwnership#type}
   */
   readonly type: string;
   /**
   * The condition value used by the predicate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_service_ownership#value CheckServiceOwnership#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_service_ownership#value CheckServiceOwnership#value}
   */
   readonly value?: string;
 }
@@ -213,7 +213,7 @@ export class CheckServiceOwnershipTagPredicateOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_service_ownership opslevel_check_service_ownership}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_service_ownership opslevel_check_service_ownership}
 */
 export class CheckServiceOwnership extends cdktf.TerraformResource {
 
@@ -229,7 +229,7 @@ export class CheckServiceOwnership extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CheckServiceOwnership resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CheckServiceOwnership to import
-  * @param importFromId The id of the existing CheckServiceOwnership that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_service_ownership#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CheckServiceOwnership that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_service_ownership#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CheckServiceOwnership to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -241,7 +241,7 @@ export class CheckServiceOwnership extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_service_ownership opslevel_check_service_ownership} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_service_ownership opslevel_check_service_ownership} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -252,8 +252,8 @@ export class CheckServiceOwnership extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_check_service_ownership',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.6.3',
-        providerVersionConstraint: '1.6.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_manifest_enrollment_package
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_manifest_enrollment_package
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface MonolithManifestEnrollmentPackageConfig extends cdktf.Terraform
   /**
   * Enrollment package builder module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_manifest_enrollment_package#builder MonolithManifestEnrollmentPackage#builder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_manifest_enrollment_package#builder MonolithManifestEnrollmentPackage#builder}
   */
   readonly builder: string;
   /**
   * ID of the enrollment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_manifest_enrollment_package#enrollment_id MonolithManifestEnrollmentPackage#enrollment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_manifest_enrollment_package#enrollment_id MonolithManifestEnrollmentPackage#enrollment_id}
   */
   readonly enrollmentId: number;
   /**
   * ID of the manifest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_manifest_enrollment_package#manifest_id MonolithManifestEnrollmentPackage#manifest_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_manifest_enrollment_package#manifest_id MonolithManifestEnrollmentPackage#manifest_id}
   */
   readonly manifestId: number;
   /**
   * The `ID`s of the tags used to scope the enrollment package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_manifest_enrollment_package#tag_ids MonolithManifestEnrollmentPackage#tag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_manifest_enrollment_package#tag_ids MonolithManifestEnrollmentPackage#tag_ids}
   */
   readonly tagIds?: number[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_manifest_enrollment_package zentral_monolith_manifest_enrollment_package}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_manifest_enrollment_package zentral_monolith_manifest_enrollment_package}
 */
 export class MonolithManifestEnrollmentPackage extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class MonolithManifestEnrollmentPackage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MonolithManifestEnrollmentPackage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MonolithManifestEnrollmentPackage to import
-  * @param importFromId The id of the existing MonolithManifestEnrollmentPackage that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_manifest_enrollment_package#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MonolithManifestEnrollmentPackage that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_manifest_enrollment_package#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MonolithManifestEnrollmentPackage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class MonolithManifestEnrollmentPackage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_manifest_enrollment_package zentral_monolith_manifest_enrollment_package} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_manifest_enrollment_package zentral_monolith_manifest_enrollment_package} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class MonolithManifestEnrollmentPackage extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_monolith_manifest_enrollment_package',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.65',
-        providerVersionConstraint: '0.1.65'
+        providerVersion: '0.1.67',
+        providerVersionConstraint: '0.1.67'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_declaration
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_declaration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,115 +10,115 @@ export interface MdmDeclarationConfig extends cdktf.TerraformMetaArguments {
   /**
   * `ID` of the declaration artifact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_declaration#artifact_id MdmDeclaration#artifact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_declaration#artifact_id MdmDeclaration#artifact_id}
   */
   readonly artifactId: string;
   /**
   * The default shard value. Defaults to `100`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_declaration#default_shard MdmDeclaration#default_shard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_declaration#default_shard MdmDeclaration#default_shard}
   */
   readonly defaultShard?: number;
   /**
   * Machines tagged with one of these tags will not receive the declaration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_declaration#excluded_tag_ids MdmDeclaration#excluded_tag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_declaration#excluded_tag_ids MdmDeclaration#excluded_tag_ids}
   */
   readonly excludedTagIds?: number[];
   /**
   * Toggles the installation of the declaration on iOS devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_declaration#ios MdmDeclaration#ios}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_declaration#ios MdmDeclaration#ios}
   */
   readonly ios?: boolean | cdktf.IResolvable;
   /**
   * Devices with this iOS version or higher will **not** receive this declaration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_declaration#ios_max_version MdmDeclaration#ios_max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_declaration#ios_max_version MdmDeclaration#ios_max_version}
   */
   readonly iosMaxVersion?: string;
   /**
   * Devices with this iOS version or higher will receive this declaration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_declaration#ios_min_version MdmDeclaration#ios_min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_declaration#ios_min_version MdmDeclaration#ios_min_version}
   */
   readonly iosMinVersion?: string;
   /**
   * Toggles the installation of the declaration on iPadOS devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_declaration#ipados MdmDeclaration#ipados}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_declaration#ipados MdmDeclaration#ipados}
   */
   readonly ipados?: boolean | cdktf.IResolvable;
   /**
   * Devices with this iPadOS version or higher will **not** receive this declaration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_declaration#ipados_max_version MdmDeclaration#ipados_max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_declaration#ipados_max_version MdmDeclaration#ipados_max_version}
   */
   readonly ipadosMaxVersion?: string;
   /**
   * Devices with this iPadOS version or higher will receive this declaration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_declaration#ipados_min_version MdmDeclaration#ipados_min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_declaration#ipados_min_version MdmDeclaration#ipados_min_version}
   */
   readonly ipadosMinVersion?: string;
   /**
   * Toggles the installation of the declaration on macOS devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_declaration#macos MdmDeclaration#macos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_declaration#macos MdmDeclaration#macos}
   */
   readonly macos?: boolean | cdktf.IResolvable;
   /**
   * Devices with this macOS version or higher will **not** receive this declaration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_declaration#macos_max_version MdmDeclaration#macos_max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_declaration#macos_max_version MdmDeclaration#macos_max_version}
   */
   readonly macosMaxVersion?: string;
   /**
   * Devices with this macOS version or higher will receive this declaration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_declaration#macos_min_version MdmDeclaration#macos_min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_declaration#macos_min_version MdmDeclaration#macos_min_version}
   */
   readonly macosMinVersion?: string;
   /**
   * The modulo used to calculate the shards. Defaults to `100`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_declaration#shard_modulo MdmDeclaration#shard_modulo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_declaration#shard_modulo MdmDeclaration#shard_modulo}
   */
   readonly shardModulo?: number;
   /**
   * The actual DDM declaration (JSON).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_declaration#source MdmDeclaration#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_declaration#source MdmDeclaration#source}
   */
   readonly source: string;
   /**
   * A set of tag shard values different from the default shard, to determine if the tagged machines will receive the declaration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_declaration#tag_shards MdmDeclaration#tag_shards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_declaration#tag_shards MdmDeclaration#tag_shards}
   */
   readonly tagShards?: MdmDeclarationTagShards[] | cdktf.IResolvable;
   /**
   * Toggles the installation of the declaration on tvOS devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_declaration#tvos MdmDeclaration#tvos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_declaration#tvos MdmDeclaration#tvos}
   */
   readonly tvos?: boolean | cdktf.IResolvable;
   /**
   * Devices with this tvOS version or higher will **not** receive this declaration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_declaration#tvos_max_version MdmDeclaration#tvos_max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_declaration#tvos_max_version MdmDeclaration#tvos_max_version}
   */
   readonly tvosMaxVersion?: string;
   /**
   * Devices with this tvOS version or higher will receive this declaration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_declaration#tvos_min_version MdmDeclaration#tvos_min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_declaration#tvos_min_version MdmDeclaration#tvos_min_version}
   */
   readonly tvosMinVersion?: string;
   /**
   * Version of the declaration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_declaration#version MdmDeclaration#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_declaration#version MdmDeclaration#version}
   */
   readonly version: number;
 }
@@ -126,13 +126,13 @@ export interface MdmDeclarationTagShards {
   /**
   * The shard for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_declaration#shard MdmDeclaration#shard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_declaration#shard MdmDeclaration#shard}
   */
   readonly shard: number;
   /**
   * The `ID` of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_declaration#tag_id MdmDeclaration#tag_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_declaration#tag_id MdmDeclaration#tag_id}
   */
   readonly tagId: number;
 }
@@ -271,7 +271,7 @@ export class MdmDeclarationTagShardsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_declaration zentral_mdm_declaration}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_declaration zentral_mdm_declaration}
 */
 export class MdmDeclaration extends cdktf.TerraformResource {
 
@@ -287,7 +287,7 @@ export class MdmDeclaration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdmDeclaration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdmDeclaration to import
-  * @param importFromId The id of the existing MdmDeclaration that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_declaration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdmDeclaration that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_declaration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdmDeclaration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -299,7 +299,7 @@ export class MdmDeclaration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_declaration zentral_mdm_declaration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_declaration zentral_mdm_declaration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -310,8 +310,8 @@ export class MdmDeclaration extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_mdm_declaration',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.65',
-        providerVersionConstraint: '0.1.65'
+        providerVersion: '0.1.67',
+        providerVersionConstraint: '0.1.67'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/enable_data_protection
+// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/enable_data_protection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface EnableDataProtectionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/enable_data_protection#id EnableDataProtection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/enable_data_protection#id EnableDataProtection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface EnableDataProtectionConfig extends cdktf.TerraformMetaArguments
   /**
   * deletion_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/enable_data_protection#deletion_policy EnableDataProtection#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/enable_data_protection#deletion_policy EnableDataProtection#deletion_policy}
   */
   readonly deletionPolicy?: EnableDataProtectionDeletionPolicy;
   /**
   * meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/enable_data_protection#meta EnableDataProtection#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/enable_data_protection#meta EnableDataProtection#meta}
   */
   readonly meta?: EnableDataProtectionMeta;
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/enable_data_protection#scope EnableDataProtection#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/enable_data_protection#scope EnableDataProtection#scope}
   */
   readonly scope: EnableDataProtectionScope;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/enable_data_protection#spec EnableDataProtection#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/enable_data_protection#spec EnableDataProtection#spec}
   */
   readonly spec?: EnableDataProtectionSpec;
 }
@@ -44,13 +44,13 @@ export interface EnableDataProtectionDeletionPolicy {
   * Destroy backups upon deleting data protection.
   * (default: false)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/enable_data_protection#delete_backups EnableDataProtection#delete_backups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/enable_data_protection#delete_backups EnableDataProtection#delete_backups}
   */
   readonly deleteBackups?: boolean | cdktf.IResolvable;
   /**
   * Disable data protection on all clusters in the cluster group even if cluster level schedules present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/enable_data_protection#force EnableDataProtection#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/enable_data_protection#force EnableDataProtection#force}
   */
   readonly force?: boolean | cdktf.IResolvable;
 }
@@ -165,19 +165,19 @@ export interface EnableDataProtectionMeta {
   /**
   * Annotations for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/enable_data_protection#annotations EnableDataProtection#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/enable_data_protection#annotations EnableDataProtection#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/enable_data_protection#description EnableDataProtection#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/enable_data_protection#description EnableDataProtection#description}
   */
   readonly description?: string;
   /**
   * Labels for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/enable_data_protection#labels EnableDataProtection#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/enable_data_protection#labels EnableDataProtection#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -331,19 +331,19 @@ export interface EnableDataProtectionScopeCluster {
   /**
   * Cluster name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/enable_data_protection#cluster_name EnableDataProtection#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/enable_data_protection#cluster_name EnableDataProtection#cluster_name}
   */
   readonly clusterName: string;
   /**
   * Management cluster name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/enable_data_protection#management_cluster_name EnableDataProtection#management_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/enable_data_protection#management_cluster_name EnableDataProtection#management_cluster_name}
   */
   readonly managementClusterName: string;
   /**
   * Cluster provisioner name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/enable_data_protection#provisioner_name EnableDataProtection#provisioner_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/enable_data_protection#provisioner_name EnableDataProtection#provisioner_name}
   */
   readonly provisionerName: string;
 }
@@ -478,7 +478,7 @@ export interface EnableDataProtectionScopeClusterGroup {
   /**
   * Cluster group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/enable_data_protection#cluster_group_name EnableDataProtection#cluster_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/enable_data_protection#cluster_group_name EnableDataProtection#cluster_group_name}
   */
   readonly clusterGroupName: string;
 }
@@ -561,13 +561,13 @@ export interface EnableDataProtectionScope {
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/enable_data_protection#cluster EnableDataProtection#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/enable_data_protection#cluster EnableDataProtection#cluster}
   */
   readonly cluster?: EnableDataProtectionScopeCluster;
   /**
   * cluster_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/enable_data_protection#cluster_group EnableDataProtection#cluster_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/enable_data_protection#cluster_group EnableDataProtection#cluster_group}
   */
   readonly clusterGroup?: EnableDataProtectionScopeClusterGroup;
 }
@@ -680,15 +680,15 @@ export class EnableDataProtectionScopeOutputReference extends cdktf.ComplexObjec
 }
 export interface EnableDataProtectionSpecSelectorLabelselectorMatchexpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/enable_data_protection#key EnableDataProtection#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/enable_data_protection#key EnableDataProtection#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/enable_data_protection#operator EnableDataProtection#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/enable_data_protection#operator EnableDataProtection#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/enable_data_protection#values EnableDataProtection#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/enable_data_protection#values EnableDataProtection#values}
   */
   readonly values: string[];
 }
@@ -861,7 +861,7 @@ export interface EnableDataProtectionSpecSelectorLabelselector {
   /**
   * matchexpressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/enable_data_protection#matchexpressions EnableDataProtection#matchexpressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/enable_data_protection#matchexpressions EnableDataProtection#matchexpressions}
   */
   readonly matchexpressions?: EnableDataProtectionSpecSelectorLabelselectorMatchexpressions[] | cdktf.IResolvable;
 }
@@ -977,17 +977,17 @@ export class EnableDataProtectionSpecSelectorLabelselectorList extends cdktf.Com
 }
 export interface EnableDataProtectionSpecSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/enable_data_protection#excludednames EnableDataProtection#excludednames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/enable_data_protection#excludednames EnableDataProtection#excludednames}
   */
   readonly excludednames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/enable_data_protection#names EnableDataProtection#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/enable_data_protection#names EnableDataProtection#names}
   */
   readonly names?: string[];
   /**
   * labelselector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/enable_data_protection#labelselector EnableDataProtection#labelselector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/enable_data_protection#labelselector EnableDataProtection#labelselector}
   */
   readonly labelselector?: EnableDataProtectionSpecSelectorLabelselector[] | cdktf.IResolvable;
 }
@@ -1133,33 +1133,33 @@ export interface EnableDataProtectionSpec {
   * Otherwise, restic would be enabled by default as part of Data Protection installation.
   * (Default: False)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/enable_data_protection#disable_restic EnableDataProtection#disable_restic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/enable_data_protection#disable_restic EnableDataProtection#disable_restic}
   */
   readonly disableRestic?: boolean | cdktf.IResolvable;
   /**
   * A flag to indicate whether to backup all the supported API Group versions of a resource on the cluster.
   * (Default: False)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/enable_data_protection#enable_all_api_group_versions_backup EnableDataProtection#enable_all_api_group_versions_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/enable_data_protection#enable_all_api_group_versions_backup EnableDataProtection#enable_all_api_group_versions_backup}
   */
   readonly enableAllApiGroupVersionsBackup?: boolean | cdktf.IResolvable;
   /**
   * A flag to indicate whether to install CSI snapshotting related capabilities.
   * (Default: False)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/enable_data_protection#enable_csi_snapshots EnableDataProtection#enable_csi_snapshots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/enable_data_protection#enable_csi_snapshots EnableDataProtection#enable_csi_snapshots}
   */
   readonly enableCsiSnapshots?: boolean | cdktf.IResolvable;
   /**
   * A flag to indicate whether to install the node agent daemonset which is responsible for volume data transfer to the target location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/enable_data_protection#use_node_agent EnableDataProtection#use_node_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/enable_data_protection#use_node_agent EnableDataProtection#use_node_agent}
   */
   readonly useNodeAgent?: boolean | cdktf.IResolvable;
   /**
   * selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/enable_data_protection#selector EnableDataProtection#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/enable_data_protection#selector EnableDataProtection#selector}
   */
   readonly selector?: EnableDataProtectionSpecSelector;
 }
@@ -1359,7 +1359,7 @@ export class EnableDataProtectionSpecOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/enable_data_protection tanzu-mission-control_enable_data_protection}
+* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/enable_data_protection tanzu-mission-control_enable_data_protection}
 */
 export class EnableDataProtection extends cdktf.TerraformResource {
 
@@ -1375,7 +1375,7 @@ export class EnableDataProtection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EnableDataProtection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EnableDataProtection to import
-  * @param importFromId The id of the existing EnableDataProtection that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/enable_data_protection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EnableDataProtection that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/enable_data_protection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EnableDataProtection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1387,7 +1387,7 @@ export class EnableDataProtection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/enable_data_protection tanzu-mission-control_enable_data_protection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/enable_data_protection tanzu-mission-control_enable_data_protection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1398,8 +1398,8 @@ export class EnableDataProtection extends cdktf.TerraformResource {
       terraformResourceType: 'tanzu-mission-control_enable_data_protection',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9',
-        providerVersionConstraint: '1.4.9'
+        providerVersion: '1.4.10',
+        providerVersionConstraint: '1.4.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

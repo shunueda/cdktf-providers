@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_configuration
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/santa_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,91 @@ export interface SantaConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Restrict the reporting of 'Allow Unknown' events to a percentage (0-100) of hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_configuration#allow_unknown_shard SantaConfiguration#allow_unknown_shard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/santa_configuration#allow_unknown_shard SantaConfiguration#allow_unknown_shard}
   */
   readonly allowUnknownShard?: number;
   /**
   * A regex to allow if the binary, certificate, or Team ID scopes did not allow/block execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_configuration#allowed_path_regex SantaConfiguration#allowed_path_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/santa_configuration#allowed_path_regex SantaConfiguration#allowed_path_regex}
   */
   readonly allowedPathRegex?: string;
   /**
   * The number of rules to download or events to upload per request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_configuration#batch_size SantaConfiguration#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/santa_configuration#batch_size SantaConfiguration#batch_size}
   */
   readonly batchSize?: number;
   /**
   * If set to `true` blocking USB Mass storage feature is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_configuration#block_usb_mount SantaConfiguration#block_usb_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/santa_configuration#block_usb_mount SantaConfiguration#block_usb_mount}
   */
   readonly blockUsbMount?: boolean | cdktf.IResolvable;
   /**
   * A regex to block if the binary, certificate, or Team ID scopes did not allow/block an execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_configuration#blocked_path_regex SantaConfiguration#blocked_path_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/santa_configuration#blocked_path_regex SantaConfiguration#blocked_path_regex}
   */
   readonly blockedPathRegex?: string;
   /**
   * If `true`, mTLS is required between Santa and Zentral.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_configuration#client_certificate_auth SantaConfiguration#client_certificate_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/santa_configuration#client_certificate_auth SantaConfiguration#client_certificate_auth}
   */
   readonly clientCertificateAuth?: boolean | cdktf.IResolvable;
   /**
   * Client mode of the Santa configuration. Valid values are `MONITOR` and `LOCKDOWN`. Defaults to `MONITOR`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_configuration#client_mode SantaConfiguration#client_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/santa_configuration#client_mode SantaConfiguration#client_mode}
   */
   readonly clientMode?: string;
   /**
   * Restrict the upload of all execution events to Zentral, including those that were explicitly allowed, to a percentage (0-100) of hosts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_configuration#enable_all_event_upload_shard SantaConfiguration#enable_all_event_upload_shard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/santa_configuration#enable_all_event_upload_shard SantaConfiguration#enable_all_event_upload_shard}
   */
   readonly enableAllEventUploadShard?: number;
   /**
   * If set to `true` the bundle scanning feature is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_configuration#enable_bundles SantaConfiguration#enable_bundles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/santa_configuration#enable_bundles SantaConfiguration#enable_bundles}
   */
   readonly enableBundles?: boolean | cdktf.IResolvable;
   /**
   * If set to `true` the transitive rule feature is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_configuration#enable_transitive_rules SantaConfiguration#enable_transitive_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/santa_configuration#enable_transitive_rules SantaConfiguration#enable_transitive_rules}
   */
   readonly enableTransitiveRules?: boolean | cdktf.IResolvable;
   /**
   * The max time to wait before performing a full sync with the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_configuration#full_sync_interval SantaConfiguration#full_sync_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/santa_configuration#full_sync_interval SantaConfiguration#full_sync_interval}
   */
   readonly fullSyncInterval?: number;
   /**
   * Name of the Santa configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_configuration#name SantaConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/santa_configuration#name SantaConfiguration#name}
   */
   readonly name: string;
   /**
   * Array of strings for arguments to pass to `mount -o`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_configuration#remount_usb_mode SantaConfiguration#remount_usb_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/santa_configuration#remount_usb_mode SantaConfiguration#remount_usb_mode}
   */
   readonly remountUsbMode?: string[];
   /**
   * If 100, 200, 300, incidents will be automatically opened and closed when the santa agent rules are out of sync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_configuration#sync_incident_severity SantaConfiguration#sync_incident_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/santa_configuration#sync_incident_severity SantaConfiguration#sync_incident_severity}
   */
   readonly syncIncidentSeverity?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_configuration zentral_santa_configuration}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/santa_configuration zentral_santa_configuration}
 */
 export class SantaConfiguration extends cdktf.TerraformResource {
 
@@ -110,7 +110,7 @@ export class SantaConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SantaConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SantaConfiguration to import
-  * @param importFromId The id of the existing SantaConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SantaConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/santa_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SantaConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -122,7 +122,7 @@ export class SantaConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_configuration zentral_santa_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/santa_configuration zentral_santa_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -133,8 +133,8 @@ export class SantaConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_santa_configuration',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.65',
-        providerVersionConstraint: '0.1.65'
+        providerVersion: '0.1.67',
+        providerVersionConstraint: '0.1.67'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/property_assignment
+// https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/property_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface PropertyAssignmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * The custom property definition's ID or alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/property_assignment#definition PropertyAssignment#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/property_assignment#definition PropertyAssignment#definition}
   */
   readonly definition: string;
   /**
   * The ID or alias of the entity that the property has been assigned to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/property_assignment#owner PropertyAssignment#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/property_assignment#owner PropertyAssignment#owner}
   */
   readonly owner: string;
   /**
   * The value of the custom property (must be a valid JSON value or null).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/property_assignment#value PropertyAssignment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/property_assignment#value PropertyAssignment#value}
   */
   readonly value?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/property_assignment opslevel_property_assignment}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/property_assignment opslevel_property_assignment}
 */
 export class PropertyAssignment extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class PropertyAssignment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PropertyAssignment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PropertyAssignment to import
-  * @param importFromId The id of the existing PropertyAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/property_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PropertyAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/property_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PropertyAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class PropertyAssignment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/property_assignment opslevel_property_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/property_assignment opslevel_property_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class PropertyAssignment extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_property_assignment',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.6.3',
-        providerVersionConstraint: '1.6.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

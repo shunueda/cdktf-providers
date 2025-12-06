@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/data-sources/server_type
+// https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/data-sources/server_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataMetalcloudServerTypeConfig extends cdktf.TerraformMetaArgum
   /**
   * Server Type label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/data-sources/server_type#label DataMetalcloudServerType#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/data-sources/server_type#label DataMetalcloudServerType#label}
   */
   readonly label: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/data-sources/server_type metalcloud_server_type}
+* Represents a {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/data-sources/server_type metalcloud_server_type}
 */
 export class DataMetalcloudServerType extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataMetalcloudServerType extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMetalcloudServerType resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMetalcloudServerType to import
-  * @param importFromId The id of the existing DataMetalcloudServerType that should be imported. Refer to the {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/data-sources/server_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMetalcloudServerType that should be imported. Refer to the {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/data-sources/server_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMetalcloudServerType to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataMetalcloudServerType extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/data-sources/server_type metalcloud_server_type} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/data-sources/server_type metalcloud_server_type} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataMetalcloudServerType extends cdktf.TerraformDataSource {
       terraformResourceType: 'metalcloud_server_type',
       terraformGeneratorMetadata: {
         providerName: 'metalcloud',
-        providerVersion: '7.0.10',
-        providerVersionConstraint: '7.0.10'
+        providerVersion: '7.1.0',
+        providerVersionConstraint: '7.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

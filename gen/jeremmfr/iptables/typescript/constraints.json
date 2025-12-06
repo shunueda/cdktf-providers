@@ -1,0 +1,6 @@
+{
+  "cdktf": "0.21.0",
+  "providers": {
+    "iptables": "1.2.1"
+  }
+}

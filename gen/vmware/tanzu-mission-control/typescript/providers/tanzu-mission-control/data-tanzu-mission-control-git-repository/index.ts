@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/git_repository
+// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/git_repository
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTanzuMissionControlGitRepositoryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/git_repository#id DataTanzuMissionControlGitRepository#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/git_repository#id DataTanzuMissionControlGitRepository#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataTanzuMissionControlGitRepositoryConfig extends cdktf.Terraf
   /**
   * Name of the Repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/git_repository#name DataTanzuMissionControlGitRepository#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/git_repository#name DataTanzuMissionControlGitRepository#name}
   */
   readonly name: string;
   /**
   * Name of Namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/git_repository#namespace_name DataTanzuMissionControlGitRepository#namespace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/git_repository#namespace_name DataTanzuMissionControlGitRepository#namespace_name}
   */
   readonly namespaceName: string;
   /**
   * meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/git_repository#meta DataTanzuMissionControlGitRepository#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/git_repository#meta DataTanzuMissionControlGitRepository#meta}
   */
   readonly meta?: DataTanzuMissionControlGitRepositoryMeta;
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/git_repository#scope DataTanzuMissionControlGitRepository#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/git_repository#scope DataTanzuMissionControlGitRepository#scope}
   */
   readonly scope: DataTanzuMissionControlGitRepositoryScope;
 }
@@ -229,19 +229,19 @@ export interface DataTanzuMissionControlGitRepositoryMeta {
   /**
   * Annotations for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/git_repository#annotations DataTanzuMissionControlGitRepository#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/git_repository#annotations DataTanzuMissionControlGitRepository#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/git_repository#description DataTanzuMissionControlGitRepository#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/git_repository#description DataTanzuMissionControlGitRepository#description}
   */
   readonly description?: string;
   /**
   * Labels for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/git_repository#labels DataTanzuMissionControlGitRepository#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/git_repository#labels DataTanzuMissionControlGitRepository#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -395,19 +395,19 @@ export interface DataTanzuMissionControlGitRepositoryScopeCluster {
   /**
   * Name of the management cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/git_repository#management_cluster_name DataTanzuMissionControlGitRepository#management_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/git_repository#management_cluster_name DataTanzuMissionControlGitRepository#management_cluster_name}
   */
   readonly managementClusterName?: string;
   /**
   * Name of this cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/git_repository#name DataTanzuMissionControlGitRepository#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/git_repository#name DataTanzuMissionControlGitRepository#name}
   */
   readonly name: string;
   /**
   * Provisioner of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/git_repository#provisioner_name DataTanzuMissionControlGitRepository#provisioner_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/git_repository#provisioner_name DataTanzuMissionControlGitRepository#provisioner_name}
   */
   readonly provisionerName?: string;
 }
@@ -548,7 +548,7 @@ export interface DataTanzuMissionControlGitRepositoryScopeClusterGroup {
   /**
   * Name of the cluster group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/git_repository#name DataTanzuMissionControlGitRepository#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/git_repository#name DataTanzuMissionControlGitRepository#name}
   */
   readonly name: string;
 }
@@ -631,13 +631,13 @@ export interface DataTanzuMissionControlGitRepositoryScope {
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/git_repository#cluster DataTanzuMissionControlGitRepository#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/git_repository#cluster DataTanzuMissionControlGitRepository#cluster}
   */
   readonly cluster?: DataTanzuMissionControlGitRepositoryScopeCluster;
   /**
   * cluster_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/git_repository#cluster_group DataTanzuMissionControlGitRepository#cluster_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/git_repository#cluster_group DataTanzuMissionControlGitRepository#cluster_group}
   */
   readonly clusterGroup?: DataTanzuMissionControlGitRepositoryScopeClusterGroup;
 }
@@ -750,7 +750,7 @@ export class DataTanzuMissionControlGitRepositoryScopeOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/git_repository tanzu-mission-control_git_repository}
+* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/git_repository tanzu-mission-control_git_repository}
 */
 export class DataTanzuMissionControlGitRepository extends cdktf.TerraformDataSource {
 
@@ -766,7 +766,7 @@ export class DataTanzuMissionControlGitRepository extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataTanzuMissionControlGitRepository resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTanzuMissionControlGitRepository to import
-  * @param importFromId The id of the existing DataTanzuMissionControlGitRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/git_repository#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTanzuMissionControlGitRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/git_repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTanzuMissionControlGitRepository to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -778,7 +778,7 @@ export class DataTanzuMissionControlGitRepository extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/git_repository tanzu-mission-control_git_repository} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/git_repository tanzu-mission-control_git_repository} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -789,8 +789,8 @@ export class DataTanzuMissionControlGitRepository extends cdktf.TerraformDataSou
       terraformResourceType: 'tanzu-mission-control_git_repository',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9',
-        providerVersionConstraint: '1.4.9'
+        providerVersion: '1.4.10',
+        providerVersionConstraint: '1.4.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags
+// https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,27 +10,27 @@ export interface DataApkoTagsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The parsed structure of the apko configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#config DataApkoTags#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#config DataApkoTags#config}
   */
   readonly config: DataApkoTagsConfigA;
   /**
   * The package name to extract tags for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#target_package DataApkoTags#target_package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#target_package DataApkoTags#target_package}
   */
   readonly targetPackage: string;
 }
 export interface DataApkoTagsConfigAccountsGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#gid DataApkoTags#gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#gid DataApkoTags#gid}
   */
   readonly gid: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#groupname DataApkoTags#groupname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#groupname DataApkoTags#groupname}
   */
   readonly groupname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#members DataApkoTags#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#members DataApkoTags#members}
   */
   readonly members: string[];
 }
@@ -195,23 +195,23 @@ export class DataApkoTagsConfigAccountsGroupsList extends cdktf.ComplexList {
 }
 export interface DataApkoTagsConfigAccountsUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#gid DataApkoTags#gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#gid DataApkoTags#gid}
   */
   readonly gid: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#homedir DataApkoTags#homedir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#homedir DataApkoTags#homedir}
   */
   readonly homedir: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#shell DataApkoTags#shell}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#shell DataApkoTags#shell}
   */
   readonly shell: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#uid DataApkoTags#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#uid DataApkoTags#uid}
   */
   readonly uid: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#username DataApkoTags#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#username DataApkoTags#username}
   */
   readonly username: string;
 }
@@ -428,15 +428,15 @@ export class DataApkoTagsConfigAccountsUsersList extends cdktf.ComplexList {
 }
 export interface DataApkoTagsConfigAccounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#groups DataApkoTags#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#groups DataApkoTags#groups}
   */
   readonly groups: DataApkoTagsConfigAccountsGroups[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#run-as DataApkoTags#run-as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#run-as DataApkoTags#run-as}
   */
   readonly runAs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#users DataApkoTags#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#users DataApkoTags#users}
   */
   readonly users: DataApkoTagsConfigAccountsUsers[] | cdktf.IResolvable;
 }
@@ -579,23 +579,23 @@ export class DataApkoTagsConfigAccountsOutputReference extends cdktf.ComplexObje
 }
 export interface DataApkoTagsConfigContents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#build_repositories DataApkoTags#build_repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#build_repositories DataApkoTags#build_repositories}
   */
   readonly buildRepositories: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#keyring DataApkoTags#keyring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#keyring DataApkoTags#keyring}
   */
   readonly keyring: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#packages DataApkoTags#packages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#packages DataApkoTags#packages}
   */
   readonly packages: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#repositories DataApkoTags#repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#repositories DataApkoTags#repositories}
   */
   readonly repositories: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#runtime_repositories DataApkoTags#runtime_repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#runtime_repositories DataApkoTags#runtime_repositories}
   */
   readonly runtimeRepositories: string[];
 }
@@ -790,19 +790,19 @@ export class DataApkoTagsConfigContentsOutputReference extends cdktf.ComplexObje
 }
 export interface DataApkoTagsConfigEntrypoint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#command DataApkoTags#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#command DataApkoTags#command}
   */
   readonly command: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#services DataApkoTags#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#services DataApkoTags#services}
   */
   readonly services: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#shell-fragment DataApkoTags#shell-fragment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#shell-fragment DataApkoTags#shell-fragment}
   */
   readonly shellFragment: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#type DataApkoTags#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#type DataApkoTags#type}
   */
   readonly type: string;
 }
@@ -971,11 +971,11 @@ export class DataApkoTagsConfigEntrypointOutputReference extends cdktf.ComplexOb
 }
 export interface DataApkoTagsConfigLayering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#budget DataApkoTags#budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#budget DataApkoTags#budget}
   */
   readonly budget: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#strategy DataApkoTags#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#strategy DataApkoTags#strategy}
   */
   readonly strategy: string;
 }
@@ -1092,31 +1092,31 @@ export class DataApkoTagsConfigLayeringOutputReference extends cdktf.ComplexObje
 }
 export interface DataApkoTagsConfigPaths {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#gid DataApkoTags#gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#gid DataApkoTags#gid}
   */
   readonly gid: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#path DataApkoTags#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#path DataApkoTags#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#permissions DataApkoTags#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#permissions DataApkoTags#permissions}
   */
   readonly permissions: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#recursive DataApkoTags#recursive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#recursive DataApkoTags#recursive}
   */
   readonly recursive: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#source DataApkoTags#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#source DataApkoTags#source}
   */
   readonly source: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#type DataApkoTags#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#type DataApkoTags#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#uid DataApkoTags#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#uid DataApkoTags#uid}
   */
   readonly uid: number;
 }
@@ -1385,59 +1385,59 @@ export class DataApkoTagsConfigPathsList extends cdktf.ComplexList {
 }
 export interface DataApkoTagsConfigA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#accounts DataApkoTags#accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#accounts DataApkoTags#accounts}
   */
   readonly accounts: DataApkoTagsConfigAccounts;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#annotations DataApkoTags#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#annotations DataApkoTags#annotations}
   */
   readonly annotations: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#archs DataApkoTags#archs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#archs DataApkoTags#archs}
   */
   readonly archs: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#cmd DataApkoTags#cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#cmd DataApkoTags#cmd}
   */
   readonly cmd: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#contents DataApkoTags#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#contents DataApkoTags#contents}
   */
   readonly contents: DataApkoTagsConfigContents;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#entrypoint DataApkoTags#entrypoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#entrypoint DataApkoTags#entrypoint}
   */
   readonly entrypoint: DataApkoTagsConfigEntrypoint;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#environment DataApkoTags#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#environment DataApkoTags#environment}
   */
   readonly environment: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#include DataApkoTags#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#include DataApkoTags#include}
   */
   readonly include: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#layering DataApkoTags#layering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#layering DataApkoTags#layering}
   */
   readonly layering: DataApkoTagsConfigLayering;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#paths DataApkoTags#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#paths DataApkoTags#paths}
   */
   readonly paths: DataApkoTagsConfigPaths[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#stop-signal DataApkoTags#stop-signal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#stop-signal DataApkoTags#stop-signal}
   */
   readonly stopSignal: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#vcs-url DataApkoTags#vcs-url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#vcs-url DataApkoTags#vcs-url}
   */
   readonly vcsUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#volumes DataApkoTags#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#volumes DataApkoTags#volumes}
   */
   readonly volumes: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#work-dir DataApkoTags#work-dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#work-dir DataApkoTags#work-dir}
   */
   readonly workDir: string;
 }
@@ -1866,7 +1866,7 @@ export class DataApkoTagsConfigAOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags apko_tags}
+* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags apko_tags}
 */
 export class DataApkoTags extends cdktf.TerraformDataSource {
 
@@ -1882,7 +1882,7 @@ export class DataApkoTags extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataApkoTags resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApkoTags to import
-  * @param importFromId The id of the existing DataApkoTags that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApkoTags that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApkoTags to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1894,7 +1894,7 @@ export class DataApkoTags extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/tags apko_tags} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/tags apko_tags} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1905,8 +1905,8 @@ export class DataApkoTags extends cdktf.TerraformDataSource {
       terraformResourceType: 'apko_tags',
       terraformGeneratorMetadata: {
         providerName: 'apko',
-        providerVersion: '0.30.20',
-        providerVersionConstraint: '0.30.20'
+        providerVersion: '0.30.28',
+        providerVersionConstraint: '0.30.28'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

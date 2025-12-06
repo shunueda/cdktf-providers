@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/data-sources/network_vpcs_interface
+// https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/data-sources/network_vpcs_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataMgcNetworkVpcsInterfaceConfig extends cdktf.TerraformMetaAr
   /**
   * The ID of the VPC interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/data-sources/network_vpcs_interface#id DataMgcNetworkVpcsInterface#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/data-sources/network_vpcs_interface#id DataMgcNetworkVpcsInterface#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -184,7 +184,7 @@ export class DataMgcNetworkVpcsInterfacePublicIpList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/data-sources/network_vpcs_interface mgc_network_vpcs_interface}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/data-sources/network_vpcs_interface mgc_network_vpcs_interface}
 */
 export class DataMgcNetworkVpcsInterface extends cdktf.TerraformDataSource {
 
@@ -200,7 +200,7 @@ export class DataMgcNetworkVpcsInterface extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMgcNetworkVpcsInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMgcNetworkVpcsInterface to import
-  * @param importFromId The id of the existing DataMgcNetworkVpcsInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/data-sources/network_vpcs_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMgcNetworkVpcsInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/data-sources/network_vpcs_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMgcNetworkVpcsInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -212,7 +212,7 @@ export class DataMgcNetworkVpcsInterface extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/data-sources/network_vpcs_interface mgc_network_vpcs_interface} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/data-sources/network_vpcs_interface mgc_network_vpcs_interface} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -223,8 +223,8 @@ export class DataMgcNetworkVpcsInterface extends cdktf.TerraformDataSource {
       terraformResourceType: 'mgc_network_vpcs_interface',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.40.1',
-        providerVersionConstraint: '0.40.1'
+        providerVersion: '0.40.2',
+        providerVersionConstraint: '0.40.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/integration_google_cloud
+// https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/integration_google_cloud
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface IntegrationGoogleCloudConfig extends cdktf.TerraformMetaArgumen
   /**
   * The service account email OpsLevel uses to access the Google Cloud account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/integration_google_cloud#client_email IntegrationGoogleCloud#client_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/integration_google_cloud#client_email IntegrationGoogleCloud#client_email}
   */
   readonly clientEmail: string;
   /**
   * The name of the integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/integration_google_cloud#name IntegrationGoogleCloud#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/integration_google_cloud#name IntegrationGoogleCloud#name}
   */
   readonly name: string;
   /**
   * An Array of tag keys used to associate ownership from an integration. Max 5 (default = ["owner"])
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/integration_google_cloud#ownership_tag_keys IntegrationGoogleCloud#ownership_tag_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/integration_google_cloud#ownership_tag_keys IntegrationGoogleCloud#ownership_tag_keys}
   */
   readonly ownershipTagKeys?: string[];
   /**
   * Allow tags imported from Google Cloud to override ownership set in OpsLevel directly. (default = true)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/integration_google_cloud#ownership_tag_overrides IntegrationGoogleCloud#ownership_tag_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/integration_google_cloud#ownership_tag_overrides IntegrationGoogleCloud#ownership_tag_overrides}
   */
   readonly ownershipTagOverrides?: boolean | cdktf.IResolvable;
   /**
   * The private key for the service account that OpsLevel uses to access the Google Cloud account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/integration_google_cloud#private_key IntegrationGoogleCloud#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/integration_google_cloud#private_key IntegrationGoogleCloud#private_key}
   */
   readonly privateKey: string;
 }
@@ -125,7 +125,7 @@ export class IntegrationGoogleCloudProjectsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/integration_google_cloud opslevel_integration_google_cloud}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/integration_google_cloud opslevel_integration_google_cloud}
 */
 export class IntegrationGoogleCloud extends cdktf.TerraformResource {
 
@@ -141,7 +141,7 @@ export class IntegrationGoogleCloud extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationGoogleCloud resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationGoogleCloud to import
-  * @param importFromId The id of the existing IntegrationGoogleCloud that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/integration_google_cloud#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationGoogleCloud that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/integration_google_cloud#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationGoogleCloud to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +153,7 @@ export class IntegrationGoogleCloud extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/integration_google_cloud opslevel_integration_google_cloud} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/integration_google_cloud opslevel_integration_google_cloud} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,8 +164,8 @@ export class IntegrationGoogleCloud extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_integration_google_cloud',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.6.3',
-        providerVersionConstraint: '1.6.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

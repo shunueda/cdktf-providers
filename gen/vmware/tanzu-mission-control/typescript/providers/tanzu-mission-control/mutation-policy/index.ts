@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy
+// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface MutationPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#id MutationPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#id MutationPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface MutationPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the mutation policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#name MutationPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#name MutationPolicy#name}
   */
   readonly name: string;
   /**
   * meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#meta MutationPolicy#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#meta MutationPolicy#meta}
   */
   readonly meta?: MutationPolicyMeta;
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#scope MutationPolicy#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#scope MutationPolicy#scope}
   */
   readonly scope: MutationPolicyScope;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#spec MutationPolicy#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#spec MutationPolicy#spec}
   */
   readonly spec: MutationPolicySpec;
 }
@@ -43,19 +43,19 @@ export interface MutationPolicyMeta {
   /**
   * Annotations for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#annotations MutationPolicy#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#annotations MutationPolicy#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#description MutationPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#description MutationPolicy#description}
   */
   readonly description?: string;
   /**
   * Labels for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#labels MutationPolicy#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#labels MutationPolicy#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -209,19 +209,19 @@ export interface MutationPolicyScopeCluster {
   /**
   * Name of the management cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#management_cluster_name MutationPolicy#management_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#management_cluster_name MutationPolicy#management_cluster_name}
   */
   readonly managementClusterName?: string;
   /**
   * Name of this cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#name MutationPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#name MutationPolicy#name}
   */
   readonly name: string;
   /**
   * Provisioner of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#provisioner_name MutationPolicy#provisioner_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#provisioner_name MutationPolicy#provisioner_name}
   */
   readonly provisionerName?: string;
 }
@@ -362,7 +362,7 @@ export interface MutationPolicyScopeClusterGroup {
   /**
   * Name of this cluster group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#cluster_group MutationPolicy#cluster_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#cluster_group MutationPolicy#cluster_group}
   */
   readonly clusterGroup: string;
 }
@@ -445,7 +445,7 @@ export interface MutationPolicyScopeOrganization {
   /**
   * ID of this organization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#organization MutationPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#organization MutationPolicy#organization}
   */
   readonly organization: string;
 }
@@ -528,7 +528,7 @@ export interface MutationPolicyScopeWorkspace {
   /**
   * Name of this workspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#workspace MutationPolicy#workspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#workspace MutationPolicy#workspace}
   */
   readonly workspace: string;
 }
@@ -611,25 +611,25 @@ export interface MutationPolicyScope {
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#cluster MutationPolicy#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#cluster MutationPolicy#cluster}
   */
   readonly cluster?: MutationPolicyScopeCluster;
   /**
   * cluster_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#cluster_group MutationPolicy#cluster_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#cluster_group MutationPolicy#cluster_group}
   */
   readonly clusterGroup?: MutationPolicyScopeClusterGroup;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#organization MutationPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#organization MutationPolicy#organization}
   */
   readonly organization?: MutationPolicyScopeOrganization;
   /**
   * workspace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#workspace MutationPolicy#workspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#workspace MutationPolicy#workspace}
   */
   readonly workspace?: MutationPolicyScopeWorkspace;
 }
@@ -800,11 +800,11 @@ export class MutationPolicyScopeOutputReference extends cdktf.ComplexObject {
 }
 export interface MutationPolicySpecInputAnnotationAnnotation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#key MutationPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#key MutationPolicy#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#value MutationPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#value MutationPolicy#value}
   */
   readonly value: string;
 }
@@ -913,13 +913,13 @@ export interface MutationPolicySpecInputAnnotationTargetKubernetesResources {
   /**
   * APIGroup is a group containing the resource type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#api_groups MutationPolicy#api_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#api_groups MutationPolicy#api_groups}
   */
   readonly apiGroups: string[];
   /**
   * Kind is the name of the object schema (resource type).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#kinds MutationPolicy#kinds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#kinds MutationPolicy#kinds}
   */
   readonly kinds: string[];
 }
@@ -1060,19 +1060,19 @@ export interface MutationPolicySpecInputAnnotation {
   /**
   * Scope
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#scope MutationPolicy#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#scope MutationPolicy#scope}
   */
   readonly scope?: string;
   /**
   * annotation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#annotation MutationPolicy#annotation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#annotation MutationPolicy#annotation}
   */
   readonly annotation?: MutationPolicySpecInputAnnotationAnnotation;
   /**
   * target_kubernetes_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#target_kubernetes_resources MutationPolicy#target_kubernetes_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#target_kubernetes_resources MutationPolicy#target_kubernetes_resources}
   */
   readonly targetKubernetesResources: MutationPolicySpecInputAnnotationTargetKubernetesResources[] | cdktf.IResolvable;
 }
@@ -1211,11 +1211,11 @@ export class MutationPolicySpecInputAnnotationOutputReference extends cdktf.Comp
 }
 export interface MutationPolicySpecInputLabelLabel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#key MutationPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#key MutationPolicy#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#value MutationPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#value MutationPolicy#value}
   */
   readonly value: string;
 }
@@ -1324,13 +1324,13 @@ export interface MutationPolicySpecInputLabelTargetKubernetesResources {
   /**
   * APIGroup is a group containing the resource type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#api_groups MutationPolicy#api_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#api_groups MutationPolicy#api_groups}
   */
   readonly apiGroups: string[];
   /**
   * Kind is the name of the object schema (resource type).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#kinds MutationPolicy#kinds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#kinds MutationPolicy#kinds}
   */
   readonly kinds: string[];
 }
@@ -1471,19 +1471,19 @@ export interface MutationPolicySpecInputLabel {
   /**
   * Scope
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#scope MutationPolicy#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#scope MutationPolicy#scope}
   */
   readonly scope?: string;
   /**
   * label block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#label MutationPolicy#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#label MutationPolicy#label}
   */
   readonly label?: MutationPolicySpecInputLabelLabel;
   /**
   * target_kubernetes_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#target_kubernetes_resources MutationPolicy#target_kubernetes_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#target_kubernetes_resources MutationPolicy#target_kubernetes_resources}
   */
   readonly targetKubernetesResources: MutationPolicySpecInputLabelTargetKubernetesResources[] | cdktf.IResolvable;
 }
@@ -1622,11 +1622,11 @@ export class MutationPolicySpecInputLabelOutputReference extends cdktf.ComplexOb
 }
 export interface MutationPolicySpecInputPodSecurityAllowPrivilegeEscalation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#condition MutationPolicy#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#condition MutationPolicy#condition}
   */
   readonly condition: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#value MutationPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#value MutationPolicy#value}
   */
   readonly value: boolean | cdktf.IResolvable;
 }
@@ -1735,13 +1735,13 @@ export interface MutationPolicySpecInputPodSecurityCapabilitiesAdd {
   /**
   * Rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#operation MutationPolicy#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#operation MutationPolicy#operation}
   */
   readonly operation?: string;
   /**
   * Values is an array of string values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#values MutationPolicy#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#values MutationPolicy#values}
   */
   readonly values: string[];
 }
@@ -1853,13 +1853,13 @@ export interface MutationPolicySpecInputPodSecurityCapabilitiesDrop {
   /**
   * Rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#operation MutationPolicy#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#operation MutationPolicy#operation}
   */
   readonly operation?: string;
   /**
   * Values is an array of string values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#values MutationPolicy#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#values MutationPolicy#values}
   */
   readonly values: string[];
 }
@@ -1969,11 +1969,11 @@ export class MutationPolicySpecInputPodSecurityCapabilitiesDropOutputReference e
 }
 export interface MutationPolicySpecInputPodSecurityFsGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#condition MutationPolicy#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#condition MutationPolicy#condition}
   */
   readonly condition: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#value MutationPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#value MutationPolicy#value}
   */
   readonly value: number;
 }
@@ -2080,11 +2080,11 @@ export class MutationPolicySpecInputPodSecurityFsGroupOutputReference extends cd
 }
 export interface MutationPolicySpecInputPodSecurityPrivileged {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#condition MutationPolicy#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#condition MutationPolicy#condition}
   */
   readonly condition: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#value MutationPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#value MutationPolicy#value}
   */
   readonly value: boolean | cdktf.IResolvable;
 }
@@ -2191,11 +2191,11 @@ export class MutationPolicySpecInputPodSecurityPrivilegedOutputReference extends
 }
 export interface MutationPolicySpecInputPodSecurityReadOnlyRootFilesystem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#condition MutationPolicy#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#condition MutationPolicy#condition}
   */
   readonly condition: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#value MutationPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#value MutationPolicy#value}
   */
   readonly value: boolean | cdktf.IResolvable;
 }
@@ -2302,11 +2302,11 @@ export class MutationPolicySpecInputPodSecurityReadOnlyRootFilesystemOutputRefer
 }
 export interface MutationPolicySpecInputPodSecurityRunAsGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#condition MutationPolicy#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#condition MutationPolicy#condition}
   */
   readonly condition: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#value MutationPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#value MutationPolicy#value}
   */
   readonly value: number;
 }
@@ -2413,11 +2413,11 @@ export class MutationPolicySpecInputPodSecurityRunAsGroupOutputReference extends
 }
 export interface MutationPolicySpecInputPodSecurityRunAsNonRoot {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#condition MutationPolicy#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#condition MutationPolicy#condition}
   */
   readonly condition: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#value MutationPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#value MutationPolicy#value}
   */
   readonly value: boolean | cdktf.IResolvable;
 }
@@ -2524,11 +2524,11 @@ export class MutationPolicySpecInputPodSecurityRunAsNonRootOutputReference exten
 }
 export interface MutationPolicySpecInputPodSecurityRunAsUser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#condition MutationPolicy#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#condition MutationPolicy#condition}
   */
   readonly condition: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#value MutationPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#value MutationPolicy#value}
   */
   readonly value: number;
 }
@@ -2637,31 +2637,31 @@ export interface MutationPolicySpecInputPodSecuritySeLinuxOptions {
   /**
   * SELinux condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#condition MutationPolicy#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#condition MutationPolicy#condition}
   */
   readonly condition?: string;
   /**
   * SELinux level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#level MutationPolicy#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#level MutationPolicy#level}
   */
   readonly level?: string;
   /**
   * SELinux role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#role MutationPolicy#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#role MutationPolicy#role}
   */
   readonly role?: string;
   /**
   * SELinux type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#type MutationPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#type MutationPolicy#type}
   */
   readonly type?: string;
   /**
   * SELinux user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#user MutationPolicy#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#user MutationPolicy#user}
   */
   readonly user?: string;
 }
@@ -2893,11 +2893,11 @@ export class MutationPolicySpecInputPodSecuritySeLinuxOptionsList extends cdktf.
 }
 export interface MutationPolicySpecInputPodSecuritySupplementalGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#condition MutationPolicy#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#condition MutationPolicy#condition}
   */
   readonly condition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#values MutationPolicy#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#values MutationPolicy#values}
   */
   readonly values: number[];
 }
@@ -3009,67 +3009,67 @@ export interface MutationPolicySpecInputPodSecurity {
   /**
   * allow_privilege_escalation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#allow_privilege_escalation MutationPolicy#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#allow_privilege_escalation MutationPolicy#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: MutationPolicySpecInputPodSecurityAllowPrivilegeEscalation;
   /**
   * capabilities_add block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#capabilities_add MutationPolicy#capabilities_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#capabilities_add MutationPolicy#capabilities_add}
   */
   readonly capabilitiesAdd?: MutationPolicySpecInputPodSecurityCapabilitiesAdd;
   /**
   * capabilities_drop block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#capabilities_drop MutationPolicy#capabilities_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#capabilities_drop MutationPolicy#capabilities_drop}
   */
   readonly capabilitiesDrop?: MutationPolicySpecInputPodSecurityCapabilitiesDrop;
   /**
   * fs_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#fs_group MutationPolicy#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#fs_group MutationPolicy#fs_group}
   */
   readonly fsGroup?: MutationPolicySpecInputPodSecurityFsGroup;
   /**
   * privileged block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#privileged MutationPolicy#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#privileged MutationPolicy#privileged}
   */
   readonly privileged?: MutationPolicySpecInputPodSecurityPrivileged;
   /**
   * read_only_root_filesystem block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#read_only_root_filesystem MutationPolicy#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#read_only_root_filesystem MutationPolicy#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: MutationPolicySpecInputPodSecurityReadOnlyRootFilesystem;
   /**
   * run_as_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#run_as_group MutationPolicy#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#run_as_group MutationPolicy#run_as_group}
   */
   readonly runAsGroup?: MutationPolicySpecInputPodSecurityRunAsGroup;
   /**
   * run_as_non_root block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#run_as_non_root MutationPolicy#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#run_as_non_root MutationPolicy#run_as_non_root}
   */
   readonly runAsNonRoot?: MutationPolicySpecInputPodSecurityRunAsNonRoot;
   /**
   * run_as_user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#run_as_user MutationPolicy#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#run_as_user MutationPolicy#run_as_user}
   */
   readonly runAsUser?: MutationPolicySpecInputPodSecurityRunAsUser;
   /**
   * se_linux_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#se_linux_options MutationPolicy#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#se_linux_options MutationPolicy#se_linux_options}
   */
   readonly seLinuxOptions?: MutationPolicySpecInputPodSecuritySeLinuxOptions[] | cdktf.IResolvable;
   /**
   * supplemental_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#supplemental_groups MutationPolicy#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#supplemental_groups MutationPolicy#supplemental_groups}
   */
   readonly supplementalGroups?: MutationPolicySpecInputPodSecuritySupplementalGroups;
 }
@@ -3445,19 +3445,19 @@ export interface MutationPolicySpecInput {
   /**
   * annotation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#annotation MutationPolicy#annotation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#annotation MutationPolicy#annotation}
   */
   readonly annotation?: MutationPolicySpecInputAnnotation;
   /**
   * label block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#label MutationPolicy#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#label MutationPolicy#label}
   */
   readonly label?: MutationPolicySpecInputLabel;
   /**
   * pod_security block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#pod_security MutationPolicy#pod_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#pod_security MutationPolicy#pod_security}
   */
   readonly podSecurity?: MutationPolicySpecInputPodSecurity;
 }
@@ -3601,19 +3601,19 @@ export interface MutationPolicySpecNamespaceSelectorMatchExpressions {
   /**
   * Key is the label key that the selector applies to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#key MutationPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#key MutationPolicy#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to a set of values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#operator MutationPolicy#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#operator MutationPolicy#operator}
   */
   readonly operator?: string;
   /**
   * Values is an array of string values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#values MutationPolicy#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#values MutationPolicy#values}
   */
   readonly values: string[];
 }
@@ -3786,7 +3786,7 @@ export interface MutationPolicySpecNamespaceSelector {
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#match_expressions MutationPolicy#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#match_expressions MutationPolicy#match_expressions}
   */
   readonly matchExpressions: MutationPolicySpecNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -3869,13 +3869,13 @@ export interface MutationPolicySpec {
   /**
   * input block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#input MutationPolicy#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#input MutationPolicy#input}
   */
   readonly input: MutationPolicySpecInput;
   /**
   * namespace_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#namespace_selector MutationPolicy#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#namespace_selector MutationPolicy#namespace_selector}
   */
   readonly namespaceSelector?: MutationPolicySpecNamespaceSelector;
 }
@@ -3985,7 +3985,7 @@ export class MutationPolicySpecOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy tanzu-mission-control_mutation_policy}
+* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy tanzu-mission-control_mutation_policy}
 */
 export class MutationPolicy extends cdktf.TerraformResource {
 
@@ -4001,7 +4001,7 @@ export class MutationPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MutationPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MutationPolicy to import
-  * @param importFromId The id of the existing MutationPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MutationPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MutationPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4013,7 +4013,7 @@ export class MutationPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/mutation_policy tanzu-mission-control_mutation_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/mutation_policy tanzu-mission-control_mutation_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4024,8 +4024,8 @@ export class MutationPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'tanzu-mission-control_mutation_policy',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9',
-        providerVersionConstraint: '1.4.9'
+        providerVersion: '1.4.10',
+        providerVersionConstraint: '1.4.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

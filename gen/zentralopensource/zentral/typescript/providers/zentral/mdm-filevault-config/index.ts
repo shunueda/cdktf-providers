@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_filevault_config
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_filevault_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface MdmFilevaultConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * If `true`, prevents requests for enabling FileVault at user logout time. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_filevault_config#at_login_only MdmFilevaultConfig#at_login_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_filevault_config#at_login_only MdmFilevaultConfig#at_login_only}
   */
   readonly atLoginOnly?: boolean | cdktf.IResolvable;
   /**
   * The maximum number of times users can bypass enabling FileVault before being required to enable it to log in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_filevault_config#bypass_attempts MdmFilevaultConfig#bypass_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_filevault_config#bypass_attempts MdmFilevaultConfig#bypass_attempts}
   */
   readonly bypassAttempts?: number;
   /**
   * Set to `true` to prevent storing the FileVault key across restarts. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_filevault_config#destroy_key_on_standby MdmFilevaultConfig#destroy_key_on_standby}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_filevault_config#destroy_key_on_standby MdmFilevaultConfig#destroy_key_on_standby}
   */
   readonly destroyKeyOnStandby?: boolean | cdktf.IResolvable;
   /**
   * Description of the location where the FDE PRK will be escrowed. This text will be inserted into the message the user sees when enabling FileVault.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_filevault_config#escrow_location_display_name MdmFilevaultConfig#escrow_location_display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_filevault_config#escrow_location_display_name MdmFilevaultConfig#escrow_location_display_name}
   */
   readonly escrowLocationDisplayName: string;
   /**
   * Name of the FileVault configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_filevault_config#name MdmFilevaultConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_filevault_config#name MdmFilevaultConfig#name}
   */
   readonly name: string;
   /**
   * The automatic PRK rotation interval in days. It has a maximum value of `365`. Defaults to `0` (no automatic rotation).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_filevault_config#prk_rotation_interval_days MdmFilevaultConfig#prk_rotation_interval_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_filevault_config#prk_rotation_interval_days MdmFilevaultConfig#prk_rotation_interval_days}
   */
   readonly prkRotationIntervalDays?: number;
   /**
   * If `false`, prevents display of the personal recovery key to the user after FileVault is enabled. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_filevault_config#show_recovery_key MdmFilevaultConfig#show_recovery_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_filevault_config#show_recovery_key MdmFilevaultConfig#show_recovery_key}
   */
   readonly showRecoveryKey?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_filevault_config zentral_mdm_filevault_config}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_filevault_config zentral_mdm_filevault_config}
 */
 export class MdmFilevaultConfig extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class MdmFilevaultConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdmFilevaultConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdmFilevaultConfig to import
-  * @param importFromId The id of the existing MdmFilevaultConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_filevault_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdmFilevaultConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_filevault_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdmFilevaultConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class MdmFilevaultConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_filevault_config zentral_mdm_filevault_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_filevault_config zentral_mdm_filevault_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class MdmFilevaultConfig extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_mdm_filevault_config',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.65',
-        providerVersionConstraint: '0.1.65'
+        providerVersion: '0.1.67',
+        providerVersionConstraint: '0.1.67'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

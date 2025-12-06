@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_code_issue
+// https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_code_issue
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface CheckCodeIssueConfig extends cdktf.TerraformMetaArguments {
   /**
   * The id of the category the check belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_code_issue#category CheckCodeIssue#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_code_issue#category CheckCodeIssue#category}
   */
   readonly category: string;
   /**
   * The type of constraint used in evaluation the code issues check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_code_issue#constraint CheckCodeIssue#constraint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_code_issue#constraint CheckCodeIssue#constraint}
   */
   readonly constraint: string;
   /**
@@ -25,73 +25,73 @@ export interface CheckCodeIssueConfig extends cdktf.TerraformMetaArguments {
   *  See example in opslevel_check_manual for proper configuration.
   *  
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_code_issue#enable_on CheckCodeIssue#enable_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_code_issue#enable_on CheckCodeIssue#enable_on}
   */
   readonly enableOn?: string;
   /**
   * Whether the check is enabled or not.  Do not use this field in tandem with 'enable_on'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_code_issue#enabled CheckCodeIssue#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_code_issue#enabled CheckCodeIssue#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The id of the filter of the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_code_issue#filter CheckCodeIssue#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_code_issue#filter CheckCodeIssue#filter}
   */
   readonly filter?: string;
   /**
   * The issue name used for code issue lookup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_code_issue#issue_name CheckCodeIssue#issue_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_code_issue#issue_name CheckCodeIssue#issue_name}
   */
   readonly issueName?: string;
   /**
   * The types of code issues to consider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_code_issue#issue_type CheckCodeIssue#issue_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_code_issue#issue_type CheckCodeIssue#issue_type}
   */
   readonly issueType?: string[];
   /**
   * The id of the level the check belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_code_issue#level CheckCodeIssue#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_code_issue#level CheckCodeIssue#level}
   */
   readonly level: string;
   /**
   * The threshold count of code issues beyond which the check starts failing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_code_issue#max_allowed CheckCodeIssue#max_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_code_issue#max_allowed CheckCodeIssue#max_allowed}
   */
   readonly maxAllowed?: number;
   /**
   * The display name of the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_code_issue#name CheckCodeIssue#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_code_issue#name CheckCodeIssue#name}
   */
   readonly name: string;
   /**
   * Additional information to display to the service owner about the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_code_issue#notes CheckCodeIssue#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_code_issue#notes CheckCodeIssue#notes}
   */
   readonly notes?: string;
   /**
   * The id of the team that owns the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_code_issue#owner CheckCodeIssue#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_code_issue#owner CheckCodeIssue#owner}
   */
   readonly owner?: string;
   /**
   * Defines the minimum frequency of the updates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_code_issue#resolution_time CheckCodeIssue#resolution_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_code_issue#resolution_time CheckCodeIssue#resolution_time}
   */
   readonly resolutionTime?: CheckCodeIssueResolutionTime;
   /**
   * The severity levels of the issue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_code_issue#severity CheckCodeIssue#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_code_issue#severity CheckCodeIssue#severity}
   */
   readonly severity?: string[];
 }
@@ -99,13 +99,13 @@ export interface CheckCodeIssueResolutionTime {
   /**
   * The name of duration of time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_code_issue#unit CheckCodeIssue#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_code_issue#unit CheckCodeIssue#unit}
   */
   readonly unit: string;
   /**
   * The count value of the specified unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_code_issue#value CheckCodeIssue#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_code_issue#value CheckCodeIssue#value}
   */
   readonly value: number;
 }
@@ -222,7 +222,7 @@ export class CheckCodeIssueResolutionTimeOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_code_issue opslevel_check_code_issue}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_code_issue opslevel_check_code_issue}
 */
 export class CheckCodeIssue extends cdktf.TerraformResource {
 
@@ -238,7 +238,7 @@ export class CheckCodeIssue extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CheckCodeIssue resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CheckCodeIssue to import
-  * @param importFromId The id of the existing CheckCodeIssue that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_code_issue#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CheckCodeIssue that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_code_issue#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CheckCodeIssue to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -250,7 +250,7 @@ export class CheckCodeIssue extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_code_issue opslevel_check_code_issue} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_code_issue opslevel_check_code_issue} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -261,8 +261,8 @@ export class CheckCodeIssue extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_check_code_issue',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.6.3',
-        providerVersionConstraint: '1.6.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

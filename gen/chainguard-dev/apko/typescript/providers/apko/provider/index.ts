@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs
+// https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface ApkoProviderConfig {
   /**
   * Additional repositories to search for packages, only during apko build
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs#build_repositories ApkoProvider#build_repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs#build_repositories ApkoProvider#build_repositories}
   */
   readonly buildRepositories?: string[];
   /**
   * Default annotations to add
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs#default_annotations ApkoProvider#default_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs#default_annotations ApkoProvider#default_annotations}
   */
   readonly defaultAnnotations?: { [key: string]: string };
   /**
   * Default architectures to build for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs#default_archs ApkoProvider#default_archs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs#default_archs ApkoProvider#default_archs}
   */
   readonly defaultArchs?: string[];
   /**
   * Default image layering configuration when not specified in the config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs#default_layering ApkoProvider#default_layering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs#default_layering ApkoProvider#default_layering}
   */
   readonly defaultLayering?: ApkoProviderDefaultLayering;
   /**
   * Additional keys to use for package verification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs#extra_keyring ApkoProvider#extra_keyring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs#extra_keyring ApkoProvider#extra_keyring}
   */
   readonly extraKeyring?: string[];
   /**
   * Additional packages to install
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs#extra_packages ApkoProvider#extra_packages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs#extra_packages ApkoProvider#extra_packages}
   */
   readonly extraPackages?: string[];
   /**
   * Additional repositories to search for packages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs#extra_repositories ApkoProvider#extra_repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs#extra_repositories ApkoProvider#extra_repositories}
   */
   readonly extraRepositories?: string[];
   /**
   * Whether to plan offline
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs#plan_offline ApkoProvider#plan_offline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs#plan_offline ApkoProvider#plan_offline}
   */
   readonly planOffline?: boolean | cdktf.IResolvable;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs#alias ApkoProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs#alias ApkoProvider#alias}
   */
   readonly alias?: string;
 }
@@ -66,13 +66,13 @@ export interface ApkoProviderDefaultLayering {
   /**
   * Budget for the maximum number of layers that can be generated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs#budget ApkoProvider#budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs#budget ApkoProvider#budget}
   */
   readonly budget: number;
   /**
   * Layering strategy, currently only 'origin' is supported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs#strategy ApkoProvider#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs#strategy ApkoProvider#strategy}
   */
   readonly strategy: string;
 }
@@ -115,7 +115,7 @@ export function apkoProviderDefaultLayeringToHclTerraform(struct?: ApkoProviderD
 
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs apko}
+* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs apko}
 */
 export class ApkoProvider extends cdktf.TerraformProvider {
 
@@ -131,7 +131,7 @@ export class ApkoProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a ApkoProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApkoProvider to import
-  * @param importFromId The id of the existing ApkoProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApkoProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApkoProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -143,7 +143,7 @@ export class ApkoProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs apko} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs apko} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -154,8 +154,8 @@ export class ApkoProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'apko',
       terraformGeneratorMetadata: {
         providerName: 'apko',
-        providerVersion: '0.30.20',
-        providerVersionConstraint: '0.30.20'
+        providerVersion: '0.30.28',
+        providerVersionConstraint: '0.30.28'
       },
       terraformProviderSource: 'chainguard-dev/apko'
     });

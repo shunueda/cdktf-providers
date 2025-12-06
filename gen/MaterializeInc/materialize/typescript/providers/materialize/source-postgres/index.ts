@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_postgres
+// https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_postgres
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface SourcePostgresConfig extends cdktf.TerraformMetaArguments {
   /**
   * The cluster to maintain this source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_postgres#cluster_name SourcePostgres#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_postgres#cluster_name SourcePostgres#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * Comment on an object in the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_postgres#comment SourcePostgres#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_postgres#comment SourcePostgres#comment}
   */
   readonly comment?: string;
   /**
   * The identifier for the source database in Materialize. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_postgres#database_name SourcePostgres#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_postgres#database_name SourcePostgres#database_name}
   */
   readonly databaseName?: string;
   /**
-  * Exclude specific columns when reading data from PostgreSQL. Can only be updated in place when also updating a corresponding `table` attribute.
+  * (Deprecated) Exclude specific columns when reading data from PostgreSQL. Can only be updated in place when also updating a corresponding `table` attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_postgres#exclude_columns SourcePostgres#exclude_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_postgres#exclude_columns SourcePostgres#exclude_columns}
   */
   readonly excludeColumns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_postgres#id SourcePostgres#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_postgres#id SourcePostgres#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,75 +41,75 @@ export interface SourcePostgresConfig extends cdktf.TerraformMetaArguments {
   /**
   * The identifier for the source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_postgres#name SourcePostgres#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_postgres#name SourcePostgres#name}
   */
   readonly name: string;
   /**
   * The owernship role of the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_postgres#ownership_role SourcePostgres#ownership_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_postgres#ownership_role SourcePostgres#ownership_role}
   */
   readonly ownershipRole?: string;
   /**
   * The PostgreSQL publication (the replication data set containing the tables to be streamed to Materialize).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_postgres#publication SourcePostgres#publication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_postgres#publication SourcePostgres#publication}
   */
   readonly publication: string;
   /**
   * The region to use for the resource connection. If not set, the default region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_postgres#region SourcePostgres#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_postgres#region SourcePostgres#region}
   */
   readonly region?: string;
   /**
   * The identifier for the source schema in Materialize. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_postgres#schema_name SourcePostgres#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_postgres#schema_name SourcePostgres#schema_name}
   */
   readonly schemaName?: string;
   /**
-  * Decode data as text for specific columns that contain PostgreSQL types that are unsupported in Materialize. Can only be updated in place when also updating a corresponding `table` attribute.
+  * (Deprecated) Decode data as text for specific columns that contain PostgreSQL types that are unsupported in Materialize. Use `materialize_source_table_postgres` resources instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_postgres#text_columns SourcePostgres#text_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_postgres#text_columns SourcePostgres#text_columns}
   */
   readonly textColumns?: string[];
   /**
   * expose_progress block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_postgres#expose_progress SourcePostgres#expose_progress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_postgres#expose_progress SourcePostgres#expose_progress}
   */
   readonly exposeProgress?: SourcePostgresExposeProgress;
   /**
   * postgres_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_postgres#postgres_connection SourcePostgres#postgres_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_postgres#postgres_connection SourcePostgres#postgres_connection}
   */
   readonly postgresConnection: SourcePostgresPostgresConnection;
   /**
   * table block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_postgres#table SourcePostgres#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_postgres#table SourcePostgres#table}
   */
-  readonly table: SourcePostgresTable[] | cdktf.IResolvable;
+  readonly table?: SourcePostgresTable[] | cdktf.IResolvable;
 }
 export interface SourcePostgresExposeProgress {
   /**
   * The expose_progress database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_postgres#database_name SourcePostgres#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_postgres#database_name SourcePostgres#database_name}
   */
   readonly databaseName?: string;
   /**
   * The expose_progress name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_postgres#name SourcePostgres#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_postgres#name SourcePostgres#name}
   */
   readonly name: string;
   /**
   * The expose_progress schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_postgres#schema_name SourcePostgres#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_postgres#schema_name SourcePostgres#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -250,19 +250,19 @@ export interface SourcePostgresPostgresConnection {
   /**
   * The postgres_connection database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_postgres#database_name SourcePostgres#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_postgres#database_name SourcePostgres#database_name}
   */
   readonly databaseName?: string;
   /**
   * The postgres_connection name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_postgres#name SourcePostgres#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_postgres#name SourcePostgres#name}
   */
   readonly name: string;
   /**
   * The postgres_connection schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_postgres#schema_name SourcePostgres#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_postgres#schema_name SourcePostgres#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -403,31 +403,31 @@ export interface SourcePostgresTable {
   /**
   * The database of the table in Materialize.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_postgres#database_name SourcePostgres#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_postgres#database_name SourcePostgres#database_name}
   */
   readonly databaseName?: string;
   /**
   * The name of the table in Materialize.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_postgres#name SourcePostgres#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_postgres#name SourcePostgres#name}
   */
   readonly name?: string;
   /**
   * The schema of the table in Materialize.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_postgres#schema_name SourcePostgres#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_postgres#schema_name SourcePostgres#schema_name}
   */
   readonly schemaName?: string;
   /**
   * The name of the table in the upstream Postgres database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_postgres#upstream_name SourcePostgres#upstream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_postgres#upstream_name SourcePostgres#upstream_name}
   */
   readonly upstreamName: string;
   /**
   * The schema of the table in the upstream Postgres database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_postgres#upstream_schema_name SourcePostgres#upstream_schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_postgres#upstream_schema_name SourcePostgres#upstream_schema_name}
   */
   readonly upstreamSchemaName?: string;
 }
@@ -656,7 +656,7 @@ export class SourcePostgresTableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_postgres materialize_source_postgres}
+* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_postgres materialize_source_postgres}
 */
 export class SourcePostgres extends cdktf.TerraformResource {
 
@@ -672,7 +672,7 @@ export class SourcePostgres extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SourcePostgres resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SourcePostgres to import
-  * @param importFromId The id of the existing SourcePostgres that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_postgres#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SourcePostgres that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_postgres#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SourcePostgres to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -684,7 +684,7 @@ export class SourcePostgres extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_postgres materialize_source_postgres} Resource
+  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_postgres materialize_source_postgres} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -695,8 +695,8 @@ export class SourcePostgres extends cdktf.TerraformResource {
       terraformResourceType: 'materialize_source_postgres',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.5',
-        providerVersionConstraint: '0.9.5'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -935,13 +935,16 @@ export class SourcePostgres extends cdktf.TerraformResource {
     return this._postgresConnection.internalValue;
   }
 
-  // table - computed: false, optional: false, required: true
+  // table - computed: false, optional: true, required: false
   private _table = new SourcePostgresTableList(this, "table", true);
   public get table() {
     return this._table;
   }
   public putTable(value: SourcePostgresTable[] | cdktf.IResolvable) {
     this._table.internalValue = value;
+  }
+  public resetTable() {
+    this._table.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get tableInput() {

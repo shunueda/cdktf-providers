@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_sqlserver
+// https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_sqlserver
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface SourceSqlserverConfig extends cdktf.TerraformMetaArguments {
   /**
   * The cluster to maintain this source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_sqlserver#cluster_name SourceSqlserver#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_sqlserver#cluster_name SourceSqlserver#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * Comment on an object in the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_sqlserver#comment SourceSqlserver#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_sqlserver#comment SourceSqlserver#comment}
   */
   readonly comment?: string;
   /**
   * The identifier for the source database in Materialize. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_sqlserver#database_name SourceSqlserver#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_sqlserver#database_name SourceSqlserver#database_name}
   */
   readonly databaseName?: string;
   /**
   * Exclude specific columns when reading data from SQL Server. Can only be updated in place when also updating a corresponding `table` attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_sqlserver#exclude_columns SourceSqlserver#exclude_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_sqlserver#exclude_columns SourceSqlserver#exclude_columns}
   */
   readonly excludeColumns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_sqlserver#id SourceSqlserver#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_sqlserver#id SourceSqlserver#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,55 +41,55 @@ export interface SourceSqlserverConfig extends cdktf.TerraformMetaArguments {
   /**
   * The identifier for the source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_sqlserver#name SourceSqlserver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_sqlserver#name SourceSqlserver#name}
   */
   readonly name: string;
   /**
   * The owernship role of the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_sqlserver#ownership_role SourceSqlserver#ownership_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_sqlserver#ownership_role SourceSqlserver#ownership_role}
   */
   readonly ownershipRole?: string;
   /**
   * The region to use for the resource connection. If not set, the default region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_sqlserver#region SourceSqlserver#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_sqlserver#region SourceSqlserver#region}
   */
   readonly region?: string;
   /**
   * The identifier for the source schema in Materialize. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_sqlserver#schema_name SourceSqlserver#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_sqlserver#schema_name SourceSqlserver#schema_name}
   */
   readonly schemaName?: string;
   /**
   * Decode data as text for specific columns that contain SQL Server types that are unsupported in Materialize. Can only be updated in place when also updating a corresponding `table` attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_sqlserver#text_columns SourceSqlserver#text_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_sqlserver#text_columns SourceSqlserver#text_columns}
   */
   readonly textColumns?: string[];
   /**
   * aws_privatelink block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_sqlserver#aws_privatelink SourceSqlserver#aws_privatelink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_sqlserver#aws_privatelink SourceSqlserver#aws_privatelink}
   */
   readonly awsPrivatelink?: SourceSqlserverAwsPrivatelink;
   /**
   * expose_progress block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_sqlserver#expose_progress SourceSqlserver#expose_progress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_sqlserver#expose_progress SourceSqlserver#expose_progress}
   */
   readonly exposeProgress?: SourceSqlserverExposeProgress;
   /**
   * sqlserver_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_sqlserver#sqlserver_connection SourceSqlserver#sqlserver_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_sqlserver#sqlserver_connection SourceSqlserver#sqlserver_connection}
   */
   readonly sqlserverConnection: SourceSqlserverSqlserverConnection;
   /**
   * table block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_sqlserver#table SourceSqlserver#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_sqlserver#table SourceSqlserver#table}
   */
   readonly table?: SourceSqlserverTable[] | cdktf.IResolvable;
 }
@@ -97,19 +97,19 @@ export interface SourceSqlserverAwsPrivatelink {
   /**
   * The aws_privatelink database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_sqlserver#database_name SourceSqlserver#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_sqlserver#database_name SourceSqlserver#database_name}
   */
   readonly databaseName?: string;
   /**
   * The aws_privatelink name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_sqlserver#name SourceSqlserver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_sqlserver#name SourceSqlserver#name}
   */
   readonly name: string;
   /**
   * The aws_privatelink schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_sqlserver#schema_name SourceSqlserver#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_sqlserver#schema_name SourceSqlserver#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -250,19 +250,19 @@ export interface SourceSqlserverExposeProgress {
   /**
   * The expose_progress database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_sqlserver#database_name SourceSqlserver#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_sqlserver#database_name SourceSqlserver#database_name}
   */
   readonly databaseName?: string;
   /**
   * The expose_progress name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_sqlserver#name SourceSqlserver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_sqlserver#name SourceSqlserver#name}
   */
   readonly name: string;
   /**
   * The expose_progress schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_sqlserver#schema_name SourceSqlserver#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_sqlserver#schema_name SourceSqlserver#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -403,19 +403,19 @@ export interface SourceSqlserverSqlserverConnection {
   /**
   * The sqlserver_connection database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_sqlserver#database_name SourceSqlserver#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_sqlserver#database_name SourceSqlserver#database_name}
   */
   readonly databaseName?: string;
   /**
   * The sqlserver_connection name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_sqlserver#name SourceSqlserver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_sqlserver#name SourceSqlserver#name}
   */
   readonly name: string;
   /**
   * The sqlserver_connection schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_sqlserver#schema_name SourceSqlserver#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_sqlserver#schema_name SourceSqlserver#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -556,31 +556,31 @@ export interface SourceSqlserverTable {
   /**
   * The database of the table in Materialize.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_sqlserver#database_name SourceSqlserver#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_sqlserver#database_name SourceSqlserver#database_name}
   */
   readonly databaseName?: string;
   /**
   * The name for the table, used in Materialize.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_sqlserver#name SourceSqlserver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_sqlserver#name SourceSqlserver#name}
   */
   readonly name?: string;
   /**
   * The schema of the table in Materialize.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_sqlserver#schema_name SourceSqlserver#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_sqlserver#schema_name SourceSqlserver#schema_name}
   */
   readonly schemaName?: string;
   /**
   * The name of the table in the upstream SQL Server database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_sqlserver#upstream_name SourceSqlserver#upstream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_sqlserver#upstream_name SourceSqlserver#upstream_name}
   */
   readonly upstreamName: string;
   /**
   * The schema of the table in the upstream SQL Server database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_sqlserver#upstream_schema_name SourceSqlserver#upstream_schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_sqlserver#upstream_schema_name SourceSqlserver#upstream_schema_name}
   */
   readonly upstreamSchemaName?: string;
 }
@@ -809,7 +809,7 @@ export class SourceSqlserverTableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_sqlserver materialize_source_sqlserver}
+* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_sqlserver materialize_source_sqlserver}
 */
 export class SourceSqlserver extends cdktf.TerraformResource {
 
@@ -825,7 +825,7 @@ export class SourceSqlserver extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SourceSqlserver resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SourceSqlserver to import
-  * @param importFromId The id of the existing SourceSqlserver that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_sqlserver#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SourceSqlserver that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_sqlserver#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SourceSqlserver to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -837,7 +837,7 @@ export class SourceSqlserver extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/source_sqlserver materialize_source_sqlserver} Resource
+  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/source_sqlserver materialize_source_sqlserver} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -848,8 +848,8 @@ export class SourceSqlserver extends cdktf.TerraformResource {
       terraformResourceType: 'materialize_source_sqlserver',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.5',
-        providerVersionConstraint: '0.9.5'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

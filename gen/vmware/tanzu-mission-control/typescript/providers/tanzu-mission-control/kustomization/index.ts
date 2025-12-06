@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/kustomization
+// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/kustomization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface KustomizationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/kustomization#id Kustomization#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/kustomization#id Kustomization#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface KustomizationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the Kustomization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/kustomization#name Kustomization#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/kustomization#name Kustomization#name}
   */
   readonly name: string;
   /**
   * Name of Namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/kustomization#namespace_name Kustomization#namespace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/kustomization#namespace_name Kustomization#namespace_name}
   */
   readonly namespaceName: string;
   /**
   * meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/kustomization#meta Kustomization#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/kustomization#meta Kustomization#meta}
   */
   readonly meta?: KustomizationMeta;
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/kustomization#scope Kustomization#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/kustomization#scope Kustomization#scope}
   */
   readonly scope: KustomizationScope;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/kustomization#spec Kustomization#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/kustomization#spec Kustomization#spec}
   */
   readonly spec: KustomizationSpec;
 }
@@ -49,19 +49,19 @@ export interface KustomizationMeta {
   /**
   * Annotations for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/kustomization#annotations Kustomization#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/kustomization#annotations Kustomization#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/kustomization#description Kustomization#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/kustomization#description Kustomization#description}
   */
   readonly description?: string;
   /**
   * Labels for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/kustomization#labels Kustomization#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/kustomization#labels Kustomization#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -215,19 +215,19 @@ export interface KustomizationScopeCluster {
   /**
   * Name of the management cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/kustomization#management_cluster_name Kustomization#management_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/kustomization#management_cluster_name Kustomization#management_cluster_name}
   */
   readonly managementClusterName?: string;
   /**
   * Name of this cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/kustomization#name Kustomization#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/kustomization#name Kustomization#name}
   */
   readonly name: string;
   /**
   * Provisioner of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/kustomization#provisioner_name Kustomization#provisioner_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/kustomization#provisioner_name Kustomization#provisioner_name}
   */
   readonly provisionerName?: string;
 }
@@ -368,7 +368,7 @@ export interface KustomizationScopeClusterGroup {
   /**
   * Name of the cluster group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/kustomization#name Kustomization#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/kustomization#name Kustomization#name}
   */
   readonly name: string;
 }
@@ -451,13 +451,13 @@ export interface KustomizationScope {
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/kustomization#cluster Kustomization#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/kustomization#cluster Kustomization#cluster}
   */
   readonly cluster?: KustomizationScopeCluster;
   /**
   * cluster_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/kustomization#cluster_group Kustomization#cluster_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/kustomization#cluster_group Kustomization#cluster_group}
   */
   readonly clusterGroup?: KustomizationScopeClusterGroup;
 }
@@ -572,13 +572,13 @@ export interface KustomizationSpecSource {
   /**
   * Name of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/kustomization#name Kustomization#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/kustomization#name Kustomization#name}
   */
   readonly name: string;
   /**
   * Namespace of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/kustomization#namespace Kustomization#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/kustomization#namespace Kustomization#namespace}
   */
   readonly namespace: string;
 }
@@ -687,31 +687,31 @@ export interface KustomizationSpec {
   /**
   * Interval defines the interval at which to reconcile kustomization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/kustomization#interval Kustomization#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/kustomization#interval Kustomization#interval}
   */
   readonly interval?: string;
   /**
   * Path within the source from which configurations will be applied. The path must exactly match what is in the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/kustomization#path Kustomization#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/kustomization#path Kustomization#path}
   */
   readonly path: string;
   /**
   * If true, the workloads will be deleted when the kustomization CR is deleted. When prune is enabled, removing the kustomization will trigger a removal of all kubernetes objects previously applied on all clusters of this cluster group by this kustomization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/kustomization#prune Kustomization#prune}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/kustomization#prune Kustomization#prune}
   */
   readonly prune?: boolean | cdktf.IResolvable;
   /**
   * TargetNamespace sets or overrides the namespaces of resources/kustomization yaml while applying on cluster. Namespace specified here must exist on cluster. It won't be created as a result of specifying here. Enter the name of the namespace you want the kustomization to be synced to. Entering a target namespace removes the need to specify a namespace in your kustomization. If the namespace does not exist in the cluster, syncing the kustomization will fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/kustomization#target_namespace Kustomization#target_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/kustomization#target_namespace Kustomization#target_namespace}
   */
   readonly targetNamespace?: string;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/kustomization#source Kustomization#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/kustomization#source Kustomization#source}
   */
   readonly source: KustomizationSpecSource;
 }
@@ -905,7 +905,7 @@ export class KustomizationSpecOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/kustomization tanzu-mission-control_kustomization}
+* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/kustomization tanzu-mission-control_kustomization}
 */
 export class Kustomization extends cdktf.TerraformResource {
 
@@ -921,7 +921,7 @@ export class Kustomization extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Kustomization resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Kustomization to import
-  * @param importFromId The id of the existing Kustomization that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/kustomization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Kustomization that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/kustomization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Kustomization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -933,7 +933,7 @@ export class Kustomization extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/kustomization tanzu-mission-control_kustomization} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/kustomization tanzu-mission-control_kustomization} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -944,8 +944,8 @@ export class Kustomization extends cdktf.TerraformResource {
       terraformResourceType: 'tanzu-mission-control_kustomization',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9',
-        providerVersionConstraint: '1.4.9'
+        providerVersion: '1.4.10',
+        providerVersionConstraint: '1.4.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

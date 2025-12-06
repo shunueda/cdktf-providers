@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_relationship
+// https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_relationship
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface CheckRelationshipConfig extends cdktf.TerraformMetaArguments {
   /**
   * The id of the category the check belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_relationship#category CheckRelationship#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_relationship#category CheckRelationship#category}
   */
   readonly category: string;
   /**
@@ -19,55 +19,55 @@ export interface CheckRelationshipConfig extends cdktf.TerraformMetaArguments {
   *  See example in opslevel_check_manual for proper configuration.
   *  
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_relationship#enable_on CheckRelationship#enable_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_relationship#enable_on CheckRelationship#enable_on}
   */
   readonly enableOn?: string;
   /**
   * Whether the check is enabled or not.  Do not use this field in tandem with 'enable_on'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_relationship#enabled CheckRelationship#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_relationship#enabled CheckRelationship#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The id of the filter of the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_relationship#filter CheckRelationship#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_relationship#filter CheckRelationship#filter}
   */
   readonly filter?: string;
   /**
   * The id of the level the check belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_relationship#level CheckRelationship#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_relationship#level CheckRelationship#level}
   */
   readonly level: string;
   /**
   * The display name of the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_relationship#name CheckRelationship#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_relationship#name CheckRelationship#name}
   */
   readonly name: string;
   /**
   * Additional information to display to the service owner about the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_relationship#notes CheckRelationship#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_relationship#notes CheckRelationship#notes}
   */
   readonly notes?: string;
   /**
   * The id of the team that owns the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_relationship#owner CheckRelationship#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_relationship#owner CheckRelationship#owner}
   */
   readonly owner?: string;
   /**
   * A condition that should be satisfied. One of `belongs_to`, `contains`, `does_not_contain`, `does_not_equal`, `does_not_exist`, `does_not_match`, `does_not_match_regex`, `ends_with`, `equals`, `exists`, `greater_than_or_equal_to`, `less_than_or_equal_to`, `matches`, `matches_regex`, `satisfies_jq_expression`, `satisfies_version_constraint`, `starts_with`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_relationship#relationship_count_predicate CheckRelationship#relationship_count_predicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_relationship#relationship_count_predicate CheckRelationship#relationship_count_predicate}
   */
   readonly relationshipCountPredicate?: CheckRelationshipRelationshipCountPredicate;
   /**
   * Count relationships of a specific relationship definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_relationship#relationship_definition_id CheckRelationship#relationship_definition_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_relationship#relationship_definition_id CheckRelationship#relationship_definition_id}
   */
   readonly relationshipDefinitionId: string;
 }
@@ -75,13 +75,13 @@ export interface CheckRelationshipRelationshipCountPredicate {
   /**
   * A condition that should be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_relationship#type CheckRelationship#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_relationship#type CheckRelationship#type}
   */
   readonly type: string;
   /**
   * The condition value used by the predicate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_relationship#value CheckRelationship#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_relationship#value CheckRelationship#value}
   */
   readonly value?: string;
 }
@@ -201,7 +201,7 @@ export class CheckRelationshipRelationshipCountPredicateOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_relationship opslevel_check_relationship}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_relationship opslevel_check_relationship}
 */
 export class CheckRelationship extends cdktf.TerraformResource {
 
@@ -217,7 +217,7 @@ export class CheckRelationship extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CheckRelationship resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CheckRelationship to import
-  * @param importFromId The id of the existing CheckRelationship that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_relationship#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CheckRelationship that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_relationship#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CheckRelationship to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -229,7 +229,7 @@ export class CheckRelationship extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_relationship opslevel_check_relationship} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_relationship opslevel_check_relationship} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -240,8 +240,8 @@ export class CheckRelationship extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_check_relationship',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.6.3',
-        providerVersionConstraint: '1.6.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

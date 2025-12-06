@@ -1,3 +1,3 @@
 # `data_materialize_sso_config`
 
-Refer to the Terraform Registry for docs: [`data_materialize_sso_config`](https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/data-sources/sso_config).
+Refer to the Terraform Registry for docs: [`data_materialize_sso_config`](https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/data-sources/sso_config).

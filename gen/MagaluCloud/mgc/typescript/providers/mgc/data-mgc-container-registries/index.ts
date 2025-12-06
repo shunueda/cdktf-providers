@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/data-sources/container_registries
+// https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/data-sources/container_registries
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -105,7 +105,7 @@ export class DataMgcContainerRegistriesRegistriesList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/data-sources/container_registries mgc_container_registries}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/data-sources/container_registries mgc_container_registries}
 */
 export class DataMgcContainerRegistries extends cdktf.TerraformDataSource {
 
@@ -121,7 +121,7 @@ export class DataMgcContainerRegistries extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMgcContainerRegistries resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMgcContainerRegistries to import
-  * @param importFromId The id of the existing DataMgcContainerRegistries that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/data-sources/container_registries#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMgcContainerRegistries that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/data-sources/container_registries#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMgcContainerRegistries to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -133,7 +133,7 @@ export class DataMgcContainerRegistries extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/data-sources/container_registries mgc_container_registries} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/data-sources/container_registries mgc_container_registries} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -144,8 +144,8 @@ export class DataMgcContainerRegistries extends cdktf.TerraformDataSource {
       terraformResourceType: 'mgc_container_registries',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.40.1',
-        providerVersionConstraint: '0.40.1'
+        providerVersion: '0.40.2',
+        providerVersionConstraint: '0.40.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

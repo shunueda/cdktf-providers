@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/data-sources/integrations
+// https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/integrations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -90,7 +90,7 @@ export class DataOpslevelIntegrationsIntegrationsList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/data-sources/integrations opslevel_integrations}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/integrations opslevel_integrations}
 */
 export class DataOpslevelIntegrations extends cdktf.TerraformDataSource {
 
@@ -106,7 +106,7 @@ export class DataOpslevelIntegrations extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOpslevelIntegrations resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOpslevelIntegrations to import
-  * @param importFromId The id of the existing DataOpslevelIntegrations that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/data-sources/integrations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOpslevelIntegrations that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/integrations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOpslevelIntegrations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -118,7 +118,7 @@ export class DataOpslevelIntegrations extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/data-sources/integrations opslevel_integrations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/integrations opslevel_integrations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -129,8 +129,8 @@ export class DataOpslevelIntegrations extends cdktf.TerraformDataSource {
       terraformResourceType: 'opslevel_integrations',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.6.3',
-        providerVersionConstraint: '1.6.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

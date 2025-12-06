@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/grant_system_privilege
+// https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/grant_system_privilege
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface GrantSystemPrivilegeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/grant_system_privilege#id GrantSystemPrivilege#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/grant_system_privilege#id GrantSystemPrivilege#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface GrantSystemPrivilegeConfig extends cdktf.TerraformMetaArguments
   /**
   * The system privilege to grant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/grant_system_privilege#privilege GrantSystemPrivilege#privilege}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/grant_system_privilege#privilege GrantSystemPrivilege#privilege}
   */
   readonly privilege: string;
   /**
   * The region to use for the resource connection. If not set, the default region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/grant_system_privilege#region GrantSystemPrivilege#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/grant_system_privilege#region GrantSystemPrivilege#region}
   */
   readonly region?: string;
   /**
   * The name of the role to grant privilege to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/grant_system_privilege#role_name GrantSystemPrivilege#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/grant_system_privilege#role_name GrantSystemPrivilege#role_name}
   */
   readonly roleName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/grant_system_privilege materialize_grant_system_privilege}
+* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/grant_system_privilege materialize_grant_system_privilege}
 */
 export class GrantSystemPrivilege extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class GrantSystemPrivilege extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GrantSystemPrivilege resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GrantSystemPrivilege to import
-  * @param importFromId The id of the existing GrantSystemPrivilege that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/grant_system_privilege#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GrantSystemPrivilege that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/grant_system_privilege#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GrantSystemPrivilege to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class GrantSystemPrivilege extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/grant_system_privilege materialize_grant_system_privilege} Resource
+  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/grant_system_privilege materialize_grant_system_privilege} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class GrantSystemPrivilege extends cdktf.TerraformResource {
       terraformResourceType: 'materialize_grant_system_privilege',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.5',
-        providerVersionConstraint: '0.9.5'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/user
+// https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface UserConfig extends cdktf.TerraformMetaArguments {
   /**
   * The email address of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/user#email User#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/user#email User#email}
   */
   readonly email: string;
   /**
   * The name of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/user#name User#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/user#name User#name}
   */
   readonly name: string;
   /**
   * The access role of the user. One of `admin`, `standards_admin`, `team_member`, `user`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/user#role User#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/user#role User#role}
   */
   readonly role?: string;
   /**
   * Send an invite email even if notifications are disabled for the account. **(default: false)**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/user#send_invite User#send_invite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/user#send_invite User#send_invite}
   */
   readonly sendInvite?: boolean | cdktf.IResolvable;
   /**
   * Don't send an email welcoming the user to OpsLevel. **(default: true)**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/user#skip_welcome_email User#skip_welcome_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/user#skip_welcome_email User#skip_welcome_email}
   */
   readonly skipWelcomeEmail?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/user opslevel_user}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/user opslevel_user}
 */
 export class User extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class User extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a User resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the User to import
-  * @param importFromId The id of the existing User that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing User that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the User to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class User extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/user opslevel_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/user opslevel_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class User extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_user',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.6.3',
-        providerVersionConstraint: '1.6.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

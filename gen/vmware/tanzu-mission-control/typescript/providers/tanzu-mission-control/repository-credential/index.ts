@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/repository_credential
+// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/repository_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface RepositoryCredentialConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/repository_credential#id RepositoryCredential#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/repository_credential#id RepositoryCredential#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface RepositoryCredentialConfig extends cdktf.TerraformMetaArguments
   /**
   * Name of the source secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/repository_credential#name RepositoryCredential#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/repository_credential#name RepositoryCredential#name}
   */
   readonly name: string;
   /**
   * ID of Organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/repository_credential#org_id RepositoryCredential#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/repository_credential#org_id RepositoryCredential#org_id}
   */
   readonly orgId?: string;
   /**
   * meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/repository_credential#meta RepositoryCredential#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/repository_credential#meta RepositoryCredential#meta}
   */
   readonly meta?: RepositoryCredentialMeta;
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/repository_credential#scope RepositoryCredential#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/repository_credential#scope RepositoryCredential#scope}
   */
   readonly scope: RepositoryCredentialScope;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/repository_credential#spec RepositoryCredential#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/repository_credential#spec RepositoryCredential#spec}
   */
   readonly spec: RepositoryCredentialSpec;
 }
@@ -49,19 +49,19 @@ export interface RepositoryCredentialMeta {
   /**
   * Annotations for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/repository_credential#annotations RepositoryCredential#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/repository_credential#annotations RepositoryCredential#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/repository_credential#description RepositoryCredential#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/repository_credential#description RepositoryCredential#description}
   */
   readonly description?: string;
   /**
   * Labels for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/repository_credential#labels RepositoryCredential#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/repository_credential#labels RepositoryCredential#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -215,19 +215,19 @@ export interface RepositoryCredentialScopeCluster {
   /**
   * Name of the management cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/repository_credential#management_cluster_name RepositoryCredential#management_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/repository_credential#management_cluster_name RepositoryCredential#management_cluster_name}
   */
   readonly managementClusterName?: string;
   /**
   * Name of this cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/repository_credential#name RepositoryCredential#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/repository_credential#name RepositoryCredential#name}
   */
   readonly name: string;
   /**
   * Provisioner of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/repository_credential#provisioner_name RepositoryCredential#provisioner_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/repository_credential#provisioner_name RepositoryCredential#provisioner_name}
   */
   readonly provisionerName?: string;
 }
@@ -368,7 +368,7 @@ export interface RepositoryCredentialScopeClusterGroup {
   /**
   * Name of the cluster group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/repository_credential#name RepositoryCredential#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/repository_credential#name RepositoryCredential#name}
   */
   readonly name: string;
 }
@@ -451,13 +451,13 @@ export interface RepositoryCredentialScope {
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/repository_credential#cluster RepositoryCredential#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/repository_credential#cluster RepositoryCredential#cluster}
   */
   readonly cluster?: RepositoryCredentialScopeCluster;
   /**
   * cluster_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/repository_credential#cluster_group RepositoryCredential#cluster_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/repository_credential#cluster_group RepositoryCredential#cluster_group}
   */
   readonly clusterGroup?: RepositoryCredentialScopeClusterGroup;
 }
@@ -572,13 +572,13 @@ export interface RepositoryCredentialSpecDataSshKey {
   /**
   * SSH Identity file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/repository_credential#identity RepositoryCredential#identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/repository_credential#identity RepositoryCredential#identity}
   */
   readonly identity: string;
   /**
   * Known Hosts file path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/repository_credential#known_hosts RepositoryCredential#known_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/repository_credential#known_hosts RepositoryCredential#known_hosts}
   */
   readonly knownHosts: string;
 }
@@ -687,13 +687,13 @@ export interface RepositoryCredentialSpecDataUsernamePassword {
   /**
   * Password for the basic authorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/repository_credential#password RepositoryCredential#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/repository_credential#password RepositoryCredential#password}
   */
   readonly password: string;
   /**
   * Username for the basic authorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/repository_credential#username RepositoryCredential#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/repository_credential#username RepositoryCredential#username}
   */
   readonly username: string;
 }
@@ -802,13 +802,13 @@ export interface RepositoryCredentialSpecData {
   /**
   * ssh_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/repository_credential#ssh_key RepositoryCredential#ssh_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/repository_credential#ssh_key RepositoryCredential#ssh_key}
   */
   readonly sshKey?: RepositoryCredentialSpecDataSshKey;
   /**
   * username_password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/repository_credential#username_password RepositoryCredential#username_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/repository_credential#username_password RepositoryCredential#username_password}
   */
   readonly usernamePassword?: RepositoryCredentialSpecDataUsernamePassword;
 }
@@ -923,7 +923,7 @@ export interface RepositoryCredentialSpec {
   /**
   * data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/repository_credential#data RepositoryCredential#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/repository_credential#data RepositoryCredential#data}
   */
   readonly data: RepositoryCredentialSpecData;
 }
@@ -1004,7 +1004,7 @@ export class RepositoryCredentialSpecOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/repository_credential tanzu-mission-control_repository_credential}
+* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/repository_credential tanzu-mission-control_repository_credential}
 */
 export class RepositoryCredential extends cdktf.TerraformResource {
 
@@ -1020,7 +1020,7 @@ export class RepositoryCredential extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RepositoryCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RepositoryCredential to import
-  * @param importFromId The id of the existing RepositoryCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/repository_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RepositoryCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/repository_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RepositoryCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1032,7 +1032,7 @@ export class RepositoryCredential extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/repository_credential tanzu-mission-control_repository_credential} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/repository_credential tanzu-mission-control_repository_credential} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1043,8 +1043,8 @@ export class RepositoryCredential extends cdktf.TerraformResource {
       terraformResourceType: 'tanzu-mission-control_repository_credential',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9',
-        providerVersionConstraint: '1.4.9'
+        providerVersion: '1.4.10',
+        providerVersionConstraint: '1.4.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

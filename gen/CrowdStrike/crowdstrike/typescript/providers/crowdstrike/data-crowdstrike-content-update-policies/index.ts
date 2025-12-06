@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/content_update_policies
+// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/content_update_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface DataCrowdstrikeContentUpdatePoliciesConfig extends cdktf.Terraf
   /**
   * Filter policies by the user who created them. All provided filter attributes must match for a policy to be returned (omitted attributes are ignored). Supports wildcard matching with '*' where '*' matches any sequence of characters until the end of the string or until the next literal character in the pattern is found. Multiple wildcards can be used in a single pattern. Matching is case insensitive. Cannot be used together with 'filter' or 'ids'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/content_update_policies#created_by DataCrowdstrikeContentUpdatePolicies#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/content_update_policies#created_by DataCrowdstrikeContentUpdatePolicies#created_by}
   */
   readonly createdBy?: string;
   /**
   * Filter policies by description. All provided filter attributes must match for a policy to be returned (omitted attributes are ignored). Supports wildcard matching with '*' where '*' matches any sequence of characters until the end of the string or until the next literal character in the pattern is found. Multiple wildcards can be used in a single pattern. Matching is case insensitive. Cannot be used together with 'filter' or 'ids'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/content_update_policies#description DataCrowdstrikeContentUpdatePolicies#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/content_update_policies#description DataCrowdstrikeContentUpdatePolicies#description}
   */
   readonly description?: string;
   /**
   * Filter policies by enabled status. All provided filter attributes must match for a policy to be returned (omitted attributes are ignored). Cannot be used together with 'filter' or 'ids'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/content_update_policies#enabled DataCrowdstrikeContentUpdatePolicies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/content_update_policies#enabled DataCrowdstrikeContentUpdatePolicies#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * FQL filter to apply to the content update policies query. When specified, only policies matching the filter will be returned. Cannot be used together with 'ids' or other filter attributes. Example: `name:'*prod*'`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/content_update_policies#filter DataCrowdstrikeContentUpdatePolicies#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/content_update_policies#filter DataCrowdstrikeContentUpdatePolicies#filter}
   */
   readonly filter?: string;
   /**
   * List of content update policy IDs to retrieve. When specified, only policies with matching IDs will be returned. Cannot be used together with 'filter' or other filter attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/content_update_policies#ids DataCrowdstrikeContentUpdatePolicies#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/content_update_policies#ids DataCrowdstrikeContentUpdatePolicies#ids}
   */
   readonly ids?: string[];
   /**
   * Filter policies by the user who last modified them. All provided filter attributes must match for a policy to be returned (omitted attributes are ignored). Supports wildcard matching with '*' where '*' matches any sequence of characters until the end of the string or until the next literal character in the pattern is found. Multiple wildcards can be used in a single pattern. Matching is case insensitive. Cannot be used together with 'filter' or 'ids'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/content_update_policies#modified_by DataCrowdstrikeContentUpdatePolicies#modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/content_update_policies#modified_by DataCrowdstrikeContentUpdatePolicies#modified_by}
   */
   readonly modifiedBy?: string;
   /**
   * Filter policies by name. All provided filter attributes must match for a policy to be returned (omitted attributes are ignored). Supports wildcard matching with '*' where '*' matches any sequence of characters until the end of the string or until the next literal character in the pattern is found. Multiple wildcards can be used in a single pattern. Matching is case insensitive. Cannot be used together with 'filter' or 'ids'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/content_update_policies#name DataCrowdstrikeContentUpdatePolicies#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/content_update_policies#name DataCrowdstrikeContentUpdatePolicies#name}
   */
   readonly name?: string;
   /**
   * Sort order for the results. Valid values include field names with optional '.asc' or '.desc' suffix. Example: 'name.asc', 'precedence.desc'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/content_update_policies#sort DataCrowdstrikeContentUpdatePolicies#sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/content_update_policies#sort DataCrowdstrikeContentUpdatePolicies#sort}
   */
   readonly sort?: string;
 }
@@ -453,7 +453,7 @@ export class DataCrowdstrikeContentUpdatePoliciesPoliciesList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/content_update_policies crowdstrike_content_update_policies}
+* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/content_update_policies crowdstrike_content_update_policies}
 */
 export class DataCrowdstrikeContentUpdatePolicies extends cdktf.TerraformDataSource {
 
@@ -469,7 +469,7 @@ export class DataCrowdstrikeContentUpdatePolicies extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataCrowdstrikeContentUpdatePolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCrowdstrikeContentUpdatePolicies to import
-  * @param importFromId The id of the existing DataCrowdstrikeContentUpdatePolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/content_update_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCrowdstrikeContentUpdatePolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/content_update_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCrowdstrikeContentUpdatePolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -481,7 +481,7 @@ export class DataCrowdstrikeContentUpdatePolicies extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/content_update_policies crowdstrike_content_update_policies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/content_update_policies crowdstrike_content_update_policies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -492,8 +492,8 @@ export class DataCrowdstrikeContentUpdatePolicies extends cdktf.TerraformDataSou
       terraformResourceType: 'crowdstrike_content_update_policies',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.49',
-        providerVersionConstraint: '0.0.49'
+        providerVersion: '0.0.50',
+        providerVersionConstraint: '0.0.50'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

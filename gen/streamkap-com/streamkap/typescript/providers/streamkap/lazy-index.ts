@@ -2,11 +2,13 @@
 Object.defineProperty(exports, 'destinationClickhouse', { get: function () { return require('./destination-clickhouse'); } });
 Object.defineProperty(exports, 'destinationDatabricks', { get: function () { return require('./destination-databricks'); } });
 Object.defineProperty(exports, 'destinationIceberg', { get: function () { return require('./destination-iceberg'); } });
+Object.defineProperty(exports, 'destinationKafka', { get: function () { return require('./destination-kafka'); } });
 Object.defineProperty(exports, 'destinationPostgresql', { get: function () { return require('./destination-postgresql'); } });
 Object.defineProperty(exports, 'destinationS3', { get: function () { return require('./destination-s3'); } });
 Object.defineProperty(exports, 'destinationSnowflake', { get: function () { return require('./destination-snowflake'); } });
 Object.defineProperty(exports, 'pipeline', { get: function () { return require('./pipeline'); } });
 Object.defineProperty(exports, 'sourceDynamodb', { get: function () { return require('./source-dynamodb'); } });
+Object.defineProperty(exports, 'sourceKafkadirect', { get: function () { return require('./source-kafkadirect'); } });
 Object.defineProperty(exports, 'sourceMongodb', { get: function () { return require('./source-mongodb'); } });
 Object.defineProperty(exports, 'sourceMysql', { get: function () { return require('./source-mysql'); } });
 Object.defineProperty(exports, 'sourcePostgresql', { get: function () { return require('./source-postgresql'); } });

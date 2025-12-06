@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/index
+// https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/index
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface IndexConfig extends cdktf.TerraformMetaArguments {
   /**
   * The cluster to maintain this index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/index#cluster_name Index#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/index#cluster_name Index#cluster_name}
   */
   readonly clusterName: string;
   /**
   * Comment on an object in the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/index#comment Index#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/index#comment Index#comment}
   */
   readonly comment?: string;
   /**
   * Creates a default index using all inferred columns are used. Required if col_expr is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/index#default Index#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/index#default Index#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/index#id Index#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/index#id Index#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface IndexConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the index method to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/index#method Index#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/index#method Index#method}
   */
   readonly method?: string;
   /**
   * The identifier for the index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/index#name Index#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/index#name Index#name}
   */
   readonly name?: string;
   /**
   * The region to use for the resource connection. If not set, the default region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/index#region Index#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/index#region Index#region}
   */
   readonly region?: string;
   /**
   * col_expr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/index#col_expr Index#col_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/index#col_expr Index#col_expr}
   */
   readonly colExpr?: IndexColExpr[] | cdktf.IResolvable;
   /**
   * obj_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/index#obj_name Index#obj_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/index#obj_name Index#obj_name}
   */
   readonly objName: IndexObjName;
 }
@@ -67,7 +67,7 @@ export interface IndexColExpr {
   /**
   * The name of the option you want to set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/index#field Index#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/index#field Index#field}
   */
   readonly field: string;
 }
@@ -182,19 +182,19 @@ export interface IndexObjName {
   /**
   * The obj_name database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/index#database_name Index#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/index#database_name Index#database_name}
   */
   readonly databaseName?: string;
   /**
   * The obj_name name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/index#name Index#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/index#name Index#name}
   */
   readonly name: string;
   /**
   * The obj_name schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/index#schema_name Index#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/index#schema_name Index#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -333,7 +333,7 @@ export class IndexObjNameOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/index materialize_index}
+* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/index materialize_index}
 */
 export class Index extends cdktf.TerraformResource {
 
@@ -349,7 +349,7 @@ export class Index extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Index resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Index to import
-  * @param importFromId The id of the existing Index that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/index#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Index that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/index#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Index to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -361,7 +361,7 @@ export class Index extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/index materialize_index} Resource
+  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/index materialize_index} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -372,8 +372,8 @@ export class Index extends cdktf.TerraformResource {
       terraformResourceType: 'materialize_index',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.5',
-        providerVersionConstraint: '0.9.5'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

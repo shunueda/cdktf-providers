@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface StoreConfig extends cdktf.TerraformMetaArguments {
   /**
   * Controls wether the store is used in the Zentral admin console. Only one store can be used in the admin console. Defaults to `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#admin_console Store#admin_console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#admin_console Store#admin_console}
   */
   readonly adminConsole?: boolean | cdktf.IResolvable;
   /**
   * Store backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#backend Store#backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#backend Store#backend}
   */
   readonly backend: string;
   /**
   * Description of the store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#description Store#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#description Store#description}
   */
   readonly description?: string;
   /**
   * Used to filter the events sent to the store. By default, all the events are sent to the store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#event_filters Store#event_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#event_filters Store#event_filters}
   */
   readonly eventFilters?: StoreEventFilters;
   /**
   * The `ID`s of the roles authorized to see the links to the external event store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#events_url_authorized_role_ids Store#events_url_authorized_role_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#events_url_authorized_role_ids Store#events_url_authorized_role_ids}
   */
   readonly eventsUrlAuthorizedRoleIds?: number[];
   /**
   * HTTP backend parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#http Store#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#http Store#http}
   */
   readonly http?: StoreHttp;
   /**
   * Kinesis backend parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#kinesis Store#kinesis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#kinesis Store#kinesis}
   */
   readonly kinesis?: StoreKinesis;
   /**
   * Name of the store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#name Store#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#name Store#name}
   */
   readonly name: string;
   /**
   * Splunk backend parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#splunk Store#splunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#splunk Store#splunk}
   */
   readonly splunk?: StoreSplunk;
 }
@@ -66,19 +66,19 @@ export interface StoreEventFiltersExcludedEventFilters {
   /**
   * Set of the event types of the events to exclude.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#event_type Store#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#event_type Store#event_type}
   */
   readonly eventType?: string[];
   /**
   * Set of the routing keys of the events to exclude.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#routing_key Store#routing_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#routing_key Store#routing_key}
   */
   readonly routingKey?: string[];
   /**
   * Set of the tags of the events to exclude.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#tags Store#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#tags Store#tags}
   */
   readonly tags?: string[];
 }
@@ -254,19 +254,19 @@ export interface StoreEventFiltersIncludedEventFilters {
   /**
   * Set of the event types of the events to include.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#event_type Store#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#event_type Store#event_type}
   */
   readonly eventType?: string[];
   /**
   * Set of the routing keys of the events to include.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#routing_key Store#routing_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#routing_key Store#routing_key}
   */
   readonly routingKey?: string[];
   /**
   * Set of the tags of the events to include.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#tags Store#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#tags Store#tags}
   */
   readonly tags?: string[];
 }
@@ -442,13 +442,13 @@ export interface StoreEventFilters {
   /**
   * Excluded event filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#excluded_event_filters Store#excluded_event_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#excluded_event_filters Store#excluded_event_filters}
   */
   readonly excludedEventFilters?: StoreEventFiltersExcludedEventFilters[] | cdktf.IResolvable;
   /**
   * Included event filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#included_event_filters Store#included_event_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#included_event_filters Store#included_event_filters}
   */
   readonly includedEventFilters?: StoreEventFiltersIncludedEventFilters[] | cdktf.IResolvable;
 }
@@ -573,13 +573,13 @@ export interface StoreHttpHeaders {
   /**
   * Name of the HTTP header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#name Store#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#name Store#name}
   */
   readonly name: string;
   /**
   * Value of the HTTP header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#value Store#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#value Store#value}
   */
   readonly value: string;
 }
@@ -720,49 +720,49 @@ export interface StoreHttp {
   /**
   * Number of threads used to post to the endpoints. Defaults to `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#concurrency Store#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#concurrency Store#concurrency}
   */
   readonly concurrency?: number;
   /**
   * HTTP endpoint URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#endpoint_url Store#endpoint_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#endpoint_url Store#endpoint_url}
   */
   readonly endpointUrl: string;
   /**
   * A set of additional HTTP headers to add to the POST requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#headers Store#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#headers Store#headers}
   */
   readonly headers?: StoreHttpHeaders[] | cdktf.IResolvable;
   /**
   * Number of retries after a failed request. Defaults to `3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#max_retries Store#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#max_retries Store#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * Password for basic authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#password Store#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#password Store#password}
   */
   readonly password?: string;
   /**
   * Request timeout in seconds. Defaults to `120` seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#request_timeout Store#request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#request_timeout Store#request_timeout}
   */
   readonly requestTimeout?: number;
   /**
   * Username for basic authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#username Store#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#username Store#username}
   */
   readonly username?: string;
   /**
   * Controls whether the TLS certificates will be verified. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#verify_tls Store#verify_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#verify_tls Store#verify_tls}
   */
   readonly verifyTls?: boolean | cdktf.IResolvable;
 }
@@ -1058,43 +1058,43 @@ export interface StoreKinesis {
   /**
   * `ARN` of the AWS role to assume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#assume_role_arn Store#assume_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#assume_role_arn Store#assume_role_arn}
   */
   readonly assumeRoleArn?: string;
   /**
   * AWS access key ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#aws_access_key_id Store#aws_access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#aws_access_key_id Store#aws_access_key_id}
   */
   readonly awsAccessKeyId?: string;
   /**
   * AWS secret access key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#aws_secret_access_key Store#aws_secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#aws_secret_access_key Store#aws_secret_access_key}
   */
   readonly awsSecretAccessKey?: string;
   /**
   * Number of events sent in a single request. Defaults to `1`. Must be between `1` and `500`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#batch_size Store#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#batch_size Store#batch_size}
   */
   readonly batchSize?: number;
   /**
   * AWS region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#region_name Store#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#region_name Store#region_name}
   */
   readonly regionName: string;
   /**
   * Zentral event serialization format. Either `zentral` or `firehose_v1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#serialization_format Store#serialization_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#serialization_format Store#serialization_format}
   */
   readonly serializationFormat: string;
   /**
   * Name of the Kinesis stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#stream Store#stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#stream Store#stream}
   */
   readonly stream: string;
 }
@@ -1355,13 +1355,13 @@ export interface StoreSplunkHecExtraHeaders {
   /**
   * Name of the HTTP header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#name Store#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#name Store#name}
   */
   readonly name: string;
   /**
   * Value of the HTTP header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#value Store#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#value Store#value}
   */
   readonly value: string;
 }
@@ -1502,13 +1502,13 @@ export interface StoreSplunkSearchExtraHeaders {
   /**
   * Name of the HTTP header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#name Store#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#name Store#name}
   */
   readonly name: string;
   /**
   * Value of the HTTP header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#value Store#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#value Store#value}
   */
   readonly value: string;
 }
@@ -1649,109 +1649,109 @@ export interface StoreSplunk {
   /**
   * Number of events sent in a single request. Defaults to `1`. Must be between `1` and `100`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#batch_size Store#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#batch_size Store#batch_size}
   */
   readonly batchSize?: number;
   /**
   * List of the preferred inventory sources for the events `computer_name` field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#computer_name_as_host_sources Store#computer_name_as_host_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#computer_name_as_host_sources Store#computer_name_as_host_sources}
   */
   readonly computerNameAsHostSources?: string[];
   /**
   * Name of an optional field to copy the `host` field value to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#custom_host_field Store#custom_host_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#custom_host_field Store#custom_host_field}
   */
   readonly customHostField?: string;
   /**
   * A set of additional HTTP headers to add to the HEC requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#hec_extra_headers Store#hec_extra_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#hec_extra_headers Store#hec_extra_headers}
   */
   readonly hecExtraHeaders?: StoreSplunkHecExtraHeaders[] | cdktf.IResolvable;
   /**
   * HEC index. Usually enforced in the HEC configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#hec_index Store#hec_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#hec_index Store#hec_index}
   */
   readonly hecIndex?: string;
   /**
   * HEC request timeout in seconds. Defaults to `300` seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#hec_request_timeout Store#hec_request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#hec_request_timeout Store#hec_request_timeout}
   */
   readonly hecRequestTimeout?: number;
   /**
   * HEC source. Usually enforced in the HEC configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#hec_source Store#hec_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#hec_source Store#hec_source}
   */
   readonly hecSource?: string;
   /**
   * HEC token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#hec_token Store#hec_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#hec_token Store#hec_token}
   */
   readonly hecToken: string;
   /**
   * HEC endpoint URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#hec_url Store#hec_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#hec_url Store#hec_url}
   */
   readonly hecUrl: string;
   /**
   * Base URL of the Splunk search application. Used to build the links to the Splunk instance displayed when browsing the events in the Zentral admin console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#search_app_url Store#search_app_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#search_app_url Store#search_app_url}
   */
   readonly searchAppUrl?: string;
   /**
   * A set of additional HTTP headers to add to the search API requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#search_extra_headers Store#search_extra_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#search_extra_headers Store#search_extra_headers}
   */
   readonly searchExtraHeaders?: StoreSplunkSearchExtraHeaders[] | cdktf.IResolvable;
   /**
   * Index to use with the Search API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#search_index Store#search_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#search_index Store#search_index}
   */
   readonly searchIndex?: string;
   /**
   * Search API request timeout in seconds. Defaults to `300` seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#search_request_timeout Store#search_request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#search_request_timeout Store#search_request_timeout}
   */
   readonly searchRequestTimeout?: number;
   /**
   * Source to use with the Search API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#search_source Store#search_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#search_source Store#search_source}
   */
   readonly searchSource?: string;
   /**
   * Splunk API token. Used in combination with `search_url`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#search_token Store#search_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#search_token Store#search_token}
   */
   readonly searchToken?: string;
   /**
   * Splunk API base URL. Used in combination with `search_token` to fetch the events displayed in the Zentral admin console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#search_url Store#search_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#search_url Store#search_url}
   */
   readonly searchUrl?: string;
   /**
   * Name of the field to use for the events machine serial number. Defaults to `machine_serial_number`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#serial_number_field Store#serial_number_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#serial_number_field Store#serial_number_field}
   */
   readonly serialNumberField?: string;
   /**
   * Controls whether the TLS certificates will be verified. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#verify_tls Store#verify_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#verify_tls Store#verify_tls}
   */
   readonly verifyTls?: boolean | cdktf.IResolvable;
 }
@@ -2332,7 +2332,7 @@ export class StoreSplunkOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store zentral_store}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store zentral_store}
 */
 export class Store extends cdktf.TerraformResource {
 
@@ -2348,7 +2348,7 @@ export class Store extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Store resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Store to import
-  * @param importFromId The id of the existing Store that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Store that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Store to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2360,7 +2360,7 @@ export class Store extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/store zentral_store} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/store zentral_store} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2371,8 +2371,8 @@ export class Store extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_store',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.65',
-        providerVersionConstraint: '0.1.65'
+        providerVersion: '0.1.67',
+        providerVersionConstraint: '0.1.67'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

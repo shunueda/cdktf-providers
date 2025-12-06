@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_store_app
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_store_app
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,169 +10,169 @@ export interface MdmStoreAppConfig extends cdktf.TerraformMetaArguments {
   /**
   * `ID` of the app artifact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_store_app#artifact_id MdmStoreApp#artifact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_store_app#artifact_id MdmStoreApp#artifact_id}
   */
   readonly artifactId: string;
   /**
   * An array that contains the associated domains to add to this app. Available in iOS 13 and later.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_store_app#associated_domains MdmStoreApp#associated_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_store_app#associated_domains MdmStoreApp#associated_domains}
   */
   readonly associatedDomains?: string[];
   /**
   * If `true`, perform claimed site association verification directly at the domain instead of on Apple's servers. Only set this to `true` for domains that can't access the internet. Available in iOS 14 and later. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_store_app#associated_domains_enable_direct_downloads MdmStoreApp#associated_domains_enable_direct_downloads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_store_app#associated_domains_enable_direct_downloads MdmStoreApp#associated_domains_enable_direct_downloads}
   */
   readonly associatedDomainsEnableDirectDownloads?: boolean | cdktf.IResolvable;
   /**
   * A dictionary serialized as plist that contains the initial configuration of the app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_store_app#configuration MdmStoreApp#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_store_app#configuration MdmStoreApp#configuration}
   */
   readonly configuration?: string;
   /**
   * The content filter UUID for this app. Available in iOS 16 and later.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_store_app#content_filter_uuid MdmStoreApp#content_filter_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_store_app#content_filter_uuid MdmStoreApp#content_filter_uuid}
   */
   readonly contentFilterUuid?: string;
   /**
   * The default shard value. Defaults to `100`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_store_app#default_shard MdmStoreApp#default_shard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_store_app#default_shard MdmStoreApp#default_shard}
   */
   readonly defaultShard?: number;
   /**
   * The DNS proxy UUID for this app. Available in iOS 16 and later..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_store_app#dns_proxy_uuid MdmStoreApp#dns_proxy_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_store_app#dns_proxy_uuid MdmStoreApp#dns_proxy_uuid}
   */
   readonly dnsProxyUuid?: string;
   /**
   * Machines tagged with one of these tags will not receive the app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_store_app#excluded_tag_ids MdmStoreApp#excluded_tag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_store_app#excluded_tag_ids MdmStoreApp#excluded_tag_ids}
   */
   readonly excludedTagIds?: number[];
   /**
   * Toggles the installation of the app on iOS devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_store_app#ios MdmStoreApp#ios}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_store_app#ios MdmStoreApp#ios}
   */
   readonly ios?: boolean | cdktf.IResolvable;
   /**
   * Devices with this iOS version or higher will **not** receive this app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_store_app#ios_max_version MdmStoreApp#ios_max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_store_app#ios_max_version MdmStoreApp#ios_max_version}
   */
   readonly iosMaxVersion?: string;
   /**
   * Devices with this iOS version or higher will receive this app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_store_app#ios_min_version MdmStoreApp#ios_min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_store_app#ios_min_version MdmStoreApp#ios_min_version}
   */
   readonly iosMinVersion?: string;
   /**
   * Toggles the installation of the app on iPadOS devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_store_app#ipados MdmStoreApp#ipados}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_store_app#ipados MdmStoreApp#ipados}
   */
   readonly ipados?: boolean | cdktf.IResolvable;
   /**
   * Devices with this iPadOS version or higher will **not** receive this app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_store_app#ipados_max_version MdmStoreApp#ipados_max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_store_app#ipados_max_version MdmStoreApp#ipados_max_version}
   */
   readonly ipadosMaxVersion?: string;
   /**
   * Devices with this iPadOS version or higher will receive this app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_store_app#ipados_min_version MdmStoreApp#ipados_min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_store_app#ipados_min_version MdmStoreApp#ipados_min_version}
   */
   readonly ipadosMinVersion?: string;
   /**
   * The location asset `ID`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_store_app#location_asset_id MdmStoreApp#location_asset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_store_app#location_asset_id MdmStoreApp#location_asset_id}
   */
   readonly locationAssetId: number;
   /**
   * Toggles the installation of the app on macOS devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_store_app#macos MdmStoreApp#macos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_store_app#macos MdmStoreApp#macos}
   */
   readonly macos?: boolean | cdktf.IResolvable;
   /**
   * Devices with this macOS version or higher will **not** receive this app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_store_app#macos_max_version MdmStoreApp#macos_max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_store_app#macos_max_version MdmStoreApp#macos_max_version}
   */
   readonly macosMaxVersion?: string;
   /**
   * Devices with this macOS version or higher will receive this app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_store_app#macos_min_version MdmStoreApp#macos_min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_store_app#macos_min_version MdmStoreApp#macos_min_version}
   */
   readonly macosMinVersion?: string;
   /**
   * If `true`, prevent backup of app data. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_store_app#prevent_backup MdmStoreApp#prevent_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_store_app#prevent_backup MdmStoreApp#prevent_backup}
   */
   readonly preventBackup?: boolean | cdktf.IResolvable;
   /**
   * If `false`, this app isn't removable while it's a managed app. Available in iOS 14 and later, and tvOS 14 and later. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_store_app#removable MdmStoreApp#removable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_store_app#removable MdmStoreApp#removable}
   */
   readonly removable?: boolean | cdktf.IResolvable;
   /**
   * If `true`, the app will be removed when the device is unenrolled. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_store_app#remove_on_unenroll MdmStoreApp#remove_on_unenroll}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_store_app#remove_on_unenroll MdmStoreApp#remove_on_unenroll}
   */
   readonly removeOnUnenroll?: boolean | cdktf.IResolvable;
   /**
   * The modulo used to calculate the shards. Defaults to `100`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_store_app#shard_modulo MdmStoreApp#shard_modulo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_store_app#shard_modulo MdmStoreApp#shard_modulo}
   */
   readonly shardModulo?: number;
   /**
   * A set of tag shard values different from the default shard, to determine if the tagged machines will receive the app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_store_app#tag_shards MdmStoreApp#tag_shards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_store_app#tag_shards MdmStoreApp#tag_shards}
   */
   readonly tagShards?: MdmStoreAppTagShards[] | cdktf.IResolvable;
   /**
   * Toggles the installation of the app on tvOS devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_store_app#tvos MdmStoreApp#tvos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_store_app#tvos MdmStoreApp#tvos}
   */
   readonly tvos?: boolean | cdktf.IResolvable;
   /**
   * Devices with this tvOS version or higher will **not** receive this app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_store_app#tvos_max_version MdmStoreApp#tvos_max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_store_app#tvos_max_version MdmStoreApp#tvos_max_version}
   */
   readonly tvosMaxVersion?: string;
   /**
   * Devices with this tvOS version or higher will receive this app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_store_app#tvos_min_version MdmStoreApp#tvos_min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_store_app#tvos_min_version MdmStoreApp#tvos_min_version}
   */
   readonly tvosMinVersion?: string;
   /**
   * Version of the app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_store_app#version MdmStoreApp#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_store_app#version MdmStoreApp#version}
   */
   readonly version: number;
   /**
   * A per-app VPN unique identifier for this app. Available in iOS 7 and later.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_store_app#vpn_uuid MdmStoreApp#vpn_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_store_app#vpn_uuid MdmStoreApp#vpn_uuid}
   */
   readonly vpnUuid?: string;
 }
@@ -180,13 +180,13 @@ export interface MdmStoreAppTagShards {
   /**
   * The shard for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_store_app#shard MdmStoreApp#shard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_store_app#shard MdmStoreApp#shard}
   */
   readonly shard: number;
   /**
   * The `ID` of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_store_app#tag_id MdmStoreApp#tag_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_store_app#tag_id MdmStoreApp#tag_id}
   */
   readonly tagId: number;
 }
@@ -325,7 +325,7 @@ export class MdmStoreAppTagShardsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_store_app zentral_mdm_store_app}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_store_app zentral_mdm_store_app}
 */
 export class MdmStoreApp extends cdktf.TerraformResource {
 
@@ -341,7 +341,7 @@ export class MdmStoreApp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdmStoreApp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdmStoreApp to import
-  * @param importFromId The id of the existing MdmStoreApp that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_store_app#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdmStoreApp that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_store_app#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdmStoreApp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -353,7 +353,7 @@ export class MdmStoreApp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/mdm_store_app zentral_mdm_store_app} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/mdm_store_app zentral_mdm_store_app} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -364,8 +364,8 @@ export class MdmStoreApp extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_mdm_store_app',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.65',
-        providerVersionConstraint: '0.1.65'
+        providerVersion: '0.1.67',
+        providerVersionConstraint: '0.1.67'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

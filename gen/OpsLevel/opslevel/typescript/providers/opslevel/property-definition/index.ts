@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/property_definition
+// https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/property_definition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface PropertyDefinitionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether or not the property is allowed to be set in opslevel.yml config files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/property_definition#allowed_in_config_files PropertyDefinition#allowed_in_config_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/property_definition#allowed_in_config_files PropertyDefinition#allowed_in_config_files}
   */
   readonly allowedInConfigFiles: boolean | cdktf.IResolvable;
   /**
   * The description of the property definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/property_definition#description PropertyDefinition#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/property_definition#description PropertyDefinition#description}
   */
   readonly description?: string;
   /**
   * Values for which lock is assigned to a property definition to restrict what sources can assign values to it. One of `ui_locked`, `unlocked`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/property_definition#locked_status PropertyDefinition#locked_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/property_definition#locked_status PropertyDefinition#locked_status}
   */
   readonly lockedStatus: string;
   /**
   * The display name of the property definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/property_definition#name PropertyDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/property_definition#name PropertyDefinition#name}
   */
   readonly name: string;
   /**
   * The display status of a custom property on service pages. One of `hidden`, `visible`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/property_definition#property_display_status PropertyDefinition#property_display_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/property_definition#property_display_status PropertyDefinition#property_display_status}
   */
   readonly propertyDisplayStatus: string;
   /**
   * The schema of the property definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/property_definition#schema PropertyDefinition#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/property_definition#schema PropertyDefinition#schema}
   */
   readonly schema: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/property_definition opslevel_property_definition}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/property_definition opslevel_property_definition}
 */
 export class PropertyDefinition extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class PropertyDefinition extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PropertyDefinition resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PropertyDefinition to import
-  * @param importFromId The id of the existing PropertyDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/property_definition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PropertyDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/property_definition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PropertyDefinition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class PropertyDefinition extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/property_definition opslevel_property_definition} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/property_definition opslevel_property_definition} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class PropertyDefinition extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_property_definition',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.6.3',
-        providerVersionConstraint: '1.6.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

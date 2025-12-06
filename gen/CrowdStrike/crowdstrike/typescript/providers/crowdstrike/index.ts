@@ -3,6 +3,8 @@ export * as cloudAwsAccount from './cloud-aws-account';
 export * as cloudAzureTenant from './cloud-azure-tenant';
 export * as cloudAzureTenantEventhubSettings from './cloud-azure-tenant-eventhub-settings';
 export * as cloudComplianceCustomFramework from './cloud-compliance-custom-framework';
+export * as cloudGoogleRegistration from './cloud-google-registration';
+export * as cloudGoogleRegistrationLoggingSettings from './cloud-google-registration-logging-settings';
 export * as cloudGroup from './cloud-group';
 export * as cloudSecurityCustomRule from './cloud-security-custom-rule';
 export * as contentUpdatePolicy from './content-update-policy';
@@ -32,6 +34,7 @@ export * as sensorUpdatePolicyPrecedence from './sensor-update-policy-precedence
 export * as sensorVisibilityExclusion from './sensor-visibility-exclusion';
 export * as dataCrowdstrikeCloudAwsAccount from './data-crowdstrike-cloud-aws-account';
 export * as dataCrowdstrikeCloudComplianceFrameworkControls from './data-crowdstrike-cloud-compliance-framework-controls';
+export * as dataCrowdstrikeCloudRiskFindings from './data-crowdstrike-cloud-risk-findings';
 export * as dataCrowdstrikeCloudSecurityRules from './data-crowdstrike-cloud-security-rules';
 export * as dataCrowdstrikeContentCategoryVersions from './data-crowdstrike-content-category-versions';
 export * as dataCrowdstrikeContentUpdatePolicies from './data-crowdstrike-content-update-policies';

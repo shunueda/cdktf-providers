@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster
+// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTanzuMissionControlClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#id DataTanzuMissionControlCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#id DataTanzuMissionControlCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,43 @@ export interface DataTanzuMissionControlClusterConfig extends cdktf.TerraformMet
   /**
   * Name of the management cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#management_cluster_name DataTanzuMissionControlCluster#management_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#management_cluster_name DataTanzuMissionControlCluster#management_cluster_name}
   */
   readonly managementClusterName?: string;
   /**
   * Name of this cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#name DataTanzuMissionControlCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#name DataTanzuMissionControlCluster#name}
   */
   readonly name: string;
   /**
   * Provisioner of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#provisioner_name DataTanzuMissionControlCluster#provisioner_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#provisioner_name DataTanzuMissionControlCluster#provisioner_name}
   */
   readonly provisionerName?: string;
   /**
   * Wait timeout duration until cluster resource reaches READY state. Accepted timeout duration values like 5s, 45m, or 3h, higher than zero. Should be set to 0 in case of simple attach cluster where kubeconfig input is not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#ready_wait_timeout DataTanzuMissionControlCluster#ready_wait_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#ready_wait_timeout DataTanzuMissionControlCluster#ready_wait_timeout}
   */
   readonly readyWaitTimeout?: string;
   /**
   * attach_k8s_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#attach_k8s_cluster DataTanzuMissionControlCluster#attach_k8s_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#attach_k8s_cluster DataTanzuMissionControlCluster#attach_k8s_cluster}
   */
   readonly attachK8SCluster?: DataTanzuMissionControlClusterAttachK8SCluster;
   /**
   * meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#meta DataTanzuMissionControlCluster#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#meta DataTanzuMissionControlCluster#meta}
   */
   readonly meta?: DataTanzuMissionControlClusterMeta;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#spec DataTanzuMissionControlCluster#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#spec DataTanzuMissionControlCluster#spec}
   */
   readonly spec?: DataTanzuMissionControlClusterSpec;
 }
@@ -61,19 +61,19 @@ export interface DataTanzuMissionControlClusterAttachK8SCluster {
   /**
   * Attach cluster description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#description DataTanzuMissionControlCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#description DataTanzuMissionControlCluster#description}
   */
   readonly description?: string;
   /**
   * Attach cluster KUBECONFIG path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#kubeconfig_file DataTanzuMissionControlCluster#kubeconfig_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#kubeconfig_file DataTanzuMissionControlCluster#kubeconfig_file}
   */
   readonly kubeconfigFile?: string;
   /**
   * Attach cluster KUBECONFIG
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#kubeconfig_raw DataTanzuMissionControlCluster#kubeconfig_raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#kubeconfig_raw DataTanzuMissionControlCluster#kubeconfig_raw}
   */
   readonly kubeconfigRaw?: string;
 }
@@ -217,19 +217,19 @@ export interface DataTanzuMissionControlClusterMeta {
   /**
   * Annotations for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#annotations DataTanzuMissionControlCluster#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#annotations DataTanzuMissionControlCluster#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#description DataTanzuMissionControlCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#description DataTanzuMissionControlCluster#description}
   */
   readonly description?: string;
   /**
   * Labels for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#labels DataTanzuMissionControlCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#labels DataTanzuMissionControlCluster#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -383,13 +383,13 @@ export interface DataTanzuMissionControlClusterSpecTkgAwsAdvancedConfigs {
   /**
   * The key of the advanced configuration parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#key DataTanzuMissionControlCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#key DataTanzuMissionControlCluster#key}
   */
   readonly key: string;
   /**
   * The value of the advanced configuration parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#value DataTanzuMissionControlCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#value DataTanzuMissionControlCluster#value}
   */
   readonly value: string;
 }
@@ -530,37 +530,37 @@ export interface DataTanzuMissionControlClusterSpecTkgAwsDistribution {
   /**
   * Arch of the OS used for the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#os_arch DataTanzuMissionControlCluster#os_arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#os_arch DataTanzuMissionControlCluster#os_arch}
   */
   readonly osArch?: string;
   /**
   * Name of the OS used for the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#os_name DataTanzuMissionControlCluster#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#os_name DataTanzuMissionControlCluster#os_name}
   */
   readonly osName?: string;
   /**
   * Version of the OS used for the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#os_version DataTanzuMissionControlCluster#os_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#os_version DataTanzuMissionControlCluster#os_version}
   */
   readonly osVersion?: string;
   /**
   * Specifies name of the account in which to create the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#provisioner_credential_name DataTanzuMissionControlCluster#provisioner_credential_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#provisioner_credential_name DataTanzuMissionControlCluster#provisioner_credential_name}
   */
   readonly provisionerCredentialName?: string;
   /**
   * Specifies region of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#region DataTanzuMissionControlCluster#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#region DataTanzuMissionControlCluster#region}
   */
   readonly region: string;
   /**
   * Specifies version of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#version DataTanzuMissionControlCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#version DataTanzuMissionControlCluster#version}
   */
   readonly version: string;
 }
@@ -785,7 +785,7 @@ export interface DataTanzuMissionControlClusterSpecTkgAwsSettingsNetworkClusterP
   /**
   * CIDRBlocks specifies one or more of IP address ranges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#cidr_blocks DataTanzuMissionControlCluster#cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#cidr_blocks DataTanzuMissionControlCluster#cidr_blocks}
   */
   readonly cidrBlocks: string;
 }
@@ -900,7 +900,7 @@ export interface DataTanzuMissionControlClusterSpecTkgAwsSettingsNetworkClusterS
   /**
   * CIDRBlocks specifies one or more of IP address ranges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#cidr_blocks DataTanzuMissionControlCluster#cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#cidr_blocks DataTanzuMissionControlCluster#cidr_blocks}
   */
   readonly cidrBlocks: string;
 }
@@ -1015,19 +1015,19 @@ export interface DataTanzuMissionControlClusterSpecTkgAwsSettingsNetworkCluster 
   /**
   * APIServerPort specifies the port address for the cluster that defaults to 6443.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#api_server_port DataTanzuMissionControlCluster#api_server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#api_server_port DataTanzuMissionControlCluster#api_server_port}
   */
   readonly apiServerPort?: number;
   /**
   * pods block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#pods DataTanzuMissionControlCluster#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#pods DataTanzuMissionControlCluster#pods}
   */
   readonly pods: DataTanzuMissionControlClusterSpecTkgAwsSettingsNetworkClusterPods[] | cdktf.IResolvable;
   /**
   * services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#services DataTanzuMissionControlCluster#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#services DataTanzuMissionControlCluster#services}
   */
   readonly services: DataTanzuMissionControlClusterSpecTkgAwsSettingsNetworkClusterServices[] | cdktf.IResolvable;
 }
@@ -1165,25 +1165,25 @@ export interface DataTanzuMissionControlClusterSpecTkgAwsSettingsNetworkProvider
   /**
   * AWS availability zone e.g. us-west-2a
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#availability_zone DataTanzuMissionControlCluster#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#availability_zone DataTanzuMissionControlCluster#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * CIDR for AWS subnet which must be in the range of AWS VPC CIDR block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#cidr_block_subnet DataTanzuMissionControlCluster#cidr_block_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#cidr_block_subnet DataTanzuMissionControlCluster#cidr_block_subnet}
   */
   readonly cidrBlockSubnet?: string;
   /**
   * Describes if it is public subnet or private subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#is_public DataTanzuMissionControlCluster#is_public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#is_public DataTanzuMissionControlCluster#is_public}
   */
   readonly isPublic?: boolean | cdktf.IResolvable;
   /**
   * This is the subnet ID of AWS. The rest of the fields are ignored if this field is specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#subnet_id DataTanzuMissionControlCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#subnet_id DataTanzuMissionControlCluster#subnet_id}
   */
   readonly subnetId?: string;
 }
@@ -1388,13 +1388,13 @@ export interface DataTanzuMissionControlClusterSpecTkgAwsSettingsNetworkProvider
   /**
   * CIDR for AWS VPC. A valid example is 10.0.0.0/16
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#cidr_block_vpc DataTanzuMissionControlCluster#cidr_block_vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#cidr_block_vpc DataTanzuMissionControlCluster#cidr_block_vpc}
   */
   readonly cidrBlockVpc?: string;
   /**
   * AWS VPC ID. The rest of the fields are ignored if this field is specified. Kindly add the VPC ID to the terraform script in case of existing VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#vpc_id DataTanzuMissionControlCluster#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#vpc_id DataTanzuMissionControlCluster#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -1509,13 +1509,13 @@ export interface DataTanzuMissionControlClusterSpecTkgAwsSettingsNetworkProvider
   /**
   * subnets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#subnets DataTanzuMissionControlCluster#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#subnets DataTanzuMissionControlCluster#subnets}
   */
   readonly subnets?: DataTanzuMissionControlClusterSpecTkgAwsSettingsNetworkProviderSubnets[] | cdktf.IResolvable;
   /**
   * vpc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#vpc DataTanzuMissionControlCluster#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#vpc DataTanzuMissionControlCluster#vpc}
   */
   readonly vpc: DataTanzuMissionControlClusterSpecTkgAwsSettingsNetworkProviderVpc;
 }
@@ -1659,13 +1659,13 @@ export interface DataTanzuMissionControlClusterSpecTkgAwsSettingsNetwork {
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#cluster DataTanzuMissionControlCluster#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#cluster DataTanzuMissionControlCluster#cluster}
   */
   readonly cluster: DataTanzuMissionControlClusterSpecTkgAwsSettingsNetworkCluster;
   /**
   * provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#provider DataTanzuMissionControlCluster#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#provider DataTanzuMissionControlCluster#provider}
   */
   readonly provider: DataTanzuMissionControlClusterSpecTkgAwsSettingsNetworkProvider[] | cdktf.IResolvable;
 }
@@ -1774,7 +1774,7 @@ export interface DataTanzuMissionControlClusterSpecTkgAwsSettingsSecurity {
   /**
   * SSH key for provisioning and accessing the cluster VMs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#ssh_key DataTanzuMissionControlCluster#ssh_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#ssh_key DataTanzuMissionControlCluster#ssh_key}
   */
   readonly sshKey: string;
 }
@@ -1857,13 +1857,13 @@ export interface DataTanzuMissionControlClusterSpecTkgAwsSettings {
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#network DataTanzuMissionControlCluster#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#network DataTanzuMissionControlCluster#network}
   */
   readonly network: DataTanzuMissionControlClusterSpecTkgAwsSettingsNetwork;
   /**
   * security block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#security DataTanzuMissionControlCluster#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#security DataTanzuMissionControlCluster#security}
   */
   readonly security: DataTanzuMissionControlClusterSpecTkgAwsSettingsSecurity;
 }
@@ -1972,19 +1972,19 @@ export interface DataTanzuMissionControlClusterSpecTkgAwsTopologyControlPlane {
   /**
   * List of availability zones for the control plane nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#availability_zones DataTanzuMissionControlCluster#availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#availability_zones DataTanzuMissionControlCluster#availability_zones}
   */
   readonly availabilityZones: string[];
   /**
   * Flag which controls if the cluster needs to be highly available. HA cluster creates three controlplane machines, and non HA creates just one
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#high_availability DataTanzuMissionControlCluster#high_availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#high_availability DataTanzuMissionControlCluster#high_availability}
   */
   readonly highAvailability?: boolean | cdktf.IResolvable;
   /**
   * Control plane instance type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#instance_type DataTanzuMissionControlCluster#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#instance_type DataTanzuMissionControlCluster#instance_type}
   */
   readonly instanceType: string;
 }
@@ -2122,13 +2122,13 @@ export interface DataTanzuMissionControlClusterSpecTkgAwsTopologyNodePoolsInfo {
   /**
   * Description of the nodepool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#description DataTanzuMissionControlCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#description DataTanzuMissionControlCluster#description}
   */
   readonly description?: string;
   /**
   * Name of the nodepool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#name DataTanzuMissionControlCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#name DataTanzuMissionControlCluster#name}
   */
   readonly name: string;
 }
@@ -2240,7 +2240,7 @@ export interface DataTanzuMissionControlClusterSpecTkgAwsTopologyNodePoolsSpecTk
   /**
   * The Availability Zone where the AWS nodes are placed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#aws_availability_zone DataTanzuMissionControlCluster#aws_availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#aws_availability_zone DataTanzuMissionControlCluster#aws_availability_zone}
   */
   readonly awsAvailabilityZone: string;
 }
@@ -2323,25 +2323,25 @@ export interface DataTanzuMissionControlClusterSpecTkgAwsTopologyNodePoolsSpecTk
   /**
   * Availability zone for the nodepool that is to be used when you are creating a nodepool for cluster in TMC hosted AWS solution
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#availability_zone DataTanzuMissionControlCluster#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#availability_zone DataTanzuMissionControlCluster#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * Nodepool instance type whose potential values could be found using cluster:options api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#instance_type DataTanzuMissionControlCluster#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#instance_type DataTanzuMissionControlCluster#instance_type}
   */
   readonly instanceType: string;
   /**
   * Kubernetes version of the node pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#version DataTanzuMissionControlCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#version DataTanzuMissionControlCluster#version}
   */
   readonly version: string;
   /**
   * node_placement block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#node_placement DataTanzuMissionControlCluster#node_placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#node_placement DataTanzuMissionControlCluster#node_placement}
   */
   readonly nodePlacement: DataTanzuMissionControlClusterSpecTkgAwsTopologyNodePoolsSpecTkgAwsNodePlacement;
 }
@@ -2510,13 +2510,13 @@ export interface DataTanzuMissionControlClusterSpecTkgAwsTopologyNodePoolsSpec {
   /**
   * Count is the number of nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#worker_node_count DataTanzuMissionControlCluster#worker_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#worker_node_count DataTanzuMissionControlCluster#worker_node_count}
   */
   readonly workerNodeCount?: string;
   /**
   * tkg_aws block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#tkg_aws DataTanzuMissionControlCluster#tkg_aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#tkg_aws DataTanzuMissionControlCluster#tkg_aws}
   */
   readonly tkgAws?: DataTanzuMissionControlClusterSpecTkgAwsTopologyNodePoolsSpecTkgAws;
 }
@@ -2631,13 +2631,13 @@ export interface DataTanzuMissionControlClusterSpecTkgAwsTopologyNodePools {
   /**
   * info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#info DataTanzuMissionControlCluster#info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#info DataTanzuMissionControlCluster#info}
   */
   readonly info: DataTanzuMissionControlClusterSpecTkgAwsTopologyNodePoolsInfo;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#spec DataTanzuMissionControlCluster#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#spec DataTanzuMissionControlCluster#spec}
   */
   readonly spec?: DataTanzuMissionControlClusterSpecTkgAwsTopologyNodePoolsSpec;
 }
@@ -2781,13 +2781,13 @@ export interface DataTanzuMissionControlClusterSpecTkgAwsTopology {
   /**
   * control_plane block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#control_plane DataTanzuMissionControlCluster#control_plane}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#control_plane DataTanzuMissionControlCluster#control_plane}
   */
   readonly controlPlane: DataTanzuMissionControlClusterSpecTkgAwsTopologyControlPlane;
   /**
   * node_pools block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#node_pools DataTanzuMissionControlCluster#node_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#node_pools DataTanzuMissionControlCluster#node_pools}
   */
   readonly nodePools?: DataTanzuMissionControlClusterSpecTkgAwsTopologyNodePools[] | cdktf.IResolvable;
 }
@@ -2899,25 +2899,25 @@ export interface DataTanzuMissionControlClusterSpecTkgAws {
   /**
   * advanced_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#advanced_configs DataTanzuMissionControlCluster#advanced_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#advanced_configs DataTanzuMissionControlCluster#advanced_configs}
   */
   readonly advancedConfigs?: DataTanzuMissionControlClusterSpecTkgAwsAdvancedConfigs[] | cdktf.IResolvable;
   /**
   * distribution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#distribution DataTanzuMissionControlCluster#distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#distribution DataTanzuMissionControlCluster#distribution}
   */
   readonly distribution: DataTanzuMissionControlClusterSpecTkgAwsDistribution;
   /**
   * settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#settings DataTanzuMissionControlCluster#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#settings DataTanzuMissionControlCluster#settings}
   */
   readonly settings: DataTanzuMissionControlClusterSpecTkgAwsSettings;
   /**
   * topology block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#topology DataTanzuMissionControlCluster#topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#topology DataTanzuMissionControlCluster#topology}
   */
   readonly topology: DataTanzuMissionControlClusterSpecTkgAwsTopology;
 }
@@ -3081,25 +3081,25 @@ export interface DataTanzuMissionControlClusterSpecTkgServiceVsphereDistribution
   /**
   * Arch of the OS used for the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#os_arch DataTanzuMissionControlCluster#os_arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#os_arch DataTanzuMissionControlCluster#os_arch}
   */
   readonly osArch?: string;
   /**
   * Name of the OS used for the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#os_name DataTanzuMissionControlCluster#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#os_name DataTanzuMissionControlCluster#os_name}
   */
   readonly osName?: string;
   /**
   * Version of the OS used for the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#os_version DataTanzuMissionControlCluster#os_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#os_version DataTanzuMissionControlCluster#os_version}
   */
   readonly osVersion?: string;
   /**
   * Version of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#version DataTanzuMissionControlCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#version DataTanzuMissionControlCluster#version}
   */
   readonly version: string;
 }
@@ -3269,7 +3269,7 @@ export interface DataTanzuMissionControlClusterSpecTkgServiceVsphereSettingsNetw
   /**
   * CIDRBlocks specifies one or more ranges of IP addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#cidr_blocks DataTanzuMissionControlCluster#cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#cidr_blocks DataTanzuMissionControlCluster#cidr_blocks}
   */
   readonly cidrBlocks: string[];
 }
@@ -3384,7 +3384,7 @@ export interface DataTanzuMissionControlClusterSpecTkgServiceVsphereSettingsNetw
   /**
   * CIDRBlocks specifies one or more ranges of IP addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#cidr_blocks DataTanzuMissionControlCluster#cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#cidr_blocks DataTanzuMissionControlCluster#cidr_blocks}
   */
   readonly cidrBlocks: string[];
 }
@@ -3499,13 +3499,13 @@ export interface DataTanzuMissionControlClusterSpecTkgServiceVsphereSettingsNetw
   /**
   * pods block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#pods DataTanzuMissionControlCluster#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#pods DataTanzuMissionControlCluster#pods}
   */
   readonly pods: DataTanzuMissionControlClusterSpecTkgServiceVsphereSettingsNetworkPods[] | cdktf.IResolvable;
   /**
   * services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#services DataTanzuMissionControlCluster#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#services DataTanzuMissionControlCluster#services}
   */
   readonly services: DataTanzuMissionControlClusterSpecTkgServiceVsphereSettingsNetworkServices[] | cdktf.IResolvable;
 }
@@ -3614,13 +3614,13 @@ export interface DataTanzuMissionControlClusterSpecTkgServiceVsphereSettingsStor
   /**
   * Classes is a list of storage classes from the supervisor namespace to expose within a cluster. If omitted, all storage classes from the supervisor namespace will be exposed within the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#classes DataTanzuMissionControlCluster#classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#classes DataTanzuMissionControlCluster#classes}
   */
   readonly classes?: string[];
   /**
   * DefaultClass is the valid storage class name which is treated as the default storage class within a cluster. If omitted, no default storage class is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#default_class DataTanzuMissionControlCluster#default_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#default_class DataTanzuMissionControlCluster#default_class}
   */
   readonly defaultClass?: string;
 }
@@ -3735,13 +3735,13 @@ export interface DataTanzuMissionControlClusterSpecTkgServiceVsphereSettings {
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#network DataTanzuMissionControlCluster#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#network DataTanzuMissionControlCluster#network}
   */
   readonly network: DataTanzuMissionControlClusterSpecTkgServiceVsphereSettingsNetwork;
   /**
   * storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#storage DataTanzuMissionControlCluster#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#storage DataTanzuMissionControlCluster#storage}
   */
   readonly storage?: DataTanzuMissionControlClusterSpecTkgServiceVsphereSettingsStorage;
 }
@@ -3853,25 +3853,25 @@ export interface DataTanzuMissionControlClusterSpecTkgServiceVsphereTopologyCont
   /**
   * Volume capacity is in gib
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#capacity DataTanzuMissionControlCluster#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#capacity DataTanzuMissionControlCluster#capacity}
   */
   readonly capacity?: number;
   /**
   * It is the directory where the volume device is to be mounted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#mount_path DataTanzuMissionControlCluster#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#mount_path DataTanzuMissionControlCluster#mount_path}
   */
   readonly mountPath?: string;
   /**
   * It is the volume name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#name DataTanzuMissionControlCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#name DataTanzuMissionControlCluster#name}
   */
   readonly name?: string;
   /**
   * This is the storage class for PVC which in case omitted, default storage class will be used for the disks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#pvc_storage_class DataTanzuMissionControlCluster#pvc_storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#pvc_storage_class DataTanzuMissionControlCluster#pvc_storage_class}
   */
   readonly pvcStorageClass?: string;
 }
@@ -4076,25 +4076,25 @@ export interface DataTanzuMissionControlClusterSpecTkgServiceVsphereTopologyCont
   /**
   * Control plane instance type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#class DataTanzuMissionControlCluster#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#class DataTanzuMissionControlCluster#class}
   */
   readonly class: string;
   /**
   * High Availability or Non High Availability Cluster. HA cluster creates three controlplane machines, and non HA creates just one
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#high_availability DataTanzuMissionControlCluster#high_availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#high_availability DataTanzuMissionControlCluster#high_availability}
   */
   readonly highAvailability?: boolean | cdktf.IResolvable;
   /**
   * Storage Class to be used for storage of the disks which store the root filesystems of the nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#storage_class DataTanzuMissionControlCluster#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#storage_class DataTanzuMissionControlCluster#storage_class}
   */
   readonly storageClass: string;
   /**
   * volumes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#volumes DataTanzuMissionControlCluster#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#volumes DataTanzuMissionControlCluster#volumes}
   */
   readonly volumes?: DataTanzuMissionControlClusterSpecTkgServiceVsphereTopologyControlPlaneVolumes[] | cdktf.IResolvable;
 }
@@ -4261,13 +4261,13 @@ export interface DataTanzuMissionControlClusterSpecTkgServiceVsphereTopologyNode
   /**
   * Description for the nodepool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#description DataTanzuMissionControlCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#description DataTanzuMissionControlCluster#description}
   */
   readonly description?: string;
   /**
   * Name of the nodepool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#name DataTanzuMissionControlCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#name DataTanzuMissionControlCluster#name}
   */
   readonly name?: string;
 }
@@ -4382,25 +4382,25 @@ export interface DataTanzuMissionControlClusterSpecTkgServiceVsphereTopologyNode
   /**
   * Volume capacity is in gib
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#capacity DataTanzuMissionControlCluster#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#capacity DataTanzuMissionControlCluster#capacity}
   */
   readonly capacity?: number;
   /**
   * It is the directory where the volume device is to be mounted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#mount_path DataTanzuMissionControlCluster#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#mount_path DataTanzuMissionControlCluster#mount_path}
   */
   readonly mountPath?: string;
   /**
   * It is the volume name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#name DataTanzuMissionControlCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#name DataTanzuMissionControlCluster#name}
   */
   readonly name?: string;
   /**
   * This is the storage class for PVC which in case omitted, default storage class will be used for the disks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#pvc_storage_class DataTanzuMissionControlCluster#pvc_storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#pvc_storage_class DataTanzuMissionControlCluster#pvc_storage_class}
   */
   readonly pvcStorageClass?: string;
 }
@@ -4605,25 +4605,25 @@ export interface DataTanzuMissionControlClusterSpecTkgServiceVsphereTopologyNode
   /**
   * Control plane instance type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#class DataTanzuMissionControlCluster#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#class DataTanzuMissionControlCluster#class}
   */
   readonly class: string;
   /**
   * Configure the failure domain of node pool. The potential values could be found using cluster:options api.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#failure_domain DataTanzuMissionControlCluster#failure_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#failure_domain DataTanzuMissionControlCluster#failure_domain}
   */
   readonly failureDomain?: string;
   /**
   * Storage Class to be used for storage of the disks which store the root filesystems of the nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#storage_class DataTanzuMissionControlCluster#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#storage_class DataTanzuMissionControlCluster#storage_class}
   */
   readonly storageClass: string;
   /**
   * volumes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#volumes DataTanzuMissionControlCluster#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#volumes DataTanzuMissionControlCluster#volumes}
   */
   readonly volumes?: DataTanzuMissionControlClusterSpecTkgServiceVsphereTopologyNodePoolsSpecTkgServiceVsphereVolumes[] | cdktf.IResolvable;
 }
@@ -4790,25 +4790,25 @@ export interface DataTanzuMissionControlClusterSpecTkgServiceVsphereTopologyNode
   /**
   * Cloud labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#cloud_label DataTanzuMissionControlCluster#cloud_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#cloud_label DataTanzuMissionControlCluster#cloud_label}
   */
   readonly cloudLabel?: { [key: string]: string };
   /**
   * Node labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#node_label DataTanzuMissionControlCluster#node_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#node_label DataTanzuMissionControlCluster#node_label}
   */
   readonly nodeLabel?: { [key: string]: string };
   /**
   * Count is the number of nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#worker_node_count DataTanzuMissionControlCluster#worker_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#worker_node_count DataTanzuMissionControlCluster#worker_node_count}
   */
   readonly workerNodeCount?: string;
   /**
   * tkg_service_vsphere block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#tkg_service_vsphere DataTanzuMissionControlCluster#tkg_service_vsphere}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#tkg_service_vsphere DataTanzuMissionControlCluster#tkg_service_vsphere}
   */
   readonly tkgServiceVsphere?: DataTanzuMissionControlClusterSpecTkgServiceVsphereTopologyNodePoolsSpecTkgServiceVsphere;
 }
@@ -4981,13 +4981,13 @@ export interface DataTanzuMissionControlClusterSpecTkgServiceVsphereTopologyNode
   /**
   * info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#info DataTanzuMissionControlCluster#info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#info DataTanzuMissionControlCluster#info}
   */
   readonly info: DataTanzuMissionControlClusterSpecTkgServiceVsphereTopologyNodePoolsInfo;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#spec DataTanzuMissionControlCluster#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#spec DataTanzuMissionControlCluster#spec}
   */
   readonly spec?: DataTanzuMissionControlClusterSpecTkgServiceVsphereTopologyNodePoolsSpec;
 }
@@ -5131,13 +5131,13 @@ export interface DataTanzuMissionControlClusterSpecTkgServiceVsphereTopology {
   /**
   * control_plane block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#control_plane DataTanzuMissionControlCluster#control_plane}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#control_plane DataTanzuMissionControlCluster#control_plane}
   */
   readonly controlPlane: DataTanzuMissionControlClusterSpecTkgServiceVsphereTopologyControlPlane;
   /**
   * node_pools block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#node_pools DataTanzuMissionControlCluster#node_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#node_pools DataTanzuMissionControlCluster#node_pools}
   */
   readonly nodePools?: DataTanzuMissionControlClusterSpecTkgServiceVsphereTopologyNodePools[] | cdktf.IResolvable;
 }
@@ -5249,19 +5249,19 @@ export interface DataTanzuMissionControlClusterSpecTkgServiceVsphere {
   /**
   * distribution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#distribution DataTanzuMissionControlCluster#distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#distribution DataTanzuMissionControlCluster#distribution}
   */
   readonly distribution: DataTanzuMissionControlClusterSpecTkgServiceVsphereDistribution;
   /**
   * settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#settings DataTanzuMissionControlCluster#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#settings DataTanzuMissionControlCluster#settings}
   */
   readonly settings: DataTanzuMissionControlClusterSpecTkgServiceVsphereSettings;
   /**
   * topology block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#topology DataTanzuMissionControlCluster#topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#topology DataTanzuMissionControlCluster#topology}
   */
   readonly topology: DataTanzuMissionControlClusterSpecTkgServiceVsphereTopology;
 }
@@ -5396,13 +5396,13 @@ export interface DataTanzuMissionControlClusterSpecTkgVsphereAdvancedConfigs {
   /**
   * The key of the advanced configuration parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#key DataTanzuMissionControlCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#key DataTanzuMissionControlCluster#key}
   */
   readonly key: string;
   /**
   * The value of the advanced configuration parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#value DataTanzuMissionControlCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#value DataTanzuMissionControlCluster#value}
   */
   readonly value: string;
 }
@@ -5541,23 +5541,23 @@ export class DataTanzuMissionControlClusterSpecTkgVsphereAdvancedConfigsList ext
 }
 export interface DataTanzuMissionControlClusterSpecTkgVsphereDistributionWorkspace {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#datacenter DataTanzuMissionControlCluster#datacenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#datacenter DataTanzuMissionControlCluster#datacenter}
   */
   readonly datacenter: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#datastore DataTanzuMissionControlCluster#datastore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#datastore DataTanzuMissionControlCluster#datastore}
   */
   readonly datastore: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#folder DataTanzuMissionControlCluster#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#folder DataTanzuMissionControlCluster#folder}
   */
   readonly folder: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#resource_pool DataTanzuMissionControlCluster#resource_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#resource_pool DataTanzuMissionControlCluster#resource_pool}
   */
   readonly resourcePool: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#workspace_network DataTanzuMissionControlCluster#workspace_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#workspace_network DataTanzuMissionControlCluster#workspace_network}
   */
   readonly workspaceNetwork: string;
 }
@@ -5744,31 +5744,31 @@ export interface DataTanzuMissionControlClusterSpecTkgVsphereDistribution {
   /**
   * Arch of the OS used for the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#os_arch DataTanzuMissionControlCluster#os_arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#os_arch DataTanzuMissionControlCluster#os_arch}
   */
   readonly osArch?: string;
   /**
   * Name of the OS used for the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#os_name DataTanzuMissionControlCluster#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#os_name DataTanzuMissionControlCluster#os_name}
   */
   readonly osName?: string;
   /**
   * Version of the OS used for the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#os_version DataTanzuMissionControlCluster#os_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#os_version DataTanzuMissionControlCluster#os_version}
   */
   readonly osVersion?: string;
   /**
   * Version specifies the version of the Kubernetes cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#version DataTanzuMissionControlCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#version DataTanzuMissionControlCluster#version}
   */
   readonly version: string;
   /**
   * workspace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#workspace DataTanzuMissionControlCluster#workspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#workspace DataTanzuMissionControlCluster#workspace}
   */
   readonly workspace: DataTanzuMissionControlClusterSpecTkgVsphereDistributionWorkspace;
 }
@@ -5964,7 +5964,7 @@ export interface DataTanzuMissionControlClusterSpecTkgVsphereSettingsNetworkPods
   /**
   * CIDRBlocks specifies one or more ranges of IP addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#cidr_blocks DataTanzuMissionControlCluster#cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#cidr_blocks DataTanzuMissionControlCluster#cidr_blocks}
   */
   readonly cidrBlocks: string[];
 }
@@ -6079,7 +6079,7 @@ export interface DataTanzuMissionControlClusterSpecTkgVsphereSettingsNetworkServ
   /**
   * CIDRBlocks specifies one or more ranges of IP addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#cidr_blocks DataTanzuMissionControlCluster#cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#cidr_blocks DataTanzuMissionControlCluster#cidr_blocks}
   */
   readonly cidrBlocks: string[];
 }
@@ -6194,25 +6194,25 @@ export interface DataTanzuMissionControlClusterSpecTkgVsphereSettingsNetwork {
   /**
   * APIServerPort specifies the port address for the cluster that defaults to 6443.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#api_server_port DataTanzuMissionControlCluster#api_server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#api_server_port DataTanzuMissionControlCluster#api_server_port}
   */
   readonly apiServerPort?: number;
   /**
   * ControlPlaneEndpoint specifies the control plane virtual IP address. The value should be unique for every create request, else cluster creation shall fail. This field is not needed when AVI enabled while creating a legacy cluster on TKGm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#control_plane_end_point DataTanzuMissionControlCluster#control_plane_end_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#control_plane_end_point DataTanzuMissionControlCluster#control_plane_end_point}
   */
   readonly controlPlaneEndPoint?: string;
   /**
   * pods block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#pods DataTanzuMissionControlCluster#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#pods DataTanzuMissionControlCluster#pods}
   */
   readonly pods: DataTanzuMissionControlClusterSpecTkgVsphereSettingsNetworkPods[] | cdktf.IResolvable;
   /**
   * services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#services DataTanzuMissionControlCluster#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#services DataTanzuMissionControlCluster#services}
   */
   readonly services: DataTanzuMissionControlClusterSpecTkgVsphereSettingsNetworkServices[] | cdktf.IResolvable;
 }
@@ -6379,7 +6379,7 @@ export interface DataTanzuMissionControlClusterSpecTkgVsphereSettingsSecurity {
   /**
   * SSH key for provisioning and accessing the cluster VMs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#ssh_key DataTanzuMissionControlCluster#ssh_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#ssh_key DataTanzuMissionControlCluster#ssh_key}
   */
   readonly sshKey: string;
 }
@@ -6462,13 +6462,13 @@ export interface DataTanzuMissionControlClusterSpecTkgVsphereSettings {
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#network DataTanzuMissionControlCluster#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#network DataTanzuMissionControlCluster#network}
   */
   readonly network: DataTanzuMissionControlClusterSpecTkgVsphereSettingsNetwork;
   /**
   * security block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#security DataTanzuMissionControlCluster#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#security DataTanzuMissionControlCluster#security}
   */
   readonly security: DataTanzuMissionControlClusterSpecTkgVsphereSettingsSecurity;
 }
@@ -6577,19 +6577,19 @@ export interface DataTanzuMissionControlClusterSpecTkgVsphereTopologyControlPlan
   /**
   * Number of CPUs per node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#cpu DataTanzuMissionControlCluster#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#cpu DataTanzuMissionControlCluster#cpu}
   */
   readonly cpu?: string;
   /**
   * Root disk size in gigabytes for the VM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#disk_size DataTanzuMissionControlCluster#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#disk_size DataTanzuMissionControlCluster#disk_size}
   */
   readonly diskSize?: string;
   /**
   * Memory associated with the node in megabytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#memory DataTanzuMissionControlCluster#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#memory DataTanzuMissionControlCluster#memory}
   */
   readonly memory?: string;
 }
@@ -6733,13 +6733,13 @@ export interface DataTanzuMissionControlClusterSpecTkgVsphereTopologyControlPlan
   /**
   * High Availability or Non High Availability Cluster. HA cluster creates three controlplane machines, and non HA creates just one
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#high_availability DataTanzuMissionControlCluster#high_availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#high_availability DataTanzuMissionControlCluster#high_availability}
   */
   readonly highAvailability?: boolean | cdktf.IResolvable;
   /**
   * vm_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#vm_config DataTanzuMissionControlCluster#vm_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#vm_config DataTanzuMissionControlCluster#vm_config}
   */
   readonly vmConfig: DataTanzuMissionControlClusterSpecTkgVsphereTopologyControlPlaneVmConfig;
 }
@@ -6851,13 +6851,13 @@ export interface DataTanzuMissionControlClusterSpecTkgVsphereTopologyNodePoolsIn
   /**
   * Description of the nodepool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#description DataTanzuMissionControlCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#description DataTanzuMissionControlCluster#description}
   */
   readonly description?: string;
   /**
   * Name of the nodepool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#name DataTanzuMissionControlCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#name DataTanzuMissionControlCluster#name}
   */
   readonly name: string;
 }
@@ -6969,19 +6969,19 @@ export interface DataTanzuMissionControlClusterSpecTkgVsphereTopologyNodePoolsSp
   /**
   * Number of CPUs per node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#cpu DataTanzuMissionControlCluster#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#cpu DataTanzuMissionControlCluster#cpu}
   */
   readonly cpu?: string;
   /**
   * Root disk size in gigabytes for the VM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#disk_size DataTanzuMissionControlCluster#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#disk_size DataTanzuMissionControlCluster#disk_size}
   */
   readonly diskSize?: string;
   /**
   * Memory associated with the node in megabytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#memory DataTanzuMissionControlCluster#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#memory DataTanzuMissionControlCluster#memory}
   */
   readonly memory?: string;
 }
@@ -7125,7 +7125,7 @@ export interface DataTanzuMissionControlClusterSpecTkgVsphereTopologyNodePoolsSp
   /**
   * vm_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#vm_config DataTanzuMissionControlCluster#vm_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#vm_config DataTanzuMissionControlCluster#vm_config}
   */
   readonly vmConfig: DataTanzuMissionControlClusterSpecTkgVsphereTopologyNodePoolsSpecTkgVsphereVmConfig;
 }
@@ -7208,13 +7208,13 @@ export interface DataTanzuMissionControlClusterSpecTkgVsphereTopologyNodePoolsSp
   /**
   * Count is the number of nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#worker_node_count DataTanzuMissionControlCluster#worker_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#worker_node_count DataTanzuMissionControlCluster#worker_node_count}
   */
   readonly workerNodeCount?: string;
   /**
   * tkg_vsphere block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#tkg_vsphere DataTanzuMissionControlCluster#tkg_vsphere}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#tkg_vsphere DataTanzuMissionControlCluster#tkg_vsphere}
   */
   readonly tkgVsphere?: DataTanzuMissionControlClusterSpecTkgVsphereTopologyNodePoolsSpecTkgVsphere;
 }
@@ -7329,13 +7329,13 @@ export interface DataTanzuMissionControlClusterSpecTkgVsphereTopologyNodePools {
   /**
   * info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#info DataTanzuMissionControlCluster#info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#info DataTanzuMissionControlCluster#info}
   */
   readonly info: DataTanzuMissionControlClusterSpecTkgVsphereTopologyNodePoolsInfo;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#spec DataTanzuMissionControlCluster#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#spec DataTanzuMissionControlCluster#spec}
   */
   readonly spec?: DataTanzuMissionControlClusterSpecTkgVsphereTopologyNodePoolsSpec;
 }
@@ -7479,13 +7479,13 @@ export interface DataTanzuMissionControlClusterSpecTkgVsphereTopology {
   /**
   * control_plane block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#control_plane DataTanzuMissionControlCluster#control_plane}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#control_plane DataTanzuMissionControlCluster#control_plane}
   */
   readonly controlPlane: DataTanzuMissionControlClusterSpecTkgVsphereTopologyControlPlane;
   /**
   * node_pools block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#node_pools DataTanzuMissionControlCluster#node_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#node_pools DataTanzuMissionControlCluster#node_pools}
   */
   readonly nodePools?: DataTanzuMissionControlClusterSpecTkgVsphereTopologyNodePools[] | cdktf.IResolvable;
 }
@@ -7597,25 +7597,25 @@ export interface DataTanzuMissionControlClusterSpecTkgVsphere {
   /**
   * advanced_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#advanced_configs DataTanzuMissionControlCluster#advanced_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#advanced_configs DataTanzuMissionControlCluster#advanced_configs}
   */
   readonly advancedConfigs?: DataTanzuMissionControlClusterSpecTkgVsphereAdvancedConfigs[] | cdktf.IResolvable;
   /**
   * distribution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#distribution DataTanzuMissionControlCluster#distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#distribution DataTanzuMissionControlCluster#distribution}
   */
   readonly distribution: DataTanzuMissionControlClusterSpecTkgVsphereDistribution;
   /**
   * settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#settings DataTanzuMissionControlCluster#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#settings DataTanzuMissionControlCluster#settings}
   */
   readonly settings: DataTanzuMissionControlClusterSpecTkgVsphereSettings;
   /**
   * topology block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#topology DataTanzuMissionControlCluster#topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#topology DataTanzuMissionControlCluster#topology}
   */
   readonly topology: DataTanzuMissionControlClusterSpecTkgVsphereTopology;
 }
@@ -7779,37 +7779,37 @@ export interface DataTanzuMissionControlClusterSpec {
   /**
   * Name of the cluster group to which this cluster belongs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#cluster_group DataTanzuMissionControlCluster#cluster_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#cluster_group DataTanzuMissionControlCluster#cluster_group}
   */
   readonly clusterGroup?: string;
   /**
   * Optional image registry name is the name of the image registry to be used for the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#image_registry DataTanzuMissionControlCluster#image_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#image_registry DataTanzuMissionControlCluster#image_registry}
   */
   readonly imageRegistry?: string;
   /**
   * Optional proxy name is the name of the Proxy Config to be used for the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#proxy DataTanzuMissionControlCluster#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#proxy DataTanzuMissionControlCluster#proxy}
   */
   readonly proxy?: string;
   /**
   * tkg_aws block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#tkg_aws DataTanzuMissionControlCluster#tkg_aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#tkg_aws DataTanzuMissionControlCluster#tkg_aws}
   */
   readonly tkgAws?: DataTanzuMissionControlClusterSpecTkgAws;
   /**
   * tkg_service_vsphere block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#tkg_service_vsphere DataTanzuMissionControlCluster#tkg_service_vsphere}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#tkg_service_vsphere DataTanzuMissionControlCluster#tkg_service_vsphere}
   */
   readonly tkgServiceVsphere?: DataTanzuMissionControlClusterSpecTkgServiceVsphere;
   /**
   * tkg_vsphere block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#tkg_vsphere DataTanzuMissionControlCluster#tkg_vsphere}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#tkg_vsphere DataTanzuMissionControlCluster#tkg_vsphere}
   */
   readonly tkgVsphere?: DataTanzuMissionControlClusterSpecTkgVsphere;
 }
@@ -8038,7 +8038,7 @@ export class DataTanzuMissionControlClusterSpecOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster tanzu-mission-control_cluster}
+* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster tanzu-mission-control_cluster}
 */
 export class DataTanzuMissionControlCluster extends cdktf.TerraformDataSource {
 
@@ -8054,7 +8054,7 @@ export class DataTanzuMissionControlCluster extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTanzuMissionControlCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTanzuMissionControlCluster to import
-  * @param importFromId The id of the existing DataTanzuMissionControlCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTanzuMissionControlCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTanzuMissionControlCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8066,7 +8066,7 @@ export class DataTanzuMissionControlCluster extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster tanzu-mission-control_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster tanzu-mission-control_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8077,8 +8077,8 @@ export class DataTanzuMissionControlCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'tanzu-mission-control_cluster',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9',
-        providerVersionConstraint: '1.4.9'
+        providerVersion: '1.4.10',
+        providerVersionConstraint: '1.4.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

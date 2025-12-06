@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/data-sources/tag
+// https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/data-sources/tag
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataStreamkapTagConfig extends cdktf.TerraformMetaArguments {
   /**
   * Tag identifier. Currently, we only have 2 tags: `Development` tag with ID `670e5ca40afe1d3983ce0c22` and `Production` tag with ID `670e5bab0d119c0d1f8cda9d`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/data-sources/tag#id DataStreamkapTag#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/data-sources/tag#id DataStreamkapTag#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataStreamkapTagConfig extends cdktf.TerraformMetaArguments {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/data-sources/tag streamkap_tag}
+* Represents a {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/data-sources/tag streamkap_tag}
 */
 export class DataStreamkapTag extends cdktf.TerraformDataSource {
 
@@ -35,7 +35,7 @@ export class DataStreamkapTag extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataStreamkapTag resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStreamkapTag to import
-  * @param importFromId The id of the existing DataStreamkapTag that should be imported. Refer to the {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/data-sources/tag#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStreamkapTag that should be imported. Refer to the {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/data-sources/tag#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStreamkapTag to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -47,7 +47,7 @@ export class DataStreamkapTag extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/data-sources/tag streamkap_tag} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/data-sources/tag streamkap_tag} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -58,8 +58,8 @@ export class DataStreamkapTag extends cdktf.TerraformDataSource {
       terraformResourceType: 'streamkap_tag',
       terraformGeneratorMetadata: {
         providerName: 'streamkap',
-        providerVersion: '2.1.15',
-        providerVersionConstraint: '2.1.15'
+        providerVersion: '2.1.16',
+        providerVersionConstraint: '2.1.16'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

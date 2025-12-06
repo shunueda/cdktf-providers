@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/cluster_replica
+// https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/cluster_replica
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ClusterReplicaConfig extends cdktf.TerraformMetaArguments {
   /**
   * The specific availability zone of the replica.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/cluster_replica#availability_zone ClusterReplica#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/cluster_replica#availability_zone ClusterReplica#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * The cluster whose resources you want to create an additional computation of.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/cluster_replica#cluster_name ClusterReplica#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/cluster_replica#cluster_name ClusterReplica#cluster_name}
   */
   readonly clusterName: string;
   /**
   * Comment on an object in the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/cluster_replica#comment ClusterReplica#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/cluster_replica#comment ClusterReplica#comment}
   */
   readonly comment?: string;
   /**
   * **Deprecated**. This attribute is maintained for backward compatibility with existing configurations. New users should use 'cc' sizes for disk access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/cluster_replica#disk ClusterReplica#disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/cluster_replica#disk ClusterReplica#disk}
   */
   readonly disk?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/cluster_replica#id ClusterReplica#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/cluster_replica#id ClusterReplica#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,37 +41,37 @@ export interface ClusterReplicaConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether to introspect the gathering of the introspection data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/cluster_replica#introspection_debugging ClusterReplica#introspection_debugging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/cluster_replica#introspection_debugging ClusterReplica#introspection_debugging}
   */
   readonly introspectionDebugging?: boolean | cdktf.IResolvable;
   /**
   * The interval at which to collect introspection data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/cluster_replica#introspection_interval ClusterReplica#introspection_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/cluster_replica#introspection_interval ClusterReplica#introspection_interval}
   */
   readonly introspectionInterval?: string;
   /**
   * The identifier for the replica.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/cluster_replica#name ClusterReplica#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/cluster_replica#name ClusterReplica#name}
   */
   readonly name: string;
   /**
   * The region to use for the resource connection. If not set, the default region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/cluster_replica#region ClusterReplica#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/cluster_replica#region ClusterReplica#region}
   */
   readonly region?: string;
   /**
   * The size of the replica.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/cluster_replica#size ClusterReplica#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/cluster_replica#size ClusterReplica#size}
   */
   readonly size: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/cluster_replica materialize_cluster_replica}
+* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/cluster_replica materialize_cluster_replica}
 */
 export class ClusterReplica extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class ClusterReplica extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClusterReplica resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClusterReplica to import
-  * @param importFromId The id of the existing ClusterReplica that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/cluster_replica#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClusterReplica that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/cluster_replica#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClusterReplica to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class ClusterReplica extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/cluster_replica materialize_cluster_replica} Resource
+  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/cluster_replica materialize_cluster_replica} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class ClusterReplica extends cdktf.TerraformResource {
       terraformResourceType: 'materialize_cluster_replica',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.5',
-        providerVersionConstraint: '0.9.5'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

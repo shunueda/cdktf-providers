@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/data-sources/extension
+// https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/data-sources/extension
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataMetalcloudExtensionConfig extends cdktf.TerraformMetaArgume
   /**
   * Extension label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/data-sources/extension#label DataMetalcloudExtension#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/data-sources/extension#label DataMetalcloudExtension#label}
   */
   readonly label: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/data-sources/extension metalcloud_extension}
+* Represents a {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/data-sources/extension metalcloud_extension}
 */
 export class DataMetalcloudExtension extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataMetalcloudExtension extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMetalcloudExtension resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMetalcloudExtension to import
-  * @param importFromId The id of the existing DataMetalcloudExtension that should be imported. Refer to the {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/data-sources/extension#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMetalcloudExtension that should be imported. Refer to the {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/data-sources/extension#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMetalcloudExtension to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataMetalcloudExtension extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/data-sources/extension metalcloud_extension} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/data-sources/extension metalcloud_extension} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataMetalcloudExtension extends cdktf.TerraformDataSource {
       terraformResourceType: 'metalcloud_extension',
       terraformGeneratorMetadata: {
         providerName: 'metalcloud',
-        providerVersion: '7.0.10',
-        providerVersionConstraint: '7.0.10'
+        providerVersion: '7.1.0',
+        providerVersionConstraint: '7.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

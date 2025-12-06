@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline
+// https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface PipelineConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the data plane to use for this pipeline. If this is not set, we will use the default data plane for your account. To see the full list of supported data planes on your account, click on 'New pipeline' in our UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#data_plane_name Pipeline#data_plane_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#data_plane_name Pipeline#data_plane_name}
   */
   readonly dataPlaneName?: string;
   /**
   * If set, tables from this schema will not be prefixed with this schema name in the destination. Tables from other schemas will be prefixed with their source schema name to avoid table name collisions (unless `use_same_schema_as_source` is set to true). This is currently only applicable if the source is MySQL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#default_source_schema Pipeline#default_source_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#default_source_schema Pipeline#default_source_schema}
   */
   readonly defaultSourceSchema?: string;
   /**
   * This contains configuration that pertains to the destination database but is specific to this pipeline. The basic connection settings for the destination, which can be shared by multiple pipelines, are stored in the corresponding `artie_connector` resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#destination_config Pipeline#destination_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#destination_config Pipeline#destination_config}
   */
   readonly destinationConfig: PipelineDestinationConfig;
   /**
   * This must point to an `artie_connector` resource that represents the destination database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#destination_connector_uuid Pipeline#destination_connector_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#destination_connector_uuid Pipeline#destination_connector_uuid}
   */
   readonly destinationConnectorUuid: string;
   /**
   * If set to true, when a column is dropped from the source it will also be dropped in the destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#drop_deleted_columns Pipeline#drop_deleted_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#drop_deleted_columns Pipeline#drop_deleted_columns}
   */
   readonly dropDeletedColumns?: boolean | cdktf.IResolvable;
   /**
   * This contains rules for how often Artie should flush data to the destination. If not specified, Artie will provide default values. A flush will happen when any of the rules are met (e.g. 30 seconds since the last flush OR 150k rows OR 50MB of data).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#flush_rules Pipeline#flush_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#flush_rules Pipeline#flush_rules}
   */
   readonly flushRules?: PipelineFlushRules;
   /**
   * If set to true, Artie will add a new column called `__artie_updated_at` to the destination table to indicate when the row was last updated by Artie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#include_artie_updated_at_column Pipeline#include_artie_updated_at_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#include_artie_updated_at_column Pipeline#include_artie_updated_at_column}
   */
   readonly includeArtieUpdatedAtColumn?: boolean | cdktf.IResolvable;
   /**
   * If set to true, Artie will add a new column called `__artie_db_updated_at` to the destination table to indicate when the row was last updated by the source database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#include_database_updated_at_column Pipeline#include_database_updated_at_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#include_database_updated_at_column Pipeline#include_database_updated_at_column}
   */
   readonly includeDatabaseUpdatedAtColumn?: boolean | cdktf.IResolvable;
   /**
   * The human-readable name of the pipeline. This is used only as a label and can contain any characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#name Pipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#name Pipeline#name}
   */
   readonly name: string;
   /**
   * If set to true, when a row is deleted from the source it will not be deleted from the destination. Instead, a new boolean column called `__artie_delete` will be added to the destination table to indicate which rows have been deleted in the source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#soft_delete_rows Pipeline#soft_delete_rows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#soft_delete_rows Pipeline#soft_delete_rows}
   */
   readonly softDeleteRows?: boolean | cdktf.IResolvable;
   /**
   * This must point to an `artie_source_reader` resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#source_reader_uuid Pipeline#source_reader_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#source_reader_uuid Pipeline#source_reader_uuid}
   */
   readonly sourceReaderUuid: string;
   /**
   * If set to true, Artie will split events by type and store them in separate tables. This is only applicable if the source is API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#split_events_by_type Pipeline#split_events_by_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#split_events_by_type Pipeline#split_events_by_type}
   */
   readonly splitEventsByType?: boolean | cdktf.IResolvable;
   /**
   * A map of tables from the source database that you want to replicate to the destination. The key for each table should be formatted as `schema_name.table_name` if your source database uses schemas, otherwise just `table_name`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#tables Pipeline#tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#tables Pipeline#tables}
   */
   readonly tables: { [key: string]: PipelineTables } | cdktf.IResolvable;
 }
@@ -90,49 +90,49 @@ export interface PipelineDestinationConfig {
   /**
   * The name of the S3 or GCS bucket that data should be synced to. This should be filled if the destination is S3 or GCS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#bucket Pipeline#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#bucket Pipeline#bucket}
   */
   readonly bucket?: string;
   /**
   * The name of the database that data should be synced to in the destination. This should be filled if the destination is MS SQL or Snowflake, unless `use_same_schema_as_source` is set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#database Pipeline#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#database Pipeline#database}
   */
   readonly database?: string;
   /**
   * The name of the dataset that data should be synced to in the destination. This should be filled if the destination is BigQuery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#dataset Pipeline#dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#dataset Pipeline#dataset}
   */
   readonly dataset?: string;
   /**
   * If provided, all files will be stored under this folder inside the S3 or GCS bucket. This is optional and only applies if the destination is S3 or GCS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#folder Pipeline#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#folder Pipeline#folder}
   */
   readonly folder?: string;
   /**
   * The name of the schema that data should be synced to in the destination. This should be filled if the destination is MS SQL, Redshift, or Snowflake (unless `use_same_schema_as_source` is set to true).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#schema Pipeline#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#schema Pipeline#schema}
   */
   readonly schema?: string;
   /**
   * If `use_same_schema_as_source` is enabled, this prefix will be added to each schema name in the destination. This is useful if you want to namespace all of this pipeline's schemas in the destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#schema_name_prefix Pipeline#schema_name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#schema_name_prefix Pipeline#schema_name_prefix}
   */
   readonly schemaNamePrefix?: string;
   /**
   * If provided, this is the separator between database, schema and table name. This is only applicable if the destination is S3 or GCS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#table_name_separator Pipeline#table_name_separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#table_name_separator Pipeline#table_name_separator}
   */
   readonly tableNameSeparator?: string;
   /**
   * If set to true, each table from the source database will be synced to a schema with the same name as its source schema. This can only be used if both the source and destination support multiple schemas (e.g. PostgreSQL, Redshift, Snowflake, etc).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#use_same_schema_as_source Pipeline#use_same_schema_as_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#use_same_schema_as_source Pipeline#use_same_schema_as_source}
   */
   readonly useSameSchemaAsSource?: boolean | cdktf.IResolvable;
 }
@@ -431,19 +431,19 @@ export interface PipelineFlushRules {
   /**
   * The number of rows to buffer before flushing to the destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#buffer_rows Pipeline#buffer_rows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#buffer_rows Pipeline#buffer_rows}
   */
   readonly bufferRows?: number;
   /**
   * The flush interval in seconds for how often Artie should flush data to the destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#flush_interval_seconds Pipeline#flush_interval_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#flush_interval_seconds Pipeline#flush_interval_seconds}
   */
   readonly flushIntervalSeconds?: number;
   /**
   * The size in kb of data to buffer before flushing to the destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#flush_size_kb Pipeline#flush_size_kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#flush_size_kb Pipeline#flush_size_kb}
   */
   readonly flushSizeKb?: number;
 }
@@ -597,13 +597,13 @@ export interface PipelineTablesMergePredicates {
   /**
   * The name of the column the destination table is partitioned by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#partition_field Pipeline#partition_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#partition_field Pipeline#partition_field}
   */
   readonly partitionField: string;
   /**
   * The type of partition to use. One of 'time' or 'integer'. Required for BigQuery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#partition_type Pipeline#partition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#partition_type Pipeline#partition_type}
   */
   readonly partitionType?: string;
 }
@@ -747,25 +747,25 @@ export interface PipelineTablesSoftPartitioning {
   /**
   * Whether soft partitioning is enabled for this table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#enabled Pipeline#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#enabled Pipeline#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The maximum number of partitions to maintain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#max_partitions Pipeline#max_partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#max_partitions Pipeline#max_partitions}
   */
   readonly maxPartitions: number;
   /**
   * The column to use for soft partitioning. To prevent duplicate rows, the partition column should be immutable, for example `created_at`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#partition_column Pipeline#partition_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#partition_column Pipeline#partition_column}
   */
   readonly partitionColumn: string;
   /**
   * The frequency of partitioning ('monthly' and 'daily' are supported).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#partition_frequency Pipeline#partition_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#partition_frequency Pipeline#partition_frequency}
   */
   readonly partitionFrequency: string;
 }
@@ -936,79 +936,79 @@ export interface PipelineTables {
   /**
   * An optional alias for the table. If set, this will be the name of the destination table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#alias Pipeline#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#alias Pipeline#alias}
   */
   readonly alias?: string;
   /**
   * An optional list of columns to exclude from syncing to the destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#columns_to_exclude Pipeline#columns_to_exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#columns_to_exclude Pipeline#columns_to_exclude}
   */
   readonly columnsToExclude?: string[];
   /**
   * An optional list of columns to hash in the destination. Values for these columns will be obscured with a one-way hash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#columns_to_hash Pipeline#columns_to_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#columns_to_hash Pipeline#columns_to_hash}
   */
   readonly columnsToHash?: string[];
   /**
   * An optional list of columns to include in replication. If not provided, all columns will be replicated. A pipeline can only have one of `columns_to_include` or `columns_to_exclude` set in any of its tables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#columns_to_include Pipeline#columns_to_include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#columns_to_include Pipeline#columns_to_include}
   */
   readonly columnsToInclude?: string[];
   /**
   * If set to true, we will create an additional table in the destination (suffixed with `__history`) to store all changes to the source table over time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#enable_history_mode Pipeline#enable_history_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#enable_history_mode Pipeline#enable_history_mode}
   */
   readonly enableHistoryMode?: boolean | cdktf.IResolvable;
   /**
   * If the source table is partitioned, set this to true and we will ingest data from all of its partitions. You may also need to customize `partition_suffix_regex_pattern` on the source reader.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#is_partitioned Pipeline#is_partitioned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#is_partitioned Pipeline#is_partitioned}
   */
   readonly isPartitioned?: boolean | cdktf.IResolvable;
   /**
   * Optional: if the destination table is partitioned, specify the partition column(s) and type. This helps merge performance and currently only applies to Snowflake and BigQuery. For BigQuery, only one column can be specified and it may be either a time-partitioned or an integer range-partitioned column; set `partition_type` to 'time' or 'integer' accordingly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#merge_predicates Pipeline#merge_predicates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#merge_predicates Pipeline#merge_predicates}
   */
   readonly mergePredicates?: PipelineTablesMergePredicates[] | cdktf.IResolvable;
   /**
   * The name of the table in the source database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#name Pipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#name Pipeline#name}
   */
   readonly name: string;
   /**
   * The name of the schema the table belongs to in the source database. This must be specified if your source database uses schemas (such as PostgreSQL), e.g. `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#schema Pipeline#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#schema Pipeline#schema}
   */
   readonly schema?: string;
   /**
   * If set to true, we will skip delete events for this table and only process insert and update events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#skip_deletes Pipeline#skip_deletes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#skip_deletes Pipeline#skip_deletes}
   */
   readonly skipDeletes?: boolean | cdktf.IResolvable;
   /**
   * Optional: configuration for soft partitioning of the destination table. This can improve query performance for large tables by partitioning data based on a specified column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#soft_partitioning Pipeline#soft_partitioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#soft_partitioning Pipeline#soft_partitioning}
   */
   readonly softPartitioning?: PipelineTablesSoftPartitioning;
   /**
   * If set to true, we will replicate tables with the same name and schema name from all specified databases into the same destination table. This is only applicable if the source reader has `enable_unify_across_databases` set to true and `databases_to_unify` filled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#unify_across_databases Pipeline#unify_across_databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#unify_across_databases Pipeline#unify_across_databases}
   */
   readonly unifyAcrossDatabases?: boolean | cdktf.IResolvable;
   /**
   * If set to true, we will replicate tables with the same name from all schemas into the same destination table. This is only applicable if the source reader has `enable_unify_across_schemas` set to true. You should still specify a schema name where this table exists; we will use that schema to fetch metadata for the table and validate its configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#unify_across_schemas Pipeline#unify_across_schemas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#unify_across_schemas Pipeline#unify_across_schemas}
   */
   readonly unifyAcrossSchemas?: boolean | cdktf.IResolvable;
 }
@@ -1472,7 +1472,7 @@ export class PipelineTablesMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline artie_pipeline}
+* Represents a {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline artie_pipeline}
 */
 export class Pipeline extends cdktf.TerraformResource {
 
@@ -1488,7 +1488,7 @@ export class Pipeline extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Pipeline resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Pipeline to import
-  * @param importFromId The id of the existing Pipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Pipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Pipeline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1500,7 +1500,7 @@ export class Pipeline extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.2/docs/resources/pipeline artie_pipeline} Resource
+  * Create a new {@link https://registry.terraform.io/providers/artie-labs/artie/2.3.3/docs/resources/pipeline artie_pipeline} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1511,8 +1511,8 @@ export class Pipeline extends cdktf.TerraformResource {
       terraformResourceType: 'artie_pipeline',
       terraformGeneratorMetadata: {
         providerName: 'artie',
-        providerVersion: '2.3.2',
-        providerVersionConstraint: '2.3.2'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

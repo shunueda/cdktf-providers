@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/package_install
+// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/package_install
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface PackageInstallConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/package_install#id PackageInstall#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/package_install#id PackageInstall#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface PackageInstallConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the package install resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/package_install#name PackageInstall#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/package_install#name PackageInstall#name}
   */
   readonly name: string;
   /**
   * Name of Namespace where package install will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/package_install#namespace PackageInstall#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/package_install#namespace PackageInstall#namespace}
   */
   readonly namespace: string;
   /**
   * meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/package_install#meta PackageInstall#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/package_install#meta PackageInstall#meta}
   */
   readonly meta?: PackageInstallMeta;
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/package_install#scope PackageInstall#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/package_install#scope PackageInstall#scope}
   */
   readonly scope: PackageInstallScope;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/package_install#spec PackageInstall#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/package_install#spec PackageInstall#spec}
   */
   readonly spec: PackageInstallSpec;
 }
@@ -230,19 +230,19 @@ export interface PackageInstallMeta {
   /**
   * Annotations for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/package_install#annotations PackageInstall#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/package_install#annotations PackageInstall#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/package_install#description PackageInstall#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/package_install#description PackageInstall#description}
   */
   readonly description?: string;
   /**
   * Labels for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/package_install#labels PackageInstall#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/package_install#labels PackageInstall#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -396,19 +396,19 @@ export interface PackageInstallScopeCluster {
   /**
   * Name of the management cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/package_install#management_cluster_name PackageInstall#management_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/package_install#management_cluster_name PackageInstall#management_cluster_name}
   */
   readonly managementClusterName?: string;
   /**
   * Name of this cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/package_install#name PackageInstall#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/package_install#name PackageInstall#name}
   */
   readonly name: string;
   /**
   * Provisioner of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/package_install#provisioner_name PackageInstall#provisioner_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/package_install#provisioner_name PackageInstall#provisioner_name}
   */
   readonly provisionerName?: string;
 }
@@ -549,7 +549,7 @@ export interface PackageInstallScope {
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/package_install#cluster PackageInstall#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/package_install#cluster PackageInstall#cluster}
   */
   readonly cluster?: PackageInstallScopeCluster;
 }
@@ -635,7 +635,7 @@ export interface PackageInstallSpecPackageRefVersionSelection {
   /**
   * Constraints to select Package. Example: constraints: 'v1.2.3', constraints: '<v1.4.0' etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/package_install#constraints PackageInstall#constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/package_install#constraints PackageInstall#constraints}
   */
   readonly constraints: string;
 }
@@ -718,13 +718,13 @@ export interface PackageInstallSpecPackageRef {
   /**
   * Name of the Package Metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/package_install#package_metadata_name PackageInstall#package_metadata_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/package_install#package_metadata_name PackageInstall#package_metadata_name}
   */
   readonly packageMetadataName: string;
   /**
   * version_selection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/package_install#version_selection PackageInstall#version_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/package_install#version_selection PackageInstall#version_selection}
   */
   readonly versionSelection: PackageInstallSpecPackageRefVersionSelection;
 }
@@ -833,19 +833,19 @@ export interface PackageInstallSpec {
   /**
   * Deprecated, Use `path_to_inline_values` instead. Inline values to configure the Package Install.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/package_install#inline_values PackageInstall#inline_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/package_install#inline_values PackageInstall#inline_values}
   */
   readonly inlineValues?: { [key: string]: string };
   /**
   * File to read inline values from (in yaml format). User needs to specify the file path for inline values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/package_install#path_to_inline_values PackageInstall#path_to_inline_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/package_install#path_to_inline_values PackageInstall#path_to_inline_values}
   */
   readonly pathToInlineValues?: string;
   /**
   * package_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/package_install#package_ref PackageInstall#package_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/package_install#package_ref PackageInstall#package_ref}
   */
   readonly packageRef: PackageInstallSpecPackageRef;
 }
@@ -989,7 +989,7 @@ export class PackageInstallSpecOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/package_install tanzu-mission-control_package_install}
+* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/package_install tanzu-mission-control_package_install}
 */
 export class PackageInstall extends cdktf.TerraformResource {
 
@@ -1005,7 +1005,7 @@ export class PackageInstall extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PackageInstall resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PackageInstall to import
-  * @param importFromId The id of the existing PackageInstall that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/package_install#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PackageInstall that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/package_install#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PackageInstall to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1017,7 +1017,7 @@ export class PackageInstall extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/package_install tanzu-mission-control_package_install} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/package_install tanzu-mission-control_package_install} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1028,8 +1028,8 @@ export class PackageInstall extends cdktf.TerraformResource {
       terraformResourceType: 'tanzu-mission-control_package_install',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9',
-        providerVersionConstraint: '1.4.9'
+        providerVersion: '1.4.10',
+        providerVersionConstraint: '1.4.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

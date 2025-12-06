@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build
+// https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,39 +10,39 @@ export interface BuildConfig extends cdktf.TerraformMetaArguments {
   /**
   * The parsed structure of the apko configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#config Build#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#config Build#config}
   */
   readonly config: BuildConfigA;
   /**
   * A map from the APK architecture to the config for that architecture.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#configs Build#configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#configs Build#configs}
   */
   readonly configs?: { [key: string]: BuildConfigs } | cdktf.IResolvable;
   /**
   * The name of the container repository to which we should publish the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#repo Build#repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#repo Build#repo}
   */
   readonly repo: string;
   /**
   * A map from the APK architecture to the digest for that architecture and its SBOM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#sboms Build#sboms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#sboms Build#sboms}
   */
   readonly sboms?: { [key: string]: BuildSboms } | cdktf.IResolvable;
 }
 export interface BuildConfigAccountsGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#gid Build#gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#gid Build#gid}
   */
   readonly gid: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#groupname Build#groupname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#groupname Build#groupname}
   */
   readonly groupname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#members Build#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#members Build#members}
   */
   readonly members: string[];
 }
@@ -207,23 +207,23 @@ export class BuildConfigAccountsGroupsList extends cdktf.ComplexList {
 }
 export interface BuildConfigAccountsUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#gid Build#gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#gid Build#gid}
   */
   readonly gid: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#homedir Build#homedir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#homedir Build#homedir}
   */
   readonly homedir: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#shell Build#shell}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#shell Build#shell}
   */
   readonly shell: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#uid Build#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#uid Build#uid}
   */
   readonly uid: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#username Build#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#username Build#username}
   */
   readonly username: string;
 }
@@ -440,15 +440,15 @@ export class BuildConfigAccountsUsersList extends cdktf.ComplexList {
 }
 export interface BuildConfigAccounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#groups Build#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#groups Build#groups}
   */
   readonly groups: BuildConfigAccountsGroups[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#run-as Build#run-as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#run-as Build#run-as}
   */
   readonly runAs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#users Build#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#users Build#users}
   */
   readonly users: BuildConfigAccountsUsers[] | cdktf.IResolvable;
 }
@@ -591,23 +591,23 @@ export class BuildConfigAccountsOutputReference extends cdktf.ComplexObject {
 }
 export interface BuildConfigContents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#build_repositories Build#build_repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#build_repositories Build#build_repositories}
   */
   readonly buildRepositories: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#keyring Build#keyring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#keyring Build#keyring}
   */
   readonly keyring: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#packages Build#packages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#packages Build#packages}
   */
   readonly packages: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#repositories Build#repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#repositories Build#repositories}
   */
   readonly repositories: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#runtime_repositories Build#runtime_repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#runtime_repositories Build#runtime_repositories}
   */
   readonly runtimeRepositories: string[];
 }
@@ -802,19 +802,19 @@ export class BuildConfigContentsOutputReference extends cdktf.ComplexObject {
 }
 export interface BuildConfigEntrypoint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#command Build#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#command Build#command}
   */
   readonly command: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#services Build#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#services Build#services}
   */
   readonly services: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#shell-fragment Build#shell-fragment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#shell-fragment Build#shell-fragment}
   */
   readonly shellFragment: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#type Build#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#type Build#type}
   */
   readonly type: string;
 }
@@ -983,11 +983,11 @@ export class BuildConfigEntrypointOutputReference extends cdktf.ComplexObject {
 }
 export interface BuildConfigLayering {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#budget Build#budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#budget Build#budget}
   */
   readonly budget: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#strategy Build#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#strategy Build#strategy}
   */
   readonly strategy: string;
 }
@@ -1104,31 +1104,31 @@ export class BuildConfigLayeringOutputReference extends cdktf.ComplexObject {
 }
 export interface BuildConfigPaths {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#gid Build#gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#gid Build#gid}
   */
   readonly gid: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#path Build#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#path Build#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#permissions Build#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#permissions Build#permissions}
   */
   readonly permissions: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#recursive Build#recursive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#recursive Build#recursive}
   */
   readonly recursive: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#source Build#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#source Build#source}
   */
   readonly source: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#type Build#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#type Build#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#uid Build#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#uid Build#uid}
   */
   readonly uid: number;
 }
@@ -1397,59 +1397,59 @@ export class BuildConfigPathsList extends cdktf.ComplexList {
 }
 export interface BuildConfigA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#accounts Build#accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#accounts Build#accounts}
   */
   readonly accounts: BuildConfigAccounts;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#annotations Build#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#annotations Build#annotations}
   */
   readonly annotations: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#archs Build#archs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#archs Build#archs}
   */
   readonly archs: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#cmd Build#cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#cmd Build#cmd}
   */
   readonly cmd: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#contents Build#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#contents Build#contents}
   */
   readonly contents: BuildConfigContents;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#entrypoint Build#entrypoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#entrypoint Build#entrypoint}
   */
   readonly entrypoint: BuildConfigEntrypoint;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#environment Build#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#environment Build#environment}
   */
   readonly environment: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#include Build#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#include Build#include}
   */
   readonly include: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#layering Build#layering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#layering Build#layering}
   */
   readonly layering: BuildConfigLayering;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#paths Build#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#paths Build#paths}
   */
   readonly paths: BuildConfigPaths[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#stop-signal Build#stop-signal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#stop-signal Build#stop-signal}
   */
   readonly stopSignal: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#vcs-url Build#vcs-url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#vcs-url Build#vcs-url}
   */
   readonly vcsUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#volumes Build#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#volumes Build#volumes}
   */
   readonly volumes: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#work-dir Build#work-dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#work-dir Build#work-dir}
   */
   readonly workDir: string;
 }
@@ -2640,7 +2640,7 @@ export interface BuildConfigs {
   /**
   * The parsed structure of the apko configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#config Build#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#config Build#config}
   */
   readonly config: BuildConfigsConfig;
 }
@@ -2753,25 +2753,25 @@ export interface BuildSboms {
   /**
   * The digest of the index or image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#digest Build#digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#digest Build#digest}
   */
   readonly digest?: string;
   /**
   * The path to the SBOM contents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#predicate_path Build#predicate_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#predicate_path Build#predicate_path}
   */
   readonly predicatePath?: string;
   /**
   * The hex-encoded SHA256 hash of the SBOM contents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#predicate_sha256 Build#predicate_sha256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#predicate_sha256 Build#predicate_sha256}
   */
   readonly predicateSha256?: string;
   /**
   * The predicate type of the SBOM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#predicate_type Build#predicate_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#predicate_type Build#predicate_type}
   */
   readonly predicateType?: string;
 }
@@ -2972,7 +2972,7 @@ export class BuildSbomsMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build apko_build}
+* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build apko_build}
 */
 export class Build extends cdktf.TerraformResource {
 
@@ -2988,7 +2988,7 @@ export class Build extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Build resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Build to import
-  * @param importFromId The id of the existing Build that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Build that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Build to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3000,7 +3000,7 @@ export class Build extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/resources/build apko_build} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/resources/build apko_build} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3011,8 +3011,8 @@ export class Build extends cdktf.TerraformResource {
       terraformResourceType: 'apko_build',
       terraformGeneratorMetadata: {
         providerName: 'apko',
-        providerVersion: '0.30.20',
-        providerVersionConstraint: '0.30.20'
+        providerVersion: '0.30.28',
+        providerVersionConstraint: '0.30.28'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

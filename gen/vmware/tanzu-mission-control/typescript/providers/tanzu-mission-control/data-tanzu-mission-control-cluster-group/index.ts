@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster_group
+// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,20 +8,20 @@ import * as cdktf from 'cdktf';
 
 export interface DataTanzuMissionControlClusterGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster_group#id DataTanzuMissionControlClusterGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster_group#id DataTanzuMissionControlClusterGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster_group#name DataTanzuMissionControlClusterGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster_group#name DataTanzuMissionControlClusterGroup#name}
   */
   readonly name: string;
   /**
   * meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster_group#meta DataTanzuMissionControlClusterGroup#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster_group#meta DataTanzuMissionControlClusterGroup#meta}
   */
   readonly meta?: DataTanzuMissionControlClusterGroupMeta;
 }
@@ -29,19 +29,19 @@ export interface DataTanzuMissionControlClusterGroupMeta {
   /**
   * Annotations for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster_group#annotations DataTanzuMissionControlClusterGroup#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster_group#annotations DataTanzuMissionControlClusterGroup#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster_group#description DataTanzuMissionControlClusterGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster_group#description DataTanzuMissionControlClusterGroup#description}
   */
   readonly description?: string;
   /**
   * Labels for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster_group#labels DataTanzuMissionControlClusterGroup#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster_group#labels DataTanzuMissionControlClusterGroup#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -193,7 +193,7 @@ export class DataTanzuMissionControlClusterGroupMetaOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster_group tanzu-mission-control_cluster_group}
+* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster_group tanzu-mission-control_cluster_group}
 */
 export class DataTanzuMissionControlClusterGroup extends cdktf.TerraformDataSource {
 
@@ -209,7 +209,7 @@ export class DataTanzuMissionControlClusterGroup extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataTanzuMissionControlClusterGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTanzuMissionControlClusterGroup to import
-  * @param importFromId The id of the existing DataTanzuMissionControlClusterGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTanzuMissionControlClusterGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTanzuMissionControlClusterGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -221,7 +221,7 @@ export class DataTanzuMissionControlClusterGroup extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/cluster_group tanzu-mission-control_cluster_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/cluster_group tanzu-mission-control_cluster_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -232,8 +232,8 @@ export class DataTanzuMissionControlClusterGroup extends cdktf.TerraformDataSour
       terraformResourceType: 'tanzu-mission-control_cluster_group',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9',
-        providerVersionConstraint: '1.4.9'
+        providerVersion: '1.4.10',
+        providerVersionConstraint: '1.4.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

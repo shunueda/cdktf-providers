@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/service
+// https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,97 +10,97 @@ export interface ServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * A list of human-friendly, unique identifiers for the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/service#aliases Service#aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service#aliases Service#aliases}
   */
   readonly aliases?: string[];
   /**
   * The relative path from which to fetch the API document. If null, the API document is fetched from the account's default path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/service#api_document_path Service#api_document_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service#api_document_path Service#api_document_path}
   */
   readonly apiDocumentPath?: string;
   /**
   * A brief description of the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/service#description Service#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service#description Service#description}
   */
   readonly description?: string;
   /**
   * The primary software development framework that the service uses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/service#framework Service#framework}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service#framework Service#framework}
   */
   readonly framework?: string;
   /**
   * The primary programming language that the service is written in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/service#language Service#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service#language Service#language}
   */
   readonly language?: string;
   /**
   * The lifecycle stage of the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/service#lifecycle_alias Service#lifecycle_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service#lifecycle_alias Service#lifecycle_alias}
   */
   readonly lifecycleAlias?: string;
   /**
   * The display name of the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/service#name Service#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service#name Service#name}
   */
   readonly name: string;
   /**
   * Additional information about the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/service#note Service#note}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service#note Service#note}
   */
   readonly note?: string;
   /**
   * The team that owns the service. ID or Alias may be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/service#owner Service#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service#owner Service#owner}
   */
   readonly owner?: string;
   /**
   * The id or alias of the parent system of this service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/service#parent Service#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service#parent Service#parent}
   */
   readonly parent?: string;
   /**
   * The API document source (PULL or PUSH) used to determine the displayed document. If null, defaults to PUSH.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/service#preferred_api_document_source Service#preferred_api_document_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service#preferred_api_document_source Service#preferred_api_document_source}
   */
   readonly preferredApiDocumentSource?: string;
   /**
   * A product is an application that your end user interacts with. Multiple services can work together to power a single product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/service#product Service#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service#product Service#product}
   */
   readonly product?: string;
   /**
   * A list of tags applied to the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/service#tags Service#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service#tags Service#tags}
   */
   readonly tags?: string[];
   /**
   * The software tier that the service belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/service#tier_alias Service#tier_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service#tier_alias Service#tier_alias}
   */
   readonly tierAlias?: string;
   /**
   * The component type of the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/service#type Service#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service#type Service#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/service opslevel_service}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service opslevel_service}
 */
 export class Service extends cdktf.TerraformResource {
 
@@ -116,7 +116,7 @@ export class Service extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Service resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Service to import
-  * @param importFromId The id of the existing Service that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Service that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Service to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -128,7 +128,7 @@ export class Service extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/service opslevel_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service opslevel_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -139,8 +139,8 @@ export class Service extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_service',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.6.3',
-        providerVersionConstraint: '1.6.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

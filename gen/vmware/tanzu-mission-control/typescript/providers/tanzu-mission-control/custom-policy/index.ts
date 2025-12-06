@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy
+// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface CustomPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#id CustomPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#id CustomPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface CustomPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the custom policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#name CustomPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#name CustomPolicy#name}
   */
   readonly name: string;
   /**
   * meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#meta CustomPolicy#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#meta CustomPolicy#meta}
   */
   readonly meta?: CustomPolicyMeta;
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#scope CustomPolicy#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#scope CustomPolicy#scope}
   */
   readonly scope: CustomPolicyScope;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#spec CustomPolicy#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#spec CustomPolicy#spec}
   */
   readonly spec: CustomPolicySpec;
 }
@@ -43,19 +43,19 @@ export interface CustomPolicyMeta {
   /**
   * Annotations for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#annotations CustomPolicy#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#annotations CustomPolicy#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#description CustomPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#description CustomPolicy#description}
   */
   readonly description?: string;
   /**
   * Labels for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#labels CustomPolicy#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#labels CustomPolicy#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -209,19 +209,19 @@ export interface CustomPolicyScopeCluster {
   /**
   * Name of the management cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#management_cluster_name CustomPolicy#management_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#management_cluster_name CustomPolicy#management_cluster_name}
   */
   readonly managementClusterName?: string;
   /**
   * Name of this cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#name CustomPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#name CustomPolicy#name}
   */
   readonly name: string;
   /**
   * Provisioner of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#provisioner_name CustomPolicy#provisioner_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#provisioner_name CustomPolicy#provisioner_name}
   */
   readonly provisionerName?: string;
 }
@@ -362,7 +362,7 @@ export interface CustomPolicyScopeClusterGroup {
   /**
   * Name of this cluster group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#cluster_group CustomPolicy#cluster_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#cluster_group CustomPolicy#cluster_group}
   */
   readonly clusterGroup: string;
 }
@@ -445,7 +445,7 @@ export interface CustomPolicyScopeOrganization {
   /**
   * ID of this organization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#organization CustomPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#organization CustomPolicy#organization}
   */
   readonly organization: string;
 }
@@ -528,7 +528,7 @@ export interface CustomPolicyScopeWorkspace {
   /**
   * Name of this workspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#workspace CustomPolicy#workspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#workspace CustomPolicy#workspace}
   */
   readonly workspace: string;
 }
@@ -611,25 +611,25 @@ export interface CustomPolicyScope {
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#cluster CustomPolicy#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#cluster CustomPolicy#cluster}
   */
   readonly cluster?: CustomPolicyScopeCluster;
   /**
   * cluster_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#cluster_group CustomPolicy#cluster_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#cluster_group CustomPolicy#cluster_group}
   */
   readonly clusterGroup?: CustomPolicyScopeClusterGroup;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#organization CustomPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#organization CustomPolicy#organization}
   */
   readonly organization?: CustomPolicyScopeOrganization;
   /**
   * workspace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#workspace CustomPolicy#workspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#workspace CustomPolicy#workspace}
   */
   readonly workspace?: CustomPolicyScopeWorkspace;
 }
@@ -802,13 +802,13 @@ export interface CustomPolicySpecInputCustomTargetKubernetesResources {
   /**
   * APIGroup is a group containing the resource type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#api_groups CustomPolicy#api_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#api_groups CustomPolicy#api_groups}
   */
   readonly apiGroups: string[];
   /**
   * Kind is the name of the object schema (resource type).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#kinds CustomPolicy#kinds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#kinds CustomPolicy#kinds}
   */
   readonly kinds: string[];
 }
@@ -949,25 +949,25 @@ export interface CustomPolicySpecInputCustom {
   /**
   * Audit (dry-run).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#audit CustomPolicy#audit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#audit CustomPolicy#audit}
   */
   readonly audit?: boolean | cdktf.IResolvable;
   /**
   * JSON encoded template parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#parameters CustomPolicy#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#parameters CustomPolicy#parameters}
   */
   readonly parameters?: string;
   /**
   * Name of custom template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#template_name CustomPolicy#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#template_name CustomPolicy#template_name}
   */
   readonly templateName: string;
   /**
   * target_kubernetes_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#target_kubernetes_resources CustomPolicy#target_kubernetes_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#target_kubernetes_resources CustomPolicy#target_kubernetes_resources}
   */
   readonly targetKubernetesResources: CustomPolicySpecInputCustomTargetKubernetesResources[] | cdktf.IResolvable;
 }
@@ -1134,13 +1134,13 @@ export interface CustomPolicySpecInputTmcBlockNodeportServiceTargetKubernetesRes
   /**
   * APIGroup is a group containing the resource type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#api_groups CustomPolicy#api_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#api_groups CustomPolicy#api_groups}
   */
   readonly apiGroups: string[];
   /**
   * Kind is the name of the object schema (resource type).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#kinds CustomPolicy#kinds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#kinds CustomPolicy#kinds}
   */
   readonly kinds: string[];
 }
@@ -1281,13 +1281,13 @@ export interface CustomPolicySpecInputTmcBlockNodeportService {
   /**
   * Audit (dry-run).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#audit CustomPolicy#audit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#audit CustomPolicy#audit}
   */
   readonly audit?: boolean | cdktf.IResolvable;
   /**
   * target_kubernetes_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#target_kubernetes_resources CustomPolicy#target_kubernetes_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#target_kubernetes_resources CustomPolicy#target_kubernetes_resources}
   */
   readonly targetKubernetesResources: CustomPolicySpecInputTmcBlockNodeportServiceTargetKubernetesResources[] | cdktf.IResolvable;
 }
@@ -1399,13 +1399,13 @@ export interface CustomPolicySpecInputTmcBlockResourcesTargetKubernetesResources
   /**
   * APIGroup is a group containing the resource type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#api_groups CustomPolicy#api_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#api_groups CustomPolicy#api_groups}
   */
   readonly apiGroups: string[];
   /**
   * Kind is the name of the object schema (resource type).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#kinds CustomPolicy#kinds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#kinds CustomPolicy#kinds}
   */
   readonly kinds: string[];
 }
@@ -1546,13 +1546,13 @@ export interface CustomPolicySpecInputTmcBlockResources {
   /**
   * Audit (dry-run).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#audit CustomPolicy#audit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#audit CustomPolicy#audit}
   */
   readonly audit?: boolean | cdktf.IResolvable;
   /**
   * target_kubernetes_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#target_kubernetes_resources CustomPolicy#target_kubernetes_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#target_kubernetes_resources CustomPolicy#target_kubernetes_resources}
   */
   readonly targetKubernetesResources: CustomPolicySpecInputTmcBlockResourcesTargetKubernetesResources[] | cdktf.IResolvable;
 }
@@ -1664,13 +1664,13 @@ export interface CustomPolicySpecInputTmcBlockRolebindingSubjectsParametersDisal
   /**
   * The kind of subject to disallow, can be User/Group/ServiceAccount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#kind CustomPolicy#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#kind CustomPolicy#kind}
   */
   readonly kind: string;
   /**
   * The name of the subject to disallow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#name CustomPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#name CustomPolicy#name}
   */
   readonly name: string;
 }
@@ -1811,7 +1811,7 @@ export interface CustomPolicySpecInputTmcBlockRolebindingSubjectsParameters {
   /**
   * disallowed_subjects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#disallowed_subjects CustomPolicy#disallowed_subjects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#disallowed_subjects CustomPolicy#disallowed_subjects}
   */
   readonly disallowedSubjects: CustomPolicySpecInputTmcBlockRolebindingSubjectsParametersDisallowedSubjects[] | cdktf.IResolvable;
 }
@@ -1926,13 +1926,13 @@ export interface CustomPolicySpecInputTmcBlockRolebindingSubjectsTargetKubernete
   /**
   * APIGroup is a group containing the resource type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#api_groups CustomPolicy#api_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#api_groups CustomPolicy#api_groups}
   */
   readonly apiGroups: string[];
   /**
   * Kind is the name of the object schema (resource type).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#kinds CustomPolicy#kinds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#kinds CustomPolicy#kinds}
   */
   readonly kinds: string[];
 }
@@ -2073,19 +2073,19 @@ export interface CustomPolicySpecInputTmcBlockRolebindingSubjects {
   /**
   * Audit (dry-run).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#audit CustomPolicy#audit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#audit CustomPolicy#audit}
   */
   readonly audit?: boolean | cdktf.IResolvable;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#parameters CustomPolicy#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#parameters CustomPolicy#parameters}
   */
   readonly parameters: CustomPolicySpecInputTmcBlockRolebindingSubjectsParameters[] | cdktf.IResolvable;
   /**
   * target_kubernetes_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#target_kubernetes_resources CustomPolicy#target_kubernetes_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#target_kubernetes_resources CustomPolicy#target_kubernetes_resources}
   */
   readonly targetKubernetesResources: CustomPolicySpecInputTmcBlockRolebindingSubjectsTargetKubernetesResources[] | cdktf.IResolvable;
 }
@@ -2223,7 +2223,7 @@ export interface CustomPolicySpecInputTmcExternalIpsParameters {
   /**
   * Allowed IPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#allowed_ips CustomPolicy#allowed_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#allowed_ips CustomPolicy#allowed_ips}
   */
   readonly allowedIps: string[];
 }
@@ -2338,13 +2338,13 @@ export interface CustomPolicySpecInputTmcExternalIpsTargetKubernetesResources {
   /**
   * APIGroup is a group containing the resource type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#api_groups CustomPolicy#api_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#api_groups CustomPolicy#api_groups}
   */
   readonly apiGroups: string[];
   /**
   * Kind is the name of the object schema (resource type).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#kinds CustomPolicy#kinds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#kinds CustomPolicy#kinds}
   */
   readonly kinds: string[];
 }
@@ -2485,19 +2485,19 @@ export interface CustomPolicySpecInputTmcExternalIps {
   /**
   * Audit (dry-run).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#audit CustomPolicy#audit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#audit CustomPolicy#audit}
   */
   readonly audit?: boolean | cdktf.IResolvable;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#parameters CustomPolicy#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#parameters CustomPolicy#parameters}
   */
   readonly parameters: CustomPolicySpecInputTmcExternalIpsParameters[] | cdktf.IResolvable;
   /**
   * target_kubernetes_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#target_kubernetes_resources CustomPolicy#target_kubernetes_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#target_kubernetes_resources CustomPolicy#target_kubernetes_resources}
   */
   readonly targetKubernetesResources: CustomPolicySpecInputTmcExternalIpsTargetKubernetesResources[] | cdktf.IResolvable;
 }
@@ -2635,13 +2635,13 @@ export interface CustomPolicySpecInputTmcHttpsIngressTargetKubernetesResources {
   /**
   * APIGroup is a group containing the resource type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#api_groups CustomPolicy#api_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#api_groups CustomPolicy#api_groups}
   */
   readonly apiGroups: string[];
   /**
   * Kind is the name of the object schema (resource type).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#kinds CustomPolicy#kinds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#kinds CustomPolicy#kinds}
   */
   readonly kinds: string[];
 }
@@ -2782,13 +2782,13 @@ export interface CustomPolicySpecInputTmcHttpsIngress {
   /**
   * Audit (dry-run).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#audit CustomPolicy#audit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#audit CustomPolicy#audit}
   */
   readonly audit?: boolean | cdktf.IResolvable;
   /**
   * target_kubernetes_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#target_kubernetes_resources CustomPolicy#target_kubernetes_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#target_kubernetes_resources CustomPolicy#target_kubernetes_resources}
   */
   readonly targetKubernetesResources: CustomPolicySpecInputTmcHttpsIngressTargetKubernetesResources[] | cdktf.IResolvable;
 }
@@ -2900,13 +2900,13 @@ export interface CustomPolicySpecInputTmcRequireLabelsParametersLabels {
   /**
   * The label key to enforce.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#key CustomPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#key CustomPolicy#key}
   */
   readonly key: string;
   /**
   * Optional label value to enforce (if left empty, only key will be enforced).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#value CustomPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#value CustomPolicy#value}
   */
   readonly value?: string;
 }
@@ -3050,7 +3050,7 @@ export interface CustomPolicySpecInputTmcRequireLabelsParameters {
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#labels CustomPolicy#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#labels CustomPolicy#labels}
   */
   readonly labels: CustomPolicySpecInputTmcRequireLabelsParametersLabels[] | cdktf.IResolvable;
 }
@@ -3165,13 +3165,13 @@ export interface CustomPolicySpecInputTmcRequireLabelsTargetKubernetesResources 
   /**
   * APIGroup is a group containing the resource type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#api_groups CustomPolicy#api_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#api_groups CustomPolicy#api_groups}
   */
   readonly apiGroups: string[];
   /**
   * Kind is the name of the object schema (resource type).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#kinds CustomPolicy#kinds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#kinds CustomPolicy#kinds}
   */
   readonly kinds: string[];
 }
@@ -3312,19 +3312,19 @@ export interface CustomPolicySpecInputTmcRequireLabels {
   /**
   * Audit (dry-run).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#audit CustomPolicy#audit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#audit CustomPolicy#audit}
   */
   readonly audit?: boolean | cdktf.IResolvable;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#parameters CustomPolicy#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#parameters CustomPolicy#parameters}
   */
   readonly parameters: CustomPolicySpecInputTmcRequireLabelsParameters[] | cdktf.IResolvable;
   /**
   * target_kubernetes_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#target_kubernetes_resources CustomPolicy#target_kubernetes_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#target_kubernetes_resources CustomPolicy#target_kubernetes_resources}
   */
   readonly targetKubernetesResources: CustomPolicySpecInputTmcRequireLabelsTargetKubernetesResources[] | cdktf.IResolvable;
 }
@@ -3462,43 +3462,43 @@ export interface CustomPolicySpecInput {
   /**
   * custom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#custom CustomPolicy#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#custom CustomPolicy#custom}
   */
   readonly custom?: CustomPolicySpecInputCustom;
   /**
   * tmc_block_nodeport_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#tmc_block_nodeport_service CustomPolicy#tmc_block_nodeport_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#tmc_block_nodeport_service CustomPolicy#tmc_block_nodeport_service}
   */
   readonly tmcBlockNodeportService?: CustomPolicySpecInputTmcBlockNodeportService;
   /**
   * tmc_block_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#tmc_block_resources CustomPolicy#tmc_block_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#tmc_block_resources CustomPolicy#tmc_block_resources}
   */
   readonly tmcBlockResources?: CustomPolicySpecInputTmcBlockResources;
   /**
   * tmc_block_rolebinding_subjects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#tmc_block_rolebinding_subjects CustomPolicy#tmc_block_rolebinding_subjects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#tmc_block_rolebinding_subjects CustomPolicy#tmc_block_rolebinding_subjects}
   */
   readonly tmcBlockRolebindingSubjects?: CustomPolicySpecInputTmcBlockRolebindingSubjects;
   /**
   * tmc_external_ips block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#tmc_external_ips CustomPolicy#tmc_external_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#tmc_external_ips CustomPolicy#tmc_external_ips}
   */
   readonly tmcExternalIps?: CustomPolicySpecInputTmcExternalIps;
   /**
   * tmc_https_ingress block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#tmc_https_ingress CustomPolicy#tmc_https_ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#tmc_https_ingress CustomPolicy#tmc_https_ingress}
   */
   readonly tmcHttpsIngress?: CustomPolicySpecInputTmcHttpsIngress;
   /**
   * tmc_require_labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#tmc_require_labels CustomPolicy#tmc_require_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#tmc_require_labels CustomPolicy#tmc_require_labels}
   */
   readonly tmcRequireLabels?: CustomPolicySpecInputTmcRequireLabels;
 }
@@ -3758,19 +3758,19 @@ export interface CustomPolicySpecNamespaceSelectorMatchExpressions {
   /**
   * Key is the label key that the selector applies to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#key CustomPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#key CustomPolicy#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to a set of values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#operator CustomPolicy#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#operator CustomPolicy#operator}
   */
   readonly operator?: string;
   /**
   * Values is an array of string values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#values CustomPolicy#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#values CustomPolicy#values}
   */
   readonly values: string[];
 }
@@ -3943,7 +3943,7 @@ export interface CustomPolicySpecNamespaceSelector {
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#match_expressions CustomPolicy#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#match_expressions CustomPolicy#match_expressions}
   */
   readonly matchExpressions: CustomPolicySpecNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -4026,13 +4026,13 @@ export interface CustomPolicySpec {
   /**
   * input block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#input CustomPolicy#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#input CustomPolicy#input}
   */
   readonly input: CustomPolicySpecInput;
   /**
   * namespace_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#namespace_selector CustomPolicy#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#namespace_selector CustomPolicy#namespace_selector}
   */
   readonly namespaceSelector?: CustomPolicySpecNamespaceSelector;
 }
@@ -4142,7 +4142,7 @@ export class CustomPolicySpecOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy tanzu-mission-control_custom_policy}
+* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy tanzu-mission-control_custom_policy}
 */
 export class CustomPolicy extends cdktf.TerraformResource {
 
@@ -4158,7 +4158,7 @@ export class CustomPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomPolicy to import
-  * @param importFromId The id of the existing CustomPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4170,7 +4170,7 @@ export class CustomPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/custom_policy tanzu-mission-control_custom_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/custom_policy tanzu-mission-control_custom_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4181,8 +4181,8 @@ export class CustomPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'tanzu-mission-control_custom_policy',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9',
-        providerVersionConstraint: '1.4.9'
+        providerVersion: '1.4.10',
+        providerVersionConstraint: '1.4.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

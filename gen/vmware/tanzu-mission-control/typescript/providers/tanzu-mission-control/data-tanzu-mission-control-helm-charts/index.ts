@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/helm_charts
+// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/helm_charts
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTanzuMissionControlHelmChartsConfig extends cdktf.Terraform
   /**
   * Name of the helm chart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/helm_charts#chart_metadata_name DataTanzuMissionControlHelmCharts#chart_metadata_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/helm_charts#chart_metadata_name DataTanzuMissionControlHelmCharts#chart_metadata_name}
   */
   readonly chartMetadataName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/helm_charts#id DataTanzuMissionControlHelmCharts#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/helm_charts#id DataTanzuMissionControlHelmCharts#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataTanzuMissionControlHelmChartsConfig extends cdktf.Terraform
   /**
   * Version of helm chart such as 0.5.1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/helm_charts#name DataTanzuMissionControlHelmCharts#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/helm_charts#name DataTanzuMissionControlHelmCharts#name}
   */
   readonly name?: string;
   /**
   * Name of helm repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/helm_charts#repository_name DataTanzuMissionControlHelmCharts#repository_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/helm_charts#repository_name DataTanzuMissionControlHelmCharts#repository_name}
   */
   readonly repositoryName?: string;
 }
@@ -342,7 +342,7 @@ export class DataTanzuMissionControlHelmChartsChartsList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/helm_charts tanzu-mission-control_helm_charts}
+* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/helm_charts tanzu-mission-control_helm_charts}
 */
 export class DataTanzuMissionControlHelmCharts extends cdktf.TerraformDataSource {
 
@@ -358,7 +358,7 @@ export class DataTanzuMissionControlHelmCharts extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataTanzuMissionControlHelmCharts resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTanzuMissionControlHelmCharts to import
-  * @param importFromId The id of the existing DataTanzuMissionControlHelmCharts that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/helm_charts#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTanzuMissionControlHelmCharts that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/helm_charts#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTanzuMissionControlHelmCharts to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -370,7 +370,7 @@ export class DataTanzuMissionControlHelmCharts extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/helm_charts tanzu-mission-control_helm_charts} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/helm_charts tanzu-mission-control_helm_charts} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -381,8 +381,8 @@ export class DataTanzuMissionControlHelmCharts extends cdktf.TerraformDataSource
       terraformResourceType: 'tanzu-mission-control_helm_charts',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9',
-        providerVersionConstraint: '1.4.9'
+        providerVersion: '1.4.10',
+        providerVersionConstraint: '1.4.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

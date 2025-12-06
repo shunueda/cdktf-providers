@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/network_subnetpools
+// https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_subnetpools
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface NetworkSubnetpoolsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The CIDR block of the subnet pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/network_subnetpools#cidr NetworkSubnetpools#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_subnetpools#cidr NetworkSubnetpools#cidr}
   */
   readonly cidr?: string;
   /**
   * The description of the subnet pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/network_subnetpools#description NetworkSubnetpools#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_subnetpools#description NetworkSubnetpools#description}
   */
   readonly description: string;
   /**
   * The name of the subnet pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/network_subnetpools#name NetworkSubnetpools#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_subnetpools#name NetworkSubnetpools#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/network_subnetpools mgc_network_subnetpools}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_subnetpools mgc_network_subnetpools}
 */
 export class NetworkSubnetpools extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class NetworkSubnetpools extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkSubnetpools resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkSubnetpools to import
-  * @param importFromId The id of the existing NetworkSubnetpools that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/network_subnetpools#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkSubnetpools that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_subnetpools#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkSubnetpools to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class NetworkSubnetpools extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/network_subnetpools mgc_network_subnetpools} Resource
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.2/docs/resources/network_subnetpools mgc_network_subnetpools} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class NetworkSubnetpools extends cdktf.TerraformResource {
       terraformResourceType: 'mgc_network_subnetpools',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.40.1',
-        providerVersionConstraint: '0.40.1'
+        providerVersion: '0.40.2',
+        providerVersionConstraint: '0.40.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

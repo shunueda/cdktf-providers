@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/drive
+// https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/drive
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DriveConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of host Ids that are using this drive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/drive#hosts Drive#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/drive#hosts Drive#hosts}
   */
   readonly hosts?: string[];
   /**
   * Drive infrastructure Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/drive#infrastructure_id Drive#infrastructure_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/drive#infrastructure_id Drive#infrastructure_id}
   */
   readonly infrastructureId: string;
   /**
   * Drive label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/drive#label Drive#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/drive#label Drive#label}
   */
   readonly label?: string;
   /**
   * Logical Network Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/drive#logical_network_id Drive#logical_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/drive#logical_network_id Drive#logical_network_id}
   */
   readonly logicalNetworkId?: string;
   /**
   * Drive size in MB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/drive#size_mbytes Drive#size_mbytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/drive#size_mbytes Drive#size_mbytes}
   */
   readonly sizeMbytes: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/drive metalcloud_drive}
+* Represents a {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/drive metalcloud_drive}
 */
 export class Drive extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class Drive extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Drive resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Drive to import
-  * @param importFromId The id of the existing Drive that should be imported. Refer to the {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/drive#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Drive that should be imported. Refer to the {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/drive#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Drive to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class Drive extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/drive metalcloud_drive} Resource
+  * Create a new {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/drive metalcloud_drive} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class Drive extends cdktf.TerraformResource {
       terraformResourceType: 'metalcloud_drive',
       terraformGeneratorMetadata: {
         providerName: 'metalcloud',
-        providerVersion: '7.0.10',
-        providerVersionConstraint: '7.0.10'
+        providerVersion: '7.1.0',
+        providerVersionConstraint: '7.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

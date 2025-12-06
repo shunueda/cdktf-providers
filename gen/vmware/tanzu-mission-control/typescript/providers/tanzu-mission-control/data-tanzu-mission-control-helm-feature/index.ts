@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/helm_feature
+// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/helm_feature
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTanzuMissionControlHelmFeatureConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/helm_feature#id DataTanzuMissionControlHelmFeature#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/helm_feature#id DataTanzuMissionControlHelmFeature#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataTanzuMissionControlHelmFeatureConfig extends cdktf.Terrafor
   /**
   * meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/helm_feature#meta DataTanzuMissionControlHelmFeature#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/helm_feature#meta DataTanzuMissionControlHelmFeature#meta}
   */
   readonly meta?: DataTanzuMissionControlHelmFeatureMeta;
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/helm_feature#scope DataTanzuMissionControlHelmFeature#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/helm_feature#scope DataTanzuMissionControlHelmFeature#scope}
   */
   readonly scope: DataTanzuMissionControlHelmFeatureScope;
 }
@@ -31,19 +31,19 @@ export interface DataTanzuMissionControlHelmFeatureMeta {
   /**
   * Annotations for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/helm_feature#annotations DataTanzuMissionControlHelmFeature#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/helm_feature#annotations DataTanzuMissionControlHelmFeature#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/helm_feature#description DataTanzuMissionControlHelmFeature#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/helm_feature#description DataTanzuMissionControlHelmFeature#description}
   */
   readonly description?: string;
   /**
   * Labels for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/helm_feature#labels DataTanzuMissionControlHelmFeature#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/helm_feature#labels DataTanzuMissionControlHelmFeature#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -197,19 +197,19 @@ export interface DataTanzuMissionControlHelmFeatureScopeCluster {
   /**
   * Name of the management cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/helm_feature#management_cluster_name DataTanzuMissionControlHelmFeature#management_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/helm_feature#management_cluster_name DataTanzuMissionControlHelmFeature#management_cluster_name}
   */
   readonly managementClusterName?: string;
   /**
   * Name of this cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/helm_feature#name DataTanzuMissionControlHelmFeature#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/helm_feature#name DataTanzuMissionControlHelmFeature#name}
   */
   readonly name: string;
   /**
   * Provisioner of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/helm_feature#provisioner_name DataTanzuMissionControlHelmFeature#provisioner_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/helm_feature#provisioner_name DataTanzuMissionControlHelmFeature#provisioner_name}
   */
   readonly provisionerName?: string;
 }
@@ -350,7 +350,7 @@ export interface DataTanzuMissionControlHelmFeatureScopeClusterGroup {
   /**
   * Name of the cluster group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/helm_feature#name DataTanzuMissionControlHelmFeature#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/helm_feature#name DataTanzuMissionControlHelmFeature#name}
   */
   readonly name: string;
 }
@@ -433,13 +433,13 @@ export interface DataTanzuMissionControlHelmFeatureScope {
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/helm_feature#cluster DataTanzuMissionControlHelmFeature#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/helm_feature#cluster DataTanzuMissionControlHelmFeature#cluster}
   */
   readonly cluster?: DataTanzuMissionControlHelmFeatureScopeCluster;
   /**
   * cluster_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/helm_feature#cluster_group DataTanzuMissionControlHelmFeature#cluster_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/helm_feature#cluster_group DataTanzuMissionControlHelmFeature#cluster_group}
   */
   readonly clusterGroup?: DataTanzuMissionControlHelmFeatureScopeClusterGroup;
 }
@@ -552,7 +552,7 @@ export class DataTanzuMissionControlHelmFeatureScopeOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/helm_feature tanzu-mission-control_helm_feature}
+* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/helm_feature tanzu-mission-control_helm_feature}
 */
 export class DataTanzuMissionControlHelmFeature extends cdktf.TerraformDataSource {
 
@@ -568,7 +568,7 @@ export class DataTanzuMissionControlHelmFeature extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataTanzuMissionControlHelmFeature resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTanzuMissionControlHelmFeature to import
-  * @param importFromId The id of the existing DataTanzuMissionControlHelmFeature that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/helm_feature#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTanzuMissionControlHelmFeature that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/helm_feature#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTanzuMissionControlHelmFeature to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -580,7 +580,7 @@ export class DataTanzuMissionControlHelmFeature extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/helm_feature tanzu-mission-control_helm_feature} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/helm_feature tanzu-mission-control_helm_feature} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -591,8 +591,8 @@ export class DataTanzuMissionControlHelmFeature extends cdktf.TerraformDataSourc
       terraformResourceType: 'tanzu-mission-control_helm_feature',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9',
-        providerVersionConstraint: '1.4.9'
+        providerVersion: '1.4.10',
+        providerVersionConstraint: '1.4.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/target_location
+// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/target_location
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTanzuMissionControlTargetLocationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/target_location#id DataTanzuMissionControlTargetLocation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/target_location#id DataTanzuMissionControlTargetLocation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -18,25 +18,25 @@ export interface DataTanzuMissionControlTargetLocationConfig extends cdktf.Terra
   * Whether to include total count of target locations.
   * (Default: True)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/target_location#include_total_count DataTanzuMissionControlTargetLocation#include_total_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/target_location#include_total_count DataTanzuMissionControlTargetLocation#include_total_count}
   */
   readonly includeTotalCount?: boolean | cdktf.IResolvable;
   /**
   * Define a query for listing target locations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/target_location#query DataTanzuMissionControlTargetLocation#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/target_location#query DataTanzuMissionControlTargetLocation#query}
   */
   readonly query?: string;
   /**
   * Sort target locations by field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/target_location#sort_by DataTanzuMissionControlTargetLocation#sort_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/target_location#sort_by DataTanzuMissionControlTargetLocation#sort_by}
   */
   readonly sortBy?: string;
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/target_location#scope DataTanzuMissionControlTargetLocation#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/target_location#scope DataTanzuMissionControlTargetLocation#scope}
   */
   readonly scope: DataTanzuMissionControlTargetLocationScope;
 }
@@ -764,25 +764,25 @@ export interface DataTanzuMissionControlTargetLocationScopeCluster {
   /**
   * Cluster name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/target_location#cluster_name DataTanzuMissionControlTargetLocation#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/target_location#cluster_name DataTanzuMissionControlTargetLocation#cluster_name}
   */
   readonly clusterName: string;
   /**
   * Management cluster name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/target_location#management_cluster_name DataTanzuMissionControlTargetLocation#management_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/target_location#management_cluster_name DataTanzuMissionControlTargetLocation#management_cluster_name}
   */
   readonly managementClusterName?: string;
   /**
   * The name of the target location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/target_location#name DataTanzuMissionControlTargetLocation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/target_location#name DataTanzuMissionControlTargetLocation#name}
   */
   readonly name?: string;
   /**
   * Cluster provisioner name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/target_location#provisioner_name DataTanzuMissionControlTargetLocation#provisioner_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/target_location#provisioner_name DataTanzuMissionControlTargetLocation#provisioner_name}
   */
   readonly provisionerName?: string;
 }
@@ -952,19 +952,19 @@ export interface DataTanzuMissionControlTargetLocationScopeProvider {
   /**
   * A cluster or cluster group assigned for the target location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/target_location#assigned_group_name DataTanzuMissionControlTargetLocation#assigned_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/target_location#assigned_group_name DataTanzuMissionControlTargetLocation#assigned_group_name}
   */
   readonly assignedGroupName?: string;
   /**
   * The name of the credentials used for the target location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/target_location#credential_name DataTanzuMissionControlTargetLocation#credential_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/target_location#credential_name DataTanzuMissionControlTargetLocation#credential_name}
   */
   readonly credentialName?: string;
   /**
   * The name of the target location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/target_location#name DataTanzuMissionControlTargetLocation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/target_location#name DataTanzuMissionControlTargetLocation#name}
   */
   readonly name?: string;
 }
@@ -1108,13 +1108,13 @@ export interface DataTanzuMissionControlTargetLocationScope {
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/target_location#cluster DataTanzuMissionControlTargetLocation#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/target_location#cluster DataTanzuMissionControlTargetLocation#cluster}
   */
   readonly cluster?: DataTanzuMissionControlTargetLocationScopeCluster;
   /**
   * provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/target_location#provider DataTanzuMissionControlTargetLocation#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/target_location#provider DataTanzuMissionControlTargetLocation#provider}
   */
   readonly provider?: DataTanzuMissionControlTargetLocationScopeProvider;
 }
@@ -1227,7 +1227,7 @@ export class DataTanzuMissionControlTargetLocationScopeOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/target_location tanzu-mission-control_target_location}
+* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/target_location tanzu-mission-control_target_location}
 */
 export class DataTanzuMissionControlTargetLocation extends cdktf.TerraformDataSource {
 
@@ -1243,7 +1243,7 @@ export class DataTanzuMissionControlTargetLocation extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataTanzuMissionControlTargetLocation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTanzuMissionControlTargetLocation to import
-  * @param importFromId The id of the existing DataTanzuMissionControlTargetLocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/target_location#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTanzuMissionControlTargetLocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/target_location#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTanzuMissionControlTargetLocation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1255,7 +1255,7 @@ export class DataTanzuMissionControlTargetLocation extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/target_location tanzu-mission-control_target_location} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/target_location tanzu-mission-control_target_location} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1266,8 +1266,8 @@ export class DataTanzuMissionControlTargetLocation extends cdktf.TerraformDataSo
       terraformResourceType: 'tanzu-mission-control_target_location',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9',
-        providerVersionConstraint: '1.4.9'
+        providerVersion: '1.4.10',
+        providerVersionConstraint: '1.4.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

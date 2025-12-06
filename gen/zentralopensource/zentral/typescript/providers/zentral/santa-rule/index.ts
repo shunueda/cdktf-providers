@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_rule
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/santa_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,85 +10,85 @@ export interface SantaRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * CEL expression. Only valid for `CEL` policy rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_rule#cel_expr SantaRule#cel_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/santa_rule#cel_expr SantaRule#cel_expr}
   */
   readonly celExpr?: string;
   /**
   * `ID` of the Santa configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_rule#configuration_id SantaRule#configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/santa_rule#configuration_id SantaRule#configuration_id}
   */
   readonly configurationId: number;
   /**
   * Custom message displayed in the popover when a binary is blocked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_rule#custom_message SantaRule#custom_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/santa_rule#custom_message SantaRule#custom_message}
   */
   readonly customMessage?: string;
   /**
   * Description of the rule. Only displayed in the Zentral GUI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_rule#description SantaRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/santa_rule#description SantaRule#description}
   */
   readonly description?: string;
   /**
   * The excluded primary users used to scope the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_rule#excluded_primary_users SantaRule#excluded_primary_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/santa_rule#excluded_primary_users SantaRule#excluded_primary_users}
   */
   readonly excludedPrimaryUsers?: string[];
   /**
   * The excluded serial numbers used to scope the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_rule#excluded_serial_numbers SantaRule#excluded_serial_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/santa_rule#excluded_serial_numbers SantaRule#excluded_serial_numbers}
   */
   readonly excludedSerialNumbers?: string[];
   /**
   * The `ID`s of the excluded tags used to scope the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_rule#excluded_tag_ids SantaRule#excluded_tag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/santa_rule#excluded_tag_ids SantaRule#excluded_tag_ids}
   */
   readonly excludedTagIds?: number[];
   /**
   * Policy. Valid values are `ALLOWLIST`, `ALLOWLIST_COMPILER`, `BLOCKLIST`, `CEL`, and `SILENT_BLOCKLIST`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_rule#policy SantaRule#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/santa_rule#policy SantaRule#policy}
   */
   readonly policy: string;
   /**
   * The primary users used to scope the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_rule#primary_users SantaRule#primary_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/santa_rule#primary_users SantaRule#primary_users}
   */
   readonly primaryUsers?: string[];
   /**
   * The serial numbers used to scope the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_rule#serial_numbers SantaRule#serial_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/santa_rule#serial_numbers SantaRule#serial_numbers}
   */
   readonly serialNumbers?: string[];
   /**
   * The `ID`s of the tags used to scope the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_rule#tag_ids SantaRule#tag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/santa_rule#tag_ids SantaRule#tag_ids}
   */
   readonly tagIds?: number[];
   /**
   * Target identifier: binary, certificate sha256, signing ID or team ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_rule#target_identifier SantaRule#target_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/santa_rule#target_identifier SantaRule#target_identifier}
   */
   readonly targetIdentifier: string;
   /**
   * Target type. Valid values are `BINARY`, `CDHASH`, `CERTIFICATE`, `SIGNINGID` and `TEAMID`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_rule#target_type SantaRule#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/santa_rule#target_type SantaRule#target_type}
   */
   readonly targetType: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_rule zentral_santa_rule}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/santa_rule zentral_santa_rule}
 */
 export class SantaRule extends cdktf.TerraformResource {
 
@@ -104,7 +104,7 @@ export class SantaRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SantaRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SantaRule to import
-  * @param importFromId The id of the existing SantaRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SantaRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/santa_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SantaRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -116,7 +116,7 @@ export class SantaRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/santa_rule zentral_santa_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/santa_rule zentral_santa_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -127,8 +127,8 @@ export class SantaRule extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_santa_rule',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.65',
-        providerVersionConstraint: '0.1.65'
+        providerVersion: '0.1.67',
+        providerVersionConstraint: '0.1.67'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy
+// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SecurityPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#id SecurityPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#id SecurityPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface SecurityPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the security policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#name SecurityPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#name SecurityPolicy#name}
   */
   readonly name: string;
   /**
   * meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#meta SecurityPolicy#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#meta SecurityPolicy#meta}
   */
   readonly meta?: SecurityPolicyMeta;
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#scope SecurityPolicy#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#scope SecurityPolicy#scope}
   */
   readonly scope: SecurityPolicyScope;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#spec SecurityPolicy#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#spec SecurityPolicy#spec}
   */
   readonly spec: SecurityPolicySpec;
 }
@@ -43,19 +43,19 @@ export interface SecurityPolicyMeta {
   /**
   * Annotations for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#annotations SecurityPolicy#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#annotations SecurityPolicy#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#description SecurityPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#description SecurityPolicy#description}
   */
   readonly description?: string;
   /**
   * Labels for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#labels SecurityPolicy#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#labels SecurityPolicy#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -209,19 +209,19 @@ export interface SecurityPolicyScopeCluster {
   /**
   * Name of the management cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#management_cluster_name SecurityPolicy#management_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#management_cluster_name SecurityPolicy#management_cluster_name}
   */
   readonly managementClusterName?: string;
   /**
   * Name of this cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#name SecurityPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#name SecurityPolicy#name}
   */
   readonly name: string;
   /**
   * Provisioner of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#provisioner_name SecurityPolicy#provisioner_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#provisioner_name SecurityPolicy#provisioner_name}
   */
   readonly provisionerName?: string;
 }
@@ -362,7 +362,7 @@ export interface SecurityPolicyScopeClusterGroup {
   /**
   * Name of this cluster group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#cluster_group SecurityPolicy#cluster_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#cluster_group SecurityPolicy#cluster_group}
   */
   readonly clusterGroup: string;
 }
@@ -445,7 +445,7 @@ export interface SecurityPolicyScopeOrganization {
   /**
   * ID of this organization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#organization SecurityPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#organization SecurityPolicy#organization}
   */
   readonly organization: string;
 }
@@ -528,7 +528,7 @@ export interface SecurityPolicyScopeWorkspace {
   /**
   * Name of this workspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#workspace SecurityPolicy#workspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#workspace SecurityPolicy#workspace}
   */
   readonly workspace: string;
 }
@@ -611,25 +611,25 @@ export interface SecurityPolicyScope {
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#cluster SecurityPolicy#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#cluster SecurityPolicy#cluster}
   */
   readonly cluster?: SecurityPolicyScopeCluster;
   /**
   * cluster_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#cluster_group SecurityPolicy#cluster_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#cluster_group SecurityPolicy#cluster_group}
   */
   readonly clusterGroup?: SecurityPolicyScopeClusterGroup;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#organization SecurityPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#organization SecurityPolicy#organization}
   */
   readonly organization?: SecurityPolicyScopeOrganization;
   /**
   * workspace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#workspace SecurityPolicy#workspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#workspace SecurityPolicy#workspace}
   */
   readonly workspace?: SecurityPolicyScopeWorkspace;
 }
@@ -802,13 +802,13 @@ export interface SecurityPolicySpecInputBaseline {
   /**
   * Audit (dry-run)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#audit SecurityPolicy#audit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#audit SecurityPolicy#audit}
   */
   readonly audit?: boolean | cdktf.IResolvable;
   /**
   * Disable native pod security policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#disable_native_psp SecurityPolicy#disable_native_psp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#disable_native_psp SecurityPolicy#disable_native_psp}
   */
   readonly disableNativePsp?: boolean | cdktf.IResolvable;
 }
@@ -923,13 +923,13 @@ export interface SecurityPolicySpecInputCustomAllowedHostPaths {
   /**
   * Path prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#path_prefix SecurityPolicy#path_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#path_prefix SecurityPolicy#path_prefix}
   */
   readonly pathPrefix?: string;
   /**
   * Read only flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#read_only SecurityPolicy#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#read_only SecurityPolicy#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -1076,13 +1076,13 @@ export interface SecurityPolicySpecInputCustomAllowedHostPortRange {
   /**
   * Maximum allowed port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#max SecurityPolicy#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#max SecurityPolicy#max}
   */
   readonly max?: number;
   /**
   * Minimum allowed port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#min SecurityPolicy#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#min SecurityPolicy#min}
   */
   readonly min?: number;
 }
@@ -1197,25 +1197,25 @@ export interface SecurityPolicySpecInputCustomAllowedSeLinuxOptions {
   /**
   * SELinux level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#level SecurityPolicy#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#level SecurityPolicy#level}
   */
   readonly level?: string;
   /**
   * SELinux role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#role SecurityPolicy#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#role SecurityPolicy#role}
   */
   readonly role?: string;
   /**
   * SELinux type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#type SecurityPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#type SecurityPolicy#type}
   */
   readonly type?: string;
   /**
   * SELinux user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#user SecurityPolicy#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#user SecurityPolicy#user}
   */
   readonly user?: string;
 }
@@ -1420,13 +1420,13 @@ export interface SecurityPolicySpecInputCustomFsGroupRanges {
   /**
   * Maximum group ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#max SecurityPolicy#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#max SecurityPolicy#max}
   */
   readonly max?: number;
   /**
   * Minimum group ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#min SecurityPolicy#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#min SecurityPolicy#min}
   */
   readonly min?: number;
 }
@@ -1573,13 +1573,13 @@ export interface SecurityPolicySpecInputCustomFsGroup {
   /**
   * Rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#rule SecurityPolicy#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#rule SecurityPolicy#rule}
   */
   readonly rule?: string;
   /**
   * ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#ranges SecurityPolicy#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#ranges SecurityPolicy#ranges}
   */
   readonly ranges?: SecurityPolicySpecInputCustomFsGroupRanges[] | cdktf.IResolvable;
 }
@@ -1694,13 +1694,13 @@ export interface SecurityPolicySpecInputCustomLinuxCapabilities {
   /**
   * Allowed capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#allowed_capabilities SecurityPolicy#allowed_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#allowed_capabilities SecurityPolicy#allowed_capabilities}
   */
   readonly allowedCapabilities?: string[];
   /**
   * Required drop capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#required_drop_capabilities SecurityPolicy#required_drop_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#required_drop_capabilities SecurityPolicy#required_drop_capabilities}
   */
   readonly requiredDropCapabilities?: string[];
 }
@@ -1815,13 +1815,13 @@ export interface SecurityPolicySpecInputCustomRunAsGroupRanges {
   /**
   * Maximum group ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#max SecurityPolicy#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#max SecurityPolicy#max}
   */
   readonly max?: number;
   /**
   * Minimum group ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#min SecurityPolicy#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#min SecurityPolicy#min}
   */
   readonly min?: number;
 }
@@ -1968,13 +1968,13 @@ export interface SecurityPolicySpecInputCustomRunAsGroup {
   /**
   * Rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#rule SecurityPolicy#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#rule SecurityPolicy#rule}
   */
   readonly rule?: string;
   /**
   * ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#ranges SecurityPolicy#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#ranges SecurityPolicy#ranges}
   */
   readonly ranges?: SecurityPolicySpecInputCustomRunAsGroupRanges[] | cdktf.IResolvable;
 }
@@ -2089,13 +2089,13 @@ export interface SecurityPolicySpecInputCustomRunAsUserRanges {
   /**
   * Maximum user ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#max SecurityPolicy#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#max SecurityPolicy#max}
   */
   readonly max?: number;
   /**
   * Minimum user ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#min SecurityPolicy#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#min SecurityPolicy#min}
   */
   readonly min?: number;
 }
@@ -2242,13 +2242,13 @@ export interface SecurityPolicySpecInputCustomRunAsUser {
   /**
   * Rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#rule SecurityPolicy#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#rule SecurityPolicy#rule}
   */
   readonly rule?: string;
   /**
   * ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#ranges SecurityPolicy#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#ranges SecurityPolicy#ranges}
   */
   readonly ranges?: SecurityPolicySpecInputCustomRunAsUserRanges[] | cdktf.IResolvable;
 }
@@ -2363,13 +2363,13 @@ export interface SecurityPolicySpecInputCustomSeccomp {
   /**
   * Allowed local host files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#allowed_localhost_files SecurityPolicy#allowed_localhost_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#allowed_localhost_files SecurityPolicy#allowed_localhost_files}
   */
   readonly allowedLocalhostFiles?: string[];
   /**
   * Allowed profiles
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#allowed_profiles SecurityPolicy#allowed_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#allowed_profiles SecurityPolicy#allowed_profiles}
   */
   readonly allowedProfiles?: string[];
 }
@@ -2484,13 +2484,13 @@ export interface SecurityPolicySpecInputCustomSupplementalGroupsRanges {
   /**
   * Maximum group ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#max SecurityPolicy#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#max SecurityPolicy#max}
   */
   readonly max?: number;
   /**
   * Minimum group ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#min SecurityPolicy#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#min SecurityPolicy#min}
   */
   readonly min?: number;
 }
@@ -2637,13 +2637,13 @@ export interface SecurityPolicySpecInputCustomSupplementalGroups {
   /**
   * Rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#rule SecurityPolicy#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#rule SecurityPolicy#rule}
   */
   readonly rule?: string;
   /**
   * ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#ranges SecurityPolicy#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#ranges SecurityPolicy#ranges}
   */
   readonly ranges?: SecurityPolicySpecInputCustomSupplementalGroupsRanges[] | cdktf.IResolvable;
 }
@@ -2758,7 +2758,7 @@ export interface SecurityPolicySpecInputCustomSysctls {
   /**
   * Forbidden sysctls
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#forbidden_sysctls SecurityPolicy#forbidden_sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#forbidden_sysctls SecurityPolicy#forbidden_sysctls}
   */
   readonly forbiddenSysctls?: string[];
 }
@@ -2844,109 +2844,109 @@ export interface SecurityPolicySpecInputCustom {
   /**
   * Allow host namespace sharing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#allow_host_namespace_sharing SecurityPolicy#allow_host_namespace_sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#allow_host_namespace_sharing SecurityPolicy#allow_host_namespace_sharing}
   */
   readonly allowHostNamespaceSharing?: boolean | cdktf.IResolvable;
   /**
   * Allow host network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#allow_host_network SecurityPolicy#allow_host_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#allow_host_network SecurityPolicy#allow_host_network}
   */
   readonly allowHostNetwork?: boolean | cdktf.IResolvable;
   /**
   * Allow privilege escalation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#allow_privilege_escalation SecurityPolicy#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#allow_privilege_escalation SecurityPolicy#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
   * Allow privileged containers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#allow_privileged_containers SecurityPolicy#allow_privileged_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#allow_privileged_containers SecurityPolicy#allow_privileged_containers}
   */
   readonly allowPrivilegedContainers?: boolean | cdktf.IResolvable;
   /**
   * Allowed volumes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#allowed_volumes SecurityPolicy#allowed_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#allowed_volumes SecurityPolicy#allowed_volumes}
   */
   readonly allowedVolumes?: string[];
   /**
   * Audit (dry-run)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#audit SecurityPolicy#audit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#audit SecurityPolicy#audit}
   */
   readonly audit?: boolean | cdktf.IResolvable;
   /**
   * Disable native pod security policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#disable_native_psp SecurityPolicy#disable_native_psp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#disable_native_psp SecurityPolicy#disable_native_psp}
   */
   readonly disableNativePsp?: boolean | cdktf.IResolvable;
   /**
   * Read only root file system
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#read_only_root_file_system SecurityPolicy#read_only_root_file_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#read_only_root_file_system SecurityPolicy#read_only_root_file_system}
   */
   readonly readOnlyRootFileSystem?: boolean | cdktf.IResolvable;
   /**
   * allowed_host_paths block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#allowed_host_paths SecurityPolicy#allowed_host_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#allowed_host_paths SecurityPolicy#allowed_host_paths}
   */
   readonly allowedHostPaths?: SecurityPolicySpecInputCustomAllowedHostPaths[] | cdktf.IResolvable;
   /**
   * allowed_host_port_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#allowed_host_port_range SecurityPolicy#allowed_host_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#allowed_host_port_range SecurityPolicy#allowed_host_port_range}
   */
   readonly allowedHostPortRange?: SecurityPolicySpecInputCustomAllowedHostPortRange;
   /**
   * allowed_se_linux_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#allowed_se_linux_options SecurityPolicy#allowed_se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#allowed_se_linux_options SecurityPolicy#allowed_se_linux_options}
   */
   readonly allowedSeLinuxOptions?: SecurityPolicySpecInputCustomAllowedSeLinuxOptions[] | cdktf.IResolvable;
   /**
   * fs_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#fs_group SecurityPolicy#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#fs_group SecurityPolicy#fs_group}
   */
   readonly fsGroup?: SecurityPolicySpecInputCustomFsGroup;
   /**
   * linux_capabilities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#linux_capabilities SecurityPolicy#linux_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#linux_capabilities SecurityPolicy#linux_capabilities}
   */
   readonly linuxCapabilities?: SecurityPolicySpecInputCustomLinuxCapabilities;
   /**
   * run_as_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#run_as_group SecurityPolicy#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#run_as_group SecurityPolicy#run_as_group}
   */
   readonly runAsGroup?: SecurityPolicySpecInputCustomRunAsGroup;
   /**
   * run_as_user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#run_as_user SecurityPolicy#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#run_as_user SecurityPolicy#run_as_user}
   */
   readonly runAsUser?: SecurityPolicySpecInputCustomRunAsUser;
   /**
   * seccomp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#seccomp SecurityPolicy#seccomp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#seccomp SecurityPolicy#seccomp}
   */
   readonly seccomp?: SecurityPolicySpecInputCustomSeccomp;
   /**
   * supplemental_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#supplemental_groups SecurityPolicy#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#supplemental_groups SecurityPolicy#supplemental_groups}
   */
   readonly supplementalGroups?: SecurityPolicySpecInputCustomSupplementalGroups;
   /**
   * sysctls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#sysctls SecurityPolicy#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#sysctls SecurityPolicy#sysctls}
   */
   readonly sysctls?: SecurityPolicySpecInputCustomSysctls;
 }
@@ -3525,13 +3525,13 @@ export interface SecurityPolicySpecInputStrict {
   /**
   * Audit (dry-run)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#audit SecurityPolicy#audit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#audit SecurityPolicy#audit}
   */
   readonly audit?: boolean | cdktf.IResolvable;
   /**
   * Disable native pod security policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#disable_native_psp SecurityPolicy#disable_native_psp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#disable_native_psp SecurityPolicy#disable_native_psp}
   */
   readonly disableNativePsp?: boolean | cdktf.IResolvable;
 }
@@ -3646,19 +3646,19 @@ export interface SecurityPolicySpecInput {
   /**
   * baseline block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#baseline SecurityPolicy#baseline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#baseline SecurityPolicy#baseline}
   */
   readonly baseline?: SecurityPolicySpecInputBaseline;
   /**
   * custom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#custom SecurityPolicy#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#custom SecurityPolicy#custom}
   */
   readonly custom?: SecurityPolicySpecInputCustom;
   /**
   * strict block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#strict SecurityPolicy#strict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#strict SecurityPolicy#strict}
   */
   readonly strict?: SecurityPolicySpecInputStrict;
 }
@@ -3802,19 +3802,19 @@ export interface SecurityPolicySpecNamespaceSelectorMatchExpressions {
   /**
   * Key is the label key that the selector applies to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#key SecurityPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#key SecurityPolicy#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to a set of values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#operator SecurityPolicy#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#operator SecurityPolicy#operator}
   */
   readonly operator?: string;
   /**
   * Values is an array of string values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#values SecurityPolicy#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#values SecurityPolicy#values}
   */
   readonly values: string[];
 }
@@ -3987,7 +3987,7 @@ export interface SecurityPolicySpecNamespaceSelector {
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#match_expressions SecurityPolicy#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#match_expressions SecurityPolicy#match_expressions}
   */
   readonly matchExpressions: SecurityPolicySpecNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -4070,13 +4070,13 @@ export interface SecurityPolicySpec {
   /**
   * input block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#input SecurityPolicy#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#input SecurityPolicy#input}
   */
   readonly input: SecurityPolicySpecInput;
   /**
   * namespace_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#namespace_selector SecurityPolicy#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#namespace_selector SecurityPolicy#namespace_selector}
   */
   readonly namespaceSelector?: SecurityPolicySpecNamespaceSelector;
 }
@@ -4186,7 +4186,7 @@ export class SecurityPolicySpecOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy tanzu-mission-control_security_policy}
+* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy tanzu-mission-control_security_policy}
 */
 export class SecurityPolicy extends cdktf.TerraformResource {
 
@@ -4202,7 +4202,7 @@ export class SecurityPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityPolicy to import
-  * @param importFromId The id of the existing SecurityPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4214,7 +4214,7 @@ export class SecurityPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/security_policy tanzu-mission-control_security_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/security_policy tanzu-mission-control_security_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4225,8 +4225,8 @@ export class SecurityPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'tanzu-mission-control_security_policy',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9',
-        providerVersionConstraint: '1.4.9'
+        providerVersion: '1.4.10',
+        providerVersionConstraint: '1.4.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

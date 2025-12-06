@@ -3,6 +3,8 @@ Object.defineProperty(exports, 'cloudAwsAccount', { get: function () { return re
 Object.defineProperty(exports, 'cloudAzureTenant', { get: function () { return require('./cloud-azure-tenant'); } });
 Object.defineProperty(exports, 'cloudAzureTenantEventhubSettings', { get: function () { return require('./cloud-azure-tenant-eventhub-settings'); } });
 Object.defineProperty(exports, 'cloudComplianceCustomFramework', { get: function () { return require('./cloud-compliance-custom-framework'); } });
+Object.defineProperty(exports, 'cloudGoogleRegistration', { get: function () { return require('./cloud-google-registration'); } });
+Object.defineProperty(exports, 'cloudGoogleRegistrationLoggingSettings', { get: function () { return require('./cloud-google-registration-logging-settings'); } });
 Object.defineProperty(exports, 'cloudGroup', { get: function () { return require('./cloud-group'); } });
 Object.defineProperty(exports, 'cloudSecurityCustomRule', { get: function () { return require('./cloud-security-custom-rule'); } });
 Object.defineProperty(exports, 'contentUpdatePolicy', { get: function () { return require('./content-update-policy'); } });
@@ -32,6 +34,7 @@ Object.defineProperty(exports, 'sensorUpdatePolicyPrecedence', { get: function (
 Object.defineProperty(exports, 'sensorVisibilityExclusion', { get: function () { return require('./sensor-visibility-exclusion'); } });
 Object.defineProperty(exports, 'dataCrowdstrikeCloudAwsAccount', { get: function () { return require('./data-crowdstrike-cloud-aws-account'); } });
 Object.defineProperty(exports, 'dataCrowdstrikeCloudComplianceFrameworkControls', { get: function () { return require('./data-crowdstrike-cloud-compliance-framework-controls'); } });
+Object.defineProperty(exports, 'dataCrowdstrikeCloudRiskFindings', { get: function () { return require('./data-crowdstrike-cloud-risk-findings'); } });
 Object.defineProperty(exports, 'dataCrowdstrikeCloudSecurityRules', { get: function () { return require('./data-crowdstrike-cloud-security-rules'); } });
 Object.defineProperty(exports, 'dataCrowdstrikeContentCategoryVersions', { get: function () { return require('./data-crowdstrike-content-category-versions'); } });
 Object.defineProperty(exports, 'dataCrowdstrikeContentUpdatePolicies', { get: function () { return require('./data-crowdstrike-content-update-policies'); } });

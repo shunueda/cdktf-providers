@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/service_repository
+// https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service_repository
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface ServiceRepositoryConfig extends cdktf.TerraformMetaArguments {
   /**
   * The directory in the repository containing opslevel.yml.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/service_repository#base_directory ServiceRepository#base_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service_repository#base_directory ServiceRepository#base_directory}
   */
   readonly baseDirectory?: string;
   /**
   * The name displayed in the UI for the service repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/service_repository#name ServiceRepository#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service_repository#name ServiceRepository#name}
   */
   readonly name?: string;
   /**
   * The id of the repository that this will be added to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/service_repository#repository ServiceRepository#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service_repository#repository ServiceRepository#repository}
   */
   readonly repository?: string;
   /**
   * The alias of the repository that this will be added to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/service_repository#repository_alias ServiceRepository#repository_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service_repository#repository_alias ServiceRepository#repository_alias}
   */
   readonly repositoryAlias?: string;
   /**
   * The id of the service that this will be added to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/service_repository#service ServiceRepository#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service_repository#service ServiceRepository#service}
   */
   readonly service?: string;
   /**
   * The alias of the service that this will be added to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/service_repository#service_alias ServiceRepository#service_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service_repository#service_alias ServiceRepository#service_alias}
   */
   readonly serviceAlias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/service_repository opslevel_service_repository}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service_repository opslevel_service_repository}
 */
 export class ServiceRepository extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class ServiceRepository extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceRepository resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceRepository to import
-  * @param importFromId The id of the existing ServiceRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/service_repository#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service_repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceRepository to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class ServiceRepository extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/service_repository opslevel_service_repository} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service_repository opslevel_service_repository} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class ServiceRepository extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_service_repository',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.6.3',
-        providerVersionConstraint: '1.6.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

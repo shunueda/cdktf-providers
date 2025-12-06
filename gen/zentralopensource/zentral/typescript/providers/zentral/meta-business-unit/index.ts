@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/meta_business_unit
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/meta_business_unit
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface MetaBusinessUnitConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enables API enrollments. Once enabled, it **CANNOT** be disabled. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/meta_business_unit#api_enrollment_enabled MetaBusinessUnit#api_enrollment_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/meta_business_unit#api_enrollment_enabled MetaBusinessUnit#api_enrollment_enabled}
   */
   readonly apiEnrollmentEnabled?: boolean | cdktf.IResolvable;
   /**
   * Name of the meta business unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/meta_business_unit#name MetaBusinessUnit#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/meta_business_unit#name MetaBusinessUnit#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/meta_business_unit zentral_meta_business_unit}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/meta_business_unit zentral_meta_business_unit}
 */
 export class MetaBusinessUnit extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class MetaBusinessUnit extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MetaBusinessUnit resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MetaBusinessUnit to import
-  * @param importFromId The id of the existing MetaBusinessUnit that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/meta_business_unit#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MetaBusinessUnit that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/meta_business_unit#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MetaBusinessUnit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class MetaBusinessUnit extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/meta_business_unit zentral_meta_business_unit} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/meta_business_unit zentral_meta_business_unit} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class MetaBusinessUnit extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_meta_business_unit',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.65',
-        providerVersionConstraint: '0.1.65'
+        providerVersion: '0.1.67',
+        providerVersionConstraint: '0.1.67'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

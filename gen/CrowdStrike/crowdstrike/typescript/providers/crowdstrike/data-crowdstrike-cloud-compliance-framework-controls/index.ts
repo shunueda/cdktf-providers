@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/cloud_compliance_framework_controls
+// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/cloud_compliance_framework_controls
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataCrowdstrikeCloudComplianceFrameworkControlsConfig extends c
   /**
   * Name of the compliance benchmark in the framework. Examples: `AWS Foundational Security Best Practices v1.*`, `CIS 1.2.0 GCP`, `CIS 1.8.0 GKE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/cloud_compliance_framework_controls#benchmark DataCrowdstrikeCloudComplianceFrameworkControls#benchmark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/cloud_compliance_framework_controls#benchmark DataCrowdstrikeCloudComplianceFrameworkControls#benchmark}
   */
   readonly benchmark?: string;
   /**
   * Name of the control. Examples: `Ensure security contact phone is set`, `Ensure that Azure Defender*`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/cloud_compliance_framework_controls#control_name DataCrowdstrikeCloudComplianceFrameworkControls#control_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/cloud_compliance_framework_controls#control_name DataCrowdstrikeCloudComplianceFrameworkControls#control_name}
   */
   readonly controlName?: string;
   /**
   * Falcon Query Language (FQL) filter for advanced control searches. FQL filter, allowed props: `compliance_control_name`, `compliance_control_authority`, `compliance_control_type`, `compliance_control_section`, `compliance_control_requirement`, `compliance_control_benchmark_name`, `compliance_control_benchmark_version`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/cloud_compliance_framework_controls#fql DataCrowdstrikeCloudComplianceFrameworkControls#fql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/cloud_compliance_framework_controls#fql DataCrowdstrikeCloudComplianceFrameworkControls#fql}
   */
   readonly fql?: string;
   /**
   * Requirement of the control(s) within the framework. Examples: `2.*`, `1.1`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/cloud_compliance_framework_controls#requirement DataCrowdstrikeCloudComplianceFrameworkControls#requirement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/cloud_compliance_framework_controls#requirement DataCrowdstrikeCloudComplianceFrameworkControls#requirement}
   */
   readonly requirement?: string;
   /**
   * Section of the benchmark where the control(s) reside. Examples: `Data Protection`, `Data*`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/cloud_compliance_framework_controls#section DataCrowdstrikeCloudComplianceFrameworkControls#section}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/cloud_compliance_framework_controls#section DataCrowdstrikeCloudComplianceFrameworkControls#section}
   */
   readonly section?: string;
 }
@@ -145,7 +145,7 @@ export class DataCrowdstrikeCloudComplianceFrameworkControlsControlsList extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/cloud_compliance_framework_controls crowdstrike_cloud_compliance_framework_controls}
+* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/cloud_compliance_framework_controls crowdstrike_cloud_compliance_framework_controls}
 */
 export class DataCrowdstrikeCloudComplianceFrameworkControls extends cdktf.TerraformDataSource {
 
@@ -161,7 +161,7 @@ export class DataCrowdstrikeCloudComplianceFrameworkControls extends cdktf.Terra
   * Generates CDKTF code for importing a DataCrowdstrikeCloudComplianceFrameworkControls resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCrowdstrikeCloudComplianceFrameworkControls to import
-  * @param importFromId The id of the existing DataCrowdstrikeCloudComplianceFrameworkControls that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/cloud_compliance_framework_controls#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCrowdstrikeCloudComplianceFrameworkControls that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/cloud_compliance_framework_controls#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCrowdstrikeCloudComplianceFrameworkControls to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -173,7 +173,7 @@ export class DataCrowdstrikeCloudComplianceFrameworkControls extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/cloud_compliance_framework_controls crowdstrike_cloud_compliance_framework_controls} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/cloud_compliance_framework_controls crowdstrike_cloud_compliance_framework_controls} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -184,8 +184,8 @@ export class DataCrowdstrikeCloudComplianceFrameworkControls extends cdktf.Terra
       terraformResourceType: 'crowdstrike_cloud_compliance_framework_controls',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.49',
-        providerVersionConstraint: '0.0.49'
+        providerVersion: '0.0.50',
+        providerVersionConstraint: '0.0.50'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_repository_file
+// https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_repository_file
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface CheckRepositoryFileConfig extends cdktf.TerraformMetaArguments 
   /**
   * The id of the category the check belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_repository_file#category CheckRepositoryFile#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_repository_file#category CheckRepositoryFile#category}
   */
   readonly category: string;
   /**
   * Whether the check looks for the existence of a directory instead of a file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_repository_file#directory_search CheckRepositoryFile#directory_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_repository_file#directory_search CheckRepositoryFile#directory_search}
   */
   readonly directorySearch: boolean | cdktf.IResolvable;
   /**
@@ -25,61 +25,61 @@ export interface CheckRepositoryFileConfig extends cdktf.TerraformMetaArguments 
   *  See example in opslevel_check_manual for proper configuration.
   *  
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_repository_file#enable_on CheckRepositoryFile#enable_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_repository_file#enable_on CheckRepositoryFile#enable_on}
   */
   readonly enableOn?: string;
   /**
   * Whether the check is enabled or not.  Do not use this field in tandem with 'enable_on'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_repository_file#enabled CheckRepositoryFile#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_repository_file#enabled CheckRepositoryFile#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A condition that should be satisfied. One of `belongs_to`, `contains`, `does_not_contain`, `does_not_equal`, `does_not_exist`, `does_not_match`, `does_not_match_regex`, `ends_with`, `equals`, `exists`, `greater_than_or_equal_to`, `less_than_or_equal_to`, `matches`, `matches_regex`, `satisfies_jq_expression`, `satisfies_version_constraint`, `starts_with`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_repository_file#file_contents_predicate CheckRepositoryFile#file_contents_predicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_repository_file#file_contents_predicate CheckRepositoryFile#file_contents_predicate}
   */
   readonly fileContentsPredicate?: CheckRepositoryFileFileContentsPredicate;
   /**
   * Restrict the search to certain file paths.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_repository_file#filepaths CheckRepositoryFile#filepaths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_repository_file#filepaths CheckRepositoryFile#filepaths}
   */
   readonly filepaths: string[];
   /**
   * The id of the filter of the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_repository_file#filter CheckRepositoryFile#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_repository_file#filter CheckRepositoryFile#filter}
   */
   readonly filter?: string;
   /**
   * The id of the level the check belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_repository_file#level CheckRepositoryFile#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_repository_file#level CheckRepositoryFile#level}
   */
   readonly level: string;
   /**
   * The display name of the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_repository_file#name CheckRepositoryFile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_repository_file#name CheckRepositoryFile#name}
   */
   readonly name: string;
   /**
   * Additional information to display to the service owner about the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_repository_file#notes CheckRepositoryFile#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_repository_file#notes CheckRepositoryFile#notes}
   */
   readonly notes?: string;
   /**
   * The id of the team that owns the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_repository_file#owner CheckRepositoryFile#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_repository_file#owner CheckRepositoryFile#owner}
   */
   readonly owner?: string;
   /**
   * Whether the checks looks at the absolute root of a repo or the relative root (the directory specified when attached a repo to a service).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_repository_file#use_absolute_root CheckRepositoryFile#use_absolute_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_repository_file#use_absolute_root CheckRepositoryFile#use_absolute_root}
   */
   readonly useAbsoluteRoot: boolean | cdktf.IResolvable;
 }
@@ -87,13 +87,13 @@ export interface CheckRepositoryFileFileContentsPredicate {
   /**
   * A condition that should be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_repository_file#type CheckRepositoryFile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_repository_file#type CheckRepositoryFile#type}
   */
   readonly type: string;
   /**
   * The condition value used by the predicate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_repository_file#value CheckRepositoryFile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_repository_file#value CheckRepositoryFile#value}
   */
   readonly value?: string;
 }
@@ -213,7 +213,7 @@ export class CheckRepositoryFileFileContentsPredicateOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_repository_file opslevel_check_repository_file}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_repository_file opslevel_check_repository_file}
 */
 export class CheckRepositoryFile extends cdktf.TerraformResource {
 
@@ -229,7 +229,7 @@ export class CheckRepositoryFile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CheckRepositoryFile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CheckRepositoryFile to import
-  * @param importFromId The id of the existing CheckRepositoryFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_repository_file#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CheckRepositoryFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_repository_file#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CheckRepositoryFile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -241,7 +241,7 @@ export class CheckRepositoryFile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_repository_file opslevel_check_repository_file} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_repository_file opslevel_check_repository_file} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -252,8 +252,8 @@ export class CheckRepositoryFile extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_check_repository_file',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.6.3',
-        providerVersionConstraint: '1.6.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

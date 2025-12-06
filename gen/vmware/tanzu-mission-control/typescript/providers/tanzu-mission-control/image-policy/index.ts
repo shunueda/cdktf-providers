@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy
+// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ImagePolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#id ImagePolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#id ImagePolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface ImagePolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the image policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#name ImagePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#name ImagePolicy#name}
   */
   readonly name: string;
   /**
   * meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#meta ImagePolicy#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#meta ImagePolicy#meta}
   */
   readonly meta?: ImagePolicyMeta;
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#scope ImagePolicy#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#scope ImagePolicy#scope}
   */
   readonly scope: ImagePolicyScope;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#spec ImagePolicy#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#spec ImagePolicy#spec}
   */
   readonly spec: ImagePolicySpec;
 }
@@ -43,19 +43,19 @@ export interface ImagePolicyMeta {
   /**
   * Annotations for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#annotations ImagePolicy#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#annotations ImagePolicy#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#description ImagePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#description ImagePolicy#description}
   */
   readonly description?: string;
   /**
   * Labels for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#labels ImagePolicy#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#labels ImagePolicy#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -209,19 +209,19 @@ export interface ImagePolicyScopeCluster {
   /**
   * Name of the management cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#management_cluster_name ImagePolicy#management_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#management_cluster_name ImagePolicy#management_cluster_name}
   */
   readonly managementClusterName?: string;
   /**
   * Name of this cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#name ImagePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#name ImagePolicy#name}
   */
   readonly name: string;
   /**
   * Provisioner of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#provisioner_name ImagePolicy#provisioner_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#provisioner_name ImagePolicy#provisioner_name}
   */
   readonly provisionerName?: string;
 }
@@ -362,7 +362,7 @@ export interface ImagePolicyScopeClusterGroup {
   /**
   * Name of this cluster group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#cluster_group ImagePolicy#cluster_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#cluster_group ImagePolicy#cluster_group}
   */
   readonly clusterGroup: string;
 }
@@ -445,7 +445,7 @@ export interface ImagePolicyScopeOrganization {
   /**
   * ID of this organization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#organization ImagePolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#organization ImagePolicy#organization}
   */
   readonly organization: string;
 }
@@ -528,7 +528,7 @@ export interface ImagePolicyScopeWorkspace {
   /**
   * Name of this workspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#workspace ImagePolicy#workspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#workspace ImagePolicy#workspace}
   */
   readonly workspace: string;
 }
@@ -611,25 +611,25 @@ export interface ImagePolicyScope {
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#cluster ImagePolicy#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#cluster ImagePolicy#cluster}
   */
   readonly cluster?: ImagePolicyScopeCluster;
   /**
   * cluster_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#cluster_group ImagePolicy#cluster_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#cluster_group ImagePolicy#cluster_group}
   */
   readonly clusterGroup?: ImagePolicyScopeClusterGroup;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#organization ImagePolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#organization ImagePolicy#organization}
   */
   readonly organization?: ImagePolicyScopeOrganization;
   /**
   * workspace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#workspace ImagePolicy#workspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#workspace ImagePolicy#workspace}
   */
   readonly workspace?: ImagePolicyScopeWorkspace;
 }
@@ -802,13 +802,13 @@ export interface ImagePolicySpecInputAllowedNameTagRulesTag {
   /**
   * The negate flag used to exclude certain tag patterns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#negate ImagePolicy#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#negate ImagePolicy#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * The value (support wildcard) is used to validate against the tag of the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#value ImagePolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#value ImagePolicy#value}
   */
   readonly value?: string;
 }
@@ -923,13 +923,13 @@ export interface ImagePolicySpecInputAllowedNameTagRules {
   /**
   * Allowed image names, wildcards are supported(for example: fooservice/*). Empty field is equivalent to *.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#imagename ImagePolicy#imagename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#imagename ImagePolicy#imagename}
   */
   readonly imagename?: string;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#tag ImagePolicy#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#tag ImagePolicy#tag}
   */
   readonly tag?: ImagePolicySpecInputAllowedNameTagRulesTag;
 }
@@ -1076,13 +1076,13 @@ export interface ImagePolicySpecInputAllowedNameTag {
   /**
   * Audit (dry-run). Violations will be logged but not denied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#audit ImagePolicy#audit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#audit ImagePolicy#audit}
   */
   readonly audit?: boolean | cdktf.IResolvable;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#rules ImagePolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#rules ImagePolicy#rules}
   */
   readonly rules: ImagePolicySpecInputAllowedNameTagRules[] | cdktf.IResolvable;
 }
@@ -1194,7 +1194,7 @@ export interface ImagePolicySpecInputBlockLatestTag {
   /**
   * Audit (dry-run). Violations will be logged but not denied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#audit ImagePolicy#audit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#audit ImagePolicy#audit}
   */
   readonly audit?: boolean | cdktf.IResolvable;
 }
@@ -1280,13 +1280,13 @@ export interface ImagePolicySpecInputCustomRulesTag {
   /**
   * The negate flag used to exclude certain tag patterns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#negate ImagePolicy#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#negate ImagePolicy#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * The value (support wildcard) is used to validate against the tag of the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#value ImagePolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#value ImagePolicy#value}
   */
   readonly value?: string;
 }
@@ -1401,31 +1401,31 @@ export interface ImagePolicySpecInputCustomRules {
   /**
   * Allowed image hostnames, wildcards are supported(for example: *.mycompany.com). Empty field is equivalent to *.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#hostname ImagePolicy#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#hostname ImagePolicy#hostname}
   */
   readonly hostname?: string;
   /**
   * Allowed image names, wildcards are supported(for example: fooservice/*). Empty field is equivalent to *.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#imagename ImagePolicy#imagename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#imagename ImagePolicy#imagename}
   */
   readonly imagename?: string;
   /**
   * Allowed port(if presented) of the image hostname, must associate with valid hostname. Wildcards are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#port ImagePolicy#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#port ImagePolicy#port}
   */
   readonly port?: string;
   /**
   * The flag used to enforce digest to appear in container images.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#requiredigest ImagePolicy#requiredigest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#requiredigest ImagePolicy#requiredigest}
   */
   readonly requiredigest?: boolean | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#tag ImagePolicy#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#tag ImagePolicy#tag}
   */
   readonly tag?: ImagePolicySpecInputCustomRulesTag;
 }
@@ -1659,13 +1659,13 @@ export interface ImagePolicySpecInputCustom {
   /**
   * Audit (dry-run). Violations will be logged but not denied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#audit ImagePolicy#audit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#audit ImagePolicy#audit}
   */
   readonly audit?: boolean | cdktf.IResolvable;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#rules ImagePolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#rules ImagePolicy#rules}
   */
   readonly rules: ImagePolicySpecInputCustomRules[] | cdktf.IResolvable;
 }
@@ -1777,7 +1777,7 @@ export interface ImagePolicySpecInputRequireDigest {
   /**
   * Audit (dry-run). Violations will be logged but not denied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#audit ImagePolicy#audit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#audit ImagePolicy#audit}
   */
   readonly audit?: boolean | cdktf.IResolvable;
 }
@@ -1863,25 +1863,25 @@ export interface ImagePolicySpecInput {
   /**
   * allowed_name_tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#allowed_name_tag ImagePolicy#allowed_name_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#allowed_name_tag ImagePolicy#allowed_name_tag}
   */
   readonly allowedNameTag?: ImagePolicySpecInputAllowedNameTag;
   /**
   * block_latest_tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#block_latest_tag ImagePolicy#block_latest_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#block_latest_tag ImagePolicy#block_latest_tag}
   */
   readonly blockLatestTag?: ImagePolicySpecInputBlockLatestTag;
   /**
   * custom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#custom ImagePolicy#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#custom ImagePolicy#custom}
   */
   readonly custom?: ImagePolicySpecInputCustom;
   /**
   * require_digest block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#require_digest ImagePolicy#require_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#require_digest ImagePolicy#require_digest}
   */
   readonly requireDigest?: ImagePolicySpecInputRequireDigest;
 }
@@ -2054,19 +2054,19 @@ export interface ImagePolicySpecNamespaceSelectorMatchExpressions {
   /**
   * Key is the label key that the selector applies to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#key ImagePolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#key ImagePolicy#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to a set of values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#operator ImagePolicy#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#operator ImagePolicy#operator}
   */
   readonly operator?: string;
   /**
   * Values is an array of string values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#values ImagePolicy#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#values ImagePolicy#values}
   */
   readonly values: string[];
 }
@@ -2239,7 +2239,7 @@ export interface ImagePolicySpecNamespaceSelector {
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#match_expressions ImagePolicy#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#match_expressions ImagePolicy#match_expressions}
   */
   readonly matchExpressions: ImagePolicySpecNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -2322,13 +2322,13 @@ export interface ImagePolicySpec {
   /**
   * input block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#input ImagePolicy#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#input ImagePolicy#input}
   */
   readonly input: ImagePolicySpecInput;
   /**
   * namespace_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#namespace_selector ImagePolicy#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#namespace_selector ImagePolicy#namespace_selector}
   */
   readonly namespaceSelector?: ImagePolicySpecNamespaceSelector;
 }
@@ -2438,7 +2438,7 @@ export class ImagePolicySpecOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy tanzu-mission-control_image_policy}
+* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy tanzu-mission-control_image_policy}
 */
 export class ImagePolicy extends cdktf.TerraformResource {
 
@@ -2454,7 +2454,7 @@ export class ImagePolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ImagePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ImagePolicy to import
-  * @param importFromId The id of the existing ImagePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ImagePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ImagePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2466,7 +2466,7 @@ export class ImagePolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/image_policy tanzu-mission-control_image_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/image_policy tanzu-mission-control_image_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2477,8 +2477,8 @@ export class ImagePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'tanzu-mission-control_image_policy',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9',
-        providerVersionConstraint: '1.4.9'
+        providerVersion: '1.4.10',
+        providerVersionConstraint: '1.4.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

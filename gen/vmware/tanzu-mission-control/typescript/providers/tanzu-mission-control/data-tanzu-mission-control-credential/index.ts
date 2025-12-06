@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential
+// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTanzuMissionControlCredentialConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential#id DataTanzuMissionControlCredential#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential#id DataTanzuMissionControlCredential#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataTanzuMissionControlCredentialConfig extends cdktf.Terraform
   /**
   * Name of this credential
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential#name DataTanzuMissionControlCredential#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential#name DataTanzuMissionControlCredential#name}
   */
   readonly name: string;
   /**
   * Wait timeout duration until credential resource reaches VALID state. Accepted timeout duration values like 5s, 5m, or 1h, higher than zero.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential#ready_wait_timeout DataTanzuMissionControlCredential#ready_wait_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential#ready_wait_timeout DataTanzuMissionControlCredential#ready_wait_timeout}
   */
   readonly readyWaitTimeout?: string;
   /**
   * meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential#meta DataTanzuMissionControlCredential#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential#meta DataTanzuMissionControlCredential#meta}
   */
   readonly meta?: DataTanzuMissionControlCredentialMeta;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential#spec DataTanzuMissionControlCredential#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential#spec DataTanzuMissionControlCredential#spec}
   */
   readonly spec?: DataTanzuMissionControlCredentialSpec;
 }
@@ -43,19 +43,19 @@ export interface DataTanzuMissionControlCredentialMeta {
   /**
   * Annotations for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential#annotations DataTanzuMissionControlCredential#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential#annotations DataTanzuMissionControlCredential#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential#description DataTanzuMissionControlCredential#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential#description DataTanzuMissionControlCredential#description}
   */
   readonly description?: string;
   /**
   * Labels for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential#labels DataTanzuMissionControlCredential#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential#labels DataTanzuMissionControlCredential#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -209,13 +209,13 @@ export interface DataTanzuMissionControlCredentialSpecDataAwsCredentialIamRole {
   /**
   * AWS IAM role ARN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential#arn DataTanzuMissionControlCredential#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential#arn DataTanzuMissionControlCredential#arn}
   */
   readonly arn?: string;
   /**
   * An external ID used to assume an AWS IAM role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential#ext_id DataTanzuMissionControlCredential#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential#ext_id DataTanzuMissionControlCredential#ext_id}
   */
   readonly extId?: string;
 }
@@ -330,19 +330,19 @@ export interface DataTanzuMissionControlCredentialSpecDataAwsCredential {
   /**
   * Account ID of the AWS credential
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential#account_id DataTanzuMissionControlCredential#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential#account_id DataTanzuMissionControlCredential#account_id}
   */
   readonly accountId?: string;
   /**
   * Generic credential
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential#generic_credential DataTanzuMissionControlCredential#generic_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential#generic_credential DataTanzuMissionControlCredential#generic_credential}
   */
   readonly genericCredential?: string;
   /**
   * iam_role block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential#iam_role DataTanzuMissionControlCredential#iam_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential#iam_role DataTanzuMissionControlCredential#iam_role}
   */
   readonly iamRole?: DataTanzuMissionControlCredentialSpecDataAwsCredentialIamRole;
 }
@@ -486,37 +486,37 @@ export interface DataTanzuMissionControlCredentialSpecDataAzureCredentialService
   /**
   * Azure Cloud name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential#azure_cloud_name DataTanzuMissionControlCredential#azure_cloud_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential#azure_cloud_name DataTanzuMissionControlCredential#azure_cloud_name}
   */
   readonly azureCloudName?: string;
   /**
   * Client ID of the Service Principal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential#client_id DataTanzuMissionControlCredential#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential#client_id DataTanzuMissionControlCredential#client_id}
   */
   readonly clientId: string;
   /**
   * Client Secret of the Service Principal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential#client_secret DataTanzuMissionControlCredential#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential#client_secret DataTanzuMissionControlCredential#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Resource Group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential#resource_group DataTanzuMissionControlCredential#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential#resource_group DataTanzuMissionControlCredential#resource_group}
   */
   readonly resourceGroup: string;
   /**
   * Subscription ID of the Azure credential
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential#subscription_id DataTanzuMissionControlCredential#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential#subscription_id DataTanzuMissionControlCredential#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * Tenant ID of the Azure credential
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential#tenant_id DataTanzuMissionControlCredential#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential#tenant_id DataTanzuMissionControlCredential#tenant_id}
   */
   readonly tenantId: string;
 }
@@ -735,37 +735,37 @@ export interface DataTanzuMissionControlCredentialSpecDataAzureCredentialService
   /**
   * Azure Cloud name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential#azure_cloud_name DataTanzuMissionControlCredential#azure_cloud_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential#azure_cloud_name DataTanzuMissionControlCredential#azure_cloud_name}
   */
   readonly azureCloudName?: string;
   /**
   * Client certificate of the Service Principal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential#client_certificate DataTanzuMissionControlCredential#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential#client_certificate DataTanzuMissionControlCredential#client_certificate}
   */
   readonly clientCertificate: string;
   /**
   * Client ID of the Service Principal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential#client_id DataTanzuMissionControlCredential#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential#client_id DataTanzuMissionControlCredential#client_id}
   */
   readonly clientId: string;
   /**
   * IDs of the Azure Subscriptions that the Service Principal can manage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential#managed_subscriptions DataTanzuMissionControlCredential#managed_subscriptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential#managed_subscriptions DataTanzuMissionControlCredential#managed_subscriptions}
   */
   readonly managedSubscriptions?: string[];
   /**
   * Subscription ID of the Azure credential
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential#subscription_id DataTanzuMissionControlCredential#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential#subscription_id DataTanzuMissionControlCredential#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * Tenant ID of the Azure credential
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential#tenant_id DataTanzuMissionControlCredential#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential#tenant_id DataTanzuMissionControlCredential#tenant_id}
   */
   readonly tenantId: string;
 }
@@ -984,13 +984,13 @@ export interface DataTanzuMissionControlCredentialSpecDataAzureCredential {
   /**
   * service_principal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential#service_principal DataTanzuMissionControlCredential#service_principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential#service_principal DataTanzuMissionControlCredential#service_principal}
   */
   readonly servicePrincipal?: DataTanzuMissionControlCredentialSpecDataAzureCredentialServicePrincipal;
   /**
   * service_principal_with_certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential#service_principal_with_certificate DataTanzuMissionControlCredential#service_principal_with_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential#service_principal_with_certificate DataTanzuMissionControlCredential#service_principal_with_certificate}
   */
   readonly servicePrincipalWithCertificate?: DataTanzuMissionControlCredentialSpecDataAzureCredentialServicePrincipalWithCertificate;
 }
@@ -1105,13 +1105,13 @@ export interface DataTanzuMissionControlCredentialSpecDataKeyValue {
   /**
   * Data secret data in the format of key-value pair
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential#data DataTanzuMissionControlCredential#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential#data DataTanzuMissionControlCredential#data}
   */
   readonly data?: { [key: string]: string };
   /**
   * Type of Secret data, usually mapped to k8s secret type. Supported types: [SECRET_TYPE_UNSPECIFIED,OPAQUE_SECRET_TYPE,DOCKERCONFIGJSON_SECRET_TYPE]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential#type DataTanzuMissionControlCredential#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential#type DataTanzuMissionControlCredential#type}
   */
   readonly type?: string;
 }
@@ -1226,25 +1226,25 @@ export interface DataTanzuMissionControlCredentialSpecData {
   /**
   * Generic credential data type used to hold a blob of data represented as string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential#generic_credential DataTanzuMissionControlCredential#generic_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential#generic_credential DataTanzuMissionControlCredential#generic_credential}
   */
   readonly genericCredential?: string;
   /**
   * aws_credential block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential#aws_credential DataTanzuMissionControlCredential#aws_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential#aws_credential DataTanzuMissionControlCredential#aws_credential}
   */
   readonly awsCredential?: DataTanzuMissionControlCredentialSpecDataAwsCredential;
   /**
   * azure_credential block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential#azure_credential DataTanzuMissionControlCredential#azure_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential#azure_credential DataTanzuMissionControlCredential#azure_credential}
   */
   readonly azureCredential?: DataTanzuMissionControlCredentialSpecDataAzureCredential;
   /**
   * key_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential#key_value DataTanzuMissionControlCredential#key_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential#key_value DataTanzuMissionControlCredential#key_value}
   */
   readonly keyValue?: DataTanzuMissionControlCredentialSpecDataKeyValue;
 }
@@ -1417,19 +1417,19 @@ export interface DataTanzuMissionControlCredentialSpec {
   /**
   * The Tanzu capability for which the credential shall be used. Value must be in list [DATA_PROTECTION TANZU_OBSERVABILITY TANZU_SERVICE_MESH PROXY_CONFIG MANAGED_K8S_PROVIDER IMAGE_REGISTRY]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential#capability DataTanzuMissionControlCredential#capability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential#capability DataTanzuMissionControlCredential#capability}
   */
   readonly capability?: string;
   /**
   * The Tanzu provider for which describes credential data type. Value must be in list [PROVIDER_UNSPECIFIED,AWS_EC2,GENERIC_S3,AZURE_AD,AWS_EKS,AZURE_AKS,GENERIC_KEY_VALUE]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential#provider DataTanzuMissionControlCredential#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential#provider DataTanzuMissionControlCredential#provider}
   */
   readonly provider?: string;
   /**
   * data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential#data DataTanzuMissionControlCredential#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential#data DataTanzuMissionControlCredential#data}
   */
   readonly data?: DataTanzuMissionControlCredentialSpecData;
 }
@@ -1571,7 +1571,7 @@ export class DataTanzuMissionControlCredentialSpecOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential tanzu-mission-control_credential}
+* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential tanzu-mission-control_credential}
 */
 export class DataTanzuMissionControlCredential extends cdktf.TerraformDataSource {
 
@@ -1587,7 +1587,7 @@ export class DataTanzuMissionControlCredential extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataTanzuMissionControlCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTanzuMissionControlCredential to import
-  * @param importFromId The id of the existing DataTanzuMissionControlCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTanzuMissionControlCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTanzuMissionControlCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1599,7 +1599,7 @@ export class DataTanzuMissionControlCredential extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/credential tanzu-mission-control_credential} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/credential tanzu-mission-control_credential} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1610,8 +1610,8 @@ export class DataTanzuMissionControlCredential extends cdktf.TerraformDataSource
       terraformResourceType: 'tanzu-mission-control_credential',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9',
-        providerVersionConstraint: '1.4.9'
+        providerVersion: '1.4.10',
+        providerVersionConstraint: '1.4.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

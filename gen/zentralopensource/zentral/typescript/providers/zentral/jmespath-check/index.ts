@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/jmespath_check
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/jmespath_check
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface JmespathCheckConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the JMESPath compliance check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/jmespath_check#description JmespathCheck#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/jmespath_check#description JmespathCheck#description}
   */
   readonly description?: string;
   /**
   * The JMESPath compliance check expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/jmespath_check#jmespath_expression JmespathCheck#jmespath_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/jmespath_check#jmespath_expression JmespathCheck#jmespath_expression}
   */
   readonly jmespathExpression: string;
   /**
   * Name of the JMESPath compliance check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/jmespath_check#name JmespathCheck#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/jmespath_check#name JmespathCheck#name}
   */
   readonly name: string;
   /**
   * The platforms the JMESPath compliance check is restricted to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/jmespath_check#platforms JmespathCheck#platforms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/jmespath_check#platforms JmespathCheck#platforms}
   */
   readonly platforms?: string[];
   /**
   * The name of the inventory source the JMESPath compliance check is restricted to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/jmespath_check#source_name JmespathCheck#source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/jmespath_check#source_name JmespathCheck#source_name}
   */
   readonly sourceName: string;
   /**
   * The IDs of the tags the JMESPath compliance check is restricted to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/jmespath_check#tag_ids JmespathCheck#tag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/jmespath_check#tag_ids JmespathCheck#tag_ids}
   */
   readonly tagIds?: number[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/jmespath_check zentral_jmespath_check}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/jmespath_check zentral_jmespath_check}
 */
 export class JmespathCheck extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class JmespathCheck extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a JmespathCheck resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the JmespathCheck to import
-  * @param importFromId The id of the existing JmespathCheck that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/jmespath_check#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing JmespathCheck that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/jmespath_check#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the JmespathCheck to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class JmespathCheck extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/jmespath_check zentral_jmespath_check} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/jmespath_check zentral_jmespath_check} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class JmespathCheck extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_jmespath_check',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.65',
-        providerVersionConstraint: '0.1.65'
+        providerVersion: '0.1.67',
+        providerVersionConstraint: '0.1.67'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

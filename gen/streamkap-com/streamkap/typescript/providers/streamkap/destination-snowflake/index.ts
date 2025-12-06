@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_snowflake
+// https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_snowflake
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DestinationSnowflakeConfig extends cdktf.TerraformMetaArguments
   /**
   * Specifies whether the connector should create Dyanmic Tables & Cleanup Task (applies to `append` mode only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_snowflake#apply_dynamic_table_script DestinationSnowflake#apply_dynamic_table_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_snowflake#apply_dynamic_table_script DestinationSnowflake#apply_dynamic_table_script}
   */
   readonly applyDynamicTableScript?: boolean | cdktf.IResolvable;
   /**
   * Mapping between the tables that store append-only data and the deduplicated tables, e.g. rawTable1:[dedupeSchema.]dedupeTable1,rawTable2:[dedupeSchema.]dedupeTable2,etc. The dedupeTable in mapping will be used for QA scripts. If dedupeSchema is not specified, the deduplicated table will be created in the same schema as the raw table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_snowflake#auto_qa_dedupe_table_mapping DestinationSnowflake#auto_qa_dedupe_table_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_snowflake#auto_qa_dedupe_table_mapping DestinationSnowflake#auto_qa_dedupe_table_mapping}
   */
   readonly autoQaDedupeTableMapping?: { [key: string]: string };
   /**
   * Specifies whether the connector should create the schema automatically. If set to `false`, the schema must be created manually before starting the connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_snowflake#auto_schema_creation DestinationSnowflake#auto_schema_creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_snowflake#auto_schema_creation DestinationSnowflake#auto_schema_creation}
   */
   readonly autoSchemaCreation?: boolean | cdktf.IResolvable;
   /**
@@ -37,7 +37,7 @@ export interface DestinationSnowflakeConfig extends cdktf.TerraformMetaArguments
   * 	{{`}`}}
   * 	```
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_snowflake#create_sql_data DestinationSnowflake#create_sql_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_snowflake#create_sql_data DestinationSnowflake#create_sql_data}
   */
   readonly createSqlData?: string;
   /**
@@ -48,97 +48,97 @@ export interface DestinationSnowflakeConfig extends cdktf.TerraformMetaArguments
   * 	ALTER TASK {{`{`}}{{`{`}}table{{`}`}}{{`}`}}_CT RESUME
   * 	```
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_snowflake#create_sql_execute DestinationSnowflake#create_sql_execute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_snowflake#create_sql_execute DestinationSnowflake#create_sql_execute}
   */
   readonly createSqlExecute?: string;
   /**
   * Specifies whether the connector processes DELETE or tombstone events and removes the corresponding row from the database (applies to `upsert` only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_snowflake#hard_delete DestinationSnowflake#hard_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_snowflake#hard_delete DestinationSnowflake#hard_delete}
   */
   readonly hardDelete?: boolean | cdktf.IResolvable;
   /**
   * `upsert` or `append` modes are available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_snowflake#ingestion_mode DestinationSnowflake#ingestion_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_snowflake#ingestion_mode DestinationSnowflake#ingestion_mode}
   */
   readonly ingestionMode?: string;
   /**
   * Destination name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_snowflake#name DestinationSnowflake#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_snowflake#name DestinationSnowflake#name}
   */
   readonly name: string;
   /**
   * Controls how schema evolution is handled by the sink connector. For pipelines with pre-created destination tables, set to `none`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_snowflake#schema_evolution DestinationSnowflake#schema_evolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_snowflake#schema_evolution DestinationSnowflake#schema_evolution}
   */
   readonly schemaEvolution?: string;
   /**
   * The name of the Snowflake warehouse.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_snowflake#sfwarehouse DestinationSnowflake#sfwarehouse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_snowflake#sfwarehouse DestinationSnowflake#sfwarehouse}
   */
   readonly sfwarehouse?: string;
   /**
   * The name of the database that contains the table to insert rows into.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_snowflake#snowflake_database_name DestinationSnowflake#snowflake_database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_snowflake#snowflake_database_name DestinationSnowflake#snowflake_database_name}
   */
   readonly snowflakeDatabaseName: string;
   /**
   * The private key to authenticate the user. Include only the key, not the header or footer. If the key is split across multiple lines, remove the line breaks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_snowflake#snowflake_private_key DestinationSnowflake#snowflake_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_snowflake#snowflake_private_key DestinationSnowflake#snowflake_private_key}
   */
   readonly snowflakePrivateKey: string;
   /**
   * If the value is not empty, this phrase is used to try to decrypt the private key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_snowflake#snowflake_private_key_passphrase DestinationSnowflake#snowflake_private_key_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_snowflake#snowflake_private_key_passphrase DestinationSnowflake#snowflake_private_key_passphrase}
   */
   readonly snowflakePrivateKeyPassphrase?: string;
   /**
   * The name of an existing role with necessary privileges (for Streamkap) assigned to the Username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_snowflake#snowflake_role_name DestinationSnowflake#snowflake_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_snowflake#snowflake_role_name DestinationSnowflake#snowflake_role_name}
   */
   readonly snowflakeRoleName?: string;
   /**
   * The name of the schema that contains the table to insert rows into.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_snowflake#snowflake_schema_name DestinationSnowflake#snowflake_schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_snowflake#snowflake_schema_name DestinationSnowflake#snowflake_schema_name}
   */
   readonly snowflakeSchemaName: string;
   /**
   * The URL for accessing your Snowflake account. This URL must include your account identifier. Note that the protocol (https://) and port number are optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_snowflake#snowflake_url_name DestinationSnowflake#snowflake_url_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_snowflake#snowflake_url_name DestinationSnowflake#snowflake_url_name}
   */
   readonly snowflakeUrlName: string;
   /**
   * User login name for the Snowflake account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_snowflake#snowflake_user_name DestinationSnowflake#snowflake_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_snowflake#snowflake_user_name DestinationSnowflake#snowflake_user_name}
   */
   readonly snowflakeUserName: string;
   /**
   * Dynamic Table Name mustache template. Can be used as `{{`{`}}{{`{`}}dynamicTableName{{`}`}}{{`}`}}` in dynamic table creation SQL. It can use input JSON data for more complex mappings and logic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_snowflake#sql_table_name DestinationSnowflake#sql_table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_snowflake#sql_table_name DestinationSnowflake#sql_table_name}
   */
   readonly sqlTableName?: string;
   /**
   * Specifies whether the connector should create Hybrid Tables (applies to `upsert` only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_snowflake#use_hybrid_tables DestinationSnowflake#use_hybrid_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_snowflake#use_hybrid_tables DestinationSnowflake#use_hybrid_tables}
   */
   readonly useHybridTables?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_snowflake streamkap_destination_snowflake}
+* Represents a {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_snowflake streamkap_destination_snowflake}
 */
 export class DestinationSnowflake extends cdktf.TerraformResource {
 
@@ -154,7 +154,7 @@ export class DestinationSnowflake extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DestinationSnowflake resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DestinationSnowflake to import
-  * @param importFromId The id of the existing DestinationSnowflake that should be imported. Refer to the {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_snowflake#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DestinationSnowflake that should be imported. Refer to the {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_snowflake#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DestinationSnowflake to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -166,7 +166,7 @@ export class DestinationSnowflake extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.15/docs/resources/destination_snowflake streamkap_destination_snowflake} Resource
+  * Create a new {@link https://registry.terraform.io/providers/streamkap-com/streamkap/2.1.16/docs/resources/destination_snowflake streamkap_destination_snowflake} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -177,8 +177,8 @@ export class DestinationSnowflake extends cdktf.TerraformResource {
       terraformResourceType: 'streamkap_destination_snowflake',
       terraformGeneratorMetadata: {
         providerName: 'streamkap',
-        providerVersion: '2.1.15',
-        providerVersionConstraint: '2.1.15'
+        providerVersion: '2.1.16',
+        providerVersionConstraint: '2.1.16'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

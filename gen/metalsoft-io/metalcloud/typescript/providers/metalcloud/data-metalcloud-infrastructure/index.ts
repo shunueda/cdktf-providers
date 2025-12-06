@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/data-sources/infrastructure
+// https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/data-sources/infrastructure
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataMetalcloudInfrastructureConfig extends cdktf.TerraformMetaA
   /**
   * Create infrastructure if it does not exist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/data-sources/infrastructure#create_if_missing DataMetalcloudInfrastructure#create_if_missing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/data-sources/infrastructure#create_if_missing DataMetalcloudInfrastructure#create_if_missing}
   */
   readonly createIfMissing?: boolean | cdktf.IResolvable;
   /**
   * Infrastructure label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/data-sources/infrastructure#label DataMetalcloudInfrastructure#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/data-sources/infrastructure#label DataMetalcloudInfrastructure#label}
   */
   readonly label: string;
   /**
   * Site Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/data-sources/infrastructure#site_id DataMetalcloudInfrastructure#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/data-sources/infrastructure#site_id DataMetalcloudInfrastructure#site_id}
   */
   readonly siteId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/data-sources/infrastructure metalcloud_infrastructure}
+* Represents a {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/data-sources/infrastructure metalcloud_infrastructure}
 */
 export class DataMetalcloudInfrastructure extends cdktf.TerraformDataSource {
 
@@ -44,7 +44,7 @@ export class DataMetalcloudInfrastructure extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMetalcloudInfrastructure resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMetalcloudInfrastructure to import
-  * @param importFromId The id of the existing DataMetalcloudInfrastructure that should be imported. Refer to the {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/data-sources/infrastructure#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMetalcloudInfrastructure that should be imported. Refer to the {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/data-sources/infrastructure#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMetalcloudInfrastructure to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DataMetalcloudInfrastructure extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/data-sources/infrastructure metalcloud_infrastructure} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/data-sources/infrastructure metalcloud_infrastructure} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class DataMetalcloudInfrastructure extends cdktf.TerraformDataSource {
       terraformResourceType: 'metalcloud_infrastructure',
       terraformGeneratorMetadata: {
         providerName: 'metalcloud',
-        providerVersion: '7.0.10',
-        providerVersionConstraint: '7.0.10'
+        providerVersion: '7.1.0',
+        providerVersionConstraint: '7.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

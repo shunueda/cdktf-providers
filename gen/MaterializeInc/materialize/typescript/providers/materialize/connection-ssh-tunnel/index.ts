@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_ssh_tunnel
+// https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/connection_ssh_tunnel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ConnectionSshTunnelConfig extends cdktf.TerraformMetaArguments 
   /**
   * Comment on an object in the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_ssh_tunnel#comment ConnectionSshTunnel#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/connection_ssh_tunnel#comment ConnectionSshTunnel#comment}
   */
   readonly comment?: string;
   /**
   * The identifier for the connection database in Materialize. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_ssh_tunnel#database_name ConnectionSshTunnel#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/connection_ssh_tunnel#database_name ConnectionSshTunnel#database_name}
   */
   readonly databaseName?: string;
   /**
   * The host of the SSH tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_ssh_tunnel#host ConnectionSshTunnel#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/connection_ssh_tunnel#host ConnectionSshTunnel#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_ssh_tunnel#id ConnectionSshTunnel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/connection_ssh_tunnel#id ConnectionSshTunnel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,49 +35,49 @@ export interface ConnectionSshTunnelConfig extends cdktf.TerraformMetaArguments 
   /**
   * The identifier for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_ssh_tunnel#name ConnectionSshTunnel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/connection_ssh_tunnel#name ConnectionSshTunnel#name}
   */
   readonly name: string;
   /**
   * The owernship role of the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_ssh_tunnel#ownership_role ConnectionSshTunnel#ownership_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/connection_ssh_tunnel#ownership_role ConnectionSshTunnel#ownership_role}
   */
   readonly ownershipRole?: string;
   /**
   * The port of the SSH tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_ssh_tunnel#port ConnectionSshTunnel#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/connection_ssh_tunnel#port ConnectionSshTunnel#port}
   */
   readonly port: number;
   /**
   * The region to use for the resource connection. If not set, the default region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_ssh_tunnel#region ConnectionSshTunnel#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/connection_ssh_tunnel#region ConnectionSshTunnel#region}
   */
   readonly region?: string;
   /**
   * The identifier for the connection schema in Materialize. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_ssh_tunnel#schema_name ConnectionSshTunnel#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/connection_ssh_tunnel#schema_name ConnectionSshTunnel#schema_name}
   */
   readonly schemaName?: string;
   /**
   * The user of the SSH tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_ssh_tunnel#user ConnectionSshTunnel#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/connection_ssh_tunnel#user ConnectionSshTunnel#user}
   */
   readonly user: string;
   /**
   * If the connection should wait for validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_ssh_tunnel#validate ConnectionSshTunnel#validate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/connection_ssh_tunnel#validate ConnectionSshTunnel#validate}
   */
   readonly validate?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_ssh_tunnel materialize_connection_ssh_tunnel}
+* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/connection_ssh_tunnel materialize_connection_ssh_tunnel}
 */
 export class ConnectionSshTunnel extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class ConnectionSshTunnel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConnectionSshTunnel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectionSshTunnel to import
-  * @param importFromId The id of the existing ConnectionSshTunnel that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_ssh_tunnel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectionSshTunnel that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/connection_ssh_tunnel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectionSshTunnel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class ConnectionSshTunnel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.5/docs/resources/connection_ssh_tunnel materialize_connection_ssh_tunnel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.10.0/docs/resources/connection_ssh_tunnel materialize_connection_ssh_tunnel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class ConnectionSshTunnel extends cdktf.TerraformResource {
       terraformResourceType: 'materialize_connection_ssh_tunnel',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.5',
-        providerVersionConstraint: '0.9.5'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

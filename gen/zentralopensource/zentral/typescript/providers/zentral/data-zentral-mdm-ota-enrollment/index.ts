@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/data-sources/mdm_ota_enrollment
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/data-sources/mdm_ota_enrollment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataZentralMdmOtaEnrollmentConfig extends cdktf.TerraformMetaAr
   /**
   * `ID` of the MDM OTA enrollment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/data-sources/mdm_ota_enrollment#id DataZentralMdmOtaEnrollment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/data-sources/mdm_ota_enrollment#id DataZentralMdmOtaEnrollment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface DataZentralMdmOtaEnrollmentConfig extends cdktf.TerraformMetaAr
   /**
   * Name of the MDM OTA enrollment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/data-sources/mdm_ota_enrollment#name DataZentralMdmOtaEnrollment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/data-sources/mdm_ota_enrollment#name DataZentralMdmOtaEnrollment#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/data-sources/mdm_ota_enrollment zentral_mdm_ota_enrollment}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/data-sources/mdm_ota_enrollment zentral_mdm_ota_enrollment}
 */
 export class DataZentralMdmOtaEnrollment extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataZentralMdmOtaEnrollment extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZentralMdmOtaEnrollment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZentralMdmOtaEnrollment to import
-  * @param importFromId The id of the existing DataZentralMdmOtaEnrollment that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/data-sources/mdm_ota_enrollment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZentralMdmOtaEnrollment that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/data-sources/mdm_ota_enrollment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZentralMdmOtaEnrollment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataZentralMdmOtaEnrollment extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/data-sources/mdm_ota_enrollment zentral_mdm_ota_enrollment} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/data-sources/mdm_ota_enrollment zentral_mdm_ota_enrollment} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class DataZentralMdmOtaEnrollment extends cdktf.TerraformDataSource {
       terraformResourceType: 'zentral_mdm_ota_enrollment',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.65',
-        providerVersionConstraint: '0.1.65'
+        providerVersion: '0.1.67',
+        providerVersionConstraint: '0.1.67'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_condition
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_condition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface MonolithConditionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_condition#name MonolithCondition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_condition#name MonolithCondition#name}
   */
   readonly name: string;
   /**
   * Predicate of the condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_condition#predicate MonolithCondition#predicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_condition#predicate MonolithCondition#predicate}
   */
   readonly predicate: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_condition zentral_monolith_condition}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_condition zentral_monolith_condition}
 */
 export class MonolithCondition extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class MonolithCondition extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MonolithCondition resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MonolithCondition to import
-  * @param importFromId The id of the existing MonolithCondition that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_condition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MonolithCondition that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_condition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MonolithCondition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class MonolithCondition extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/monolith_condition zentral_monolith_condition} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/monolith_condition zentral_monolith_condition} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class MonolithCondition extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_monolith_condition',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.65',
-        providerVersionConstraint: '0.1.65'
+        providerVersion: '0.1.67',
+        providerVersionConstraint: '0.1.67'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

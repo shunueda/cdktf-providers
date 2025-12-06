@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/team
+// https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/team
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface TeamConfig extends cdktf.TerraformMetaArguments {
   /**
   * A list of human-friendly, unique identifiers for the team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/team#aliases Team#aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/team#aliases Team#aliases}
   */
   readonly aliases?: string[];
   /**
   * The team's display name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/team#name Team#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/team#name Team#name}
   */
   readonly name: string;
   /**
   * The id or alias of the parent team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/team#parent Team#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/team#parent Team#parent}
   */
   readonly parent?: string;
   /**
   * A description of what the team is responsible for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/team#responsibilities Team#responsibilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/team#responsibilities Team#responsibilities}
   */
   readonly responsibilities?: string;
   /**
   * member block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/team#member Team#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/team#member Team#member}
   */
   readonly member?: TeamMember[] | cdktf.IResolvable;
 }
@@ -42,13 +42,13 @@ export interface TeamMember {
   /**
   * The email address of the team member. Must be sorted by email address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/team#email Team#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/team#email Team#email}
   */
   readonly email: string;
   /**
   * The role of the team member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/team#role Team#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/team#role Team#role}
   */
   readonly role: string;
 }
@@ -187,7 +187,7 @@ export class TeamMemberList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/team opslevel_team}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/team opslevel_team}
 */
 export class Team extends cdktf.TerraformResource {
 
@@ -203,7 +203,7 @@ export class Team extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Team resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Team to import
-  * @param importFromId The id of the existing Team that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/team#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Team that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/team#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Team to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -215,7 +215,7 @@ export class Team extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/team opslevel_team} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/team opslevel_team} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -226,8 +226,8 @@ export class Team extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_team',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.6.3',
-        providerVersionConstraint: '1.6.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/data-sources/users
+// https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/users
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataOpslevelUsersConfig extends cdktf.TerraformMetaArguments {
   /**
   * Do not list deactivated users if set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/data-sources/users#ignore_deactivated DataOpslevelUsers#ignore_deactivated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/users#ignore_deactivated DataOpslevelUsers#ignore_deactivated}
   */
   readonly ignoreDeactivated?: boolean | cdktf.IResolvable;
 }
@@ -106,7 +106,7 @@ export class DataOpslevelUsersUsersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/data-sources/users opslevel_users}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/users opslevel_users}
 */
 export class DataOpslevelUsers extends cdktf.TerraformDataSource {
 
@@ -122,7 +122,7 @@ export class DataOpslevelUsers extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOpslevelUsers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOpslevelUsers to import
-  * @param importFromId The id of the existing DataOpslevelUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/data-sources/users#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOpslevelUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/users#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOpslevelUsers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -134,7 +134,7 @@ export class DataOpslevelUsers extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/data-sources/users opslevel_users} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/users opslevel_users} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -145,8 +145,8 @@ export class DataOpslevelUsers extends cdktf.TerraformDataSource {
       terraformResourceType: 'opslevel_users',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.6.3',
-        providerVersionConstraint: '1.6.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

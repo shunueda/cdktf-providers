@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/server_instance_group
+// https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/server_instance_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface ServerInstanceGroupConfig extends cdktf.TerraformMetaArguments 
   /**
   * Custom variables for the server instance group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/server_instance_group#custom_variables ServerInstanceGroup#custom_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/server_instance_group#custom_variables ServerInstanceGroup#custom_variables}
   */
   readonly customVariables?: ServerInstanceGroupCustomVariables[] | cdktf.IResolvable;
   /**
   * Server Instance Group infrastructure Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/server_instance_group#infrastructure_id ServerInstanceGroup#infrastructure_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/server_instance_group#infrastructure_id ServerInstanceGroup#infrastructure_id}
   */
   readonly infrastructureId: string;
   /**
   * Server Instance Group instance count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/server_instance_group#instance_count ServerInstanceGroup#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/server_instance_group#instance_count ServerInstanceGroup#instance_count}
   */
   readonly instanceCount: number;
   /**
   * Server Instance Group label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/server_instance_group#label ServerInstanceGroup#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/server_instance_group#label ServerInstanceGroup#label}
   */
   readonly label: string;
   /**
   * Server Instance Group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/server_instance_group#name ServerInstanceGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/server_instance_group#name ServerInstanceGroup#name}
   */
   readonly name?: string;
   /**
   * Network connections for the server instance group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/server_instance_group#network_connections ServerInstanceGroup#network_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/server_instance_group#network_connections ServerInstanceGroup#network_connections}
   */
   readonly networkConnections?: ServerInstanceGroupNetworkConnections[] | cdktf.IResolvable;
   /**
   * Server Instance Group OS template Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/server_instance_group#os_template_id ServerInstanceGroup#os_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/server_instance_group#os_template_id ServerInstanceGroup#os_template_id}
   */
   readonly osTemplateId: string;
   /**
   * Server type Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/server_instance_group#server_type_id ServerInstanceGroup#server_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/server_instance_group#server_type_id ServerInstanceGroup#server_type_id}
   */
   readonly serverTypeId: string;
   /**
   * Storage controllers configuration for the server instances
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/server_instance_group#storage_controllers ServerInstanceGroup#storage_controllers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/server_instance_group#storage_controllers ServerInstanceGroup#storage_controllers}
   */
   readonly storageControllers?: ServerInstanceGroupStorageControllers[] | cdktf.IResolvable;
 }
@@ -66,13 +66,13 @@ export interface ServerInstanceGroupCustomVariables {
   /**
   * Name of the custom variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/server_instance_group#name ServerInstanceGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/server_instance_group#name ServerInstanceGroup#name}
   */
   readonly name: string;
   /**
   * Value of the custom variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/server_instance_group#value ServerInstanceGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/server_instance_group#value ServerInstanceGroup#value}
   */
   readonly value: string;
 }
@@ -213,25 +213,25 @@ export interface ServerInstanceGroupNetworkConnections {
   /**
   * Access mode for the network connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/server_instance_group#access_mode ServerInstanceGroup#access_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/server_instance_group#access_mode ServerInstanceGroup#access_mode}
   */
   readonly accessMode: string;
   /**
   * Logical Network Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/server_instance_group#logical_network_id ServerInstanceGroup#logical_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/server_instance_group#logical_network_id ServerInstanceGroup#logical_network_id}
   */
   readonly logicalNetworkId: string;
   /**
   * MTU for the network connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/server_instance_group#mtu ServerInstanceGroup#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/server_instance_group#mtu ServerInstanceGroup#mtu}
   */
   readonly mtu?: number;
   /**
   * Whether the network connection is tagged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/server_instance_group#tagged ServerInstanceGroup#tagged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/server_instance_group#tagged ServerInstanceGroup#tagged}
   */
   readonly tagged: boolean | cdktf.IResolvable;
 }
@@ -427,37 +427,37 @@ export interface ServerInstanceGroupStorageControllersVolumes {
   /**
   * Storage controller name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/server_instance_group#controller_name ServerInstanceGroup#controller_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/server_instance_group#controller_name ServerInstanceGroup#controller_name}
   */
   readonly controllerName: string;
   /**
   * Volume disk count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/server_instance_group#disk_count ServerInstanceGroup#disk_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/server_instance_group#disk_count ServerInstanceGroup#disk_count}
   */
   readonly diskCount: number;
   /**
   * Volume disk size in GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/server_instance_group#disk_size_gb ServerInstanceGroup#disk_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/server_instance_group#disk_size_gb ServerInstanceGroup#disk_size_gb}
   */
   readonly diskSizeGb: number;
   /**
   * Volume disk type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/server_instance_group#disk_type ServerInstanceGroup#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/server_instance_group#disk_type ServerInstanceGroup#disk_type}
   */
   readonly diskType: string;
   /**
   * Volume RAID type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/server_instance_group#raid_type ServerInstanceGroup#raid_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/server_instance_group#raid_type ServerInstanceGroup#raid_type}
   */
   readonly raidType: string;
   /**
   * Storage volume name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/server_instance_group#volume_name ServerInstanceGroup#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/server_instance_group#volume_name ServerInstanceGroup#volume_name}
   */
   readonly volumeName: string;
 }
@@ -702,19 +702,19 @@ export interface ServerInstanceGroupStorageControllers {
   /**
   * Storage controller mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/server_instance_group#mode ServerInstanceGroup#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/server_instance_group#mode ServerInstanceGroup#mode}
   */
   readonly mode: string;
   /**
   * Storage controller Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/server_instance_group#storage_controller_id ServerInstanceGroup#storage_controller_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/server_instance_group#storage_controller_id ServerInstanceGroup#storage_controller_id}
   */
   readonly storageControllerId: string;
   /**
   * Storage volumes configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/server_instance_group#volumes ServerInstanceGroup#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/server_instance_group#volumes ServerInstanceGroup#volumes}
   */
   readonly volumes: ServerInstanceGroupStorageControllersVolumes[] | cdktf.IResolvable;
 }
@@ -879,7 +879,7 @@ export class ServerInstanceGroupStorageControllersList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/server_instance_group metalcloud_server_instance_group}
+* Represents a {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/server_instance_group metalcloud_server_instance_group}
 */
 export class ServerInstanceGroup extends cdktf.TerraformResource {
 
@@ -895,7 +895,7 @@ export class ServerInstanceGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServerInstanceGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServerInstanceGroup to import
-  * @param importFromId The id of the existing ServerInstanceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/server_instance_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServerInstanceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/server_instance_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServerInstanceGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -907,7 +907,7 @@ export class ServerInstanceGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/resources/server_instance_group metalcloud_server_instance_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/resources/server_instance_group metalcloud_server_instance_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -918,8 +918,8 @@ export class ServerInstanceGroup extends cdktf.TerraformResource {
       terraformResourceType: 'metalcloud_server_instance_group',
       terraformGeneratorMetadata: {
         providerName: 'metalcloud',
-        providerVersion: '7.0.10',
-        providerVersionConstraint: '7.0.10'
+        providerVersion: '7.1.0',
+        providerVersionConstraint: '7.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/infrastructure
+// https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/infrastructure
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface InfrastructureConfig extends cdktf.TerraformMetaArguments {
   /**
   * The aliases for the infrastructure resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/infrastructure#aliases Infrastructure#aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/infrastructure#aliases Infrastructure#aliases}
   */
   readonly aliases?: string[];
   /**
   * The data of the infrastructure resource in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/infrastructure#data Infrastructure#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/infrastructure#data Infrastructure#data}
   */
   readonly data: string;
   /**
   * The id of the team that owns the infrastructure resource. Does not support aliases!
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/infrastructure#owner Infrastructure#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/infrastructure#owner Infrastructure#owner}
   */
   readonly owner: string;
   /**
   * The provider specific data for the infrastructure resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/infrastructure#provider_data Infrastructure#provider_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/infrastructure#provider_data Infrastructure#provider_data}
   */
   readonly providerData?: InfrastructureProviderData;
   /**
   * The schema of the infrastructure resource that determines its data specification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/infrastructure#schema Infrastructure#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/infrastructure#schema Infrastructure#schema}
   */
   readonly schema: string;
 }
@@ -42,25 +42,25 @@ export interface InfrastructureProviderData {
   /**
   * The canonical account name for the provider of the infrastructure resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/infrastructure#account Infrastructure#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/infrastructure#account Infrastructure#account}
   */
   readonly account: string;
   /**
   * The name of the provider of the infrastructure resource. (eg. AWS, GCP, Azure)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/infrastructure#name Infrastructure#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/infrastructure#name Infrastructure#name}
   */
   readonly name?: string;
   /**
   * The type of the infrastructure resource as defined by its provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/infrastructure#type Infrastructure#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/infrastructure#type Infrastructure#type}
   */
   readonly type?: string;
   /**
   * The url for the provider of the infrastructure resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/infrastructure#url Infrastructure#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/infrastructure#url Infrastructure#url}
   */
   readonly url?: string;
 }
@@ -238,7 +238,7 @@ export class InfrastructureProviderDataOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/infrastructure opslevel_infrastructure}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/infrastructure opslevel_infrastructure}
 */
 export class Infrastructure extends cdktf.TerraformResource {
 
@@ -254,7 +254,7 @@ export class Infrastructure extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Infrastructure resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Infrastructure to import
-  * @param importFromId The id of the existing Infrastructure that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/infrastructure#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Infrastructure that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/infrastructure#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Infrastructure to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -266,7 +266,7 @@ export class Infrastructure extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/infrastructure opslevel_infrastructure} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/infrastructure opslevel_infrastructure} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -277,8 +277,8 @@ export class Infrastructure extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_infrastructure',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.6.3',
-        providerVersionConstraint: '1.6.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

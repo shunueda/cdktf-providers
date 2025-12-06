@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/config
+// https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataApkoConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * The raw contents of the apko configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/config#config_contents DataApkoConfig#config_contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/config#config_contents DataApkoConfig#config_contents}
   */
   readonly configContents?: string;
   /**
   * A map from the APK architecture to the config for that architecture.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/config#configs DataApkoConfig#configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/config#configs DataApkoConfig#configs}
   */
   readonly configs?: { [key: string]: DataApkoConfigConfigs } | cdktf.IResolvable;
   /**
   * Default annotations to add.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/config#default_annotations DataApkoConfig#default_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/config#default_annotations DataApkoConfig#default_annotations}
   */
   readonly defaultAnnotations?: { [key: string]: string };
   /**
   * A list of extra packages to install.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/config#extra_packages DataApkoConfig#extra_packages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/config#extra_packages DataApkoConfig#extra_packages}
   */
   readonly extraPackages?: string[];
 }
@@ -1479,7 +1479,7 @@ export class DataApkoConfigConfigsMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/config apko_config}
+* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/config apko_config}
 */
 export class DataApkoConfig extends cdktf.TerraformDataSource {
 
@@ -1495,7 +1495,7 @@ export class DataApkoConfig extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataApkoConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApkoConfig to import
-  * @param importFromId The id of the existing DataApkoConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApkoConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApkoConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1507,7 +1507,7 @@ export class DataApkoConfig extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.20/docs/data-sources/config apko_config} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/apko/0.30.28/docs/data-sources/config apko_config} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1518,8 +1518,8 @@ export class DataApkoConfig extends cdktf.TerraformDataSource {
       terraformResourceType: 'apko_config',
       terraformGeneratorMetadata: {
         providerName: 'apko',
-        providerVersion: '0.30.20',
-        providerVersionConstraint: '0.30.20'
+        providerVersion: '0.30.28',
+        providerVersionConstraint: '0.30.28'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

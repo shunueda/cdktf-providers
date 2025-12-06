@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/osquery_configuration
+// https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface OsqueryConfigurationConfig extends cdktf.TerraformMetaArguments
   /**
   * List of the IDs of the ATCs to include in this configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/osquery_configuration#atc_ids OsqueryConfiguration#atc_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_configuration#atc_ids OsqueryConfiguration#atc_ids}
   */
   readonly atcIds?: number[];
   /**
   * Description of the Osquery configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/osquery_configuration#description OsqueryConfiguration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_configuration#description OsqueryConfiguration#description}
   */
   readonly description?: string;
   /**
   * List of the IDs of the file categories to include in this configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/osquery_configuration#file_category_ids OsqueryConfiguration#file_category_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_configuration#file_category_ids OsqueryConfiguration#file_category_ids}
   */
   readonly fileCategoryIds?: number[];
   /**
   * If `true`, Osquery is configured to collect inventory data. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/osquery_configuration#inventory OsqueryConfiguration#inventory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_configuration#inventory OsqueryConfiguration#inventory}
   */
   readonly inventory?: boolean | cdktf.IResolvable;
   /**
   * If `true`, Osquery is configured to collect the applications. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/osquery_configuration#inventory_apps OsqueryConfiguration#inventory_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_configuration#inventory_apps OsqueryConfiguration#inventory_apps}
   */
   readonly inventoryApps?: boolean | cdktf.IResolvable;
   /**
   * If `true`, Osquery is configured to collect the EC2 metadata. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/osquery_configuration#inventory_ec2 OsqueryConfiguration#inventory_ec2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_configuration#inventory_ec2 OsqueryConfiguration#inventory_ec2}
   */
   readonly inventoryEc2?: boolean | cdktf.IResolvable;
   /**
   * Number of seconds to wait between collecting the inventory data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/osquery_configuration#inventory_interval OsqueryConfiguration#inventory_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_configuration#inventory_interval OsqueryConfiguration#inventory_interval}
   */
   readonly inventoryInterval?: number;
   /**
   * Name of the Osquery configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/osquery_configuration#name OsqueryConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_configuration#name OsqueryConfiguration#name}
   */
   readonly name: string;
   /**
   * A map of extra options to pass to Osquery in the flag file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/osquery_configuration#options OsqueryConfiguration#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_configuration#options OsqueryConfiguration#options}
   */
   readonly options?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/osquery_configuration zentral_osquery_configuration}
+* Represents a {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_configuration zentral_osquery_configuration}
 */
 export class OsqueryConfiguration extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class OsqueryConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OsqueryConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OsqueryConfiguration to import
-  * @param importFromId The id of the existing OsqueryConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/osquery_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OsqueryConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OsqueryConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class OsqueryConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.65/docs/resources/osquery_configuration zentral_osquery_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zentralopensource/zentral/0.1.67/docs/resources/osquery_configuration zentral_osquery_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class OsqueryConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_osquery_configuration',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.65',
-        providerVersionConstraint: '0.1.65'
+        providerVersion: '0.1.67',
+        providerVersionConstraint: '0.1.67'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

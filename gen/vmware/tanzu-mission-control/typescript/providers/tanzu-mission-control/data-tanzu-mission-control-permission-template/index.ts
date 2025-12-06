@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/permission_template
+// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/permission_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTanzuMissionControlPermissionTemplateConfig extends cdktf.T
   /**
   * The name of the credentials to get permission template for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/permission_template#credentials_name DataTanzuMissionControlPermissionTemplate#credentials_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/permission_template#credentials_name DataTanzuMissionControlPermissionTemplate#credentials_name}
   */
   readonly credentialsName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/permission_template#id DataTanzuMissionControlPermissionTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/permission_template#id DataTanzuMissionControlPermissionTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -22,26 +22,26 @@ export interface DataTanzuMissionControlPermissionTemplateConfig extends cdktf.T
   readonly id?: string;
   /**
   * The Tanzu capability of the credentials.
-  * When tanzu_capability is set to 'DATA_PROTECTION' tanzu_provider must be set to 'AWS_EC2'.
   * When tanzu_capability is set to 'MANAGED_K8S_PROVIDER' tanzu_provider must be set to 'AWS_EKS'.
-  * Valid values are: [DATA_PROTECTION MANAGED_K8S_PROVIDER]
+  * When tanzu_capability is set to 'DATA_PROTECTION' tanzu_provider must be set to 'AWS_EC2'.
+  * Valid values are: [MANAGED_K8S_PROVIDER DATA_PROTECTION]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/permission_template#tanzu_capability DataTanzuMissionControlPermissionTemplate#tanzu_capability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/permission_template#tanzu_capability DataTanzuMissionControlPermissionTemplate#tanzu_capability}
   */
   readonly tanzuCapability: string;
   /**
   * The Tanzu provider of the credentials.
-  * When tanzu_provider is set to 'AWS_EKS' tanzu_capability must be set to 'MANAGED_K8S_PROVIDER'.
   * When tanzu_provider is set to 'AWS_EC2' tanzu_capability must be set to 'DATA_PROTECTION'.
-  * Valid values are: [AWS_EKS AWS_EC2]
+  * When tanzu_provider is set to 'AWS_EKS' tanzu_capability must be set to 'MANAGED_K8S_PROVIDER'.
+  * Valid values are: [AWS_EC2 AWS_EKS]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/permission_template#tanzu_provider DataTanzuMissionControlPermissionTemplate#tanzu_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/permission_template#tanzu_provider DataTanzuMissionControlPermissionTemplate#tanzu_provider}
   */
   readonly tanzuProvider: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/permission_template tanzu-mission-control_permission_template}
+* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/permission_template tanzu-mission-control_permission_template}
 */
 export class DataTanzuMissionControlPermissionTemplate extends cdktf.TerraformDataSource {
 
@@ -57,7 +57,7 @@ export class DataTanzuMissionControlPermissionTemplate extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataTanzuMissionControlPermissionTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTanzuMissionControlPermissionTemplate to import
-  * @param importFromId The id of the existing DataTanzuMissionControlPermissionTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/permission_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTanzuMissionControlPermissionTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/permission_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTanzuMissionControlPermissionTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class DataTanzuMissionControlPermissionTemplate extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/permission_template tanzu-mission-control_permission_template} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/data-sources/permission_template tanzu-mission-control_permission_template} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class DataTanzuMissionControlPermissionTemplate extends cdktf.TerraformDa
       terraformResourceType: 'tanzu-mission-control_permission_template',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9',
-        providerVersionConstraint: '1.4.9'
+        providerVersion: '1.4.10',
+        providerVersionConstraint: '1.4.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

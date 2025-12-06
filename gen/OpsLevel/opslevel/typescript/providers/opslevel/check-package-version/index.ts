@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_package_version
+// https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_package_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface CheckPackageVersionConfig extends cdktf.TerraformMetaArguments 
   /**
   * The id of the category the check belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_package_version#category CheckPackageVersion#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_package_version#category CheckPackageVersion#category}
   */
   readonly category: string;
   /**
@@ -19,79 +19,79 @@ export interface CheckPackageVersionConfig extends cdktf.TerraformMetaArguments 
   *  See example in opslevel_check_manual for proper configuration.
   *  
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_package_version#enable_on CheckPackageVersion#enable_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_package_version#enable_on CheckPackageVersion#enable_on}
   */
   readonly enableOn?: string;
   /**
   * Whether the check is enabled or not.  Do not use this field in tandem with 'enable_on'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_package_version#enabled CheckPackageVersion#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_package_version#enabled CheckPackageVersion#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The id of the filter of the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_package_version#filter CheckPackageVersion#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_package_version#filter CheckPackageVersion#filter}
   */
   readonly filter?: string;
   /**
   * The id of the level the check belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_package_version#level CheckPackageVersion#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_package_version#level CheckPackageVersion#level}
   */
   readonly level: string;
   /**
   * The check result if the package isn't being used by a service. (Optional.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_package_version#missing_package_result CheckPackageVersion#missing_package_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_package_version#missing_package_result CheckPackageVersion#missing_package_result}
   */
   readonly missingPackageResult?: string;
   /**
   * The display name of the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_package_version#name CheckPackageVersion#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_package_version#name CheckPackageVersion#name}
   */
   readonly name: string;
   /**
   * Additional information to display to the service owner about the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_package_version#notes CheckPackageVersion#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_package_version#notes CheckPackageVersion#notes}
   */
   readonly notes?: string;
   /**
   * The id of the team that owns the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_package_version#owner CheckPackageVersion#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_package_version#owner CheckPackageVersion#owner}
   */
   readonly owner?: string;
   /**
   * The package constraint the service is to be checked for. (Required.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_package_version#package_constraint CheckPackageVersion#package_constraint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_package_version#package_constraint CheckPackageVersion#package_constraint}
   */
   readonly packageConstraint: string;
   /**
   * The package manager (ecosystem) this package relates to. (Required.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_package_version#package_manager CheckPackageVersion#package_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_package_version#package_manager CheckPackageVersion#package_manager}
   */
   readonly packageManager: string;
   /**
   * The name of the package to be checked. (Required.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_package_version#package_name CheckPackageVersion#package_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_package_version#package_name CheckPackageVersion#package_name}
   */
   readonly packageName: string;
   /**
   * Whether or not the value in the package name field is a regular expression. (Optional.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_package_version#package_name_is_regex CheckPackageVersion#package_name_is_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_package_version#package_name_is_regex CheckPackageVersion#package_name_is_regex}
   */
   readonly packageNameIsRegex?: boolean | cdktf.IResolvable;
   /**
   * A condition that should be satisfied. One of `belongs_to`, `contains`, `does_not_contain`, `does_not_equal`, `does_not_exist`, `does_not_match`, `does_not_match_regex`, `ends_with`, `equals`, `exists`, `greater_than_or_equal_to`, `less_than_or_equal_to`, `matches`, `matches_regex`, `satisfies_jq_expression`, `satisfies_version_constraint`, `starts_with`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_package_version#version_constraint_predicate CheckPackageVersion#version_constraint_predicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_package_version#version_constraint_predicate CheckPackageVersion#version_constraint_predicate}
   */
   readonly versionConstraintPredicate?: CheckPackageVersionVersionConstraintPredicate;
 }
@@ -99,13 +99,13 @@ export interface CheckPackageVersionVersionConstraintPredicate {
   /**
   * A condition that should be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_package_version#type CheckPackageVersion#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_package_version#type CheckPackageVersion#type}
   */
   readonly type: string;
   /**
   * The condition value used by the predicate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_package_version#value CheckPackageVersion#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_package_version#value CheckPackageVersion#value}
   */
   readonly value?: string;
 }
@@ -225,7 +225,7 @@ export class CheckPackageVersionVersionConstraintPredicateOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_package_version opslevel_check_package_version}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_package_version opslevel_check_package_version}
 */
 export class CheckPackageVersion extends cdktf.TerraformResource {
 
@@ -241,7 +241,7 @@ export class CheckPackageVersion extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CheckPackageVersion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CheckPackageVersion to import
-  * @param importFromId The id of the existing CheckPackageVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_package_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CheckPackageVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_package_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CheckPackageVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -253,7 +253,7 @@ export class CheckPackageVersion extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.6.3/docs/resources/check_package_version opslevel_check_package_version} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_package_version opslevel_check_package_version} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -264,8 +264,8 @@ export class CheckPackageVersion extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_check_package_version',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.6.3',
-        providerVersionConstraint: '1.6.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

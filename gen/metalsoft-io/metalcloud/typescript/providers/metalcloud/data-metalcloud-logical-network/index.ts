@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/data-sources/logical_network
+// https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/data-sources/logical_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataMetalcloudLogicalNetworkConfig extends cdktf.TerraformMetaA
   /**
   * Fabric Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/data-sources/logical_network#fabric_id DataMetalcloudLogicalNetwork#fabric_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/data-sources/logical_network#fabric_id DataMetalcloudLogicalNetwork#fabric_id}
   */
   readonly fabricId: string;
   /**
   * Logical Network label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/data-sources/logical_network#label DataMetalcloudLogicalNetwork#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/data-sources/logical_network#label DataMetalcloudLogicalNetwork#label}
   */
   readonly label: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/data-sources/logical_network metalcloud_logical_network}
+* Represents a {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/data-sources/logical_network metalcloud_logical_network}
 */
 export class DataMetalcloudLogicalNetwork extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataMetalcloudLogicalNetwork extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMetalcloudLogicalNetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMetalcloudLogicalNetwork to import
-  * @param importFromId The id of the existing DataMetalcloudLogicalNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/data-sources/logical_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMetalcloudLogicalNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/data-sources/logical_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMetalcloudLogicalNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataMetalcloudLogicalNetwork extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.0.10/docs/data-sources/logical_network metalcloud_logical_network} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metalsoft-io/metalcloud/7.1.0/docs/data-sources/logical_network metalcloud_logical_network} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataMetalcloudLogicalNetwork extends cdktf.TerraformDataSource {
       terraformResourceType: 'metalcloud_logical_network',
       terraformGeneratorMetadata: {
         providerName: 'metalcloud',
-        providerVersion: '7.0.10',
-        providerVersionConstraint: '7.0.10'
+        providerVersion: '7.1.0',
+        providerVersionConstraint: '7.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

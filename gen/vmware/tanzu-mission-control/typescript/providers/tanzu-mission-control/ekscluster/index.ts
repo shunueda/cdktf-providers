@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster
+// https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface EksclusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the AWS Credential in Tanzu Mission Control
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#credential_name Ekscluster#credential_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#credential_name Ekscluster#credential_name}
   */
   readonly credentialName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#id Ekscluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#id Ekscluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface EksclusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of this cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#name Ekscluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#name Ekscluster#name}
   */
   readonly name: string;
   /**
   * Wait timeout duration until cluster resource reaches READY state. Accepted timeout duration values like 5s, 45m, or 3h, higher than zero
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#ready_wait_timeout Ekscluster#ready_wait_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#ready_wait_timeout Ekscluster#ready_wait_timeout}
   */
   readonly readyWaitTimeout?: string;
   /**
   * AWS Region of this cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#region Ekscluster#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#region Ekscluster#region}
   */
   readonly region: string;
   /**
   * Wait until pinniped extension is ready to provide kubeconfig
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#wait_for_kubeconfig Ekscluster#wait_for_kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#wait_for_kubeconfig Ekscluster#wait_for_kubeconfig}
   */
   readonly waitForKubeconfig?: boolean | cdktf.IResolvable;
   /**
   * meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#meta Ekscluster#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#meta Ekscluster#meta}
   */
   readonly meta?: EksclusterMeta;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#spec Ekscluster#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#spec Ekscluster#spec}
   */
   readonly spec?: EksclusterSpec;
 }
@@ -61,19 +61,19 @@ export interface EksclusterMeta {
   /**
   * Annotations for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#annotations Ekscluster#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#annotations Ekscluster#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#description Ekscluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#description Ekscluster#description}
   */
   readonly description?: string;
   /**
   * Labels for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#labels Ekscluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#labels Ekscluster#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -227,7 +227,7 @@ export interface EksclusterSpecConfigAddonsConfigVpcCniConfigEniConfig {
   /**
   * Subnet id for the ENI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#id Ekscluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#id Ekscluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -236,7 +236,7 @@ export interface EksclusterSpecConfigAddonsConfigVpcCniConfigEniConfig {
   /**
   * Security groups for the ENI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#security_groups Ekscluster#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#security_groups Ekscluster#security_groups}
   */
   readonly securityGroups?: string[];
 }
@@ -380,7 +380,7 @@ export interface EksclusterSpecConfigAddonsConfigVpcCniConfig {
   /**
   * eni_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#eni_config Ekscluster#eni_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#eni_config Ekscluster#eni_config}
   */
   readonly eniConfig?: EksclusterSpecConfigAddonsConfigVpcCniConfigEniConfig[] | cdktf.IResolvable;
 }
@@ -466,7 +466,7 @@ export interface EksclusterSpecConfigAddonsConfig {
   /**
   * vpc_cni_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#vpc_cni_config Ekscluster#vpc_cni_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#vpc_cni_config Ekscluster#vpc_cni_config}
   */
   readonly vpcCniConfig?: EksclusterSpecConfigAddonsConfigVpcCniConfig;
 }
@@ -552,7 +552,7 @@ export interface EksclusterSpecConfigKubernetesNetworkConfig {
   /**
   * Service CIDR for Kubernetes services
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#service_cidr Ekscluster#service_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#service_cidr Ekscluster#service_cidr}
   */
   readonly serviceCidr: string;
 }
@@ -635,31 +635,31 @@ export interface EksclusterSpecConfigLogging {
   /**
   * Enable API server logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#api_server Ekscluster#api_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#api_server Ekscluster#api_server}
   */
   readonly apiServer?: boolean | cdktf.IResolvable;
   /**
   * Enable audit logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#audit Ekscluster#audit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#audit Ekscluster#audit}
   */
   readonly audit?: boolean | cdktf.IResolvable;
   /**
   * Enable authenticator logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#authenticator Ekscluster#authenticator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#authenticator Ekscluster#authenticator}
   */
   readonly authenticator?: boolean | cdktf.IResolvable;
   /**
   * Enable controller manager logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#controller_manager Ekscluster#controller_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#controller_manager Ekscluster#controller_manager}
   */
   readonly controllerManager?: boolean | cdktf.IResolvable;
   /**
   * Enable scheduler logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#scheduler Ekscluster#scheduler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#scheduler Ekscluster#scheduler}
   */
   readonly scheduler?: boolean | cdktf.IResolvable;
 }
@@ -861,31 +861,31 @@ export interface EksclusterSpecConfigVpc {
   /**
   * Enable Kubernetes API requests within your cluster's VPC (such as node to control plane communication) use the private VPC endpoint (see [Amazon EKS cluster endpoint access control](https://docs.aws.amazon.com/eks/latest/userguide/cluster-endpoint.html))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#enable_private_access Ekscluster#enable_private_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#enable_private_access Ekscluster#enable_private_access}
   */
   readonly enablePrivateAccess?: boolean | cdktf.IResolvable;
   /**
   * Enable cluster API server access from the internet. You can, optionally, limit the CIDR blocks that can access the public endpoint using public_access_cidrs (see [Amazon EKS cluster endpoint access control](https://docs.aws.amazon.com/eks/latest/userguide/cluster-endpoint.html))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#enable_public_access Ekscluster#enable_public_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#enable_public_access Ekscluster#enable_public_access}
   */
   readonly enablePublicAccess?: boolean | cdktf.IResolvable;
   /**
   * Specify which addresses from the internet can communicate to the public endpoint, if public endpoint is enabled (see [Amazon EKS cluster endpoint access control](https://docs.aws.amazon.com/eks/latest/userguide/cluster-endpoint.html))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#public_access_cidrs Ekscluster#public_access_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#public_access_cidrs Ekscluster#public_access_cidrs}
   */
   readonly publicAccessCidrs?: string[];
   /**
   * Security groups for the cluster VMs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#security_groups Ekscluster#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#security_groups Ekscluster#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * Subnet ids used by the cluster (see [Amazon EKS VPC and subnet requirements and considerations](https://docs.aws.amazon.com/eks/latest/userguide/network_reqs.html#network-requirements-subnets))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#subnet_ids Ekscluster#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#subnet_ids Ekscluster#subnet_ids}
   */
   readonly subnetIds: string[];
 }
@@ -1084,43 +1084,43 @@ export interface EksclusterSpecConfig {
   /**
   * Kubernetes version of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#kubernetes_version Ekscluster#kubernetes_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#kubernetes_version Ekscluster#kubernetes_version}
   */
   readonly kubernetesVersion: string;
   /**
   * ARN of the IAM role that provides permissions for the Kubernetes control plane to make calls to AWS API operations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#role_arn Ekscluster#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#role_arn Ekscluster#role_arn}
   */
   readonly roleArn: string;
   /**
   * The metadata to apply to the cluster to assist with categorization and organization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#tags Ekscluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#tags Ekscluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * addons_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#addons_config Ekscluster#addons_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#addons_config Ekscluster#addons_config}
   */
   readonly addonsConfig?: EksclusterSpecConfigAddonsConfig;
   /**
   * kubernetes_network_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#kubernetes_network_config Ekscluster#kubernetes_network_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#kubernetes_network_config Ekscluster#kubernetes_network_config}
   */
   readonly kubernetesNetworkConfig?: EksclusterSpecConfigKubernetesNetworkConfig;
   /**
   * logging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#logging Ekscluster#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#logging Ekscluster#logging}
   */
   readonly logging?: EksclusterSpecConfigLogging;
   /**
   * vpc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#vpc Ekscluster#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#vpc Ekscluster#vpc}
   */
   readonly vpc: EksclusterSpecConfigVpc;
 }
@@ -1371,13 +1371,13 @@ export interface EksclusterSpecNodepoolInfo {
   /**
   * Description for the nodepool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#description Ekscluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#description Ekscluster#description}
   */
   readonly description?: string;
   /**
   * Name of the nodepool, immutable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#name Ekscluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#name Ekscluster#name}
   */
   readonly name: string;
 }
@@ -1489,13 +1489,13 @@ export interface EksclusterSpecNodepoolSpecAmiInfo {
   /**
   * ID of the AMI to be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#ami_id Ekscluster#ami_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#ami_id Ekscluster#ami_id}
   */
   readonly amiId?: string;
   /**
   * Override bootstrap command for the custom AMI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#override_bootstrap_cmd Ekscluster#override_bootstrap_cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#override_bootstrap_cmd Ekscluster#override_bootstrap_cmd}
   */
   readonly overrideBootstrapCmd?: string;
 }
@@ -1610,7 +1610,7 @@ export interface EksclusterSpecNodepoolSpecLaunchTemplate {
   /**
   * The ID of the launch template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#id Ekscluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#id Ekscluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1619,13 +1619,13 @@ export interface EksclusterSpecNodepoolSpecLaunchTemplate {
   /**
   * The name of the launch template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#name Ekscluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#name Ekscluster#name}
   */
   readonly name?: string;
   /**
   * The version of the launch template to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#version Ekscluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#version Ekscluster#version}
   */
   readonly version?: string;
 }
@@ -1769,13 +1769,13 @@ export interface EksclusterSpecNodepoolSpecRemoteAccess {
   /**
   * Security groups for the VMs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#security_groups Ekscluster#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#security_groups Ekscluster#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * SSH key allows you to connect to your instances and gather diagnostic information if there are issues.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#ssh_key Ekscluster#ssh_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#ssh_key Ekscluster#ssh_key}
   */
   readonly sshKey?: string;
 }
@@ -1890,19 +1890,19 @@ export interface EksclusterSpecNodepoolSpecScalingConfig {
   /**
   * Desired size of nodepool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#desired_size Ekscluster#desired_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#desired_size Ekscluster#desired_size}
   */
   readonly desiredSize?: number;
   /**
   * Maximum size of nodepool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#max_size Ekscluster#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#max_size Ekscluster#max_size}
   */
   readonly maxSize?: number;
   /**
   * Minimum size of nodepool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#min_size Ekscluster#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#min_size Ekscluster#min_size}
   */
   readonly minSize?: number;
 }
@@ -2046,19 +2046,19 @@ export interface EksclusterSpecNodepoolSpecTaints {
   /**
   * Current effect state of the node pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#effect Ekscluster#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#effect Ekscluster#effect}
   */
   readonly effect?: string;
   /**
   * The taint key to be applied to a node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#key Ekscluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#key Ekscluster#key}
   */
   readonly key?: string;
   /**
   * The taint value corresponding to the taint key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#value Ekscluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#value Ekscluster#value}
   */
   readonly value?: string;
 }
@@ -2234,13 +2234,13 @@ export interface EksclusterSpecNodepoolSpecUpdateConfig {
   /**
   * Maximum number of nodes unavailable at once during a version update
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#max_unavailable_nodes Ekscluster#max_unavailable_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#max_unavailable_nodes Ekscluster#max_unavailable_nodes}
   */
   readonly maxUnavailableNodes?: string;
   /**
   * Maximum percentage of nodes unavailable during a version update
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#max_unavailable_percentage Ekscluster#max_unavailable_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#max_unavailable_percentage Ekscluster#max_unavailable_percentage}
   */
   readonly maxUnavailablePercentage?: string;
 }
@@ -2355,91 +2355,91 @@ export interface EksclusterSpecNodepoolSpec {
   /**
   * AMI type, immutable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#ami_type Ekscluster#ami_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#ami_type Ekscluster#ami_type}
   */
   readonly amiType?: string;
   /**
   * Capacity Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#capacity_type Ekscluster#capacity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#capacity_type Ekscluster#capacity_type}
   */
   readonly capacityType?: string;
   /**
   * Nodepool instance types, immutable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#instance_types Ekscluster#instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#instance_types Ekscluster#instance_types}
   */
   readonly instanceTypes?: string[];
   /**
   * Kubernetes node labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#node_labels Ekscluster#node_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#node_labels Ekscluster#node_labels}
   */
   readonly nodeLabels?: { [key: string]: string };
   /**
   * AMI release version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#release_version Ekscluster#release_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#release_version Ekscluster#release_version}
   */
   readonly releaseVersion?: string;
   /**
   * ARN of the IAM role that provides permissions for the Kubernetes nodepool to make calls to AWS API operations, immutable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#role_arn Ekscluster#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#role_arn Ekscluster#role_arn}
   */
   readonly roleArn: string;
   /**
   * Root disk size in GiB, immutable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#root_disk_size Ekscluster#root_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#root_disk_size Ekscluster#root_disk_size}
   */
   readonly rootDiskSize?: number;
   /**
   * Subnets required for the nodepool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#subnet_ids Ekscluster#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#subnet_ids Ekscluster#subnet_ids}
   */
   readonly subnetIds: string[];
   /**
   * EKS specific tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#tags Ekscluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#tags Ekscluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * ami_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#ami_info Ekscluster#ami_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#ami_info Ekscluster#ami_info}
   */
   readonly amiInfo?: EksclusterSpecNodepoolSpecAmiInfo;
   /**
   * launch_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#launch_template Ekscluster#launch_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#launch_template Ekscluster#launch_template}
   */
   readonly launchTemplate?: EksclusterSpecNodepoolSpecLaunchTemplate;
   /**
   * remote_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#remote_access Ekscluster#remote_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#remote_access Ekscluster#remote_access}
   */
   readonly remoteAccess?: EksclusterSpecNodepoolSpecRemoteAccess;
   /**
   * scaling_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#scaling_config Ekscluster#scaling_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#scaling_config Ekscluster#scaling_config}
   */
   readonly scalingConfig?: EksclusterSpecNodepoolSpecScalingConfig;
   /**
   * taints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#taints Ekscluster#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#taints Ekscluster#taints}
   */
   readonly taints?: EksclusterSpecNodepoolSpecTaints[] | cdktf.IResolvable;
   /**
   * update_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#update_config Ekscluster#update_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#update_config Ekscluster#update_config}
   */
   readonly updateConfig?: EksclusterSpecNodepoolSpecUpdateConfig;
 }
@@ -2925,13 +2925,13 @@ export interface EksclusterSpecNodepool {
   /**
   * info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#info Ekscluster#info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#info Ekscluster#info}
   */
   readonly info: EksclusterSpecNodepoolInfo;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#spec Ekscluster#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#spec Ekscluster#spec}
   */
   readonly spec: EksclusterSpecNodepoolSpec;
 }
@@ -3072,25 +3072,25 @@ export interface EksclusterSpec {
   /**
   * Name of the cluster group to which this cluster belongs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#cluster_group Ekscluster#cluster_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#cluster_group Ekscluster#cluster_group}
   */
   readonly clusterGroup?: string;
   /**
   * Optional proxy name is the name of the Proxy Config to be used for the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#proxy Ekscluster#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#proxy Ekscluster#proxy}
   */
   readonly proxy?: string;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#config Ekscluster#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#config Ekscluster#config}
   */
   readonly config: EksclusterSpecConfig;
   /**
   * nodepool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#nodepool Ekscluster#nodepool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#nodepool Ekscluster#nodepool}
   */
   readonly nodepool: EksclusterSpecNodepool[] | cdktf.IResolvable;
 }
@@ -3255,7 +3255,7 @@ export class EksclusterSpecOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster tanzu-mission-control_ekscluster}
+* Represents a {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster tanzu-mission-control_ekscluster}
 */
 export class Ekscluster extends cdktf.TerraformResource {
 
@@ -3271,7 +3271,7 @@ export class Ekscluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Ekscluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ekscluster to import
-  * @param importFromId The id of the existing Ekscluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ekscluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ekscluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3283,7 +3283,7 @@ export class Ekscluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/resources/ekscluster tanzu-mission-control_ekscluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.10/docs/resources/ekscluster tanzu-mission-control_ekscluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3294,8 +3294,8 @@ export class Ekscluster extends cdktf.TerraformResource {
       terraformResourceType: 'tanzu-mission-control_ekscluster',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9',
-        providerVersionConstraint: '1.4.9'
+        providerVersion: '1.4.10',
+        providerVersionConstraint: '1.4.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

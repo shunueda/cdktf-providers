@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/filevantage_policies
+// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/filevantage_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface DataCrowdstrikeFilevantagePoliciesConfig extends cdktf.Terrafor
   /**
   * Filter policies by the user who created them. All provided filter attributes must match for a policy to be returned (omitted attributes are ignored). Supports wildcard matching with '*' where '*' matches any sequence of characters until the end of the string or until the next literal character in the pattern is found. Multiple wildcards can be used in a single pattern. Matching is case insensitive. Cannot be used together with 'ids'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/filevantage_policies#created_by DataCrowdstrikeFilevantagePolicies#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/filevantage_policies#created_by DataCrowdstrikeFilevantagePolicies#created_by}
   */
   readonly createdBy?: string;
   /**
   * Filter policies by description. All provided filter attributes must match for a policy to be returned (omitted attributes are ignored). Supports wildcard matching with '*' where '*' matches any sequence of characters until the end of the string or until the next literal character in the pattern is found. Multiple wildcards can be used in a single pattern. Matching is case insensitive. Cannot be used together with 'ids'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/filevantage_policies#description DataCrowdstrikeFilevantagePolicies#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/filevantage_policies#description DataCrowdstrikeFilevantagePolicies#description}
   */
   readonly description?: string;
   /**
   * Filter policies by enabled status. All provided filter attributes must match for a policy to be returned (omitted attributes are ignored). Cannot be used together with 'ids'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/filevantage_policies#enabled DataCrowdstrikeFilevantagePolicies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/filevantage_policies#enabled DataCrowdstrikeFilevantagePolicies#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List of FileVantage policy IDs to retrieve. Cannot be used together with 'platform_names' or other filter attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/filevantage_policies#ids DataCrowdstrikeFilevantagePolicies#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/filevantage_policies#ids DataCrowdstrikeFilevantagePolicies#ids}
   */
   readonly ids?: string[];
   /**
   * Filter policies by the user who last modified them. All provided filter attributes must match for a policy to be returned (omitted attributes are ignored). Supports wildcard matching with '*' where '*' matches any sequence of characters until the end of the string or until the next literal character in the pattern is found. Multiple wildcards can be used in a single pattern. Matching is case insensitive. Cannot be used together with 'ids'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/filevantage_policies#modified_by DataCrowdstrikeFilevantagePolicies#modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/filevantage_policies#modified_by DataCrowdstrikeFilevantagePolicies#modified_by}
   */
   readonly modifiedBy?: string;
   /**
   * Filter policies by name. All provided filter attributes must match for a policy to be returned (omitted attributes are ignored). Supports wildcard matching with '*' where '*' matches any sequence of characters until the end of the string or until the next literal character in the pattern is found. Multiple wildcards can be used in a single pattern. Matching is case insensitive. Cannot be used together with 'ids'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/filevantage_policies#name DataCrowdstrikeFilevantagePolicies#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/filevantage_policies#name DataCrowdstrikeFilevantagePolicies#name}
   */
   readonly name?: string;
   /**
   * Filter policies by platform names. Valid values: Windows, Linux, Mac. Defaults to all. Cannot be used together with 'ids'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/filevantage_policies#platform_names DataCrowdstrikeFilevantagePolicies#platform_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/filevantage_policies#platform_names DataCrowdstrikeFilevantagePolicies#platform_names}
   */
   readonly platformNames?: string[];
   /**
   * Sort order for the results. Can be used with 'platform_names'. Valid values: 'precedence', 'created_timestamp', 'modified_timestamp', optionally followed by '.asc' or '.desc' (e.g., 'precedence.desc'). By default, '.asc' is used if no direction is specified. Cannot be used together with 'ids'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/filevantage_policies#sort DataCrowdstrikeFilevantagePolicies#sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/filevantage_policies#sort DataCrowdstrikeFilevantagePolicies#sort}
   */
   readonly sort?: string;
 }
@@ -188,7 +188,7 @@ export class DataCrowdstrikeFilevantagePoliciesPoliciesList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/filevantage_policies crowdstrike_filevantage_policies}
+* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/filevantage_policies crowdstrike_filevantage_policies}
 */
 export class DataCrowdstrikeFilevantagePolicies extends cdktf.TerraformDataSource {
 
@@ -204,7 +204,7 @@ export class DataCrowdstrikeFilevantagePolicies extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataCrowdstrikeFilevantagePolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCrowdstrikeFilevantagePolicies to import
-  * @param importFromId The id of the existing DataCrowdstrikeFilevantagePolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/filevantage_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCrowdstrikeFilevantagePolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/filevantage_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCrowdstrikeFilevantagePolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -216,7 +216,7 @@ export class DataCrowdstrikeFilevantagePolicies extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/data-sources/filevantage_policies crowdstrike_filevantage_policies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/data-sources/filevantage_policies crowdstrike_filevantage_policies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -227,8 +227,8 @@ export class DataCrowdstrikeFilevantagePolicies extends cdktf.TerraformDataSourc
       terraformResourceType: 'crowdstrike_filevantage_policies',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.49',
-        providerVersionConstraint: '0.0.49'
+        providerVersion: '0.0.50',
+        providerVersionConstraint: '0.0.50'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

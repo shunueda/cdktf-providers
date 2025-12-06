@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/it_automation_task_group
+// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/it_automation_task_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface ItAutomationTaskGroupConfig extends cdktf.TerraformMetaArgument
   /**
   * Access control configuration for the task (Public, Shared).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/it_automation_task_group#access_type ItAutomationTaskGroup#access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/it_automation_task_group#access_type ItAutomationTaskGroup#access_type}
   */
   readonly accessType: string;
   /**
   * Assigned user IDs of the group, when access_type is Shared. Required when access_type is 'Shared'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/it_automation_task_group#assigned_user_ids ItAutomationTaskGroup#assigned_user_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/it_automation_task_group#assigned_user_ids ItAutomationTaskGroup#assigned_user_ids}
   */
   readonly assignedUserIds?: string[];
   /**
   * Description of the task group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/it_automation_task_group#description ItAutomationTaskGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/it_automation_task_group#description ItAutomationTaskGroup#description}
   */
   readonly description?: string;
   /**
   * Name of the task group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/it_automation_task_group#name ItAutomationTaskGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/it_automation_task_group#name ItAutomationTaskGroup#name}
   */
   readonly name: string;
   /**
   * Assigned task IDs of the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/it_automation_task_group#task_ids ItAutomationTaskGroup#task_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/it_automation_task_group#task_ids ItAutomationTaskGroup#task_ids}
   */
   readonly taskIds?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/it_automation_task_group crowdstrike_it_automation_task_group}
+* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/it_automation_task_group crowdstrike_it_automation_task_group}
 */
 export class ItAutomationTaskGroup extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class ItAutomationTaskGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ItAutomationTaskGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ItAutomationTaskGroup to import
-  * @param importFromId The id of the existing ItAutomationTaskGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/it_automation_task_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ItAutomationTaskGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/it_automation_task_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ItAutomationTaskGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class ItAutomationTaskGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.49/docs/resources/it_automation_task_group crowdstrike_it_automation_task_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/it_automation_task_group crowdstrike_it_automation_task_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class ItAutomationTaskGroup extends cdktf.TerraformResource {
       terraformResourceType: 'crowdstrike_it_automation_task_group',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.49',
-        providerVersionConstraint: '0.0.49'
+        providerVersion: '0.0.50',
+        providerVersionConstraint: '0.0.50'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
