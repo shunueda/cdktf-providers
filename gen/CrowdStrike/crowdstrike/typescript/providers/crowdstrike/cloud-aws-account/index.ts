@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_aws_account
+// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_aws_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,69 +10,69 @@ export interface CloudAwsAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * The AWS Account ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_aws_account#account_id CloudAwsAccount#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_aws_account#account_id CloudAwsAccount#account_id}
   */
   readonly accountId: string;
   /**
   * The AWS account type. Value is 'commercial' for Commercial cloud accounts. For GovCloud environments, value can be either 'commercial' or 'gov' depending on the account type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_aws_account#account_type CloudAwsAccount#account_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_aws_account#account_type CloudAwsAccount#account_type}
   */
   readonly accountType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_aws_account#asset_inventory CloudAwsAccount#asset_inventory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_aws_account#asset_inventory CloudAwsAccount#asset_inventory}
   */
   readonly assetInventory?: CloudAwsAccountAssetInventory;
   /**
   * How the account was deployed. Valid values are 'terraform-native' and 'terraform-cft'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_aws_account#deployment_method CloudAwsAccount#deployment_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_aws_account#deployment_method CloudAwsAccount#deployment_method}
   */
   readonly deploymentMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_aws_account#dspm CloudAwsAccount#dspm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_aws_account#dspm CloudAwsAccount#dspm}
   */
   readonly dspm?: CloudAwsAccountDspm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_aws_account#idp CloudAwsAccount#idp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_aws_account#idp CloudAwsAccount#idp}
   */
   readonly idp?: CloudAwsAccountIdp;
   /**
   * The AWS Organization ID (starts with `o-`). When specified, accounts within the organization will be registered. If `target_ous` is empty, all accounts in the organization will be registered. The `account_id` must be the organization's management account ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_aws_account#organization_id CloudAwsAccount#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_aws_account#organization_id CloudAwsAccount#organization_id}
   */
   readonly organizationId?: string;
   /**
   * Configuration for real-time visibility and detection. When not specified, defaults to disabled (enabled=false) with cloudtrail_region set based on account_type (us-gov-west-1 for gov accounts, us-east-1 for commercial accounts) and use_existing_cloudtrail=true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_aws_account#realtime_visibility CloudAwsAccount#realtime_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_aws_account#realtime_visibility CloudAwsAccount#realtime_visibility}
   */
   readonly realtimeVisibility?: CloudAwsAccountRealtimeVisibility;
   /**
   * The prefix to be added to all resource names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_aws_account#resource_name_prefix CloudAwsAccount#resource_name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_aws_account#resource_name_prefix CloudAwsAccount#resource_name_prefix}
   */
   readonly resourceNamePrefix?: string;
   /**
   * The suffix to be added to all resource names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_aws_account#resource_name_suffix CloudAwsAccount#resource_name_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_aws_account#resource_name_suffix CloudAwsAccount#resource_name_suffix}
   */
   readonly resourceNameSuffix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_aws_account#sensor_management CloudAwsAccount#sensor_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_aws_account#sensor_management CloudAwsAccount#sensor_management}
   */
   readonly sensorManagement?: CloudAwsAccountSensorManagement;
   /**
   * The list of target Organizational Units
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_aws_account#target_ous CloudAwsAccount#target_ous}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_aws_account#target_ous CloudAwsAccount#target_ous}
   */
   readonly targetOus?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_aws_account#vulnerability_scanning CloudAwsAccount#vulnerability_scanning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_aws_account#vulnerability_scanning CloudAwsAccount#vulnerability_scanning}
   */
   readonly vulnerabilityScanning?: CloudAwsAccountVulnerabilityScanning;
 }
@@ -80,13 +80,13 @@ export interface CloudAwsAccountAssetInventory {
   /**
   * Enable asset inventory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_aws_account#enabled CloudAwsAccount#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_aws_account#enabled CloudAwsAccount#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Custom AWS IAM role name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_aws_account#role_name CloudAwsAccount#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_aws_account#role_name CloudAwsAccount#role_name}
   */
   readonly roleName?: string;
 }
@@ -208,13 +208,13 @@ export interface CloudAwsAccountDspm {
   /**
   * Enable Data Security Posture Management
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_aws_account#enabled CloudAwsAccount#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_aws_account#enabled CloudAwsAccount#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Custom AWS IAM role name for Data Security Posture Management
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_aws_account#role_name CloudAwsAccount#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_aws_account#role_name CloudAwsAccount#role_name}
   */
   readonly roleName?: string;
 }
@@ -336,7 +336,7 @@ export interface CloudAwsAccountIdp {
   /**
   * Enable Identity Protection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_aws_account#enabled CloudAwsAccount#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_aws_account#enabled CloudAwsAccount#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -434,19 +434,49 @@ export interface CloudAwsAccountRealtimeVisibility {
   /**
   * The AWS region of the CloudTrail bucket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_aws_account#cloudtrail_region CloudAwsAccount#cloudtrail_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_aws_account#cloudtrail_region CloudAwsAccount#cloudtrail_region}
   */
   readonly cloudtrailRegion: string;
   /**
   * Enable real-time visibility and detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_aws_account#enabled CloudAwsAccount#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_aws_account#enabled CloudAwsAccount#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
+  * Optional KMS key ARN for S3 bucket encryption when log_ingestion_method is 's3'
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_aws_account#log_ingestion_kms_key_arn CloudAwsAccount#log_ingestion_kms_key_arn}
+  */
+  readonly logIngestionKmsKeyArn?: string;
+  /**
+  * Log ingestion method for real-time visibility. Valid values are 'eventbridge' or 's3'
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_aws_account#log_ingestion_method CloudAwsAccount#log_ingestion_method}
+  */
+  readonly logIngestionMethod?: string;
+  /**
+  * S3 bucket name for CloudTrail log ingestion when log_ingestion_method is 's3'. Required when using S3 method
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_aws_account#log_ingestion_s3_bucket_name CloudAwsAccount#log_ingestion_s3_bucket_name}
+  */
+  readonly logIngestionS3BucketName?: string;
+  /**
+  * Optional S3 bucket prefix (a prefix used for filter log files with the prefix present in their key) for CloudTrail logs when log_ingestion_method is 's3'
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_aws_account#log_ingestion_s3_bucket_prefix CloudAwsAccount#log_ingestion_s3_bucket_prefix}
+  */
+  readonly logIngestionS3BucketPrefix?: string;
+  /**
+  * SNS topic ARN for S3 CloudTrail log notifications when log_ingestion_method is 's3'. Required when using S3 method
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_aws_account#log_ingestion_sns_topic_arn CloudAwsAccount#log_ingestion_sns_topic_arn}
+  */
+  readonly logIngestionSnsTopicArn?: string;
+  /**
   * Set to true if a CloudTrail already exists
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_aws_account#use_existing_cloudtrail CloudAwsAccount#use_existing_cloudtrail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_aws_account#use_existing_cloudtrail CloudAwsAccount#use_existing_cloudtrail}
   */
   readonly useExistingCloudtrail?: boolean | cdktf.IResolvable;
 }
@@ -459,6 +489,11 @@ export function cloudAwsAccountRealtimeVisibilityToTerraform(struct?: CloudAwsAc
   return {
     cloudtrail_region: cdktf.stringToTerraform(struct!.cloudtrailRegion),
     enabled: cdktf.booleanToTerraform(struct!.enabled),
+    log_ingestion_kms_key_arn: cdktf.stringToTerraform(struct!.logIngestionKmsKeyArn),
+    log_ingestion_method: cdktf.stringToTerraform(struct!.logIngestionMethod),
+    log_ingestion_s3_bucket_name: cdktf.stringToTerraform(struct!.logIngestionS3BucketName),
+    log_ingestion_s3_bucket_prefix: cdktf.stringToTerraform(struct!.logIngestionS3BucketPrefix),
+    log_ingestion_sns_topic_arn: cdktf.stringToTerraform(struct!.logIngestionSnsTopicArn),
     use_existing_cloudtrail: cdktf.booleanToTerraform(struct!.useExistingCloudtrail),
   }
 }
@@ -481,6 +516,36 @@ export function cloudAwsAccountRealtimeVisibilityToHclTerraform(struct?: CloudAw
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
+    },
+    log_ingestion_kms_key_arn: {
+      value: cdktf.stringToHclTerraform(struct!.logIngestionKmsKeyArn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    log_ingestion_method: {
+      value: cdktf.stringToHclTerraform(struct!.logIngestionMethod),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    log_ingestion_s3_bucket_name: {
+      value: cdktf.stringToHclTerraform(struct!.logIngestionS3BucketName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    log_ingestion_s3_bucket_prefix: {
+      value: cdktf.stringToHclTerraform(struct!.logIngestionS3BucketPrefix),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    log_ingestion_sns_topic_arn: {
+      value: cdktf.stringToHclTerraform(struct!.logIngestionSnsTopicArn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
     use_existing_cloudtrail: {
       value: cdktf.booleanToHclTerraform(struct!.useExistingCloudtrail),
@@ -520,6 +585,26 @@ export class CloudAwsAccountRealtimeVisibilityOutputReference extends cdktf.Comp
       hasAnyValues = true;
       internalValueResult.enabled = this._enabled;
     }
+    if (this._logIngestionKmsKeyArn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.logIngestionKmsKeyArn = this._logIngestionKmsKeyArn;
+    }
+    if (this._logIngestionMethod !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.logIngestionMethod = this._logIngestionMethod;
+    }
+    if (this._logIngestionS3BucketName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.logIngestionS3BucketName = this._logIngestionS3BucketName;
+    }
+    if (this._logIngestionS3BucketPrefix !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.logIngestionS3BucketPrefix = this._logIngestionS3BucketPrefix;
+    }
+    if (this._logIngestionSnsTopicArn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.logIngestionSnsTopicArn = this._logIngestionSnsTopicArn;
+    }
     if (this._useExistingCloudtrail !== undefined) {
       hasAnyValues = true;
       internalValueResult.useExistingCloudtrail = this._useExistingCloudtrail;
@@ -533,6 +618,11 @@ export class CloudAwsAccountRealtimeVisibilityOutputReference extends cdktf.Comp
       this.resolvableValue = undefined;
       this._cloudtrailRegion = undefined;
       this._enabled = undefined;
+      this._logIngestionKmsKeyArn = undefined;
+      this._logIngestionMethod = undefined;
+      this._logIngestionS3BucketName = undefined;
+      this._logIngestionS3BucketPrefix = undefined;
+      this._logIngestionSnsTopicArn = undefined;
       this._useExistingCloudtrail = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -544,6 +634,11 @@ export class CloudAwsAccountRealtimeVisibilityOutputReference extends cdktf.Comp
       this.resolvableValue = undefined;
       this._cloudtrailRegion = value.cloudtrailRegion;
       this._enabled = value.enabled;
+      this._logIngestionKmsKeyArn = value.logIngestionKmsKeyArn;
+      this._logIngestionMethod = value.logIngestionMethod;
+      this._logIngestionS3BucketName = value.logIngestionS3BucketName;
+      this._logIngestionS3BucketPrefix = value.logIngestionS3BucketPrefix;
+      this._logIngestionSnsTopicArn = value.logIngestionSnsTopicArn;
       this._useExistingCloudtrail = value.useExistingCloudtrail;
     }
   }
@@ -574,6 +669,86 @@ export class CloudAwsAccountRealtimeVisibilityOutputReference extends cdktf.Comp
     return this._enabled;
   }
 
+  // log_ingestion_kms_key_arn - computed: true, optional: true, required: false
+  private _logIngestionKmsKeyArn?: string; 
+  public get logIngestionKmsKeyArn() {
+    return this.getStringAttribute('log_ingestion_kms_key_arn');
+  }
+  public set logIngestionKmsKeyArn(value: string) {
+    this._logIngestionKmsKeyArn = value;
+  }
+  public resetLogIngestionKmsKeyArn() {
+    this._logIngestionKmsKeyArn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get logIngestionKmsKeyArnInput() {
+    return this._logIngestionKmsKeyArn;
+  }
+
+  // log_ingestion_method - computed: true, optional: true, required: false
+  private _logIngestionMethod?: string; 
+  public get logIngestionMethod() {
+    return this.getStringAttribute('log_ingestion_method');
+  }
+  public set logIngestionMethod(value: string) {
+    this._logIngestionMethod = value;
+  }
+  public resetLogIngestionMethod() {
+    this._logIngestionMethod = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get logIngestionMethodInput() {
+    return this._logIngestionMethod;
+  }
+
+  // log_ingestion_s3_bucket_name - computed: true, optional: true, required: false
+  private _logIngestionS3BucketName?: string; 
+  public get logIngestionS3BucketName() {
+    return this.getStringAttribute('log_ingestion_s3_bucket_name');
+  }
+  public set logIngestionS3BucketName(value: string) {
+    this._logIngestionS3BucketName = value;
+  }
+  public resetLogIngestionS3BucketName() {
+    this._logIngestionS3BucketName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get logIngestionS3BucketNameInput() {
+    return this._logIngestionS3BucketName;
+  }
+
+  // log_ingestion_s3_bucket_prefix - computed: true, optional: true, required: false
+  private _logIngestionS3BucketPrefix?: string; 
+  public get logIngestionS3BucketPrefix() {
+    return this.getStringAttribute('log_ingestion_s3_bucket_prefix');
+  }
+  public set logIngestionS3BucketPrefix(value: string) {
+    this._logIngestionS3BucketPrefix = value;
+  }
+  public resetLogIngestionS3BucketPrefix() {
+    this._logIngestionS3BucketPrefix = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get logIngestionS3BucketPrefixInput() {
+    return this._logIngestionS3BucketPrefix;
+  }
+
+  // log_ingestion_sns_topic_arn - computed: true, optional: true, required: false
+  private _logIngestionSnsTopicArn?: string; 
+  public get logIngestionSnsTopicArn() {
+    return this.getStringAttribute('log_ingestion_sns_topic_arn');
+  }
+  public set logIngestionSnsTopicArn(value: string) {
+    this._logIngestionSnsTopicArn = value;
+  }
+  public resetLogIngestionSnsTopicArn() {
+    this._logIngestionSnsTopicArn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get logIngestionSnsTopicArnInput() {
+    return this._logIngestionSnsTopicArn;
+  }
+
   // use_existing_cloudtrail - computed: true, optional: true, required: false
   private _useExistingCloudtrail?: boolean | cdktf.IResolvable; 
   public get useExistingCloudtrail() {
@@ -594,7 +769,7 @@ export interface CloudAwsAccountSensorManagement {
   /**
   * Enable 1-click sensor deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_aws_account#enabled CloudAwsAccount#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_aws_account#enabled CloudAwsAccount#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -687,13 +862,13 @@ export interface CloudAwsAccountVulnerabilityScanning {
   /**
   * Enable Vulnerability Scanning
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_aws_account#enabled CloudAwsAccount#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_aws_account#enabled CloudAwsAccount#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Custom AWS IAM role name for Vulnerability Scanning
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_aws_account#role_name CloudAwsAccount#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_aws_account#role_name CloudAwsAccount#role_name}
   */
   readonly roleName?: string;
 }
@@ -813,7 +988,7 @@ export class CloudAwsAccountVulnerabilityScanningOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_aws_account crowdstrike_cloud_aws_account}
+* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_aws_account crowdstrike_cloud_aws_account}
 */
 export class CloudAwsAccount extends cdktf.TerraformResource {
 
@@ -829,7 +1004,7 @@ export class CloudAwsAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudAwsAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudAwsAccount to import
-  * @param importFromId The id of the existing CloudAwsAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_aws_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudAwsAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_aws_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudAwsAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -841,7 +1016,7 @@ export class CloudAwsAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_aws_account crowdstrike_cloud_aws_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_aws_account crowdstrike_cloud_aws_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -852,8 +1027,8 @@ export class CloudAwsAccount extends cdktf.TerraformResource {
       terraformResourceType: 'crowdstrike_cloud_aws_account',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.50',
-        providerVersionConstraint: '0.0.50'
+        providerVersion: '0.0.51',
+        providerVersionConstraint: '0.0.51'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

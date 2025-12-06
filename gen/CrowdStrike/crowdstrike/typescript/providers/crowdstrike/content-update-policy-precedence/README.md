@@ -1,3 +1,3 @@
 # `crowdstrike_content_update_policy_precedence`
 
-Refer to the Terraform Registry for docs: [`crowdstrike_content_update_policy_precedence`](https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/content_update_policy_precedence).
+Refer to the Terraform Registry for docs: [`crowdstrike_content_update_policy_precedence`](https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/content_update_policy_precedence).

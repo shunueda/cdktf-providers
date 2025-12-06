@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_google_registration_logging_settings
+// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_google_registration_logging_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface CloudGoogleRegistrationLoggingSettingsConfig extends cdktf.Terr
   /**
   * The name of the log sink for ingestion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_google_registration_logging_settings#log_ingestion_sink_name CloudGoogleRegistrationLoggingSettings#log_ingestion_sink_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_google_registration_logging_settings#log_ingestion_sink_name CloudGoogleRegistrationLoggingSettings#log_ingestion_sink_name}
   */
   readonly logIngestionSinkName?: string;
   /**
   * The Pub/Sub subscription name for log ingestion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_google_registration_logging_settings#log_ingestion_subscription_name CloudGoogleRegistrationLoggingSettings#log_ingestion_subscription_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_google_registration_logging_settings#log_ingestion_subscription_name CloudGoogleRegistrationLoggingSettings#log_ingestion_subscription_name}
   */
   readonly logIngestionSubscriptionName?: string;
   /**
   * The Pub/Sub topic ID for log ingestion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_google_registration_logging_settings#log_ingestion_topic_id CloudGoogleRegistrationLoggingSettings#log_ingestion_topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_google_registration_logging_settings#log_ingestion_topic_id CloudGoogleRegistrationLoggingSettings#log_ingestion_topic_id}
   */
   readonly logIngestionTopicId?: string;
   /**
   * The Google Cloud registration ID to configure log ingestion settings for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_google_registration_logging_settings#registration_id CloudGoogleRegistrationLoggingSettings#registration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_google_registration_logging_settings#registration_id CloudGoogleRegistrationLoggingSettings#registration_id}
   */
   readonly registrationId: string;
   /**
   * The Google Cloud project ID for Workload Identity Federation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_google_registration_logging_settings#wif_project CloudGoogleRegistrationLoggingSettings#wif_project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_google_registration_logging_settings#wif_project CloudGoogleRegistrationLoggingSettings#wif_project}
   */
   readonly wifProject: string;
   /**
   * The Google Cloud project number for Workload Identity Federation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_google_registration_logging_settings#wif_project_number CloudGoogleRegistrationLoggingSettings#wif_project_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_google_registration_logging_settings#wif_project_number CloudGoogleRegistrationLoggingSettings#wif_project_number}
   */
   readonly wifProjectNumber: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_google_registration_logging_settings crowdstrike_cloud_google_registration_logging_settings}
+* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_google_registration_logging_settings crowdstrike_cloud_google_registration_logging_settings}
 */
 export class CloudGoogleRegistrationLoggingSettings extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class CloudGoogleRegistrationLoggingSettings extends cdktf.TerraformResou
   * Generates CDKTF code for importing a CloudGoogleRegistrationLoggingSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudGoogleRegistrationLoggingSettings to import
-  * @param importFromId The id of the existing CloudGoogleRegistrationLoggingSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_google_registration_logging_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudGoogleRegistrationLoggingSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_google_registration_logging_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudGoogleRegistrationLoggingSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class CloudGoogleRegistrationLoggingSettings extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.50/docs/resources/cloud_google_registration_logging_settings crowdstrike_cloud_google_registration_logging_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.51/docs/resources/cloud_google_registration_logging_settings crowdstrike_cloud_google_registration_logging_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class CloudGoogleRegistrationLoggingSettings extends cdktf.TerraformResou
       terraformResourceType: 'crowdstrike_cloud_google_registration_logging_settings',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.50',
-        providerVersionConstraint: '0.0.50'
+        providerVersion: '0.0.51',
+        providerVersionConstraint: '0.0.51'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
