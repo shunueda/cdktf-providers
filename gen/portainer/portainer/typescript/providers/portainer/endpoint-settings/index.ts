@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/endpoint_settings
+// https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/endpoint_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface EndpointSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/endpoint_settings#enable_gpu_management EndpointSettings#enable_gpu_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/endpoint_settings#enable_gpu_management EndpointSettings#enable_gpu_management}
   */
   readonly enableGpuManagement?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/endpoint_settings#enable_image_notification EndpointSettings#enable_image_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/endpoint_settings#enable_image_notification EndpointSettings#enable_image_notification}
   */
   readonly enableImageNotification?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/endpoint_settings#endpoint_id EndpointSettings#endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/endpoint_settings#endpoint_id EndpointSettings#endpoint_id}
   */
   readonly endpointId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/endpoint_settings#id EndpointSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/endpoint_settings#id EndpointSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,39 +29,39 @@ export interface EndpointSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * change_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/endpoint_settings#change_window EndpointSettings#change_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/endpoint_settings#change_window EndpointSettings#change_window}
   */
   readonly changeWindow?: EndpointSettingsChangeWindow;
   /**
   * deployment_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/endpoint_settings#deployment_options EndpointSettings#deployment_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/endpoint_settings#deployment_options EndpointSettings#deployment_options}
   */
   readonly deploymentOptions?: EndpointSettingsDeploymentOptions;
   /**
   * gpus block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/endpoint_settings#gpus EndpointSettings#gpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/endpoint_settings#gpus EndpointSettings#gpus}
   */
   readonly gpus?: EndpointSettingsGpus[] | cdktf.IResolvable;
   /**
   * security_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/endpoint_settings#security_settings EndpointSettings#security_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/endpoint_settings#security_settings EndpointSettings#security_settings}
   */
   readonly securitySettings?: EndpointSettingsSecuritySettings;
 }
 export interface EndpointSettingsChangeWindow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/endpoint_settings#enabled EndpointSettings#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/endpoint_settings#enabled EndpointSettings#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/endpoint_settings#end_time EndpointSettings#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/endpoint_settings#end_time EndpointSettings#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/endpoint_settings#start_time EndpointSettings#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/endpoint_settings#start_time EndpointSettings#start_time}
   */
   readonly startTime?: string;
 }
@@ -203,19 +203,19 @@ export class EndpointSettingsChangeWindowOutputReference extends cdktf.ComplexOb
 }
 export interface EndpointSettingsDeploymentOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/endpoint_settings#hide_add_with_form EndpointSettings#hide_add_with_form}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/endpoint_settings#hide_add_with_form EndpointSettings#hide_add_with_form}
   */
   readonly hideAddWithForm?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/endpoint_settings#hide_file_upload EndpointSettings#hide_file_upload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/endpoint_settings#hide_file_upload EndpointSettings#hide_file_upload}
   */
   readonly hideFileUpload?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/endpoint_settings#hide_web_editor EndpointSettings#hide_web_editor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/endpoint_settings#hide_web_editor EndpointSettings#hide_web_editor}
   */
   readonly hideWebEditor?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/endpoint_settings#override_global_options EndpointSettings#override_global_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/endpoint_settings#override_global_options EndpointSettings#override_global_options}
   */
   readonly overrideGlobalOptions?: boolean | cdktf.IResolvable;
 }
@@ -386,11 +386,11 @@ export class EndpointSettingsDeploymentOptionsOutputReference extends cdktf.Comp
 }
 export interface EndpointSettingsGpus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/endpoint_settings#name EndpointSettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/endpoint_settings#name EndpointSettings#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/endpoint_settings#value EndpointSettings#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/endpoint_settings#value EndpointSettings#value}
   */
   readonly value: string;
 }
@@ -529,39 +529,39 @@ export class EndpointSettingsGpusList extends cdktf.ComplexList {
 }
 export interface EndpointSettingsSecuritySettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/endpoint_settings#allow_bind_mounts EndpointSettings#allow_bind_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/endpoint_settings#allow_bind_mounts EndpointSettings#allow_bind_mounts}
   */
   readonly allowBindMounts?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/endpoint_settings#allow_container_capabilities EndpointSettings#allow_container_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/endpoint_settings#allow_container_capabilities EndpointSettings#allow_container_capabilities}
   */
   readonly allowContainerCapabilities?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/endpoint_settings#allow_device_mapping EndpointSettings#allow_device_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/endpoint_settings#allow_device_mapping EndpointSettings#allow_device_mapping}
   */
   readonly allowDeviceMapping?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/endpoint_settings#allow_host_namespace EndpointSettings#allow_host_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/endpoint_settings#allow_host_namespace EndpointSettings#allow_host_namespace}
   */
   readonly allowHostNamespace?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/endpoint_settings#allow_privileged_mode EndpointSettings#allow_privileged_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/endpoint_settings#allow_privileged_mode EndpointSettings#allow_privileged_mode}
   */
   readonly allowPrivilegedMode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/endpoint_settings#allow_stack_management EndpointSettings#allow_stack_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/endpoint_settings#allow_stack_management EndpointSettings#allow_stack_management}
   */
   readonly allowStackManagement?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/endpoint_settings#allow_sysctl_setting EndpointSettings#allow_sysctl_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/endpoint_settings#allow_sysctl_setting EndpointSettings#allow_sysctl_setting}
   */
   readonly allowSysctlSetting?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/endpoint_settings#allow_volume_browser EndpointSettings#allow_volume_browser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/endpoint_settings#allow_volume_browser EndpointSettings#allow_volume_browser}
   */
   readonly allowVolumeBrowser?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/endpoint_settings#enable_host_management EndpointSettings#enable_host_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/endpoint_settings#enable_host_management EndpointSettings#enable_host_management}
   */
   readonly enableHostManagement?: boolean | cdktf.IResolvable;
 }
@@ -877,7 +877,7 @@ export class EndpointSettingsSecuritySettingsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/endpoint_settings portainer_endpoint_settings}
+* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/endpoint_settings portainer_endpoint_settings}
 */
 export class EndpointSettings extends cdktf.TerraformResource {
 
@@ -893,7 +893,7 @@ export class EndpointSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EndpointSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EndpointSettings to import
-  * @param importFromId The id of the existing EndpointSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/endpoint_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EndpointSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/endpoint_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EndpointSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -905,7 +905,7 @@ export class EndpointSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/endpoint_settings portainer_endpoint_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/endpoint_settings portainer_endpoint_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -916,8 +916,8 @@ export class EndpointSettings extends cdktf.TerraformResource {
       terraformResourceType: 'portainer_endpoint_settings',
       terraformGeneratorMetadata: {
         providerName: 'portainer',
-        providerVersion: '1.20.0',
-        providerVersionConstraint: '1.20.0'
+        providerVersion: '1.20.1',
+        providerVersionConstraint: '1.20.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

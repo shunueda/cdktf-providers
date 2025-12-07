@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "proxmox": "0.88.0"
+    "proxmox": "0.89.0"
   }
 }

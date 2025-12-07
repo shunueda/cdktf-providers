@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_metrics_server
+// https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_metrics_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataProxmoxVirtualEnvironmentMetricsServerConfig extends cdktf.
   /**
   * Unique name that will be ID of this metric server in PVE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_metrics_server#name DataProxmoxVirtualEnvironmentMetricsServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_metrics_server#name DataProxmoxVirtualEnvironmentMetricsServer#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_metrics_server proxmox_virtual_environment_metrics_server}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_metrics_server proxmox_virtual_environment_metrics_server}
 */
 export class DataProxmoxVirtualEnvironmentMetricsServer extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataProxmoxVirtualEnvironmentMetricsServer extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataProxmoxVirtualEnvironmentMetricsServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataProxmoxVirtualEnvironmentMetricsServer to import
-  * @param importFromId The id of the existing DataProxmoxVirtualEnvironmentMetricsServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_metrics_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataProxmoxVirtualEnvironmentMetricsServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_metrics_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataProxmoxVirtualEnvironmentMetricsServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataProxmoxVirtualEnvironmentMetricsServer extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_metrics_server proxmox_virtual_environment_metrics_server} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_metrics_server proxmox_virtual_environment_metrics_server} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataProxmoxVirtualEnvironmentMetricsServer extends cdktf.TerraformD
       terraformResourceType: 'proxmox_virtual_environment_metrics_server',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.88.0',
-        providerVersionConstraint: '0.88.0'
+        providerVersion: '0.89.0',
+        providerVersionConstraint: '0.89.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

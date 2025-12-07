@@ -26,6 +26,7 @@ Object.defineProperty(exports, 'virtualEnvironmentHosts', { get: function () { r
 Object.defineProperty(exports, 'virtualEnvironmentMetricsServer', { get: function () { return require('./virtual-environment-metrics-server'); } });
 Object.defineProperty(exports, 'virtualEnvironmentNetworkLinuxBridge', { get: function () { return require('./virtual-environment-network-linux-bridge'); } });
 Object.defineProperty(exports, 'virtualEnvironmentNetworkLinuxVlan', { get: function () { return require('./virtual-environment-network-linux-vlan'); } });
+Object.defineProperty(exports, 'virtualEnvironmentOciImage', { get: function () { return require('./virtual-environment-oci-image'); } });
 Object.defineProperty(exports, 'virtualEnvironmentPool', { get: function () { return require('./virtual-environment-pool'); } });
 Object.defineProperty(exports, 'virtualEnvironmentPoolMembership', { get: function () { return require('./virtual-environment-pool-membership'); } });
 Object.defineProperty(exports, 'virtualEnvironmentRole', { get: function () { return require('./virtual-environment-role'); } });

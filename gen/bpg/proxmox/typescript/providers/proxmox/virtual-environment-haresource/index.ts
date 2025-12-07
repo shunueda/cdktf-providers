@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_haresource
+// https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_haresource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface VirtualEnvironmentHaresourceConfig extends cdktf.TerraformMetaA
   /**
   * The comment associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_haresource#comment VirtualEnvironmentHaresource#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_haresource#comment VirtualEnvironmentHaresource#comment}
   */
   readonly comment?: string;
   /**
   * The identifier of the High Availability group this resource is a member of.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_haresource#group VirtualEnvironmentHaresource#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_haresource#group VirtualEnvironmentHaresource#group}
   */
   readonly group?: string;
   /**
   * The maximal number of relocation attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_haresource#max_relocate VirtualEnvironmentHaresource#max_relocate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_haresource#max_relocate VirtualEnvironmentHaresource#max_relocate}
   */
   readonly maxRelocate?: number;
   /**
   * The maximal number of restart attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_haresource#max_restart VirtualEnvironmentHaresource#max_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_haresource#max_restart VirtualEnvironmentHaresource#max_restart}
   */
   readonly maxRestart?: number;
   /**
   * The Proxmox HA resource identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_haresource#resource_id VirtualEnvironmentHaresource#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_haresource#resource_id VirtualEnvironmentHaresource#resource_id}
   */
   readonly resourceId: string;
   /**
   * The desired state of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_haresource#state VirtualEnvironmentHaresource#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_haresource#state VirtualEnvironmentHaresource#state}
   */
   readonly state?: string;
   /**
   * The type of HA resources to create. If unset, it will be deduced from the `resource_id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_haresource#type VirtualEnvironmentHaresource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_haresource#type VirtualEnvironmentHaresource#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_haresource proxmox_virtual_environment_haresource}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_haresource proxmox_virtual_environment_haresource}
 */
 export class VirtualEnvironmentHaresource extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class VirtualEnvironmentHaresource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualEnvironmentHaresource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualEnvironmentHaresource to import
-  * @param importFromId The id of the existing VirtualEnvironmentHaresource that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_haresource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualEnvironmentHaresource that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_haresource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualEnvironmentHaresource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class VirtualEnvironmentHaresource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_haresource proxmox_virtual_environment_haresource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_haresource proxmox_virtual_environment_haresource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class VirtualEnvironmentHaresource extends cdktf.TerraformResource {
       terraformResourceType: 'proxmox_virtual_environment_haresource',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.88.0',
-        providerVersionConstraint: '0.88.0'
+        providerVersion: '0.89.0',
+        providerVersionConstraint: '0.89.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

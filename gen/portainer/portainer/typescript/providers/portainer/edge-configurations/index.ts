@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/edge_configurations
+// https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/edge_configurations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface EdgeConfigurationsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/edge_configurations#base_dir EdgeConfigurations#base_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/edge_configurations#base_dir EdgeConfigurations#base_dir}
   */
   readonly baseDir?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/edge_configurations#category EdgeConfigurations#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/edge_configurations#category EdgeConfigurations#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/edge_configurations#edge_group_ids EdgeConfigurations#edge_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/edge_configurations#edge_group_ids EdgeConfigurations#edge_group_ids}
   */
   readonly edgeGroupIds: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/edge_configurations#file_path EdgeConfigurations#file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/edge_configurations#file_path EdgeConfigurations#file_path}
   */
   readonly filePath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/edge_configurations#id EdgeConfigurations#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/edge_configurations#id EdgeConfigurations#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/edge_configurations#name EdgeConfigurations#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/edge_configurations#name EdgeConfigurations#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/edge_configurations#type EdgeConfigurations#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/edge_configurations#type EdgeConfigurations#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/edge_configurations portainer_edge_configurations}
+* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/edge_configurations portainer_edge_configurations}
 */
 export class EdgeConfigurations extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class EdgeConfigurations extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EdgeConfigurations resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EdgeConfigurations to import
-  * @param importFromId The id of the existing EdgeConfigurations that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/edge_configurations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EdgeConfigurations that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/edge_configurations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EdgeConfigurations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class EdgeConfigurations extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/edge_configurations portainer_edge_configurations} Resource
+  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/edge_configurations portainer_edge_configurations} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class EdgeConfigurations extends cdktf.TerraformResource {
       terraformResourceType: 'portainer_edge_configurations',
       terraformGeneratorMetadata: {
         providerName: 'portainer',
-        providerVersion: '1.20.0',
-        providerVersionConstraint: '1.20.0'
+        providerVersion: '1.20.1',
+        providerVersionConstraint: '1.20.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

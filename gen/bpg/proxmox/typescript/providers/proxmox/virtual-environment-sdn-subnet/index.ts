@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_subnet
+// https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_subnet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface VirtualEnvironmentSdnSubnetConfig extends cdktf.TerraformMetaAr
   /**
   * A CIDR network address, for example 10.0.0.0/8
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_subnet#cidr VirtualEnvironmentSdnSubnet#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_subnet#cidr VirtualEnvironmentSdnSubnet#cidr}
   */
   readonly cidr: string;
   /**
   * The DNS server used for DHCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_subnet#dhcp_dns_server VirtualEnvironmentSdnSubnet#dhcp_dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_subnet#dhcp_dns_server VirtualEnvironmentSdnSubnet#dhcp_dns_server}
   */
   readonly dhcpDnsServer?: string;
   /**
   * DHCP range (start and end IPs).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_subnet#dhcp_range VirtualEnvironmentSdnSubnet#dhcp_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_subnet#dhcp_range VirtualEnvironmentSdnSubnet#dhcp_range}
   */
   readonly dhcpRange?: VirtualEnvironmentSdnSubnetDhcpRange;
   /**
   * Prefix used for DNS zone delegation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_subnet#dns_zone_prefix VirtualEnvironmentSdnSubnet#dns_zone_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_subnet#dns_zone_prefix VirtualEnvironmentSdnSubnet#dns_zone_prefix}
   */
   readonly dnsZonePrefix?: string;
   /**
   * The gateway address for the subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_subnet#gateway VirtualEnvironmentSdnSubnet#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_subnet#gateway VirtualEnvironmentSdnSubnet#gateway}
   */
   readonly gateway?: string;
   /**
   * Whether SNAT is enabled for the subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_subnet#snat VirtualEnvironmentSdnSubnet#snat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_subnet#snat VirtualEnvironmentSdnSubnet#snat}
   */
   readonly snat?: boolean | cdktf.IResolvable;
   /**
   * The VNet to which this subnet belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_subnet#vnet VirtualEnvironmentSdnSubnet#vnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_subnet#vnet VirtualEnvironmentSdnSubnet#vnet}
   */
   readonly vnet: string;
 }
@@ -54,13 +54,13 @@ export interface VirtualEnvironmentSdnSubnetDhcpRange {
   /**
   * End of the DHCP range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_subnet#end_address VirtualEnvironmentSdnSubnet#end_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_subnet#end_address VirtualEnvironmentSdnSubnet#end_address}
   */
   readonly endAddress: string;
   /**
   * Start of the DHCP range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_subnet#start_address VirtualEnvironmentSdnSubnet#start_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_subnet#start_address VirtualEnvironmentSdnSubnet#start_address}
   */
   readonly startAddress: string;
 }
@@ -177,7 +177,7 @@ export class VirtualEnvironmentSdnSubnetDhcpRangeOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_subnet proxmox_virtual_environment_sdn_subnet}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_subnet proxmox_virtual_environment_sdn_subnet}
 */
 export class VirtualEnvironmentSdnSubnet extends cdktf.TerraformResource {
 
@@ -193,7 +193,7 @@ export class VirtualEnvironmentSdnSubnet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualEnvironmentSdnSubnet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualEnvironmentSdnSubnet to import
-  * @param importFromId The id of the existing VirtualEnvironmentSdnSubnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_subnet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualEnvironmentSdnSubnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_subnet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualEnvironmentSdnSubnet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -205,7 +205,7 @@ export class VirtualEnvironmentSdnSubnet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_subnet proxmox_virtual_environment_sdn_subnet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_subnet proxmox_virtual_environment_sdn_subnet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -216,8 +216,8 @@ export class VirtualEnvironmentSdnSubnet extends cdktf.TerraformResource {
       terraformResourceType: 'proxmox_virtual_environment_sdn_subnet',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.88.0',
-        providerVersionConstraint: '0.88.0'
+        providerVersion: '0.89.0',
+        providerVersionConstraint: '0.89.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_zone_qinq
+// https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_qinq
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface VirtualEnvironmentSdnZoneQinqConfig extends cdktf.TerraformMeta
   /**
   * A local, VLAN-aware bridge that is already configured on each local node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_zone_qinq#bridge VirtualEnvironmentSdnZoneQinq#bridge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_qinq#bridge VirtualEnvironmentSdnZoneQinq#bridge}
   */
   readonly bridge: string;
   /**
   * DNS API server address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_zone_qinq#dns VirtualEnvironmentSdnZoneQinq#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_qinq#dns VirtualEnvironmentSdnZoneQinq#dns}
   */
   readonly dns?: string;
   /**
   * DNS domain name. Used to register hostnames, such as `<hostname>.<domain>`. The DNS zone must already exist on the DNS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_zone_qinq#dns_zone VirtualEnvironmentSdnZoneQinq#dns_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_qinq#dns_zone VirtualEnvironmentSdnZoneQinq#dns_zone}
   */
   readonly dnsZone?: string;
   /**
   * The unique identifier of the SDN zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_zone_qinq#id VirtualEnvironmentSdnZoneQinq#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_qinq#id VirtualEnvironmentSdnZoneQinq#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,43 +37,43 @@ export interface VirtualEnvironmentSdnZoneQinqConfig extends cdktf.TerraformMeta
   /**
   * IP Address Management system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_zone_qinq#ipam VirtualEnvironmentSdnZoneQinq#ipam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_qinq#ipam VirtualEnvironmentSdnZoneQinq#ipam}
   */
   readonly ipam?: string;
   /**
   * MTU value for the zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_zone_qinq#mtu VirtualEnvironmentSdnZoneQinq#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_qinq#mtu VirtualEnvironmentSdnZoneQinq#mtu}
   */
   readonly mtu?: number;
   /**
   * The Proxmox nodes which the zone and associated VNets should be deployed on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_zone_qinq#nodes VirtualEnvironmentSdnZoneQinq#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_qinq#nodes VirtualEnvironmentSdnZoneQinq#nodes}
   */
   readonly nodes?: string[];
   /**
   * Reverse DNS API server address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_zone_qinq#reverse_dns VirtualEnvironmentSdnZoneQinq#reverse_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_qinq#reverse_dns VirtualEnvironmentSdnZoneQinq#reverse_dns}
   */
   readonly reverseDns?: string;
   /**
   * Service VLAN tag for QinQ. The tag must be between `1` and `4094`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_zone_qinq#service_vlan VirtualEnvironmentSdnZoneQinq#service_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_qinq#service_vlan VirtualEnvironmentSdnZoneQinq#service_vlan}
   */
   readonly serviceVlan: number;
   /**
   * Service VLAN protocol for QinQ. The protocol must be `802.1ad` or `802.1q`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_zone_qinq#service_vlan_protocol VirtualEnvironmentSdnZoneQinq#service_vlan_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_qinq#service_vlan_protocol VirtualEnvironmentSdnZoneQinq#service_vlan_protocol}
   */
   readonly serviceVlanProtocol?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_zone_qinq proxmox_virtual_environment_sdn_zone_qinq}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_qinq proxmox_virtual_environment_sdn_zone_qinq}
 */
 export class VirtualEnvironmentSdnZoneQinq extends cdktf.TerraformResource {
 
@@ -89,7 +89,7 @@ export class VirtualEnvironmentSdnZoneQinq extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualEnvironmentSdnZoneQinq resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualEnvironmentSdnZoneQinq to import
-  * @param importFromId The id of the existing VirtualEnvironmentSdnZoneQinq that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_zone_qinq#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualEnvironmentSdnZoneQinq that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_qinq#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualEnvironmentSdnZoneQinq to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -101,7 +101,7 @@ export class VirtualEnvironmentSdnZoneQinq extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_zone_qinq proxmox_virtual_environment_sdn_zone_qinq} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_qinq proxmox_virtual_environment_sdn_zone_qinq} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -112,8 +112,8 @@ export class VirtualEnvironmentSdnZoneQinq extends cdktf.TerraformResource {
       terraformResourceType: 'proxmox_virtual_environment_sdn_zone_qinq',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.88.0',
-        providerVersionConstraint: '0.88.0'
+        providerVersion: '0.89.0',
+        providerVersionConstraint: '0.89.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

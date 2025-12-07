@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/kubernetes_secret
+// https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/kubernetes_secret
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface KubernetesSecretConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/kubernetes_secret#endpoint_id KubernetesSecret#endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/kubernetes_secret#endpoint_id KubernetesSecret#endpoint_id}
   */
   readonly endpointId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/kubernetes_secret#id KubernetesSecret#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/kubernetes_secret#id KubernetesSecret#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/kubernetes_secret#manifest KubernetesSecret#manifest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/kubernetes_secret#manifest KubernetesSecret#manifest}
   */
   readonly manifest: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/kubernetes_secret#namespace KubernetesSecret#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/kubernetes_secret#namespace KubernetesSecret#namespace}
   */
   readonly namespace: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/kubernetes_secret portainer_kubernetes_secret}
+* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/kubernetes_secret portainer_kubernetes_secret}
 */
 export class KubernetesSecret extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class KubernetesSecret extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesSecret resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesSecret to import
-  * @param importFromId The id of the existing KubernetesSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/kubernetes_secret#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/kubernetes_secret#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesSecret to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class KubernetesSecret extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/kubernetes_secret portainer_kubernetes_secret} Resource
+  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/kubernetes_secret portainer_kubernetes_secret} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class KubernetesSecret extends cdktf.TerraformResource {
       terraformResourceType: 'portainer_kubernetes_secret',
       terraformGeneratorMetadata: {
         providerName: 'portainer',
-        providerVersion: '1.20.0',
-        providerVersionConstraint: '1.20.0'
+        providerVersion: '1.20.1',
+        providerVersionConstraint: '1.20.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

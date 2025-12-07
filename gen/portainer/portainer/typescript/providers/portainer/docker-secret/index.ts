@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/docker_secret
+// https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/docker_secret
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,52 +10,52 @@ export interface DockerSecretConfig extends cdktf.TerraformMetaArguments {
   /**
   * Base64-encoded secret data (stored in Terraform state).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/docker_secret#data DockerSecret#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/docker_secret#data DockerSecret#data}
   */
   readonly data?: string;
   /**
   * Write-only secret data (supports ephemeral values; not stored in Terraform state).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/docker_secret#data_wo DockerSecret#data_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/docker_secret#data_wo DockerSecret#data_wo}
   */
   readonly dataWo?: string;
   /**
   * Version flag for write-only data; must be set when using `data_wo` to trigger updates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/docker_secret#data_wo_version DockerSecret#data_wo_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/docker_secret#data_wo_version DockerSecret#data_wo_version}
   */
   readonly dataWoVersion?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/docker_secret#driver DockerSecret#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/docker_secret#driver DockerSecret#driver}
   */
   readonly driver?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/docker_secret#endpoint_id DockerSecret#endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/docker_secret#endpoint_id DockerSecret#endpoint_id}
   */
   readonly endpointId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/docker_secret#id DockerSecret#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/docker_secret#id DockerSecret#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/docker_secret#labels DockerSecret#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/docker_secret#labels DockerSecret#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/docker_secret#name DockerSecret#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/docker_secret#name DockerSecret#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/docker_secret#templating DockerSecret#templating}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/docker_secret#templating DockerSecret#templating}
   */
   readonly templating?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/docker_secret portainer_docker_secret}
+* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/docker_secret portainer_docker_secret}
 */
 export class DockerSecret extends cdktf.TerraformResource {
 
@@ -71,7 +71,7 @@ export class DockerSecret extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DockerSecret resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DockerSecret to import
-  * @param importFromId The id of the existing DockerSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/docker_secret#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DockerSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/docker_secret#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DockerSecret to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -83,7 +83,7 @@ export class DockerSecret extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/docker_secret portainer_docker_secret} Resource
+  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/docker_secret portainer_docker_secret} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -94,8 +94,8 @@ export class DockerSecret extends cdktf.TerraformResource {
       terraformResourceType: 'portainer_docker_secret',
       terraformGeneratorMetadata: {
         providerName: 'portainer',
-        providerVersion: '1.20.0',
-        providerVersionConstraint: '1.20.0'
+        providerVersion: '1.20.1',
+        providerVersionConstraint: '1.20.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

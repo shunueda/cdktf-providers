@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/auth
+// https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/auth
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,24 +8,24 @@ import * as cdktf from 'cdktf';
 
 export interface AuthConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/auth#id Auth#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/auth#id Auth#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/auth#password Auth#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/auth#password Auth#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/auth#username Auth#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/auth#username Auth#username}
   */
   readonly username: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/auth portainer_auth}
+* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/auth portainer_auth}
 */
 export class Auth extends cdktf.TerraformResource {
 
@@ -41,7 +41,7 @@ export class Auth extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Auth resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Auth to import
-  * @param importFromId The id of the existing Auth that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/auth#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Auth that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/auth#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Auth to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class Auth extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/auth portainer_auth} Resource
+  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/auth portainer_auth} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class Auth extends cdktf.TerraformResource {
       terraformResourceType: 'portainer_auth',
       terraformGeneratorMetadata: {
         providerName: 'portainer',
-        providerVersion: '1.20.0',
-        providerVersionConstraint: '1.20.0'
+        providerVersion: '1.20.1',
+        providerVersionConstraint: '1.20.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

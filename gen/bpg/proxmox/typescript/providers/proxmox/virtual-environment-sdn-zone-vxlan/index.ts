@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_zone_vxlan
+// https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_vxlan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface VirtualEnvironmentSdnZoneVxlanConfig extends cdktf.TerraformMet
   /**
   * DNS API server address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_zone_vxlan#dns VirtualEnvironmentSdnZoneVxlan#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_vxlan#dns VirtualEnvironmentSdnZoneVxlan#dns}
   */
   readonly dns?: string;
   /**
   * DNS domain name. Used to register hostnames, such as `<hostname>.<domain>`. The DNS zone must already exist on the DNS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_zone_vxlan#dns_zone VirtualEnvironmentSdnZoneVxlan#dns_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_vxlan#dns_zone VirtualEnvironmentSdnZoneVxlan#dns_zone}
   */
   readonly dnsZone?: string;
   /**
   * The unique identifier of the SDN zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_zone_vxlan#id VirtualEnvironmentSdnZoneVxlan#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_vxlan#id VirtualEnvironmentSdnZoneVxlan#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,37 +31,37 @@ export interface VirtualEnvironmentSdnZoneVxlanConfig extends cdktf.TerraformMet
   /**
   * IP Address Management system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_zone_vxlan#ipam VirtualEnvironmentSdnZoneVxlan#ipam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_vxlan#ipam VirtualEnvironmentSdnZoneVxlan#ipam}
   */
   readonly ipam?: string;
   /**
   * MTU value for the zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_zone_vxlan#mtu VirtualEnvironmentSdnZoneVxlan#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_vxlan#mtu VirtualEnvironmentSdnZoneVxlan#mtu}
   */
   readonly mtu?: number;
   /**
   * The Proxmox nodes which the zone and associated VNets should be deployed on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_zone_vxlan#nodes VirtualEnvironmentSdnZoneVxlan#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_vxlan#nodes VirtualEnvironmentSdnZoneVxlan#nodes}
   */
   readonly nodes?: string[];
   /**
   * A list of IP addresses of each node in the VXLAN zone. This can be external nodes reachable at this IP address. All nodes in the cluster need to be mentioned here
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_zone_vxlan#peers VirtualEnvironmentSdnZoneVxlan#peers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_vxlan#peers VirtualEnvironmentSdnZoneVxlan#peers}
   */
   readonly peers: string[];
   /**
   * Reverse DNS API server address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_zone_vxlan#reverse_dns VirtualEnvironmentSdnZoneVxlan#reverse_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_vxlan#reverse_dns VirtualEnvironmentSdnZoneVxlan#reverse_dns}
   */
   readonly reverseDns?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_zone_vxlan proxmox_virtual_environment_sdn_zone_vxlan}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_vxlan proxmox_virtual_environment_sdn_zone_vxlan}
 */
 export class VirtualEnvironmentSdnZoneVxlan extends cdktf.TerraformResource {
 
@@ -77,7 +77,7 @@ export class VirtualEnvironmentSdnZoneVxlan extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualEnvironmentSdnZoneVxlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualEnvironmentSdnZoneVxlan to import
-  * @param importFromId The id of the existing VirtualEnvironmentSdnZoneVxlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_zone_vxlan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualEnvironmentSdnZoneVxlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_vxlan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualEnvironmentSdnZoneVxlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -89,7 +89,7 @@ export class VirtualEnvironmentSdnZoneVxlan extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_sdn_zone_vxlan proxmox_virtual_environment_sdn_zone_vxlan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_sdn_zone_vxlan proxmox_virtual_environment_sdn_zone_vxlan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -100,8 +100,8 @@ export class VirtualEnvironmentSdnZoneVxlan extends cdktf.TerraformResource {
       terraformResourceType: 'proxmox_virtual_environment_sdn_zone_vxlan',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.88.0',
-        providerVersionConstraint: '0.88.0'
+        providerVersion: '0.89.0',
+        providerVersionConstraint: '0.89.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

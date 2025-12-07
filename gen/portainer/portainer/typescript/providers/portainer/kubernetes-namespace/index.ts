@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/kubernetes_namespace
+// https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/kubernetes_namespace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface KubernetesNamespaceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/kubernetes_namespace#annotations KubernetesNamespace#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/kubernetes_namespace#annotations KubernetesNamespace#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/kubernetes_namespace#environment_id KubernetesNamespace#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/kubernetes_namespace#environment_id KubernetesNamespace#environment_id}
   */
   readonly environmentId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/kubernetes_namespace#id KubernetesNamespace#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/kubernetes_namespace#id KubernetesNamespace#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/kubernetes_namespace#name KubernetesNamespace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/kubernetes_namespace#name KubernetesNamespace#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/kubernetes_namespace#owner KubernetesNamespace#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/kubernetes_namespace#owner KubernetesNamespace#owner}
   */
   readonly owner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/kubernetes_namespace#resource_quota KubernetesNamespace#resource_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/kubernetes_namespace#resource_quota KubernetesNamespace#resource_quota}
   */
   readonly resourceQuota?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/kubernetes_namespace portainer_kubernetes_namespace}
+* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/kubernetes_namespace portainer_kubernetes_namespace}
 */
 export class KubernetesNamespace extends cdktf.TerraformResource {
 
@@ -53,7 +53,7 @@ export class KubernetesNamespace extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesNamespace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesNamespace to import
-  * @param importFromId The id of the existing KubernetesNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/kubernetes_namespace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/kubernetes_namespace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesNamespace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class KubernetesNamespace extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/kubernetes_namespace portainer_kubernetes_namespace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.20.1/docs/resources/kubernetes_namespace portainer_kubernetes_namespace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class KubernetesNamespace extends cdktf.TerraformResource {
       terraformResourceType: 'portainer_kubernetes_namespace',
       terraformGeneratorMetadata: {
         providerName: 'portainer',
-        providerVersion: '1.20.0',
-        providerVersionConstraint: '1.20.0'
+        providerVersion: '1.20.1',
+        providerVersionConstraint: '1.20.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

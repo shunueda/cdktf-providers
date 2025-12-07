@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_acme_dns_plugin
+// https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_acme_dns_plugin
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface VirtualEnvironmentAcmeDnsPluginConfig extends cdktf.TerraformMe
   /**
   * API plugin name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_acme_dns_plugin#api VirtualEnvironmentAcmeDnsPlugin#api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_acme_dns_plugin#api VirtualEnvironmentAcmeDnsPlugin#api}
   */
   readonly api: string;
   /**
   * DNS plugin data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_acme_dns_plugin#data VirtualEnvironmentAcmeDnsPlugin#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_acme_dns_plugin#data VirtualEnvironmentAcmeDnsPlugin#data}
   */
   readonly data?: { [key: string]: string };
   /**
   * SHA1 digest of the current configuration. Prevent changes if current configuration file has a different digest. This can be used to prevent concurrent modifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_acme_dns_plugin#digest VirtualEnvironmentAcmeDnsPlugin#digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_acme_dns_plugin#digest VirtualEnvironmentAcmeDnsPlugin#digest}
   */
   readonly digest?: string;
   /**
   * Flag to disable the config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_acme_dns_plugin#disable VirtualEnvironmentAcmeDnsPlugin#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_acme_dns_plugin#disable VirtualEnvironmentAcmeDnsPlugin#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * ACME Plugin ID name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_acme_dns_plugin#plugin VirtualEnvironmentAcmeDnsPlugin#plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_acme_dns_plugin#plugin VirtualEnvironmentAcmeDnsPlugin#plugin}
   */
   readonly plugin: string;
   /**
   * Extra delay in seconds to wait before requesting validation. Allows to cope with a long TTL of DNS records (0 - 172800).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_acme_dns_plugin#validation_delay VirtualEnvironmentAcmeDnsPlugin#validation_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_acme_dns_plugin#validation_delay VirtualEnvironmentAcmeDnsPlugin#validation_delay}
   */
   readonly validationDelay?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_acme_dns_plugin proxmox_virtual_environment_acme_dns_plugin}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_acme_dns_plugin proxmox_virtual_environment_acme_dns_plugin}
 */
 export class VirtualEnvironmentAcmeDnsPlugin extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class VirtualEnvironmentAcmeDnsPlugin extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualEnvironmentAcmeDnsPlugin resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualEnvironmentAcmeDnsPlugin to import
-  * @param importFromId The id of the existing VirtualEnvironmentAcmeDnsPlugin that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_acme_dns_plugin#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualEnvironmentAcmeDnsPlugin that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_acme_dns_plugin#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualEnvironmentAcmeDnsPlugin to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class VirtualEnvironmentAcmeDnsPlugin extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_acme_dns_plugin proxmox_virtual_environment_acme_dns_plugin} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_acme_dns_plugin proxmox_virtual_environment_acme_dns_plugin} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class VirtualEnvironmentAcmeDnsPlugin extends cdktf.TerraformResource {
       terraformResourceType: 'proxmox_virtual_environment_acme_dns_plugin',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.88.0',
-        providerVersionConstraint: '0.88.0'
+        providerVersion: '0.89.0',
+        providerVersionConstraint: '0.89.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

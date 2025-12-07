@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_network_linux_vlan
+// https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_network_linux_vlan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface VirtualEnvironmentNetworkLinuxVlanConfig extends cdktf.Terrafor
   /**
   * The interface IPv4/CIDR address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_network_linux_vlan#address VirtualEnvironmentNetworkLinuxVlan#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_network_linux_vlan#address VirtualEnvironmentNetworkLinuxVlan#address}
   */
   readonly address?: string;
   /**
   * The interface IPv6/CIDR address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_network_linux_vlan#address6 VirtualEnvironmentNetworkLinuxVlan#address6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_network_linux_vlan#address6 VirtualEnvironmentNetworkLinuxVlan#address6}
   */
   readonly address6?: string;
   /**
   * Automatically start interface on boot (defaults to `true`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_network_linux_vlan#autostart VirtualEnvironmentNetworkLinuxVlan#autostart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_network_linux_vlan#autostart VirtualEnvironmentNetworkLinuxVlan#autostart}
   */
   readonly autostart?: boolean | cdktf.IResolvable;
   /**
   * Comment for the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_network_linux_vlan#comment VirtualEnvironmentNetworkLinuxVlan#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_network_linux_vlan#comment VirtualEnvironmentNetworkLinuxVlan#comment}
   */
   readonly comment?: string;
   /**
   * Default gateway address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_network_linux_vlan#gateway VirtualEnvironmentNetworkLinuxVlan#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_network_linux_vlan#gateway VirtualEnvironmentNetworkLinuxVlan#gateway}
   */
   readonly gateway?: string;
   /**
   * Default IPv6 gateway address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_network_linux_vlan#gateway6 VirtualEnvironmentNetworkLinuxVlan#gateway6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_network_linux_vlan#gateway6 VirtualEnvironmentNetworkLinuxVlan#gateway6}
   */
   readonly gateway6?: string;
   /**
   * The VLAN raw device. See also `name`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_network_linux_vlan#interface VirtualEnvironmentNetworkLinuxVlan#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_network_linux_vlan#interface VirtualEnvironmentNetworkLinuxVlan#interface}
   */
   readonly interface?: string;
   /**
   * The interface MTU.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_network_linux_vlan#mtu VirtualEnvironmentNetworkLinuxVlan#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_network_linux_vlan#mtu VirtualEnvironmentNetworkLinuxVlan#mtu}
   */
   readonly mtu?: number;
   /**
   * The interface name. Either add the VLAN tag number to an existing interface name, e.g. `ens18.21` (and do not set `interface` and `vlan`), or use custom name, e.g. `vlan_lab` (`interface` and `vlan` are then required).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_network_linux_vlan#name VirtualEnvironmentNetworkLinuxVlan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_network_linux_vlan#name VirtualEnvironmentNetworkLinuxVlan#name}
   */
   readonly name: string;
   /**
   * The name of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_network_linux_vlan#node_name VirtualEnvironmentNetworkLinuxVlan#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_network_linux_vlan#node_name VirtualEnvironmentNetworkLinuxVlan#node_name}
   */
   readonly nodeName: string;
   /**
   * The VLAN tag. See also `name`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_network_linux_vlan#vlan VirtualEnvironmentNetworkLinuxVlan#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_network_linux_vlan#vlan VirtualEnvironmentNetworkLinuxVlan#vlan}
   */
   readonly vlan?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_network_linux_vlan proxmox_virtual_environment_network_linux_vlan}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_network_linux_vlan proxmox_virtual_environment_network_linux_vlan}
 */
 export class VirtualEnvironmentNetworkLinuxVlan extends cdktf.TerraformResource {
 
@@ -92,7 +92,7 @@ export class VirtualEnvironmentNetworkLinuxVlan extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a VirtualEnvironmentNetworkLinuxVlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualEnvironmentNetworkLinuxVlan to import
-  * @param importFromId The id of the existing VirtualEnvironmentNetworkLinuxVlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_network_linux_vlan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualEnvironmentNetworkLinuxVlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_network_linux_vlan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualEnvironmentNetworkLinuxVlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -104,7 +104,7 @@ export class VirtualEnvironmentNetworkLinuxVlan extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_network_linux_vlan proxmox_virtual_environment_network_linux_vlan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_network_linux_vlan proxmox_virtual_environment_network_linux_vlan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -115,8 +115,8 @@ export class VirtualEnvironmentNetworkLinuxVlan extends cdktf.TerraformResource 
       terraformResourceType: 'proxmox_virtual_environment_network_linux_vlan',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.88.0',
-        providerVersionConstraint: '0.88.0'
+        providerVersion: '0.89.0',
+        providerVersionConstraint: '0.89.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

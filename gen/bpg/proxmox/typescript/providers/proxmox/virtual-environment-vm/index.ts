@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm
+// https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface VirtualEnvironmentVmConfig extends cdktf.TerraformMetaArguments
   /**
   * Whether to enable ACPI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#acpi VirtualEnvironmentVm#acpi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#acpi VirtualEnvironmentVm#acpi}
   */
   readonly acpi?: boolean | cdktf.IResolvable;
   /**
   * The BIOS implementation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#bios VirtualEnvironmentVm#bios}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#bios VirtualEnvironmentVm#bios}
   */
   readonly bios?: string;
   /**
   * The guest will attempt to boot from devices in the order they appear here
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#boot_order VirtualEnvironmentVm#boot_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#boot_order VirtualEnvironmentVm#boot_order}
   */
   readonly bootOrder?: string[];
   /**
   * Whether to delete unreferenced disks on destroy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#delete_unreferenced_disks_on_destroy VirtualEnvironmentVm#delete_unreferenced_disks_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#delete_unreferenced_disks_on_destroy VirtualEnvironmentVm#delete_unreferenced_disks_on_destroy}
   */
   readonly deleteUnreferencedDisksOnDestroy?: boolean | cdktf.IResolvable;
   /**
   * The description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#description VirtualEnvironmentVm#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#description VirtualEnvironmentVm#description}
   */
   readonly description?: string;
   /**
   * A hook script
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#hook_script_file_id VirtualEnvironmentVm#hook_script_file_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#hook_script_file_id VirtualEnvironmentVm#hook_script_file_id}
   */
   readonly hookScriptFileId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#id VirtualEnvironmentVm#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#id VirtualEnvironmentVm#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,307 +53,307 @@ export interface VirtualEnvironmentVmConfig extends cdktf.TerraformMetaArguments
   /**
   * The keyboard layout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#keyboard_layout VirtualEnvironmentVm#keyboard_layout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#keyboard_layout VirtualEnvironmentVm#keyboard_layout}
   */
   readonly keyboardLayout?: string;
   /**
   * The args implementation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#kvm_arguments VirtualEnvironmentVm#kvm_arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#kvm_arguments VirtualEnvironmentVm#kvm_arguments}
   */
   readonly kvmArguments?: string;
   /**
   * The MAC addresses for the network interfaces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#mac_addresses VirtualEnvironmentVm#mac_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#mac_addresses VirtualEnvironmentVm#mac_addresses}
   */
   readonly macAddresses?: string[];
   /**
   * The VM machine type, either default `pc` or `q35`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#machine VirtualEnvironmentVm#machine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#machine VirtualEnvironmentVm#machine}
   */
   readonly machine?: string;
   /**
   * Whether to migrate the VM on node change instead of re-creating it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#migrate VirtualEnvironmentVm#migrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#migrate VirtualEnvironmentVm#migrate}
   */
   readonly migrate?: boolean | cdktf.IResolvable;
   /**
   * The name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#name VirtualEnvironmentVm#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#name VirtualEnvironmentVm#name}
   */
   readonly name?: string;
   /**
   * The node name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#node_name VirtualEnvironmentVm#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#node_name VirtualEnvironmentVm#node_name}
   */
   readonly nodeName: string;
   /**
   * Start VM on Node boot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#on_boot VirtualEnvironmentVm#on_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#on_boot VirtualEnvironmentVm#on_boot}
   */
   readonly onBoot?: boolean | cdktf.IResolvable;
   /**
   * The ID of the pool to assign the virtual machine to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#pool_id VirtualEnvironmentVm#pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#pool_id VirtualEnvironmentVm#pool_id}
   */
   readonly poolId?: string;
   /**
   * Sets the protection flag of the VM. This will disable the remove VM and remove disk operations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#protection VirtualEnvironmentVm#protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#protection VirtualEnvironmentVm#protection}
   */
   readonly protection?: boolean | cdktf.IResolvable;
   /**
   * Whether to purge the VM from backup configurations on destroy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#purge_on_destroy VirtualEnvironmentVm#purge_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#purge_on_destroy VirtualEnvironmentVm#purge_on_destroy}
   */
   readonly purgeOnDestroy?: boolean | cdktf.IResolvable;
   /**
   * Whether to reboot VM after creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#reboot VirtualEnvironmentVm#reboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#reboot VirtualEnvironmentVm#reboot}
   */
   readonly reboot?: boolean | cdktf.IResolvable;
   /**
   * Whether to reboot VM after update if needed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#reboot_after_update VirtualEnvironmentVm#reboot_after_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#reboot_after_update VirtualEnvironmentVm#reboot_after_update}
   */
   readonly rebootAfterUpdate?: boolean | cdktf.IResolvable;
   /**
   * The SCSI hardware type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#scsi_hardware VirtualEnvironmentVm#scsi_hardware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#scsi_hardware VirtualEnvironmentVm#scsi_hardware}
   */
   readonly scsiHardware?: string;
   /**
   * Whether to start the virtual machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#started VirtualEnvironmentVm#started}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#started VirtualEnvironmentVm#started}
   */
   readonly started?: boolean | cdktf.IResolvable;
   /**
   * Whether to stop rather than shutdown on VM destroy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#stop_on_destroy VirtualEnvironmentVm#stop_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#stop_on_destroy VirtualEnvironmentVm#stop_on_destroy}
   */
   readonly stopOnDestroy?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the USB tablet device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#tablet_device VirtualEnvironmentVm#tablet_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#tablet_device VirtualEnvironmentVm#tablet_device}
   */
   readonly tabletDevice?: boolean | cdktf.IResolvable;
   /**
   * Tags of the virtual machine. This is only meta information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#tags VirtualEnvironmentVm#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#tags VirtualEnvironmentVm#tags}
   */
   readonly tags?: string[];
   /**
   * Whether to create a template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#template VirtualEnvironmentVm#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#template VirtualEnvironmentVm#template}
   */
   readonly template?: boolean | cdktf.IResolvable;
   /**
   * Clone VM timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#timeout_clone VirtualEnvironmentVm#timeout_clone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#timeout_clone VirtualEnvironmentVm#timeout_clone}
   */
   readonly timeoutClone?: number;
   /**
   * Create VM timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#timeout_create VirtualEnvironmentVm#timeout_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#timeout_create VirtualEnvironmentVm#timeout_create}
   */
   readonly timeoutCreate?: number;
   /**
   * Migrate VM timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#timeout_migrate VirtualEnvironmentVm#timeout_migrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#timeout_migrate VirtualEnvironmentVm#timeout_migrate}
   */
   readonly timeoutMigrate?: number;
   /**
   * Disk move timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#timeout_move_disk VirtualEnvironmentVm#timeout_move_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#timeout_move_disk VirtualEnvironmentVm#timeout_move_disk}
   */
   readonly timeoutMoveDisk?: number;
   /**
   * Reboot timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#timeout_reboot VirtualEnvironmentVm#timeout_reboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#timeout_reboot VirtualEnvironmentVm#timeout_reboot}
   */
   readonly timeoutReboot?: number;
   /**
   * Shutdown timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#timeout_shutdown_vm VirtualEnvironmentVm#timeout_shutdown_vm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#timeout_shutdown_vm VirtualEnvironmentVm#timeout_shutdown_vm}
   */
   readonly timeoutShutdownVm?: number;
   /**
   * Start VM timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#timeout_start_vm VirtualEnvironmentVm#timeout_start_vm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#timeout_start_vm VirtualEnvironmentVm#timeout_start_vm}
   */
   readonly timeoutStartVm?: number;
   /**
   * Stop VM timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#timeout_stop_vm VirtualEnvironmentVm#timeout_stop_vm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#timeout_stop_vm VirtualEnvironmentVm#timeout_stop_vm}
   */
   readonly timeoutStopVm?: number;
   /**
   * The VM identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#vm_id VirtualEnvironmentVm#vm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#vm_id VirtualEnvironmentVm#vm_id}
   */
   readonly vmId?: number;
   /**
   * agent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#agent VirtualEnvironmentVm#agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#agent VirtualEnvironmentVm#agent}
   */
   readonly agent?: VirtualEnvironmentVmAgent;
   /**
   * amd_sev block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#amd_sev VirtualEnvironmentVm#amd_sev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#amd_sev VirtualEnvironmentVm#amd_sev}
   */
   readonly amdSev?: VirtualEnvironmentVmAmdSev;
   /**
   * audio_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#audio_device VirtualEnvironmentVm#audio_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#audio_device VirtualEnvironmentVm#audio_device}
   */
   readonly audioDevice?: VirtualEnvironmentVmAudioDevice;
   /**
   * cdrom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#cdrom VirtualEnvironmentVm#cdrom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#cdrom VirtualEnvironmentVm#cdrom}
   */
   readonly cdrom?: VirtualEnvironmentVmCdrom;
   /**
   * clone block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#clone VirtualEnvironmentVm#clone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#clone VirtualEnvironmentVm#clone}
   */
   readonly clone?: VirtualEnvironmentVmClone;
   /**
   * cpu block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#cpu VirtualEnvironmentVm#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#cpu VirtualEnvironmentVm#cpu}
   */
   readonly cpu?: VirtualEnvironmentVmCpu;
   /**
   * disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#disk VirtualEnvironmentVm#disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#disk VirtualEnvironmentVm#disk}
   */
   readonly disk?: VirtualEnvironmentVmDisk[] | cdktf.IResolvable;
   /**
   * efi_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#efi_disk VirtualEnvironmentVm#efi_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#efi_disk VirtualEnvironmentVm#efi_disk}
   */
   readonly efiDisk?: VirtualEnvironmentVmEfiDisk;
   /**
   * hostpci block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#hostpci VirtualEnvironmentVm#hostpci}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#hostpci VirtualEnvironmentVm#hostpci}
   */
   readonly hostpci?: VirtualEnvironmentVmHostpci[] | cdktf.IResolvable;
   /**
   * initialization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#initialization VirtualEnvironmentVm#initialization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#initialization VirtualEnvironmentVm#initialization}
   */
   readonly initialization?: VirtualEnvironmentVmInitialization;
   /**
   * memory block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#memory VirtualEnvironmentVm#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#memory VirtualEnvironmentVm#memory}
   */
   readonly memory?: VirtualEnvironmentVmMemory;
   /**
   * network_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#network_device VirtualEnvironmentVm#network_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#network_device VirtualEnvironmentVm#network_device}
   */
   readonly networkDevice?: VirtualEnvironmentVmNetworkDevice[] | cdktf.IResolvable;
   /**
   * numa block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#numa VirtualEnvironmentVm#numa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#numa VirtualEnvironmentVm#numa}
   */
   readonly numa?: VirtualEnvironmentVmNuma[] | cdktf.IResolvable;
   /**
   * operating_system block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#operating_system VirtualEnvironmentVm#operating_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#operating_system VirtualEnvironmentVm#operating_system}
   */
   readonly operatingSystem?: VirtualEnvironmentVmOperatingSystem;
   /**
   * rng block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#rng VirtualEnvironmentVm#rng}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#rng VirtualEnvironmentVm#rng}
   */
   readonly rng?: VirtualEnvironmentVmRng[] | cdktf.IResolvable;
   /**
   * serial_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#serial_device VirtualEnvironmentVm#serial_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#serial_device VirtualEnvironmentVm#serial_device}
   */
   readonly serialDevice?: VirtualEnvironmentVmSerialDevice[] | cdktf.IResolvable;
   /**
   * smbios block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#smbios VirtualEnvironmentVm#smbios}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#smbios VirtualEnvironmentVm#smbios}
   */
   readonly smbios?: VirtualEnvironmentVmSmbios;
   /**
   * startup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#startup VirtualEnvironmentVm#startup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#startup VirtualEnvironmentVm#startup}
   */
   readonly startup?: VirtualEnvironmentVmStartup;
   /**
   * tpm_state block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#tpm_state VirtualEnvironmentVm#tpm_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#tpm_state VirtualEnvironmentVm#tpm_state}
   */
   readonly tpmState?: VirtualEnvironmentVmTpmState;
   /**
   * usb block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#usb VirtualEnvironmentVm#usb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#usb VirtualEnvironmentVm#usb}
   */
   readonly usb?: VirtualEnvironmentVmUsb[] | cdktf.IResolvable;
   /**
   * vga block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#vga VirtualEnvironmentVm#vga}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#vga VirtualEnvironmentVm#vga}
   */
   readonly vga?: VirtualEnvironmentVmVga;
   /**
   * virtiofs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#virtiofs VirtualEnvironmentVm#virtiofs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#virtiofs VirtualEnvironmentVm#virtiofs}
   */
   readonly virtiofs?: VirtualEnvironmentVmVirtiofs[] | cdktf.IResolvable;
   /**
   * watchdog block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#watchdog VirtualEnvironmentVm#watchdog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#watchdog VirtualEnvironmentVm#watchdog}
   */
   readonly watchdog?: VirtualEnvironmentVmWatchdog;
 }
@@ -361,13 +361,13 @@ export interface VirtualEnvironmentVmAgentWaitForIp {
   /**
   * Wait for at least one IPv4 address (non-loopback, non-link-local)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#ipv4 VirtualEnvironmentVm#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#ipv4 VirtualEnvironmentVm#ipv4}
   */
   readonly ipv4?: boolean | cdktf.IResolvable;
   /**
   * Wait for at least one IPv6 address (non-loopback, non-link-local)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#ipv6 VirtualEnvironmentVm#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#ipv6 VirtualEnvironmentVm#ipv6}
   */
   readonly ipv6?: boolean | cdktf.IResolvable;
 }
@@ -482,31 +482,31 @@ export interface VirtualEnvironmentVmAgent {
   /**
   * Whether to enable the QEMU agent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#enabled VirtualEnvironmentVm#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#enabled VirtualEnvironmentVm#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The maximum amount of time to wait for data from the QEMU agent to become available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#timeout VirtualEnvironmentVm#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#timeout VirtualEnvironmentVm#timeout}
   */
   readonly timeout?: string;
   /**
   * Whether to enable the FSTRIM feature in the QEMU agent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#trim VirtualEnvironmentVm#trim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#trim VirtualEnvironmentVm#trim}
   */
   readonly trim?: boolean | cdktf.IResolvable;
   /**
   * The QEMU agent interface type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#type VirtualEnvironmentVm#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#type VirtualEnvironmentVm#type}
   */
   readonly type?: string;
   /**
   * wait_for_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#wait_for_ip VirtualEnvironmentVm#wait_for_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#wait_for_ip VirtualEnvironmentVm#wait_for_ip}
   */
   readonly waitForIp?: VirtualEnvironmentVmAgentWaitForIp;
 }
@@ -708,31 +708,31 @@ export interface VirtualEnvironmentVmAmdSev {
   /**
   * Sets policy bit to allow Simultaneous Multi Threading (SMT) (Ignored unless for SEV-SNP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#allow_smt VirtualEnvironmentVm#allow_smt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#allow_smt VirtualEnvironmentVm#allow_smt}
   */
   readonly allowSmt?: boolean | cdktf.IResolvable;
   /**
   * Add kernel hashes to guest firmware for measured linux kernel launch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#kernel_hashes VirtualEnvironmentVm#kernel_hashes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#kernel_hashes VirtualEnvironmentVm#kernel_hashes}
   */
   readonly kernelHashes?: boolean | cdktf.IResolvable;
   /**
   * Sets policy bit to disallow debugging of guest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#no_debug VirtualEnvironmentVm#no_debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#no_debug VirtualEnvironmentVm#no_debug}
   */
   readonly noDebug?: boolean | cdktf.IResolvable;
   /**
   * Sets policy bit to disallow key sharing with other guests (Ignored for SEV-SNP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#no_key_sharing VirtualEnvironmentVm#no_key_sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#no_key_sharing VirtualEnvironmentVm#no_key_sharing}
   */
   readonly noKeySharing?: boolean | cdktf.IResolvable;
   /**
   * Enable standard SEV with type=std or enable experimental SEV-ES with the es optionor enable experimental SEV-SNP with the snp option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#type VirtualEnvironmentVm#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#type VirtualEnvironmentVm#type}
   */
   readonly type?: string;
 }
@@ -934,19 +934,19 @@ export interface VirtualEnvironmentVmAudioDevice {
   /**
   * The device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#device VirtualEnvironmentVm#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#device VirtualEnvironmentVm#device}
   */
   readonly device?: string;
   /**
   * The driver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#driver VirtualEnvironmentVm#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#driver VirtualEnvironmentVm#driver}
   */
   readonly driver?: string;
   /**
   * Whether to enable the audio device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#enabled VirtualEnvironmentVm#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#enabled VirtualEnvironmentVm#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -1090,19 +1090,19 @@ export interface VirtualEnvironmentVmCdrom {
   /**
   * Whether to enable the CDROM drive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#enabled VirtualEnvironmentVm#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#enabled VirtualEnvironmentVm#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The file id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#file_id VirtualEnvironmentVm#file_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#file_id VirtualEnvironmentVm#file_id}
   */
   readonly fileId?: string;
   /**
   * The CDROM interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#interface VirtualEnvironmentVm#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#interface VirtualEnvironmentVm#interface}
   */
   readonly interface?: string;
 }
@@ -1246,31 +1246,31 @@ export interface VirtualEnvironmentVmClone {
   /**
   * The ID of the target datastore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#datastore_id VirtualEnvironmentVm#datastore_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#datastore_id VirtualEnvironmentVm#datastore_id}
   */
   readonly datastoreId?: string;
   /**
   * The Clone Type, create a Full Clone (true) or a linked Clone (false)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#full VirtualEnvironmentVm#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#full VirtualEnvironmentVm#full}
   */
   readonly full?: boolean | cdktf.IResolvable;
   /**
   * The name of the source node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#node_name VirtualEnvironmentVm#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#node_name VirtualEnvironmentVm#node_name}
   */
   readonly nodeName?: string;
   /**
   * The number of Retries to create a clone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#retries VirtualEnvironmentVm#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#retries VirtualEnvironmentVm#retries}
   */
   readonly retries?: number;
   /**
   * The ID of the source VM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#vm_id VirtualEnvironmentVm#vm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#vm_id VirtualEnvironmentVm#vm_id}
   */
   readonly vmId: number;
 }
@@ -1469,61 +1469,61 @@ export interface VirtualEnvironmentVmCpu {
   /**
   * The CPU affinity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#affinity VirtualEnvironmentVm#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#affinity VirtualEnvironmentVm#affinity}
   */
   readonly affinity?: string;
   /**
   * The CPU architecture
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#architecture VirtualEnvironmentVm#architecture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#architecture VirtualEnvironmentVm#architecture}
   */
   readonly architecture?: string;
   /**
   * The number of CPU cores
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#cores VirtualEnvironmentVm#cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#cores VirtualEnvironmentVm#cores}
   */
   readonly cores?: number;
   /**
   * The CPU flags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#flags VirtualEnvironmentVm#flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#flags VirtualEnvironmentVm#flags}
   */
   readonly flags?: string[];
   /**
   * The number of hotplugged vCPUs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#hotplugged VirtualEnvironmentVm#hotplugged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#hotplugged VirtualEnvironmentVm#hotplugged}
   */
   readonly hotplugged?: number;
   /**
   * Limit of CPU usage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#limit VirtualEnvironmentVm#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#limit VirtualEnvironmentVm#limit}
   */
   readonly limit?: number;
   /**
   * Enable/disable NUMA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#numa VirtualEnvironmentVm#numa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#numa VirtualEnvironmentVm#numa}
   */
   readonly numa?: boolean | cdktf.IResolvable;
   /**
   * The number of CPU sockets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#sockets VirtualEnvironmentVm#sockets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#sockets VirtualEnvironmentVm#sockets}
   */
   readonly sockets?: number;
   /**
   * The emulated CPU type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#type VirtualEnvironmentVm#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#type VirtualEnvironmentVm#type}
   */
   readonly type?: string;
   /**
   * The CPU units
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#units VirtualEnvironmentVm#units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#units VirtualEnvironmentVm#units}
   */
   readonly units?: number;
 }
@@ -1850,7 +1850,7 @@ export class VirtualEnvironmentVmCpuOutputReference extends cdktf.ComplexObject 
     return this._type;
   }
 
-  // units - computed: false, optional: true, required: false
+  // units - computed: true, optional: true, required: false
   private _units?: number; 
   public get units() {
     return this.getNumberAttribute('units');
@@ -1870,49 +1870,49 @@ export interface VirtualEnvironmentVmDiskSpeed {
   /**
   * The maximum read I/O in operations per second
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#iops_read VirtualEnvironmentVm#iops_read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#iops_read VirtualEnvironmentVm#iops_read}
   */
   readonly iopsRead?: number;
   /**
   * The maximum unthrottled read I/O pool in operations per second
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#iops_read_burstable VirtualEnvironmentVm#iops_read_burstable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#iops_read_burstable VirtualEnvironmentVm#iops_read_burstable}
   */
   readonly iopsReadBurstable?: number;
   /**
   * The maximum write I/O in operations per second
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#iops_write VirtualEnvironmentVm#iops_write}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#iops_write VirtualEnvironmentVm#iops_write}
   */
   readonly iopsWrite?: number;
   /**
   * The maximum unthrottled write I/O pool in operations per second
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#iops_write_burstable VirtualEnvironmentVm#iops_write_burstable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#iops_write_burstable VirtualEnvironmentVm#iops_write_burstable}
   */
   readonly iopsWriteBurstable?: number;
   /**
   * The maximum read speed in megabytes per second
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#read VirtualEnvironmentVm#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#read VirtualEnvironmentVm#read}
   */
   readonly read?: number;
   /**
   * The maximum burstable read speed in megabytes per second
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#read_burstable VirtualEnvironmentVm#read_burstable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#read_burstable VirtualEnvironmentVm#read_burstable}
   */
   readonly readBurstable?: number;
   /**
   * The maximum write speed in megabytes per second
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#write VirtualEnvironmentVm#write}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#write VirtualEnvironmentVm#write}
   */
   readonly write?: number;
   /**
   * The maximum burstable write speed in megabytes per second
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#write_burstable VirtualEnvironmentVm#write_burstable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#write_burstable VirtualEnvironmentVm#write_burstable}
   */
   readonly writeBurstable?: number;
 }
@@ -2201,97 +2201,97 @@ export interface VirtualEnvironmentVmDisk {
   /**
   * The disk AIO mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#aio VirtualEnvironmentVm#aio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#aio VirtualEnvironmentVm#aio}
   */
   readonly aio?: string;
   /**
   * Whether the drive should be included when making backups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#backup VirtualEnvironmentVm#backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#backup VirtualEnvironmentVm#backup}
   */
   readonly backup?: boolean | cdktf.IResolvable;
   /**
   * The drive’s cache mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#cache VirtualEnvironmentVm#cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#cache VirtualEnvironmentVm#cache}
   */
   readonly cache?: string;
   /**
   * The datastore id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#datastore_id VirtualEnvironmentVm#datastore_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#datastore_id VirtualEnvironmentVm#datastore_id}
   */
   readonly datastoreId?: string;
   /**
   * Whether to pass discard/trim requests to the underlying storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#discard VirtualEnvironmentVm#discard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#discard VirtualEnvironmentVm#discard}
   */
   readonly discard?: string;
   /**
   * The file format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#file_format VirtualEnvironmentVm#file_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#file_format VirtualEnvironmentVm#file_format}
   */
   readonly fileFormat?: string;
   /**
   * The file id for a disk image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#file_id VirtualEnvironmentVm#file_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#file_id VirtualEnvironmentVm#file_id}
   */
   readonly fileId?: string;
   /**
   * The file id of a disk image to import from storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#import_from VirtualEnvironmentVm#import_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#import_from VirtualEnvironmentVm#import_from}
   */
   readonly importFromAttribute?: string;
   /**
   * The datastore name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#interface VirtualEnvironmentVm#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#interface VirtualEnvironmentVm#interface}
   */
   readonly interface: string;
   /**
   * Whether to use iothreads for this disk drive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#iothread VirtualEnvironmentVm#iothread}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#iothread VirtualEnvironmentVm#iothread}
   */
   readonly iothread?: boolean | cdktf.IResolvable;
   /**
   * The in-datastore path to disk image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#path_in_datastore VirtualEnvironmentVm#path_in_datastore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#path_in_datastore VirtualEnvironmentVm#path_in_datastore}
   */
   readonly pathInDatastore?: string;
   /**
   * Whether the drive should be considered for replication jobs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#replicate VirtualEnvironmentVm#replicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#replicate VirtualEnvironmentVm#replicate}
   */
   readonly replicate?: boolean | cdktf.IResolvable;
   /**
   * The drive’s reported serial number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#serial VirtualEnvironmentVm#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#serial VirtualEnvironmentVm#serial}
   */
   readonly serial?: string;
   /**
   * The disk size in gigabytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#size VirtualEnvironmentVm#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#size VirtualEnvironmentVm#size}
   */
   readonly size?: number;
   /**
   * Whether to use ssd for this disk drive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#ssd VirtualEnvironmentVm#ssd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#ssd VirtualEnvironmentVm#ssd}
   */
   readonly ssd?: boolean | cdktf.IResolvable;
   /**
   * speed block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#speed VirtualEnvironmentVm#speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#speed VirtualEnvironmentVm#speed}
   */
   readonly speed?: VirtualEnvironmentVmDiskSpeed;
 }
@@ -2841,25 +2841,25 @@ export interface VirtualEnvironmentVmEfiDisk {
   /**
   * The datastore id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#datastore_id VirtualEnvironmentVm#datastore_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#datastore_id VirtualEnvironmentVm#datastore_id}
   */
   readonly datastoreId?: string;
   /**
   * The file format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#file_format VirtualEnvironmentVm#file_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#file_format VirtualEnvironmentVm#file_format}
   */
   readonly fileFormat?: string;
   /**
   * Use an EFI vars template with distribution-specific and Microsoft Standard keys enrolled, if used with efi type=`4m`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#pre_enrolled_keys VirtualEnvironmentVm#pre_enrolled_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#pre_enrolled_keys VirtualEnvironmentVm#pre_enrolled_keys}
   */
   readonly preEnrolledKeys?: boolean | cdktf.IResolvable;
   /**
   * Size and type of the OVMF EFI disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#type VirtualEnvironmentVm#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#type VirtualEnvironmentVm#type}
   */
   readonly type?: string;
 }
@@ -3032,13 +3032,13 @@ export interface VirtualEnvironmentVmHostpci {
   /**
   * The PCI device name for Proxmox, in form of 'hostpciX' where X is a sequential number from 0 to 3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#device VirtualEnvironmentVm#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#device VirtualEnvironmentVm#device}
   */
   readonly device: string;
   /**
   * The PCI ID of the device, for example 0000:00:1f.0 (or 0000:00:1f.0;0000:00:1f.1 for multiple device functions, or 0000:00:1f for all functions). Use either this or mapping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#id VirtualEnvironmentVm#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#id VirtualEnvironmentVm#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3047,37 +3047,37 @@ export interface VirtualEnvironmentVmHostpci {
   /**
   * The resource mapping name of the device, for example gpu. Use either this or id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#mapping VirtualEnvironmentVm#mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#mapping VirtualEnvironmentVm#mapping}
   */
   readonly mapping?: string;
   /**
   * The the mediated device to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#mdev VirtualEnvironmentVm#mdev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#mdev VirtualEnvironmentVm#mdev}
   */
   readonly mdev?: string;
   /**
   * Tells Proxmox VE to use a PCIe or PCI port. Some guests/device combination require PCIe rather than PCI. PCIe is only available for q35 machine types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#pcie VirtualEnvironmentVm#pcie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#pcie VirtualEnvironmentVm#pcie}
   */
   readonly pcie?: boolean | cdktf.IResolvable;
   /**
   * A path to a ROM file for the device to use. This is a relative path under /usr/share/kvm/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#rom_file VirtualEnvironmentVm#rom_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#rom_file VirtualEnvironmentVm#rom_file}
   */
   readonly romFile?: string;
   /**
   * Makes the firmware ROM visible for the guest. Default is true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#rombar VirtualEnvironmentVm#rombar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#rombar VirtualEnvironmentVm#rombar}
   */
   readonly rombar?: boolean | cdktf.IResolvable;
   /**
   * Marks the PCI(e) device as the primary GPU of the VM. With this enabled, the vga configuration argument will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#xvga VirtualEnvironmentVm#xvga}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#xvga VirtualEnvironmentVm#xvga}
   */
   readonly xvga?: boolean | cdktf.IResolvable;
 }
@@ -3395,13 +3395,13 @@ export interface VirtualEnvironmentVmInitializationDns {
   /**
   * The DNS search domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#domain VirtualEnvironmentVm#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#domain VirtualEnvironmentVm#domain}
   */
   readonly domain?: string;
   /**
   * The list of DNS servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#servers VirtualEnvironmentVm#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#servers VirtualEnvironmentVm#servers}
   */
   readonly servers?: string[];
 }
@@ -3516,13 +3516,13 @@ export interface VirtualEnvironmentVmInitializationIpConfigIpv4 {
   /**
   * The IPv4 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#address VirtualEnvironmentVm#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#address VirtualEnvironmentVm#address}
   */
   readonly address?: string;
   /**
   * The IPv4 gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#gateway VirtualEnvironmentVm#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#gateway VirtualEnvironmentVm#gateway}
   */
   readonly gateway?: string;
 }
@@ -3637,13 +3637,13 @@ export interface VirtualEnvironmentVmInitializationIpConfigIpv6 {
   /**
   * The IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#address VirtualEnvironmentVm#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#address VirtualEnvironmentVm#address}
   */
   readonly address?: string;
   /**
   * The IPv6 gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#gateway VirtualEnvironmentVm#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#gateway VirtualEnvironmentVm#gateway}
   */
   readonly gateway?: string;
 }
@@ -3758,13 +3758,13 @@ export interface VirtualEnvironmentVmInitializationIpConfig {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#ipv4 VirtualEnvironmentVm#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#ipv4 VirtualEnvironmentVm#ipv4}
   */
   readonly ipv4?: VirtualEnvironmentVmInitializationIpConfigIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#ipv6 VirtualEnvironmentVm#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#ipv6 VirtualEnvironmentVm#ipv6}
   */
   readonly ipv6?: VirtualEnvironmentVmInitializationIpConfigIpv6;
 }
@@ -3911,19 +3911,19 @@ export interface VirtualEnvironmentVmInitializationUserAccount {
   /**
   * The SSH keys
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#keys VirtualEnvironmentVm#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#keys VirtualEnvironmentVm#keys}
   */
   readonly keys?: string[];
   /**
   * The SSH password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#password VirtualEnvironmentVm#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#password VirtualEnvironmentVm#password}
   */
   readonly password?: string;
   /**
   * The SSH username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#username VirtualEnvironmentVm#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#username VirtualEnvironmentVm#username}
   */
   readonly username?: string;
 }
@@ -4067,67 +4067,67 @@ export interface VirtualEnvironmentVmInitialization {
   /**
   * The datastore id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#datastore_id VirtualEnvironmentVm#datastore_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#datastore_id VirtualEnvironmentVm#datastore_id}
   */
   readonly datastoreId?: string;
   /**
   * The file format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#file_format VirtualEnvironmentVm#file_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#file_format VirtualEnvironmentVm#file_format}
   */
   readonly fileFormat?: string;
   /**
   * The IDE interface on which the CloudInit drive will be added
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#interface VirtualEnvironmentVm#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#interface VirtualEnvironmentVm#interface}
   */
   readonly interface?: string;
   /**
   * The ID of a file containing meta data config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#meta_data_file_id VirtualEnvironmentVm#meta_data_file_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#meta_data_file_id VirtualEnvironmentVm#meta_data_file_id}
   */
   readonly metaDataFileId?: string;
   /**
   * The ID of a file containing network config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#network_data_file_id VirtualEnvironmentVm#network_data_file_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#network_data_file_id VirtualEnvironmentVm#network_data_file_id}
   */
   readonly networkDataFileId?: string;
   /**
   * The cloud-init configuration format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#type VirtualEnvironmentVm#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#type VirtualEnvironmentVm#type}
   */
   readonly type?: string;
   /**
   * The ID of a file containing custom user data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#user_data_file_id VirtualEnvironmentVm#user_data_file_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#user_data_file_id VirtualEnvironmentVm#user_data_file_id}
   */
   readonly userDataFileId?: string;
   /**
   * The ID of a file containing vendor data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#vendor_data_file_id VirtualEnvironmentVm#vendor_data_file_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#vendor_data_file_id VirtualEnvironmentVm#vendor_data_file_id}
   */
   readonly vendorDataFileId?: string;
   /**
   * dns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#dns VirtualEnvironmentVm#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#dns VirtualEnvironmentVm#dns}
   */
   readonly dns?: VirtualEnvironmentVmInitializationDns;
   /**
   * ip_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#ip_config VirtualEnvironmentVm#ip_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#ip_config VirtualEnvironmentVm#ip_config}
   */
   readonly ipConfig?: VirtualEnvironmentVmInitializationIpConfig[] | cdktf.IResolvable;
   /**
   * user_account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#user_account VirtualEnvironmentVm#user_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#user_account VirtualEnvironmentVm#user_account}
   */
   readonly userAccount?: VirtualEnvironmentVmInitializationUserAccount;
 }
@@ -4503,31 +4503,31 @@ export interface VirtualEnvironmentVmMemory {
   /**
   * The dedicated memory in megabytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#dedicated VirtualEnvironmentVm#dedicated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#dedicated VirtualEnvironmentVm#dedicated}
   */
   readonly dedicated?: number;
   /**
   * The floating memory in megabytes (balloon)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#floating VirtualEnvironmentVm#floating}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#floating VirtualEnvironmentVm#floating}
   */
   readonly floating?: number;
   /**
   * Enable/disable hugepages memory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#hugepages VirtualEnvironmentVm#hugepages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#hugepages VirtualEnvironmentVm#hugepages}
   */
   readonly hugepages?: string;
   /**
   * Hugepages will not be deleted after VM shutdown and can be used for subsequent starts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#keep_hugepages VirtualEnvironmentVm#keep_hugepages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#keep_hugepages VirtualEnvironmentVm#keep_hugepages}
   */
   readonly keepHugepages?: boolean | cdktf.IResolvable;
   /**
   * The shared memory in megabytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#shared VirtualEnvironmentVm#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#shared VirtualEnvironmentVm#shared}
   */
   readonly shared?: number;
 }
@@ -4729,67 +4729,67 @@ export interface VirtualEnvironmentVmNetworkDevice {
   /**
   * The bridge
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#bridge VirtualEnvironmentVm#bridge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#bridge VirtualEnvironmentVm#bridge}
   */
   readonly bridge?: string;
   /**
   * Whether the network device should be disconnected from the network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#disconnected VirtualEnvironmentVm#disconnected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#disconnected VirtualEnvironmentVm#disconnected}
   */
   readonly disconnected?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the network device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#enabled VirtualEnvironmentVm#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#enabled VirtualEnvironmentVm#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Whether this interface's firewall rules should be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#firewall VirtualEnvironmentVm#firewall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#firewall VirtualEnvironmentVm#firewall}
   */
   readonly firewall?: boolean | cdktf.IResolvable;
   /**
   * The MAC address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#mac_address VirtualEnvironmentVm#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#mac_address VirtualEnvironmentVm#mac_address}
   */
   readonly macAddress?: string;
   /**
   * The model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#model VirtualEnvironmentVm#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#model VirtualEnvironmentVm#model}
   */
   readonly model?: string;
   /**
   * Maximum transmission unit (MTU)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#mtu VirtualEnvironmentVm#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#mtu VirtualEnvironmentVm#mtu}
   */
   readonly mtu?: number;
   /**
   * Number of packet queues to be used on the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#queues VirtualEnvironmentVm#queues}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#queues VirtualEnvironmentVm#queues}
   */
   readonly queues?: number;
   /**
   * The rate limit in megabytes per second
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#rate_limit VirtualEnvironmentVm#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#rate_limit VirtualEnvironmentVm#rate_limit}
   */
   readonly rateLimit?: number;
   /**
   * List of VLAN trunks for the network interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#trunks VirtualEnvironmentVm#trunks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#trunks VirtualEnvironmentVm#trunks}
   */
   readonly trunks?: string;
   /**
   * The VLAN identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#vlan_id VirtualEnvironmentVm#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#vlan_id VirtualEnvironmentVm#vlan_id}
   */
   readonly vlanId?: number;
 }
@@ -5197,31 +5197,31 @@ export interface VirtualEnvironmentVmNuma {
   /**
   * CPUs accessing this NUMA node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#cpus VirtualEnvironmentVm#cpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#cpus VirtualEnvironmentVm#cpus}
   */
   readonly cpus: string;
   /**
   * Numa node device ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#device VirtualEnvironmentVm#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#device VirtualEnvironmentVm#device}
   */
   readonly device: string;
   /**
   * Host NUMA nodes to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#hostnodes VirtualEnvironmentVm#hostnodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#hostnodes VirtualEnvironmentVm#hostnodes}
   */
   readonly hostnodes?: string;
   /**
   * Amount of memory this NUMA node provides
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#memory VirtualEnvironmentVm#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#memory VirtualEnvironmentVm#memory}
   */
   readonly memory: number;
   /**
   * NUMA policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#policy VirtualEnvironmentVm#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#policy VirtualEnvironmentVm#policy}
   */
   readonly policy?: string;
 }
@@ -5446,7 +5446,7 @@ export interface VirtualEnvironmentVmOperatingSystem {
   /**
   * The type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#type VirtualEnvironmentVm#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#type VirtualEnvironmentVm#type}
   */
   readonly type?: string;
 }
@@ -5532,19 +5532,19 @@ export interface VirtualEnvironmentVmRng {
   /**
   * Maximum bytes of entropy allowed to get injected into the guest every `period` milliseconds. Prefer a lower value when using `/dev/random` as source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#max_bytes VirtualEnvironmentVm#max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#max_bytes VirtualEnvironmentVm#max_bytes}
   */
   readonly maxBytes?: number;
   /**
   * Every `period` milliseconds the entropy-injection quota is reset, allowing the guest to retrieve another `max_bytes` of entropy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#period VirtualEnvironmentVm#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#period VirtualEnvironmentVm#period}
   */
   readonly period?: number;
   /**
   * The file on the host to gather entropy from. In most cases, `/dev/urandom` should be preferred over `/dev/random` to avoid entropy-starvation issues on the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#source VirtualEnvironmentVm#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#source VirtualEnvironmentVm#source}
   */
   readonly source: string;
 }
@@ -5717,7 +5717,7 @@ export interface VirtualEnvironmentVmSerialDevice {
   /**
   * The device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#device VirtualEnvironmentVm#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#device VirtualEnvironmentVm#device}
   */
   readonly device?: string;
 }
@@ -5835,43 +5835,43 @@ export interface VirtualEnvironmentVmSmbios {
   /**
   * Sets SMBIOS family string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#family VirtualEnvironmentVm#family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#family VirtualEnvironmentVm#family}
   */
   readonly family?: string;
   /**
   * Sets SMBIOS manufacturer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#manufacturer VirtualEnvironmentVm#manufacturer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#manufacturer VirtualEnvironmentVm#manufacturer}
   */
   readonly manufacturer?: string;
   /**
   * Sets SMBIOS product ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#product VirtualEnvironmentVm#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#product VirtualEnvironmentVm#product}
   */
   readonly product?: string;
   /**
   * Sets SMBIOS serial number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#serial VirtualEnvironmentVm#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#serial VirtualEnvironmentVm#serial}
   */
   readonly serial?: string;
   /**
   * Sets SMBIOS SKU
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#sku VirtualEnvironmentVm#sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#sku VirtualEnvironmentVm#sku}
   */
   readonly sku?: string;
   /**
   * Sets SMBIOS UUID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#uuid VirtualEnvironmentVm#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#uuid VirtualEnvironmentVm#uuid}
   */
   readonly uuid?: string;
   /**
   * Sets SMBIOS version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#version VirtualEnvironmentVm#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#version VirtualEnvironmentVm#version}
   */
   readonly version?: string;
 }
@@ -6131,19 +6131,19 @@ export interface VirtualEnvironmentVmStartup {
   /**
   * A non-negative number defining the delay in seconds before the next VM is shut down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#down_delay VirtualEnvironmentVm#down_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#down_delay VirtualEnvironmentVm#down_delay}
   */
   readonly downDelay?: number;
   /**
   * A non-negative number defining the general startup order
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#order VirtualEnvironmentVm#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#order VirtualEnvironmentVm#order}
   */
   readonly order?: number;
   /**
   * A non-negative number defining the delay in seconds before the next VM is started
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#up_delay VirtualEnvironmentVm#up_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#up_delay VirtualEnvironmentVm#up_delay}
   */
   readonly upDelay?: number;
 }
@@ -6287,13 +6287,13 @@ export interface VirtualEnvironmentVmTpmState {
   /**
   * Datastore ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#datastore_id VirtualEnvironmentVm#datastore_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#datastore_id VirtualEnvironmentVm#datastore_id}
   */
   readonly datastoreId?: string;
   /**
   * TPM version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#version VirtualEnvironmentVm#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#version VirtualEnvironmentVm#version}
   */
   readonly version?: string;
 }
@@ -6408,19 +6408,19 @@ export interface VirtualEnvironmentVmUsb {
   /**
   * The USB device ID for Proxmox, in form of '<MANUFACTURER>:<ID>'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#host VirtualEnvironmentVm#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#host VirtualEnvironmentVm#host}
   */
   readonly host?: string;
   /**
   * The resource mapping name of the device, for example usbdisk. Use either this or id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#mapping VirtualEnvironmentVm#mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#mapping VirtualEnvironmentVm#mapping}
   */
   readonly mapping?: string;
   /**
   * Makes the USB device a USB3 device for the machine. Default is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#usb3 VirtualEnvironmentVm#usb3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#usb3 VirtualEnvironmentVm#usb3}
   */
   readonly usb3?: boolean | cdktf.IResolvable;
 }
@@ -6596,19 +6596,19 @@ export interface VirtualEnvironmentVmVga {
   /**
   * Enable clipboard support. Set to `vnc` to enable clipboard support for VNC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#clipboard VirtualEnvironmentVm#clipboard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#clipboard VirtualEnvironmentVm#clipboard}
   */
   readonly clipboard?: string;
   /**
   * The VGA memory in megabytes (4-512 MB)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#memory VirtualEnvironmentVm#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#memory VirtualEnvironmentVm#memory}
   */
   readonly memory?: number;
   /**
   * The VGA type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#type VirtualEnvironmentVm#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#type VirtualEnvironmentVm#type}
   */
   readonly type?: string;
 }
@@ -6752,31 +6752,31 @@ export interface VirtualEnvironmentVmVirtiofs {
   /**
   * The caching mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#cache VirtualEnvironmentVm#cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#cache VirtualEnvironmentVm#cache}
   */
   readonly cache?: string;
   /**
   * Whether to allow direct io
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#direct_io VirtualEnvironmentVm#direct_io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#direct_io VirtualEnvironmentVm#direct_io}
   */
   readonly directIo?: boolean | cdktf.IResolvable;
   /**
   * Enable POSIX ACLs, implies xattr support
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#expose_acl VirtualEnvironmentVm#expose_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#expose_acl VirtualEnvironmentVm#expose_acl}
   */
   readonly exposeAcl?: boolean | cdktf.IResolvable;
   /**
   * Enable support for extended attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#expose_xattr VirtualEnvironmentVm#expose_xattr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#expose_xattr VirtualEnvironmentVm#expose_xattr}
   */
   readonly exposeXattr?: boolean | cdktf.IResolvable;
   /**
   * Directory mapping identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#mapping VirtualEnvironmentVm#mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#mapping VirtualEnvironmentVm#mapping}
   */
   readonly mapping: string;
 }
@@ -7007,19 +7007,19 @@ export interface VirtualEnvironmentVmWatchdog {
   /**
   * The watchdog action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#action VirtualEnvironmentVm#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#action VirtualEnvironmentVm#action}
   */
   readonly action?: string;
   /**
   * Whether the watchdog is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#enabled VirtualEnvironmentVm#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#enabled VirtualEnvironmentVm#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The watchdog model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#model VirtualEnvironmentVm#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#model VirtualEnvironmentVm#model}
   */
   readonly model?: string;
 }
@@ -7161,7 +7161,7 @@ export class VirtualEnvironmentVmWatchdogOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm proxmox_virtual_environment_vm}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm proxmox_virtual_environment_vm}
 */
 export class VirtualEnvironmentVm extends cdktf.TerraformResource {
 
@@ -7177,7 +7177,7 @@ export class VirtualEnvironmentVm extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualEnvironmentVm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualEnvironmentVm to import
-  * @param importFromId The id of the existing VirtualEnvironmentVm that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualEnvironmentVm that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualEnvironmentVm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7189,7 +7189,7 @@ export class VirtualEnvironmentVm extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_vm proxmox_virtual_environment_vm} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/resources/virtual_environment_vm proxmox_virtual_environment_vm} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7200,8 +7200,8 @@ export class VirtualEnvironmentVm extends cdktf.TerraformResource {
       terraformResourceType: 'proxmox_virtual_environment_vm',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.88.0',
-        providerVersionConstraint: '0.88.0'
+        providerVersion: '0.89.0',
+        providerVersionConstraint: '0.89.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

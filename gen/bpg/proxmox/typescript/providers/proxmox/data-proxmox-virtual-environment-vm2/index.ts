@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_vm2
+// https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_vm2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataProxmoxVirtualEnvironmentVm2Config extends cdktf.TerraformM
   /**
   * The cloning configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_vm2#clone DataProxmoxVirtualEnvironmentVm2#clone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_vm2#clone DataProxmoxVirtualEnvironmentVm2#clone}
   */
   readonly clone?: DataProxmoxVirtualEnvironmentVm2Clone;
   /**
   * The CPU configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_vm2#cpu DataProxmoxVirtualEnvironmentVm2#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_vm2#cpu DataProxmoxVirtualEnvironmentVm2#cpu}
   */
   readonly cpu?: DataProxmoxVirtualEnvironmentVm2Cpu;
   /**
   * The description of the VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_vm2#description DataProxmoxVirtualEnvironmentVm2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_vm2#description DataProxmoxVirtualEnvironmentVm2#description}
   */
   readonly description?: string;
   /**
   * The unique identifier of the VM in the Proxmox cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_vm2#id DataProxmoxVirtualEnvironmentVm2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_vm2#id DataProxmoxVirtualEnvironmentVm2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,41 +37,41 @@ export interface DataProxmoxVirtualEnvironmentVm2Config extends cdktf.TerraformM
   /**
   * The name of the VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_vm2#name DataProxmoxVirtualEnvironmentVm2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_vm2#name DataProxmoxVirtualEnvironmentVm2#name}
   */
   readonly name?: string;
   /**
   * The name of the node where the VM is provisioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_vm2#node_name DataProxmoxVirtualEnvironmentVm2#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_vm2#node_name DataProxmoxVirtualEnvironmentVm2#node_name}
   */
   readonly nodeName: string;
   /**
   * The RNG (Random Number Generator) configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_vm2#rng DataProxmoxVirtualEnvironmentVm2#rng}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_vm2#rng DataProxmoxVirtualEnvironmentVm2#rng}
   */
   readonly rng?: DataProxmoxVirtualEnvironmentVm2Rng;
   /**
   * The tags assigned to the VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_vm2#tags DataProxmoxVirtualEnvironmentVm2#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_vm2#tags DataProxmoxVirtualEnvironmentVm2#tags}
   */
   readonly tags?: string[];
   /**
   * Whether the VM is a template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_vm2#template DataProxmoxVirtualEnvironmentVm2#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_vm2#template DataProxmoxVirtualEnvironmentVm2#template}
   */
   readonly template?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_vm2#timeouts DataProxmoxVirtualEnvironmentVm2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_vm2#timeouts DataProxmoxVirtualEnvironmentVm2#timeouts}
   */
   readonly timeouts?: DataProxmoxVirtualEnvironmentVm2Timeouts;
   /**
   * The VGA configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_vm2#vga DataProxmoxVirtualEnvironmentVm2#vga}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_vm2#vga DataProxmoxVirtualEnvironmentVm2#vga}
   */
   readonly vga?: DataProxmoxVirtualEnvironmentVm2Vga;
 }
@@ -79,7 +79,7 @@ export interface DataProxmoxVirtualEnvironmentVm2Clone {
   /**
   * The ID of the VM to clone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_vm2#id DataProxmoxVirtualEnvironmentVm2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_vm2#id DataProxmoxVirtualEnvironmentVm2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -88,7 +88,7 @@ export interface DataProxmoxVirtualEnvironmentVm2Clone {
   /**
   * The number of retries to perform when cloning the VM (default: 3).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_vm2#retries DataProxmoxVirtualEnvironmentVm2#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_vm2#retries DataProxmoxVirtualEnvironmentVm2#retries}
   */
   readonly retries?: number;
 }
@@ -210,61 +210,61 @@ export interface DataProxmoxVirtualEnvironmentVm2Cpu {
   /**
   * List of host cores used to execute guest processes, for example: '0,5,8-11'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_vm2#affinity DataProxmoxVirtualEnvironmentVm2#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_vm2#affinity DataProxmoxVirtualEnvironmentVm2#affinity}
   */
   readonly affinity?: string;
   /**
   * The CPU architecture.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_vm2#architecture DataProxmoxVirtualEnvironmentVm2#architecture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_vm2#architecture DataProxmoxVirtualEnvironmentVm2#architecture}
   */
   readonly architecture?: string;
   /**
   * The number of CPU cores per socket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_vm2#cores DataProxmoxVirtualEnvironmentVm2#cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_vm2#cores DataProxmoxVirtualEnvironmentVm2#cores}
   */
   readonly cores?: number;
   /**
   * Set of additional CPU flags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_vm2#flags DataProxmoxVirtualEnvironmentVm2#flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_vm2#flags DataProxmoxVirtualEnvironmentVm2#flags}
   */
   readonly flags?: string[];
   /**
   * The number of hotplugged vCPUs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_vm2#hotplugged DataProxmoxVirtualEnvironmentVm2#hotplugged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_vm2#hotplugged DataProxmoxVirtualEnvironmentVm2#hotplugged}
   */
   readonly hotplugged?: number;
   /**
   * Limit of CPU usage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_vm2#limit DataProxmoxVirtualEnvironmentVm2#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_vm2#limit DataProxmoxVirtualEnvironmentVm2#limit}
   */
   readonly limit?: number;
   /**
   * Enable NUMA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_vm2#numa DataProxmoxVirtualEnvironmentVm2#numa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_vm2#numa DataProxmoxVirtualEnvironmentVm2#numa}
   */
   readonly numa?: boolean | cdktf.IResolvable;
   /**
   * The number of CPU sockets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_vm2#sockets DataProxmoxVirtualEnvironmentVm2#sockets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_vm2#sockets DataProxmoxVirtualEnvironmentVm2#sockets}
   */
   readonly sockets?: number;
   /**
   * Emulated CPU type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_vm2#type DataProxmoxVirtualEnvironmentVm2#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_vm2#type DataProxmoxVirtualEnvironmentVm2#type}
   */
   readonly type?: string;
   /**
   * CPU weight for a VM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_vm2#units DataProxmoxVirtualEnvironmentVm2#units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_vm2#units DataProxmoxVirtualEnvironmentVm2#units}
   */
   readonly units?: number;
 }
@@ -621,19 +621,19 @@ export interface DataProxmoxVirtualEnvironmentVm2Rng {
   /**
   * Maximum bytes of entropy allowed to get injected into the guest every period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_vm2#max_bytes DataProxmoxVirtualEnvironmentVm2#max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_vm2#max_bytes DataProxmoxVirtualEnvironmentVm2#max_bytes}
   */
   readonly maxBytes?: number;
   /**
   * Period in milliseconds to limit entropy injection to the guest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_vm2#period DataProxmoxVirtualEnvironmentVm2#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_vm2#period DataProxmoxVirtualEnvironmentVm2#period}
   */
   readonly period?: number;
   /**
   * The entropy source for the RNG device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_vm2#source DataProxmoxVirtualEnvironmentVm2#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_vm2#source DataProxmoxVirtualEnvironmentVm2#source}
   */
   readonly source?: string;
 }
@@ -787,7 +787,7 @@ export interface DataProxmoxVirtualEnvironmentVm2Timeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_vm2#read DataProxmoxVirtualEnvironmentVm2#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_vm2#read DataProxmoxVirtualEnvironmentVm2#read}
   */
   readonly read?: string;
 }
@@ -883,19 +883,19 @@ export interface DataProxmoxVirtualEnvironmentVm2Vga {
   /**
   * Enable a specific clipboard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_vm2#clipboard DataProxmoxVirtualEnvironmentVm2#clipboard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_vm2#clipboard DataProxmoxVirtualEnvironmentVm2#clipboard}
   */
   readonly clipboard?: string;
   /**
   * The VGA memory in megabytes (4-512 MB). Has no effect with serial display. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_vm2#memory DataProxmoxVirtualEnvironmentVm2#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_vm2#memory DataProxmoxVirtualEnvironmentVm2#memory}
   */
   readonly memory?: number;
   /**
   * The VGA type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_vm2#type DataProxmoxVirtualEnvironmentVm2#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_vm2#type DataProxmoxVirtualEnvironmentVm2#type}
   */
   readonly type?: string;
 }
@@ -1047,7 +1047,7 @@ export class DataProxmoxVirtualEnvironmentVm2VgaOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_vm2 proxmox_virtual_environment_vm2}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_vm2 proxmox_virtual_environment_vm2}
 */
 export class DataProxmoxVirtualEnvironmentVm2 extends cdktf.TerraformDataSource {
 
@@ -1063,7 +1063,7 @@ export class DataProxmoxVirtualEnvironmentVm2 extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataProxmoxVirtualEnvironmentVm2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataProxmoxVirtualEnvironmentVm2 to import
-  * @param importFromId The id of the existing DataProxmoxVirtualEnvironmentVm2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_vm2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataProxmoxVirtualEnvironmentVm2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_vm2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataProxmoxVirtualEnvironmentVm2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1075,7 +1075,7 @@ export class DataProxmoxVirtualEnvironmentVm2 extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_vm2 proxmox_virtual_environment_vm2} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.89.0/docs/data-sources/virtual_environment_vm2 proxmox_virtual_environment_vm2} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1086,8 +1086,8 @@ export class DataProxmoxVirtualEnvironmentVm2 extends cdktf.TerraformDataSource 
       terraformResourceType: 'proxmox_virtual_environment_vm2',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.88.0',
-        providerVersionConstraint: '0.88.0'
+        providerVersion: '0.89.0',
+        providerVersionConstraint: '0.89.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

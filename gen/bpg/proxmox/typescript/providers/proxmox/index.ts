@@ -26,6 +26,7 @@ export * as virtualEnvironmentHosts from './virtual-environment-hosts';
 export * as virtualEnvironmentMetricsServer from './virtual-environment-metrics-server';
 export * as virtualEnvironmentNetworkLinuxBridge from './virtual-environment-network-linux-bridge';
 export * as virtualEnvironmentNetworkLinuxVlan from './virtual-environment-network-linux-vlan';
+export * as virtualEnvironmentOciImage from './virtual-environment-oci-image';
 export * as virtualEnvironmentPool from './virtual-environment-pool';
 export * as virtualEnvironmentPoolMembership from './virtual-environment-pool-membership';
 export * as virtualEnvironmentRole from './virtual-environment-role';
