@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint
+// https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface PortSystemBlueprintConfig extends cdktf.TerraformMetaArguments 
   /**
   * The calculation properties of the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#calculation_properties PortSystemBlueprint#calculation_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#calculation_properties PortSystemBlueprint#calculation_properties}
   */
   readonly calculationProperties?: { [key: string]: PortSystemBlueprintCalculationProperties } | cdktf.IResolvable;
   /**
   * Identifier of the system blueprint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#identifier PortSystemBlueprint#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#identifier PortSystemBlueprint#identifier}
   */
   readonly identifier: string;
   /**
   * The mirror properties of the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#mirror_properties PortSystemBlueprint#mirror_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#mirror_properties PortSystemBlueprint#mirror_properties}
   */
   readonly mirrorProperties?: { [key: string]: PortSystemBlueprintMirrorProperties } | cdktf.IResolvable;
   /**
   * The properties of the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#properties PortSystemBlueprint#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#properties PortSystemBlueprint#properties}
   */
   readonly properties?: PortSystemBlueprintProperties;
   /**
   * The relations of the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#relations PortSystemBlueprint#relations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#relations PortSystemBlueprint#relations}
   */
   readonly relations?: { [key: string]: PortSystemBlueprintRelations } | cdktf.IResolvable;
 }
@@ -42,19 +42,19 @@ export interface PortSystemBlueprintCalculationPropertiesSpecAuthentication {
   /**
   * The authorizationUrl of the spec authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#authorization_url PortSystemBlueprint#authorization_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#authorization_url PortSystemBlueprint#authorization_url}
   */
   readonly authorizationUrl: string;
   /**
   * The clientId of the spec authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#client_id PortSystemBlueprint#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#client_id PortSystemBlueprint#client_id}
   */
   readonly clientId: string;
   /**
   * The tokenUrl of the spec authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#token_url PortSystemBlueprint#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#token_url PortSystemBlueprint#token_url}
   */
   readonly tokenUrl: string;
 }
@@ -199,61 +199,61 @@ export interface PortSystemBlueprintCalculationProperties {
   /**
   * The calculation of the calculation property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#calculation PortSystemBlueprint#calculation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#calculation PortSystemBlueprint#calculation}
   */
   readonly calculation: string;
   /**
   * The colorized of the calculation property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#colorized PortSystemBlueprint#colorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#colorized PortSystemBlueprint#colorized}
   */
   readonly colorized?: boolean | cdktf.IResolvable;
   /**
   * The colors of the calculation property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#colors PortSystemBlueprint#colors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#colors PortSystemBlueprint#colors}
   */
   readonly colors?: { [key: string]: string };
   /**
   * The description of the calculation property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#description PortSystemBlueprint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#description PortSystemBlueprint#description}
   */
   readonly description?: string;
   /**
   * The format of the calculation property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#format PortSystemBlueprint#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#format PortSystemBlueprint#format}
   */
   readonly format?: string;
   /**
   * The icon of the calculation property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#icon PortSystemBlueprint#icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#icon PortSystemBlueprint#icon}
   */
   readonly icon?: string;
   /**
   * The spec of the calculation property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#spec PortSystemBlueprint#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#spec PortSystemBlueprint#spec}
   */
   readonly spec?: string;
   /**
   * The spec authentication of the calculation property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#spec_authentication PortSystemBlueprint#spec_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#spec_authentication PortSystemBlueprint#spec_authentication}
   */
   readonly specAuthentication?: PortSystemBlueprintCalculationPropertiesSpecAuthentication;
   /**
   * The title of the calculation property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#title PortSystemBlueprint#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#title PortSystemBlueprint#title}
   */
   readonly title?: string;
   /**
   * The type of the calculation property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#type PortSystemBlueprint#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#type PortSystemBlueprint#type}
   */
   readonly type: string;
 }
@@ -624,13 +624,13 @@ export interface PortSystemBlueprintMirrorProperties {
   /**
   * The path of the mirror property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#path PortSystemBlueprint#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#path PortSystemBlueprint#path}
   */
   readonly path: string;
   /**
   * The title of the mirror property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#title PortSystemBlueprint#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#title PortSystemBlueprint#title}
   */
   readonly title?: string;
 }
@@ -772,7 +772,7 @@ export interface PortSystemBlueprintPropertiesArrayPropsBooleanItems {
   /**
   * The default of the items
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#default PortSystemBlueprint#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#default PortSystemBlueprint#default}
   */
   readonly default?: Array<boolean | cdktf.IResolvable> | cdktf.IResolvable;
 }
@@ -868,7 +868,7 @@ export interface PortSystemBlueprintPropertiesArrayPropsNumberItems {
   /**
   * The default of the items
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#default PortSystemBlueprint#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#default PortSystemBlueprint#default}
   */
   readonly default?: number[];
 }
@@ -964,7 +964,7 @@ export interface PortSystemBlueprintPropertiesArrayPropsObjectItems {
   /**
   * The default of the items
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#default PortSystemBlueprint#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#default PortSystemBlueprint#default}
   */
   readonly default?: string[];
 }
@@ -1060,31 +1060,31 @@ export interface PortSystemBlueprintPropertiesArrayPropsStringItems {
   /**
   * The default of the items
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#default PortSystemBlueprint#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#default PortSystemBlueprint#default}
   */
   readonly default?: string[];
   /**
   * The enum of the string array items
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#enum PortSystemBlueprint#enum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#enum PortSystemBlueprint#enum}
   */
   readonly enum?: string[];
   /**
   * The enum colors of the string array items
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#enum_colors PortSystemBlueprint#enum_colors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#enum_colors PortSystemBlueprint#enum_colors}
   */
   readonly enumColors?: { [key: string]: string };
   /**
   * The format of the items
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#format PortSystemBlueprint#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#format PortSystemBlueprint#format}
   */
   readonly format?: string;
   /**
   * The pattern of the string array items
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#pattern PortSystemBlueprint#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#pattern PortSystemBlueprint#pattern}
   */
   readonly pattern?: string;
 }
@@ -1296,61 +1296,61 @@ export interface PortSystemBlueprintPropertiesArrayProps {
   /**
   * The items of the array property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#boolean_items PortSystemBlueprint#boolean_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#boolean_items PortSystemBlueprint#boolean_items}
   */
   readonly booleanItems?: PortSystemBlueprintPropertiesArrayPropsBooleanItems;
   /**
   * The description of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#description PortSystemBlueprint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#description PortSystemBlueprint#description}
   */
   readonly description?: string;
   /**
   * The icon of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#icon PortSystemBlueprint#icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#icon PortSystemBlueprint#icon}
   */
   readonly icon?: string;
   /**
   * The max items of the array property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#max_items PortSystemBlueprint#max_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#max_items PortSystemBlueprint#max_items}
   */
   readonly maxItems?: number;
   /**
   * The min items of the array property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#min_items PortSystemBlueprint#min_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#min_items PortSystemBlueprint#min_items}
   */
   readonly minItems?: number;
   /**
   * The items of the array property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#number_items PortSystemBlueprint#number_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#number_items PortSystemBlueprint#number_items}
   */
   readonly numberItems?: PortSystemBlueprintPropertiesArrayPropsNumberItems;
   /**
   * The items of the array property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#object_items PortSystemBlueprint#object_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#object_items PortSystemBlueprint#object_items}
   */
   readonly objectItems?: PortSystemBlueprintPropertiesArrayPropsObjectItems;
   /**
   * Whether the property is required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#required PortSystemBlueprint#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#required PortSystemBlueprint#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * The items of the array property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#string_items PortSystemBlueprint#string_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#string_items PortSystemBlueprint#string_items}
   */
   readonly stringItems?: PortSystemBlueprintPropertiesArrayPropsStringItems;
   /**
   * The title of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#title PortSystemBlueprint#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#title PortSystemBlueprint#title}
   */
   readonly title?: string;
 }
@@ -1727,31 +1727,31 @@ export interface PortSystemBlueprintPropertiesBooleanProps {
   /**
   * The default of the boolean property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#default PortSystemBlueprint#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#default PortSystemBlueprint#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
   * The description of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#description PortSystemBlueprint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#description PortSystemBlueprint#description}
   */
   readonly description?: string;
   /**
   * The icon of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#icon PortSystemBlueprint#icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#icon PortSystemBlueprint#icon}
   */
   readonly icon?: string;
   /**
   * Whether the property is required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#required PortSystemBlueprint#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#required PortSystemBlueprint#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * The title of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#title PortSystemBlueprint#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#title PortSystemBlueprint#title}
   */
   readonly title?: string;
 }
@@ -1983,55 +1983,55 @@ export interface PortSystemBlueprintPropertiesNumberProps {
   /**
   * The default of the number property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#default PortSystemBlueprint#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#default PortSystemBlueprint#default}
   */
   readonly default?: number;
   /**
   * The description of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#description PortSystemBlueprint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#description PortSystemBlueprint#description}
   */
   readonly description?: string;
   /**
   * The enum of the number property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#enum PortSystemBlueprint#enum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#enum PortSystemBlueprint#enum}
   */
   readonly enum?: number[];
   /**
   * The enum colors of the number property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#enum_colors PortSystemBlueprint#enum_colors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#enum_colors PortSystemBlueprint#enum_colors}
   */
   readonly enumColors?: { [key: string]: string };
   /**
   * The icon of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#icon PortSystemBlueprint#icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#icon PortSystemBlueprint#icon}
   */
   readonly icon?: string;
   /**
   * The min of the number property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#maximum PortSystemBlueprint#maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#maximum PortSystemBlueprint#maximum}
   */
   readonly maximum?: number;
   /**
   * The max of the number property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#minimum PortSystemBlueprint#minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#minimum PortSystemBlueprint#minimum}
   */
   readonly minimum?: number;
   /**
   * Whether the property is required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#required PortSystemBlueprint#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#required PortSystemBlueprint#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * The title of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#title PortSystemBlueprint#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#title PortSystemBlueprint#title}
   */
   readonly title?: string;
 }
@@ -2379,37 +2379,37 @@ export interface PortSystemBlueprintPropertiesObjectProps {
   /**
   * The default of the object property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#default PortSystemBlueprint#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#default PortSystemBlueprint#default}
   */
   readonly default?: string;
   /**
   * The description of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#description PortSystemBlueprint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#description PortSystemBlueprint#description}
   */
   readonly description?: string;
   /**
   * The icon of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#icon PortSystemBlueprint#icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#icon PortSystemBlueprint#icon}
   */
   readonly icon?: string;
   /**
   * Whether the property is required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#required PortSystemBlueprint#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#required PortSystemBlueprint#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * The spec of the object property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#spec PortSystemBlueprint#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#spec PortSystemBlueprint#spec}
   */
   readonly spec?: string;
   /**
   * The title of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#title PortSystemBlueprint#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#title PortSystemBlueprint#title}
   */
   readonly title?: string;
 }
@@ -2670,19 +2670,19 @@ export interface PortSystemBlueprintPropertiesStringPropsSpecAuthentication {
   /**
   * The authorizationUrl of the spec authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#authorization_url PortSystemBlueprint#authorization_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#authorization_url PortSystemBlueprint#authorization_url}
   */
   readonly authorizationUrl: string;
   /**
   * The clientId of the spec authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#client_id PortSystemBlueprint#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#client_id PortSystemBlueprint#client_id}
   */
   readonly clientId: string;
   /**
   * The tokenUrl of the spec authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#token_url PortSystemBlueprint#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#token_url PortSystemBlueprint#token_url}
   */
   readonly tokenUrl: string;
 }
@@ -2827,79 +2827,79 @@ export interface PortSystemBlueprintPropertiesStringProps {
   /**
   * The default of the string property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#default PortSystemBlueprint#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#default PortSystemBlueprint#default}
   */
   readonly default?: string;
   /**
   * The description of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#description PortSystemBlueprint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#description PortSystemBlueprint#description}
   */
   readonly description?: string;
   /**
   * The enum of the string property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#enum PortSystemBlueprint#enum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#enum PortSystemBlueprint#enum}
   */
   readonly enum?: string[];
   /**
   * The enum colors of the string property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#enum_colors PortSystemBlueprint#enum_colors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#enum_colors PortSystemBlueprint#enum_colors}
   */
   readonly enumColors?: { [key: string]: string };
   /**
   * The format of the string property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#format PortSystemBlueprint#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#format PortSystemBlueprint#format}
   */
   readonly format?: string;
   /**
   * The icon of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#icon PortSystemBlueprint#icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#icon PortSystemBlueprint#icon}
   */
   readonly icon?: string;
   /**
   * The max length of the string property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#max_length PortSystemBlueprint#max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#max_length PortSystemBlueprint#max_length}
   */
   readonly maxLength?: number;
   /**
   * The min length of the string property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#min_length PortSystemBlueprint#min_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#min_length PortSystemBlueprint#min_length}
   */
   readonly minLength?: number;
   /**
   * The pattern of the string property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#pattern PortSystemBlueprint#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#pattern PortSystemBlueprint#pattern}
   */
   readonly pattern?: string;
   /**
   * Whether the property is required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#required PortSystemBlueprint#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#required PortSystemBlueprint#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * The spec of the string property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#spec PortSystemBlueprint#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#spec PortSystemBlueprint#spec}
   */
   readonly spec?: string;
   /**
   * The spec authentication of the string property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#spec_authentication PortSystemBlueprint#spec_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#spec_authentication PortSystemBlueprint#spec_authentication}
   */
   readonly specAuthentication?: PortSystemBlueprintPropertiesStringPropsSpecAuthentication;
   /**
   * The title of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#title PortSystemBlueprint#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#title PortSystemBlueprint#title}
   */
   readonly title?: string;
 }
@@ -3363,31 +3363,31 @@ export interface PortSystemBlueprintProperties {
   /**
   * The array property of the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#array_props PortSystemBlueprint#array_props}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#array_props PortSystemBlueprint#array_props}
   */
   readonly arrayProps?: { [key: string]: PortSystemBlueprintPropertiesArrayProps } | cdktf.IResolvable;
   /**
   * The boolean property of the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#boolean_props PortSystemBlueprint#boolean_props}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#boolean_props PortSystemBlueprint#boolean_props}
   */
   readonly booleanProps?: { [key: string]: PortSystemBlueprintPropertiesBooleanProps } | cdktf.IResolvable;
   /**
   * The number property of the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#number_props PortSystemBlueprint#number_props}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#number_props PortSystemBlueprint#number_props}
   */
   readonly numberProps?: { [key: string]: PortSystemBlueprintPropertiesNumberProps } | cdktf.IResolvable;
   /**
   * The object property of the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#object_props PortSystemBlueprint#object_props}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#object_props PortSystemBlueprint#object_props}
   */
   readonly objectProps?: { [key: string]: PortSystemBlueprintPropertiesObjectProps } | cdktf.IResolvable;
   /**
   * The string property of the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#string_props PortSystemBlueprint#string_props}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#string_props PortSystemBlueprint#string_props}
   */
   readonly stringProps?: { [key: string]: PortSystemBlueprintPropertiesStringProps } | cdktf.IResolvable;
 }
@@ -3599,31 +3599,31 @@ export interface PortSystemBlueprintRelations {
   /**
   * The description of the relation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#description PortSystemBlueprint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#description PortSystemBlueprint#description}
   */
   readonly description?: string;
   /**
   * The many of the relation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#many PortSystemBlueprint#many}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#many PortSystemBlueprint#many}
   */
   readonly many?: boolean | cdktf.IResolvable;
   /**
   * The required of the relation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#required PortSystemBlueprint#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#required PortSystemBlueprint#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * The target of the relation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#target PortSystemBlueprint#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#target PortSystemBlueprint#target}
   */
   readonly target: string;
   /**
   * The title of the relation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#title PortSystemBlueprint#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#title PortSystemBlueprint#title}
   */
   readonly title?: string;
 }
@@ -3850,7 +3850,7 @@ export class PortSystemBlueprintRelationsMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint port_system_blueprint}
+* Represents a {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint port_system_blueprint}
 */
 export class PortSystemBlueprint extends cdktf.TerraformResource {
 
@@ -3866,7 +3866,7 @@ export class PortSystemBlueprint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PortSystemBlueprint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PortSystemBlueprint to import
-  * @param importFromId The id of the existing PortSystemBlueprint that should be imported. Refer to the {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PortSystemBlueprint that should be imported. Refer to the {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PortSystemBlueprint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3878,7 +3878,7 @@ export class PortSystemBlueprint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/port-labs/port-labs/2.16.0/docs/resources/port_system_blueprint port_system_blueprint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_system_blueprint port_system_blueprint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3889,8 +3889,8 @@ export class PortSystemBlueprint extends cdktf.TerraformResource {
       terraformResourceType: 'port_system_blueprint',
       terraformGeneratorMetadata: {
         providerName: 'port-labs',
-        providerVersion: '2.16.0',
-        providerVersionConstraint: '2.16.0'
+        providerVersion: '2.17.1',
+        providerVersionConstraint: '2.17.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

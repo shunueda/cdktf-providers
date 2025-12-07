@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.1/docs/resources/metricsaggregation
+// https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/metricsaggregation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface MetricsaggregationConfig extends cdktf.TerraformMetaArguments {
   /**
   * The YAML representation of the metrics aggregation configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.1/docs/resources/metricsaggregation#value Metricsaggregation#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/metricsaggregation#value Metricsaggregation#value}
   */
   readonly value: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.1/docs/resources/metricsaggregation groundcover_metricsaggregation}
+* Represents a {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/metricsaggregation groundcover_metricsaggregation}
 */
 export class Metricsaggregation extends cdktf.TerraformResource {
 
@@ -32,7 +32,7 @@ export class Metricsaggregation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Metricsaggregation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Metricsaggregation to import
-  * @param importFromId The id of the existing Metricsaggregation that should be imported. Refer to the {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.1/docs/resources/metricsaggregation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Metricsaggregation that should be imported. Refer to the {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/metricsaggregation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Metricsaggregation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class Metricsaggregation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.1/docs/resources/metricsaggregation groundcover_metricsaggregation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/metricsaggregation groundcover_metricsaggregation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class Metricsaggregation extends cdktf.TerraformResource {
       terraformResourceType: 'groundcover_metricsaggregation',
       terraformGeneratorMetadata: {
         providerName: 'groundcover',
-        providerVersion: '1.4.1',
-        providerVersionConstraint: '1.4.1'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
